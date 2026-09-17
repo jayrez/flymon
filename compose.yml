@@ -1,0 +1,18 @@
+services:
+  flybrain:
+    build: .
+    container_name: flybrain-connectomics
+    environment:
+      - NEUPRINT_TOKEN=${NEUPRINT_TOKEN}
+      - RGL_USE_NULL=TRUE
+      - PYOPENGL_PLATFORM=egl
+    volumes:
+      - .:/workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command: Rscript benchmark_flybrain.R

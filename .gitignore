@@ -1,0 +1,50 @@
+.env
+.Rhistory
+.RData
+__pycache__/
+redfly-benchmark/.venv/
+redfly-benchmark/data/
+redfly-benchmark/__pycache__/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Runtime / temp
+tmp/
+temp/
+cache/
+data/
+
+# Models / large ML files
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker overrides / local-only configs
+docker-compose.override.yml
