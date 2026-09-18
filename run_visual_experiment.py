@@ -4,6 +4,7 @@ No game RAM, rewards, action policy, or trained decoder are used.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 import statistics
@@ -21,12 +22,13 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "redfly-benchmark" / "data"
 CAPTURES = ROOT / "captures" / "vision"
 RESULTS = ROOT / "results"
+BEDROOM_STATE = ROOT / "states" / "bedroom.state"
 STEPS = 200
 SEEDS = list(range(101, 113))
 
 
 def capture_conditions() -> dict[str, np.ndarray]:
-    """Reach four distinct built-in screens with only timed intro and Start/A taps."""
+    """Capture intro screens and the canonical bedroom PyBoy save state."""
     frames = {}
     with PokemonEmulator() as game:
         game.tick(900)
@@ -42,6 +44,9 @@ def capture_conditions() -> dict[str, np.ndarray]:
             game.tap("a", 3, 3)
             game.tick(90)
         frames["oak_dialogue"] = game.framebuffer()
+        game.load_state(BEDROOM_STATE)
+        game.tick(1)
+        frames["bedroom"] = game.framebuffer()
     return frames
 
 
@@ -170,6 +175,8 @@ def main():
         print(f"Completed seed {seed}", flush=True)
     output = dict(model="flybrain 0.1.0 MaleCNS v1.0", device="cuda", steps=STEPS,
                   seeds=SEEDS, receptor_count=len(brain.visual), dn_count=len(dn),
+                  bedroom_state={"path": str(BEDROOM_STATE.relative_to(ROOT)),
+                                 "sha256": hashlib.sha256(BEDROOM_STATE.read_bytes()).hexdigest()},
                   config=VisionConfig().__dict__, frame_metrics=prep, trials=trials,
                   comparison=compare(trials))
     RESULTS.mkdir(exist_ok=True)

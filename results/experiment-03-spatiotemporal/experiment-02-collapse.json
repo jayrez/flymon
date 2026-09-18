@@ -1,0 +1,143 @@
+{
+  "class_order": [
+    "LPLC2_L",
+    "LPLC2_R",
+    "LC10a_L",
+    "LC10a_R"
+  ],
+  "neuron_count": 460,
+  "stats": {
+    "intro": {
+      "onset": {
+        "sha256": "d3777aff4d9c80dd7b7fad2f75c8fae1e2e1fcdf0ecdb20de86d66ce5d53999c",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.3982608914375305,
+        "std": 0.39999625086784363,
+        "nonzero": 229
+      },
+      "steady": {
+        "sha256": "d97869e217b46f2ae5818022fc70de7073c92a8da3fc744eda94137d9865098d",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.2347826361656189,
+        "std": 0.3642845153808594,
+        "nonzero": 135
+      }
+    },
+    "title": {
+      "onset": {
+        "sha256": "ae9e13cb4f6c9c0442e7636d516bc72d12eae74320a7c6555dc9c6b7a4c6d72c",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.4017392098903656,
+        "std": 0.39999619126319885,
+        "nonzero": 231
+      },
+      "steady": {
+        "sha256": "12902db61c51b58eac5ed26e7cdcbf592bcf5143019a0ed0c7487b76c8eda914",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.24347832798957825,
+        "std": 0.368104487657547,
+        "nonzero": 140
+      }
+    },
+    "new_game_menu": {
+      "onset": {
+        "sha256": "d3777aff4d9c80dd7b7fad2f75c8fae1e2e1fcdf0ecdb20de86d66ce5d53999c",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.3982608914375305,
+        "std": 0.39999625086784363,
+        "nonzero": 229
+      },
+      "steady": {
+        "sha256": "d97869e217b46f2ae5818022fc70de7073c92a8da3fc744eda94137d9865098d",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.2347826361656189,
+        "std": 0.3642845153808594,
+        "nonzero": 135
+      }
+    },
+    "oak_dialogue": {
+      "onset": {
+        "sha256": "d3777aff4d9c80dd7b7fad2f75c8fae1e2e1fcdf0ecdb20de86d66ce5d53999c",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.3982608914375305,
+        "std": 0.39999625086784363,
+        "nonzero": 229
+      },
+      "steady": {
+        "sha256": "d97869e217b46f2ae5818022fc70de7073c92a8da3fc744eda94137d9865098d",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.2347826361656189,
+        "std": 0.3642845153808594,
+        "nonzero": 135
+      }
+    },
+    "bedroom": {
+      "onset": {
+        "sha256": "d3777aff4d9c80dd7b7fad2f75c8fae1e2e1fcdf0ecdb20de86d66ce5d53999c",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.3982608914375305,
+        "std": 0.39999625086784363,
+        "nonzero": 229
+      },
+      "steady": {
+        "sha256": "d97869e217b46f2ae5818022fc70de7073c92a8da3fc744eda94137d9865098d",
+        "min": 0.0,
+        "max": 0.800000011920929,
+        "mean": 0.2347826361656189,
+        "std": 0.3642845153808594,
+        "nonzero": 135
+      }
+    }
+  },
+  "pairwise_distances": {
+    "intro__title": {
+      "onset": 17.15808868408203,
+      "steady": 13.266500473022461
+    },
+    "intro__new_game_menu": {
+      "onset": 0.0,
+      "steady": 0.0
+    },
+    "intro__oak_dialogue": {
+      "onset": 0.0,
+      "steady": 0.0
+    },
+    "intro__bedroom": {
+      "onset": 0.0,
+      "steady": 0.0
+    },
+    "title__new_game_menu": {
+      "onset": 17.15808868408203,
+      "steady": 13.266500473022461
+    },
+    "title__oak_dialogue": {
+      "onset": 17.15808868408203,
+      "steady": 13.266500473022461
+    },
+    "title__bedroom": {
+      "onset": 17.15808868408203,
+      "steady": 13.266500473022461
+    },
+    "new_game_menu__oak_dialogue": {
+      "onset": 0.0,
+      "steady": 0.0
+    },
+    "new_game_menu__bedroom": {
+      "onset": 0.0,
+      "steady": 0.0
+    },
+    "oak_dialogue__bedroom": {
+      "onset": 0.0,
+      "steady": 0.0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+services:
+  flymon-gui:
+    image: lscr.io/linuxserver/webtop:ubuntu-xfce
+    container_name: flymon-gui
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Los_Angeles
+      - POKEMON_ROM=/roms/pokemon-red.gb
+
+    volumes:
+      - ./webtop-config:/config
+      - ./:/workspace
+      - ${POKEMON_ROM_DIR:?Set POKEMON_ROM_DIR to the directory containing pokemon-red.gb}:/roms:ro
+
+    working_dir: /workspace
+
+    ports:
+      - "3101:3001"
+
+    shm_size: "1gb"
+
+    restart: unless-stopped

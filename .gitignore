@@ -48,3 +48,7 @@ Thumbs.db
 
 # Docker overrides / local-only configs
 docker-compose.override.yml
+# Local GUI runtime and external game images
+webtop-config/
+*.gb
+*.gbc

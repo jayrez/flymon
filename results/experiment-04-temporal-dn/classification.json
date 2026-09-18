@@ -1,0 +1,6573 @@
+{
+  "protocol": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "conditions": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "held_out_group": "seed",
+    "classifier": "raw-count Euclidean nearest centroid",
+    "outer_folds": 12,
+    "inner_selection": "11-seed leave-one-seed-out within outer training seeds; prefer coarser bin on ties",
+    "bin_steps": [
+      5,
+      10,
+      20,
+      50,
+      200
+    ],
+    "population_sizes": [
+      1314,
+      500,
+      250,
+      100,
+      50
+    ]
+  },
+  "original_experiment3": {
+    "accuracy": 0.4,
+    "balanced_accuracy": 0.4,
+    "confusion": [
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ],
+      [
+        1,
+        2,
+        1,
+        5,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "grouped_experiment3": {
+    "accuracy": 0.4,
+    "balanced_accuracy": 0.4,
+    "confusion": [
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ],
+      [
+        1,
+        2,
+        1,
+        5,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "aggregate": {
+    "accuracy": 0.4,
+    "balanced_accuracy": 0.4,
+    "confusion": [
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ],
+      [
+        1,
+        2,
+        1,
+        5,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        0,
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "dynamic_by_bin": {
+    "5": {
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "confusion": [
+        [
+          5,
+          1,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          4,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          4,
+          5,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          1,
+          2,
+          1
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "10": {
+      "accuracy": 0.45,
+      "balanced_accuracy": 0.45,
+      "confusion": [
+        [
+          6,
+          1,
+          0,
+          0,
+          5
+        ],
+        [
+          1,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          0,
+          2,
+          3,
+          5,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          7,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          8
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "20": {
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.4,
+      "confusion": [
+        [
+          3,
+          3,
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          4,
+          2,
+          4,
+          1
+        ],
+        [
+          0,
+          4,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          7,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          7
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "50": {
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.4166666666666667,
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          2,
+          3,
+          6,
+          1
+        ],
+        [
+          0,
+          3,
+          3,
+          5,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          7,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "200": {
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.4,
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          0,
+          9
+        ],
+        [
+          1,
+          2,
+          1,
+          5,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          0,
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    }
+  },
+  "static_by_bin": {
+    "5": {
+      "accuracy": 0.38333333333333336,
+      "balanced_accuracy": 0.3833333333333333,
+      "confusion": [
+        [
+          5,
+          2,
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          4,
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          3,
+          4,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          4,
+          6,
+          2
+        ],
+        [
+          2,
+          3,
+          2,
+          1,
+          4
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "10": {
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.4166666666666667,
+      "confusion": [
+        [
+          5,
+          3,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          6,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          5,
+          3,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          4,
+          3,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          8
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "20": {
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.4166666666666667,
+      "confusion": [
+        [
+          5,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          7,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          5,
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          0,
+          7
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "50": {
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.4166666666666667,
+      "confusion": [
+        [
+          5,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          6,
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3,
+          5,
+          1
+        ],
+        [
+          0,
+          3,
+          4,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          0,
+          8
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "200": {
+      "accuracy": 0.4166666666666667,
+      "balanced_accuracy": 0.4166666666666667,
+      "confusion": [
+        [
+          5,
+          1,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          5,
+          2,
+          1,
+          4
+        ],
+        [
+          0,
+          4,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          8
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    }
+  },
+  "nested_dynamic": {
+    "accuracy": 0.4166666666666667,
+    "balanced_accuracy": 0.4166666666666667,
+    "confusion": [
+      [
+        5,
+        1,
+        0,
+        0,
+        6
+      ],
+      [
+        1,
+        3,
+        2,
+        5,
+        1
+      ],
+      [
+        0,
+        3,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        7,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        2,
+        7
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_static_same_bins": {
+    "accuracy": 0.4166666666666667,
+    "balanced_accuracy": 0.4166666666666667,
+    "confusion": [
+      [
+        5,
+        2,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        6,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        5,
+        3,
+        3,
+        1
+      ],
+      [
+        0,
+        4,
+        4,
+        3,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        0,
+        8
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_bin_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.4,
+        "10": 0.4,
+        "5": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.38181818181818183,
+        "10": 0.45454545454545453,
+        "5": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.41818181818181815,
+        "20": 0.36363636363636365,
+        "10": 0.43636363636363634,
+        "5": 0.34545454545454546
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.41818181818181815,
+        "20": 0.38181818181818183,
+        "10": 0.45454545454545453,
+        "5": 0.34545454545454546
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 20,
+      "inner_accuracy": {
+        "50": 0.43636363636363634,
+        "20": 0.45454545454545453,
+        "10": 0.43636363636363634,
+        "5": 0.38181818181818183
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.41818181818181815,
+        "20": 0.4,
+        "10": 0.4909090909090909,
+        "5": 0.41818181818181815
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.38181818181818183,
+        "20": 0.4,
+        "10": 0.41818181818181815,
+        "5": 0.2909090909090909
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.41818181818181815,
+        "10": 0.4909090909090909,
+        "5": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.38181818181818183,
+        "10": 0.43636363636363634,
+        "5": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.38181818181818183,
+        "10": 0.45454545454545453,
+        "5": 0.36363636363636365
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.43636363636363634,
+        "20": 0.43636363636363634,
+        "10": 0.38181818181818183,
+        "5": 0.34545454545454546
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4,
+        "20": 0.38181818181818183,
+        "10": 0.43636363636363634,
+        "5": 0.38181818181818183
+      }
+    }
+  ],
+  "four_screen_by_bin": {
+    "5": {
+      "accuracy": 0.4375,
+      "balanced_accuracy": 0.4375,
+      "confusion": [
+        [
+          6,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          5,
+          6,
+          1
+        ],
+        [
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          3,
+          1,
+          5,
+          3
+        ]
+      ],
+      "labels": [
+        "intro",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.25
+    },
+    "10": {
+      "accuracy": 0.5416666666666666,
+      "balanced_accuracy": 0.5416666666666666,
+      "confusion": [
+        [
+          6,
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          0,
+          3,
+          8,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.25
+    },
+    "20": {
+      "accuracy": 0.4791666666666667,
+      "balanced_accuracy": 0.47916666666666663,
+      "confusion": [
+        [
+          4,
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          3,
+          8,
+          1
+        ],
+        [
+          0,
+          3,
+          8,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          8
+        ]
+      ],
+      "labels": [
+        "intro",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.25
+    },
+    "50": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          3,
+          8,
+          1
+        ],
+        [
+          0,
+          3,
+          8,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.25
+    },
+    "200": {
+      "accuracy": 0.4583333333333333,
+      "balanced_accuracy": 0.45833333333333337,
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          0,
+          3,
+          7,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.25
+    }
+  },
+  "four_screen_nested": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "confusion": [
+      [
+        5,
+        0,
+        1,
+        6
+      ],
+      [
+        0,
+        3,
+        7,
+        2
+      ],
+      [
+        0,
+        3,
+        8,
+        1
+      ],
+      [
+        2,
+        0,
+        2,
+        8
+      ]
+    ],
+    "labels": [
+      "intro",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.25
+  },
+  "four_screen_static_same_bins": {
+    "accuracy": 0.5208333333333334,
+    "balanced_accuracy": 0.5208333333333333,
+    "confusion": [
+      [
+        6,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        4,
+        5,
+        3
+      ],
+      [
+        0,
+        4,
+        6,
+        2
+      ],
+      [
+        2,
+        1,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "intro",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.25
+  },
+  "four_screen_bin_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.5,
+        "20": 0.5,
+        "10": 0.45454545454545453,
+        "5": 0.38636363636363635
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4772727272727273,
+        "20": 0.4772727272727273,
+        "10": 0.5227272727272727,
+        "5": 0.3181818181818182
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4772727272727273,
+        "20": 0.5,
+        "10": 0.5227272727272727,
+        "5": 0.4772727272727273
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4772727272727273,
+        "20": 0.4772727272727273,
+        "10": 0.5454545454545454,
+        "5": 0.36363636363636365
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.5227272727272727,
+        "20": 0.5227272727272727,
+        "10": 0.5227272727272727,
+        "5": 0.4772727272727273
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.6136363636363636,
+        "20": 0.6363636363636364,
+        "10": 0.6590909090909091,
+        "5": 0.5
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.4772727272727273,
+        "20": 0.5,
+        "10": 0.5227272727272727,
+        "5": 0.38636363636363635
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.5227272727272727,
+        "20": 0.5,
+        "10": 0.5454545454545454,
+        "5": 0.4318181818181818
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.45454545454545453,
+        "20": 0.4772727272727273,
+        "10": 0.5,
+        "5": 0.36363636363636365
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 10,
+      "inner_accuracy": {
+        "50": 0.5,
+        "20": 0.5227272727272727,
+        "10": 0.5454545454545454,
+        "5": 0.4772727272727273
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.5681818181818182,
+        "20": 0.5681818181818182,
+        "10": 0.4772727272727273,
+        "5": 0.4090909090909091
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 50,
+      "inner_accuracy": {
+        "50": 0.5,
+        "20": 0.5,
+        "10": 0.5,
+        "5": 0.4318181818181818
+      }
+    }
+  ],
+  "separation": {
+    "5": {
+      "within": {
+        "intro": {
+          "median": 109.60839298483712,
+          "mean": 110.14189713370801
+        },
+        "title": {
+          "median": 108.40894598344073,
+          "mean": 108.8940397755208
+        },
+        "new_game_menu": {
+          "median": 109.15803430779602,
+          "mean": 109.15482781485328
+        },
+        "oak_dialogue": {
+          "median": 108.49423703143887,
+          "mean": 108.52522121693742
+        },
+        "bedroom": {
+          "median": 109.1398131729118,
+          "mean": 109.54366308388903
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 109.06649056541315,
+          "median_same_seed": 91.41388208859958,
+          "mean_vector_distance": 27.073972741361757,
+          "mean_vector_cosine": 0.9653519175459577
+        },
+        "intro__new_game_menu": {
+          "median_cross": 109.3549140881631,
+          "median_same_seed": 91.73318215452133,
+          "mean_vector_distance": 27.568349404505316,
+          "mean_vector_cosine": 0.9636888957932823
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 109.04812497963508,
+          "median_same_seed": 91.87753121639099,
+          "mean_vector_distance": 27.98585952464804,
+          "mean_vector_cosine": 0.9631196129318408
+        },
+        "intro__bedroom": {
+          "median_cross": 109.26572959974027,
+          "median_same_seed": 91.57501203105883,
+          "mean_vector_distance": 27.14198776803202,
+          "mean_vector_cosine": 0.9659738630259136
+        },
+        "title__new_game_menu": {
+          "median_cross": 108.26125509508462,
+          "median_same_seed": 89.92218016171304,
+          "mean_vector_distance": 25.993054627897976,
+          "mean_vector_cosine": 0.9678363917456329
+        },
+        "title__oak_dialogue": {
+          "median_cross": 108.06016040068349,
+          "median_same_seed": 89.62979306849903,
+          "mean_vector_distance": 26.168789722789153,
+          "mean_vector_cosine": 0.9678274903840866
+        },
+        "title__bedroom": {
+          "median_cross": 108.51497570488291,
+          "median_same_seed": 91.01913718998138,
+          "mean_vector_distance": 26.40904201215939,
+          "mean_vector_cosine": 0.9678331632993976
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 108.25201955927236,
+          "median_same_seed": 88.9296867245677,
+          "mean_vector_distance": 25.87496645193745,
+          "mean_vector_cosine": 0.9682836507539972
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 108.82554808298434,
+          "median_same_seed": 91.7551088495894,
+          "mean_vector_distance": 27.12279176879351,
+          "mean_vector_cosine": 0.965933056088113
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 108.63470897785874,
+          "median_same_seed": 91.3783317912844,
+          "mean_vector_distance": 26.81093785918144,
+          "mean_vector_cosine": 0.9669022008428544
+        }
+      },
+      "mean_within": 108.9618846960849,
+      "mean_between": 108.72839270537182,
+      "between_within_ratio": 0.9978571223197512,
+      "mean_same_seed_different_condition": 90.92338452762057,
+      "mean_different_seed_same_condition": 108.9618846960849,
+      "mean_pairwise_cosine": 0.9662750242411077
+    },
+    "10": {
+      "within": {
+        "intro": {
+          "median": 96.78577627509048,
+          "mean": 97.98588498800193
+        },
+        "title": {
+          "median": 95.02882464624915,
+          "mean": 96.38034312965999
+        },
+        "new_game_menu": {
+          "median": 97.14043136657997,
+          "mean": 97.81586278292674
+        },
+        "oak_dialogue": {
+          "median": 95.67131217186557,
+          "mean": 95.99731611322086
+        },
+        "bedroom": {
+          "median": 95.13926167744748,
+          "mean": 95.88266282397659
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 95.535276434855,
+          "median_same_seed": 72.80445500446805,
+          "mean_vector_distance": 22.12715777299721,
+          "mean_vector_cosine": 0.9879890634854261
+        },
+        "intro__new_game_menu": {
+          "median_cross": 96.89938538204771,
+          "median_same_seed": 73.5823542244149,
+          "mean_vector_distance": 23.452078799117146,
+          "mean_vector_cosine": 0.9863794145827945
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 96.0182146925302,
+          "median_same_seed": 73.21169468316096,
+          "mean_vector_distance": 23.983211720794284,
+          "mean_vector_cosine": 0.9859611569197682
+        },
+        "intro__bedroom": {
+          "median_cross": 95.48821916864928,
+          "median_same_seed": 73.11918721653215,
+          "mean_vector_distance": 22.798483136676726,
+          "mean_vector_cosine": 0.9876929124317996
+        },
+        "title__new_game_menu": {
+          "median_cross": 95.43583311996733,
+          "median_same_seed": 71.2375280989277,
+          "mean_vector_distance": 20.97584589739138,
+          "mean_vector_cosine": 0.9891783847480531
+        },
+        "title__oak_dialogue": {
+          "median_cross": 94.93153325067735,
+          "median_same_seed": 71.77733609073064,
+          "mean_vector_distance": 21.32291412229263,
+          "mean_vector_cosine": 0.9889265853414301
+        },
+        "title__bedroom": {
+          "median_cross": 94.89994716669092,
+          "median_same_seed": 72.83531415249647,
+          "mean_vector_distance": 22.03422212024841,
+          "mean_vector_cosine": 0.9884935136617037
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 95.91141732256455,
+          "median_same_seed": 71.07038764492565,
+          "mean_vector_distance": 21.465411453985425,
+          "mean_vector_cosine": 0.9887577568028135
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 95.70266396928443,
+          "median_same_seed": 73.0987226869633,
+          "mean_vector_distance": 23.37065467632432,
+          "mean_vector_cosine": 0.9871559755499174
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 95.29165752109216,
+          "median_same_seed": 72.78347089358778,
+          "mean_vector_distance": 22.659772235787752,
+          "mean_vector_cosine": 0.9878078134986902
+        }
+      },
+      "mean_within": 95.95312122744653,
+      "mean_between": 95.6114148028359,
+      "between_within_ratio": 0.9964388190791558,
+      "mean_same_seed_different_condition": 72.55204506962075,
+      "mean_different_seed_same_condition": 95.95312122744653,
+      "mean_pairwise_cosine": 0.9878342577022398
+    },
+    "20": {
+      "within": {
+        "intro": {
+          "median": 96.72342336562883,
+          "mean": 98.91325003191419
+        },
+        "title": {
+          "median": 94.08769346948498,
+          "mean": 96.26968134668532
+        },
+        "new_game_menu": {
+          "median": 98.25977720638375,
+          "mean": 98.9795633921796
+        },
+        "oak_dialogue": {
+          "median": 95.2312798636043,
+          "mean": 95.6018122450461
+        },
+        "bedroom": {
+          "median": 93.47459360435471,
+          "mean": 94.59980745033855
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 94.08504252571052,
+          "median_same_seed": 61.91865729263793,
+          "mean_vector_distance": 19.518153942761423,
+          "mean_vector_cosine": 0.9952549333262358
+        },
+        "intro__new_game_menu": {
+          "median_cross": 96.06761623531173,
+          "median_same_seed": 63.10229429610038,
+          "mean_vector_distance": 21.823152842795192,
+          "mean_vector_cosine": 0.9940231100350572
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 95.18927061870889,
+          "median_same_seed": 63.84451465804111,
+          "mean_vector_distance": 23.13547060251855,
+          "mean_vector_cosine": 0.9933769796469267
+        },
+        "intro__bedroom": {
+          "median_cross": 93.99461432020871,
+          "median_same_seed": 62.57394999400286,
+          "mean_vector_distance": 21.469455046647084,
+          "mean_vector_cosine": 0.9945880348324782
+        },
+        "title__new_game_menu": {
+          "median_cross": 93.79484828525383,
+          "median_same_seed": 60.58866768703409,
+          "mean_vector_distance": 17.814242117536804,
+          "mean_vector_cosine": 0.9960756056291891
+        },
+        "title__oak_dialogue": {
+          "median_cross": 93.57347473902348,
+          "median_same_seed": 60.31997882462592,
+          "mean_vector_distance": 17.94358443071568,
+          "mean_vector_cosine": 0.9960211535362955
+        },
+        "title__bedroom": {
+          "median_cross": 93.44515255340573,
+          "median_same_seed": 61.49794111163605,
+          "mean_vector_distance": 20.17269193736919,
+          "mean_vector_cosine": 0.9951969678647965
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 95.28375414717618,
+          "median_same_seed": 60.04119944045063,
+          "mean_vector_distance": 18.713854048093175,
+          "mean_vector_cosine": 0.9957302824194583
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 94.98680615236202,
+          "median_same_seed": 62.28745763039559,
+          "mean_vector_distance": 22.820403881906504,
+          "mean_vector_cosine": 0.9940055335201061
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 93.73566115982027,
+          "median_same_seed": 62.784798596977396,
+          "mean_vector_distance": 21.162565219430906,
+          "mean_vector_cosine": 0.9946564963800427
+        }
+      },
+      "mean_within": 95.55535350189132,
+      "mean_between": 94.41562407369813,
+      "between_within_ratio": 0.9880725737865578,
+      "mean_same_seed_different_condition": 61.8959459531902,
+      "mean_different_seed_same_condition": 95.55535350189132,
+      "mean_pairwise_cosine": 0.9948929097190584
+    },
+    "50": {
+      "within": {
+        "intro": {
+          "median": 115.21711266485468,
+          "mean": 117.33319916840979
+        },
+        "title": {
+          "median": 110.62782564493187,
+          "mean": 112.86182746785437
+        },
+        "new_game_menu": {
+          "median": 116.27490004826393,
+          "mean": 118.37847572250091
+        },
+        "oak_dialogue": {
+          "median": 110.54814011617557,
+          "mean": 111.2190352748993
+        },
+        "bedroom": {
+          "median": 106.70284709958392,
+          "mean": 108.39507779493677
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 108.23332134331858,
+          "median_same_seed": 57.34765053506293,
+          "mean_vector_distance": 21.60407626146303,
+          "mean_vector_cosine": 0.9975791137294666
+        },
+        "intro__new_game_menu": {
+          "median_cross": 112.41527191850822,
+          "median_same_seed": 59.11344510838545,
+          "mean_vector_distance": 25.831451544365226,
+          "mean_vector_cosine": 0.9965190941855753
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 111.43055902727177,
+          "median_same_seed": 61.60056367561353,
+          "mean_vector_distance": 28.56911696998079,
+          "mean_vector_cosine": 0.9957966445582048
+        },
+        "intro__bedroom": {
+          "median_cross": 107.7125228946642,
+          "median_same_seed": 57.93530087598573,
+          "mean_vector_distance": 24.063717501666275,
+          "mean_vector_cosine": 0.9972856274818825
+        },
+        "title__new_game_menu": {
+          "median_cross": 109.2405452506118,
+          "median_same_seed": 55.07592992837823,
+          "mean_vector_distance": 18.602568520383294,
+          "mean_vector_cosine": 0.9982577093120278
+        },
+        "title__oak_dialogue": {
+          "median_cross": 109.08708994777254,
+          "median_same_seed": 55.47168255711567,
+          "mean_vector_distance": 18.068542338058773,
+          "mean_vector_cosine": 0.9983204707054625
+        },
+        "title__bedroom": {
+          "median_cross": 106.35778655769565,
+          "median_same_seed": 57.217403941895384,
+          "mean_vector_distance": 21.848754096184873,
+          "mean_vector_cosine": 0.9977356989721469
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 112.3962000326158,
+          "median_same_seed": 54.79477260563002,
+          "mean_vector_distance": 20.145994914898374,
+          "mean_vector_cosine": 0.9980016528223548
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 110.41420642833354,
+          "median_same_seed": 58.509558067381626,
+          "mean_vector_distance": 27.46095713311294,
+          "mean_vector_cosine": 0.9965735722344662
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 107.54680404838092,
+          "median_same_seed": 60.249467036946456,
+          "mean_vector_distance": 23.791192347869682,
+          "mean_vector_cosine": 0.9972358564804905
+        }
+      },
+      "mean_within": 111.874165114762,
+      "mean_between": 109.48343074491729,
+      "between_within_ratio": 0.978630147832681,
+      "mean_same_seed_different_condition": 57.7315774332395,
+      "mean_different_seed_same_condition": 111.874165114762,
+      "mean_pairwise_cosine": 0.9973305440482078
+    },
+    "200": {
+      "within": {
+        "intro": {
+          "median": 189.23176632863465,
+          "mean": 190.49042242908246
+        },
+        "title": {
+          "median": 168.94777377561658,
+          "mean": 178.27920264478936
+        },
+        "new_game_menu": {
+          "median": 189.94069957719557,
+          "mean": 189.08695470219186
+        },
+        "oak_dialogue": {
+          "median": 175.0529664769045,
+          "mean": 173.14961277314924
+        },
+        "bedroom": {
+          "median": 161.69684322627467,
+          "mean": 167.67978391412393
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 165.29090037241954,
+          "median_same_seed": 64.35816484528515,
+          "mean_vector_distance": 32.19601424607296,
+          "mean_vector_cosine": 0.9986079692089671
+        },
+        "intro__new_game_menu": {
+          "median_cross": 176.7199597818137,
+          "median_same_seed": 70.21560892668597,
+          "mean_vector_distance": 43.44616720085265,
+          "mean_vector_cosine": 0.9974673690824232
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 179.1057803760579,
+          "median_same_seed": 73.25198857205606,
+          "mean_vector_distance": 47.61141903180604,
+          "mean_vector_cosine": 0.9969769423377522
+        },
+        "intro__bedroom": {
+          "median_cross": 167.58514105001188,
+          "median_same_seed": 60.96598576207785,
+          "mean_vector_distance": 34.736008374276075,
+          "mean_vector_cosine": 0.9986058684095894
+        },
+        "title__new_game_menu": {
+          "median_cross": 166.562259512271,
+          "median_same_seed": 56.85403744315558,
+          "mean_vector_distance": 24.086937446582027,
+          "mean_vector_cosine": 0.9992731968157528
+        },
+        "title__oak_dialogue": {
+          "median_cross": 168.51939789643757,
+          "median_same_seed": 58.85540271769716,
+          "mean_vector_distance": 22.887708977139287,
+          "mean_vector_cosine": 0.9993049340329596
+        },
+        "title__bedroom": {
+          "median_cross": 161.83630874126618,
+          "median_same_seed": 63.42054970805196,
+          "mean_vector_distance": 32.04824921548411,
+          "mean_vector_cosine": 0.9987992186109061
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 173.14654719933117,
+          "median_same_seed": 56.717719294671994,
+          "mean_vector_distance": 25.843008940738912,
+          "mean_vector_cosine": 0.9992007916571732
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 169.90118459249516,
+          "median_same_seed": 65.76030674112448,
+          "mean_vector_distance": 44.55513126702942,
+          "mean_vector_cosine": 0.9977606682744135
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 164.25741737817464,
+          "median_same_seed": 65.00409438245286,
+          "mean_vector_distance": 36.93660108889284,
+          "mean_vector_cosine": 0.9983063137532149
+        }
+      },
+      "mean_within": 176.9740098769252,
+      "mean_between": 169.29248969002788,
+      "between_within_ratio": 0.9565952074418195,
+      "mean_same_seed_different_condition": 63.540385839325914,
+      "mean_different_seed_same_condition": 176.9740098769252,
+      "mean_pairwise_cosine": 0.9984303272183152
+    }
+  },
+  "static_separation": {
+    "5": {
+      "within": {
+        "intro": {
+          "median": 109.04586181499826,
+          "mean": 109.50382212610415
+        },
+        "title": {
+          "median": 108.40894598344073,
+          "mean": 108.8940397755208
+        },
+        "new_game_menu": {
+          "median": 109.15803430779602,
+          "mean": 109.15482781485328
+        },
+        "oak_dialogue": {
+          "median": 108.97017822365163,
+          "mean": 109.17308806328214
+        },
+        "bedroom": {
+          "median": 108.86689081454496,
+          "mean": 109.01250336391996
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 108.80716412665178,
+          "median_same_seed": 90.80198085453493,
+          "mean_vector_distance": 26.87613046718014,
+          "mean_vector_cosine": 0.9661068121943329
+        },
+        "intro__new_game_menu": {
+          "median_cross": 108.91510162730785,
+          "median_same_seed": 91.4712937471478,
+          "mean_vector_distance": 27.346160608026857,
+          "mean_vector_cosine": 0.9646183585711323
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 108.87377138940974,
+          "median_same_seed": 91.61330155237414,
+          "mean_vector_distance": 27.572883216828966,
+          "mean_vector_cosine": 0.964220212195833
+        },
+        "intro__bedroom": {
+          "median_cross": 108.61399502473282,
+          "median_same_seed": 91.20302794225438,
+          "mean_vector_distance": 26.823497162003314,
+          "mean_vector_cosine": 0.9667040212981222
+        },
+        "title__new_game_menu": {
+          "median_cross": 108.26125509508462,
+          "median_same_seed": 89.92218016171304,
+          "mean_vector_distance": 25.993054627897976,
+          "mean_vector_cosine": 0.9678363917456329
+        },
+        "title__oak_dialogue": {
+          "median_cross": 108.45736009418127,
+          "median_same_seed": 90.09160460424623,
+          "mean_vector_distance": 26.31579057017541,
+          "mean_vector_cosine": 0.9672362582426691
+        },
+        "title__bedroom": {
+          "median_cross": 108.35820107021439,
+          "median_same_seed": 90.7412944116425,
+          "mean_vector_distance": 26.43716344676771,
+          "mean_vector_cosine": 0.967558986195169
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 108.61859877571612,
+          "median_same_seed": 89.25493441219652,
+          "mean_vector_distance": 25.761054800695646,
+          "mean_vector_cosine": 0.968259149143737
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 108.58406859338113,
+          "median_same_seed": 91.18380394053116,
+          "mean_vector_distance": 26.9231158424627,
+          "mean_vector_cosine": 0.9661762623291881
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 108.72902086771951,
+          "median_same_seed": 91.25471734767106,
+          "mean_vector_distance": 26.873934087389085,
+          "mean_vector_cosine": 0.9664076362465319
+        }
+      },
+      "mean_within": 108.88998222888631,
+      "mean_between": 108.62185366643993,
+      "between_within_ratio": 0.9975376195591366,
+      "mean_same_seed_different_condition": 90.75381389743117,
+      "mean_different_seed_same_condition": 108.88998222888631,
+      "mean_pairwise_cosine": 0.9665124088162347
+    },
+    "10": {
+      "within": {
+        "intro": {
+          "median": 95.29949949873512,
+          "mean": 96.59006644697716
+        },
+        "title": {
+          "median": 95.02882464624915,
+          "mean": 96.38034312965999
+        },
+        "new_game_menu": {
+          "median": 97.14043136657997,
+          "mean": 97.81586278292674
+        },
+        "oak_dialogue": {
+          "median": 96.52972088617408,
+          "mean": 97.66552853648017
+        },
+        "bedroom": {
+          "median": 95.02609057605746,
+          "mean": 95.53436434696738
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 95.06048052658637,
+          "median_same_seed": 72.3394771354221,
+          "mean_vector_distance": 21.8481184036012,
+          "mean_vector_cosine": 0.988378895127243
+        },
+        "intro__new_game_menu": {
+          "median_cross": 96.16130254340268,
+          "median_same_seed": 74.02927142650478,
+          "mean_vector_distance": 23.25627155557542,
+          "mean_vector_cosine": 0.9867922888325802
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 96.22887008254207,
+          "median_same_seed": 72.7461309956062,
+          "mean_vector_distance": 23.23879658387384,
+          "mean_vector_cosine": 0.9868259315196882
+        },
+        "intro__bedroom": {
+          "median_cross": 94.98683065593862,
+          "median_same_seed": 72.56376498039694,
+          "mean_vector_distance": 21.93076226065417,
+          "mean_vector_cosine": 0.9884850430077605
+        },
+        "title__new_game_menu": {
+          "median_cross": 95.43583311996733,
+          "median_same_seed": 71.2375280989277,
+          "mean_vector_distance": 20.97584589739138,
+          "mean_vector_cosine": 0.9891783847480531
+        },
+        "title__oak_dialogue": {
+          "median_cross": 95.58503261935735,
+          "median_same_seed": 71.49120894458919,
+          "mean_vector_distance": 21.014049533057108,
+          "mean_vector_cosine": 0.9891661767512152
+        },
+        "title__bedroom": {
+          "median_cross": 94.66783904230604,
+          "median_same_seed": 72.17676428914365,
+          "mean_vector_distance": 21.722843838789714,
+          "mean_vector_cosine": 0.9887038052786616
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 96.25744534366993,
+          "median_same_seed": 71.29163991513737,
+          "mean_vector_distance": 20.47033761866721,
+          "mean_vector_cosine": 0.9896273550866255
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 95.76011681664338,
+          "median_same_seed": 72.80614470350235,
+          "mean_vector_distance": 22.957841797520945,
+          "mean_vector_cosine": 0.9874474826009826
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 95.76531030111107,
+          "median_same_seed": 72.66358210802673,
+          "mean_vector_distance": 22.538855339169285,
+          "mean_vector_cosine": 0.9878424651560007
+        }
+      },
+      "mean_within": 95.80491339475915,
+      "mean_between": 95.59090610515248,
+      "between_within_ratio": 0.9977662180150942,
+      "mean_same_seed_different_condition": 72.3345512597257,
+      "mean_different_seed_same_condition": 95.80491339475915,
+      "mean_pairwise_cosine": 0.9882447828108811
+    },
+    "20": {
+      "within": {
+        "intro": {
+          "median": 94.49601829316443,
+          "mean": 96.42478105623307
+        },
+        "title": {
+          "median": 94.08769346948498,
+          "mean": 96.26968134668532
+        },
+        "new_game_menu": {
+          "median": 98.25977720638375,
+          "mean": 98.9795633921796
+        },
+        "oak_dialogue": {
+          "median": 97.19818210018045,
+          "mean": 98.94003186574255
+        },
+        "bedroom": {
+          "median": 94.01764047690693,
+          "mean": 94.757000071287
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 93.27646765469225,
+          "median_same_seed": 61.469501270760844,
+          "mean_vector_distance": 19.692250308743848,
+          "mean_vector_cosine": 0.9952080703200992
+        },
+        "intro__new_game_menu": {
+          "median_cross": 95.19181719062763,
+          "median_same_seed": 63.62755611821143,
+          "mean_vector_distance": 22.22626699300727,
+          "mean_vector_cosine": 0.9939338173786065
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 95.55617660796193,
+          "median_same_seed": 63.64333477810629,
+          "mean_vector_distance": 22.254837177067323,
+          "mean_vector_cosine": 0.9938759102825558
+        },
+        "intro__bedroom": {
+          "median_cross": 93.47990760947175,
+          "median_same_seed": 62.40551144299882,
+          "mean_vector_distance": 19.613629048303235,
+          "mean_vector_cosine": 0.9953506900816281
+        },
+        "title__new_game_menu": {
+          "median_cross": 93.79484828525383,
+          "median_same_seed": 60.58866768703409,
+          "mean_vector_distance": 17.814242117536804,
+          "mean_vector_cosine": 0.9960756056291891
+        },
+        "title__oak_dialogue": {
+          "median_cross": 95.1157188500751,
+          "median_same_seed": 60.61753620262878,
+          "mean_vector_distance": 18.22944047413414,
+          "mean_vector_cosine": 0.9958618571914679
+        },
+        "title__bedroom": {
+          "median_cross": 93.34333978881,
+          "median_same_seed": 60.896634347327705,
+          "mean_vector_distance": 19.188212527486762,
+          "mean_vector_cosine": 0.9955813893765928
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 95.69476151046614,
+          "median_same_seed": 60.46899678908805,
+          "mean_vector_distance": 17.52478403734424,
+          "mean_vector_cosine": 0.9961600335796492
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 94.81033640248788,
+          "median_same_seed": 62.60392023901548,
+          "mean_vector_distance": 21.898598382341987,
+          "mean_vector_cosine": 0.9943703801169881
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 95.35690465856712,
+          "median_same_seed": 61.78336063156061,
+          "mean_vector_distance": 21.307927580545645,
+          "mean_vector_cosine": 0.9945609292361509
+        }
+      },
+      "mean_within": 95.61186230922411,
+      "mean_between": 94.56202785584136,
+      "between_within_ratio": 0.9890198305102832,
+      "mean_same_seed_different_condition": 61.81050195067321,
+      "mean_different_seed_same_condition": 95.61186230922411,
+      "mean_pairwise_cosine": 0.9950978683192929
+    },
+    "50": {
+      "within": {
+        "intro": {
+          "median": 109.80787496811013,
+          "mean": 112.2341069709516
+        },
+        "title": {
+          "median": 110.62782564493187,
+          "mean": 112.86182746785437
+        },
+        "new_game_menu": {
+          "median": 116.27490004826393,
+          "mean": 118.37847572250091
+        },
+        "oak_dialogue": {
+          "median": 116.25106852911578,
+          "mean": 117.97769821141132
+        },
+        "bedroom": {
+          "median": 107.84246087303822,
+          "mean": 108.19990986889565
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 108.10914262745786,
+          "median_same_seed": 56.55515674965443,
+          "mean_vector_distance": 21.351717339205592,
+          "mean_vector_cosine": 0.9976543352460456
+        },
+        "intro__new_game_menu": {
+          "median_cross": 110.25648774484091,
+          "median_same_seed": 60.74271487859943,
+          "mean_vector_distance": 26.88956323764131,
+          "mean_vector_cosine": 0.9963508704158582
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 111.19136856803755,
+          "median_same_seed": 62.47693499326902,
+          "mean_vector_distance": 26.72831415891727,
+          "mean_vector_cosine": 0.9963273366763669
+        },
+        "intro__bedroom": {
+          "median_cross": 106.14785317425198,
+          "median_same_seed": 58.35443503348202,
+          "mean_vector_distance": 20.770237788185703,
+          "mean_vector_cosine": 0.9978515932386994
+        },
+        "title__new_game_menu": {
+          "median_cross": 109.2405452506118,
+          "median_same_seed": 55.07592992837823,
+          "mean_vector_distance": 18.602568520383294,
+          "mean_vector_cosine": 0.9982577093120278
+        },
+        "title__oak_dialogue": {
+          "median_cross": 110.53039796932946,
+          "median_same_seed": 56.008583517544444,
+          "mean_vector_distance": 18.70958607535482,
+          "mean_vector_cosine": 0.9981856768652081
+        },
+        "title__bedroom": {
+          "median_cross": 105.58881996332111,
+          "median_same_seed": 55.524680891448796,
+          "mean_vector_distance": 20.183016788048963,
+          "mean_vector_cosine": 0.9980126237322781
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 112.79161610888919,
+          "median_same_seed": 56.93230551155449,
+          "mean_vector_distance": 16.93840967216882,
+          "mean_vector_cosine": 0.9985253350829718
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 109.87408733443507,
+          "median_same_seed": 59.34007267683939,
+          "mean_vector_distance": 25.945054120840318,
+          "mean_vector_cosine": 0.9968518828631041
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 109.99258792628905,
+          "median_same_seed": 56.830953337939576,
+          "mean_vector_distance": 24.603240527305424,
+          "mean_vector_cosine": 0.9970458164929441
+        }
+      },
+      "mean_within": 112.160826012692,
+      "mean_between": 109.37229066674641,
+      "between_within_ratio": 0.975138063394522,
+      "mean_same_seed_different_condition": 57.784176751870994,
+      "mean_different_seed_same_condition": 112.160826012692,
+      "mean_pairwise_cosine": 0.9975063179925504
+    },
+    "200": {
+      "within": {
+        "intro": {
+          "median": 170.54507494620077,
+          "mean": 176.33053627472037
+        },
+        "title": {
+          "median": 168.94777377561658,
+          "mean": 178.27920264478936
+        },
+        "new_game_menu": {
+          "median": 189.94069957719557,
+          "mean": 189.08695470219186
+        },
+        "oak_dialogue": {
+          "median": 190.4019053230171,
+          "mean": 192.32871001763542
+        },
+        "bedroom": {
+          "median": 162.59302322970078,
+          "mean": 167.8706951093433
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 164.3493394120223,
+          "median_same_seed": 62.31718200568572,
+          "mean_vector_distance": 31.90883280709451,
+          "mean_vector_cosine": 0.9986493700094742
+        },
+        "intro__new_game_menu": {
+          "median_cross": 172.4683740617465,
+          "median_same_seed": 70.41285560403351,
+          "mean_vector_distance": 45.18872462609819,
+          "mean_vector_cosine": 0.9973612576329286
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 177.36383023948878,
+          "median_same_seed": 82.10407427966051,
+          "mean_vector_distance": 45.18757203774802,
+          "mean_vector_cosine": 0.9972900584492653
+        },
+        "intro__bedroom": {
+          "median_cross": 162.1138214035754,
+          "median_same_seed": 61.4402846542266,
+          "mean_vector_distance": 30.118285328204042,
+          "mean_vector_cosine": 0.9988444879034482
+        },
+        "title__new_game_menu": {
+          "median_cross": 166.562259512271,
+          "median_same_seed": 56.85403744315558,
+          "mean_vector_distance": 24.086937446582027,
+          "mean_vector_cosine": 0.9992731968157528
+        },
+        "title__oak_dialogue": {
+          "median_cross": 170.95696857889592,
+          "median_same_seed": 59.35906470976278,
+          "mean_vector_distance": 25.667884170257935,
+          "mean_vector_cosine": 0.9991169122956822
+        },
+        "title__bedroom": {
+          "median_cross": 161.23098243444605,
+          "median_same_seed": 62.50757856979344,
+          "mean_vector_distance": 29.87043781995094,
+          "mean_vector_cosine": 0.9989096392026242
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 177.2525500493391,
+          "median_same_seed": 58.612149399436916,
+          "mean_vector_distance": 21.108680415622597,
+          "mean_vector_cosine": 0.9994271858192243
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 166.76896366668342,
+          "median_same_seed": 63.61503426868751,
+          "mean_vector_distance": 42.401437999724074,
+          "mean_vector_cosine": 0.9978935647194714
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 171.28986925116058,
+          "median_same_seed": 64.60034849666633,
+          "mean_vector_distance": 39.13189946265776,
+          "mean_vector_cosine": 0.9980994141195617
+        }
+      },
+      "mean_within": 176.48569537034615,
+      "mean_between": 169.0356958609629,
+      "between_within_ratio": 0.9577869498502425,
+      "mean_same_seed_different_condition": 64.18226094311089,
+      "mean_different_seed_same_condition": 176.48569537034615,
+      "mean_pairwise_cosine": 0.9984865086967432
+    }
+  },
+  "no_vision_separation": {
+    "5": {
+      "intro": {
+        "mean_vector_euclidean": 27.73523130524704,
+        "median_matched_seed": 91.61873375843714,
+        "mean_vector_cosine": 0.9633729415157503
+      },
+      "title": {
+        "mean_vector_euclidean": 25.89468521187739,
+        "median_matched_seed": 89.18517924453734,
+        "mean_vector_cosine": 0.9681740813418821
+      },
+      "new_game_menu": {
+        "mean_vector_euclidean": 25.61290364900733,
+        "median_matched_seed": 88.42499655965554,
+        "mean_vector_cosine": 0.9684763676452541
+      },
+      "oak_dialogue": {
+        "mean_vector_euclidean": 26.122973073948184,
+        "median_matched_seed": 89.01684950167811,
+        "mean_vector_cosine": 0.9677521912280667
+      },
+      "bedroom": {
+        "mean_vector_euclidean": 27.110627272549607,
+        "median_matched_seed": 91.04392539089858,
+        "mean_vector_cosine": 0.9659951815165491
+      }
+    },
+    "10": {
+      "intro": {
+        "mean_vector_euclidean": 24.161349989877078,
+        "median_matched_seed": 73.67491681511974,
+        "mean_vector_cosine": 0.9855753896341548
+      },
+      "title": {
+        "mean_vector_euclidean": 21.143852534483866,
+        "median_matched_seed": 70.85546696608952,
+        "mean_vector_cosine": 0.9890098788074073
+      },
+      "new_game_menu": {
+        "mean_vector_euclidean": 20.546525794455423,
+        "median_matched_seed": 70.42313054952533,
+        "mean_vector_cosine": 0.9894843780485926
+      },
+      "oak_dialogue": {
+        "mean_vector_euclidean": 21.457160162104913,
+        "median_matched_seed": 70.88016794984397,
+        "mean_vector_cosine": 0.9887585791770196
+      },
+      "bedroom": {
+        "mean_vector_euclidean": 23.244174897523603,
+        "median_matched_seed": 73.36549466998349,
+        "mean_vector_cosine": 0.9872400000100323
+      }
+    },
+    "20": {
+      "intro": {
+        "mean_vector_euclidean": 23.8550309159305,
+        "median_matched_seed": 64.01950814272165,
+        "mean_vector_cosine": 0.9928587562186035
+      },
+      "title": {
+        "mean_vector_euclidean": 19.55068200003945,
+        "median_matched_seed": 60.489640865917465,
+        "mean_vector_cosine": 0.9952408512879465
+      },
+      "new_game_menu": {
+        "mean_vector_euclidean": 17.869705898220285,
+        "median_matched_seed": 59.57302050690495,
+        "mean_vector_cosine": 0.9959670992192412
+      },
+      "oak_dialogue": {
+        "mean_vector_euclidean": 18.826141694758146,
+        "median_matched_seed": 59.99986979096023,
+        "mean_vector_cosine": 0.9956400906071843
+      },
+      "bedroom": {
+        "mean_vector_euclidean": 23.34701979553993,
+        "median_matched_seed": 64.57931090184414,
+        "mean_vector_cosine": 0.9936159255300729
+      }
+    },
+    "50": {
+      "intro": {
+        "mean_vector_euclidean": 29.432007331399525,
+        "median_matched_seed": 61.4995840303187,
+        "mean_vector_cosine": 0.9954649464705781
+      },
+      "title": {
+        "mean_vector_euclidean": 21.008761399843518,
+        "median_matched_seed": 56.017851452243804,
+        "mean_vector_cosine": 0.9977241006737332
+      },
+      "new_game_menu": {
+        "mean_vector_euclidean": 17.948421471910375,
+        "median_matched_seed": 55.9223043554443,
+        "mean_vector_cosine": 0.9983069054857785
+      },
+      "oak_dialogue": {
+        "mean_vector_euclidean": 19.003837331795204,
+        "median_matched_seed": 55.07586707547473,
+        "mean_vector_cosine": 0.998183894930099
+      },
+      "bedroom": {
+        "mean_vector_euclidean": 28.081973260834474,
+        "median_matched_seed": 62.04030895351879,
+        "mean_vector_cosine": 0.9962892305798505
+      }
+    },
+    "200": {
+      "intro": {
+        "mean_vector_euclidean": 49.387287500597424,
+        "median_matched_seed": 74.22592300746716,
+        "mean_vector_cosine": 0.996704774928126
+      },
+      "title": {
+        "mean_vector_euclidean": 29.73949394323985,
+        "median_matched_seed": 57.61564366713002,
+        "mean_vector_cosine": 0.998831992592026
+      },
+      "new_game_menu": {
+        "mean_vector_euclidean": 17.383940545483032,
+        "median_matched_seed": 53.134766749132666,
+        "mean_vector_cosine": 0.999592749583944
+      },
+      "oak_dialogue": {
+        "mean_vector_euclidean": 26.635007248189574,
+        "median_matched_seed": 55.40566918255915,
+        "mean_vector_cosine": 0.9991036192480829
+      },
+      "bedroom": {
+        "mean_vector_euclidean": 45.88875437160806,
+        "median_matched_seed": 73.36132289412369,
+        "mean_vector_cosine": 0.9975159498992556
+      }
+    }
+  },
+  "time_windows": [
+    {
+      "accuracy": 0.5333333333333333,
+      "balanced_accuracy": 0.5333333333333333,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          5,
+          2,
+          4,
+          0
+        ],
+        [
+          0,
+          3,
+          8,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          6,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          2,
+          6
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 0,
+      "end_step": 20,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 21.621671020763312,
+            "mean": 21.53565031966472
+          },
+          "title": {
+            "median": 20.808638173413094,
+            "mean": 20.931798374437875
+          },
+          "new_game_menu": {
+            "median": 20.676069592674516,
+            "mean": 20.764478212333312
+          },
+          "oak_dialogue": {
+            "median": 20.760525522077124,
+            "mean": 20.806262958141676
+          },
+          "bedroom": {
+            "median": 21.095023109728988,
+            "mean": 21.099535768930764
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 21.213190341006197,
+            "median_same_seed": 9.565527530397446,
+            "mean_vector_distance": 3.742585262147603,
+            "mean_vector_cosine": 0.9738764560052606
+          },
+          "intro__new_game_menu": {
+            "median_cross": 21.2485261035323,
+            "median_same_seed": 10.222494896572584,
+            "mean_vector_distance": 4.392227984368145,
+            "mean_vector_cosine": 0.9637772192019065
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 21.166010488516726,
+            "median_same_seed": 10.511871117277128,
+            "mean_vector_distance": 4.267936009100625,
+            "mean_vector_cosine": 0.9658164190890383
+          },
+          "intro__bedroom": {
+            "median_cross": 21.2485261035323,
+            "median_same_seed": 8.971097222736073,
+            "mean_vector_distance": 3.1124748994971827,
+            "mean_vector_cosine": 0.9819296881731197
+          },
+          "title__new_game_menu": {
+            "median_cross": 20.6276477843193,
+            "median_same_seed": 6.745266957812319,
+            "mean_vector_distance": 2.2407216099581255,
+            "mean_vector_cosine": 0.9898497680858362
+          },
+          "title__oak_dialogue": {
+            "median_cross": 20.59124596464572,
+            "median_same_seed": 6.999635521070492,
+            "mean_vector_distance": 2.2484562605386733,
+            "mean_vector_cosine": 0.9897894965032735
+          },
+          "title__bedroom": {
+            "median_cross": 20.92844953645635,
+            "median_same_seed": 8.24062883925565,
+            "mean_vector_distance": 2.7688746209726913,
+            "mean_vector_cosine": 0.9853412251382206
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 20.60339420503115,
+            "median_same_seed": 5.700708448015204,
+            "mean_vector_distance": 1.7380544678845176,
+            "mean_vector_cosine": 0.9938380695890539
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 20.92843590006192,
+            "median_same_seed": 9.219384942703691,
+            "mean_vector_distance": 3.332291503855367,
+            "mean_vector_cosine": 0.9787016254595444
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 20.88059928749054,
+            "median_same_seed": 9.164989018218593,
+            "mean_vector_distance": 3.1402406135694614,
+            "mean_vector_cosine": 0.9811011651107348
+          }
+        },
+        "mean_within": 20.992385483731404,
+        "mean_between": 20.943602571459245,
+        "between_within_ratio": 0.9976761615629646,
+        "mean_same_seed_different_condition": 8.534160449405917,
+        "mean_different_seed_same_condition": 20.992385483731404,
+        "mean_pairwise_cosine": 0.9804021132355988
+      }
+    },
+    {
+      "accuracy": 0.35,
+      "balanced_accuracy": 0.35,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          5,
+          2,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          1,
+          5,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          4,
+          4
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 20,
+      "end_step": 40,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 32.91601352920042,
+            "mean": 34.59227999293714
+          },
+          "title": {
+            "median": 33.40637159133345,
+            "mean": 34.47616164895366
+          },
+          "new_game_menu": {
+            "median": 34.16135348571905,
+            "mean": 34.821562228460486
+          },
+          "oak_dialogue": {
+            "median": 34.4383231714865,
+            "mean": 34.89653208080679
+          },
+          "bedroom": {
+            "median": 33.578259351973955,
+            "mean": 34.630967191848235
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 33.12082174505532,
+            "median_same_seed": 18.7082678437323,
+            "mean_vector_distance": 5.94418483337567,
+            "mean_vector_cosine": 0.9952773861059859
+          },
+          "intro__new_game_menu": {
+            "median_cross": 33.47376959262652,
+            "median_same_seed": 19.455038264282763,
+            "mean_vector_distance": 6.975154319280526,
+            "mean_vector_cosine": 0.9934875759419509
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 33.24148582838377,
+            "median_same_seed": 18.960480641253348,
+            "mean_vector_distance": 7.111219617227726,
+            "mean_vector_cosine": 0.9932839310601195
+          },
+          "intro__bedroom": {
+            "median_cross": 33.022614449247456,
+            "median_same_seed": 17.9567252726648,
+            "mean_vector_distance": 5.7439581784302325,
+            "mean_vector_cosine": 0.9956001738065734
+          },
+          "title__new_game_menu": {
+            "median_cross": 33.196381928452666,
+            "median_same_seed": 17.189811978212823,
+            "mean_vector_distance": 5.2134974398723495,
+            "mean_vector_cosine": 0.9963552071506074
+          },
+          "title__oak_dialogue": {
+            "median_cross": 33.34666063011123,
+            "median_same_seed": 17.86037363977877,
+            "mean_vector_distance": 5.497474167490213,
+            "mean_vector_cosine": 0.9959903884164679
+          },
+          "title__bedroom": {
+            "median_cross": 33.34665051723632,
+            "median_same_seed": 18.302495519585364,
+            "mean_vector_distance": 5.79691009647956,
+            "mean_vector_cosine": 0.9955145914115091
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 33.3166489776263,
+            "median_same_seed": 16.92630443569259,
+            "mean_vector_distance": 4.86198404860494,
+            "mean_vector_cosine": 0.9968751316579038
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 33.45862886536912,
+            "median_same_seed": 18.520082076162026,
+            "mean_vector_distance": 6.024832869973333,
+            "mean_vector_cosine": 0.9951516812439261
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 33.17359223190978,
+            "median_same_seed": 18.718171889512366,
+            "mean_vector_distance": 6.012140495142585,
+            "mean_vector_cosine": 0.9952029922831405
+          }
+        },
+        "mean_within": 33.700064225942675,
+        "mean_between": 33.26972547660185,
+        "between_within_ratio": 0.9872303285104855,
+        "mean_same_seed_different_condition": 18.259775156087716,
+        "mean_different_seed_same_condition": 33.700064225942675,
+        "mean_pairwise_cosine": 0.9952739059078184
+      }
+    },
+    {
+      "accuracy": 0.2833333333333333,
+      "balanced_accuracy": 0.2833333333333333,
+      "confusion": [
+        [
+          4,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          1,
+          5
+        ],
+        [
+          4,
+          2,
+          0,
+          0,
+          6
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 40,
+      "end_step": 60,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 32.310896201987845,
+            "mean": 32.13117309618133
+          },
+          "title": {
+            "median": 31.929586082247756,
+            "mean": 32.13179648600629
+          },
+          "new_game_menu": {
+            "median": 32.61130356716078,
+            "mean": 32.48960953927945
+          },
+          "oak_dialogue": {
+            "median": 33.26378825016926,
+            "mean": 32.67343059767347
+          },
+          "bedroom": {
+            "median": 32.29549568014629,
+            "mean": 32.45358287172288
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 32.10135554977559,
+            "median_same_seed": 19.861349999046496,
+            "mean_vector_distance": 6.441510347391795,
+            "mean_vector_cosine": 0.9952372010026653
+          },
+          "intro__new_game_menu": {
+            "median_cross": 32.04683691992837,
+            "median_same_seed": 20.699646099394172,
+            "mean_vector_distance": 6.885976086704533,
+            "mean_vector_cosine": 0.9946259302104935
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 32.30324968335866,
+            "median_same_seed": 20.51776355361759,
+            "mean_vector_distance": 7.1782851557860115,
+            "mean_vector_cosine": 0.9940465096575883
+          },
+          "intro__bedroom": {
+            "median_cross": 32.10135554977559,
+            "median_same_seed": 20.098996888942285,
+            "mean_vector_distance": 6.254442865320264,
+            "mean_vector_cosine": 0.9955199467995529
+          },
+          "title__new_game_menu": {
+            "median_cross": 31.55936825825357,
+            "median_same_seed": 19.887177828242095,
+            "mean_vector_distance": 5.793315113128233,
+            "mean_vector_cosine": 0.9960048195814566
+          },
+          "title__oak_dialogue": {
+            "median_cross": 31.86690977258322,
+            "median_same_seed": 19.98702251938866,
+            "mean_vector_distance": 5.552151735038307,
+            "mean_vector_cosine": 0.9963432752592224
+          },
+          "title__bedroom": {
+            "median_cross": 31.772581989993256,
+            "median_same_seed": 20.297768182807435,
+            "mean_vector_distance": 6.572248051043452,
+            "mean_vector_cosine": 0.9951618882207686
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 32.17138209779603,
+            "median_same_seed": 19.260730506745197,
+            "mean_vector_distance": 5.527707983925665,
+            "mean_vector_cosine": 0.9963875237898169
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 32.05463990084347,
+            "median_same_seed": 20.248215814492845,
+            "mean_vector_distance": 6.648412508929399,
+            "mean_vector_cosine": 0.9951690331868709
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 32.210200995715205,
+            "median_same_seed": 19.98702251938866,
+            "mean_vector_distance": 6.555849805072312,
+            "mean_vector_cosine": 0.9951596452913947
+          }
+        },
+        "mean_within": 32.48221395634239,
+        "mean_between": 32.01878807180229,
+        "between_within_ratio": 0.9857329341785949,
+        "mean_same_seed_different_condition": 20.084569391206546,
+        "mean_different_seed_same_condition": 32.48221395634239,
+        "mean_pairwise_cosine": 0.9953655772999831
+      }
+    },
+    {
+      "accuracy": 0.31666666666666665,
+      "balanced_accuracy": 0.3166666666666667,
+      "confusion": [
+        [
+          3,
+          2,
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          6,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          6
+        ],
+        [
+          1,
+          4,
+          0,
+          3,
+          4
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          6
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 60,
+      "end_step": 80,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 30.520088100866943,
+            "mean": 31.88470345771687
+          },
+          "title": {
+            "median": 30.248948859464846,
+            "mean": 31.314289278596355
+          },
+          "new_game_menu": {
+            "median": 33.30787163563062,
+            "mean": 32.99279106951162
+          },
+          "oak_dialogue": {
+            "median": 31.312911177702773,
+            "mean": 32.006302592899495
+          },
+          "bedroom": {
+            "median": 31.804079044910253,
+            "mean": 31.911311582648302
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 30.479461577176686,
+            "median_same_seed": 20.48169551118896,
+            "mean_vector_distance": 7.180219742846006,
+            "mean_vector_cosine": 0.994386494905914
+          },
+          "intro__new_game_menu": {
+            "median_cross": 31.032174372668237,
+            "median_same_seed": 21.071294144789086,
+            "mean_vector_distance": 7.452162251469184,
+            "mean_vector_cosine": 0.993712495821633
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 30.643102547869447,
+            "median_same_seed": 20.964089098835146,
+            "mean_vector_distance": 7.519419303820388,
+            "mean_vector_cosine": 0.993573093876268
+          },
+          "intro__bedroom": {
+            "median_cross": 30.79771756085156,
+            "median_same_seed": 21.621671020763312,
+            "mean_vector_distance": 7.292023800777883,
+            "mean_vector_cosine": 0.9945708716231657
+          },
+          "title__new_game_menu": {
+            "median_cross": 30.74895685112474,
+            "median_same_seed": 19.608667406307003,
+            "mean_vector_distance": 5.873078882115883,
+            "mean_vector_cosine": 0.9962753713250828
+          },
+          "title__oak_dialogue": {
+            "median_cross": 30.33974179359662,
+            "median_same_seed": 20.124366405328736,
+            "mean_vector_distance": 6.13052471924984,
+            "mean_vector_cosine": 0.9959998334199566
+          },
+          "title__bedroom": {
+            "median_cross": 30.732407581211486,
+            "median_same_seed": 20.27289489464769,
+            "mean_vector_distance": 6.734550220071618,
+            "mean_vector_cosine": 0.9951687545827904
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 31.344855022583282,
+            "median_same_seed": 20.086441837422846,
+            "mean_vector_distance": 5.756035479776374,
+            "mean_vector_cosine": 0.996246533865845
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 31.859060778599886,
+            "median_same_seed": 20.880558096228004,
+            "mean_vector_distance": 7.144345083117603,
+            "mean_vector_cosine": 0.9947793793410339
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 31.384673261494108,
+            "median_same_seed": 20.602793896143783,
+            "mean_vector_distance": 7.417602937157889,
+            "mean_vector_cosine": 0.994465036537126
+          }
+        },
+        "mean_within": 31.438779763715086,
+        "mean_between": 30.936215134717607,
+        "between_within_ratio": 0.9840144995201909,
+        "mean_same_seed_different_condition": 20.571447231165457,
+        "mean_different_seed_same_condition": 31.438779763715086,
+        "mean_pairwise_cosine": 0.9949177865298815
+      }
+    },
+    {
+      "accuracy": 0.2833333333333333,
+      "balanced_accuracy": 0.2833333333333333,
+      "confusion": [
+        [
+          3,
+          4,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          6,
+          2
+        ],
+        [
+          0,
+          4,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          4,
+          7,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          2,
+          4
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 80,
+      "end_step": 100,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 31.208380887378404,
+            "mean": 31.871334180678492
+          },
+          "title": {
+            "median": 29.39385722546536,
+            "mean": 30.802288409763868
+          },
+          "new_game_menu": {
+            "median": 30.18270380862977,
+            "mean": 31.37796977777743
+          },
+          "oak_dialogue": {
+            "median": 30.31499483522024,
+            "mean": 30.743313381835904
+          },
+          "bedroom": {
+            "median": 29.580394086043224,
+            "mean": 29.910438241690567
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.91653192935587,
+            "median_same_seed": 20.615299852945586,
+            "mean_vector_distance": 6.1930740885820725,
+            "mean_vector_cosine": 0.9957508797718692
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.716435402162205,
+            "median_same_seed": 21.236747530532863,
+            "mean_vector_distance": 7.484242706439236,
+            "mean_vector_cosine": 0.9937791881910882
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 30.281967345934078,
+            "median_same_seed": 21.26424526670938,
+            "mean_vector_distance": 7.816915418927511,
+            "mean_vector_cosine": 0.9932631817682783
+          },
+          "intro__bedroom": {
+            "median_cross": 29.58039891549808,
+            "median_same_seed": 20.530432666561165,
+            "mean_vector_distance": 6.9497202181894435,
+            "mean_vector_cosine": 0.994795555097006
+          },
+          "title__new_game_menu": {
+            "median_cross": 29.54649586794452,
+            "median_same_seed": 20.149380559482967,
+            "mean_vector_distance": 5.827973728301953,
+            "mean_vector_cosine": 0.9962295920211156
+          },
+          "title__oak_dialogue": {
+            "median_cross": 29.521167906446784,
+            "median_same_seed": 20.012461005600798,
+            "mean_vector_distance": 5.982613698599188,
+            "mean_vector_cosine": 0.9960560869319097
+          },
+          "title__bedroom": {
+            "median_cross": 29.034441853748632,
+            "median_same_seed": 20.11199713561247,
+            "mean_vector_distance": 6.150880695748644,
+            "mean_vector_cosine": 0.9959459988565104
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 29.85799607966738,
+            "median_same_seed": 20.012492197250396,
+            "mean_vector_distance": 6.127692152116579,
+            "mean_vector_cosine": 0.995879546835631
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.588848044697784,
+            "median_same_seed": 20.831989159885914,
+            "mean_vector_distance": 7.084313657652378,
+            "mean_vector_cosine": 0.9946578467149607
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 29.367993759576166,
+            "median_same_seed": 20.136996122036898,
+            "mean_vector_distance": 6.716480559869962,
+            "mean_vector_cosine": 0.9951246106495011
+          }
+        },
+        "mean_within": 30.136066168547398,
+        "mean_between": 29.741227710503154,
+        "between_within_ratio": 0.9868981420522519,
+        "mean_same_seed_different_condition": 20.490204149661842,
+        "mean_different_seed_same_condition": 30.136066168547398,
+        "mean_pairwise_cosine": 0.995148248683787
+      }
+    },
+    {
+      "accuracy": 0.26666666666666666,
+      "balanced_accuracy": 0.2666666666666667,
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          2,
+          6
+        ],
+        [
+          2,
+          2,
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          1,
+          1,
+          5,
+          4
+        ],
+        [
+          2,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0,
+          1,
+          7
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 100,
+      "end_step": 120,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 30.608882241283425,
+            "mean": 31.49462743485211
+          },
+          "title": {
+            "median": 29.376620042080418,
+            "mean": 30.352258263978644
+          },
+          "new_game_menu": {
+            "median": 31.112594609665123,
+            "mean": 32.07372719401344
+          },
+          "oak_dialogue": {
+            "median": 29.916172444510124,
+            "mean": 30.25181313761137
+          },
+          "bedroom": {
+            "median": 28.827070610799147,
+            "mean": 29.301444700420973
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.12899171806381,
+            "median_same_seed": 20.149441679609886,
+            "mean_vector_distance": 6.417207769392819,
+            "mean_vector_cosine": 0.9954651115575698
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.364448436456833,
+            "median_same_seed": 20.346856394687716,
+            "mean_vector_distance": 7.098513146348951,
+            "mean_vector_cosine": 0.9944646062760591
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 29.622567578750314,
+            "median_same_seed": 20.383724866581225,
+            "mean_vector_distance": 6.978140471819442,
+            "mean_vector_cosine": 0.9946240375456242
+          },
+          "intro__bedroom": {
+            "median_cross": 28.83563613934937,
+            "median_same_seed": 19.848857801796104,
+            "mean_vector_distance": 7.031674369909663,
+            "mean_vector_cosine": 0.9951033342213974
+          },
+          "title__new_game_menu": {
+            "median_cross": 29.35975748543897,
+            "median_same_seed": 20.591203012362215,
+            "mean_vector_distance": 6.194755846681933,
+            "mean_vector_cosine": 0.995790904075625
+          },
+          "title__oak_dialogue": {
+            "median_cross": 28.835521442475198,
+            "median_same_seed": 20.061748579144542,
+            "mean_vector_distance": 5.658081732255984,
+            "mean_vector_cosine": 0.9964788137810036
+          },
+          "title__bedroom": {
+            "median_cross": 28.6792594746125,
+            "median_same_seed": 20.77257459142661,
+            "mean_vector_distance": 6.2849025449882685,
+            "mean_vector_cosine": 0.9960739435652061
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 29.824287505199393,
+            "median_same_seed": 20.489702430125803,
+            "mean_vector_distance": 5.7915167846313516,
+            "mean_vector_cosine": 0.9963191417264778
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.84961841324438,
+            "median_same_seed": 20.983949180117914,
+            "mean_vector_distance": 7.2867840795663925,
+            "mean_vector_cosine": 0.9945895749299032
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 28.78361171820103,
+            "median_same_seed": 20.048944986297897,
+            "mean_vector_distance": 6.624868971450597,
+            "mean_vector_cosine": 0.9956305498649479
+          }
+        },
+        "mean_within": 29.968267989667645,
+        "mean_between": 29.32836999117918,
+        "between_within_ratio": 0.9786474814390645,
+        "mean_same_seed_different_condition": 20.36770035221499,
+        "mean_different_seed_same_condition": 29.968267989667645,
+        "mean_pairwise_cosine": 0.9954540017543815
+      }
+    },
+    {
+      "accuracy": 0.38333333333333336,
+      "balanced_accuracy": 0.38333333333333336,
+      "confusion": [
+        [
+          3,
+          2,
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5,
+          1
+        ],
+        [
+          1,
+          3,
+          1,
+          5,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 120,
+      "end_step": 140,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 30.34791025547227,
+            "mean": 31.687497603217885
+          },
+          "title": {
+            "median": 29.30007001777084,
+            "mean": 30.37637237985533
+          },
+          "new_game_menu": {
+            "median": 31.352571234693187,
+            "mean": 32.05252589762952
+          },
+          "oak_dialogue": {
+            "median": 30.593379331712676,
+            "mean": 30.914210684604292
+          },
+          "bedroom": {
+            "median": 29.18899380154691,
+            "mean": 29.096752432578135
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.444863728670914,
+            "median_same_seed": 19.849369307677865,
+            "mean_vector_distance": 6.403666484479375,
+            "mean_vector_cosine": 0.9955649312447514
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.13302007229077,
+            "median_same_seed": 20.530461556428666,
+            "mean_vector_distance": 7.162789648981434,
+            "mean_vector_cosine": 0.9943379350341751
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 29.933030717192295,
+            "median_same_seed": 19.98749217771909,
+            "mean_vector_distance": 7.250000000000001,
+            "mean_vector_cosine": 0.9943109999860356
+          },
+          "intro__bedroom": {
+            "median_cross": 29.631064780058107,
+            "median_same_seed": 20.087120500916008,
+            "mean_vector_distance": 7.619419633774974,
+            "mean_vector_cosine": 0.9945151351641871
+          },
+          "title__new_game_menu": {
+            "median_cross": 29.334279049736388,
+            "median_same_seed": 20.14942639966506,
+            "mean_vector_distance": 5.880169120772709,
+            "mean_vector_cosine": 0.9963463725990499
+          },
+          "title__oak_dialogue": {
+            "median_cross": 29.0,
+            "median_same_seed": 20.222524150130436,
+            "mean_vector_distance": 5.506309512227262,
+            "mean_vector_cosine": 0.9967222986244308
+          },
+          "title__bedroom": {
+            "median_cross": 28.88768124334539,
+            "median_same_seed": 20.111075087516987,
+            "mean_vector_distance": 6.831808773019859,
+            "mean_vector_cosine": 0.9954773424335529
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 29.731333695245645,
+            "median_same_seed": 20.236102573736638,
+            "mean_vector_distance": 5.852943229217625,
+            "mean_vector_cosine": 0.9963918684548302
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.444863728670914,
+            "median_same_seed": 20.663751646614912,
+            "mean_vector_distance": 8.358295945413223,
+            "mean_vector_cosine": 0.9935461344641929
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 29.368339207820277,
+            "median_same_seed": 20.639767440550294,
+            "mean_vector_distance": 7.087253817006039,
+            "mean_vector_cosine": 0.9950925707495982
+          }
+        },
+        "mean_within": 30.156584928239177,
+        "mean_between": 29.490847622303068,
+        "between_within_ratio": 0.9779239821909443,
+        "mean_same_seed_different_condition": 20.247709084095597,
+        "mean_different_seed_same_condition": 30.156584928239177,
+        "mean_pairwise_cosine": 0.9952305588754804
+      }
+    },
+    {
+      "accuracy": 0.35,
+      "balanced_accuracy": 0.35,
+      "confusion": [
+        [
+          4,
+          3,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          6,
+          1
+        ],
+        [
+          1,
+          3,
+          2,
+          6,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          7,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          3,
+          6
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 140,
+      "end_step": 160,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 31.78046211546198,
+            "mean": 31.73729447288827
+          },
+          "title": {
+            "median": 29.231470393817368,
+            "mean": 30.332184352534327
+          },
+          "new_game_menu": {
+            "median": 30.512292604784715,
+            "mean": 31.2395363981683
+          },
+          "oak_dialogue": {
+            "median": 28.844410203711913,
+            "mean": 29.621630568321663
+          },
+          "bedroom": {
+            "median": 28.670521157683677,
+            "mean": 29.14578963629901
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.63948986915217,
+            "median_same_seed": 20.334606493542218,
+            "mean_vector_distance": 6.506407098647712,
+            "mean_vector_cosine": 0.9954139945427596
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.634946277158118,
+            "median_same_seed": 20.988088481701517,
+            "mean_vector_distance": 7.1063352017759485,
+            "mean_vector_cosine": 0.9943444486193608
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 30.07489614460913,
+            "median_same_seed": 20.87895131997714,
+            "mean_vector_distance": 7.813805446487363,
+            "mean_vector_cosine": 0.9937154400962409
+          },
+          "intro__bedroom": {
+            "median_cross": 29.605683676885484,
+            "median_same_seed": 21.29110729850732,
+            "mean_vector_distance": 7.7982369802411124,
+            "mean_vector_cosine": 0.9939366528754654
+          },
+          "title__new_game_menu": {
+            "median_cross": 28.85307479151777,
+            "median_same_seed": 20.35918049342329,
+            "mean_vector_distance": 6.153138313991577,
+            "mean_vector_cosine": 0.9959414992040518
+          },
+          "title__oak_dialogue": {
+            "median_cross": 28.635594215737505,
+            "median_same_seed": 20.11199713561247,
+            "mean_vector_distance": 5.984934790325158,
+            "mean_vector_cosine": 0.9962489931509686
+          },
+          "title__bedroom": {
+            "median_cross": 28.495608295281393,
+            "median_same_seed": 20.808430068787427,
+            "mean_vector_distance": 6.889504900773189,
+            "mean_vector_cosine": 0.9951151931085549
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 29.4278730341882,
+            "median_same_seed": 20.396019124818338,
+            "mean_vector_distance": 6.5986109649430515,
+            "mean_vector_cosine": 0.9956986723714406
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.325677295026864,
+            "median_same_seed": 21.282227635083327,
+            "mean_vector_distance": 8.387739067631198,
+            "mean_vector_cosine": 0.992990645850369
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 28.66178811566151,
+            "median_same_seed": 21.153003931444147,
+            "mean_vector_distance": 7.124390812163834,
+            "mean_vector_cosine": 0.9946677353982983
+          }
+        },
+        "mean_within": 29.807831295091933,
+        "mean_between": 29.335463171521816,
+        "between_within_ratio": 0.9841528852302684,
+        "mean_same_seed_different_condition": 20.760361198289722,
+        "mean_different_seed_same_condition": 29.807831295091933,
+        "mean_pairwise_cosine": 0.994807327521751
+      }
+    },
+    {
+      "accuracy": 0.38333333333333336,
+      "balanced_accuracy": 0.3833333333333333,
+      "confusion": [
+        [
+          0,
+          4,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          2,
+          7,
+          1
+        ],
+        [
+          0,
+          3,
+          4,
+          4,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          9
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 160,
+      "end_step": 180,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 30.691862859119006,
+            "mean": 31.84780773446056
+          },
+          "title": {
+            "median": 29.257352896936034,
+            "mean": 30.309455369686606
+          },
+          "new_game_menu": {
+            "median": 30.454857007722456,
+            "mean": 31.12031006636204
+          },
+          "oak_dialogue": {
+            "median": 28.39883312440444,
+            "mean": 28.918777891998218
+          },
+          "bedroom": {
+            "median": 28.861718582199465,
+            "mean": 29.321826355429216
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.38533972068337,
+            "median_same_seed": 20.493770828932636,
+            "mean_vector_distance": 6.137883276106765,
+            "mean_vector_cosine": 0.9959228258195034
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.18212188152826,
+            "median_same_seed": 20.19803902718557,
+            "mean_vector_distance": 7.226013961914119,
+            "mean_vector_cosine": 0.9944786361878358
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 29.231830713415903,
+            "median_same_seed": 20.92648543807336,
+            "mean_vector_distance": 7.917105251009082,
+            "mean_vector_cosine": 0.9933913286988549
+          },
+          "intro__bedroom": {
+            "median_cross": 29.444785384942087,
+            "median_same_seed": 20.54020101538545,
+            "mean_vector_distance": 7.548454587971413,
+            "mean_vector_cosine": 0.9939425675791197
+          },
+          "title__new_game_menu": {
+            "median_cross": 28.974125104149678,
+            "median_same_seed": 20.146858546028866,
+            "mean_vector_distance": 6.070191283824771,
+            "mean_vector_cosine": 0.996159143405945
+          },
+          "title__oak_dialogue": {
+            "median_cross": 27.946371497878502,
+            "median_same_seed": 19.68498281385226,
+            "mean_vector_distance": 6.224391982800855,
+            "mean_vector_cosine": 0.9959537621317536
+          },
+          "title__bedroom": {
+            "median_cross": 28.82706539274389,
+            "median_same_seed": 20.346989949375804,
+            "mean_vector_distance": 7.5984282000365795,
+            "mean_vector_cosine": 0.9938642901088591
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 28.999979498918215,
+            "median_same_seed": 19.912272128805895,
+            "mean_vector_distance": 7.5668318631012585,
+            "mean_vector_cosine": 0.9943768631396664
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.38536927826745,
+            "median_same_seed": 20.6876526200869,
+            "mean_vector_distance": 8.541565040045842,
+            "mean_vector_cosine": 0.9925237826397051
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 28.539445041307303,
+            "median_same_seed": 20.928394990612066,
+            "mean_vector_distance": 7.9760927499343675,
+            "mean_vector_cosine": 0.9932782694421722
+          }
+        },
+        "mean_within": 29.53292489407628,
+        "mean_between": 29.091643351383464,
+        "between_within_ratio": 0.9850579803972843,
+        "mean_same_seed_different_condition": 20.38656473583388,
+        "mean_different_seed_same_condition": 29.53292489407628,
+        "mean_pairwise_cosine": 0.9943891469153414
+      }
+    },
+    {
+      "accuracy": 0.3,
+      "balanced_accuracy": 0.29999999999999993,
+      "confusion": [
+        [
+          1,
+          4,
+          2,
+          0,
+          5
+        ],
+        [
+          2,
+          1,
+          2,
+          5,
+          2
+        ],
+        [
+          0,
+          4,
+          3,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          9,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          4,
+          4
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2,
+      "start_step": 180,
+      "end_step": 200,
+      "separation": {
+        "within": {
+          "intro": {
+            "median": 30.634894104643465,
+            "mean": 31.262227612449088
+          },
+          "title": {
+            "median": 29.58039891549808,
+            "mean": 30.585152362043665
+          },
+          "new_game_menu": {
+            "median": 30.124730374973744,
+            "mean": 30.925841841508316
+          },
+          "oak_dialogue": {
+            "median": 28.044537902188416,
+            "mean": 28.45382260197011
+          },
+          "bedroom": {
+            "median": 28.991366486507147,
+            "mean": 29.58754835529449
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 29.25729799301645,
+            "median_same_seed": 20.297409429247075,
+            "mean_vector_distance": 6.166103577895309,
+            "mean_vector_cosine": 0.9958572404385035
+          },
+          "intro__new_game_menu": {
+            "median_cross": 30.181753601798704,
+            "median_same_seed": 20.39554765774536,
+            "mean_vector_distance": 6.703025850730069,
+            "mean_vector_cosine": 0.9950374310102169
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 28.609426991232805,
+            "median_same_seed": 20.892304845413264,
+            "mean_vector_distance": 8.502858996308897,
+            "mean_vector_cosine": 0.9924700410035118
+          },
+          "intro__bedroom": {
+            "median_cross": 29.086058824894984,
+            "median_same_seed": 20.432520008537857,
+            "mean_vector_distance": 7.237057413065065,
+            "mean_vector_cosine": 0.9950564731216262
+          },
+          "title__new_game_menu": {
+            "median_cross": 29.2146609054177,
+            "median_same_seed": 20.136843035960055,
+            "mean_vector_distance": 5.955273106900957,
+            "mean_vector_cosine": 0.9962071141891184
+          },
+          "title__oak_dialogue": {
+            "median_cross": 28.21347195933177,
+            "median_same_seed": 20.073314517250292,
+            "mean_vector_distance": 6.752571526627632,
+            "mean_vector_cosine": 0.9952469889183995
+          },
+          "title__bedroom": {
+            "median_cross": 28.905005219683083,
+            "median_same_seed": 20.760525522077124,
+            "mean_vector_distance": 6.921684926535029,
+            "mean_vector_cosine": 0.9953434139595392
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 28.670282472508166,
+            "median_same_seed": 19.960008818550897,
+            "mean_vector_distance": 7.329070730848338,
+            "mean_vector_cosine": 0.9946739733715168
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 29.698480037759456,
+            "median_same_seed": 21.213190341006197,
+            "mean_vector_distance": 7.852812659593165,
+            "mean_vector_cosine": 0.9943740133312198
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 28.32839658284206,
+            "median_same_seed": 20.915923498866086,
+            "mean_vector_distance": 7.088233599110258,
+            "mean_vector_cosine": 0.9948494786552865
+          }
+        },
+        "mean_within": 29.475185556762163,
+        "mean_between": 29.01648345884852,
+        "between_within_ratio": 0.9844376858279554,
+        "mean_same_seed_different_condition": 20.507758767465422,
+        "mean_different_seed_same_condition": 29.475185556762163,
+        "mean_pairwise_cosine": 0.9949116167998939
+      }
+    }
+  ],
+  "population_by_bin": {
+    "5": {
+      "1314": {
+        "accuracy": 0.3333333333333333,
+        "balanced_accuracy": 0.3333333333333333,
+        "confusion": [
+          [
+            5,
+            1,
+            2,
+            0,
+            4
+          ],
+          [
+            0,
+            4,
+            2,
+            3,
+            3
+          ],
+          [
+            0,
+            3,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            2,
+            2,
+            6,
+            2
+          ],
+          [
+            2,
+            6,
+            1,
+            2,
+            1
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "500": {
+        "accuracy": 0.43333333333333335,
+        "balanced_accuracy": 0.4333333333333334,
+        "confusion": [
+          [
+            6,
+            1,
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            5,
+            1,
+            3,
+            2
+          ],
+          [
+            0,
+            3,
+            5,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            6,
+            2
+          ],
+          [
+            1,
+            3,
+            1,
+            3,
+            4
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "250": {
+        "accuracy": 0.4,
+        "balanced_accuracy": 0.4,
+        "confusion": [
+          [
+            8,
+            2,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            3,
+            3,
+            5,
+            0
+          ],
+          [
+            1,
+            2,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            4,
+            1
+          ],
+          [
+            1,
+            3,
+            1,
+            2,
+            5
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "100": {
+        "accuracy": 0.5333333333333333,
+        "balanced_accuracy": 0.5333333333333334,
+        "confusion": [
+          [
+            10,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            5,
+            5,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            2,
+            6
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "50": {
+        "accuracy": 0.5666666666666667,
+        "balanced_accuracy": 0.5666666666666667,
+        "confusion": [
+          [
+            10,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            5,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            7,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            2,
+            7
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    },
+    "10": {
+      "1314": {
+        "accuracy": 0.45,
+        "balanced_accuracy": 0.45,
+        "confusion": [
+          [
+            6,
+            1,
+            0,
+            0,
+            5
+          ],
+          [
+            1,
+            3,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            2
+          ],
+          [
+            0,
+            1,
+            3,
+            7,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            1,
+            8
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "500": {
+        "accuracy": 0.6666666666666666,
+        "balanced_accuracy": 0.6666666666666667,
+        "confusion": [
+          [
+            11,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            4,
+            1
+          ],
+          [
+            0,
+            2,
+            7,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            7,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            11
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "250": {
+        "accuracy": 0.6666666666666666,
+        "balanced_accuracy": 0.6666666666666666,
+        "confusion": [
+          [
+            11,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            2,
+            3,
+            1
+          ],
+          [
+            0,
+            4,
+            6,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            3,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            11
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "100": {
+        "accuracy": 0.7166666666666667,
+        "balanced_accuracy": 0.7166666666666667,
+        "confusion": [
+          [
+            10,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            1,
+            4,
+            1
+          ],
+          [
+            0,
+            2,
+            9,
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            2,
+            7,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            11
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "50": {
+        "accuracy": 0.9166666666666666,
+        "balanced_accuracy": 0.9166666666666667,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    },
+    "20": {
+      "1314": {
+        "accuracy": 0.4,
+        "balanced_accuracy": 0.4,
+        "confusion": [
+          [
+            3,
+            3,
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            4,
+            2,
+            4,
+            1
+          ],
+          [
+            0,
+            4,
+            3,
+            4,
+            1
+          ],
+          [
+            0,
+            1,
+            3,
+            7,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            7
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "500": {
+        "accuracy": 0.6166666666666667,
+        "balanced_accuracy": 0.6166666666666667,
+        "confusion": [
+          [
+            10,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            3,
+            4,
+            1
+          ],
+          [
+            0,
+            1,
+            4,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "250": {
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.7,
+        "confusion": [
+          [
+            9,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            8,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            6,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "100": {
+        "accuracy": 0.8333333333333334,
+        "balanced_accuracy": 0.8333333333333333,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            7,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "50": {
+        "accuracy": 0.9166666666666666,
+        "balanced_accuracy": 0.9166666666666667,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            9,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    },
+    "50": {
+      "1314": {
+        "accuracy": 0.4166666666666667,
+        "balanced_accuracy": 0.4166666666666667,
+        "confusion": [
+          [
+            4,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            2,
+            3,
+            6,
+            1
+          ],
+          [
+            0,
+            3,
+            3,
+            5,
+            1
+          ],
+          [
+            0,
+            1,
+            3,
+            7,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            1,
+            9
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "500": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.7499999999999999,
+        "confusion": [
+          [
+            9,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            11,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            5,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "250": {
+        "accuracy": 0.7333333333333333,
+        "balanced_accuracy": 0.7333333333333333,
+        "confusion": [
+          [
+            9,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            11,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            4,
+            7,
+            0
+          ],
+          [
+            0,
+            1,
+            3,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "100": {
+        "accuracy": 0.95,
+        "balanced_accuracy": 0.95,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            10,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            11,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "50": {
+        "accuracy": 0.9833333333333333,
+        "balanced_accuracy": 0.9833333333333332,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    },
+    "200": {
+      "1314": {
+        "accuracy": 0.4,
+        "balanced_accuracy": 0.4,
+        "confusion": [
+          [
+            3,
+            0,
+            0,
+            0,
+            9
+          ],
+          [
+            1,
+            2,
+            1,
+            5,
+            3
+          ],
+          [
+            0,
+            0,
+            3,
+            7,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            7,
+            2
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            9
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "500": {
+        "accuracy": 0.8166666666666667,
+        "balanced_accuracy": 0.8166666666666667,
+        "confusion": [
+          [
+            9,
+            1,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            11,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            8,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            10,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            11
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "250": {
+        "accuracy": 0.9,
+        "balanced_accuracy": 0.9,
+        "confusion": [
+          [
+            10,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            11,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            9,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "100": {
+        "accuracy": 0.9833333333333333,
+        "balanced_accuracy": 0.9833333333333332,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "50": {
+        "accuracy": 0.9833333333333333,
+        "balanced_accuracy": 0.9833333333333332,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    }
+  },
+  "nested_population": {
+    "accuracy": 0.9,
+    "balanced_accuracy": 0.9,
+    "confusion": [
+      [
+        11,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_population_static_same_choices": {
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7,
+    "confusion": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        4,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        5,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_population_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 50,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.7454545454545455,
+        "250": 0.8181818181818182,
+        "100": 0.9454545454545454,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.6363636363636364,
+        "250": 0.7272727272727273,
+        "100": 0.8,
+        "50": 0.8363636363636363
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.43636363636363634,
+        "500": 0.6545454545454545,
+        "250": 0.6,
+        "100": 0.6727272727272727,
+        "50": 0.7818181818181819
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.5818181818181818,
+        "250": 0.6727272727272727,
+        "100": 0.7272727272727273,
+        "50": 0.8727272727272727
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 20,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.6181818181818182,
+        "250": 0.6727272727272727,
+        "100": 0.8727272727272727,
+        "50": 0.9454545454545454
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 10,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.4909090909090909,
+        "500": 0.6909090909090909,
+        "250": 0.6909090909090909,
+        "100": 0.8181818181818182,
+        "50": 0.7818181818181819
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.41818181818181815,
+        "500": 0.6727272727272727,
+        "250": 0.6545454545454545,
+        "100": 0.6727272727272727,
+        "50": 0.6909090909090909
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.4909090909090909,
+        "500": 0.6363636363636364,
+        "250": 0.6545454545454545,
+        "100": 0.7636363636363637,
+        "50": 0.8181818181818182
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.43636363636363634,
+        "500": 0.6727272727272727,
+        "250": 0.6727272727272727,
+        "100": 0.7272727272727273,
+        "50": 0.8727272727272727
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.6909090909090909,
+        "250": 0.7090909090909091,
+        "100": 0.7636363636363637,
+        "50": 0.7818181818181819
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 50,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.43636363636363634,
+        "500": 0.7454545454545455,
+        "250": 0.8545454545454545,
+        "100": 0.9636363636363636,
+        "50": 0.9454545454545454
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 10,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.43636363636363634,
+        "500": 0.6363636363636364,
+        "250": 0.5818181818181818,
+        "100": 0.6545454545454545,
+        "50": 0.7818181818181819
+      }
+    }
+  ],
+  "informative_dn_top20": [
+    {
+      "dn_slot": 1227,
+      "flywire_id": 521262,
+      "cell_type": "DNae002",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 287,
+      "flywire_id": 11706,
+      "cell_type": "DNg111",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 215,
+      "flywire_id": 11222,
+      "cell_type": "DNg111",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 112,
+      "flywire_id": 10654,
+      "cell_type": "DNb01",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1215,
+      "flywire_id": 519771,
+      "cell_type": "DNp71",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1268,
+      "flywire_id": 531898,
+      "cell_type": "DNp04",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 64,
+      "flywire_id": 10361,
+      "cell_type": "DNg40",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1160,
+      "flywire_id": 512006,
+      "cell_type": "DNg13",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 136,
+      "flywire_id": 10759,
+      "cell_type": "DNb01",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 177,
+      "flywire_id": 11002,
+      "cell_type": "DNae002",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 38,
+      "flywire_id": 10223,
+      "cell_type": "DNpe056",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 262,
+      "flywire_id": 11505,
+      "cell_type": "DNp54",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 267,
+      "flywire_id": 11563,
+      "cell_type": "DNae001",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 488,
+      "flywire_id": 13615,
+      "cell_type": "DNbe006",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1,
+      "flywire_id": 10010,
+      "cell_type": "DNp01",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 69,
+      "flywire_id": 10388,
+      "cell_type": "DNp13",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1163,
+      "flywire_id": 512071,
+      "cell_type": "DNae001",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 428,
+      "flywire_id": 12885,
+      "cell_type": "DNpe020",
+      "side": "M",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 26,
+      "flywire_id": 10151,
+      "cell_type": "DNge103",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 94,
+      "flywire_id": 10543,
+      "cell_type": "DNa16",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    }
+  ],
+  "informative_dn_count_f_gt_1_training_folds": [
+    220,
+    97,
+    101,
+    91,
+    113,
+    103,
+    102,
+    101,
+    104,
+    106,
+    220,
+    90
+  ],
+  "performance": {
+    "median_step_ms": 4.819578547248966,
+    "median_dn_capture_ms": 0.15438415019161766,
+    "binning_ms": {
+      "5": 15.382147001218982,
+      "10": 11.306019994663075,
+      "20": 9.184198992443271,
+      "50": 5.847828011610545,
+      "200": 4.127199004869908
+    },
+    "analysis_before_permutations_ms": 10927.286436999566,
+    "permutations_ms": 311114.56512499717,
+    "total_analysis_ms": 322042.3817920091,
+    "cuda_replay_extra_attempts": 5,
+    "cuda_replay_trials_requiring_retry": 1,
+    "window_selection_and_null_ms": 68301.75530799897,
+    "aggregate_population_validation_ms": 19989.989442998194,
+    "temporal_population_validation_ms": 597708.7948010012
+  },
+  "nested_window": {
+    "accuracy": 0.5333333333333333,
+    "balanced_accuracy": 0.5333333333333333,
+    "confusion": [
+      [
+        7,
+        0,
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        5,
+        2,
+        4,
+        0
+      ],
+      [
+        0,
+        3,
+        8,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        6,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        2,
+        6
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_window_static_same_choices": {
+    "accuracy": 0.5333333333333333,
+    "balanced_accuracy": 0.5333333333333333,
+    "confusion": [
+      [
+        7,
+        0,
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        5,
+        2,
+        4,
+        0
+      ],
+      [
+        0,
+        3,
+        8,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        6,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        2,
+        6
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "nested_window_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5272727272727272,
+        "1": 0.3090909090909091,
+        "2": 0.2545454545454545,
+        "3": 0.34545454545454546,
+        "4": 0.2909090909090909,
+        "5": 0.2727272727272727,
+        "6": 0.36363636363636365,
+        "7": 0.41818181818181815,
+        "8": 0.4,
+        "9": 0.2727272727272727
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.45454545454545453,
+        "1": 0.3090909090909091,
+        "2": 0.2727272727272727,
+        "3": 0.36363636363636365,
+        "4": 0.2909090909090909,
+        "5": 0.2545454545454545,
+        "6": 0.4,
+        "7": 0.38181818181818183,
+        "8": 0.38181818181818183,
+        "9": 0.3090909090909091
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.4909090909090909,
+        "1": 0.3090909090909091,
+        "2": 0.34545454545454546,
+        "3": 0.3090909090909091,
+        "4": 0.3090909090909091,
+        "5": 0.23636363636363636,
+        "6": 0.32727272727272727,
+        "7": 0.36363636363636365,
+        "8": 0.43636363636363634,
+        "9": 0.2727272727272727
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.4909090909090909,
+        "1": 0.32727272727272727,
+        "2": 0.3090909090909091,
+        "3": 0.32727272727272727,
+        "4": 0.2727272727272727,
+        "5": 0.21818181818181817,
+        "6": 0.3090909090909091,
+        "7": 0.4,
+        "8": 0.4,
+        "9": 0.3090909090909091
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.509090909090909,
+        "1": 0.32727272727272727,
+        "2": 0.3090909090909091,
+        "3": 0.36363636363636365,
+        "4": 0.32727272727272727,
+        "5": 0.2545454545454545,
+        "6": 0.32727272727272727,
+        "7": 0.36363636363636365,
+        "8": 0.38181818181818183,
+        "9": 0.2727272727272727
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5636363636363636,
+        "1": 0.32727272727272727,
+        "2": 0.36363636363636365,
+        "3": 0.4,
+        "4": 0.3090909090909091,
+        "5": 0.2909090909090909,
+        "6": 0.34545454545454546,
+        "7": 0.4727272727272727,
+        "8": 0.36363636363636365,
+        "9": 0.34545454545454546
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.4909090909090909,
+        "1": 0.38181818181818183,
+        "2": 0.2545454545454545,
+        "3": 0.32727272727272727,
+        "4": 0.23636363636363636,
+        "5": 0.2545454545454545,
+        "6": 0.32727272727272727,
+        "7": 0.36363636363636365,
+        "8": 0.41818181818181815,
+        "9": 0.2909090909090909
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5454545454545454,
+        "1": 0.2909090909090909,
+        "2": 0.38181818181818183,
+        "3": 0.34545454545454546,
+        "4": 0.2909090909090909,
+        "5": 0.2727272727272727,
+        "6": 0.36363636363636365,
+        "7": 0.41818181818181815,
+        "8": 0.38181818181818183,
+        "9": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.4727272727272727,
+        "1": 0.3090909090909091,
+        "2": 0.2727272727272727,
+        "3": 0.2545454545454545,
+        "4": 0.32727272727272727,
+        "5": 0.2727272727272727,
+        "6": 0.34545454545454546,
+        "7": 0.34545454545454546,
+        "8": 0.45454545454545453,
+        "9": 0.2727272727272727
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.509090909090909,
+        "1": 0.36363636363636365,
+        "2": 0.2909090909090909,
+        "3": 0.2909090909090909,
+        "4": 0.2545454545454545,
+        "5": 0.2727272727272727,
+        "6": 0.32727272727272727,
+        "7": 0.34545454545454546,
+        "8": 0.36363636363636365,
+        "9": 0.32727272727272727
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.45454545454545453,
+        "1": 0.3090909090909091,
+        "2": 0.2545454545454545,
+        "3": 0.3090909090909091,
+        "4": 0.34545454545454546,
+        "5": 0.2909090909090909,
+        "6": 0.3090909090909091,
+        "7": 0.4,
+        "8": 0.34545454545454546,
+        "9": 0.3090909090909091
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.4909090909090909,
+        "1": 0.36363636363636365,
+        "2": 0.2,
+        "3": 0.34545454545454546,
+        "4": 0.3090909090909091,
+        "5": 0.2545454545454545,
+        "6": 0.32727272727272727,
+        "7": 0.36363636363636365,
+        "8": 0.34545454545454546,
+        "9": 0.2727272727272727
+      }
+    }
+  ],
+  "nested_window_four_screen": {
+    "accuracy": 0.5416666666666666,
+    "balanced_accuracy": 0.5416666666666666,
+    "confusion": [
+      [
+        6,
+        0,
+        1,
+        5
+      ],
+      [
+        1,
+        8,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        6,
+        2
+      ],
+      [
+        4,
+        0,
+        2,
+        6
+      ]
+    ],
+    "labels": [
+      "intro",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.25
+  },
+  "nested_window_four_screen_static_same_choices": {
+    "accuracy": 0.5416666666666666,
+    "balanced_accuracy": 0.5416666666666666,
+    "confusion": [
+      [
+        6,
+        0,
+        1,
+        5
+      ],
+      [
+        1,
+        8,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        7,
+        1
+      ],
+      [
+        5,
+        0,
+        2,
+        5
+      ]
+    ],
+    "labels": [
+      "intro",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.25
+  },
+  "nested_window_four_screen_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.4090909090909091,
+        "2": 0.4318181818181818,
+        "3": 0.4318181818181818,
+        "4": 0.45454545454545453,
+        "5": 0.4090909090909091,
+        "6": 0.4772727272727273,
+        "7": 0.5227272727272727,
+        "8": 0.5454545454545454,
+        "9": 0.3409090909090909
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.38636363636363635,
+        "2": 0.38636363636363635,
+        "3": 0.4090909090909091,
+        "4": 0.4318181818181818,
+        "5": 0.3181818181818182,
+        "6": 0.4772727272727273,
+        "7": 0.45454545454545453,
+        "8": 0.5454545454545454,
+        "9": 0.38636363636363635
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.38636363636363635,
+        "2": 0.4090909090909091,
+        "3": 0.3181818181818182,
+        "4": 0.4318181818181818,
+        "5": 0.38636363636363635,
+        "6": 0.4090909090909091,
+        "7": 0.5,
+        "8": 0.5454545454545454,
+        "9": 0.36363636363636365
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 8,
+      "inner_accuracy": {
+        "0": 0.5227272727272727,
+        "1": 0.4090909090909091,
+        "2": 0.36363636363636365,
+        "3": 0.36363636363636365,
+        "4": 0.4318181818181818,
+        "5": 0.4090909090909091,
+        "6": 0.4318181818181818,
+        "7": 0.5,
+        "8": 0.5681818181818182,
+        "9": 0.4318181818181818
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.6136363636363636,
+        "1": 0.4318181818181818,
+        "2": 0.4318181818181818,
+        "3": 0.4318181818181818,
+        "4": 0.45454545454545453,
+        "5": 0.3409090909090909,
+        "6": 0.45454545454545453,
+        "7": 0.4318181818181818,
+        "8": 0.5,
+        "9": 0.36363636363636365
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.6136363636363636,
+        "1": 0.38636363636363635,
+        "2": 0.4772727272727273,
+        "3": 0.5227272727272727,
+        "4": 0.4772727272727273,
+        "5": 0.4318181818181818,
+        "6": 0.5681818181818182,
+        "7": 0.5454545454545454,
+        "8": 0.45454545454545453,
+        "9": 0.5
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.4318181818181818,
+        "2": 0.3181818181818182,
+        "3": 0.4090909090909091,
+        "4": 0.45454545454545453,
+        "5": 0.36363636363636365,
+        "6": 0.45454545454545453,
+        "7": 0.45454545454545453,
+        "8": 0.5681818181818182,
+        "9": 0.38636363636363635
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.3409090909090909,
+        "2": 0.4318181818181818,
+        "3": 0.38636363636363635,
+        "4": 0.4318181818181818,
+        "5": 0.38636363636363635,
+        "6": 0.4772727272727273,
+        "7": 0.45454545454545453,
+        "8": 0.4772727272727273,
+        "9": 0.45454545454545453
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5454545454545454,
+        "1": 0.38636363636363635,
+        "2": 0.4090909090909091,
+        "3": 0.36363636363636365,
+        "4": 0.4772727272727273,
+        "5": 0.4090909090909091,
+        "6": 0.5,
+        "7": 0.45454545454545453,
+        "8": 0.5,
+        "9": 0.38636363636363635
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5681818181818182,
+        "1": 0.45454545454545453,
+        "2": 0.4090909090909091,
+        "3": 0.36363636363636365,
+        "4": 0.4772727272727273,
+        "5": 0.38636363636363635,
+        "6": 0.4318181818181818,
+        "7": 0.45454545454545453,
+        "8": 0.5227272727272727,
+        "9": 0.4318181818181818
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5909090909090909,
+        "1": 0.38636363636363635,
+        "2": 0.36363636363636365,
+        "3": 0.4090909090909091,
+        "4": 0.5227272727272727,
+        "5": 0.4318181818181818,
+        "6": 0.5454545454545454,
+        "7": 0.5681818181818182,
+        "8": 0.45454545454545453,
+        "9": 0.4318181818181818
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 0,
+      "inner_accuracy": {
+        "0": 0.5909090909090909,
+        "1": 0.4318181818181818,
+        "2": 0.4090909090909091,
+        "3": 0.36363636363636365,
+        "4": 0.4318181818181818,
+        "5": 0.3409090909090909,
+        "6": 0.38636363636363635,
+        "7": 0.5,
+        "8": 0.5,
+        "9": 0.36363636363636365
+      }
+    }
+  ],
+  "window_gain_vs_aggregate": {
+    "accuracy_difference": 0.13333333333333333,
+    "seed_group_bootstrap_95": [
+      -0.03333333333333333,
+      0.3
+    ],
+    "paired_sign_flip_two_sided_p": 0.2109375,
+    "paired_by_seed": [
+      {
+        "seed": 101,
+        "aggregate_correct": 3,
+        "window_correct": 1
+      },
+      {
+        "seed": 102,
+        "aggregate_correct": 1,
+        "window_correct": 4
+      },
+      {
+        "seed": 103,
+        "aggregate_correct": 3,
+        "window_correct": 3
+      },
+      {
+        "seed": 104,
+        "aggregate_correct": 2,
+        "window_correct": 4
+      },
+      {
+        "seed": 105,
+        "aggregate_correct": 1,
+        "window_correct": 2
+      },
+      {
+        "seed": 106,
+        "aggregate_correct": 2,
+        "window_correct": 2
+      },
+      {
+        "seed": 107,
+        "aggregate_correct": 2,
+        "window_correct": 1
+      },
+      {
+        "seed": 108,
+        "aggregate_correct": 1,
+        "window_correct": 2
+      },
+      {
+        "seed": 109,
+        "aggregate_correct": 2,
+        "window_correct": 5
+      },
+      {
+        "seed": 110,
+        "aggregate_correct": 3,
+        "window_correct": 3
+      },
+      {
+        "seed": 111,
+        "aggregate_correct": 2,
+        "window_correct": 2
+      },
+      {
+        "seed": 112,
+        "aggregate_correct": 2,
+        "window_correct": 3
+      }
+    ]
+  },
+  "aggregate_nested_population": {
+    "accuracy": 0.9833333333333333,
+    "balanced_accuracy": 0.9833333333333332,
+    "confusion": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "aggregate_nested_population_static_same_sizes": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "confusion": [
+      [
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "labels": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2
+  },
+  "aggregate_nested_population_choices": [
+    {
+      "seed": 101,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.38181818181818183,
+        "500": 0.8363636363636363,
+        "250": 0.9636363636363636,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 102,
+      "bin_steps": 200,
+      "population": 50,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.7454545454545455,
+        "250": 0.8909090909090909,
+        "100": 0.9636363636363636,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 103,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.38181818181818183,
+        "500": 0.7636363636363637,
+        "250": 0.8545454545454545,
+        "100": 1.0,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 104,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.8181818181818182,
+        "250": 0.9272727272727272,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 105,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.8,
+        "250": 0.8545454545454545,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 106,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.8363636363636363,
+        "250": 0.8727272727272727,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 107,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.38181818181818183,
+        "500": 0.8,
+        "250": 0.8727272727272727,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 108,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.41818181818181815,
+        "500": 0.8,
+        "250": 0.9090909090909091,
+        "100": 1.0,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 109,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.38181818181818183,
+        "500": 0.8181818181818182,
+        "250": 0.8909090909090909,
+        "100": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "seed": 110,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.7636363636363637,
+        "250": 0.8181818181818182,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    },
+    {
+      "seed": 111,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.45454545454545453,
+        "500": 0.8363636363636363,
+        "250": 0.9636363636363636,
+        "100": 1.0,
+        "50": 0.9636363636363636
+      }
+    },
+    {
+      "seed": 112,
+      "bin_steps": 200,
+      "population": 100,
+      "inner_accuracy": {
+        "1314": 0.4,
+        "500": 0.8181818181818182,
+        "250": 0.8545454545454545,
+        "100": 0.9818181818181818,
+        "50": 0.9818181818181818
+      }
+    }
+  ],
+  "aggregate_informative_dn_count_f_gt_1_training_folds": [
+    348,
+    366,
+    357,
+    356,
+    363,
+    383,
+    367,
+    361,
+    347,
+    356,
+    344,
+    362
+  ],
+  "aggregate_informative_dn_top20": [
+    {
+      "dn_slot": 1227,
+      "flywire_id": 521262,
+      "cell_type": "DNae002",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 287,
+      "flywire_id": 11706,
+      "cell_type": "DNg111",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 215,
+      "flywire_id": 11222,
+      "cell_type": "DNg111",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 136,
+      "flywire_id": 10759,
+      "cell_type": "DNb01",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 112,
+      "flywire_id": 10654,
+      "cell_type": "DNb01",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1160,
+      "flywire_id": 512006,
+      "cell_type": "DNg13",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 177,
+      "flywire_id": 11002,
+      "cell_type": "DNae002",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 267,
+      "flywire_id": 11563,
+      "cell_type": "DNae001",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1268,
+      "flywire_id": 531898,
+      "cell_type": "DNp04",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 262,
+      "flywire_id": 11505,
+      "cell_type": "DNp54",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1215,
+      "flywire_id": 519771,
+      "cell_type": "DNp71",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 46,
+      "flywire_id": 10249,
+      "cell_type": "DNp31",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 5,
+      "flywire_id": 10038,
+      "cell_type": "pIP1",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 1163,
+      "flywire_id": 512071,
+      "cell_type": "DNae001",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 38,
+      "flywire_id": 10223,
+      "cell_type": "DNpe056",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 488,
+      "flywire_id": 13615,
+      "cell_type": "DNbe006",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 850,
+      "flywire_id": 27254,
+      "cell_type": "DNg01",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 26,
+      "flywire_id": 10151,
+      "cell_type": "DNge103",
+      "side": "R",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 428,
+      "flywire_id": 12885,
+      "cell_type": "DNpe020",
+      "side": "M",
+      "training_fold_top50_frequency": 12
+    },
+    {
+      "dn_slot": 226,
+      "flywire_id": 11261,
+      "cell_type": "DNp54",
+      "side": "L",
+      "training_fold_top50_frequency": 12
+    }
+  ],
+  "aggregate_nested_population_four_screen": {
+    "accuracy": 0.9791666666666666,
+    "balanced_accuracy": 0.9791666666666666,
+    "confusion": [
+      [
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "labels": [
+      "intro",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.25
+  },
+  "selected_temporal_vs_aggregate": {
+    "accuracy_difference": -0.08333333333333333,
+    "seed_group_bootstrap_95": [
+      -0.21666666666666667,
+      0.016666666666666666
+    ],
+    "paired_sign_flip_two_sided_p": 0.375,
+    "paired_by_seed": [
+      {
+        "seed": 101,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 102,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 103,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 104,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 105,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 106,
+        "aggregate_correct": 5,
+        "temporal_correct": 2
+      },
+      {
+        "seed": 107,
+        "aggregate_correct": 5,
+        "temporal_correct": 4
+      },
+      {
+        "seed": 108,
+        "aggregate_correct": 5,
+        "temporal_correct": 3
+      },
+      {
+        "seed": 109,
+        "aggregate_correct": 4,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 110,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 111,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      },
+      {
+        "seed": 112,
+        "aggregate_correct": 5,
+        "temporal_correct": 5
+      }
+    ]
+  }
+}

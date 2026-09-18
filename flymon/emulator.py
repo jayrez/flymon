@@ -31,6 +31,11 @@ class PokemonEmulator:
             raise RuntimeError(f"Unexpected PyBoy framebuffer {frame.shape} {frame.dtype}")
         return frame
 
+    def load_state(self, path: str | Path) -> None:
+        """Restore a local PyBoy save state; the next tick renders its framebuffer."""
+        with Path(path).open("rb") as state_file:
+            self._pyboy.load_state(state_file)
+
     def press(self, button: str) -> None:
         self._pyboy.button_press(self._validate(button))
 
