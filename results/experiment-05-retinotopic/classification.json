@@ -1,0 +1,1996 @@
+{
+  "protocol": {
+    "held_out_group": "seed",
+    "conditions": [
+      "intro",
+      "title",
+      "new_game_menu",
+      "oak_dialogue",
+      "bedroom"
+    ],
+    "chance": 0.2,
+    "primary_transform": "existing Flymon temporal blend",
+    "population_sizes": [
+      1314,
+      500,
+      250,
+      100,
+      50
+    ]
+  },
+  "pokemon": {
+    "direct": {
+      "r1_6": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "lamina": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "t4": {
+        "accuracy": 0.4166666666666667,
+        "balanced_accuracy": 0.41666666666666663,
+        "confusion": [
+          [
+            8,
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            4,
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            5,
+            2
+          ],
+          [
+            1,
+            3,
+            2,
+            4,
+            2
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            9
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "t5": {
+        "accuracy": 0.7166666666666667,
+        "balanced_accuracy": 0.7166666666666667,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            6,
+            5,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "visual_projection": {
+        "accuracy": 0.25,
+        "balanced_accuracy": 0.25,
+        "confusion": [
+          [
+            2,
+            2,
+            5,
+            0,
+            3
+          ],
+          [
+            2,
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            2,
+            0,
+            5,
+            2,
+            3
+          ],
+          [
+            1,
+            0,
+            5,
+            2,
+            4
+          ],
+          [
+            1,
+            1,
+            4,
+            1,
+            5
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "descending": {
+        "accuracy": 0.18333333333333332,
+        "balanced_accuracy": 0.18333333333333332,
+        "confusion": [
+          [
+            2,
+            0,
+            6,
+            3,
+            1
+          ],
+          [
+            3,
+            2,
+            5,
+            1,
+            1
+          ],
+          [
+            4,
+            2,
+            4,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            5,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            5,
+            1,
+            2
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "experiment4_fixed_dn": {
+        "accuracy": 0.26666666666666666,
+        "balanced_accuracy": 0.26666666666666666,
+        "confusion": [
+          [
+            4,
+            1,
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            6,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            2
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "distance": {
+        "within": {
+          "intro": {
+            "median": 171.1720822212231,
+            "mean": 174.99160544254738
+          },
+          "title": {
+            "median": 170.52269446894684,
+            "mean": 179.0994490107355
+          },
+          "new_game_menu": {
+            "median": 162.27907384200023,
+            "mean": 175.95477869096172
+          },
+          "oak_dialogue": {
+            "median": 175.18953957146624,
+            "mean": 179.95621528662025
+          },
+          "bedroom": {
+            "median": 188.01170802881478,
+            "mean": 188.64415952143392
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 162.83579221672238,
+            "median_same_seed": 53.145300554158766,
+            "mean_vector_distance": 16.321211488257983,
+            "mean_vector_cosine": 0.9996632584673673
+          },
+          "intro__new_game_menu": {
+            "median_cross": 161.70646174400457,
+            "median_same_seed": 50.83794915118819,
+            "mean_vector_distance": 16.83560215733313,
+            "mean_vector_cosine": 0.9996185064003802
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 163.57461772027375,
+            "median_same_seed": 52.937458839218266,
+            "mean_vector_distance": 17.141567411801446,
+            "mean_vector_cosine": 0.9996175247958575
+          },
+          "intro__bedroom": {
+            "median_cross": 168.02325186186602,
+            "median_same_seed": 52.69437467291566,
+            "mean_vector_distance": 17.44276354251241,
+            "mean_vector_cosine": 0.9995973225930533
+          },
+          "title__new_game_menu": {
+            "median_cross": 160.84146479508314,
+            "median_same_seed": 54.353000339477475,
+            "mean_vector_distance": 15.070666873101533,
+            "mean_vector_cosine": 0.9997089584467553
+          },
+          "title__oak_dialogue": {
+            "median_cross": 163.1176372108563,
+            "median_same_seed": 49.193240982809535,
+            "mean_vector_distance": 17.17859617857835,
+            "mean_vector_cosine": 0.9996762003943529
+          },
+          "title__bedroom": {
+            "median_cross": 170.58864531011568,
+            "median_same_seed": 49.72416610280626,
+            "mean_vector_distance": 17.834306827011808,
+            "mean_vector_cosine": 0.9996309221984087
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 159.6683643533231,
+            "median_same_seed": 51.54097688026138,
+            "mean_vector_distance": 17.682972035266015,
+            "mean_vector_cosine": 0.9996005850876609
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 168.0461202743287,
+            "median_same_seed": 55.16137329674956,
+            "mean_vector_distance": 18.92620904695097,
+            "mean_vector_cosine": 0.9995312512267687
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 167.53796901703254,
+            "median_same_seed": 45.56982397914642,
+            "mean_vector_distance": 15.166208784297048,
+            "mean_vector_cosine": 0.9996869856356279
+          }
+        },
+        "mean_within": 173.43501962649026,
+        "mean_between": 164.5940324503606,
+        "between_within_ratio": 0.9490242097866416,
+        "mean_same_seed_different_condition": 51.51576647987315,
+        "mean_different_seed_same_condition": 173.43501962649026,
+        "mean_pairwise_cosine": 0.9996331515246233
+      },
+      "experiment4_fixed_dn_diagnostic": {
+        "accuracy": 0.26666666666666666,
+        "balanced_accuracy": 0.26666666666666666,
+        "confusion": [
+          [
+            4,
+            1,
+            3,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1,
+            4,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            3,
+            6,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            2
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    },
+    "temporal": {
+      "r1_6": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "lamina": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "t4": {
+        "accuracy": 0.43333333333333335,
+        "balanced_accuracy": 0.4333333333333333,
+        "confusion": [
+          [
+            8,
+            2,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            3,
+            1,
+            3,
+            3
+          ],
+          [
+            1,
+            4,
+            5,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            3,
+            6,
+            1
+          ],
+          [
+            2,
+            3,
+            0,
+            3,
+            4
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "t5": {
+        "accuracy": 0.7666666666666667,
+        "balanced_accuracy": 0.7666666666666666,
+        "confusion": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            8,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            3,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "visual_projection": {
+        "accuracy": 0.26666666666666666,
+        "balanced_accuracy": 0.26666666666666666,
+        "confusion": [
+          [
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            5,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            6,
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            6,
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            6,
+            0,
+            1,
+            4
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "descending": {
+        "accuracy": 0.2,
+        "balanced_accuracy": 0.2,
+        "confusion": [
+          [
+            1,
+            4,
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            5,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            6,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            6,
+            1,
+            2,
+            2
+          ],
+          [
+            1,
+            4,
+            2,
+            2,
+            3
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "experiment4_fixed_dn": {
+        "accuracy": 0.21666666666666667,
+        "balanced_accuracy": 0.21666666666666665,
+        "confusion": [
+          [
+            2,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            4,
+            4
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      },
+      "distance": {
+        "within": {
+          "intro": {
+            "median": 160.44363293476565,
+            "mean": 175.6393696943826
+          },
+          "title": {
+            "median": 156.58367315271826,
+            "mean": 171.59142609572885
+          },
+          "new_game_menu": {
+            "median": 169.1387868450903,
+            "mean": 178.73710841392906
+          },
+          "oak_dialogue": {
+            "median": 173.41681683617827,
+            "mean": 182.89006081464623
+          },
+          "bedroom": {
+            "median": 161.09624823241205,
+            "mean": 175.82124466108868
+          }
+        },
+        "between": {
+          "intro__title": {
+            "median_cross": 155.16748732083272,
+            "median_same_seed": 46.897842956855385,
+            "mean_vector_distance": 14.615440845595831,
+            "mean_vector_cosine": 0.9997548244688966
+          },
+          "intro__new_game_menu": {
+            "median_cross": 156.75296585907358,
+            "median_same_seed": 48.52738689089321,
+            "mean_vector_distance": 13.23111862239924,
+            "mean_vector_cosine": 0.9997707171650494
+          },
+          "intro__oak_dialogue": {
+            "median_cross": 157.29112709758422,
+            "median_same_seed": 48.66518521809974,
+            "mean_vector_distance": 13.851393832792105,
+            "mean_vector_cosine": 0.9997406764004333
+          },
+          "intro__bedroom": {
+            "median_cross": 157.09060396389793,
+            "median_same_seed": 47.310947302950154,
+            "mean_vector_distance": 13.426497433557769,
+            "mean_vector_cosine": 0.9997560792106042
+          },
+          "title__new_game_menu": {
+            "median_cross": 157.55949566023565,
+            "median_same_seed": 45.48215855035774,
+            "mean_vector_distance": 13.231643468930415,
+            "mean_vector_cosine": 0.9997798132850682
+          },
+          "title__oak_dialogue": {
+            "median_cross": 157.34924270230687,
+            "median_same_seed": 46.25608881524316,
+            "mean_vector_distance": 15.715791774871262,
+            "mean_vector_cosine": 0.9997260710812432
+          },
+          "title__bedroom": {
+            "median_cross": 156.26739541981027,
+            "median_same_seed": 48.941967730708775,
+            "mean_vector_distance": 15.50783851977946,
+            "mean_vector_cosine": 0.9997110708141115
+          },
+          "new_game_menu__oak_dialogue": {
+            "median_cross": 166.4102052756454,
+            "median_same_seed": 47.24361298025728,
+            "mean_vector_distance": 12.826567480558987,
+            "mean_vector_cosine": 0.9997923533348687
+          },
+          "new_game_menu__bedroom": {
+            "median_cross": 161.1753676324639,
+            "median_same_seed": 44.710008581067854,
+            "mean_vector_distance": 13.356750270098555,
+            "mean_vector_cosine": 0.9997633625701182
+          },
+          "oak_dialogue__bedroom": {
+            "median_cross": 160.0668606447403,
+            "median_same_seed": 45.74065169079131,
+            "mean_vector_distance": 13.546986134684472,
+            "mean_vector_cosine": 0.9997541639028931
+          }
+        },
+        "mean_within": 164.1358316002329,
+        "mean_between": 158.51307515765907,
+        "between_within_ratio": 0.9657432725825001,
+        "mean_same_seed_different_condition": 46.977585071722466,
+        "mean_different_seed_same_condition": 164.1358316002329,
+        "mean_pairwise_cosine": 0.9997549132233285
+      },
+      "experiment4_fixed_dn_diagnostic": {
+        "accuracy": 0.21666666666666667,
+        "balanced_accuracy": 0.21666666666666665,
+        "confusion": [
+          [
+            2,
+            1,
+            2,
+            4,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            3,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            4,
+            4
+          ]
+        ],
+        "labels": [
+          "intro",
+          "title",
+          "new_game_menu",
+          "oak_dialogue",
+          "bedroom"
+        ],
+        "chance": 0.2
+      }
+    }
+  },
+  "nested_selected": {
+    "direct": {
+      "accuracy": 0.16666666666666666,
+      "balanced_accuracy": 0.16666666666666669,
+      "confusion": [
+        [
+          3,
+          2,
+          4,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          5,
+          2,
+          0
+        ],
+        [
+          5,
+          2,
+          4,
+          1,
+          0
+        ],
+        [
+          4,
+          2,
+          5,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          6,
+          1,
+          0
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    },
+    "temporal": {
+      "accuracy": 0.16666666666666666,
+      "balanced_accuracy": 0.16666666666666666,
+      "confusion": [
+        [
+          1,
+          4,
+          4,
+          0,
+          3
+        ],
+        [
+          3,
+          4,
+          1,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          1,
+          1,
+          2
+        ],
+        [
+          6,
+          3,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          3,
+          3
+        ]
+      ],
+      "labels": [
+        "intro",
+        "title",
+        "new_game_menu",
+        "oak_dialogue",
+        "bedroom"
+      ],
+      "chance": 0.2
+    }
+  },
+  "population_choices": {
+    "direct": [
+      {
+        "seed": 101,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.16363636363636364,
+          "250": 0.18181818181818182,
+          "100": 0.10909090909090909,
+          "50": 0.10909090909090909
+        }
+      },
+      {
+        "seed": 102,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.14545454545454545,
+          "250": 0.12727272727272726,
+          "100": 0.09090909090909091,
+          "50": 0.10909090909090909
+        }
+      },
+      {
+        "seed": 103,
+        "bin_steps": 200,
+        "population": 500,
+        "inner_accuracy": {
+          "1314": 0.16363636363636364,
+          "500": 0.18181818181818182,
+          "250": 0.18181818181818182,
+          "100": 0.12727272727272726,
+          "50": 0.14545454545454545
+        }
+      },
+      {
+        "seed": 104,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.18181818181818182,
+          "250": 0.18181818181818182,
+          "100": 0.18181818181818182,
+          "50": 0.10909090909090909
+        }
+      },
+      {
+        "seed": 105,
+        "bin_steps": 200,
+        "population": 500,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.23636363636363636,
+          "250": 0.18181818181818182,
+          "100": 0.14545454545454545,
+          "50": 0.12727272727272726
+        }
+      },
+      {
+        "seed": 106,
+        "bin_steps": 200,
+        "population": 500,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.2545454545454545,
+          "250": 0.2,
+          "100": 0.16363636363636364,
+          "50": 0.18181818181818182
+        }
+      },
+      {
+        "seed": 107,
+        "bin_steps": 200,
+        "population": 500,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.21818181818181817,
+          "250": 0.2,
+          "100": 0.18181818181818182,
+          "50": 0.2
+        }
+      },
+      {
+        "seed": 108,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.16363636363636364,
+          "250": 0.12727272727272726,
+          "100": 0.12727272727272726,
+          "50": 0.12727272727272726
+        }
+      },
+      {
+        "seed": 109,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.14545454545454545,
+          "250": 0.12727272727272726,
+          "100": 0.10909090909090909,
+          "50": 0.09090909090909091
+        }
+      },
+      {
+        "seed": 110,
+        "bin_steps": 200,
+        "population": 250,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.12727272727272726,
+          "250": 0.2,
+          "100": 0.18181818181818182,
+          "50": 0.16363636363636364
+        }
+      },
+      {
+        "seed": 111,
+        "bin_steps": 200,
+        "population": 500,
+        "inner_accuracy": {
+          "1314": 0.23636363636363636,
+          "500": 0.2727272727272727,
+          "250": 0.14545454545454545,
+          "100": 0.14545454545454545,
+          "50": 0.14545454545454545
+        }
+      },
+      {
+        "seed": 112,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.2,
+          "250": 0.2,
+          "100": 0.14545454545454545,
+          "50": 0.12727272727272726
+        }
+      }
+    ],
+    "temporal": [
+      {
+        "seed": 101,
+        "bin_steps": 200,
+        "population": 50,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.18181818181818182,
+          "250": 0.14545454545454545,
+          "100": 0.21818181818181817,
+          "50": 0.23636363636363636
+        }
+      },
+      {
+        "seed": 102,
+        "bin_steps": 200,
+        "population": 100,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.2,
+          "250": 0.18181818181818182,
+          "100": 0.21818181818181817,
+          "50": 0.18181818181818182
+        }
+      },
+      {
+        "seed": 103,
+        "bin_steps": 200,
+        "population": 100,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.16363636363636364,
+          "250": 0.18181818181818182,
+          "100": 0.23636363636363636,
+          "50": 0.14545454545454545
+        }
+      },
+      {
+        "seed": 104,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.23636363636363636,
+          "500": 0.16363636363636364,
+          "250": 0.21818181818181817,
+          "100": 0.16363636363636364,
+          "50": 0.10909090909090909
+        }
+      },
+      {
+        "seed": 105,
+        "bin_steps": 200,
+        "population": 50,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.2,
+          "250": 0.2,
+          "100": 0.21818181818181817,
+          "50": 0.23636363636363636
+        }
+      },
+      {
+        "seed": 106,
+        "bin_steps": 200,
+        "population": 100,
+        "inner_accuracy": {
+          "1314": 0.18181818181818182,
+          "500": 0.16363636363636364,
+          "250": 0.18181818181818182,
+          "100": 0.21818181818181817,
+          "50": 0.18181818181818182
+        }
+      },
+      {
+        "seed": 107,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.16363636363636364,
+          "250": 0.16363636363636364,
+          "100": 0.21818181818181817,
+          "50": 0.16363636363636364
+        }
+      },
+      {
+        "seed": 108,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.18181818181818182,
+          "250": 0.10909090909090909,
+          "100": 0.12727272727272726,
+          "50": 0.2
+        }
+      },
+      {
+        "seed": 109,
+        "bin_steps": 200,
+        "population": 250,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.21818181818181817,
+          "250": 0.2545454545454545,
+          "100": 0.21818181818181817,
+          "50": 0.14545454545454545
+        }
+      },
+      {
+        "seed": 110,
+        "bin_steps": 200,
+        "population": 50,
+        "inner_accuracy": {
+          "1314": 0.14545454545454545,
+          "500": 0.16363636363636364,
+          "250": 0.16363636363636364,
+          "100": 0.14545454545454545,
+          "50": 0.2
+        }
+      },
+      {
+        "seed": 111,
+        "bin_steps": 200,
+        "population": 1314,
+        "inner_accuracy": {
+          "1314": 0.21818181818181817,
+          "500": 0.16363636363636364,
+          "250": 0.21818181818181817,
+          "100": 0.21818181818181817,
+          "50": 0.2
+        }
+      },
+      {
+        "seed": 112,
+        "bin_steps": 200,
+        "population": 100,
+        "inner_accuracy": {
+          "1314": 0.2,
+          "500": 0.18181818181818182,
+          "250": 0.2,
+          "100": 0.21818181818181817,
+          "50": 0.2
+        }
+      }
+    ]
+  },
+  "synthetic": {
+    "left_vs_right": {
+      "r1_6": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "lamina": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "t4": {
+        "accuracy": 0.9583333333333334,
+        "balanced_accuracy": 0.9583333333333333,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "t5": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "visual_projection": {
+        "accuracy": 0.6666666666666666,
+        "balanced_accuracy": 0.6666666666666666,
+        "confusion": [
+          [
+            8,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "descending": {
+        "accuracy": 0.4583333333333333,
+        "balanced_accuracy": 0.4583333333333333,
+        "confusion": [
+          [
+            9,
+            3
+          ],
+          [
+            10,
+            2
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      },
+      "experiment4_fixed_dn": {
+        "accuracy": 0.5416666666666666,
+        "balanced_accuracy": 0.5416666666666667,
+        "confusion": [
+          [
+            7,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "labels": [
+          "left",
+          "right"
+        ],
+        "chance": 0.5
+      }
+    },
+    "vertical_vs_horizontal": {
+      "r1_6": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "lamina": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "t4": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.75,
+        "confusion": [
+          [
+            8,
+            4
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "t5": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "visual_projection": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "confusion": [
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "descending": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "confusion": [
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      },
+      "experiment4_fixed_dn": {
+        "accuracy": 0.5833333333333334,
+        "balanced_accuracy": 0.5833333333333334,
+        "confusion": [
+          [
+            7,
+            5
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "labels": [
+          "vertical",
+          "horizontal"
+        ],
+        "chance": 0.5
+      }
+    },
+    "motion_left_vs_right": {
+      "r1_6": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "lamina": {
+        "accuracy": 0.5833333333333334,
+        "balanced_accuracy": 0.5833333333333334,
+        "confusion": [
+          [
+            9,
+            3
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "t4": {
+        "accuracy": 0.4583333333333333,
+        "balanced_accuracy": 0.45833333333333337,
+        "confusion": [
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "t5": {
+        "accuracy": 0.4583333333333333,
+        "balanced_accuracy": 0.45833333333333337,
+        "confusion": [
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "visual_projection": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "confusion": [
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "descending": {
+        "accuracy": 0.5416666666666666,
+        "balanced_accuracy": 0.5416666666666666,
+        "confusion": [
+          [
+            4,
+            8
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      },
+      "experiment4_fixed_dn": {
+        "accuracy": 0.5416666666666666,
+        "balanced_accuracy": 0.5416666666666667,
+        "confusion": [
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "labels": [
+          "motion_left",
+          "motion_right"
+        ],
+        "chance": 0.5
+      }
+    }
+  },
+  "synthetic_first_distinguishable_stage": {
+    "left_vs_right": "r1_6",
+    "vertical_vs_horizontal": "r1_6",
+    "motion_left_vs_right": "r1_6"
+  },
+  "comparison": {
+    "experiment1": {
+      "all_dn_accuracy": null,
+      "within": 178.8,
+      "between": 168.4,
+      "ratio": 0.942
+    },
+    "experiment3": {
+      "all_dn_accuracy": 0.4,
+      "selected_dn_accuracy": 0.983,
+      "within": 177.0,
+      "between": 169.3,
+      "ratio": 0.957
+    },
+    "experiment5": {
+      "all_dn_accuracy": 0.2,
+      "selected_dn_accuracy": 0.16666666666666666,
+      "within": {
+        "intro": {
+          "median": 160.44363293476565,
+          "mean": 175.6393696943826
+        },
+        "title": {
+          "median": 156.58367315271826,
+          "mean": 171.59142609572885
+        },
+        "new_game_menu": {
+          "median": 169.1387868450903,
+          "mean": 178.73710841392906
+        },
+        "oak_dialogue": {
+          "median": 173.41681683617827,
+          "mean": 182.89006081464623
+        },
+        "bedroom": {
+          "median": 161.09624823241205,
+          "mean": 175.82124466108868
+        }
+      },
+      "between": {
+        "intro__title": {
+          "median_cross": 155.16748732083272,
+          "median_same_seed": 46.897842956855385,
+          "mean_vector_distance": 14.615440845595831,
+          "mean_vector_cosine": 0.9997548244688966
+        },
+        "intro__new_game_menu": {
+          "median_cross": 156.75296585907358,
+          "median_same_seed": 48.52738689089321,
+          "mean_vector_distance": 13.23111862239924,
+          "mean_vector_cosine": 0.9997707171650494
+        },
+        "intro__oak_dialogue": {
+          "median_cross": 157.29112709758422,
+          "median_same_seed": 48.66518521809974,
+          "mean_vector_distance": 13.851393832792105,
+          "mean_vector_cosine": 0.9997406764004333
+        },
+        "intro__bedroom": {
+          "median_cross": 157.09060396389793,
+          "median_same_seed": 47.310947302950154,
+          "mean_vector_distance": 13.426497433557769,
+          "mean_vector_cosine": 0.9997560792106042
+        },
+        "title__new_game_menu": {
+          "median_cross": 157.55949566023565,
+          "median_same_seed": 45.48215855035774,
+          "mean_vector_distance": 13.231643468930415,
+          "mean_vector_cosine": 0.9997798132850682
+        },
+        "title__oak_dialogue": {
+          "median_cross": 157.34924270230687,
+          "median_same_seed": 46.25608881524316,
+          "mean_vector_distance": 15.715791774871262,
+          "mean_vector_cosine": 0.9997260710812432
+        },
+        "title__bedroom": {
+          "median_cross": 156.26739541981027,
+          "median_same_seed": 48.941967730708775,
+          "mean_vector_distance": 15.50783851977946,
+          "mean_vector_cosine": 0.9997110708141115
+        },
+        "new_game_menu__oak_dialogue": {
+          "median_cross": 166.4102052756454,
+          "median_same_seed": 47.24361298025728,
+          "mean_vector_distance": 12.826567480558987,
+          "mean_vector_cosine": 0.9997923533348687
+        },
+        "new_game_menu__bedroom": {
+          "median_cross": 161.1753676324639,
+          "median_same_seed": 44.710008581067854,
+          "mean_vector_distance": 13.356750270098555,
+          "mean_vector_cosine": 0.9997633625701182
+        },
+        "oak_dialogue__bedroom": {
+          "median_cross": 160.0668606447403,
+          "median_same_seed": 45.74065169079131,
+          "mean_vector_distance": 13.546986134684472,
+          "mean_vector_cosine": 0.9997541639028931
+        }
+      },
+      "mean_within": 164.1358316002329,
+      "mean_between": 158.51307515765907,
+      "between_within_ratio": 0.9657432725825001,
+      "mean_same_seed_different_condition": 46.977585071722466,
+      "mean_different_seed_same_condition": 164.1358316002329,
+      "mean_pairwise_cosine": 0.9997549132233285
+    }
+  },
+  "primary_information_loss_stage": "D",
+  "verdict": "FAIL",
+  "offline_classification_seconds": 419.99037067500467,
+  "baseline_separation": {
+    "direct": {
+      "intro": {
+        "to_none_mean_vector": 16.942713937134027,
+        "to_none_matched_seed_median": 51.45832395264084,
+        "to_gray_mean_vector": 15.296150568761481,
+        "to_gray_matched_seed_median": 53.00641167621154
+      },
+      "title": {
+        "to_none_mean_vector": 17.303459833866235,
+        "to_none_matched_seed_median": 53.22322673319641,
+        "to_gray_mean_vector": 14.850879135967373,
+        "to_gray_matched_seed_median": 50.71523882869941
+      },
+      "new_game_menu": {
+        "to_none_mean_vector": 16.220914140564197,
+        "to_none_matched_seed_median": 48.677249835565966,
+        "to_gray_mean_vector": 13.535190759235308,
+        "to_gray_matched_seed_median": 47.72810393084433
+      },
+      "oak_dialogue": {
+        "to_none_mean_vector": 14.434237846946484,
+        "to_none_matched_seed_median": 48.13820064256617,
+        "to_gray_mean_vector": 15.124483462254176,
+        "to_gray_matched_seed_median": 50.79859318291279
+      },
+      "bedroom": {
+        "to_none_mean_vector": 15.668439615992403,
+        "to_none_matched_seed_median": 54.405999438503756,
+        "to_gray_mean_vector": 16.101242188104617,
+        "to_gray_matched_seed_median": 55.103414046300344
+      }
+    },
+    "temporal": {
+      "intro": {
+        "to_none_mean_vector": 13.896442390450554,
+        "to_none_matched_seed_median": 51.02988853344947,
+        "to_gray_mean_vector": 13.293691068406183,
+        "to_gray_matched_seed_median": 47.982520928928054
+      },
+      "title": {
+        "to_none_mean_vector": 17.469020197671835,
+        "to_none_matched_seed_median": 52.25404954582115,
+        "to_gray_mean_vector": 14.72667647502314,
+        "to_gray_matched_seed_median": 47.15926158486842
+      },
+      "new_game_menu": {
+        "to_none_mean_vector": 15.211700540483077,
+        "to_none_matched_seed_median": 50.60899526787817,
+        "to_gray_mean_vector": 13.577196977939805,
+        "to_gray_matched_seed_median": 47.66031834243529
+      },
+      "oak_dialogue": {
+        "to_none_mean_vector": 14.221462653327892,
+        "to_none_matched_seed_median": 45.106392542811456,
+        "to_gray_mean_vector": 14.972196454317137,
+        "to_gray_matched_seed_median": 46.60869929132912
+      },
+      "bedroom": {
+        "to_none_mean_vector": 15.02983144726957,
+        "to_none_matched_seed_median": 48.154028217106806,
+        "to_gray_mean_vector": 13.726242101253431,
+        "to_gray_matched_seed_median": 45.65406252677605
+      }
+    }
+  },
+  "zero_spike_conditions_by_population": {
+    "r1_6": [],
+    "lamina": [],
+    "t4": [],
+    "t5": [],
+    "visual_projection": [],
+    "descending": [],
+    "experiment4_fixed_dn": []
+  },
+  "performance": {
+    "retinal_setup_seconds": 10.054464656001073,
+    "median_malecns_step_ms": 2.6763964896599646,
+    "median_aggregation_ms": 1.1548634378414135,
+    "mean_luminance_ms": 1.9134817894633958,
+    "mean_sampling_ms": 0.33176081059010404,
+    "mean_drive_ms": 0.4473016519975652
+  }
+}
