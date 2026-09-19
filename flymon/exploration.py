@@ -32,6 +32,16 @@ class FrozenExplorationController:
         return action,{"steering_signal_hz":steer,"forward_delta_hz":forward,"backward_delta_hz":backward,"scales_hz":{"steering":self.ss,"forward":self.fs,"backward":self.bs},
           "thresholds_hz":thresholds,"normalized_excess":excess,"raw_action":chosen,"selected_action":action,"reason":reason,"down_enabled":self.enable_down}
 
+
+class FrozenInterfaceController:
+    """Experiment 10 directions with optional normalized DOWN and phasic A."""
+    def __init__(self,direction,down=None,event=None):self.direction,self.down,self.event=direction,down,event
+    def decode(self,rates):
+        ea,es=self.event.decode(rates) if self.event else (None,None);da,ds=self.direction.decode(rates);xa,xs=self.down.decode(rates) if self.down else (None,None)
+        if xs and xa and xs["normalized_excess"]>max(ds["normalized_excess"].values(),default=-math.inf):da="DOWN"
+        action=ea if ea else da
+        return action,{"selected_action":action,"arbitration":"A-event-first; normalized direction excess","direction":ds,"down":xs,"event":es}
+
 def visual_metrics(frame,initial,vector,initial_vector,previous):
     _,grid=spatial_grid(frame,__import__('flymon.motor',fromlist=['E7_CONFIG']).E7_CONFIG);_,igrid=spatial_grid(initial,__import__('flymon.motor',fromlist=['E7_CONFIG']).E7_CONFIG)
     quant=np.rint(np.clip(grid,0,1)*15).astype(np.uint8);coarse=hashlib.sha256(quant.tobytes()).hexdigest()

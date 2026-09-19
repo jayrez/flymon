@@ -18,12 +18,14 @@ def sha256_array(a: np.ndarray) -> str:
     return hashlib.sha256(np.ascontiguousarray(a).tobytes()).hexdigest()
 
 
-def verify_motor_neurons(brain, data_dir: Path) -> tuple[dict, dict[str, np.ndarray]]:
+def resolve_motor_populations(brain, data_dir: Path, cell_types: Iterable[str] = MOTOR_TYPES) -> tuple[dict, dict[str, np.ndarray]]:
     meta = np.load(data_dir / "brain.npz")
     if not np.array_equal(meta["cell_type"], brain.cell_type):
         raise RuntimeError("FlyBrain and brain.npz metadata order differs")
+    requested = tuple(cell_types)
+    if len(set(requested)) != len(requested): raise ValueError("duplicate motor cell type")
     populations, records = {}, []
-    for typ in MOTOR_TYPES:
+    for typ in requested:
         idx = brain.cells([typ]).astype(np.int32)
         if not len(idx) or not np.all(brain.superclass[idx] == "descending_neuron"):
             raise RuntimeError(f"Missing descending-neuron metadata for {typ}")
@@ -34,6 +36,10 @@ def verify_motor_neurons(brain, data_dir: Path) -> tuple[dict, dict[str, np.ndar
                             "superclass": str(brain.superclass[i]), "count": int(len(idx))})
     return {"model": "MaleCNS v1.0", "neurons": records,
             "counts": {k: int(len(v)) for k, v in populations.items()}}, populations
+
+
+def verify_motor_neurons(brain, data_dir: Path) -> tuple[dict, dict[str, np.ndarray]]:
+    return resolve_motor_populations(brain, data_dir, MOTOR_TYPES)
 
 
 class OnlineE3Encoder:
@@ -91,9 +97,7 @@ def run_neural_window(brain, projection: SpatialProjection, vector: np.ndarray |
             mask = brain.side[populations[typ]] == side
             rates[f"{typ}_{side}"] = float(counts[mask].sum() / seconds)
         rates[typ] = float(counts.sum() / seconds)
-    controller_rates = {"DNa02_L": rates["DNa02_L"], "DNa02_R": rates["DNa02_R"],
-                        "DNg100": rates["DNg100"], "MDN": rates["MDN"],
-                        "DNp01": rates["DNp01"]}
+    controller_rates = dict(rates)
     return ({"per_cell_counts": {k: v.tolist() for k, v in per_cell.items()},
              "group_rates_hz": rates, "controller_rates_hz": controller_rates},
             {k: int(v.sum()) for k, v in vp.items()})

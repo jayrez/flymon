@@ -1,0 +1,180 @@
+{
+  "candidates": [
+    {
+      "cell_type": "MDN",
+      "cells": [
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 10763,
+          "brain_index": 706,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 11288,
+          "brain_index": 1196,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 11332,
+          "brain_index": 1240,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 12348,
+          "brain_index": 2194,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        }
+      ],
+      "count": 4,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "established backward-walking reference"
+    },
+    {
+      "cell_type": "DNp01",
+      "cells": [
+        {
+          "cell_type": "DNp01",
+          "flywire_malecns_id": 10001,
+          "brain_index": 0,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp01",
+          "flywire_malecns_id": 10010,
+          "brain_index": 6,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "giant-fiber escape comparator"
+    },
+    {
+      "cell_type": "DNa05",
+      "cells": [
+        {
+          "cell_type": "DNa05",
+          "flywire_malecns_id": 11830,
+          "brain_index": 1708,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNa05",
+          "flywire_malecns_id": 12801,
+          "brain_index": 2620,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "slow-locomotion annotation"
+    },
+    {
+      "cell_type": "DNa07",
+      "cells": [
+        {
+          "cell_type": "DNa07",
+          "flywire_malecns_id": 17179,
+          "brain_index": 6572,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNa07",
+          "flywire_malecns_id": 19960,
+          "brain_index": 9059,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "slow-locomotion annotation"
+    },
+    {
+      "cell_type": "DNb02",
+      "cells": [
+        {
+          "cell_type": "DNb02",
+          "flywire_malecns_id": 10805,
+          "brain_index": 746,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "DNb02",
+          "flywire_malecns_id": 12767,
+          "brain_index": 2588,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "DNb02",
+          "flywire_malecns_id": 13922,
+          "brain_index": 3654,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "DNb02",
+          "flywire_malecns_id": 529488,
+          "brain_index": 133997,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        }
+      ],
+      "count": 4,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "slow-locomotion annotation"
+    },
+    {
+      "cell_type": "DNd02",
+      "cells": [
+        {
+          "cell_type": "DNd02",
+          "flywire_malecns_id": 11160,
+          "brain_index": 1071,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNd02",
+          "flywire_malecns_id": 63701,
+          "brain_index": 47160,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "slow-locomotion annotation"
+    }
+  ]
+}

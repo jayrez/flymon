@@ -1,0 +1,164 @@
+{
+  "candidates": [
+    {
+      "cell_type": "DNp01",
+      "cells": [
+        {
+          "cell_type": "DNp01",
+          "flywire_malecns_id": 10001,
+          "brain_index": 0,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp01",
+          "flywire_malecns_id": 10010,
+          "brain_index": 6,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "giant-fiber phasic escape"
+    },
+    {
+      "cell_type": "DNp09",
+      "cells": [
+        {
+          "cell_type": "DNp09",
+          "flywire_malecns_id": 10783,
+          "brain_index": 725,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp09",
+          "flywire_malecns_id": 11177,
+          "brain_index": 1087,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "looming-associated stopping/freezing"
+    },
+    {
+      "cell_type": "DNp10",
+      "cells": [
+        {
+          "cell_type": "DNp10",
+          "flywire_malecns_id": 10425,
+          "brain_index": 391,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp10",
+          "flywire_malecns_id": 10433,
+          "brain_index": 397,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "rapid landing leg extension"
+    },
+    {
+      "cell_type": "DNp07",
+      "cells": [
+        {
+          "cell_type": "DNp07",
+          "flywire_malecns_id": 11513,
+          "brain_index": 1412,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp07",
+          "flywire_malecns_id": 11704,
+          "brain_index": 1591,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "landing leg-extension pathway"
+    },
+    {
+      "cell_type": "DNp02",
+      "cells": [
+        {
+          "cell_type": "DNp02",
+          "flywire_malecns_id": 10117,
+          "brain_index": 103,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 2
+        },
+        {
+          "cell_type": "DNp02",
+          "flywire_malecns_id": 10197,
+          "brain_index": 178,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 2
+        }
+      ],
+      "count": 2,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "posterior escape-pathway comparator"
+    },
+    {
+      "cell_type": "MDN",
+      "cells": [
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 10763,
+          "brain_index": 706,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 11288,
+          "brain_index": 1196,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 11332,
+          "brain_index": 1240,
+          "side": "R",
+          "superclass": "descending_neuron",
+          "count": 4
+        },
+        {
+          "cell_type": "MDN",
+          "flywire_malecns_id": 12348,
+          "brain_index": 2194,
+          "side": "L",
+          "superclass": "descending_neuron",
+          "count": 4
+        }
+      ],
+      "count": 4,
+      "aggregation": "summed population spikes / 0.2 s",
+      "rationale": "tonic locomotor comparator"
+    }
+  ]
+}
