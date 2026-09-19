@@ -1,0 +1,3644 @@
+{
+  "classes": [
+    "bedroom",
+    "dialogue",
+    "menu",
+    "title",
+    "intro"
+  ],
+  "instances_per_class": {
+    "bedroom": 5,
+    "dialogue": 8,
+    "menu": 5,
+    "title": 8,
+    "intro": 6
+  },
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "primary_ids": [
+    "bedroom-01",
+    "bedroom-02",
+    "bedroom-04",
+    "bedroom-06",
+    "bedroom-08",
+    "dialogue-01",
+    "dialogue-02",
+    "dialogue-03",
+    "dialogue-04",
+    "dialogue-05",
+    "dialogue-06",
+    "dialogue-07",
+    "dialogue-08",
+    "menu-01",
+    "menu-03",
+    "menu-05",
+    "menu-08",
+    "menu-09",
+    "title-01",
+    "title-02",
+    "title-03",
+    "title-04",
+    "title-05",
+    "title-06",
+    "title-07",
+    "title-08",
+    "intro-01",
+    "intro-04",
+    "intro-05",
+    "intro-06",
+    "intro-07",
+    "intro-08"
+  ],
+  "excluded": {
+    "menu-06": "Framebuffer has no pause menu; capture label failed manual inspection."
+  },
+  "instances": [
+    {
+      "class_label": "bedroom",
+      "instance_id": "bedroom-01",
+      "role": "primary",
+      "frame_sha256": [
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46",
+        "017990fd85228d846e93c77c9f6e66be288d9c729511b61fef0d293eba494d46"
+      ],
+      "sequence_sha256": "6cc227fc6a9e37d3d671d1e741522cb69571705ed6d68cdc8cfe34bce43edb15",
+      "frames": [
+        {
+          "path": "bedroom/bedroom-01/frame-00.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-01.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-02.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-03.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-04.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-05.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-06.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-07.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-08.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        },
+        {
+          "path": "bedroom/bedroom-01/frame-09.png",
+          "file_sha256": "bbb0ccce4d0056e0e6cd6bba95adf7803d05a7f9f00ab4d287989f9cb0ae4067"
+        }
+      ],
+      "capture": {
+        "class_label": "bedroom",
+        "instance_id": "bedroom-01",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "bedroom",
+      "instance_id": "bedroom-02",
+      "role": "primary",
+      "frame_sha256": [
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c",
+        "94a68e3b9190fc465d5464a460df41702382d687f3278f24305fd61bed76103c"
+      ],
+      "sequence_sha256": "5fc209e065b78212925903763d195b2c299f99d3b604b17599dc39b033328e54",
+      "frames": [
+        {
+          "path": "bedroom/bedroom-02/frame-00.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-01.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-02.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-03.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-04.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-05.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-06.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-07.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-08.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        },
+        {
+          "path": "bedroom/bedroom-02/frame-09.png",
+          "file_sha256": "9928fde17f52072ba69adcc04d386a52a2c54b03e06c862d97838a268dd8a1aa"
+        }
+      ],
+      "capture": {
+        "class_label": "bedroom",
+        "instance_id": "bedroom-02",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "left",
+            "held": 8,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "bedroom",
+      "instance_id": "bedroom-04",
+      "role": "primary",
+      "frame_sha256": [
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a",
+        "f304016bbe6e9c4b824f5b23357232e56fabbe93f1c59912007563bc5197e41a"
+      ],
+      "sequence_sha256": "4f8e65788dd7b040c15345fc7572aae0166b925c675bcade93664c9498a44918",
+      "frames": [
+        {
+          "path": "bedroom/bedroom-04/frame-00.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-01.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-02.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-03.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-04.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-05.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-06.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-07.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-08.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        },
+        {
+          "path": "bedroom/bedroom-04/frame-09.png",
+          "file_sha256": "7f599d75ced458931ec444afc7e95093c7727485eb2dce4b3dcfbb4fba62dea9"
+        }
+      ],
+      "capture": {
+        "class_label": "bedroom",
+        "instance_id": "bedroom-04",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "down",
+            "held": 8,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "bedroom",
+      "instance_id": "bedroom-06",
+      "role": "primary",
+      "frame_sha256": [
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b",
+        "11940dbdb8c6dea7f59617cdce67ec30e273631876301f53a2f9032735eaed9b"
+      ],
+      "sequence_sha256": "263f5e82d9af970b38beac5112bd6a4e1385d1235d115452232da16e6721165c",
+      "frames": [
+        {
+          "path": "bedroom/bedroom-06/frame-00.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-01.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-02.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-03.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-04.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-05.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-06.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-07.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-08.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        },
+        {
+          "path": "bedroom/bedroom-06/frame-09.png",
+          "file_sha256": "929acc60c264bbea159f4a16cdadaf2ac39959b7aac657b678099c2e3d15e25d"
+        }
+      ],
+      "capture": {
+        "class_label": "bedroom",
+        "instance_id": "bedroom-06",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "right",
+            "held": 8,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "bedroom",
+      "instance_id": "bedroom-08",
+      "role": "primary",
+      "frame_sha256": [
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982",
+        "b4336f6f1f8f0ed510882ad7c6f196d0f37defcd1f6ab11848150efcd23a3982"
+      ],
+      "sequence_sha256": "a7ab109bd402e954de4b550475ba6fe4d8bf1a43d48bd2b40295f1df96bbcd99",
+      "frames": [
+        {
+          "path": "bedroom/bedroom-08/frame-00.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-01.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-02.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-03.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-04.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-05.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-06.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-07.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-08.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        },
+        {
+          "path": "bedroom/bedroom-08/frame-09.png",
+          "file_sha256": "ec9d970bee723f897c7f84bc037556d22636d4c8787f2997cd41c632f8d460e0"
+        }
+      ],
+      "capture": {
+        "class_label": "bedroom",
+        "instance_id": "bedroom-08",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "left",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-01",
+      "role": "primary",
+      "frame_sha256": [
+        "dd8767056b3678591c4ef553ec09a795d5a33ad7ea936d296c28ccc34a8a7b07",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "c11298a66cf4838e248ac80465ab8f8bf7c75b8186edc5125f3deeaf36076d1a",
+        "dd8767056b3678591c4ef553ec09a795d5a33ad7ea936d296c28ccc34a8a7b07"
+      ],
+      "sequence_sha256": "782bc34e71724856c014c8607e0091089d6c8a4ecd0673e1bee716c4f3bea470",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-01/frame-00.png",
+          "file_sha256": "c5e39b815f85a89e94a6dd004c3a1160ff84b599a3ae83d4085a839c10e3369c"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-01.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-02.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-03.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-04.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-05.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-06.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-07.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-08.png",
+          "file_sha256": "5af1cc53b62ced03af9591a3a9eb4b983f1329fe45e63c55d8b9424476f52475"
+        },
+        {
+          "path": "dialogue/dialogue-01/frame-09.png",
+          "file_sha256": "c5e39b815f85a89e94a6dd004c3a1160ff84b599a3ae83d4085a839c10e3369c"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-01",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-02",
+      "role": "primary",
+      "frame_sha256": [
+        "5ecc050364844bf93e05c951ff8dbcaafcdb147ab95261da2735f06e22d310e9",
+        "5ecc050364844bf93e05c951ff8dbcaafcdb147ab95261da2735f06e22d310e9",
+        "5ecc050364844bf93e05c951ff8dbcaafcdb147ab95261da2735f06e22d310e9",
+        "5ecc050364844bf93e05c951ff8dbcaafcdb147ab95261da2735f06e22d310e9",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d",
+        "bd928ffdc314db6ec3b220aca49528c0d16a58f219aa57bb78ada65fee29c57d"
+      ],
+      "sequence_sha256": "4c190b70a93a90f5bf5707359b094e6eb1a1e95f720c660da5094076554c7114",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-02/frame-00.png",
+          "file_sha256": "26725098f56df0bdb36ea91977be5277f20988fafb8d69e132db3c16f4f31cfc"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-01.png",
+          "file_sha256": "26725098f56df0bdb36ea91977be5277f20988fafb8d69e132db3c16f4f31cfc"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-02.png",
+          "file_sha256": "26725098f56df0bdb36ea91977be5277f20988fafb8d69e132db3c16f4f31cfc"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-03.png",
+          "file_sha256": "26725098f56df0bdb36ea91977be5277f20988fafb8d69e132db3c16f4f31cfc"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-04.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-05.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-06.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-07.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-08.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        },
+        {
+          "path": "dialogue/dialogue-02/frame-09.png",
+          "file_sha256": "65f47c496af54e8e8b107823c49c6ee2149a8b48c04dada70a87f236eb1ca50f"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-02",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-03",
+      "role": "primary",
+      "frame_sha256": [
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+        "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6",
+        "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6",
+        "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6"
+      ],
+      "sequence_sha256": "ba9379013d3a20969a8043210cab5678b13811678b568a1a1757c6b227ff65d6",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-03/frame-00.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-01.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-02.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-03.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-04.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-05.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-06.png",
+          "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-07.png",
+          "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-08.png",
+          "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+        },
+        {
+          "path": "dialogue/dialogue-03/frame-09.png",
+          "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-03",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-04",
+      "role": "primary",
+      "frame_sha256": [
+        "1ad0347ee2a557d90ed8b4e2b3dc7a973cd1376649978314e394f51163ef89ab",
+        "1ad0347ee2a557d90ed8b4e2b3dc7a973cd1376649978314e394f51163ef89ab",
+        "1ad0347ee2a557d90ed8b4e2b3dc7a973cd1376649978314e394f51163ef89ab",
+        "1ad0347ee2a557d90ed8b4e2b3dc7a973cd1376649978314e394f51163ef89ab",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6",
+        "5c1904767a4932d19752ba090ab21a941421beeee9c82bc1dc514ffd7d881de6"
+      ],
+      "sequence_sha256": "ff34f95e19fd4c677b3bf43dff85aec39919906a84c784b49ffe8783daf72ed3",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-04/frame-00.png",
+          "file_sha256": "556f445424e4eaf1626846e1d78e767e719e564cc0e8e6cb88844a64195ab785"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-01.png",
+          "file_sha256": "556f445424e4eaf1626846e1d78e767e719e564cc0e8e6cb88844a64195ab785"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-02.png",
+          "file_sha256": "556f445424e4eaf1626846e1d78e767e719e564cc0e8e6cb88844a64195ab785"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-03.png",
+          "file_sha256": "556f445424e4eaf1626846e1d78e767e719e564cc0e8e6cb88844a64195ab785"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-04.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-05.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-06.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-07.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-08.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        },
+        {
+          "path": "dialogue/dialogue-04/frame-09.png",
+          "file_sha256": "4a3792453825d884af0766bb44698bf24e906c8b66a050b4c74c0232348470b5"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-04",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-05",
+      "role": "primary",
+      "frame_sha256": [
+        "a640d0087bb2af3d662261f2a876c63e24e74270905a8fc4e3a784874d825dc5",
+        "a640d0087bb2af3d662261f2a876c63e24e74270905a8fc4e3a784874d825dc5",
+        "a640d0087bb2af3d662261f2a876c63e24e74270905a8fc4e3a784874d825dc5",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57",
+        "fbbb04f9e324370c7ab18e58243f4385b98f1930dfbeae86a4a222a71cdc6d57"
+      ],
+      "sequence_sha256": "0d2a161414eb1a336ff12adc27c241cc45860b7f379baf0250f98a49232c03c0",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-05/frame-00.png",
+          "file_sha256": "79f4e1e0f0c2f2e9c65f266dde7bbbf6ae3944eb40a1aa5a54ba98c0a073de1e"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-01.png",
+          "file_sha256": "79f4e1e0f0c2f2e9c65f266dde7bbbf6ae3944eb40a1aa5a54ba98c0a073de1e"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-02.png",
+          "file_sha256": "79f4e1e0f0c2f2e9c65f266dde7bbbf6ae3944eb40a1aa5a54ba98c0a073de1e"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-03.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-04.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-05.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-06.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-07.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-08.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        },
+        {
+          "path": "dialogue/dialogue-05/frame-09.png",
+          "file_sha256": "5108fa166f9e9a33d584d3394a447510ef561ddc3f7a08f8194e84704a50cb3c"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-05",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-06",
+      "role": "primary",
+      "frame_sha256": [
+        "276f4de5505c347efaa2dd31ab8caf2407620eb9de8860e77e7d69fab4386b65",
+        "276f4de5505c347efaa2dd31ab8caf2407620eb9de8860e77e7d69fab4386b65",
+        "276f4de5505c347efaa2dd31ab8caf2407620eb9de8860e77e7d69fab4386b65",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f",
+        "486e7fec65a40856bee60c75e450d66f6554a11cfc5221143c3bef0c4904c75f"
+      ],
+      "sequence_sha256": "84faa2476bedc3ba35d1f4f86624eb84d3619e6101d838a8d45b84961fa7bca6",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-06/frame-00.png",
+          "file_sha256": "66a9d571559605d997e18a381f9f3a65aec723b00ec4c02363fb114172dc3680"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-01.png",
+          "file_sha256": "66a9d571559605d997e18a381f9f3a65aec723b00ec4c02363fb114172dc3680"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-02.png",
+          "file_sha256": "66a9d571559605d997e18a381f9f3a65aec723b00ec4c02363fb114172dc3680"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-03.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-04.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-05.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-06.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-07.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-08.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        },
+        {
+          "path": "dialogue/dialogue-06/frame-09.png",
+          "file_sha256": "e2afee5bb9cfd4430998303d0a20fee49dbca501f632cf04b1c2bf1c1d0f8dff"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-06",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-07",
+      "role": "primary",
+      "frame_sha256": [
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "0636e3b1f7ac7d0b1f5f3475205cf2bb037aaa0cfea61976bf3ebc9a5d002f0e",
+        "b5c40bfffb585753e875d1e0e4949fd22f70089b0f1830559765ff37dd1df7e1",
+        "b5c40bfffb585753e875d1e0e4949fd22f70089b0f1830559765ff37dd1df7e1",
+        "b5c40bfffb585753e875d1e0e4949fd22f70089b0f1830559765ff37dd1df7e1"
+      ],
+      "sequence_sha256": "0604ebbd68f9e1d3545a0b261b694f85b2e1e064ceae5d8079133d7c58d327cc",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-07/frame-00.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-01.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-02.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-03.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-04.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-05.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-06.png",
+          "file_sha256": "1d77d25e80a38d364fe8ac5bb27941bc07d86af45e4f7a7ca1dadeb92227ae59"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-07.png",
+          "file_sha256": "d36b4ebfa5dea3096bd63c07066743767473b4491cf4510c296acb7b3ff2fea0"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-08.png",
+          "file_sha256": "d36b4ebfa5dea3096bd63c07066743767473b4491cf4510c296acb7b3ff2fea0"
+        },
+        {
+          "path": "dialogue/dialogue-07/frame-09.png",
+          "file_sha256": "d36b4ebfa5dea3096bd63c07066743767473b4491cf4510c296acb7b3ff2fea0"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-07",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "dialogue",
+      "instance_id": "dialogue-08",
+      "role": "primary",
+      "frame_sha256": [
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+        "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+        "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+        "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+        "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b"
+      ],
+      "sequence_sha256": "40cdd0ee36c846d2a2f760992d2a76d4cc09e530b7185613a12c861419815ecd",
+      "frames": [
+        {
+          "path": "dialogue/dialogue-08/frame-00.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-01.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-02.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-03.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-04.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-05.png",
+          "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-06.png",
+          "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-07.png",
+          "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-08.png",
+          "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+        },
+        {
+          "path": "dialogue/dialogue-08/frame-09.png",
+          "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+        }
+      ],
+      "capture": {
+        "class_label": "dialogue",
+        "instance_id": "dialogue-08",
+        "actions": [
+          {
+            "wait": 1500
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-01",
+      "role": "primary",
+      "frame_sha256": [
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2",
+        "49e30b7db2ef283114cf539e3e3047fbd67529394cecaaa50b8be0eee2917fd2"
+      ],
+      "sequence_sha256": "8c8d4801edde3e8576101b8e73694d913224698cba0844362ba82040bf2b6402",
+      "frames": [
+        {
+          "path": "menu/menu-01/frame-00.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-01.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-02.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-03.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-04.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-05.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-06.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-07.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-08.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        },
+        {
+          "path": "menu/menu-01/frame-09.png",
+          "file_sha256": "72da6718fafb6c338407f5335d7d74b0077e2d8dfec12eda9580906880c05db7"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-01",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 30
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-03",
+      "role": "primary",
+      "frame_sha256": [
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92",
+        "5a8f364af9467b5f064427ae27373985adf5e9bbf68e56506f33b25a10174b92"
+      ],
+      "sequence_sha256": "63a89cc43ac0da0f5a0d19db88cb29d807fb50e70d720e2ab97c3bfa0c1090e0",
+      "frames": [
+        {
+          "path": "menu/menu-03/frame-00.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-01.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-02.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-03.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-04.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-05.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-06.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-07.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-08.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        },
+        {
+          "path": "menu/menu-03/frame-09.png",
+          "file_sha256": "212952494e071fe38e4a4cb4edb7476300c3e01c49ab72aaf2cc3b48f2b931be"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-03",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "left",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 30
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-05",
+      "role": "primary",
+      "frame_sha256": [
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+        "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b"
+      ],
+      "sequence_sha256": "9bb53ea936c09b544d6a77b2e63ce8e0e4e779717393abf66ad2014c7111b465",
+      "frames": [
+        {
+          "path": "menu/menu-05/frame-00.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-01.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-02.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-03.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-04.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-05.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-06.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-07.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-08.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        },
+        {
+          "path": "menu/menu-05/frame-09.png",
+          "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-05",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "down",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 30
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-06",
+      "role": "primary",
+      "frame_sha256": [
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9",
+        "b37fe1025c5826fb1272dcda2044e081c13c1dac062201a071502f1fe64f6af9"
+      ],
+      "sequence_sha256": "f9c62a42fea931bbbbe126838e7d89ac1c2e1bc531f9ac21f5ec0f6f484ad047",
+      "frames": [
+        {
+          "path": "menu/menu-06/frame-00.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-01.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-02.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-03.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-04.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-05.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-06.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-07.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-08.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        },
+        {
+          "path": "menu/menu-06/frame-09.png",
+          "file_sha256": "ab96fa1bb3bdd403bdccf853f358e2f33ff4df4a953ce843945a58fe98bec22b"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-06",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "right",
+            "held": 8,
+            "release": 8
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 30
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-08",
+      "role": "primary",
+      "frame_sha256": [
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3",
+        "feab363b4671677f82fc17ac085ae6c96a56a51dff4bd05c51378bc0e1c34bc3"
+      ],
+      "sequence_sha256": "0ee77635c3901ca307e3165f91e7b11aeb043c037f5eb775f94f126aef108760",
+      "frames": [
+        {
+          "path": "menu/menu-08/frame-00.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-01.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-02.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-03.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-04.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-05.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-06.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-07.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-08.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        },
+        {
+          "path": "menu/menu-08/frame-09.png",
+          "file_sha256": "672e24be68ceaaf70172c8b1809e8189aaca209bf71b823849f5b786cadb6e98"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-08",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "left",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "button": "down",
+            "held": 16,
+            "release": 8
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 30
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 8
+          },
+          {
+            "wait": 12
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "menu",
+      "instance_id": "menu-09",
+      "role": "primary",
+      "frame_sha256": [
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2",
+        "454fc32168f9fe6558ae99b576535675a3a68641d1764eb3fe107a75e40edcd2"
+      ],
+      "sequence_sha256": "dc08f4cdc50cf5cb46dfbe2e5ee92ee351000adb2a91ef54e8faed8c996999a9",
+      "frames": [
+        {
+          "path": "menu/menu-09/frame-00.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-01.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-02.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-03.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-04.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-05.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-06.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-07.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-08.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        },
+        {
+          "path": "menu/menu-09/frame-09.png",
+          "file_sha256": "a5666dd0192d6edca2f6c46eba8f4e471306c1f594428f20607517fc743c5892"
+        }
+      ],
+      "capture": {
+        "class_label": "menu",
+        "instance_id": "menu-09",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "left",
+            "held": 8,
+            "release": 40
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 60
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-01",
+      "role": "primary",
+      "frame_sha256": [
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa",
+        "9a6e5f215e1c20e084ebe07584b1aeda1ea958f27517796ac6cb6d77717f1cfa"
+      ],
+      "sequence_sha256": "ad75154c97818aa97bebe3d618565acc5372245d9fb46661f3027b8fff8209c1",
+      "frames": [
+        {
+          "path": "title/title-01/frame-00.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-01.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-02.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-03.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-04.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-05.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-06.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-07.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-08.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        },
+        {
+          "path": "title/title-01/frame-09.png",
+          "file_sha256": "f3adc6e96ed2a776d9f1b433a210f7981772896d32787f2a654f36b7f7d62213"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-01",
+        "actions": [
+          {
+            "wait": 1400
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-02",
+      "role": "primary",
+      "frame_sha256": [
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3",
+        "390ffaa24f10238c3ac5969f5e70b7ce096ebd3e2541c31e6eedd0a9de45ebb3"
+      ],
+      "sequence_sha256": "966dce6eaa65332ee334e74aab92073d7bf47fcd416716ae4ac49d0c2209cb7a",
+      "frames": [
+        {
+          "path": "title/title-02/frame-00.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-01.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-02.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-03.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-04.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-05.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-06.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-07.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-08.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        },
+        {
+          "path": "title/title-02/frame-09.png",
+          "file_sha256": "257ee1bf0cb20963b44406acb622ea76edcd5ad9d937614fc5c49e89d5368f91"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-02",
+        "actions": [
+          {
+            "wait": 1750
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-03",
+      "role": "primary",
+      "frame_sha256": [
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a",
+        "89f1660a742ae9fef7f6f6b36911ee228adba0ec982a9a397c9bfb29c8c1b06a"
+      ],
+      "sequence_sha256": "b568eab2dd84bc90ca2e3e314d2b6132766335ad2b49bec1d5a0a4a730e40d37",
+      "frames": [
+        {
+          "path": "title/title-03/frame-00.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-01.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-02.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-03.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-04.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-05.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-06.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-07.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-08.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        },
+        {
+          "path": "title/title-03/frame-09.png",
+          "file_sha256": "f151ff54d22f54b8b960f806d1a39da8240ad679ce97d7c33472d75f671b5a7b"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-03",
+        "actions": [
+          {
+            "wait": 2000
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-04",
+      "role": "primary",
+      "frame_sha256": [
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3",
+        "9a509600892476eaa63134e55b344dca6e4527813342cedc45bb487b708238c3"
+      ],
+      "sequence_sha256": "e3796c9cb1f07cac2e25dcc90231e9c1ce39dac8e0c38daad034de20bbd01fe1",
+      "frames": [
+        {
+          "path": "title/title-04/frame-00.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-01.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-02.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-03.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-04.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-05.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-06.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-07.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-08.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        },
+        {
+          "path": "title/title-04/frame-09.png",
+          "file_sha256": "7931f43a0c942ee08521e982fedc75a03219e47f46aafd86abc3c4b34c1378b7"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-04",
+        "actions": [
+          {
+            "wait": 2300
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-05",
+      "role": "primary",
+      "frame_sha256": [
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897",
+        "411b58d3351d977f4dde9e38fad8063d19f2f3700582bcad931c7f9c9cfc0897"
+      ],
+      "sequence_sha256": "8e1398ac9ca18eb7e6723140ccc482317da6709457a62c23ca6479652005aa77",
+      "frames": [
+        {
+          "path": "title/title-05/frame-00.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-01.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-02.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-03.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-04.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-05.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-06.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-07.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-08.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        },
+        {
+          "path": "title/title-05/frame-09.png",
+          "file_sha256": "617388475d19947440c24d68cc20b242f490e77be4bebb75ef9edb1e8c09704e"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-05",
+        "actions": [
+          {
+            "wait": 2550
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-06",
+      "role": "primary",
+      "frame_sha256": [
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f",
+        "04b8dc2313cda9779b0a7bf7088a547ae6e543934bc58976801ea975af44655f"
+      ],
+      "sequence_sha256": "03a5fd7bcff3958dd45b05e16a3ae3f1ce614e8b2015fcb0f5d796b7d7c80162",
+      "frames": [
+        {
+          "path": "title/title-06/frame-00.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-01.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-02.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-03.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-04.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-05.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-06.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-07.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-08.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        },
+        {
+          "path": "title/title-06/frame-09.png",
+          "file_sha256": "3687e7c0f6556c060276d0d15c312754bf89a561893a2f4a0ba067b3452c2c76"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-06",
+        "actions": [
+          {
+            "wait": 2850
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-07",
+      "role": "primary",
+      "frame_sha256": [
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc",
+        "ef718a8a77d670e1e6cc705e192a2163d908f74b2fa504abc9ce10b994f601cc"
+      ],
+      "sequence_sha256": "2559f33892dacd4c42721e22b3a437de9c63898e7423c104aa55230a8ff8871a",
+      "frames": [
+        {
+          "path": "title/title-07/frame-00.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-01.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-02.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-03.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-04.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-05.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-06.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-07.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-08.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        },
+        {
+          "path": "title/title-07/frame-09.png",
+          "file_sha256": "fda9e3f53de29f780cc06a4ec80aa12286b9dce450b2ec379fb5e4df03b3a87a"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-07",
+        "actions": [
+          {
+            "wait": 3150
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "title",
+      "instance_id": "title-08",
+      "role": "primary",
+      "frame_sha256": [
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670",
+        "dd86c6aa5f98f7af49adbec41d040783bf32aaa18d6cf695c7f4f41fcf2aa670"
+      ],
+      "sequence_sha256": "8e385c9a3ebee10830999082c3966c93d9a620d4ec0e276586c5fa876b19ced1",
+      "frames": [
+        {
+          "path": "title/title-08/frame-00.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-01.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-02.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-03.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-04.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-05.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-06.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-07.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-08.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        },
+        {
+          "path": "title/title-08/frame-09.png",
+          "file_sha256": "91a12e1bf4c9fc256e696825f91d17021b74d8b41a8ff058f04e5925ae3f3e14"
+        }
+      ],
+      "capture": {
+        "class_label": "title",
+        "instance_id": "title-08",
+        "actions": [
+          {
+            "wait": 3450
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-01",
+      "role": "primary",
+      "frame_sha256": [
+        "b084b00563f7e2cd080e755ed8861fd03b0fd76f14066c3c0529b8c7567302a3",
+        "dc3667c25f854a273574005924c52488eee01a8bf4f146cc3915652b6695c334",
+        "5b855677a7193c9620a2b0134fc9e31d7a3a6cb88cb2f9ee67dad45bf5ca32f0",
+        "6f075029afb1c1c91ae18f180a58276ee93f5cc4ff81ee2da041faf73c9f30d0",
+        "fe07e6c2ca81bc95fa732312438ef71a2b19fa9a091ae3da6cbbf894cc14c05f",
+        "586e94f975309e896b622fbcae93e0ba3651583f5239db017ffa9ab38ea67440",
+        "f3541c62a7e15823af56023a16702e678e8c734d8c4a74930a82d9cd741330a6",
+        "99e22d58fa4f871e187e72ac9018b803c5602b111c42acae6b4a90ed7d9c8e6a",
+        "bbdb49e0a94c81e56da93c697452f80db44ce0b0ec0eb0901117f5a32a3e2a19",
+        "bbdb49e0a94c81e56da93c697452f80db44ce0b0ec0eb0901117f5a32a3e2a19"
+      ],
+      "sequence_sha256": "147b82dd42ade4c62b0e6ab8090299e3b62044b7de26751aa1a4b9e1fb66c20f",
+      "frames": [
+        {
+          "path": "intro/intro-01/frame-00.png",
+          "file_sha256": "1346c20fa9bef663c3b24d94168b84526f0212de412eae2d87d382006efd7b20"
+        },
+        {
+          "path": "intro/intro-01/frame-01.png",
+          "file_sha256": "4224d19363332fb4280080e1a6609bfb0ac02c45d1450f2bca108a7b52d83bb6"
+        },
+        {
+          "path": "intro/intro-01/frame-02.png",
+          "file_sha256": "da34b64194f2208f82ebe35ebd8855ee917db09e4c2f2ca7e3126583a208c32e"
+        },
+        {
+          "path": "intro/intro-01/frame-03.png",
+          "file_sha256": "bac863219bccf2c19f2a48551e133ad3baa18acc9101b29b8d4e158df159fd53"
+        },
+        {
+          "path": "intro/intro-01/frame-04.png",
+          "file_sha256": "d885e8e31beca61fab644cfe8fd780927ac0031ce3982c0a937571932cacdc26"
+        },
+        {
+          "path": "intro/intro-01/frame-05.png",
+          "file_sha256": "f279a2c3b14fa56d6dd085897e32e306fe39fe5f3fa8c17259142a6a9da19be3"
+        },
+        {
+          "path": "intro/intro-01/frame-06.png",
+          "file_sha256": "7ee5151606121a5be3957a5197ad45c26201dc1bce605a64243e4566da681613"
+        },
+        {
+          "path": "intro/intro-01/frame-07.png",
+          "file_sha256": "a8bcaf9a71b8595120c64837573c736312fc1ee1a42c31c3564a4827b7dabfc9"
+        },
+        {
+          "path": "intro/intro-01/frame-08.png",
+          "file_sha256": "acf4ef3f3e9ca74674b80aaf730db56da515398a7a19bdd60f8677fdf0ae0be5"
+        },
+        {
+          "path": "intro/intro-01/frame-09.png",
+          "file_sha256": "acf4ef3f3e9ca74674b80aaf730db56da515398a7a19bdd60f8677fdf0ae0be5"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-01",
+        "actions": [
+          {
+            "wait": 700
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-04",
+      "role": "primary",
+      "frame_sha256": [
+        "563ee12b9f434747075953a371c71f2ce6d52bde25aad1e20c84a97d9e31055b",
+        "563ee12b9f434747075953a371c71f2ce6d52bde25aad1e20c84a97d9e31055b",
+        "563ee12b9f434747075953a371c71f2ce6d52bde25aad1e20c84a97d9e31055b",
+        "bb38d82eeaade50fa36cc0b295f097fd80243b381a66f6b8e382a0206de08937",
+        "19b162c03bcbf8faa1ee35e0f441a4592bebcfc14b3bfc3843542caf42a98dcf",
+        "41edebf5e26f44822686a7b84180dd7fa6efc45ed35652ff16dc1af914f13449",
+        "032902f7c1980f09e6764aa5d738b8bf569b9f12a877e41fde8bdda1904e6109",
+        "c9e8a4a2647a34cda7f3ca510711da4521bea16362439f55da97bc1a724f82f5",
+        "c9e8a4a2647a34cda7f3ca510711da4521bea16362439f55da97bc1a724f82f5",
+        "c9927dd1417c4ccd5e34d2e9add91f468047a6cc477f7c03485a5deb9391f424"
+      ],
+      "sequence_sha256": "f68f26cbcfa8451127d90a5b652e6cb030757de2b88a915ff6d046efcec17790",
+      "frames": [
+        {
+          "path": "intro/intro-04/frame-00.png",
+          "file_sha256": "bcef7e961c6d0e119d993216e8425b8db2af2491845053f02233ccb6913e9e5a"
+        },
+        {
+          "path": "intro/intro-04/frame-01.png",
+          "file_sha256": "bcef7e961c6d0e119d993216e8425b8db2af2491845053f02233ccb6913e9e5a"
+        },
+        {
+          "path": "intro/intro-04/frame-02.png",
+          "file_sha256": "bcef7e961c6d0e119d993216e8425b8db2af2491845053f02233ccb6913e9e5a"
+        },
+        {
+          "path": "intro/intro-04/frame-03.png",
+          "file_sha256": "919a7a84fb52a26f873ce2fd2e212bed22c1271a6e5d82fc6c0561a18e63a7f5"
+        },
+        {
+          "path": "intro/intro-04/frame-04.png",
+          "file_sha256": "3c2f9d857a0fe0faf13ad2608a90522492bff2ff755f8a9366cfa659a2ffe3f5"
+        },
+        {
+          "path": "intro/intro-04/frame-05.png",
+          "file_sha256": "f30420e08a6f8e986ee753088c4c4223d4924ed77b9c7ec678915d9d0e40f487"
+        },
+        {
+          "path": "intro/intro-04/frame-06.png",
+          "file_sha256": "749bf55a6657f8eba40cfdee4504d37e925759b824ea16875275814a57498611"
+        },
+        {
+          "path": "intro/intro-04/frame-07.png",
+          "file_sha256": "ba5bd8d5145387a26a72f79ff75a52c7520b1d9edccfe304e298265e7e778d3f"
+        },
+        {
+          "path": "intro/intro-04/frame-08.png",
+          "file_sha256": "ba5bd8d5145387a26a72f79ff75a52c7520b1d9edccfe304e298265e7e778d3f"
+        },
+        {
+          "path": "intro/intro-04/frame-09.png",
+          "file_sha256": "b0ab4b0072146347840e6e74e88aa2cf9a69de201ea834ad6f485a338141b33f"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-04",
+        "actions": [
+          {
+            "wait": 900
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-05",
+      "role": "primary",
+      "frame_sha256": [
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "e6451ff0780e1680dc5c2da9f364a980af4d8c5cbedf25c780cf7d20612c0600",
+        "1f6688a59a732f79d76fb018bc35ceb191b1716d9a6ba50f0008d62c476d1afa"
+      ],
+      "sequence_sha256": "15b717fb1b9dd8d427356f35601a17a63e37ad3223e2c0a588132ca4b4988749",
+      "frames": [
+        {
+          "path": "intro/intro-05/frame-00.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-01.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-02.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-03.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-04.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-05.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-06.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-07.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-08.png",
+          "file_sha256": "60c00ea5c474f2fbdf1696d2e6e2d8a2bb5af1d489715ed550ab54edb0d803dd"
+        },
+        {
+          "path": "intro/intro-05/frame-09.png",
+          "file_sha256": "97b0ab119d30d0480234297012e4b005f9b989e42c8e97b22ef219a3564ca9cf"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-05",
+        "actions": [
+          {
+            "wait": 950
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-06",
+      "role": "primary",
+      "frame_sha256": [
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be",
+        "7c9f20d35c3c0fd9797a37c796eee1bee63d11f06296fc6979bd4f238e44f8be"
+      ],
+      "sequence_sha256": "31410fa8bded205e0eb98ec2a0294fdc20deccb4e21fa2cbc900c75d19b9eff6",
+      "frames": [
+        {
+          "path": "intro/intro-06/frame-00.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-01.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-02.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-03.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-04.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-05.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-06.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-07.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-08.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        },
+        {
+          "path": "intro/intro-06/frame-09.png",
+          "file_sha256": "10c22392aa7c7ccf5ff3112826ba7b1ec66c4a11519f5c7c62822195902a0f69"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-06",
+        "actions": [
+          {
+            "wait": 1000
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-07",
+      "role": "primary",
+      "frame_sha256": [
+        "0a7c86ad8fde02c917ad7dde7d7e95ed29f1fd9b173482f4deb04e490ead1bb8",
+        "10a4c92b8609d1458affd7ade2b5ec0977a8a54341d7c74de1dbf233830f5b3a",
+        "a01ec5637e6ee35d3957526b39f6315d4a18376d63f05747d9d5a3f66206b2cd",
+        "fcd5d795aacd6e0e50aad15244da66d1b4a9fa97650cb9030d1283109e445479",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37",
+        "593e590ddd0f5797c9928ee5ace7acf2494599b7c4747420fecc9571c3e3bd37"
+      ],
+      "sequence_sha256": "271b64625f0d8c490ec146e540dff7c1e0c11bf9bdd6966c74ee382da9c54fa8",
+      "frames": [
+        {
+          "path": "intro/intro-07/frame-00.png",
+          "file_sha256": "a5fe4600d40bc6d6524abe1c44984d4674b9900ef0bac35f461852e4c3b7ea8a"
+        },
+        {
+          "path": "intro/intro-07/frame-01.png",
+          "file_sha256": "612165703579ba58d213b9b257a3b8c4428376215015d2a51c30846a0b1cc8c0"
+        },
+        {
+          "path": "intro/intro-07/frame-02.png",
+          "file_sha256": "07b418d41971110743f5c6633298a1c52d567dda0c1a7ee1b283a72a410f5a05"
+        },
+        {
+          "path": "intro/intro-07/frame-03.png",
+          "file_sha256": "7993c5035e0bc430b065a7799b6085efb82dfd2c3969cf843661f1972764eef4"
+        },
+        {
+          "path": "intro/intro-07/frame-04.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        },
+        {
+          "path": "intro/intro-07/frame-05.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        },
+        {
+          "path": "intro/intro-07/frame-06.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        },
+        {
+          "path": "intro/intro-07/frame-07.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        },
+        {
+          "path": "intro/intro-07/frame-08.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        },
+        {
+          "path": "intro/intro-07/frame-09.png",
+          "file_sha256": "98c63dc4117312997c55b4e75c526a7d4da93508b045051a41acea05caa188e4"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-07",
+        "actions": [
+          {
+            "wait": 1080
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "intro",
+      "instance_id": "intro-08",
+      "role": "primary",
+      "frame_sha256": [
+        "bf5cd77818304ff5acdd96946b665d596b73b76393972ec44a2012dad49ce6c1",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3",
+        "09371003b9af7f3ca63f090303220c0e08ca8496f188aa94491f43f176e163d3"
+      ],
+      "sequence_sha256": "8e64b471f0374a95e4d8c97c1177ebcc63421ff8c988154a4c0611d3af853daa",
+      "frames": [
+        {
+          "path": "intro/intro-08/frame-00.png",
+          "file_sha256": "e9ebe4ec73169aa1a9efcf874f911f99a27752472f9a437fb83f4204d2007162"
+        },
+        {
+          "path": "intro/intro-08/frame-01.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-02.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-03.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-04.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-05.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-06.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-07.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-08.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        },
+        {
+          "path": "intro/intro-08/frame-09.png",
+          "file_sha256": "3aa5fea9f2cdcd6c4274f89f97b00fddbcba5b61f586acc21a66522132458f8a"
+        }
+      ],
+      "capture": {
+        "class_label": "intro",
+        "instance_id": "intro-08",
+        "actions": [
+          {
+            "wait": 1130
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+      }
+    },
+    {
+      "class_label": "ood",
+      "instance_id": "ood-options-01",
+      "role": "ood",
+      "frame_sha256": [
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085",
+        "8b8184b0fa2733589ae7c35cfe39bd1629594da99fb8993f04a366a90a3ed085"
+      ],
+      "sequence_sha256": "068df4f3fe22be12495f5bcf746a48cd9bf21ea6d6da98fb0192899dc2f39ed0",
+      "frames": [
+        {
+          "path": "ood/ood-options-01/frame-00.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-01.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-02.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-03.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-04.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-05.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-06.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-07.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-08.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        },
+        {
+          "path": "ood/ood-options-01/frame-09.png",
+          "file_sha256": "6992aa8ddc7a56c210e5a0e557fd5f99bc828f7070f049715b84b6e15c34a809"
+        }
+      ],
+      "capture": {
+        "class_label": "ood",
+        "instance_id": "ood-options-01",
+        "role": "ood",
+        "savestate": "states/bedroom.state",
+        "actions": [
+          {
+            "wait": 1
+          },
+          {
+            "button": "start"
+          },
+          {
+            "wait": 60
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 15
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 15
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 15
+          },
+          {
+            "button": "down",
+            "held": 1,
+            "release": 15
+          },
+          {
+            "button": "a"
+          },
+          {
+            "wait": 90
+          }
+        ],
+        "frame_offsets": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "emulator": "PyBoy 2.7.0",
+        "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+        "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+      }
+    }
+  ],
+  "total_unique_first_images": 32,
+  "total_unique_framebuffers": 60,
+  "encoder_source_sha256": "44b7a88892d91c7aec49b240c8f67c52bc87940a492cc75d8a1cbab251f3e6a7",
+  "config": {
+    "grid_height": 18,
+    "grid_width": 20,
+    "frames": 10,
+    "game_frame_interval": 4,
+    "neural_steps_per_frame": 20,
+    "darkness_gain": 0.55,
+    "change_gain": 0.75,
+    "voltage_cap": 0.8,
+    "voltage_levels": 16
+  },
+  "regression_checks": {
+    "intro": "6a8c5b930cdbaaee0ccef8c080be8b3d22909e983f7638ea6f08b2c3df8e0e19",
+    "title": "c2ca31ddd22736938b5eb4b4023c69c50a0b5ecf65cae620c26b9192712a0bc2",
+    "new_game_menu": "b2d44b2c92626910543de1a1519e8245b6608573d4aa7066eae9d45228c05c02",
+    "oak_dialogue": "2eb37c453c56ffde7d44976fbebc572189a19482f0947d05d2261cefc620ecdc",
+    "bedroom": "5f309a1f9ada3221bf7ecdcf75ca0a20f56cdfbd4c1a8d5e2be068a7f290c6e0"
+  }
+}

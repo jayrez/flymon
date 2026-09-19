@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="240">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="25">Nested double-holdout per-class recall</text>
+<text x="145" y="65" text-anchor="end" font-size="12">bedroom</text>
+<rect x="155" y="50" width="188.6" height="22" fill="#275e85"/>
+<text x="625" y="65" font-size="12">0.4100</text>
+<text x="145" y="97" text-anchor="end" font-size="12">dialogue</text>
+<rect x="155" y="82" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="97" font-size="12">1.0000</text>
+<text x="145" y="129" text-anchor="end" font-size="12">menu</text>
+<rect x="155" y="114" width="326.59999999999997" height="22" fill="#275e85"/>
+<text x="625" y="129" font-size="12">0.7100</text>
+<text x="145" y="161" text-anchor="end" font-size="12">title</text>
+<rect x="155" y="146" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="161" font-size="12">1.0000</text>
+<text x="145" y="193" text-anchor="end" font-size="12">intro</text>
+<rect x="155" y="178" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="193" font-size="12">1.0000</text>
+</svg>

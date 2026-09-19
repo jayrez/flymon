@@ -1,0 +1,19 @@
+{
+  "actions": {
+    "LEFT": "Experiment 8 DNa02 baseline-relative",
+    "RIGHT": "Experiment 8 DNa02 baseline-relative",
+    "UP": "Experiment 9 DNg100 baseline-relative",
+    "DOWN": "disabled",
+    "NONE": "deadband/cooldown"
+  },
+  "config": {
+    "steering_multiplier": 2.0,
+    "steering_floor_hz": 1.62992073549913,
+    "steering_side": "L",
+    "forward_multiplier": 2.0,
+    "forward_floor_hz": 0.5,
+    "backward_multiplier": 2.0,
+    "backward_floor_hz": 2.4659848095803594,
+    "cooldown_decisions": 1
+  }
+}

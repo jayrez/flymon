@@ -1,0 +1,114 @@
+{
+  "model": "MaleCNS v1.0",
+  "neurons": [
+    {
+      "cell_type": "DNa02",
+      "flywire_malecns_id": 10360,
+      "brain_index": 332,
+      "side": "R",
+      "superclass": "descending_neuron",
+      "count": 2
+    },
+    {
+      "cell_type": "DNa02",
+      "flywire_malecns_id": 523769,
+      "brain_index": 131957,
+      "side": "L",
+      "superclass": "descending_neuron",
+      "count": 2
+    },
+    {
+      "cell_type": "DNg100",
+      "flywire_malecns_id": 10045,
+      "brain_index": 36,
+      "side": "L",
+      "superclass": "descending_neuron",
+      "count": 2
+    },
+    {
+      "cell_type": "DNg100",
+      "flywire_malecns_id": 10056,
+      "brain_index": 46,
+      "side": "R",
+      "superclass": "descending_neuron",
+      "count": 2
+    },
+    {
+      "cell_type": "MDN",
+      "flywire_malecns_id": 10763,
+      "brain_index": 706,
+      "side": "R",
+      "superclass": "descending_neuron",
+      "count": 4
+    },
+    {
+      "cell_type": "MDN",
+      "flywire_malecns_id": 11288,
+      "brain_index": 1196,
+      "side": "L",
+      "superclass": "descending_neuron",
+      "count": 4
+    },
+    {
+      "cell_type": "MDN",
+      "flywire_malecns_id": 11332,
+      "brain_index": 1240,
+      "side": "R",
+      "superclass": "descending_neuron",
+      "count": 4
+    },
+    {
+      "cell_type": "MDN",
+      "flywire_malecns_id": 12348,
+      "brain_index": 2194,
+      "side": "L",
+      "superclass": "descending_neuron",
+      "count": 4
+    },
+    {
+      "cell_type": "DNp01",
+      "flywire_malecns_id": 10001,
+      "brain_index": 0,
+      "side": "R",
+      "superclass": "descending_neuron",
+      "count": 2
+    },
+    {
+      "cell_type": "DNp01",
+      "flywire_malecns_id": 10010,
+      "brain_index": 6,
+      "side": "L",
+      "superclass": "descending_neuron",
+      "count": 2
+    }
+  ],
+  "counts": {
+    "DNa02": 2,
+    "DNg100": 2,
+    "MDN": 4,
+    "DNp01": 2
+  },
+  "exploratory_E4_informative_DN_indices": [
+    131148,
+    1593,
+    1131,
+    608,
+    130350,
+    135203,
+    333,
+    125880,
+    703,
+    927,
+    204,
+    1405,
+    1457,
+    3374,
+    6,
+    359,
+    125909,
+    2699,
+    137,
+    505
+  ],
+  "source": "local redfly-benchmark/data/brain.npz verified before use"
+}

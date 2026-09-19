@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="720">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="25">Instance permutation null; observed=0.863; p=0.0010</text>
+<text x="145" y="65" text-anchor="end" font-size="12">0.072–0.093</text>
+<rect x="155" y="50" width="46.0" height="22" fill="#275e85"/>
+<text x="625" y="65" font-size="12">12.0000</text>
+<text x="145" y="97" text-anchor="end" font-size="12">0.093–0.115</text>
+<rect x="155" y="82" width="195.5" height="22" fill="#275e85"/>
+<text x="625" y="97" font-size="12">51.0000</text>
+<text x="145" y="129" text-anchor="end" font-size="12">0.115–0.137</text>
+<rect x="155" y="114" width="425.5" height="22" fill="#275e85"/>
+<text x="625" y="129" font-size="12">111.0000</text>
+<text x="145" y="161" text-anchor="end" font-size="12">0.137–0.158</text>
+<rect x="155" y="146" width="444.6666666666667" height="22" fill="#275e85"/>
+<text x="625" y="161" font-size="12">116.0000</text>
+<text x="145" y="193" text-anchor="end" font-size="12">0.158–0.180</text>
+<rect x="155" y="178" width="452.3333333333333" height="22" fill="#275e85"/>
+<text x="625" y="193" font-size="12">118.0000</text>
+<text x="145" y="225" text-anchor="end" font-size="12">0.180–0.201</text>
+<rect x="155" y="210" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="225" font-size="12">120.0000</text>
+<text x="145" y="257" text-anchor="end" font-size="12">0.201–0.223</text>
+<rect x="155" y="242" width="448.5" height="22" fill="#275e85"/>
+<text x="625" y="257" font-size="12">117.0000</text>
+<text x="145" y="289" text-anchor="end" font-size="12">0.223–0.244</text>
+<rect x="155" y="274" width="352.6666666666667" height="22" fill="#275e85"/>
+<text x="625" y="289" font-size="12">92.0000</text>
+<text x="145" y="321" text-anchor="end" font-size="12">0.244–0.266</text>
+<rect x="155" y="306" width="295.1666666666667" height="22" fill="#275e85"/>
+<text x="625" y="321" font-size="12">77.0000</text>
+<text x="145" y="353" text-anchor="end" font-size="12">0.266–0.287</text>
+<rect x="155" y="338" width="176.33333333333334" height="22" fill="#275e85"/>
+<text x="625" y="353" font-size="12">46.0000</text>
+<text x="145" y="385" text-anchor="end" font-size="12">0.287–0.309</text>
+<rect x="155" y="370" width="138.0" height="22" fill="#275e85"/>
+<text x="625" y="385" font-size="12">36.0000</text>
+<text x="145" y="417" text-anchor="end" font-size="12">0.309–0.331</text>
+<rect x="155" y="402" width="126.5" height="22" fill="#275e85"/>
+<text x="625" y="417" font-size="12">33.0000</text>
+<text x="145" y="449" text-anchor="end" font-size="12">0.331–0.352</text>
+<rect x="155" y="434" width="88.16666666666667" height="22" fill="#275e85"/>
+<text x="625" y="449" font-size="12">23.0000</text>
+<text x="145" y="481" text-anchor="end" font-size="12">0.352–0.374</text>
+<rect x="155" y="466" width="61.333333333333336" height="22" fill="#275e85"/>
+<text x="625" y="481" font-size="12">16.0000</text>
+<text x="145" y="513" text-anchor="end" font-size="12">0.374–0.395</text>
+<rect x="155" y="498" width="49.833333333333336" height="22" fill="#275e85"/>
+<text x="625" y="513" font-size="12">13.0000</text>
+<text x="145" y="545" text-anchor="end" font-size="12">0.395–0.417</text>
+<rect x="155" y="530" width="15.333333333333334" height="22" fill="#275e85"/>
+<text x="625" y="545" font-size="12">4.0000</text>
+<text x="145" y="577" text-anchor="end" font-size="12">0.417–0.438</text>
+<rect x="155" y="562" width="19.166666666666668" height="22" fill="#275e85"/>
+<text x="625" y="577" font-size="12">5.0000</text>
+<text x="145" y="609" text-anchor="end" font-size="12">0.438–0.460</text>
+<rect x="155" y="594" width="19.166666666666668" height="22" fill="#275e85"/>
+<text x="625" y="609" font-size="12">5.0000</text>
+<text x="145" y="641" text-anchor="end" font-size="12">0.460–0.482</text>
+<rect x="155" y="626" width="11.5" height="22" fill="#275e85"/>
+<text x="625" y="641" font-size="12">3.0000</text>
+<text x="145" y="673" text-anchor="end" font-size="12">0.482–0.503</text>
+<rect x="155" y="658" width="7.666666666666667" height="22" fill="#275e85"/>
+<text x="625" y="673" font-size="12">2.0000</text>
+</svg>

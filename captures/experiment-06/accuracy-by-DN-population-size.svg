@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="272">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="25">Outer accuracy; fixed-size curves are diagnostic</text>
+<text x="145" y="65" text-anchor="end" font-size="12">1314</text>
+<rect x="155" y="50" width="339.16666666666663" height="22" fill="#275e85"/>
+<text x="625" y="65" font-size="12">0.6359</text>
+<text x="145" y="97" text-anchor="end" font-size="12">500</text>
+<rect x="155" y="82" width="455.8333333333333" height="22" fill="#275e85"/>
+<text x="625" y="97" font-size="12">0.8547</text>
+<text x="145" y="129" text-anchor="end" font-size="12">250</text>
+<rect x="155" y="114" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="129" font-size="12">0.8625</text>
+<text x="145" y="161" text-anchor="end" font-size="12">100</text>
+<rect x="155" y="146" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="161" font-size="12">0.8625</text>
+<text x="145" y="193" text-anchor="end" font-size="12">50</text>
+<rect x="155" y="178" width="452.5" height="22" fill="#275e85"/>
+<text x="625" y="193" font-size="12">0.8484</text>
+<text x="145" y="225" text-anchor="end" font-size="12">nested</text>
+<rect x="155" y="210" width="460.0" height="22" fill="#275e85"/>
+<text x="625" y="225" font-size="12">0.8625</text>
+</svg>

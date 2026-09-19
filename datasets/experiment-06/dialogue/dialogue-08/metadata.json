@@ -1,0 +1,176 @@
+{
+  "class_label": "dialogue",
+  "instance_id": "dialogue-08",
+  "role": "primary",
+  "frame_sha256": [
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "692fc3e1f99aec8f1c63979f8611aac53617cd7dad20e2697ddf95679b1bc7e4",
+    "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+    "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+    "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b",
+    "4b5d5dce024e4f74ab7d71537ee8153e25810ecf6fd13992b624f47a4d2bd12b"
+  ],
+  "sequence_sha256": "40cdd0ee36c846d2a2f760992d2a76d4cc09e530b7185613a12c861419815ecd",
+  "frames": [
+    {
+      "path": "dialogue/dialogue-08/frame-00.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-01.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-02.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-03.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-04.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-05.png",
+      "file_sha256": "5ac99678946f7f0bbf15bda5acc353dcc7dc3bda1ad79c273e45a83983e38f98"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-06.png",
+      "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-07.png",
+      "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-08.png",
+      "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+    },
+    {
+      "path": "dialogue/dialogue-08/frame-09.png",
+      "file_sha256": "99f721e2331be0c0ca7434e5cfc82bf4e3ad0369292109435df198177d6144ba"
+    }
+  ],
+  "capture": {
+    "class_label": "dialogue",
+    "instance_id": "dialogue-08",
+    "actions": [
+      {
+        "wait": 1500
+      },
+      {
+        "button": "start"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "wait": 60
+      }
+    ],
+    "frame_offsets": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36
+    ],
+    "emulator": "PyBoy 2.7.0",
+    "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+  }
+}

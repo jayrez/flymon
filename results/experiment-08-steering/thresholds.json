@@ -1,0 +1,133 @@
+{
+  "calibration_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420
+  ],
+  "selection_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "validation_seeds": [
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420
+  ],
+  "candidate_multipliers": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "pooled_baseline_sd_floor_hz": 1.62992073549913,
+  "left_evidence_side": "L",
+  "candidate_scores": [
+    {
+      "multiplier": 1.0,
+      "selection": {
+        "correct_lateral_fraction": 0.3516666666666667,
+        "incorrect_lateral_fraction": 0.03666666666666667,
+        "neutral_no_vision_action_fraction": 0.2316666666666667,
+        "objective": 0.315
+      },
+      "validation": {
+        "correct_lateral_fraction": 0.3283333333333333,
+        "incorrect_lateral_fraction": 0.030000000000000002,
+        "neutral_no_vision_action_fraction": 0.23,
+        "objective": 0.2983333333333333
+      }
+    },
+    {
+      "multiplier": 1.5,
+      "selection": {
+        "correct_lateral_fraction": 0.33,
+        "incorrect_lateral_fraction": 0.03166666666666667,
+        "neutral_no_vision_action_fraction": 0.20500000000000002,
+        "objective": 0.29833333333333334
+      },
+      "validation": {
+        "correct_lateral_fraction": 0.31166666666666665,
+        "incorrect_lateral_fraction": 0.028333333333333335,
+        "neutral_no_vision_action_fraction": 0.21,
+        "objective": 0.2833333333333333
+      }
+    },
+    {
+      "multiplier": 2.0,
+      "selection": {
+        "correct_lateral_fraction": 0.28,
+        "incorrect_lateral_fraction": 0.026666666666666665,
+        "neutral_no_vision_action_fraction": 0.16333333333333333,
+        "objective": 0.25333333333333335
+      },
+      "validation": {
+        "correct_lateral_fraction": 0.29666666666666663,
+        "incorrect_lateral_fraction": 0.03166666666666666,
+        "neutral_no_vision_action_fraction": 0.20666666666666667,
+        "objective": 0.26499999999999996
+      }
+    }
+  ],
+  "selected_multiplier": 2.0,
+  "selection_rule": "preregistered design.md",
+  "validation_lateral_test": {
+    "observed": 4.65,
+    "p_value": 0.001953125,
+    "enumerations": 1024
+  },
+  "validation_opposite_signed_means": true,
+  "primary_test_seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440
+  ],
+  "frozen_before_primary": true
+}

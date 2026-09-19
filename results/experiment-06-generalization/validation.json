@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "primary_unchanged_after_diagnostic_review": "PASS",
+    "required_results_exist": "PASS",
+    "required_plots_exist": "PASS",
+    "no_rom_or_emulator_temporary_artifacts": "PASS",
+    "1000_complete_nested_permutations": "PASS",
+    "capture_replay_all_visual_families": "PASS",
+    "all_leakage_checks_pass": "PASS"
+  },
+  "unittest": "9 passed",
+  "source_sha256": {
+    "flymon/dataset.py": "8152cca43048f44dc265f2efe167e12ba0a1aedca4d203bbec81e37cf399563b",
+    "flymon/generalization.py": "4a2bf8b4ed4c7daa7b8a13ce766e7aadef5b5da17eeea86a531e13c9252b9be8",
+    "capture_visual_instance.py": "b0467495e260ccc62e773320d21eafa3cb15bd69480b398472765c6cf76f7c51",
+    "run_generalization_experiment.py": "1579233625002ef7a4532d7464c515d2afd28ede50fe521fa70718995718889a",
+    "analyze_generalization_experiment.py": "446524f246fe24e23deabd4e9f3de21bf42d84d02ca45a11e53851a91e2910bc",
+    "test_generalization.py": "4c8e85198b1928287b93e965edd4ef4334250ad1ddaf4774732efdb9b16ee05c"
+  },
+  "artifact_bytes": 25257969
+}

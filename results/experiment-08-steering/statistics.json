@@ -1,0 +1,644 @@
+{
+  "verdict": "PASS",
+  "primary_result": "E",
+  "answer": "YES",
+  "calibration": {
+    "left_biased": {
+      "mean_steering_hz": 3.033333333333333,
+      "sd_steering_hz": 2.7566381661098807,
+      "LEFT_RIGHT_ratio": 27.133333333333333,
+      "LEFT_fraction": 0.3383333333333333,
+      "RIGHT_fraction": 0.011666666666666667,
+      "NONE_fraction": 0.65,
+      "percentiles_hz": {
+        "p05": -1.5,
+        "p25": 0.0,
+        "p50": 5.0,
+        "p75": 5.0,
+        "p95": 5.0
+      }
+    },
+    "right_biased": {
+      "mean_steering_hz": -1.6583333333333334,
+      "sd_steering_hz": 3.124425378443957,
+      "LEFT_RIGHT_ratio": 0.1986062717770035,
+      "LEFT_fraction": 0.04666666666666667,
+      "RIGHT_fraction": 0.23833333333333334,
+      "NONE_fraction": 0.715,
+      "percentiles_hz": {
+        "p05": -5.5,
+        "p25": -5.0,
+        "p50": -0.5,
+        "p75": 0.0,
+        "p95": 5.0
+      }
+    },
+    "neutral": {
+      "mean_steering_hz": 0.5833333333333334,
+      "sd_steering_hz": 3.1152951698913114,
+      "LEFT_RIGHT_ratio": 2.7721518987341773,
+      "LEFT_fraction": 0.18166666666666667,
+      "RIGHT_fraction": 0.065,
+      "NONE_fraction": 0.7533333333333333,
+      "percentiles_hz": {
+        "p05": -5.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 3.625,
+        "p95": 5.0
+      }
+    },
+    "no_vision": {
+      "mean_steering_hz": 0.31666666666666665,
+      "sd_steering_hz": 2.096317358210053,
+      "LEFT_RIGHT_ratio": 2.658536585365854,
+      "LEFT_fraction": 0.09,
+      "RIGHT_fraction": 0.03333333333333333,
+      "NONE_fraction": 0.8766666666666667,
+      "percentiles_hz": {
+        "p05": -2.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p95": 5.0
+      }
+    }
+  },
+  "thresholds": {
+    "calibration_seeds": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420
+    ],
+    "selection_seeds": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410
+    ],
+    "validation_seeds": [
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420
+    ],
+    "candidate_multipliers": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "pooled_baseline_sd_floor_hz": 1.62992073549913,
+    "left_evidence_side": "L",
+    "candidate_scores": [
+      {
+        "multiplier": 1.0,
+        "selection": {
+          "correct_lateral_fraction": 0.3516666666666667,
+          "incorrect_lateral_fraction": 0.03666666666666667,
+          "neutral_no_vision_action_fraction": 0.2316666666666667,
+          "objective": 0.315
+        },
+        "validation": {
+          "correct_lateral_fraction": 0.3283333333333333,
+          "incorrect_lateral_fraction": 0.030000000000000002,
+          "neutral_no_vision_action_fraction": 0.23,
+          "objective": 0.2983333333333333
+        }
+      },
+      {
+        "multiplier": 1.5,
+        "selection": {
+          "correct_lateral_fraction": 0.33,
+          "incorrect_lateral_fraction": 0.03166666666666667,
+          "neutral_no_vision_action_fraction": 0.20500000000000002,
+          "objective": 0.29833333333333334
+        },
+        "validation": {
+          "correct_lateral_fraction": 0.31166666666666665,
+          "incorrect_lateral_fraction": 0.028333333333333335,
+          "neutral_no_vision_action_fraction": 0.21,
+          "objective": 0.2833333333333333
+        }
+      },
+      {
+        "multiplier": 2.0,
+        "selection": {
+          "correct_lateral_fraction": 0.28,
+          "incorrect_lateral_fraction": 0.026666666666666665,
+          "neutral_no_vision_action_fraction": 0.16333333333333333,
+          "objective": 0.25333333333333335
+        },
+        "validation": {
+          "correct_lateral_fraction": 0.29666666666666663,
+          "incorrect_lateral_fraction": 0.03166666666666666,
+          "neutral_no_vision_action_fraction": 0.20666666666666667,
+          "objective": 0.26499999999999996
+        }
+      }
+    ],
+    "selected_multiplier": 2.0,
+    "selection_rule": "preregistered design.md",
+    "validation_lateral_test": {
+      "observed": 4.65,
+      "p_value": 0.001953125,
+      "enumerations": 1024
+    },
+    "validation_opposite_signed_means": true,
+    "primary_test_seeds": [
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440
+    ],
+    "frozen_before_primary": true
+  },
+  "natural_summaries": {
+    "live_vision": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.32166666666666666,
+        "RIGHT": 0.02666666666666667,
+        "NONE": 0.6516666666666666
+      },
+      "action_rate": 0.3483333333333334,
+      "action_entropy_bits": 1.0683938505960238,
+      "steering_mean_hz": 2.6083333333333334,
+      "steering_abs_mean_hz": 3.4191666666666665,
+      "steering_sd_hz": 3.266188483778178,
+      "steering_variance_hz2": 10.667987211565194,
+      "steering_percentiles_hz": {
+        "p05": -2.0,
+        "p25": 0.0,
+        "p50": 4.5,
+        "p75": 5.0,
+        "p95": 5.5
+      },
+      "fraction_positive": 0.655,
+      "fraction_negative": 0.2175,
+      "fraction_above_left_threshold": 0.5191666666666667,
+      "fraction_below_right_threshold": 0.03666666666666667,
+      "fraction_inside_deadband": 0.44416666666666665,
+      "threshold_crossing_rate": 0.5558333333333333,
+      "lag1_autocorrelation_mean": -0.29344405552283603
+    },
+    "no_vision": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.095,
+        "RIGHT": 0.019166666666666665,
+        "NONE": 0.8858333333333334
+      },
+      "action_rate": 0.11416666666666664,
+      "action_entropy_bits": 0.5868898582695008,
+      "steering_mean_hz": 0.3875,
+      "steering_abs_mean_hz": 1.1916666666666667,
+      "steering_sd_hz": 2.0633851753817045,
+      "steering_variance_hz2": 4.257558381984987,
+      "steering_percentiles_hz": {
+        "p05": -2.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 0.5,
+        "p95": 5.0
+      },
+      "fraction_positive": 0.35083333333333333,
+      "fraction_negative": 0.4,
+      "fraction_above_left_threshold": 0.10083333333333333,
+      "fraction_below_right_threshold": 0.024166666666666666,
+      "fraction_inside_deadband": 0.875,
+      "threshold_crossing_rate": 0.125,
+      "lag1_autocorrelation_mean": -0.12241313044452289
+    },
+    "frozen_frame": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.21083333333333334,
+        "RIGHT": 0.0425,
+        "NONE": 0.7466666666666667
+      },
+      "action_rate": 0.2533333333333333,
+      "action_entropy_bits": 0.9818344596610308,
+      "steering_mean_hz": 1.1083333333333334,
+      "steering_abs_mean_hz": 2.433333333333333,
+      "steering_sd_hz": 3.1571194769465594,
+      "steering_variance_hz2": 9.967403391715317,
+      "steering_percentiles_hz": {
+        "p05": -5.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 4.5,
+        "p95": 5.5
+      },
+      "fraction_positive": 0.48833333333333334,
+      "fraction_negative": 0.345,
+      "fraction_above_left_threshold": 0.2608333333333333,
+      "fraction_below_right_threshold": 0.07666666666666666,
+      "fraction_inside_deadband": 0.6625,
+      "threshold_crossing_rate": 0.3375,
+      "lag1_autocorrelation_mean": -0.3140454899366554
+    },
+    "shuffled_vision": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.18666666666666668,
+        "RIGHT": 0.06833333333333333,
+        "NONE": 0.745
+      },
+      "action_rate": 0.255,
+      "action_entropy_bits": 1.032935440614654,
+      "steering_mean_hz": 0.7666666666666667,
+      "steering_abs_mean_hz": 2.276666666666667,
+      "steering_sd_hz": 3.146369111803633,
+      "steering_variance_hz2": 9.899638587711982,
+      "steering_percentiles_hz": {
+        "p05": -5.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 4.5,
+        "p95": 5.5
+      },
+      "fraction_positive": 0.44166666666666665,
+      "fraction_negative": 0.35333333333333333,
+      "fraction_above_left_threshold": 0.2325,
+      "fraction_below_right_threshold": 0.1,
+      "fraction_inside_deadband": 0.6675,
+      "threshold_crossing_rate": 0.3325,
+      "lag1_autocorrelation_mean": -0.2610704052017292
+    },
+    "mirrored_vision": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.14,
+        "RIGHT": 0.09916666666666667,
+        "NONE": 0.7608333333333334
+      },
+      "action_rate": 0.23916666666666664,
+      "action_entropy_bits": 1.027764765915821,
+      "steering_mean_hz": 0.36666666666666664,
+      "steering_abs_mean_hz": 2.3025,
+      "steering_sd_hz": 3.2079273506624433,
+      "steering_variance_hz2": 10.290797887128162,
+      "steering_percentiles_hz": {
+        "p05": -5.5,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 3.0,
+        "p95": 5.5
+      },
+      "fraction_positive": 0.4175,
+      "fraction_negative": 0.37666666666666665,
+      "fraction_above_left_threshold": 0.17916666666666667,
+      "fraction_below_right_threshold": 0.14416666666666667,
+      "fraction_inside_deadband": 0.6766666666666666,
+      "threshold_crossing_rate": 0.3233333333333333,
+      "lag1_autocorrelation_mean": -0.17879432259233238
+    }
+  },
+  "comparisons": {
+    "live_vs_no_vision": {
+      "actions": {
+        "metric": "total variation",
+        "effect_size": 0.2341666666666667,
+        "p_value": 0.0002,
+        "permutations": 9999
+      },
+      "continuous": {
+        "metric": "paired seed mean steering difference Hz",
+        "effect_size": 2.220833333333333,
+        "absolute_effect_size": 2.220833333333333,
+        "p_value": 0.0001,
+        "permutations": 9999,
+        "seed_differences": [
+          3.3333333333333335,
+          2.583333333333333,
+          3.166666666666667,
+          2.9166666666666665,
+          -1.2499999999999998,
+          2.8333333333333335,
+          2.6666666666666665,
+          2.6666666666666665,
+          2.9166666666666665,
+          3.4166666666666665,
+          2.9166666666666665,
+          3.083333333333333,
+          2.916666666666667,
+          2.666666666666667,
+          0.5833333333333334,
+          3.166666666666667,
+          -0.08333333333333333,
+          1.0,
+          0.75,
+          2.166666666666667
+        ]
+      }
+    },
+    "live_vs_frozen": {
+      "actions": {
+        "metric": "total variation",
+        "effect_size": 0.11083333333333337,
+        "p_value": 0.0001,
+        "permutations": 9999
+      },
+      "continuous": {
+        "metric": "paired seed mean steering difference Hz",
+        "effect_size": 1.5000000000000002,
+        "absolute_effect_size": 1.5000000000000002,
+        "p_value": 0.0006,
+        "permutations": 9999,
+        "seed_differences": [
+          2.0833333333333335,
+          1.8333333333333333,
+          2.0000000000000004,
+          2.25,
+          -1.5,
+          1.9166666666666667,
+          2.5,
+          1.75,
+          2.0833333333333335,
+          2.3333333333333335,
+          2.3333333333333335,
+          2.0833333333333335,
+          2.3333333333333335,
+          2.416666666666667,
+          0.0,
+          2.5,
+          -0.8333333333333333,
+          0.0,
+          0.0,
+          1.916666666666667
+        ]
+      }
+    },
+    "live_vs_shuffled": {
+      "actions": {
+        "metric": "total variation",
+        "effect_size": 0.135,
+        "p_value": 0.0002,
+        "permutations": 9999
+      },
+      "continuous": {
+        "metric": "paired seed mean steering difference Hz",
+        "effect_size": 1.8416666666666668,
+        "absolute_effect_size": 1.8416666666666668,
+        "p_value": 0.0004,
+        "permutations": 9999,
+        "seed_differences": [
+          2.25,
+          2.1666666666666665,
+          3.166666666666667,
+          2.6666666666666665,
+          -1.833333333333333,
+          2.4166666666666665,
+          2.6666666666666665,
+          1.9166666666666667,
+          2.6666666666666665,
+          2.75,
+          2.9166666666666665,
+          2.1666666666666665,
+          2.75,
+          3.0,
+          0.33333333333333337,
+          2.75,
+          -1.1666666666666667,
+          0.5833333333333334,
+          0.41666666666666663,
+          2.25
+        ]
+      }
+    },
+    "normal_vs_mirrored": {
+      "actions": {
+        "metric": "total variation",
+        "effect_size": 0.1816666666666667,
+        "p_value": 0.0002,
+        "permutations": 9999
+      },
+      "continuous": {
+        "metric": "paired seed mean steering difference Hz",
+        "effect_size": 2.241666666666667,
+        "absolute_effect_size": 2.241666666666667,
+        "p_value": 0.001,
+        "permutations": 9999,
+        "seed_differences": [
+          3.5833333333333335,
+          2.833333333333333,
+          3.5000000000000004,
+          3.1666666666666665,
+          -3.9166666666666665,
+          3.25,
+          3.5833333333333335,
+          2.8333333333333335,
+          3.3333333333333335,
+          3.5,
+          3.3333333333333335,
+          4.083333333333333,
+          3.166666666666667,
+          3.166666666666667,
+          0.0,
+          3.0,
+          -0.41666666666666663,
+          -0.08333333333333326,
+          0.08333333333333326,
+          2.8333333333333335
+        ]
+      }
+    }
+  },
+  "closed_loop_feedback": {
+    "frame_hash_divergence_fraction": 0.4610169491525424,
+    "steering_absolute_divergence_mean_hz": 2.4190677966101695,
+    "action_disagreement_fraction": 0.35084745762711866,
+    "action_distribution_TV": 0.11083333333333337
+  },
+  "side_swap": {
+    "normal_distribution": {
+      "LEFT": 0.37666666666666665,
+      "RIGHT": 0.03,
+      "NONE": 0.5933333333333334
+    },
+    "swapped_distribution": {
+      "LEFT": 0.125,
+      "RIGHT": 0.16166666666666665,
+      "NONE": 0.7133333333333334
+    },
+    "TV": 0.25166666666666665
+  },
+  "dynamic_condition": {
+    "condition": "title animation",
+    "live": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.10666666666666667,
+        "RIGHT": 0.028333333333333332,
+        "NONE": 0.865
+      },
+      "action_rate": 0.135,
+      "action_entropy_bits": 0.6710612632975543,
+      "steering_mean_hz": 0.44166666666666665,
+      "steering_abs_mean_hz": 1.3516666666666666,
+      "steering_sd_hz": 2.255734360130891,
+      "steering_variance_hz2": 5.0883375034751195,
+      "steering_percentiles_hz": {
+        "p05": -2.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 0.5,
+        "p95": 5.0
+      },
+      "fraction_positive": 0.3575,
+      "fraction_negative": 0.3983333333333333,
+      "fraction_above_left_threshold": 0.12,
+      "fraction_below_right_threshold": 0.0325,
+      "fraction_inside_deadband": 0.8475,
+      "threshold_crossing_rate": 0.1525,
+      "lag1_autocorrelation_mean": -0.08544418492521985
+    },
+    "no_vision": {
+      "n": 1200,
+      "action_distribution": {
+        "LEFT": 0.1025,
+        "RIGHT": 0.020833333333333332,
+        "NONE": 0.8766666666666667
+      },
+      "action_rate": 0.1233333333333333,
+      "action_entropy_bits": 0.6196783024653836,
+      "steering_mean_hz": 0.42083333333333334,
+      "steering_abs_mean_hz": 1.1883333333333332,
+      "steering_sd_hz": 2.079022506943075,
+      "steering_variance_hz2": 4.322334584375869,
+      "steering_percentiles_hz": {
+        "p05": -2.0,
+        "p25": -0.5,
+        "p50": 0.0,
+        "p75": 0.5,
+        "p95": 5.0
+      },
+      "fraction_positive": 0.35333333333333333,
+      "fraction_negative": 0.3566666666666667,
+      "fraction_above_left_threshold": 0.10833333333333334,
+      "fraction_below_right_threshold": 0.025833333333333333,
+      "fraction_inside_deadband": 0.8658333333333333,
+      "threshold_crossing_rate": 0.13416666666666666,
+      "lag1_autocorrelation_mean": -0.12329416255534154
+    },
+    "comparison": {
+      "actions": {
+        "metric": "total variation",
+        "effect_size": 0.011666666666666697,
+        "p_value": 0.4472,
+        "permutations": 9999
+      },
+      "continuous": {
+        "metric": "paired seed mean steering difference Hz",
+        "effect_size": 0.020833333333333336,
+        "absolute_effect_size": 0.020833333333333336,
+        "p_value": 0.7549,
+        "permutations": 9999,
+        "seed_differences": [
+          0.2499999999999999,
+          0.3333333333333335,
+          -0.16666666666666663,
+          0.4166666666666667,
+          -0.16666666666666652,
+          -0.08333333333333337,
+          0.0,
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.08333333333333333,
+          0.16666666666666652,
+          -0.08333333333333326,
+          0.0,
+          0.0,
+          0.0,
+          -0.5833333333333334,
+          0.16666666666666666,
+          -0.08333333333333333,
+          -0.16666666666666663
+        ]
+      }
+    }
+  },
+  "encoder_lateral_diagnostic": {
+    "left_minus_right_mean": 14.933415280859917,
+    "sd": 15.971169791661941,
+    "correlation_with_DNa02_steering": 0.5096913739298085
+  },
+  "performance_seconds": {
+    "visual_encoding": 0.0008525653977145946,
+    "MaleCNS_and_spike_aggregation": 0.06526219561308971,
+    "DNa02_access": 9.67890169704333e-07,
+    "controller": 4.13718311926156e-05,
+    "PyBoy_action_update": 0.0011971759734733496,
+    "total_decision_loop": 0.0687097035902722,
+    "baseline_MaleCNS_per_window": 0.02884605609656137
+  },
+  "experiment_7_comparison": {
+    "experiment_7_action_rate": 0.04125000000000001,
+    "experiment_8_action_rate": 0.3483333333333334,
+    "experiment_7_live_no_TV": 0.01749999999999998,
+    "experiment_8_live_no_TV": 0.2341666666666667,
+    "experiment_7_lateral_p": 0.0083,
+    "experiment_8_lateral_p": 0.001953125,
+    "experiment_7_live_frozen_TV": 0.005,
+    "experiment_8_live_frozen_TV": 0.11083333333333337
+  },
+  "leakage_checks": {
+    "pixels_directly_into_controller": true,
+    "RAM": true,
+    "class_labels": true,
+    "trained_policy": true,
+    "scripted_route": true
+  },
+  "criteria": {
+    "controlled_lateral": true,
+    "natural_visual_dependence": true,
+    "mirror_effect": true,
+    "feedback_improved": true
+  }
+}

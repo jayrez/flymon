@@ -1,0 +1,128 @@
+{
+  "class_label": "dialogue",
+  "instance_id": "dialogue-03",
+  "role": "primary",
+  "frame_sha256": [
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "0020d94e8e3d6d586e826d8821be0f4aafc4c3b10829385d3cd4322718a70044",
+    "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6",
+    "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6",
+    "da0cce58e1a099130519279d03dc8ef775fbed965b8feaae46ffb41b82b271a6"
+  ],
+  "sequence_sha256": "ba9379013d3a20969a8043210cab5678b13811678b568a1a1757c6b227ff65d6",
+  "frames": [
+    {
+      "path": "dialogue/dialogue-03/frame-00.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-01.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-02.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-03.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-04.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-05.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-06.png",
+      "file_sha256": "8ca8ced864af9464b960ad1e4fc0119ba8fed4f71254389f2827c0cdbf7588fe"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-07.png",
+      "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-08.png",
+      "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+    },
+    {
+      "path": "dialogue/dialogue-03/frame-09.png",
+      "file_sha256": "dece5d5c288b1f6b783dcaa0a75c4322eae0c14a5f420637346cb5d22c69fffd"
+    }
+  ],
+  "capture": {
+    "class_label": "dialogue",
+    "instance_id": "dialogue-03",
+    "actions": [
+      {
+        "wait": 1500
+      },
+      {
+        "button": "start"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "button": "a"
+      },
+      {
+        "wait": 90
+      },
+      {
+        "wait": 60
+      }
+    ],
+    "frame_offsets": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36
+    ],
+    "emulator": "PyBoy 2.7.0",
+    "label_source": "capture procedure and manual framebuffer inspection; no RAM"
+  }
+}

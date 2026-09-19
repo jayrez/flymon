@@ -1,0 +1,119 @@
+{
+  "class_label": "menu",
+  "instance_id": "menu-05",
+  "role": "primary",
+  "frame_sha256": [
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b",
+    "bab852f202b52866bdf1c46e9be14002a06bfc79414b542652ae07ac9ec5883b"
+  ],
+  "sequence_sha256": "9bb53ea936c09b544d6a77b2e63ce8e0e4e779717393abf66ad2014c7111b465",
+  "frames": [
+    {
+      "path": "menu/menu-05/frame-00.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-01.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-02.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-03.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-04.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-05.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-06.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-07.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-08.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    },
+    {
+      "path": "menu/menu-05/frame-09.png",
+      "file_sha256": "9b74d65fc320fb3583b15d1f7c4154b28594abe16e70955862c39f220680447b"
+    }
+  ],
+  "capture": {
+    "class_label": "menu",
+    "instance_id": "menu-05",
+    "savestate": "states/bedroom.state",
+    "actions": [
+      {
+        "wait": 1
+      },
+      {
+        "button": "down",
+        "held": 16,
+        "release": 8
+      },
+      {
+        "button": "start"
+      },
+      {
+        "wait": 30
+      },
+      {
+        "button": "down",
+        "held": 1,
+        "release": 8
+      },
+      {
+        "button": "down",
+        "held": 1,
+        "release": 8
+      },
+      {
+        "button": "down",
+        "held": 1,
+        "release": 8
+      },
+      {
+        "button": "down",
+        "held": 1,
+        "release": 8
+      },
+      {
+        "wait": 12
+      }
+    ],
+    "frame_offsets": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36
+    ],
+    "emulator": "PyBoy 2.7.0",
+    "label_source": "capture procedure and manual framebuffer inspection; no RAM",
+    "savestate_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+  }
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="285">
+<rect width="100%" height="100%" fill="white"/>
+<text x="10" y="20" font-size="13">Nested double-holdout confusion (rows=true)</text>
+<text x="125" y="160" text-anchor="end" font-size="10">bedroom</text>
+<text transform="translate(145,140) rotate(-65)" font-size="10">bedroom</text>
+<rect x="130" y="145" width="22" height="22" fill="rgb(189,210,238)"><title>41.0000</title></rect>
+<rect x="152" y="145" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="174" y="145" width="22" height="22" fill="rgb(191,211,238)"><title>40.0000</title></rect>
+<rect x="196" y="145" width="22" height="22" fill="rgb(243,249,254)"><title>1.0000</title></rect>
+<rect x="218" y="145" width="22" height="22" fill="rgb(220,232,247)"><title>18.0000</title></rect>
+<text x="125" y="182" text-anchor="end" font-size="10">dialogue</text>
+<text transform="translate(167,140) rotate(-65)" font-size="10">dialogue</text>
+<rect x="130" y="167" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="152" y="167" width="22" height="22" fill="rgb(30,95,190)"><title>160.0000</title></rect>
+<rect x="174" y="167" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="196" y="167" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="218" y="167" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<text x="125" y="204" text-anchor="end" font-size="10">menu</text>
+<text transform="translate(189,140) rotate(-65)" font-size="10">menu</text>
+<rect x="130" y="189" width="22" height="22" fill="rgb(206,221,243)"><title>29.0000</title></rect>
+<rect x="152" y="189" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="174" y="189" width="22" height="22" fill="rgb(149,181,226)"><title>71.0000</title></rect>
+<rect x="196" y="189" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="218" y="189" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<text x="125" y="226" text-anchor="end" font-size="10">title</text>
+<text transform="translate(211,140) rotate(-65)" font-size="10">title</text>
+<rect x="130" y="211" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="152" y="211" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="174" y="211" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="196" y="211" width="22" height="22" fill="rgb(30,95,190)"><title>160.0000</title></rect>
+<rect x="218" y="211" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<text x="125" y="248" text-anchor="end" font-size="10">intro</text>
+<text transform="translate(233,140) rotate(-65)" font-size="10">intro</text>
+<rect x="130" y="233" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="152" y="233" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="174" y="233" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="196" y="233" width="22" height="22" fill="rgb(245,250,255)"><title>0.0000</title></rect>
+<rect x="218" y="233" width="22" height="22" fill="rgb(83,133,206)"><title>120.0000</title></rect>
+</svg>

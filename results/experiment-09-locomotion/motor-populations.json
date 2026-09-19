@@ -1,0 +1,80 @@
+{
+  "model": "MaleCNS v1.0",
+  "populations": {
+    "DNg100": [
+      {
+        "cell_type": "DNg100",
+        "flywire_malecns_id": 10045,
+        "brain_index": 36,
+        "side": "L",
+        "superclass": "descending_neuron",
+        "count": 2
+      },
+      {
+        "cell_type": "DNg100",
+        "flywire_malecns_id": 10056,
+        "brain_index": 46,
+        "side": "R",
+        "superclass": "descending_neuron",
+        "count": 2
+      }
+    ],
+    "MDN": [
+      {
+        "cell_type": "MDN",
+        "flywire_malecns_id": 10763,
+        "brain_index": 706,
+        "side": "R",
+        "superclass": "descending_neuron",
+        "count": 4
+      },
+      {
+        "cell_type": "MDN",
+        "flywire_malecns_id": 11288,
+        "brain_index": 1196,
+        "side": "L",
+        "superclass": "descending_neuron",
+        "count": 4
+      },
+      {
+        "cell_type": "MDN",
+        "flywire_malecns_id": 11332,
+        "brain_index": 1240,
+        "side": "R",
+        "superclass": "descending_neuron",
+        "count": 4
+      },
+      {
+        "cell_type": "MDN",
+        "flywire_malecns_id": 12348,
+        "brain_index": 2194,
+        "side": "L",
+        "superclass": "descending_neuron",
+        "count": 4
+      }
+    ],
+    "DNp01": [
+      {
+        "cell_type": "DNp01",
+        "flywire_malecns_id": 10001,
+        "brain_index": 0,
+        "side": "R",
+        "superclass": "descending_neuron",
+        "count": 2
+      },
+      {
+        "cell_type": "DNp01",
+        "flywire_malecns_id": 10010,
+        "brain_index": 6,
+        "side": "L",
+        "superclass": "descending_neuron",
+        "count": 2
+      }
+    ]
+  },
+  "aggregation": {
+    "DNg100": "sum spikes across 2 cells / 0.2 s",
+    "MDN": "sum spikes across 4 cells / 0.2 s",
+    "DNp01": "diagnostic only"
+  }
+}

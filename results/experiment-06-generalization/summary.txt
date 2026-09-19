@@ -1,0 +1,48 @@
+Experiment 6 verdict: PASS
+
+Classes: bedroom, dialogue, menu, title, intro
+Instances per class: {'bedroom': 5, 'dialogue': 8, 'menu': 5, 'title': 8, 'intro': 6}
+Total unique images: 32 instance first frames; 60 unique sequence framebuffers
+
+Primary outer protocol: unseen image instance + unseen neural seed
+Chance accuracy: 20.0% (uniform five-way); largest-class baseline 25.0%
+
+All-DN held-out-instance accuracy: 63.59%
+Nested selected-DN held-out-instance accuracy: 86.25%
+Frozen Experiment-4-DN accuracy: 87.50%
+
+95% instance-bootstrap interval: 79.06%–94.06%
+Permutation p-value: 0.000999
+
+Exact-image instance classification: all-DN 11.72%; selected-DN 35.94%; chance 3.125%
+Semantic class classification: 86.25%; balanced accuracy 82.40%
+
+Same-instance / different-seed distance: 13.8562
+Different-instance / same-class distance: 14.6838
+Different-class distance: 25.6824
+(Distances above: independent pairwise cross-fitted top50 DNs.)
+
+Encoder generalization margin: 11.9992
+Projection-neuron generalization margin: 735.9516
+All-DN generalization margin: 2.2419
+Selected-DN generalization margin: 10.9985
+
+DN population size selected by inner CV: {250: 25, 500: 1, 100: 6}
+DN selection stability across folds: selected-set Jaccard 0.6794; top50 Jaccard 0.8658
+
+Most confused classes: bedroom / menu (69 errors)
+Best-generalizing class: dialogue (100.00%)
+Worst-generalizing class: bedroom (41.00%)
+
+Primary result: E
+
+Leakage checks:
+image overlap: PASS
+instance overlap: PASS
+seed overlap: PASS
+DN-selection leakage: PASS
+permutation leakage: PASS
+population-size selection: PASS
+bootstrap instance unit: PASS
+
+Does the Experiment 4 DN signal generalize beyond the five exact screens? YES
