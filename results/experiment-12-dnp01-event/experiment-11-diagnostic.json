@@ -1,0 +1,234 @@
+{
+  "source": "Experiment 11 held-out records; diagnostic only",
+  "conditions": {
+    "live": {
+      "mean": -0.03333333333333333,
+      "median": 0.0,
+      "sd": 1.439252732930042,
+      "p05": -1.0,
+      "q25": -0.5,
+      "q75": 0.0,
+      "p95": 0.0,
+      "fraction_positive": 0.024166666666666666,
+      "fraction_negative": 0.3433333333333333,
+      "lag1_autocorrelation_mean": 0.3255111702346912,
+      "derivative": {
+        "mean": 0.00847457627118644,
+        "median": 0.0,
+        "sd": 1.6215039391868211,
+        "p05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.02288135593220339,
+        "fraction_negative": 0.01440677966101695
+      },
+      "moving_mean_3": {
+        "mean": -0.03247126436781611,
+        "median": 0.0,
+        "sd": 1.0406138650445842,
+        "p05": -1.0,
+        "q25": -0.5,
+        "q75": 0.0,
+        "p95": 1.1666666666666665,
+        "fraction_positive": 0.05086206896551724,
+        "fraction_negative": 0.33620689655172414
+      },
+      "cumulative_5": {
+        "mean": -0.13392857142857142,
+        "median": 0.0,
+        "sd": 4.340295916809622,
+        "p05": -5.0,
+        "q25": -2.5,
+        "q75": 0.0,
+        "p95": 5.0,
+        "fraction_positive": 0.07946428571428571,
+        "fraction_negative": 0.32857142857142857
+      },
+      "duration_above_zero": {
+        "mean": 1.7058823529411764,
+        "max": 3
+      },
+      "duration_above_condition_q75": {
+        "mean": 1.7058823529411764,
+        "max": 3
+      }
+    },
+    "no_vision": {
+      "mean": -0.125,
+      "median": 0.0,
+      "sd": 0.7809502135411867,
+      "p05": -1.0,
+      "q25": -0.5,
+      "q75": 0.0,
+      "p95": 0.0,
+      "fraction_positive": 0.02,
+      "fraction_negative": 0.3433333333333333,
+      "lag1_autocorrelation_mean": -0.03307077856707465,
+      "derivative": {
+        "mean": 0.00847457627118644,
+        "median": 0.0,
+        "sd": 0.9875884792980041,
+        "p05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.020338983050847456,
+        "fraction_negative": 0.01864406779661017
+      },
+      "moving_mean_3": {
+        "mean": -0.12873563218390804,
+        "median": 0.0,
+        "sd": 0.5174992883151202,
+        "p05": -1.0,
+        "q25": -0.5,
+        "q75": 0.0,
+        "p95": 1.1666666666666665,
+        "fraction_positive": 0.05775862068965517,
+        "fraction_negative": 0.3293103448275862
+      },
+      "cumulative_5": {
+        "mean": -0.6383928571428571,
+        "median": 0.0,
+        "sd": 2.25567482301584,
+        "p05": -5.0,
+        "q25": -2.5,
+        "q75": 0.0,
+        "p95": 5.0,
+        "fraction_positive": 0.09285714285714286,
+        "fraction_negative": 0.3142857142857143
+      },
+      "duration_above_zero": {
+        "mean": 1.0,
+        "max": 1
+      },
+      "duration_above_condition_q75": {
+        "mean": 1.0,
+        "max": 1
+      }
+    },
+    "frozen": {
+      "mean": -0.15833333333333333,
+      "median": 0.0,
+      "sd": 0.6741483161607498,
+      "p05": -1.0,
+      "q25": -0.5,
+      "q75": 0.0,
+      "p95": 0.0,
+      "fraction_positive": 0.013333333333333334,
+      "fraction_negative": 0.3466666666666667,
+      "lag1_autocorrelation_mean": -0.02517910914271529,
+      "derivative": {
+        "mean": 0.00847457627118644,
+        "median": 0.0,
+        "sd": 0.7975339717930154,
+        "p05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.013559322033898305,
+        "fraction_negative": 0.011864406779661017
+      },
+      "moving_mean_3": {
+        "mean": -0.16178160919540233,
+        "median": 0.0,
+        "sd": 0.4739651611947448,
+        "p05": -1.0,
+        "q25": -0.5,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.03793103448275862,
+        "fraction_negative": 0.3396551724137931
+      },
+      "cumulative_5": {
+        "mean": -0.8035714285714286,
+        "median": 0.0,
+        "sd": 2.140462085505554,
+        "p05": -5.0,
+        "q25": -2.5,
+        "q75": 0.0,
+        "p95": 2.5,
+        "fraction_positive": 0.06428571428571428,
+        "fraction_negative": 0.33214285714285713
+      },
+      "duration_above_zero": {
+        "mean": 1.0,
+        "max": 1
+      },
+      "duration_above_condition_q75": {
+        "mean": 1.0,
+        "max": 1
+      }
+    },
+    "shuffled": {
+      "mean": -0.07083333333333333,
+      "median": 0.0,
+      "sd": 1.276586868927122,
+      "p05": -1.0,
+      "q25": -0.5,
+      "q75": 0.0,
+      "p95": 0.0,
+      "fraction_positive": 0.02,
+      "fraction_negative": 0.345,
+      "lag1_autocorrelation_mean": 0.3975753549072701,
+      "derivative": {
+        "mean": 0.00847457627118644,
+        "median": 0.0,
+        "sd": 1.3185938658541145,
+        "p05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.01694915254237288,
+        "fraction_negative": 0.011864406779661017
+      },
+      "moving_mean_3": {
+        "mean": -0.07126436781609197,
+        "median": 0.0,
+        "sd": 0.9706891855789798,
+        "p05": -1.0,
+        "q25": -0.5,
+        "q75": 0.0,
+        "p95": 0.0,
+        "fraction_positive": 0.039655172413793106,
+        "fraction_negative": 0.3396551724137931
+      },
+      "cumulative_5": {
+        "mean": -0.35267857142857145,
+        "median": 0.0,
+        "sd": 4.06995266721765,
+        "p05": -5.0,
+        "q25": -2.5,
+        "q75": 0.0,
+        "p95": 5.0,
+        "fraction_positive": 0.05892857142857143,
+        "fraction_negative": 0.3339285714285714
+      },
+      "duration_above_zero": {
+        "mean": 1.8461538461538463,
+        "max": 3
+      },
+      "duration_above_condition_q75": {
+        "mean": 1.8461538461538463,
+        "max": 3
+      }
+    }
+  },
+  "event_triggered_frame_change": {
+    "old_A_events": {
+      "-2": 0.17647058823529413,
+      "-1": 0.23529411764705882,
+      "0": 0.17647058823529413,
+      "1": 1.0,
+      "2": 1.0
+    },
+    "matched_non_events": {
+      "-2": null,
+      "-1": 0.0,
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    }
+  },
+  "diagnostic_conclusion": "The aggregate signal is a sustained relative release from inhibition: live shifts the mean upward relative to no vision while both means remain below baseline. Positive absolute excursions are rare; short moving means preserve the level shift. Derivative statistics do not show a uniquely dominant transient, so level, recovery, derivative, and cumulative families remain preregistered alongside the Experiment 11 reference."
+}
