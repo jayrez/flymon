@@ -47,6 +47,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 11–13 | Neural interaction interface; DNp01 and P20 A-channel event decoding | A channel validated as aggregate visual drive |
 | 14 | Can the frozen controller autonomously progress from `bedroom.state`? | PASS (Category D); visual drive affects behaviour, but dynamic feedback not shown to uniquely cause progression |
 | 15 | Can a connectivity-selected biological pathway carry five-way screen-family identity into DNs? | **FAIL** (for scene identity); collapse across T5 → visual-projection → DN |
+| 16 | Does the pathway preserve biological motion / optic-flow / looming features? | **FAIL** (Category A); T4/T5 do not reproduce direction selectivity — failure is optic-lobe dynamics, upstream of Exp-15's transfer |
 
 ## Latest result (Experiment 15)
 
@@ -65,6 +66,23 @@ is thus not preserved through the biological optic-lobe cascade. DNg13 ranks
 steering / optic-flow role is untested. Experiment 15 tested only scene identity;
 whether motion / optic-flow / looming features survive is the Experiment-16 question.
 No closed-loop test was run.
+
+## Latest result (Experiment 16)
+
+Experiment 16 answered the Experiment-15 open question with ethological synthetic
+motion / looming / optic-flow stimuli through the same frozen retina (held-out CNS
+seeds 1121–1140, matched-seed permutation tests). The **retina (R1–R6) robustly
+encodes motion** (motion-vs-frozen change response +38 spikes for optic flow, +13 for
+OFF motion, p = 0.0001, sign-consistency 1.00), but **T4/T5 do not reproduce
+direction selectivity** (max |DSI| = 0.012; no subtype significant) and their
+change response is negligible (≤ 6 % of baseline). The preregistered primary endpoint
+(T5 OFF-motion direction selectivity) was null (0.005 spike, p = 0.80). **Gate A
+failed → Category A:** the current optic-lobe LIF dynamics do not compute motion, so
+the VP and DN transfer stages were not tested. This localises the Experiment-15
+collapse to the optic-lobe dynamics themselves (upstream of the T5 → VP → DN transfer)
+rather than to biologically appropriate feature compression. Recommended next step is
+**Experiment 17: dynamics / gain repair** (with a flyvis functional positive control),
+not closed-loop control. flyvis was not installed and was deliberately not forced.
 
 ## Reproducing and navigating
 

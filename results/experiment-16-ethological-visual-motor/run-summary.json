@@ -1,0 +1,89 @@
+{
+  "model": "flybrain 0.1.0 MaleCNS v1.0",
+  "device": "cuda",
+  "eye_gain": 0.62,
+  "gain_note": "frozen Experiment-5 eye-drive / FlyBrain defaults; no gain sweep",
+  "steps": 200,
+  "calibration_seeds": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1116,
+    1117,
+    1118,
+    1119,
+    1120
+  ],
+  "heldout_seeds": [
+    1121,
+    1122,
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128,
+    1129,
+    1130,
+    1131,
+    1132,
+    1133,
+    1134,
+    1135,
+    1136,
+    1137,
+    1138,
+    1139,
+    1140
+  ],
+  "n_stimuli": 42,
+  "n_populations": 37,
+  "retina_mapping_diagnostics": {
+    "total_visual": 6006,
+    "r1_6_total": 3377,
+    "r7_count": 1300,
+    "r8_count": 1329,
+    "unresolved_visual": 0,
+    "r1_6_mapped": 3335,
+    "r1_6_unmapped": 42,
+    "left_mapped": 1107,
+    "right_mapped": 2228,
+    "median_mapping_confidence": 1.0,
+    "below_0_8": 15,
+    "setup_seconds": 10.054464656001073,
+    "method": "modal optic column weighted by every R1-R6 to L1/L2/L3 contact",
+    "projection": {
+      "horizontal": "L: 0..0.6; R mirrored into 0.4..1",
+      "vertical": "hex y maximum maps to screen top",
+      "left_viewport": [
+        0,
+        0.6
+      ],
+      "right_viewport": [
+        0.4,
+        1
+      ],
+      "overlap": [
+        0.4,
+        0.6
+      ]
+    },
+    "source_sha256": {
+      "body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "connectome-weights-male-cns-v1.0-minconf-0.5.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+    }
+  },
+  "wall_seconds": 734.217832661001
+}
