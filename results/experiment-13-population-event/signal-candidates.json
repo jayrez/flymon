@@ -1,0 +1,267 @@
+{
+  "population": "E4_E6_frozen_P20",
+  "historical_sign_signal_omitted": "No persisted historical sign/effect vector",
+  "thresholds": [
+    1.0,
+    1.5,
+    2.0,
+    2.5
+  ],
+  "hysteresis": 0.5,
+  "refractory_decisions": 5,
+  "grid": [
+    {
+      "name": "mean_level",
+      "signal": "mean",
+      "event_rule": "level",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.0,
+      "candidate_order": 0
+    },
+    {
+      "name": "mean_level",
+      "signal": "mean",
+      "event_rule": "level",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.5,
+      "candidate_order": 0
+    },
+    {
+      "name": "mean_level",
+      "signal": "mean",
+      "event_rule": "level",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.0,
+      "candidate_order": 0
+    },
+    {
+      "name": "mean_level",
+      "signal": "mean",
+      "event_rule": "level",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.5,
+      "candidate_order": 0
+    },
+    {
+      "name": "mean_cumulative_3",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 3,
+      "threshold": 1.0,
+      "candidate_order": 1
+    },
+    {
+      "name": "mean_cumulative_3",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 3,
+      "threshold": 1.5,
+      "candidate_order": 1
+    },
+    {
+      "name": "mean_cumulative_3",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 3,
+      "threshold": 2.0,
+      "candidate_order": 1
+    },
+    {
+      "name": "mean_cumulative_3",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 3,
+      "threshold": 2.5,
+      "candidate_order": 1
+    },
+    {
+      "name": "mean_cumulative_5",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 5,
+      "threshold": 1.0,
+      "candidate_order": 2
+    },
+    {
+      "name": "mean_cumulative_5",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 5,
+      "threshold": 1.5,
+      "candidate_order": 2
+    },
+    {
+      "name": "mean_cumulative_5",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 5,
+      "threshold": 2.0,
+      "candidate_order": 2
+    },
+    {
+      "name": "mean_cumulative_5",
+      "signal": "mean",
+      "event_rule": "cumulative",
+      "signal_window": 1,
+      "evidence_window": 5,
+      "threshold": 2.5,
+      "candidate_order": 2
+    },
+    {
+      "name": "norm_rising",
+      "signal": "norm",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.0,
+      "candidate_order": 3
+    },
+    {
+      "name": "norm_rising",
+      "signal": "norm",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.5,
+      "candidate_order": 3
+    },
+    {
+      "name": "norm_rising",
+      "signal": "norm",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.0,
+      "candidate_order": 3
+    },
+    {
+      "name": "norm_rising",
+      "signal": "norm",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.5,
+      "candidate_order": 3
+    },
+    {
+      "name": "change_rising",
+      "signal": "change",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.0,
+      "candidate_order": 4
+    },
+    {
+      "name": "change_rising",
+      "signal": "change",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 1.5,
+      "candidate_order": 4
+    },
+    {
+      "name": "change_rising",
+      "signal": "change",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.0,
+      "candidate_order": 4
+    },
+    {
+      "name": "change_rising",
+      "signal": "change",
+      "event_rule": "rising",
+      "signal_window": 1,
+      "evidence_window": 1,
+      "threshold": 2.5,
+      "candidate_order": 4
+    },
+    {
+      "name": "window_change_3",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 3,
+      "evidence_window": 1,
+      "threshold": 1.0,
+      "candidate_order": 5
+    },
+    {
+      "name": "window_change_3",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 3,
+      "evidence_window": 1,
+      "threshold": 1.5,
+      "candidate_order": 5
+    },
+    {
+      "name": "window_change_3",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 3,
+      "evidence_window": 1,
+      "threshold": 2.0,
+      "candidate_order": 5
+    },
+    {
+      "name": "window_change_3",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 3,
+      "evidence_window": 1,
+      "threshold": 2.5,
+      "candidate_order": 5
+    },
+    {
+      "name": "window_change_5",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 5,
+      "evidence_window": 1,
+      "threshold": 1.0,
+      "candidate_order": 6
+    },
+    {
+      "name": "window_change_5",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 5,
+      "evidence_window": 1,
+      "threshold": 1.5,
+      "candidate_order": 6
+    },
+    {
+      "name": "window_change_5",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 5,
+      "evidence_window": 1,
+      "threshold": 2.0,
+      "candidate_order": 6
+    },
+    {
+      "name": "window_change_5",
+      "signal": "window_change",
+      "event_rule": "rising",
+      "signal_window": 5,
+      "evidence_window": 1,
+      "threshold": 2.5,
+      "candidate_order": 6
+    }
+  ],
+  "count": 28
+}

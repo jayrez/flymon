@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 from flymon.exploration import ExplorationConfig,FrozenExplorationController,FrozenInterfaceController
 from flymon.interaction import *
-from flymon.motor import MOTOR_TYPES,resolve_motor_populations,verify_motor_neurons
+from flymon.motor import MOTOR_TYPES,resolve_dn_ids,resolve_motor_populations,verify_motor_neurons
 from flymon.steering import SteeringBaseline
 from flymon.locomotion import PopulationBaseline
 
@@ -49,10 +49,10 @@ class InterfaceTests(unittest.TestCase):
   direction=FrozenExplorationController(sb,lb,cfg,False);event=BaselineEventController(b,EventConfig("X",1,1,5,True))
   self.assertEqual(FrozenInterfaceController(direction,down,event).decode({"DNa02_L":9,"DNa02_R":0,"DNg100":0,"MDN":0,"X":9})[0],"A")
  def test_controller_surface_and_no_ram(self):
-  for cls in (BaselinePopulationDecoder,BaselineEventController,TransparentEventController,FrozenInterfaceController):
+  for cls in (BaselinePopulationDecoder,BaselineEventController,TransparentEventController,PopulationEventController,FrozenInterfaceController):
    self.assertEqual(list(inspect.signature(cls.decode).parameters),["self","rates"])
-  src=Path("run_interface_experiment.py").read_text()+Path("run_dnp01_event_experiment.py").read_text()+Path("flymon/interaction.py").read_text()
-  for forbidden in ("read_memory","player_position","map_id","reward","random.choice","desired_action"):self.assertNotIn(forbidden,src)
+  src=Path("run_interface_experiment.py").read_text()+Path("run_dnp01_event_experiment.py").read_text()+Path("run_population_event_experiment.py").read_text()+Path("flymon/interaction.py").read_text()
+  for forbidden in ("read_memory","memory[","player_position","map_id","reward","random.choice","desired_action"):self.assertNotIn(forbidden,src)
  def event_config(self,strategy,threshold=0,window=1):
   return EventDecoderConfig(strategy,"sum",2.,1.,threshold,window,.5,2)
  def cell(self,value):return {"DNp01_cells_hz":(value/2,value/2)}
@@ -94,5 +94,72 @@ class InterfaceTests(unittest.TestCase):
   self.assertEqual(wrapped.decode(rates)[0],"LEFT")
  def test_two_cell_aggregation_deterministic(self):
   self.assertEqual(aggregate_dnp01((2,4),"sum"),6);self.assertEqual(aggregate_dnp01((2,4),"mean"),3);self.assertEqual(aggregate_dnp01((2,4),"max"),4);self.assertEqual(aggregate_dnp01((2,4),"difference"),-2)
+
+ def test_frozen_e4_population_artifact_and_id_resolution(self):
+  historical=__import__("json").loads(Path("results/experiment-06-generalization/classification.json").read_text())["frozen_experiment4_ids"]
+  archive=np.load("results/experiment-04-temporal-dn/dn-bins-5.npz")
+  self.assertEqual(len(historical),20)
+  self.assertEqual([x["flywire_id"] for x in historical],
+                   [int(archive["flywire_ids"][x["dn_slot"]]) for x in historical])
+  b=FakeBrain()
+  with tempfile.TemporaryDirectory() as d:
+   np.savez(Path(d)/"brain.npz",cell_type=b.cell_type,ids=np.arange(5)+100)
+   meta,indices=resolve_dn_ids(b,Path(d),(104,100))
+   self.assertEqual(indices.tolist(),[4,0])
+   self.assertEqual([x["flywire_malecns_id"] for x in meta["neurons"]],[104,100])
+ def test_vector_baseline_and_population_z(self):
+  b=FrozenVectorBaseline((1.,2.),(0.,4.),10)
+  np.testing.assert_allclose(population_z_vector((2.,4.),b,1.),(1.,1.))
+  estimated=estimate_frozen_vector_baseline(((0,1),(2,3)),1.)
+  self.assertEqual(estimated.means_hz,(1.,2.))
+  self.assertEqual(estimated.variances_hz2,(2.,2.))
+ def test_population_signal_families(self):
+  history=[np.array((0.,0.)),np.array((1.,-1.))]
+  self.assertEqual(population_signal(history,"mean"),0.)
+  self.assertEqual(population_signal(history,"norm"),1.)
+  self.assertEqual(population_signal(history,"change"),1.)
+  window=[np.array((0.,0.)),np.array((0.,0.)),np.array((2.,0.)),np.array((2.,0.))]
+  self.assertAlmostEqual(population_signal(window,"window_change",2),2**.5)
+ def population_controller(self,signal="mean",rule="rising",threshold=.5,refractory=2):
+  baseline=FrozenVectorBaseline((0.,0.),(0.,0.),10)
+  config=PopulationEventConfig(signal,rule,threshold,1.,1,1,.25,refractory)
+  return PopulationEventController(baseline,config)
+ def test_population_event_threshold_refractory_and_reset(self):
+  c=self.population_controller(refractory=0)
+  self.assertIsNone(c.decode({"event_population_rates_hz":(0.,0.)})[0])
+  self.assertEqual(c.decode({"event_population_rates_hz":(1.,1.)})[0],"A")
+  self.assertIsNone(c.decode({"event_population_rates_hz":(1.,1.)})[0])
+  c.reset();self.assertEqual(len(c.z_history),0);self.assertTrue(c.armed)
+  level=self.population_controller(rule="level",refractory=2)
+  actions=[level.decode({"event_population_rates_hz":(1.,1.)})[0] for _ in range(4)]
+  self.assertEqual(actions,["A",None,None,"A"])
+ def test_population_event_ablation(self):
+  c=PopulationEventController(FrozenVectorBaseline((5.,5.),(0.,0.),10),
+      PopulationEventConfig("norm","level",1.,.5),ablated=True)
+  self.assertTrue(all(c.decode({"event_population_rates_hz":(0.,100.)})[0] is None for _ in range(10)))
+ def test_population_decoder_receives_only_rates(self):
+  first=self.population_controller(refractory=0)
+  second=self.population_controller(refractory=0)
+  rates={"event_population_rates_hz":(1.,1.)}
+  self.assertEqual(first.decode(rates),second.decode(rates | {
+      "framebuffer":np.full((2,2),255),"frame_hash":"known","pixels":999}))
+  source=inspect.getsource(PopulationEventController.decode)
+  for forbidden in ("framebuffer","frame_hash","pixels","memory"):
+   self.assertNotIn(forbidden,source)
+ def test_population_permutations_deterministic(self):
+  x=np.arange(20,dtype=float).reshape(5,4)
+  np.testing.assert_array_equal(permute_population_cells(x,13),permute_population_cells(x,13))
+  np.testing.assert_array_equal(np.sort(permute_population_cells(x,13),axis=1),np.sort(x,axis=1))
+  np.testing.assert_array_equal(permute_population_time(x,17),permute_population_time(x,17))
+  self.assertEqual(sorted(map(tuple,permute_population_time(x,17))),sorted(map(tuple,x)))
+ def test_population_a_event_first_and_absent_direction_regression(self):
+  sb,lb,cfg=self.controllers();rates={"DNa02_L":4,"DNa02_R":0,"DNg100":3,"MDN":0,
+      "event_population_rates_hz":(1.,1.)}
+  direction=FrozenExplorationController(sb,lb,cfg,False)
+  absent=FrozenInterfaceController(direction,None,None)
+  self.assertEqual(absent.decode(rates)[0],"LEFT")
+  direction=FrozenExplorationController(sb,lb,cfg,False)
+  event=self.population_controller(refractory=0)
+  self.assertEqual(FrozenInterfaceController(direction,None,event).decode(rates)[0],"A")
 
 if __name__=="__main__":unittest.main()

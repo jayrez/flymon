@@ -1,0 +1,3537 @@
+{
+  "verdict": "PASS",
+  "primary_result": "D",
+  "population": {
+    "name": "E4_E6_frozen_P20",
+    "source_experiment": "Experiment 4 selection, independently reused by Experiment 6",
+    "source_artifacts": [
+      "results/experiment-04-temporal-dn/classification.json:informative_dn_top20",
+      "results/experiment-06-generalization/classification.json:frozen_experiment4_ids"
+    ],
+    "selection_rule": "Exact persisted informative_dn_top20 order; no Experiment 13 reranking",
+    "count": 20,
+    "ordered_brain_indices_sha256": "62235877c0e42a74cd36890f44a407192a2ff9fa66d5d16937bc31282fda3ad7",
+    "historical_direction_available": false,
+    "contains_dnp01": [
+      15
+    ],
+    "neurons": [
+      {
+        "historical_rank": 1,
+        "experiment4_dn_slot": 1227,
+        "brain_index": 131148,
+        "flywire_malecns_id": 521262,
+        "cell_type": "DNae002",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 2,
+        "experiment4_dn_slot": 287,
+        "brain_index": 1593,
+        "flywire_malecns_id": 11706,
+        "cell_type": "DNg111",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 3,
+        "experiment4_dn_slot": 215,
+        "brain_index": 1131,
+        "flywire_malecns_id": 11222,
+        "cell_type": "DNg111",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 4,
+        "experiment4_dn_slot": 112,
+        "brain_index": 608,
+        "flywire_malecns_id": 10654,
+        "cell_type": "DNb01",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 5,
+        "experiment4_dn_slot": 1215,
+        "brain_index": 130350,
+        "flywire_malecns_id": 519771,
+        "cell_type": "DNp71",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 6,
+        "experiment4_dn_slot": 1268,
+        "brain_index": 135203,
+        "flywire_malecns_id": 531898,
+        "cell_type": "DNp04",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 7,
+        "experiment4_dn_slot": 64,
+        "brain_index": 333,
+        "flywire_malecns_id": 10361,
+        "cell_type": "DNg40",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 8,
+        "experiment4_dn_slot": 1160,
+        "brain_index": 125880,
+        "flywire_malecns_id": 512006,
+        "cell_type": "DNg13",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 9,
+        "experiment4_dn_slot": 136,
+        "brain_index": 703,
+        "flywire_malecns_id": 10759,
+        "cell_type": "DNb01",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 10,
+        "experiment4_dn_slot": 177,
+        "brain_index": 927,
+        "flywire_malecns_id": 11002,
+        "cell_type": "DNae002",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 11,
+        "experiment4_dn_slot": 38,
+        "brain_index": 204,
+        "flywire_malecns_id": 10223,
+        "cell_type": "DNpe056",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 12,
+        "experiment4_dn_slot": 262,
+        "brain_index": 1405,
+        "flywire_malecns_id": 11505,
+        "cell_type": "DNp54",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 13,
+        "experiment4_dn_slot": 267,
+        "brain_index": 1457,
+        "flywire_malecns_id": 11563,
+        "cell_type": "DNae001",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 14,
+        "experiment4_dn_slot": 488,
+        "brain_index": 3374,
+        "flywire_malecns_id": 13615,
+        "cell_type": "DNbe006",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 15,
+        "experiment4_dn_slot": 1,
+        "brain_index": 6,
+        "flywire_malecns_id": 10010,
+        "cell_type": "DNp01",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 16,
+        "experiment4_dn_slot": 69,
+        "brain_index": 359,
+        "flywire_malecns_id": 10388,
+        "cell_type": "DNp13",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 17,
+        "experiment4_dn_slot": 1163,
+        "brain_index": 125909,
+        "flywire_malecns_id": 512071,
+        "cell_type": "DNae001",
+        "side": "L",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 18,
+        "experiment4_dn_slot": 428,
+        "brain_index": 2699,
+        "flywire_malecns_id": 12885,
+        "cell_type": "DNpe020",
+        "side": "M",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 19,
+        "experiment4_dn_slot": 26,
+        "brain_index": 137,
+        "flywire_malecns_id": 10151,
+        "cell_type": "DNge103",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      },
+      {
+        "historical_rank": 20,
+        "experiment4_dn_slot": 94,
+        "brain_index": 505,
+        "flywire_malecns_id": 10543,
+        "cell_type": "DNa16",
+        "side": "R",
+        "training_fold_top50_frequency": 12,
+        "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+      }
+    ]
+  },
+  "selected_decoder": {
+    "name": "norm_rising",
+    "signal": "norm",
+    "event_rule": "rising",
+    "signal_window": 1,
+    "evidence_window": 1,
+    "threshold": 1.5,
+    "candidate_order": 3,
+    "live_rate": 0.03583333333333334,
+    "no_vision_rate": 0.0,
+    "live_no_effect": 0.03583333333333334,
+    "controlled_gain": 0.06100000000000001,
+    "controlled_consistency": 1.0,
+    "positive_seed_fraction": 0.9,
+    "seed_effect_sd": 0.022474807208613102,
+    "suppression_fraction": 0.0032142857142857142,
+    "max_event_run": 1,
+    "objective": 0.06443248867403721,
+    "eligible": true
+  },
+  "sd_floor_hz": 1.989834412880423,
+  "heldout_conditions": {
+    "bedroom_live": {
+      "signal_mean": 1.1258809013616478,
+      "signal_variance": 0.05411009854947598,
+      "event_rate": 0.018333333333333333,
+      "decisions": 1200
+    },
+    "bedroom_no_vision": {
+      "signal_mean": 0.8996160357042239,
+      "signal_variance": 0.024098268400561812,
+      "event_rate": 0.0008333333333333334,
+      "decisions": 1200
+    },
+    "bedroom_frozen": {
+      "signal_mean": 1.1519796157020106,
+      "signal_variance": 0.034964484159703414,
+      "event_rate": 0.021666666666666667,
+      "decisions": 1200
+    },
+    "bedroom_shuffled": {
+      "signal_mean": 1.1592928955474304,
+      "signal_variance": 0.07952316422617765,
+      "event_rate": 0.034166666666666665,
+      "decisions": 1200
+    }
+  },
+  "signal_comparisons": {
+    "live_vs_no_vision": {
+      "effect": 0.22626486565742399,
+      "p_value": 1.9073486328125e-06,
+      "seed_effects": [
+        0.19456210679306885,
+        0.2523963069914089,
+        0.2050474925429997,
+        0.25917722623905004,
+        0.20158413510817474,
+        0.1761541318244415,
+        0.20523649135246802,
+        0.23554246002318702,
+        0.2393810253377221,
+        0.257470749643245,
+        0.2796650467781513,
+        0.2677341165079593,
+        0.20005510536306792,
+        0.24488290419330494,
+        0.26730601564086043,
+        0.2122528708367829,
+        0.23608748702870164,
+        0.17728514661513406,
+        0.16618347433422975,
+        0.2472930199945217
+      ],
+      "permutations": 1048576
+    },
+    "live_vs_frozen": {
+      "effect": -0.026098714340362796,
+      "p_value": 0.00091552734375,
+      "seed_effects": [
+        -0.0286021279507076,
+        -0.04861358109427072,
+        0.0,
+        -0.024836612767398458,
+        -0.0701645827951558,
+        -0.062391499831218056,
+        0.007903209485912388,
+        0.0,
+        -0.06147948173024087,
+        0.008071638554958183,
+        0.008356758062646907,
+        -0.1050020317491056,
+        -0.02777326184495399,
+        0.0,
+        0.0,
+        0.0,
+        -0.003414416833967149,
+        -0.0378849509200041,
+        -0.04182883346409483,
+        -0.03431451192965618
+      ],
+      "permutations": 1048576
+    },
+    "live_vs_shuffled": {
+      "effect": -0.03341199418578267,
+      "p_value": 0.0015544891357421875,
+      "seed_effects": [
+        0.00843026400274427,
+        -0.05301256462420456,
+        0.009629695019878204,
+        -0.004201351164231815,
+        -0.0441969420266779,
+        -0.07238483138447727,
+        -0.02570888695876339,
+        -0.009709133461346608,
+        -0.025138397068160234,
+        -0.014668626279126684,
+        0.029559232007885683,
+        -0.11287262421637578,
+        -0.05801575284215854,
+        -0.054440173942032155,
+        0.023159152052798504,
+        0.010925059637901358,
+        -0.08619926641098896,
+        -0.03922090515958665,
+        -0.09329913056336303,
+        -0.05687470033536779
+      ],
+      "permutations": 1048576
+    }
+  },
+  "event_comparisons": {
+    "live_vs_no_vision": {
+      "effect": 0.017499999999999998,
+      "p_value": 0.0001220703125,
+      "seed_effects": [
+        0.016666666666666666,
+        0.016666666666666666,
+        0.0,
+        0.016666666666666666,
+        0.03333333333333333,
+        0.016666666666666666,
+        0.0,
+        0.0,
+        0.03333333333333333,
+        0.016666666666666666,
+        0.03333333333333333,
+        0.05,
+        0.016666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.016666666666666666,
+        0.016666666666666666,
+        0.03333333333333333,
+        0.03333333333333333
+      ],
+      "permutations": 1048576
+    },
+    "live_vs_frozen": {
+      "effect": -0.003333333333333334,
+      "p_value": 0.359375,
+      "seed_effects": [
+        0.0,
+        -0.016666666666666666,
+        0.0,
+        -0.016666666666666666,
+        0.016666666666666666,
+        -0.016666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.01666666666666667,
+        -0.03333333333333334,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.01666666666666667
+      ],
+      "permutations": 1048576
+    },
+    "live_vs_shuffled": {
+      "effect": -0.015833333333333335,
+      "p_value": 0.000396728515625,
+      "seed_effects": [
+        0.0,
+        -0.05,
+        -0.016666666666666666,
+        -0.016666666666666666,
+        -0.01666666666666667,
+        -0.016666666666666666,
+        -0.016666666666666666,
+        -0.016666666666666666,
+        0.0,
+        -0.016666666666666666,
+        -0.01666666666666667,
+        -0.016666666666666663,
+        -0.016666666666666666,
+        -0.03333333333333333,
+        -0.03333333333333333,
+        -0.016666666666666666,
+        0.0,
+        -0.03333333333333334,
+        0.016666666666666666,
+        0.0
+      ],
+      "permutations": 1048576
+    }
+  },
+  "event_quality": {
+    "events_per_trial": 1.1,
+    "a_decision_fraction": 0.018333333333333333,
+    "median_inter_event": 24.0,
+    "mean_inter_event": 24.285714285714285,
+    "minimum_inter_event": 6,
+    "longest_event_run": 1,
+    "refractory_suppressions": 1,
+    "trials_with_event_fraction": 0.75,
+    "zero_event_trial_fraction": 0.25,
+    "events_by_seed": [
+      1,
+      1,
+      0,
+      1,
+      2,
+      1,
+      1,
+      0,
+      2,
+      1,
+      2,
+      3,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  "secondary_natural_contexts": {
+    "secondary_dialogue": {
+      "signal_mean": 0.9303178691375501,
+      "signal_variance": 0.026202340402640065,
+      "event_rate": 0.0,
+      "trials_with_event_fraction": 0.0,
+      "events_by_seed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "secondary_intro": {
+      "signal_mean": 1.3148981837120866,
+      "signal_variance": 0.047575464116012094,
+      "event_rate": 0.08,
+      "trials_with_event_fraction": 0.8,
+      "events_by_seed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "secondary_menu": {
+      "signal_mean": 0.9454480449698821,
+      "signal_variance": 0.025956999548318274,
+      "event_rate": 0.0,
+      "trials_with_event_fraction": 0.0,
+      "events_by_seed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "secondary_title": {
+      "signal_mean": 1.041571718341912,
+      "signal_variance": 0.0292954517988719,
+      "event_rate": 0.01,
+      "trials_with_event_fraction": 0.1,
+      "events_by_seed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "controls": {
+    "population_ablation": {
+      "a_events": 0
+    },
+    "cell_permutation": {
+      "conditions": {
+        "bedroom_live": {
+          "signal_mean": 1.369158758231845,
+          "signal_variance": 0.05157580097947805,
+          "event_rate": 0.03666666666666667,
+          "decisions": 1200
+        },
+        "bedroom_no_vision": {
+          "signal_mean": 1.0957665814490212,
+          "signal_variance": 0.03660201373381663,
+          "event_rate": 0.011666666666666667,
+          "decisions": 1200
+        },
+        "bedroom_frozen": {
+          "signal_mean": 1.4121643659870107,
+          "signal_variance": 0.04315772874124892,
+          "event_rate": 0.0325,
+          "decisions": 1200
+        },
+        "bedroom_shuffled": {
+          "signal_mean": 1.3938504666226244,
+          "signal_variance": 0.06775536013027536,
+          "event_rate": 0.04416666666666667,
+          "decisions": 1200
+        }
+      },
+      "live_vs_no_vision": {
+        "effect": 0.025,
+        "p_value": 6.103515625e-05,
+        "seed_effects": [
+          0.06666666666666667,
+          0.03333333333333333,
+          0.016666666666666666,
+          0.0,
+          0.0,
+          0.05,
+          0.016666666666666666,
+          0.01666666666666667,
+          0.03333333333333333,
+          0.0,
+          0.03333333333333334,
+          0.03333333333333333,
+          0.016666666666666666,
+          0.03333333333333333,
+          0.0,
+          0.0,
+          0.05,
+          0.05,
+          0.03333333333333334,
+          0.016666666666666666
+        ],
+        "permutations": 1048576
+      }
+    },
+    "temporal_shuffle": {
+      "conditions": {
+        "bedroom_live": {
+          "signal_mean": 1.1258809013616478,
+          "signal_variance": 0.05411009854947598,
+          "event_rate": 0.02666666666666667,
+          "decisions": 1200
+        },
+        "bedroom_no_vision": {
+          "signal_mean": 0.8996160357042239,
+          "signal_variance": 0.02409826840056181,
+          "event_rate": 0.0008333333333333334,
+          "decisions": 1200
+        },
+        "bedroom_frozen": {
+          "signal_mean": 1.1519796157020106,
+          "signal_variance": 0.034964484159703414,
+          "event_rate": 0.020833333333333332,
+          "decisions": 1200
+        },
+        "bedroom_shuffled": {
+          "signal_mean": 1.1592928955474304,
+          "signal_variance": 0.07952316422617765,
+          "event_rate": 0.0425,
+          "decisions": 1200
+        }
+      },
+      "live_vs_no_vision": {
+        "effect": 0.025833333333333337,
+        "p_value": 6.103515625e-05,
+        "seed_effects": [
+          0.03333333333333333,
+          0.03333333333333333,
+          0.0,
+          0.016666666666666666,
+          0.03333333333333333,
+          0.03333333333333333,
+          0.016666666666666666,
+          0.0,
+          0.05,
+          0.03333333333333333,
+          0.03333333333333333,
+          0.05,
+          0.03333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.03333333333333333,
+          0.03333333333333333,
+          0.03333333333333333,
+          0.05
+        ],
+        "permutations": 1048576
+      }
+    },
+    "subpopulation_split": {
+      "historical_ranks_1_10": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.1571740574446494,
+            "signal_variance": 0.09256220427895659,
+            "event_rate": 0.0525,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.8698668072270493,
+            "signal_variance": 0.03716088317464213,
+            "event_rate": 0.0033333333333333335,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.186789656930715,
+            "signal_variance": 0.07298381196217958,
+            "event_rate": 0.051666666666666666,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.1997137334586014,
+            "signal_variance": 0.12873534113079602,
+            "event_rate": 0.06416666666666666,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.04916666666666667,
+          "p_value": 1.9073486328125e-06,
+          "seed_effects": [
+            0.03333333333333333,
+            0.08333333333333333,
+            0.05,
+            0.05,
+            0.03333333333333334,
+            0.05,
+            0.03333333333333334,
+            0.06666666666666667,
+            0.03333333333333334,
+            0.05,
+            0.05,
+            0.06666666666666667,
+            0.016666666666666666,
+            0.06666666666666667,
+            0.08333333333333333,
+            0.03333333333333334,
+            0.05,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.06666666666666667
+          ],
+          "permutations": 1048576
+        }
+      },
+      "historical_ranks_11_20": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.0678072833116106,
+            "signal_variance": 0.07160940740559295,
+            "event_rate": 0.035,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.9073363259587995,
+            "signal_variance": 0.04972620629905437,
+            "event_rate": 0.0075,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.0896846759201015,
+            "signal_variance": 0.05517684361030999,
+            "event_rate": 0.03833333333333333,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.0912627165970854,
+            "signal_variance": 0.08806366377102279,
+            "event_rate": 0.04666666666666667,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.027500000000000007,
+          "p_value": 7.62939453125e-06,
+          "seed_effects": [
+            0.016666666666666666,
+            0.03333333333333334,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.0,
+            0.05,
+            0.016666666666666666,
+            0.05,
+            0.03333333333333333,
+            0.05,
+            0.05,
+            0.05,
+            0.0,
+            0.03333333333333334,
+            0.016666666666666666
+          ],
+          "permutations": 1048576
+        }
+      }
+    },
+    "leave_cell_type_out": {
+      "DNae001": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.1351452510190998,
+            "signal_variance": 0.0636309757828235,
+            "event_rate": 0.03166666666666667,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.8876050100604767,
+            "signal_variance": 0.029288541172530647,
+            "event_rate": 0.0008333333333333334,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.160797685831293,
+            "signal_variance": 0.041189225229914674,
+            "event_rate": 0.034166666666666665,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.1691129077899278,
+            "signal_variance": 0.09267595288546901,
+            "event_rate": 0.04416666666666667,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.030833333333333334,
+          "p_value": 3.814697265625e-06,
+          "seed_effects": [
+            0.016666666666666666,
+            0.08333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.06666666666666667,
+            0.06666666666666667,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333
+          ],
+          "permutations": 1048576
+        }
+      },
+      "DNae002": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.1129781833342776,
+            "signal_variance": 0.06145620123189104,
+            "event_rate": 0.02666666666666667,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.884494326250067,
+            "signal_variance": 0.029072717097664527,
+            "event_rate": 0.0,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.135117796726409,
+            "signal_variance": 0.039113838994440805,
+            "event_rate": 0.029166666666666667,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.1447145783772454,
+            "signal_variance": 0.08978246631258305,
+            "event_rate": 0.034166666666666665,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.026666666666666665,
+          "p_value": 7.62939453125e-06,
+          "seed_effects": [
+            0.016666666666666666,
+            0.06666666666666667,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.06666666666666667,
+            0.05,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.0,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333
+          ],
+          "permutations": 1048576
+        }
+      },
+      "DNb01": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.1173053236469597,
+            "signal_variance": 0.059830583835254816,
+            "event_rate": 0.024166666666666666,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.8858910245288375,
+            "signal_variance": 0.029630280861979205,
+            "event_rate": 0.0,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.1388856773934795,
+            "signal_variance": 0.036146855743644304,
+            "event_rate": 0.0275,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.1578691216374473,
+            "signal_variance": 0.08998145534642997,
+            "event_rate": 0.034166666666666665,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.024166666666666663,
+          "p_value": 7.62939453125e-06,
+          "seed_effects": [
+            0.016666666666666666,
+            0.08333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.05,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333
+          ],
+          "permutations": 1048576
+        }
+      },
+      "DNg111": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.0680205001898957,
+            "signal_variance": 0.06170538827199121,
+            "event_rate": 0.0175,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.8827694035896461,
+            "signal_variance": 0.025773898178508104,
+            "event_rate": 0.0008333333333333334,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.0924335412106632,
+            "signal_variance": 0.035438604003195276,
+            "event_rate": 0.021666666666666667,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.0909477350710328,
+            "signal_variance": 0.08728409523023627,
+            "event_rate": 0.028333333333333332,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.016666666666666666,
+          "p_value": 3.0517578125e-05,
+          "seed_effects": [
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.0,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333
+          ],
+          "permutations": 1048576
+        }
+      },
+      "DNp01": {
+        "conditions": {
+          "bedroom_live": {
+            "signal_mean": 1.1512269457968751,
+            "signal_variance": 0.051225802548662845,
+            "event_rate": 0.03166666666666667,
+            "decisions": 1200
+          },
+          "bedroom_no_vision": {
+            "signal_mean": 0.9207870027391455,
+            "signal_variance": 0.025212768324045964,
+            "event_rate": 0.0008333333333333334,
+            "decisions": 1200
+          },
+          "bedroom_frozen": {
+            "signal_mean": 1.1808350734889081,
+            "signal_variance": 0.03684301413217775,
+            "event_rate": 0.0325,
+            "decisions": 1200
+          },
+          "bedroom_shuffled": {
+            "signal_mean": 1.1840380108917692,
+            "signal_variance": 0.0731951495037117,
+            "event_rate": 0.0425,
+            "decisions": 1200
+          }
+        },
+        "live_vs_no_vision": {
+          "effect": 0.030833333333333334,
+          "p_value": 3.814697265625e-06,
+          "seed_effects": [
+            0.016666666666666666,
+            0.06666666666666667,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.0,
+            0.03333333333333333,
+            0.03333333333333333,
+            0.06666666666666667,
+            0.06666666666666667,
+            0.016666666666666666,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.016666666666666666,
+            0.03333333333333333,
+            0.03333333333333333
+          ],
+          "permutations": 1048576
+        }
+      }
+    },
+    "dnp01_experiment12_reference": {
+      "conditions": {
+        "bedroom_live": {
+          "signal_mean": null,
+          "signal_variance": null,
+          "event_rate": 0.021666666666666667,
+          "decisions": 1200
+        },
+        "bedroom_no_vision": {
+          "signal_mean": null,
+          "signal_variance": null,
+          "event_rate": 0.019166666666666665,
+          "decisions": 1200
+        },
+        "bedroom_frozen": {
+          "signal_mean": null,
+          "signal_variance": null,
+          "event_rate": 0.011666666666666667,
+          "decisions": 1200
+        },
+        "bedroom_shuffled": {
+          "signal_mean": null,
+          "signal_variance": null,
+          "event_rate": 0.0275,
+          "decisions": 1200
+        }
+      },
+      "live_vs_no_vision": {
+        "effect": 0.0024999999999999996,
+        "p_value": 0.71197509765625,
+        "seed_effects": [
+          -0.016666666666666666,
+          0.016666666666666666,
+          -0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0,
+          0.03333333333333333,
+          0.016666666666666666,
+          0.01666666666666667,
+          -0.016666666666666666,
+          -0.01666666666666667,
+          -0.05,
+          0.0,
+          0.0,
+          -0.01666666666666667,
+          0.01666666666666667,
+          0.0,
+          0.016666666666666666
+        ],
+        "permutations": 1048576
+      }
+    }
+  },
+  "diagnostic_conclusions": {
+    "temporal_structure_contributes": "NO",
+    "distributed_cell_identity_contributes": "NO",
+    "interpretation": "The selected one-window RMS population magnitude separates visual injection from no vision. Temporal order and cell identity are not required by the falsification controls; this is not evidence for a temporally ordered or identity-specific event pattern."
+  },
+  "integrated": {
+    "enabled": true,
+    "seeds": [
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910,
+      911,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      919,
+      920
+    ],
+    "horizon": 500,
+    "action_distribution": {
+      "LEFT": 0.3,
+      "RIGHT": 0.0354,
+      "UP": 0.0081,
+      "DOWN": 0.0,
+      "A": 0.0386,
+      "NONE": 0.6179
+    },
+    "a_events": 386,
+    "coarse_visual_transitions": 6704,
+    "events_with_transition_within_1": 162,
+    "events_with_transition_within_2_to_5": 364,
+    "mean_unique_coarse_states": 30.95,
+    "unique_coarse_states_by_seed": [
+      14,
+      50,
+      14,
+      42,
+      31,
+      27,
+      13,
+      32,
+      15,
+      35,
+      18,
+      33,
+      38,
+      92,
+      9,
+      27,
+      43,
+      32,
+      18,
+      36
+    ],
+    "mean_stuck_fraction": 0.1086,
+    "event_transition_details": [
+      {
+        "seed": 901,
+        "decision": 5,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 22,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 44,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 75,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 89,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 125,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 147,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 166,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 199,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 212,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 239,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 248,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 257,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 264,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 272,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 286,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 293,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 302,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 310,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 317,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 333,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 380,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 414,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 421,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 448,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 475,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 483,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 901,
+        "decision": 498,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 902,
+        "decision": 2,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 902,
+        "decision": 76,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 902,
+        "decision": 85,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 902,
+        "decision": 149,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 902,
+        "decision": 410,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 903,
+        "decision": 4,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 18,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 24,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 31,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 65,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 99,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 120,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 138,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 170,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 182,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 201,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 223,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 232,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 239,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 260,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 276,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 294,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 300,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 307,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 317,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 337,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 347,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 365,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 381,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 397,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 422,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 430,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 445,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 455,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 467,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 487,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 903,
+        "decision": 498,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 904,
+        "decision": 3,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 36,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 69,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 75,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 86,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 98,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 141,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 192,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 246,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 274,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 304,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 319,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 443,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 904,
+        "decision": 456,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 1,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 22,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 40,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 55,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 67,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 73,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 81,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 90,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 129,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 135,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 145,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 186,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 192,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 203,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 216,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 222,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 231,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 296,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 323,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 331,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 905,
+        "decision": 460,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 3,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 26,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 48,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 60,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 66,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 86,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 106,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 133,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 152,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 165,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 174,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 181,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 188,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 194,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 215,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 224,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 263,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 287,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 328,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 353,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 360,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 424,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 906,
+        "decision": 436,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 442,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 906,
+        "decision": 495,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 3,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 28,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 63,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 71,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 93,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 117,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 145,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 164,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 170,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 187,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 208,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 231,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 256,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 265,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 275,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 284,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 293,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 336,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 356,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 394,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 407,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 433,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 453,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 907,
+        "decision": 470,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 4,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 19,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 46,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 57,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 73,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 87,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 95,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 120,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 147,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 159,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 191,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 221,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 235,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 268,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 277,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 289,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 306,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 316,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 339,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 356,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 367,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 376,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 385,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 398,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 908,
+        "decision": 491,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 7,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 50,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 109,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 118,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 131,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 140,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 161,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 227,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 266,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 276,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 362,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 368,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 398,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 405,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 414,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 456,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 474,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 909,
+        "decision": 481,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 5,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 16,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 32,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 85,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 92,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 105,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 155,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 164,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 180,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 191,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 263,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 283,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 294,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 325,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 910,
+        "decision": 379,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 7,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 17,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 56,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 91,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 108,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 119,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 155,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 162,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 172,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 197,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 257,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 302,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 340,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 408,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 452,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 458,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 911,
+        "decision": 485,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 4,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 22,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 59,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 81,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 133,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 912,
+        "decision": 181,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 197,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 224,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 259,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 270,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 279,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 288,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 297,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 323,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 912,
+        "decision": 344,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 15,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 913,
+        "decision": 35,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 913,
+        "decision": 113,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 913,
+        "decision": 134,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 152,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 184,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 193,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 218,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 242,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 255,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 291,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 324,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 334,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 913,
+        "decision": 354,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 913,
+        "decision": 436,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 914,
+        "decision": 3,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 914,
+        "decision": 10,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 914,
+        "decision": 46,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 914,
+        "decision": 79,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 1,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 26,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 46,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 85,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 93,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 116,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 130,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 144,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 152,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 158,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 172,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 182,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 204,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 213,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 226,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 255,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 261,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 294,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 300,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 317,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 329,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 343,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 358,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 367,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 376,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 384,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 416,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 425,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 445,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 459,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 473,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 482,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 488,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 915,
+        "decision": 494,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 9,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 21,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 64,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 101,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 111,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 132,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 147,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 155,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 165,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 173,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 179,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 193,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 207,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 255,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 263,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 407,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 916,
+        "decision": 495,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 1,
+        "transition_within_1": true,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 917,
+        "decision": 21,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 40,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 51,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 68,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 83,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 108,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 120,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 127,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 140,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 146,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 161,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 180,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 186,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 195,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 225,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 238,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 245,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 256,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 269,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 325,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 350,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 473,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 917,
+        "decision": 485,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 918,
+        "decision": 43,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 918,
+        "decision": 164,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 918,
+        "decision": 458,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 919,
+        "decision": 2,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 919,
+        "decision": 8,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 28,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 58,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 74,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 83,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 101,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 113,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 123,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 130,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 158,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 175,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 184,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 191,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 206,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 219,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 229,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 250,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 257,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 263,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 273,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 285,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 304,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 318,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 341,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 349,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 363,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 374,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 380,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 388,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 415,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 457,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 470,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 480,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 919,
+        "decision": 488,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 1,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 186,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 313,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 369,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 380,
+        "transition_within_1": false,
+        "transition_within_2_to_5": false
+      },
+      {
+        "seed": 920,
+        "decision": 391,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 400,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 418,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 440,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 454,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 460,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 472,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 478,
+        "transition_within_1": false,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 490,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      },
+      {
+        "seed": 920,
+        "decision": 496,
+        "transition_within_1": true,
+        "transition_within_2_to_5": true
+      }
+    ]
+  },
+  "leakage_checks": {
+    "RAM": true,
+    "player_coordinates": true,
+    "map_state": true,
+    "screen_classifier_into_controller": true,
+    "dialogue_detector": true,
+    "pixel_statistics_into_A_decoder": true,
+    "scripted_A": true,
+    "random_actions": true,
+    "trained_policy": true,
+    "reward": true
+  }
+}
