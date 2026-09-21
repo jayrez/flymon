@@ -1,35 +1,77 @@
 # Flymon project status
 
-Updated 18 September 2026. Flymon currently measures how visual information from Pokémon Red's framebuffer propagates through the real MaleCNS v1.0 FlyBrain simulation. It does not control the game. No reinforcement learning, rewards, action decoder, or Pokémon RAM sensory input has been added.
+Updated 21 September 2026. Flymon investigates whether Pokémon Red visual
+information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
+biologically derived behaviour. A frozen descending-neuron controller now exists
+and has been run in closed loop (Experiments 7–14), but the project remains a
+scientific probe, not reinforcement learning. No reward learning, imitation
+learning, action-reward decoder, Pokémon RAM sensory input, map coordinates, or
+scripted gameplay policy is used anywhere.
 
 ## Runtime and data
 
-- `flybrain` 0.1.0 runs MaleCNS v1.0 on the Tesla P40 through CUDA/CuPy. The connectome contains **166,700 neurons** and **25,582,938 connections**. The installed environment uses Python 3.12 and PyBoy 2.7.0.
-- The [P40 benchmark](redfly-benchmark/results/SUMMARY.md) measured **1.931 ms per step** for one brain, or **517.9 brain steps/s**. Batch 4 was comparable in aggregate throughput; larger batches slowed down. GPU memory capacity was not the practical limit in this API. The five-minute single-brain run showed no sustained slowdown or thermal throttling.
-- PyBoy runs headless, yields `(144, 160, 4)` RGBA frames, and supports scripted buttons. The [canonical bedroom state](states/bedroom.state) provides the verified bedroom starting frame. The Pokémon Red ROM is supplied externally through `POKEMON_ROM` and is excluded from Git.
+- `flybrain` 0.1.0 runs MaleCNS v1.0 on the Tesla P40 through CUDA/CuPy. The
+  connectome contains **166,700 neurons** and **25,582,938 connections**. The
+  environment is Python 3.12 with CuPy and PyBoy; the brain files (`brain.npz`,
+  `weights.npz`) live under `redfly-benchmark/data/`.
+- PyBoy runs headless, yields `(144, 160, 4)` RGBA frames, and supports scripted
+  buttons. The [canonical bedroom state](states/bedroom.state) is the verified
+  starting frame. The ROM is supplied externally via `POKEMON_ROM` and is
+  excluded from Git.
 
-## Visual experiments
+## Current system
 
-All experiments use five conceptual screens (Intro, Title, New Game menu, Oak dialogue, and Bedroom), a no-vision baseline, 12 matched seeds, and 200 MaleCNS steps per trial. The descending-neuron (DN) population is selected from MaleCNS metadata, with **1,314 DNs**. Each experiment's report describes its own controls and exact encoder.
+```
+Pokémon Red framebuffer → visual encoder → visual projection / photoreceptors
+   → MaleCNS v1.0 (166,700 neurons) → descending neurons → frozen readouts → Game Boy actions
+```
 
-| Experiment | Visual path or readout | Verdict | DN within | DN between | Between/within | Key finding |
-| --- | --- | --- | ---: | ---: | ---: | --- |
-| [1](results/experiment-01-photoreceptors/analysis.md) | Frame → 1-D panorama → 6,006 photoreceptors | FAIL | 178.8 | 168.4 | 0.942 | Raw receptor drive changes activity, but DN vectors do not separate screens beyond trial variation. |
-| [2](results/experiment-02-feature-detectors/analysis.md) | Static features → biological projection cells | WEAK | 163.5 | 167.8 | 1.026 | Four screens produced identical injections; Title accounted for most separation. |
-| [3](results/experiment-03-spatiotemporal/analysis.md) | 18×20 spatial grid and frame change → 460 LC10a/LPLC2 cells | WEAK | 177.0 | 169.3 | 0.957 | Five encoder sequences and projection responses differ. Some identity reaches DNs, but all-DN totals remain noisy. |
-| [4](results/experiment-04-temporal-dn/analysis.md) | Compare 200-step DN totals with temporal DN bins and DN subsets | FAIL for temporal-readout hypothesis | 177.0* | 169.3* | 0.957* | Temporal binning did not materially improve the all-DN classifier; a small DN subset carried strong screen information in aggregate counts. |
+A frozen controller maps DN activity to four scientifically defensible controls
+(LEFT/RIGHT/UP/A; DOWN disabled): LEFT/RIGHT = DNa02 baseline-relative steering
+(Exp 8), UP = DNg100 baseline-relative locomotion (Exp 9), A = frozen Experiment-4
+P20 RMS-z rising-edge event decoder (Exp 13). These mappings are frozen; Experiment
+15 did not change them.
 
-*Experiment 4 reuses Experiment 3's sensory conditions and aggregate DN measurements; these are the aggregate-control distances, not a new readout result.*
+## Experiment arc
 
-Experiment 3's **40.0%** five-screen nearest-centroid result (20% chance) already used leave-one-seed-out validation; Experiment 4 verified there was no seed leakage. Its all-DN aggregate classifier scored **40.0%**, while grouped, nested temporal-bin choice scored **41.7%**. Training-fold-selected DNs using **aggregate** counts scored **98.3% (59/60)** with a conservative permutation **p = 0.001**; selected temporal bins scored **90.0%**. The selected aggregate result remained **97.9%** on four non-Title screens. Static input performed as well as or better than the changing-frame condition on the strongest readouts. These are offline diagnostics on five fixed screen sequences, not evidence of game-playing ability or generalization to unseen frames.
+Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 
-The main current finding is that visual-state information reaches a small DN subpopulation, while population-wide stochastic activity masks it in simple distance and nearest-centroid analyses. Experiment 4 did **not** support the idea that 200-step aggregation was the main loss mechanism. The selected DN result needs independent validation on new seeds, new instances of each visual state, and more game states before it can guide any behavior work.
+| Exp | Question / path | Verdict |
+| --- | --- | --- |
+| 1–2 | Panorama photoreceptor / static feature drive → DNs | FAIL / WEAK |
+| 3 | 18×20 spatiotemporal → 460 LC10a/LPLC2 cells → DNs | WEAK (all-DN 40 %) |
+| 4 | Is temporal DN readout the missing piece? | FAIL for temporal hypothesis; **discovered** a selected-DN subset at 98.3 % (p=0.001) |
+| 5 | Inferred biological R1–R6 retina → optic lobe → DNs | FAIL at DN stage; loss localised downstream of the optic lobe (stage D) |
+| 6 | Does the selected-DN signal generalise to unseen image instances/seeds? | PASS (nested selected-DN 86.3 %), but largely luminance-statistic driven |
+| 7–10 | Closed-loop interface, steering, locomotion, exploration calibration | controller components validated |
+| 11–13 | Neural interaction interface; DNp01 and P20 A-channel event decoding | A channel validated as aggregate visual drive |
+| 14 | Can the frozen controller autonomously progress from `bedroom.state`? | PASS (Category D); visual drive affects behaviour, but dynamic feedback not shown to uniquely cause progression |
+| 15 | Can a connectivity-selected biological pathway carry screen info into DNs? | **FAIL**; bottleneck localised to T5 → visual-projection → DN transfer |
 
-## Reproducing and navigating the work
+## Latest result (Experiment 15)
 
-- The [CUDA benchmark workspace](redfly-benchmark/README.md) contains its script and raw measurements.
-- Experiment code is in `run_visual_experiment.py`, `run_feature_experiment.py`, `run_spatiotemporal_experiment.py`, and `run_temporal_dn_experiment.py`; analysis scripts and trial data sit beside their corresponding reports under `results/`. Experiment 4 can replay the saved Experiment 3 injection vectors without the ROM.
-- For experiments that capture game frames, set `POKEMON_ROM` to a locally owned ROM path. Keep the ROM outside this repository. The optional `compose.gui.yml` also requires `POKEMON_ROM_DIR` to point to its host directory. `webtop-config/` contains local GUI runtime files and stays ignored.
-- The `captures/vision/`, `captures/experiment-02/`, `captures/experiment-03/`, and `captures/experiment-04/` directories contain the visual encoding checks and analysis plots. The exact replayed Experiment 4 DN bins are in `results/experiment-04-temporal-dn/dn-bins-5.npz`.
+Driving the Experiment-6 dataset through the biological Experiment-5 retina
+reproduces the degradation pattern on held-out image instances: R1–R6 97.0 %,
+lamina 96.4 %, T4 50.5 %, **T5 80.9 %**, visual-projection 28.9 %, all-DN 20.6 %
+(chance 20 %). A label-free connectome audit ranks DNs by anatomical visual input;
+its top cells are the known looming/escape cluster (DNp01/03/04/11) and the
+strongest T5 targets are LPLC2/LPLC1/VS — but no connectivity-selected DN or
+visual-projection subset exceeds chance on these screens (best 22.0 %, p=0.11). The
+decisive control: the *same* 20 P20 neurons score **87.5 %** via the engineered
+LC10a/LPLC2 injection but **18.9 %** via the biological retina. The bottleneck is
+therefore biological sensory transfer through the optic lobe, not the descending
+neurons or the readout. DNg13 ranks 486/1314 anatomically and is not a
+Pokémon-vision neuron. No closed-loop test was run — the DN-level gate was not met.
 
-The next useful sensory validation is to repeat the training-fold DN-subset analysis on independently captured screen instances and new stochastic seeds, then measure whether those DNs still discriminate state changes over time. No game controller has been built.
+## Reproducing and navigating
+
+- Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
+  with trial data and reports beside each `results/experiment-NN-*/analysis.md`.
+- Experiment 15: `run_pathway_audit.py` (label-free connectivity),
+  `run_biological_pathway_experiment.py` (biological retina sweep),
+  `analyze_biological_pathway_experiment.py` (held-out analysis);
+  connectivity tracing lives in `flymon/pathway.py`.
+- Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
+  `test_pathway.py` (CPU only).
+- Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
+  repository.
