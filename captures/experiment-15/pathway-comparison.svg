@@ -4,13 +4,13 @@
 <text x="205" y="63" text-anchor="end" font-size="12">bio all-DN</text>
 <rect x="215" y="48" width="110.8" height="20" fill="#275e85"/>
 <text x="695" y="63" font-size="12">0.206</text>
-<text x="205" y="93" text-anchor="end" font-size="12">bio bio_dn_top50</text>
+<text x="205" y="93" text-anchor="end" font-size="12">bio anat (nested)</text>
 <rect x="215" y="78" width="118.3" height="20" fill="#275e85"/>
 <text x="695" y="93" font-size="12">0.220</text>
 <text x="205" y="123" text-anchor="end" font-size="12">bio P20</text>
 <rect x="215" y="108" width="101.6" height="20" fill="#275e85"/>
 <text x="695" y="123" font-size="12">0.189</text>
-<text x="205" y="153" text-anchor="end" font-size="12">bio nested</text>
+<text x="205" y="153" text-anchor="end" font-size="12">bio nested-sel</text>
 <rect x="215" y="138" width="105.8" height="20" fill="#275e85"/>
 <text x="695" y="153" font-size="12">0.197</text>
 <text x="205" y="183" text-anchor="end" font-size="12">eng all-DN</text>

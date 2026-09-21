@@ -46,22 +46,25 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 7–10 | Closed-loop interface, steering, locomotion, exploration calibration | controller components validated |
 | 11–13 | Neural interaction interface; DNp01 and P20 A-channel event decoding | A channel validated as aggregate visual drive |
 | 14 | Can the frozen controller autonomously progress from `bedroom.state`? | PASS (Category D); visual drive affects behaviour, but dynamic feedback not shown to uniquely cause progression |
-| 15 | Can a connectivity-selected biological pathway carry screen info into DNs? | **FAIL**; bottleneck localised to T5 → visual-projection → DN transfer |
+| 15 | Can a connectivity-selected biological pathway carry five-way screen-family identity into DNs? | **FAIL** (for scene identity); collapse across T5 → visual-projection → DN |
 
 ## Latest result (Experiment 15)
 
 Driving the Experiment-6 dataset through the biological Experiment-5 retina
 reproduces the degradation pattern on held-out image instances: R1–R6 97.0 %,
 lamina 96.4 %, T4 50.5 %, **T5 80.9 %**, visual-projection 28.9 %, all-DN 20.6 %
-(chance 20 %). A label-free connectome audit ranks DNs by anatomical visual input;
-its top cells are the known looming/escape cluster (DNp01/03/04/11) and the
-strongest T5 targets are LPLC2/LPLC1/VS — but no connectivity-selected DN or
-visual-projection subset exceeds chance on these screens (best 22.0 %, p=0.11). The
+(chance 20 %). A label-free connectome audit ranks DNs by a structural
+restart-diffusion visual-influence score; its top cells are the known looming/escape
+cluster (DNp01/03/04/11) and the strongest T5 targets are LPLC2/LPLC1/VS — but no
+connectivity-selected DN or visual-projection subset exceeds chance on **five-way
+screen-family identity** (properly nested anatomical endpoint 22.0 %, p = 0.096). The
 decisive control: the *same* 20 P20 neurons score **87.5 %** via the engineered
-LC10a/LPLC2 injection but **18.9 %** via the biological retina. The bottleneck is
-therefore biological sensory transfer through the optic lobe, not the descending
-neurons or the readout. DNg13 ranks 486/1314 anatomically and is not a
-Pokémon-vision neuron. No closed-loop test was run — the DN-level gate was not met.
+LC10a/LPLC2 injection but **18.9 %** via the biological retina. Scene-family identity
+is thus not preserved through the biological optic-lobe cascade. DNg13 ranks
+486/1314 structurally and did not preserve screen-family identity here, but its
+steering / optic-flow role is untested. Experiment 15 tested only scene identity;
+whether motion / optic-flow / looming features survive is the Experiment-16 question.
+No closed-loop test was run.
 
 ## Reproducing and navigating
 

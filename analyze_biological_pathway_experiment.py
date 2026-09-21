@@ -17,7 +17,8 @@ from scipy.spatial.distance import cdist
 
 from flymon.dataset import CLASSES, digest, write_json
 from flymon.generalization import (PreparedFold, split_plan, prepare_plan, nested, unselected,
-                                   record, bootstrap, permutation_labels, instance_blocks)
+                                   record, bootstrap, permutation_labels, instance_blocks,
+                                   nested_fixed_subsets)
 
 ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT / "results" / "experiment-15-biological-pathway"
@@ -153,11 +154,22 @@ def main():
     # anatomically selected DN subsets (label-free frozen)
     sel_idx = {name: np.array([dn_slot[b] for b in idx], int)
                for name, idx in audit["selected_dn_indices"].items()}
+    # Secondary descriptive: each fixed anatomical subset evaluated on its own.
     bio_frozen = {}
     for name, idx in sel_idx.items():
         rec, _ = frozen_eval(x_dn, y, plan, idx, prepared=prepared_dn)
         bio_frozen[name] = rec
-        print(f"biological {name:<14} held-out acc {rec['accuracy']:.3f}", flush=True)
+        print(f"biological {name:<14} held-out acc {rec['accuracy']:.3f} (secondary/fixed)", flush=True)
+
+    # PRIMARY endpoint: nested inner-CV choice of K in {10,20,50}, no test leakage.
+    subset_order = ["bio_dn_top10", "bio_dn_top20", "bio_dn_top50"]
+    primary_subsets = {n: sel_idx[n] for n in subset_order}
+    primary_pred, primary_choices = nested_fixed_subsets(
+        y, plan, prepared_dn, primary_subsets, subset_order, x_dn.shape[:2], NCLASS)
+    primary_rec = record(primary_pred, y, CLASSES)
+    chosen_counts = {n: sum(c['chosen'] == n for c in primary_choices) for n in subset_order}
+    print(f"PRIMARY nested anatomical-DN held-out acc {primary_rec['accuracy']:.3f} "
+          f"(chosen K per fold: {chosen_counts})", flush=True)
 
     # nested training-selected DN (leak-free nesting)
     nested_res = nested(x_dn, y, plan)
@@ -212,27 +224,29 @@ def main():
     for name in cond:
         if name == "baseline_none" or name.startswith("shuffled-") or name == "uniform_gray":
             controls[name] = cond_vec("descending", name)
-    # primary endpoint subset for control classification = the inner-CV-favoured bio subset
-    primary_bio_name = max(bio_frozen, key=lambda k: bio_frozen[k]['accuracy'])
-    control_dn = control_predictions(x_dn, y, plan, controls, sel_idx[primary_bio_name])
+    # Control classification uses the modal inner-CV-chosen subset (label-free choice).
+    control_subset_name = max(chosen_counts, key=lambda n: (chosen_counts[n], -subset_order.index(n)))
+    control_dn = control_predictions(x_dn, y, plan, controls, sel_idx[control_subset_name])
     # also shuffle retention on R1-6 (does destroyed structure still separate?)
     shuffle_r16 = {n: cond_vec("r1_6", n) for n in controls if n.startswith("shuffled-")}
     control_r16 = control_predictions(stage_x["r1_6"], y, plan,
                                       shuffle_r16, np.arange(stage_x["r1_6"].shape[-1]))
 
-    # ---- Permutation test on the primary biological DN endpoint ----
+    # ---- Permutation test on the PRIMARY (nested) biological DN endpoint ----
+    # The full nested selection is repeated under each permutation, so K selection
+    # is part of the null. prepared_dn is label-independent, so this is cheap.
     blocks = instance_blocks(y)
     rng = np.random.default_rng(15062026)
-    observed = bio_frozen[primary_bio_name]['accuracy']
+    observed = primary_rec['accuracy']
     null = []
-    prim_frozen = sel_idx[primary_bio_name]
     for _ in range(args.permutations):
         yp = permutation_labels(y, blocks, rng)
-        rec, _ = frozen_eval(x_dn, yp, plan, prim_frozen, prepared=prepared_dn)
-        null.append(rec['accuracy'])
+        pred_p, _ = nested_fixed_subsets(yp, plan, prepared_dn, primary_subsets,
+                                         subset_order, x_dn.shape[:2], NCLASS)
+        null.append(float((pred_p == yp[:, None]).mean()))
     null = np.array(null)
     pval = float((1 + np.sum(null >= observed)) / (len(null) + 1))
-    boot = bootstrap(frozen_eval(x_dn, y, plan, prim_frozen, prepared=prepared_dn)[1], y)
+    boot = bootstrap(primary_pred, y)
 
     # ---- assemble ----
     out = dict(
@@ -242,17 +256,22 @@ def main():
         stage_balanced={k: stage_results[k]['balanced_accuracy'] for k in STAGES},
         stage_distance={k: stage_results[k]['distance'] for k in STAGES},
         biological=dict(all_dn=all_dn, nested_selected=nested_rec,
-                        anatomical_dn=bio_frozen, p20=p20_rec, named=named,
+                        anatomical_dn_fixed=bio_frozen, p20=p20_rec, named=named,
                         vp_all=vp_all, vp_subsets=vp_frozen,
-                        primary_endpoint=dict(subset=primary_bio_name, accuracy=observed,
-                                              balanced=bio_frozen[primary_bio_name]['balanced_accuracy'],
-                                              permutation_p=pval, null_mean=float(null.mean()),
-                                              null_95=float(np.quantile(null, 0.95)),
-                                              bootstrap95=boot['interval95'])),
+                        primary_endpoint=dict(
+                            method="nested inner-CV choice of K in {10,20,50}; label-free anatomical subsets",
+                            candidates=subset_order, accuracy=observed,
+                            balanced=primary_rec['balanced_accuracy'],
+                            chosen_K_counts=chosen_counts,
+                            per_fold_choices=primary_choices,
+                            permutation_p=pval, null_mean=float(null.mean()),
+                            null_95=float(np.quantile(null, 0.95)),
+                            bootstrap95=boot['interval95'],
+                            confusion=primary_rec['confusion'], per_class_recall=primary_rec['per_class_recall'])),
         engineered=dict(all_dn=eng_all, nested_selected=eng_nested, p20=eng_p20,
                         bio_dn_top20=eng_bio20),
         controls=dict(dn_subset=control_dn, r16_shuffle=control_r16,
-                      subset_used=primary_bio_name),
+                      subset_used=control_subset_name),
         nested_choices=[{k: c[k] for k in ('instance_block', 'seed_block', 'population')}
                         for c in nested_res['choices']],
         leakage_checks=audit_checks,
@@ -264,7 +283,7 @@ def main():
     bar_svg(CAPTURES / "stage-accuracy.svg", stage_labels,
             [stage_results[k]['accuracy'] for k in STAGES],
             "Experiment 15 — held-out screen accuracy by biological stage", ref=0.2)
-    comp_labels = ["bio all-DN", f"bio {primary_bio_name}", "bio P20", "bio nested",
+    comp_labels = ["bio all-DN", "bio anat (nested)", "bio P20", "bio nested-sel",
                    "eng all-DN", "eng P20", "eng nested"]
     comp_vals = [all_dn['accuracy'], observed, p20_rec['accuracy'], nested_rec['accuracy'],
                  eng_all['accuracy'], eng_p20['accuracy'], eng_nested['accuracy']]
@@ -275,8 +294,9 @@ def main():
     bar_svg(CAPTURES / "vp-subsets.svg", vp_labels, vp_vals,
             "Experiment 15 — visual-projection subset held-out accuracy", ref=0.2)
 
-    print(f"\nPrimary biological endpoint ({primary_bio_name}): {observed:.3f} "
-          f"(p={pval:.4f}); biological all-DN {all_dn['accuracy']:.3f}; "
+    print(f"\nPRIMARY nested anatomical-DN endpoint: {observed:.3f} "
+          f"(balanced {primary_rec['balanced_accuracy']:.3f}, p={pval:.4f}, "
+          f"boot95 {boot['interval95']}); biological all-DN {all_dn['accuracy']:.3f}; "
           f"engineered all-DN {eng_all['accuracy']:.3f}", flush=True)
     print(f"analysis wall {time.monotonic()-started:.1f}s", flush=True)
     return out

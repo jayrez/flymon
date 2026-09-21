@@ -12,7 +12,8 @@ from scipy import sparse
 
 from flymon.pathway import (row_normalized_magnitude, visual_influence, hop_distance,
                             input_contributor_count)
-from flymon.generalization import split_plan, instance_blocks
+from flymon.generalization import (split_plan, instance_blocks, prepare_plan,
+                                   nested_fixed_subsets, permutation_labels)
 from flymon.retina import load_mapping
 
 ROOT = Path(__file__).resolve().parent
@@ -123,6 +124,78 @@ class SplitIntegrityTests(unittest.TestCase):
         for f in self.plan:
             tested.update(f["test_i"])
         self.assertEqual(tested, set(range(len(self.y))))
+
+
+class NestedSelectionTests(unittest.TestCase):
+    """Experiment-15 correction: K is chosen by inner CV, never by outer-test data."""
+    def setUp(self):
+        rng = np.random.default_rng(7)
+        self.y = np.repeat(np.arange(2), 6)          # 12 instances, 2 classes
+        n, s = 12, 8
+        self.x = rng.normal(size=(n, s, 4))
+        # Subset A (features 0,1) separates classes everywhere; subset B (2,3) is noise.
+        self.x[:, :, :2] += np.eye(2)[self.y][:, None, :] * 6.0
+        self.subsets = {"A": np.array([0, 1]), "B": np.array([2, 3])}
+        self.order = ["A", "B"]
+        self.plan = split_plan(self.y, nseed=s)
+        self.shape = self.x.shape[:2]
+
+    def _run(self, x):
+        return nested_fixed_subsets(self.y, self.plan, prepare_plan(x, self.plan),
+                                    self.subsets, self.order, self.shape)
+
+    def test_informative_subset_is_chosen(self):
+        _, choices = self._run(self.x)
+        self.assertTrue(all(c["chosen"] == "A" for c in choices))
+
+    def test_choice_ignores_outer_test_cells(self):
+        pred1, choices1 = self._run(self.x)
+        x2 = self.x.copy()
+        f0 = self.plan[0]
+        # Corrupt only fold 0's held-out cells (all features) with large noise.
+        x2[np.ix_(np.array(f0["test_i"]), np.array(f0["test_s"]))] += 1e3
+        pred2, choices2 = self._run(x2)
+        # Fold 0's chosen K is unchanged (its inner CV never sees its test cells)...
+        self.assertEqual(choices2[0]["chosen"], choices1[0]["chosen"])
+        # ...but the outer prediction on those corrupted test cells did change.
+        block = np.ix_(np.array(f0["test_i"]), np.array(f0["test_s"]))
+        self.assertFalse(np.array_equal(pred1[block], pred2[block]))
+
+    def test_selection_deterministic(self):
+        p1, c1 = self._run(self.x)
+        p2, c2 = self._run(self.x)
+        np.testing.assert_array_equal(p1, p2)
+        self.assertEqual([c["chosen"] for c in c1], [c["chosen"] for c in c2])
+
+    def test_permutation_uses_nested_procedure_and_valid(self):
+        blocks = instance_blocks(self.y)
+        rng = np.random.default_rng(1)
+        yp = permutation_labels(self.y, blocks, rng)
+        pred, choices = nested_fixed_subsets(yp, self.plan, prepare_plan(self.x, self.plan),
+                                             self.subsets, self.order, self.shape)
+        self.assertTrue(np.all(pred >= 0))
+        # null accuracy is scored against the PERMUTED labels, and stays finite
+        acc = float((pred == yp[:, None]).mean())
+        self.assertGreaterEqual(acc, 0.0)
+        self.assertLessEqual(acc, 1.0)
+        self.assertTrue(all(c["chosen"] in self.subsets for c in choices))
+
+
+class CorrectedPrimaryConsistencyTests(unittest.TestCase):
+    """The committed classification.json primary is the nested (not test-selected) one."""
+    def test_primary_is_nested_and_matches_secondary_fixed(self):
+        path = EXP15 / "classification.json"
+        if not path.exists():
+            self.skipTest("classification.json not yet generated")
+        c = json.loads(path.read_text())
+        prim = c["biological"]["primary_endpoint"]
+        self.assertIn("nested inner-CV", prim["method"])
+        self.assertEqual(set(prim["candidates"]),
+                         {"bio_dn_top10", "bio_dn_top20", "bio_dn_top50"})
+        self.assertIn("anatomical_dn_fixed", c["biological"])  # fixed topK kept as secondary
+        # per-fold choices exist and only name candidate subsets (no test-based choice)
+        for ch in prim["per_fold_choices"]:
+            self.assertIn(ch["chosen"], prim["candidates"])
 
 
 if __name__ == "__main__":
