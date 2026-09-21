@@ -48,6 +48,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 14 | Can the frozen controller autonomously progress from `bedroom.state`? | PASS (Category D); visual drive affects behaviour, but dynamic feedback not shown to uniquely cause progression |
 | 15 | Can a connectivity-selected biological pathway carry five-way screen-family identity into DNs? | **FAIL** (for scene identity); collapse across T5 → visual-projection → DN |
 | 16 | Does the pathway preserve biological motion / optic-flow / looming features? | **FAIL** (Category A); T4/T5 do not reproduce direction selectivity — failure is optic-lobe dynamics, upstream of Exp-15's transfer |
+| 17 | Why does retinal motion input not become T4/T5 direction selectivity, and can dynamics repair it? | **FAIL** (Category E); stimuli and gain exonerated, signal flow restored, but the LIF architecture cannot compute motion |
 
 ## Latest result (Experiment 15)
 
@@ -84,6 +85,42 @@ rather than to biologically appropriate feature compression. Recommended next st
 **Experiment 17: dynamics / gain repair** (with a flyvis functional positive control),
 not closed-loop control. flyvis was not installed and was deliberately not forced.
 
+## Latest result (Experiment 17)
+
+Experiment 17 asked *why* Experiment 16 failed and whether a biologically constrained
+dynamics change could repair it, using the unchanged Experiment-16 stimuli, fresh
+calibration seeds 1201–1220 and held-out seeds 1221–1240.
+
+Three findings, in order of increasing importance:
+
+1. **The stimuli are fine.** A Hassenstein-Reichardt correlator on the *same* retina
+   samples gives **|DSI| = 1.0** with a clean sign flip, exactly 0 for gray and frozen
+   input, 76 % suppression under temporal shuffling, and sign reversal under time
+   reversal. (flyvis 1.2.0 installed in an isolated directory but its pretrained
+   weights were unobtainable, so it could not serve as the positive control.)
+2. **Gain is irrelevant.** Across 0.5×–8× retinal gain, R1–R6 firing rises 5×
+   (26 → 131) while T4/T5 firing does not move (2.3 / 2.2) and max |DSI| stays at
+   noise with no trend. **Gain hypothesis rejected.**
+3. **Signal flow was genuinely broken, and was genuinely repaired — without
+   restoring the computation.** Every R1–R6 → lamina weight in MaleCNS is inhibitory
+   (9,636 edges, negative fraction 1.000), so in a spiking model with no maintained
+   LMC depolarisation the lamina is pinned at its floor. Adding a tonic term raised
+   L1 12.6×, L2 41×, Tm2 11× and T5a 4.7×, and made the cascade stimulus-locked — yet
+   the held-out primary endpoint stayed null: T5 OFF preferred−null **−0.0014 spike,
+   DSI −0.00011, p = 0.950**, CI [−0.041, +0.040].
+
+**Verdict FAIL, Category E (no simple repair).** The excitatory and inhibitory arms
+show a −1 step lag for moving *and* frozen stimuli alike, i.e. no motion-dependent
+temporal structure. The underlying reason is architectural: a motion detector computes
+a *correlation*, while FlyBrain integrates a linear weighted sum of spikes and
+thresholds it, so delayed inhibition plus undelayed excitation yields a linear
+asymmetry, never a correlator. This explains Experiments 15 and 16 together — the
+optic lobe transmits luminance change but never computes motion, so nothing
+motion-specific can reach visual-projection or descending neurons. Experiment 18
+should **not** proceed to VP → DN transfer; it needs an architecturally different
+optic-lobe front end (graded photoreceptor/LMC transfer plus a nonlinear T4/T5
+interaction, or a flyvis-derived front end validated against the HR control).
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -92,7 +129,11 @@ not closed-loop control. flyvis was not installed and was deliberately not force
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 17: `run_optic_dynamics_experiment.py` (audit/gain/calibrate/traces/heldout),
+  `run_positive_control.py`, `analyze_optic_dynamics_experiment.py`; opt-in dynamics
+  adapter in `flymon/optic_dynamics.py` (reference path bit-identical to stock FlyBrain).
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
-  `test_pathway.py` (CPU only).
+  `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py` (CPU only;
+  `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

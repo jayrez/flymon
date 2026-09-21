@@ -1,0 +1,40 @@
+{
+  "n_column_pairs": 691,
+  "n_columns": 825,
+  "hr_response": {
+    "off_left": -217.03768920898438,
+    "off_right": 217.03768920898438,
+    "on_left": -217.03768920898438,
+    "on_right": 217.03768920898438,
+    "off_up": 0.0,
+    "off_down": 0.0,
+    "flow_left": -933.32275390625,
+    "flow_right": 932.6787109375,
+    "gray": 0.0,
+    "off_left__frozen_first": 0.0,
+    "off_left__shuffle": -51.371971130371094,
+    "off_left__reverse": 217.03768920898438
+  },
+  "off_horizontal_dsi": -0.9999999999976963,
+  "on_horizontal_dsi": -0.9999999999976963,
+  "flow_horizontal_dsi": -0.9999999999994641,
+  "sign_flips_with_direction": {
+    "off": true,
+    "on": true,
+    "flow": true
+  },
+  "vertical_motion_horizontal_hr": {
+    "off_up": 0.0,
+    "off_down": 0.0
+  },
+  "controls": {
+    "gray": 0.0,
+    "frozen": 0.0,
+    "shuffle": -51.371971130371094,
+    "reverse": 217.03768920898438
+  },
+  "frozen_suppression": 1.0,
+  "shuffle_suppression": 0.7633039159356851,
+  "reverse_sign_flip": true,
+  "method": "Hassenstein-Reichardt correlator on Experiment-5 retina samples of the unchanged Experiment-16 stimuli; no learning, no labels"
+}

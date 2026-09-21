@@ -1,0 +1,29 @@
+{
+  "run_with_pretrained_weights": false,
+  "install": {
+    "status": "succeeded",
+    "flyvis_version": "1.2.0",
+    "torch_version": "2.14.0+cpu",
+    "torchvision_version": "0.29.0+cpu",
+    "python_version": "3.12.3",
+    "device": "cpu",
+    "source": "PyPI flyvis; torch/torchvision from https://download.pytorch.org/whl/cpu",
+    "isolation": "installed with pip --target into /tmp/flyvis-libs, OUTSIDE the repository and outside the Flymon venv; never committed",
+    "install_size": "5.8 GB",
+    "note": "an initial torch/torchvision ABI mismatch (torchvision resolved from PyPI against a CPU torch) was fixed by reinstalling torchvision from the same CPU index"
+  },
+  "why_not_run": [
+    "flyvis direction selectivity is a property of TRAINED networks (Lappalainen et al., Nature 2024).",
+    "The package ships no bundled pretrained ensemble and exposes no download helper or CLI entry point in this install; the pretrained checkpoints are hosted externally and were not obtainable in this environment.",
+    "An untrained, connectome-initialised flyvis Network would not be expected to show direction selectivity, so running it would not constitute a positive control and could be mistaken for evidence against the stimuli.",
+    "Per the Experiment-17 brief, dependency work was bounded rather than escalated."
+  ],
+  "substitute_positive_control": {
+    "used": true,
+    "file": "positive-control.json",
+    "method": "Hassenstein-Reichardt elementary motion detector applied directly to the same Experiment-5 retina samples of the unchanged Experiment-16 stimuli",
+    "rationale": "Answers the same question flyvis was meant to answer (are the stimuli and retinal sampling capable of yielding direction selectivity?) with no external dependency and full transparency.",
+    "outcome": "Maximal direction selectivity (|DSI| = 1.0, sign flips with direction); gray and frozen controls give exactly 0; temporal shuffle suppresses 76%; time reversal flips the sign."
+  },
+  "conclusion": "Stimulus adequacy is SUPPORTED by the substitute positive control; hypothesis H3 (inadequate stimuli) is rejected without needing flyvis."
+}

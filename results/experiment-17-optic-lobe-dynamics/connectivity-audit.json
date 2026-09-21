@@ -1,0 +1,719 @@
+{
+  "photoreceptor_to_lamina": {
+    "L1": {
+      "edges": 3280,
+      "mean_weight": -0.11826285719871521,
+      "negative_fraction": 1.0,
+      "sum_weight": -387.90216064453125
+    },
+    "L2": {
+      "edges": 3280,
+      "mean_weight": -0.08502061665058136,
+      "negative_fraction": 1.0,
+      "sum_weight": -278.86761474609375
+    },
+    "L3": {
+      "edges": 3076,
+      "mean_weight": -0.04939406365156174,
+      "negative_fraction": 1.0,
+      "sum_weight": -151.93614196777344
+    },
+    "L5": {
+      "edges": 55,
+      "mean_weight": -0.018020400777459145,
+      "negative_fraction": 1.0,
+      "sum_weight": -0.9911220073699951
+    }
+  },
+  "t4_t5_inputs": {
+    "T4a": [
+      {
+        "cell_type": "Mi1",
+        "edges": 11336,
+        "sum_weight": 470.90806177584454,
+        "mean_weight": 0.041540936995046275,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm3",
+        "edges": 10177,
+        "sum_weight": 203.6796789211221,
+        "mean_weight": 0.02001372496031464,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi9",
+        "edges": 7688,
+        "sum_weight": -150.77888329094276,
+        "mean_weight": -0.019612237680923877,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4a",
+        "edges": 12257,
+        "sum_weight": 126.39779943646863,
+        "mean_weight": 0.010312294969117128,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1676,
+        "sum_weight": -93.49068022705615,
+        "mean_weight": -0.05578202877509317,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y1",
+        "edges": 5971,
+        "sum_weight": -92.30847307876684,
+        "mean_weight": -0.015459466266750434,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Mi4",
+        "edges": 5594,
+        "sum_weight": -89.72528161946684,
+        "mean_weight": -0.016039556957359105,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 4812,
+        "sum_weight": -83.12765849847347,
+        "mean_weight": -0.017275074500929646,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "C3",
+        "edges": 4073,
+        "sum_weight": -45.93867267551832,
+        "mean_weight": -0.011278829529957849,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y11",
+        "edges": 4444,
+        "sum_weight": -42.63833894836716,
+        "mean_weight": -0.009594585721954808,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y12",
+        "edges": 3730,
+        "sum_weight": -34.09828606550582,
+        "mean_weight": -0.009141631652950621,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "DCH",
+        "edges": 1049,
+        "sum_weight": -30.433703048387542,
+        "mean_weight": -0.029012109674344654,
+        "polarity": "inhibitory-like"
+      }
+    ],
+    "T4b": [
+      {
+        "cell_type": "Mi1",
+        "edges": 11252,
+        "sum_weight": 410.71906737750396,
+        "mean_weight": 0.03650187232292072,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm3",
+        "edges": 9614,
+        "sum_weight": 209.7798447466921,
+        "mean_weight": 0.021820245969075527,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi9",
+        "edges": 7682,
+        "sum_weight": -171.74425089382567,
+        "mean_weight": -0.02235671060841261,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4b",
+        "edges": 14478,
+        "sum_weight": 159.26301528373733,
+        "mean_weight": 0.011000346407220427,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi4",
+        "edges": 5382,
+        "sum_weight": -97.03411402157508,
+        "mean_weight": -0.01802937830203922,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 5322,
+        "sum_weight": -91.45952824619599,
+        "mean_weight": -0.017185180053776023,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1682,
+        "sum_weight": -86.9452733702492,
+        "mean_weight": -0.05169160129027895,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LPi12",
+        "edges": 1687,
+        "sum_weight": -78.22949539497495,
+        "mean_weight": -0.046371959333120896,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LPi10",
+        "edges": 5334,
+        "sum_weight": -50.20083031244576,
+        "mean_weight": -0.009411479248677496,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T5b",
+        "edges": 7214,
+        "sum_weight": 45.928791363257915,
+        "mean_weight": 0.006366619262996661,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "C3",
+        "edges": 3892,
+        "sum_weight": -42.341772640822455,
+        "mean_weight": -0.010879181048515534,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Pm04",
+        "edges": 3243,
+        "sum_weight": -38.73306749155745,
+        "mean_weight": -0.011943591579265325,
+        "polarity": "inhibitory-like"
+      }
+    ],
+    "T4c": [
+      {
+        "cell_type": "Mi1",
+        "edges": 12012,
+        "sum_weight": 483.82031420152634,
+        "mean_weight": 0.040278081435358506,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm3",
+        "edges": 9236,
+        "sum_weight": 203.5037646817509,
+        "mean_weight": 0.0220337553791415,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi9",
+        "edges": 8253,
+        "sum_weight": -186.07557872124016,
+        "mean_weight": -0.022546416905518014,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4c",
+        "edges": 12093,
+        "sum_weight": 120.706070485292,
+        "mean_weight": 0.009981482716058216,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi4",
+        "edges": 6245,
+        "sum_weight": -95.55610077083111,
+        "mean_weight": -0.015301217097010586,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 5547,
+        "sum_weight": -93.87273681722581,
+        "mean_weight": -0.016923154284699083,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y11",
+        "edges": 7108,
+        "sum_weight": -89.26091613969766,
+        "mean_weight": -0.012557810374183688,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1762,
+        "sum_weight": -87.19853886333294,
+        "mean_weight": -0.049488387550132205,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp4",
+        "edges": 5444,
+        "sum_weight": -64.07040787464939,
+        "mean_weight": -0.011768994833697536,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp14",
+        "edges": 4785,
+        "sum_weight": -61.90618723887019,
+        "mean_weight": -0.012937552192031387,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T5c",
+        "edges": 5667,
+        "sum_weight": 38.607235317118466,
+        "mean_weight": 0.006812640782974848,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Pm04",
+        "edges": 2872,
+        "sum_weight": -29.885472176829353,
+        "mean_weight": -0.010405805075497685,
+        "polarity": "inhibitory-like"
+      }
+    ],
+    "T4d": [
+      {
+        "cell_type": "Mi1",
+        "edges": 11444,
+        "sum_weight": 457.3942421905231,
+        "mean_weight": 0.03996803933856371,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm3",
+        "edges": 9126,
+        "sum_weight": 198.51644297642633,
+        "mean_weight": 0.02175284275437501,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Mi9",
+        "edges": 7474,
+        "sum_weight": -175.5110656141769,
+        "mean_weight": -0.023482882742062738,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4d",
+        "edges": 11805,
+        "sum_weight": 125.14618887612596,
+        "mean_weight": 0.010601117227964927,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Y12",
+        "edges": 6677,
+        "sum_weight": -98.68046212429181,
+        "mean_weight": -0.014779161618135661,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1705,
+        "sum_weight": -92.84460282372311,
+        "mean_weight": -0.05445431250658247,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Mi4",
+        "edges": 5817,
+        "sum_weight": -84.77541798329912,
+        "mean_weight": -0.014573735255853381,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 4893,
+        "sum_weight": -82.36501360079274,
+        "mean_weight": -0.016833233926178772,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp1",
+        "edges": 4870,
+        "sum_weight": -61.399466540897265,
+        "mean_weight": -0.012607693334886502,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LPi13",
+        "edges": 1699,
+        "sum_weight": -55.290599098661914,
+        "mean_weight": -0.032543024778494356,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T5d",
+        "edges": 5418,
+        "sum_weight": 38.22290515736677,
+        "mean_weight": 0.0070547997706472436,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "C3",
+        "edges": 3419,
+        "sum_weight": -31.6852359182667,
+        "mean_weight": -0.009267398630671745,
+        "polarity": "inhibitory-like"
+      }
+    ],
+    "T5a": [
+      {
+        "cell_type": "Tm2",
+        "edges": 7680,
+        "sum_weight": 260.35737677454017,
+        "mean_weight": 0.03390070010085158,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm9",
+        "edges": 11492,
+        "sum_weight": 241.5921123381704,
+        "mean_weight": 0.021022634209725933,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm1",
+        "edges": 8200,
+        "sum_weight": 189.86751429131255,
+        "mean_weight": 0.0231545749135747,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1663,
+        "sum_weight": -177.69902007840574,
+        "mean_weight": -0.10685449192928788,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tm4",
+        "edges": 7404,
+        "sum_weight": 147.37289760890417,
+        "mean_weight": 0.019904497245935193,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "T5a",
+        "edges": 11756,
+        "sum_weight": 124.33895278768614,
+        "mean_weight": 0.01057663769885047,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Y1",
+        "edges": 6119,
+        "sum_weight": -103.01582396845333,
+        "mean_weight": -0.016835401857893992,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 3640,
+        "sum_weight": -53.0935474941507,
+        "mean_weight": -0.014586139421469971,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y11",
+        "edges": 4417,
+        "sum_weight": -44.62128830095753,
+        "mean_weight": -0.01010217077223399,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Y12",
+        "edges": 3961,
+        "sum_weight": -41.1444516365882,
+        "mean_weight": -0.010387389961269427,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LT33",
+        "edges": 1598,
+        "sum_weight": -35.420161730377,
+        "mean_weight": -0.022165307716130792,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4a",
+        "edges": 4903,
+        "sum_weight": 33.97518938896246,
+        "mean_weight": 0.006929469587795729,
+        "polarity": "excitatory-like"
+      }
+    ],
+    "T5b": [
+      {
+        "cell_type": "Tm9",
+        "edges": 12009,
+        "sum_weight": 271.94214991503395,
+        "mean_weight": 0.022644862179618117,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm2",
+        "edges": 9397,
+        "sum_weight": 267.66948825051077,
+        "mean_weight": 0.02848456829312661,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1715,
+        "sum_weight": -177.70073009189218,
+        "mean_weight": -0.10361558605941235,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tm1",
+        "edges": 8696,
+        "sum_weight": 173.14802198763937,
+        "mean_weight": 0.019911226079535344,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "T5b",
+        "edges": 14779,
+        "sum_weight": 153.18764015752822,
+        "mean_weight": 0.010365223638779906,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm4",
+        "edges": 7619,
+        "sum_weight": 136.36526017263532,
+        "mean_weight": 0.017898052260485013,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "LPi12",
+        "edges": 1715,
+        "sum_weight": -70.82976765977219,
+        "mean_weight": -0.04130015606983801,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LPi10",
+        "edges": 5985,
+        "sum_weight": -65.62844220362604,
+        "mean_weight": -0.01096548741915222,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 4194,
+        "sum_weight": -57.79264546604827,
+        "mean_weight": -0.013779839166916613,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4b",
+        "edges": 7479,
+        "sum_weight": 52.65339807700366,
+        "mean_weight": 0.007040165540447073,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Li14",
+        "edges": 3635,
+        "sum_weight": -40.42223918507807,
+        "mean_weight": -0.011120285883102633,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LT33",
+        "edges": 1614,
+        "sum_weight": -37.074215597473085,
+        "mean_weight": -0.022970393802647513,
+        "polarity": "inhibitory-like"
+      }
+    ],
+    "T5c": [
+      {
+        "cell_type": "Tm9",
+        "edges": 12462,
+        "sum_weight": 308.1527197123505,
+        "mean_weight": 0.02472738883905878,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm2",
+        "edges": 9264,
+        "sum_weight": 265.7158502342645,
+        "mean_weight": 0.028682626320624408,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm1",
+        "edges": 9561,
+        "sum_weight": 195.16728109214455,
+        "mean_weight": 0.020412852326340818,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm4",
+        "edges": 8664,
+        "sum_weight": 161.56194899207912,
+        "mean_weight": 0.018647501037866936,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1717,
+        "sum_weight": -145.4333095997572,
+        "mean_weight": -0.08470198578902574,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T5c",
+        "edges": 11997,
+        "sum_weight": 110.81148303556256,
+        "mean_weight": 0.00923659940281425,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Y11",
+        "edges": 7233,
+        "sum_weight": -83.59492693608627,
+        "mean_weight": -0.01155743494208299,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp4",
+        "edges": 5373,
+        "sum_weight": -57.94386388990097,
+        "mean_weight": -0.01078426649728289,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp14",
+        "edges": 4599,
+        "sum_weight": -53.85742306825705,
+        "mean_weight": -0.011710681249892814,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 4338,
+        "sum_weight": -53.36900612153113,
+        "mean_weight": -0.012302675454479283,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Li14",
+        "edges": 3803,
+        "sum_weight": -42.01403830060735,
+        "mean_weight": -0.011047604075889391,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4c",
+        "edges": 5979,
+        "sum_weight": 40.84764123754576,
+        "mean_weight": 0.0068318516871626956,
+        "polarity": "excitatory-like"
+      }
+    ],
+    "T5d": [
+      {
+        "cell_type": "Tm9",
+        "edges": 11333,
+        "sum_weight": 285.43179347296245,
+        "mean_weight": 0.025185899009349904,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm2",
+        "edges": 8269,
+        "sum_weight": 242.69900347455405,
+        "mean_weight": 0.029350466014579035,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm1",
+        "edges": 8687,
+        "sum_weight": 194.33301005791873,
+        "mean_weight": 0.022370554858745104,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Tm4",
+        "edges": 7894,
+        "sum_weight": 150.54762205132283,
+        "mean_weight": 0.01907114543340801,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "CT1",
+        "edges": 1618,
+        "sum_weight": -144.51658054441214,
+        "mean_weight": -0.08931803494710268,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T5d",
+        "edges": 11340,
+        "sum_weight": 116.7547096859198,
+        "mean_weight": 0.010295829778299806,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Y12",
+        "edges": 6029,
+        "sum_weight": -79.89935798454098,
+        "mean_weight": -0.01325250588564289,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "TmY15",
+        "edges": 3857,
+        "sum_weight": -55.81409981357865,
+        "mean_weight": -0.014470858131599339,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "Tlp1",
+        "edges": 4479,
+        "sum_weight": -52.752303848043084,
+        "mean_weight": -0.011777696773396535,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "T4d",
+        "edges": 5697,
+        "sum_weight": 42.12782555981539,
+        "mean_weight": 0.00739473855710293,
+        "polarity": "excitatory-like"
+      },
+      {
+        "cell_type": "Li14",
+        "edges": 3431,
+        "sum_weight": -38.00883902912028,
+        "mean_weight": -0.011078064421195069,
+        "polarity": "inhibitory-like"
+      },
+      {
+        "cell_type": "LT33",
+        "edges": 1562,
+        "sum_weight": -37.63675038306974,
+        "mean_weight": -0.02409523071899471,
+        "polarity": "inhibitory-like"
+      }
+    ]
+  },
+  "note": "Signed MaleCNS weights, W[post,pre]. Connectivity only: no stimulus, no neural activity, no labels."
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "A_reference",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {},
+    "tau_scale": {},
+    "delay_steps": {}
+  },
+  {
+    "name": "C_lamina_tonic",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {},
+    "delay_steps": {}
+  },
+  {
+    "name": "D_tonic_slow_inhibition",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {
+      "Mi9": 3.0,
+      "Mi4": 3.0,
+      "CT1": 3.0
+    },
+    "delay_steps": {}
+  },
+  {
+    "name": "E_tonic_delay1",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {},
+    "delay_steps": {
+      "Mi9": 1,
+      "Mi4": 1,
+      "CT1": 1
+    }
+  },
+  {
+    "name": "F_tonic_delay2",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {},
+    "delay_steps": {
+      "Mi9": 2,
+      "Mi4": 2,
+      "CT1": 2
+    }
+  },
+  {
+    "name": "G_tonic_slow_delay2",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {
+      "Mi9": 3.0,
+      "Mi4": 3.0,
+      "CT1": 3.0
+    },
+    "delay_steps": {
+      "Mi9": 2,
+      "Mi4": 2,
+      "CT1": 2
+    }
+  }
+]

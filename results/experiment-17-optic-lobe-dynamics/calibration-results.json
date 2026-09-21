@@ -1,0 +1,1122 @@
+{
+  "seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
+    1211,
+    1212,
+    1213,
+    1214,
+    1215,
+    1216,
+    1217,
+    1218,
+    1219,
+    1220
+  ],
+  "stimuli": [
+    "on_left",
+    "on_right",
+    "on_up",
+    "on_down",
+    "off_left",
+    "off_right",
+    "off_up",
+    "off_down",
+    "gray",
+    "off_left__frozen_first",
+    "on_left__frozen_first",
+    "off_left__shuffle",
+    "off_left__reverse",
+    "loom_dark",
+    "recede_dark",
+    "flow_left",
+    "flow_right"
+  ],
+  "tonic_scan": {
+    "0.06": {
+      "lamina_rate": 6.1893257766307626,
+      "t5_rate": 5.024611090246793,
+      "t4_rate": 1.8963259220227977,
+      "t4t5_mean_rate": 3.4604685061347955,
+      "t4t5_max_rate": 5.797875615763546,
+      "saturated": false,
+      "silent": false
+    },
+    "0.09": {
+      "lamina_rate": 9.740195685555705,
+      "t5_rate": 7.354150216764376,
+      "t4_rate": 1.5434078086165457,
+      "t4t5_mean_rate": 4.448779012690461,
+      "t4t5_max_rate": 8.509929187192117,
+      "saturated": false,
+      "silent": false
+    },
+    "0.12": {
+      "lamina_rate": 12.935951100445413,
+      "t5_rate": 9.101569560373207,
+      "t4_rate": 1.2791766422863509,
+      "t4t5_mean_rate": 5.1903731013297785,
+      "t4t5_max_rate": 10.518819273399014,
+      "saturated": false,
+      "silent": false
+    }
+  },
+  "chosen_lamina_tonic": 0.12,
+  "candidates": {
+    "A_reference": {
+      "config": {
+        "name": "A_reference",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {},
+        "tau_scale": {},
+        "delay_steps": {}
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.004359914126271277,
+          "effect": 0.017305389221556854,
+          "sign_consistency": 0.6,
+          "pref_rate": 2.2362275449101796,
+          "null_rate": 2.218922155688623
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.002065250947236315,
+          "effect": 0.009422850412249684,
+          "sign_consistency": 0.5,
+          "pref_rate": 2.361542991755006,
+          "null_rate": 2.352120141342757
+        },
+        "T4b_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.007493221831898436,
+          "effect": 0.031931279620853036,
+          "sign_consistency": 0.6,
+          "pref_rate": 2.272511848341232,
+          "null_rate": 2.2405805687203793
+        },
+        "T4b_R": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.002449678211773082,
+          "effect": 0.011702127659574546,
+          "sign_consistency": 0.6,
+          "pref_rate": 2.3815602836879433,
+          "null_rate": 2.3698581560283687
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.0018339253540890954,
+          "effect": 0.008156424581005583,
+          "sign_consistency": 0.5,
+          "pref_rate": 2.1084916201117316,
+          "null_rate": 2.1003351955307266
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.006371656132505452,
+          "effect": 0.027349943374858465,
+          "sign_consistency": 0.55,
+          "pref_rate": 2.175651189127973,
+          "null_rate": 2.1483012457531143
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.003727313498786261,
+          "effect": 0.016705882352941147,
+          "sign_consistency": 0.55,
+          "pref_rate": 2.288882352941177,
+          "null_rate": 2.272176470588236
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.005299710542981456,
+          "effect": 0.024186046511627847,
+          "sign_consistency": 0.5,
+          "pref_rate": 2.3040116279069762,
+          "null_rate": 2.2798255813953494
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.002733389885292893,
+          "effect": 0.00992736077481846,
+          "sign_consistency": 0.55,
+          "pref_rate": 1.9251815980629536,
+          "null_rate": 1.9152542372881354
+        },
+        "T5a_R": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.0022758912979850316,
+          "effect": 0.011694510739856867,
+          "sign_consistency": 0.55,
+          "pref_rate": 2.023747016706444,
+          "null_rate": 2.012052505966587
+        },
+        "T5b_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0010216556610692883,
+          "effect": 0.003765932792584048,
+          "sign_consistency": 0.65,
+          "pref_rate": 2.157647740440324,
+          "null_rate": 2.1538818076477404
+        },
+        "T5b_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.004275091823322356,
+          "effect": 0.01537558685446011,
+          "sign_consistency": 0.5,
+          "pref_rate": 2.1153755868544604,
+          "null_rate": 2.1
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0029366807565157373,
+          "effect": 0.01426914153132255,
+          "sign_consistency": 0.55,
+          "pref_rate": 2.1908352668213453,
+          "null_rate": 2.176566125290024
+        },
+        "T5c_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.0010179231370420357,
+          "effect": 0.005885780885780812,
+          "sign_consistency": 0.5,
+          "pref_rate": 2.128729603729604,
+          "null_rate": 2.122843822843822
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.005001112329818968,
+          "effect": 0.024261083743842372,
+          "sign_consistency": 0.6,
+          "pref_rate": 2.408743842364532,
+          "null_rate": 2.3844827586206896
+        },
+        "T5d_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.0013608879681280103,
+          "effect": 0.00693069306930687,
+          "sign_consistency": 0.55,
+          "pref_rate": 2.368131188118812,
+          "null_rate": 2.361200495049505
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 2.2685599619578944,
+        "t4t5_max_rate": 2.5037268808232516,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.0025765071669173927,
+      "objective_sign": 0.5625,
+      "max_abs_t5_dsi": 0.005001112329818968,
+      "max_abs_t4_dsi": 0.007493221831898436
+    },
+    "C_lamina_tonic": {
+      "config": {
+        "name": "C_lamina_tonic",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {
+          "L1": 0.12,
+          "L2": 0.12,
+          "L3": 0.12,
+          "L5": 0.12
+        },
+        "tau_scale": {},
+        "delay_steps": {}
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.016737864653723646,
+          "effect": 0.01934131736526946,
+          "sign_consistency": 0.7,
+          "pref_rate": 0.5863473053892214,
+          "null_rate": 0.5670059880239521
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.025304946902893716,
+          "effect": 0.04605418138987043,
+          "sign_consistency": 0.7,
+          "pref_rate": 0.913250883392226,
+          "null_rate": 0.8671967020023554
+        },
+        "T4b_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.013793646595917941,
+          "effect": 0.01534360189573461,
+          "sign_consistency": 0.65,
+          "pref_rate": 0.5862559241706161,
+          "null_rate": 0.5709123222748815
+        },
+        "T4b_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.028928911740030306,
+          "effect": 0.05212765957446809,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.9215721040189125,
+          "null_rate": 0.8694444444444445
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.027852276453287566,
+          "effect": 0.02927374301675978,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.5434078212290503,
+          "null_rate": 0.5141340782122905
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.010535190624159531,
+          "effect": 0.0176670441676104,
+          "sign_consistency": 0.6,
+          "pref_rate": 0.8542468856172141,
+          "null_rate": 0.8365798414496035
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.02390387228016678,
+          "effect": 0.028764705882352925,
+          "sign_consistency": 0.7,
+          "pref_rate": 0.6179411764705882,
+          "null_rate": 0.5891764705882353
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.011962437334165575,
+          "effect": 0.02127906976744186,
+          "sign_consistency": 0.55,
+          "pref_rate": 0.9151162790697673,
+          "null_rate": 0.8938372093023258
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0031523321299531996,
+          "effect": 0.05254237288135579,
+          "sign_consistency": 0.7,
+          "pref_rate": 8.539588377723971,
+          "null_rate": 8.487046004842615
+        },
+        "T5a_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0007394574489416273,
+          "effect": 0.010501193317422431,
+          "sign_consistency": 0.55,
+          "pref_rate": 6.973806682577566,
+          "null_rate": 6.963305489260144
+        },
+        "T5b_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0021234375684540223,
+          "effect": 0.03453070683661683,
+          "sign_consistency": 0.55,
+          "pref_rate": 8.268713789107764,
+          "null_rate": 8.234183082271148
+        },
+        "T5b_R": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.0025667594299374373,
+          "effect": 0.0335093896713615,
+          "sign_consistency": 0.6,
+          "pref_rate": 6.548474178403756,
+          "null_rate": 6.514964788732395
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.004195516886736946,
+          "effect": 0.08080046403712302,
+          "sign_consistency": 0.7,
+          "pref_rate": 9.658642691415313,
+          "null_rate": 9.57784222737819
+        },
+        "T5c_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0028364011289687316,
+          "effect": 0.04201631701631707,
+          "sign_consistency": 0.7,
+          "pref_rate": 7.523834498834498,
+          "null_rate": 7.481818181818182
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0034755331427227497,
+          "effect": 0.06724137931034484,
+          "sign_consistency": 0.65,
+          "pref_rate": 9.729248768472905,
+          "null_rate": 9.66200738916256
+        },
+        "T5d_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0025323576578728203,
+          "effect": 0.036757425742574366,
+          "sign_consistency": 0.6,
+          "pref_rate": 7.382178217821782,
+          "null_rate": 7.345420792079207
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 5.120407345503589,
+        "t4t5_max_rate": 10.387978122283398,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.0021454966443215716,
+      "objective_sign": 0.6,
+      "max_abs_t5_dsi": 0.004195516886736946,
+      "max_abs_t4_dsi": 0.028928911740030306
+    },
+    "D_tonic_slow_inhibition": {
+      "config": {
+        "name": "D_tonic_slow_inhibition",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {
+          "L1": 0.12,
+          "L2": 0.12,
+          "L3": 0.12,
+          "L5": 0.12
+        },
+        "tau_scale": {
+          "Mi9": 3.0,
+          "Mi4": 3.0,
+          "CT1": 3.0
+        },
+        "delay_steps": {}
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.0031775424407568427,
+          "effect": 0.0018562874251497011,
+          "sign_consistency": 0.6,
+          "pref_rate": 0.26077844311377246,
+          "null_rate": 0.25892215568862276
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.038666477997551026,
+          "effect": 0.026266195524146052,
+          "sign_consistency": 0.75,
+          "pref_rate": 0.35565371024734976,
+          "null_rate": 0.3293875147232037
+        },
+        "T4b_L": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.008094978789982353,
+          "effect": 0.004324644549763038,
+          "sign_consistency": 0.65,
+          "pref_rate": 0.23684834123222748,
+          "null_rate": 0.23252369668246448
+        },
+        "T4b_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.04618657810750797,
+          "effect": 0.029255319148936178,
+          "sign_consistency": 0.9,
+          "pref_rate": 0.32570921985815604,
+          "null_rate": 0.29645390070921984
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.04490332934845029,
+          "effect": 0.02268156424581006,
+          "sign_consistency": 0.9,
+          "pref_rate": 0.2636871508379888,
+          "null_rate": 0.2410055865921788
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.01956507615037733,
+          "effect": 0.012061155152887892,
+          "sign_consistency": 0.7,
+          "pref_rate": 0.33278595696489244,
+          "null_rate": 0.32072480181200447
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.02502270718686824,
+          "effect": 0.014294117647058823,
+          "sign_consistency": 0.7,
+          "pref_rate": 0.2746470588235294,
+          "null_rate": 0.26035294117647056
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.007395150196613888,
+          "effect": 0.004360465116279075,
+          "sign_consistency": 0.55,
+          "pref_rate": 0.3486046511627907,
+          "null_rate": 0.34424418604651164
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.0019707092507048863,
+          "effect": 0.027118644067796537,
+          "sign_consistency": 0.7,
+          "pref_rate": 6.973547215496367,
+          "null_rate": 6.946428571428571
+        },
+        "T5a_R": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.0033035359078391066,
+          "effect": 0.03526252983293547,
+          "sign_consistency": 0.75,
+          "pref_rate": 5.446837708830549,
+          "null_rate": 5.411575178997613
+        },
+        "T5b_L": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.001503733548284012,
+          "effect": 0.020336037079953552,
+          "sign_consistency": 0.5,
+          "pref_rate": 6.679490150637311,
+          "null_rate": 6.659154113557358
+        },
+        "T5b_R": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.006332389900836494,
+          "effect": 0.06384976525821587,
+          "sign_consistency": 0.7,
+          "pref_rate": 5.099882629107981,
+          "null_rate": 5.036032863849764
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.002331653368256268,
+          "effect": 0.03770301624129946,
+          "sign_consistency": 0.55,
+          "pref_rate": 8.013167053364269,
+          "null_rate": 7.97546403712297
+        },
+        "T5c_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0013011213313585816,
+          "effect": 0.015326340326340305,
+          "sign_consistency": 0.65,
+          "pref_rate": 5.8582750582750585,
+          "null_rate": 5.842948717948718
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0019040149551389385,
+          "effect": 0.03140394088669942,
+          "sign_consistency": 0.55,
+          "pref_rate": 8.144950738916256,
+          "null_rate": 8.113546798029555
+        },
+        "T5d_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.002082856456351543,
+          "effect": 0.024133663366336534,
+          "sign_consistency": 0.7,
+          "pref_rate": 5.731435643564356,
+          "null_rate": 5.70730198019802
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 3.852283133140949,
+        "t4t5_max_rate": 8.668436685018836,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.003277592151916125,
+      "objective_sign": 0.6625,
+      "max_abs_t5_dsi": 0.006332389900836494,
+      "max_abs_t4_dsi": 0.04618657810750797
+    },
+    "E_tonic_delay1": {
+      "config": {
+        "name": "E_tonic_delay1",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {
+          "L1": 0.12,
+          "L2": 0.12,
+          "L3": 0.12,
+          "L5": 0.12
+        },
+        "tau_scale": {},
+        "delay_steps": {
+          "Mi9": 1,
+          "Mi4": 1,
+          "CT1": 1
+        }
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.005537700369974365,
+          "effect": 0.007005988023952104,
+          "sign_consistency": 0.55,
+          "pref_rate": 0.6417365269461077,
+          "null_rate": 0.6347305389221557
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.023424555399259094,
+          "effect": 0.04711425206124854,
+          "sign_consistency": 0.8,
+          "pref_rate": 1.019729093050648,
+          "null_rate": 0.9726148409893993
+        },
+        "T4b_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.0013198942061729833,
+          "effect": 0.0014810426540284361,
+          "sign_consistency": 0.5,
+          "pref_rate": 0.6438388625592418,
+          "null_rate": 0.6423578199052133
+        },
+        "T4b_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.022735442732686652,
+          "effect": 0.04539007092198581,
+          "sign_consistency": 0.85,
+          "pref_rate": 1.0417848699763592,
+          "null_rate": 0.9963947990543736
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.028432240494651873,
+          "effect": 0.03234636871508379,
+          "sign_consistency": 0.75,
+          "pref_rate": 0.5937988826815643,
+          "null_rate": 0.5614525139664804
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.01627478309700036,
+          "effect": 0.031200453001132493,
+          "sign_consistency": 0.75,
+          "pref_rate": 0.9788221970554926,
+          "null_rate": 0.9476217440543602
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.026241036673513223,
+          "effect": 0.03388235294117646,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.6739999999999999,
+          "null_rate": 0.6401176470588236
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.020347889192914866,
+          "effect": 0.040639534883720956,
+          "sign_consistency": 0.8,
+          "pref_rate": 1.0346511627906976,
+          "null_rate": 0.9940116279069768
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.002673269579259767,
+          "effect": 0.04612590799031473,
+          "sign_consistency": 0.6,
+          "pref_rate": 8.620944309927362,
+          "null_rate": 8.574818401937048
+        },
+        "T5a_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.00598929988156796,
+          "effect": 0.08430787589498819,
+          "sign_consistency": 0.75,
+          "pref_rate": 7.106384248210024,
+          "null_rate": 7.022076372315037
+        },
+        "T5b_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0037821409806012307,
+          "effect": 0.06303592120509842,
+          "sign_consistency": 0.7,
+          "pref_rate": 8.407126303592124,
+          "null_rate": 8.344090382387021
+        },
+        "T5b_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.004482246133697772,
+          "effect": 0.05962441314554003,
+          "sign_consistency": 0.65,
+          "pref_rate": 6.691079812206572,
+          "null_rate": 6.631455399061032
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0034818988345679904,
+          "effect": 0.0680974477958233,
+          "sign_consistency": 0.8,
+          "pref_rate": 9.738457076566124,
+          "null_rate": 9.670359628770301
+        },
+        "T5c_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0008880994073572918,
+          "effect": 0.013461538461538414,
+          "sign_consistency": 0.55,
+          "pref_rate": 7.573018648018648,
+          "null_rate": 7.55955710955711
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0017946932506159728,
+          "effect": 0.035160098522167706,
+          "sign_consistency": 0.65,
+          "pref_rate": 9.804987684729065,
+          "null_rate": 9.769827586206898
+        },
+        "T5d_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.000676359382943594,
+          "effect": 0.010272277227722703,
+          "sign_consistency": 0.6,
+          "pref_rate": 7.4626237623762375,
+          "null_rate": 7.452351485148514
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 5.237167192909002,
+        "t4t5_max_rate": 10.50860257896262,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.004231739143781683,
+      "objective_sign": 0.6749999999999999,
+      "max_abs_t5_dsi": 0.00598929988156796,
+      "max_abs_t4_dsi": 0.028432240494651873
+    },
+    "F_tonic_delay2": {
+      "config": {
+        "name": "F_tonic_delay2",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {
+          "L1": 0.12,
+          "L2": 0.12,
+          "L3": 0.12,
+          "L5": 0.12
+        },
+        "tau_scale": {},
+        "delay_steps": {
+          "Mi9": 2,
+          "Mi4": 2,
+          "CT1": 2
+        }
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.003184688497036631,
+          "effect": 0.0038323353293413464,
+          "sign_consistency": 0.55,
+          "pref_rate": 0.6546107784431138,
+          "null_rate": 0.6507784431137724
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.0215491105579081,
+          "effect": 0.046054181389870406,
+          "sign_consistency": 0.75,
+          "pref_rate": 1.0948763250883393,
+          "null_rate": 1.0488221436984688
+        },
+        "T4b_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.00698906688117139,
+          "effect": 0.010130331753554494,
+          "sign_consistency": 0.6,
+          "pref_rate": 0.6790876777251185,
+          "null_rate": 0.6689573459715639
+        },
+        "T4b_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.022823072386134593,
+          "effect": 0.05070921985815604,
+          "sign_consistency": 0.8,
+          "pref_rate": 1.1251182033096927,
+          "null_rate": 1.0744089834515367
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.01571659322111893,
+          "effect": 0.019050279329608948,
+          "sign_consistency": 0.75,
+          "pref_rate": 0.6219553072625699,
+          "null_rate": 0.6029050279329609
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.0002651838966373859,
+          "effect": 0.00022650056625142523,
+          "sign_consistency": 0.4,
+          "pref_rate": 1.02757644394111,
+          "null_rate": 1.0273499433748583
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.013511008489641128,
+          "effect": 0.018529411764705878,
+          "sign_consistency": 0.65,
+          "pref_rate": 0.6980588235294118,
+          "null_rate": 0.6795294117647058
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.012788790919517162,
+          "effect": 0.027906976744186053,
+          "sign_consistency": 0.75,
+          "pref_rate": 1.0937209302325583,
+          "null_rate": 1.0658139534883717
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0011614111467552612,
+          "effect": 0.019370460048426175,
+          "sign_consistency": 0.55,
+          "pref_rate": 8.628026634382568,
+          "null_rate": 8.60865617433414
+        },
+        "T5a_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0039715344587767714,
+          "effect": 0.05638424821002399,
+          "sign_consistency": 0.65,
+          "pref_rate": 7.133472553699285,
+          "null_rate": 7.07708830548926
+        },
+        "T5b_L": {
+          "preferred": "off_right",
+          "null": "off_left",
+          "dsi": 0.00033827677018153133,
+          "effect": 0.005619930475086932,
+          "sign_consistency": 0.5,
+          "pref_rate": 8.402027809965237,
+          "null_rate": 8.396407879490152
+        },
+        "T5b_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.002264108135924815,
+          "effect": 0.02940140845070429,
+          "sign_consistency": 0.65,
+          "pref_rate": 6.703990610328638,
+          "null_rate": 6.674589201877934
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.0012846140757119247,
+          "effect": 0.02523201856148507,
+          "sign_consistency": 0.6,
+          "pref_rate": 9.7965777262181,
+          "null_rate": 9.77134570765661
+        },
+        "T5c_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.000974779519593248,
+          "effect": 0.014918414918414813,
+          "sign_consistency": 0.55,
+          "pref_rate": 7.618764568764568,
+          "null_rate": 7.603846153846154
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.001688218615923321,
+          "effect": 0.033682266009852316,
+          "sign_consistency": 0.65,
+          "pref_rate": 9.890086206896553,
+          "null_rate": 9.856403940886699
+        },
+        "T5d_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.0006889112040211238,
+          "effect": 0.01070544554455446,
+          "sign_consistency": 0.6,
+          "pref_rate": 7.507116336633665,
+          "null_rate": 7.496410891089108
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 5.284073559874834,
+        "t4t5_max_rate": 10.537619530570849,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.0019338326279095949,
+      "objective_sign": 0.5875,
+      "max_abs_t5_dsi": 0.0039715344587767714,
+      "max_abs_t4_dsi": 0.022823072386134593
+    },
+    "G_tonic_slow_delay2": {
+      "config": {
+        "name": "G_tonic_slow_delay2",
+        "eye_gain_scale": 1.0,
+        "tonic_add": {
+          "L1": 0.12,
+          "L2": 0.12,
+          "L3": 0.12,
+          "L5": 0.12
+        },
+        "tau_scale": {
+          "Mi9": 3.0,
+          "Mi4": 3.0,
+          "CT1": 3.0
+        },
+        "delay_steps": {
+          "Mi9": 2,
+          "Mi4": 2,
+          "CT1": 2
+        }
+      },
+      "t4_dsi": {
+        "T4a_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.006553537391860598,
+          "effect": 0.004431137724550902,
+          "sign_consistency": 0.55,
+          "pref_rate": 0.37485029940119763,
+          "null_rate": 0.3704191616766467
+        },
+        "T4a_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.025863450790482457,
+          "effect": 0.029093050647820973,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.5826266195524146,
+          "null_rate": 0.5535335689045937
+        },
+        "T4b_L": {
+          "preferred": "on_right",
+          "null": "on_left",
+          "dsi": 0.0028829336169316658,
+          "effect": 0.0015402843601895672,
+          "sign_consistency": 0.6,
+          "pref_rate": 0.3532582938388626,
+          "null_rate": 0.351718009478673
+        },
+        "T4b_R": {
+          "preferred": "on_left",
+          "null": "on_right",
+          "dsi": 0.019278790921569387,
+          "effect": 0.020626477541371147,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.5581560283687943,
+          "null_rate": 0.5375295508274232
+        },
+        "T4c_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.028605248721417877,
+          "effect": 0.019888268156424575,
+          "sign_consistency": 0.85,
+          "pref_rate": 0.36212290502793293,
+          "null_rate": 0.3422346368715084
+        },
+        "T4c_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.004022372734824564,
+          "effect": 0.0044167610419026,
+          "sign_consistency": 0.6,
+          "pref_rate": 0.5447904869762173,
+          "null_rate": 0.5403737259343149
+        },
+        "T4d_L": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.02619728769783792,
+          "effect": 0.01982352941176471,
+          "sign_consistency": 0.75,
+          "pref_rate": 0.3818235294117647,
+          "null_rate": 0.362
+        },
+        "T4d_R": {
+          "preferred": "on_down",
+          "null": "on_up",
+          "dsi": 0.007349670326519339,
+          "effect": 0.008662790697674439,
+          "sign_consistency": 0.8,
+          "pref_rate": 0.5700581395348838,
+          "null_rate": 0.5613953488372092
+        }
+      },
+      "t5_dsi": {
+        "T5a_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.00046497088985452426,
+          "effect": 0.007445520581113874,
+          "sign_consistency": 0.45,
+          "pref_rate": 7.011501210653753,
+          "null_rate": 7.00405569007264
+        },
+        "T5a_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.0037988323080001317,
+          "effect": 0.04146778042959416,
+          "sign_consistency": 0.65,
+          "pref_rate": 5.535859188544153,
+          "null_rate": 5.494391408114558
+        },
+        "T5b_L": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.003163857766944914,
+          "effect": 0.04281575898030123,
+          "sign_consistency": 0.6,
+          "pref_rate": 6.773290845886443,
+          "null_rate": 6.730475086906142
+        },
+        "T5b_R": {
+          "preferred": "off_left",
+          "null": "off_right",
+          "dsi": 0.003975468825082004,
+          "effect": 0.040903755868544424,
+          "sign_consistency": 0.6,
+          "pref_rate": 5.1960680751173705,
+          "null_rate": 5.1551643192488275
+        },
+        "T5c_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.004593725389055623,
+          "effect": 0.07407192575406021,
+          "sign_consistency": 0.7,
+          "pref_rate": 8.07917633410673,
+          "null_rate": 8.005104408352667
+        },
+        "T5c_R": {
+          "preferred": "off_up",
+          "null": "off_down",
+          "dsi": 0.000505598131015912,
+          "effect": 0.005536130536130645,
+          "sign_consistency": 0.6,
+          "pref_rate": 5.93053613053613,
+          "null_rate": 5.924999999999999
+        },
+        "T5d_L": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 0.003909278892707419,
+          "effect": 0.06410098522167482,
+          "sign_consistency": 0.6,
+          "pref_rate": 8.199630541871922,
+          "null_rate": 8.135529556650246
+        },
+        "T5d_R": {
+          "preferred": "off_down",
+          "null": "off_up",
+          "dsi": 5.397085331354809e-05,
+          "effect": 0.0012376237623762608,
+          "sign_consistency": 0.4,
+          "pref_rate": 5.790532178217822,
+          "null_rate": 5.789294554455447
+        }
+      },
+      "pathology": {
+        "t4t5_mean_rate": 3.985436821684359,
+        "t4t5_max_rate": 8.72998044045204,
+        "saturated": false,
+        "silent": false
+      },
+      "objective_dsi": 0.0028507824474703937,
+      "objective_sign": 0.5750000000000001,
+      "max_abs_t5_dsi": 0.004593725389055623,
+      "max_abs_t4_dsi": 0.028605248721417877
+    }
+  }
+}
