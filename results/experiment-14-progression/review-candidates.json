@@ -1,0 +1,134 @@
+[
+  {
+    "condition": "long_run",
+    "seed": 950,
+    "decision": 1511,
+    "video_timestamp_seconds": 302.2,
+    "reason_selected": "maximum distance from initial",
+    "analysis_value": 0.6485243055555555,
+    "video_path": "captures/experiment-14-progression/videos/long_run/seed-0950.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-001500.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-001750.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 921,
+    "decision": 829,
+    "video_timestamp_seconds": 165.8,
+    "reason_selected": "maximum distance from initial",
+    "analysis_value": 0.6026938657407408,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0921.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-000750.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-001000.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 927,
+    "decision": 1406,
+    "video_timestamp_seconds": 281.2,
+    "reason_selected": "maximum distance from initial",
+    "analysis_value": 0.6026938657407408,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0927.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0927/decision-001250.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0927/decision-001500.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 928,
+    "decision": 11,
+    "video_timestamp_seconds": 2.2,
+    "reason_selected": "largest one-step frame transition",
+    "analysis_value": 0.2864583333333333,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0928.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0928/decision-000000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0928/decision-000250.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 922,
+    "decision": 96,
+    "video_timestamp_seconds": 19.2,
+    "reason_selected": "largest one-step frame transition",
+    "analysis_value": 0.27478298611111107,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0922.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0922/decision-000000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0922/decision-000250.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 921,
+    "decision": 311,
+    "video_timestamp_seconds": 62.2,
+    "reason_selected": "largest one-step frame transition",
+    "analysis_value": 0.2617997685185185,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0921.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-000250.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-000500.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 921,
+    "decision": 52,
+    "video_timestamp_seconds": 10.4,
+    "reason_selected": "start of sustained novel-state episode",
+    "analysis_value": 1.0,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0921.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-000000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0921/decision-000250.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 922,
+    "decision": 54,
+    "video_timestamp_seconds": 10.8,
+    "reason_selected": "start of sustained novel-state episode",
+    "analysis_value": 1.0,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0922.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0922/decision-000000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0922/decision-000250.png"
+  },
+  {
+    "condition": "live_full",
+    "seed": 923,
+    "decision": 117,
+    "video_timestamp_seconds": 23.4,
+    "reason_selected": "start of sustained novel-state episode",
+    "analysis_value": 1.0,
+    "video_path": "captures/experiment-14-progression/videos/live_full/seed-0923.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/live_full/seed-0923/decision-000000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/live_full/seed-0923/decision-000250.png"
+  },
+  {
+    "condition": "long_run",
+    "seed": 950,
+    "decision": 3700,
+    "video_timestamp_seconds": 740.0,
+    "reason_selected": "large state change shortly after A",
+    "analysis_value": 0.2617997685185185,
+    "video_path": "captures/experiment-14-progression/videos/long_run/seed-0950.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-003500.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-003750.png"
+  },
+  {
+    "condition": "long_run",
+    "seed": 950,
+    "decision": 3879,
+    "video_timestamp_seconds": 775.8,
+    "reason_selected": "large state change shortly after A",
+    "analysis_value": 0.2617997685185185,
+    "video_path": "captures/experiment-14-progression/videos/long_run/seed-0950.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-003750.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-004000.png"
+  },
+  {
+    "condition": "long_run",
+    "seed": 950,
+    "decision": 4100,
+    "video_timestamp_seconds": 820.0,
+    "reason_selected": "large state change shortly after A",
+    "analysis_value": 0.2617997685185185,
+    "video_path": "captures/experiment-14-progression/videos/long_run/seed-0950.mp4",
+    "nearest_checkpoint_before": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-004000.png",
+    "nearest_checkpoint_after": "captures/experiment-14-progression/checkpoints/long_run/seed-0950/decision-004250.png"
+  }
+]

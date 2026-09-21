@@ -52,3 +52,7 @@ docker-compose.override.yml
 webtop-config/
 *.gb
 *.gbc
+
+# Experiment 14 local audit media (manifests and metrics remain versioned)
+/captures/experiment-14-progression/videos/
+/captures/experiment-14-progression/checkpoints/

@@ -1,0 +1,165 @@
+{
+  "highest_verified_milestone": "M3",
+  "verified_observations": [
+    "Human post-hoc MP4 review: live seed 921 autonomously traversed from the initial upstairs bedroom to the downstairs living room and back repeatedly around decisions 285-345.",
+    "Human post-hoc checkpoint review: independent live seeds 923 and 925 also reached the downstairs living room after starting in the bedroom; seed 921 scheduled checkpoints independently show the same room change.",
+    "Human post-hoc checkpoint review: observational long-run seed 950 reached and moved within the downstairs living room.",
+    "Human post-hoc MP4 review: the neural A emitted at live seed 922 decision 0 opened the visible 'Flymon is Playing the SNES!' interaction; later neural A pulses advanced and closed the text.",
+    "Live seed 928 produced repeated visible SNES interaction text states, consistent with recorded neural A pulses.",
+    "A balanced audit of every scheduled checkpoint in all matched conditions found downstairs-room views in LIVE_NO_A seeds 923, 925, 927, and 930; FROZEN_FULL seeds 923 and 925; and NO_VISION_FULL seeds 923 and 925.",
+    "The same balanced control audit found PC/menu or SNES interaction states in FROZEN_FULL and an SNES text state in NO_VISION_FULL.",
+    "No exterior location, overworld traversal, or task-like M4 progression was verified.",
+    "Matched controls also changed rooms and interacted; semantic review therefore does not show that live feedback or A uniquely caused progression."
+  ],
+  "candidate_events_needing_manual_review": 12,
+  "initial_bedroom_visibly_left": "YES",
+  "a_caused_verified_game_interaction": "YES",
+  "independent_live_full_seeds": 3,
+  "independent_live_full_progression_seeds": [
+    921,
+    923,
+    925
+  ],
+  "additional_observational_progression_seed": 950,
+  "reviewed_video_segments": [
+    {
+      "condition": "live_full",
+      "seed": 921,
+      "start_seconds": 57.0,
+      "duration_seconds": 12.0,
+      "observation": "repeated bedroom/downstairs transitions"
+    },
+    {
+      "condition": "live_full",
+      "seed": 922,
+      "start_seconds": 0.0,
+      "duration_seconds": 26.0,
+      "observation": "A-driven SNES text opened, advanced, and closed"
+    }
+  ],
+  "reviewed_checkpoint_sets": [
+    {
+      "condition": "live_full",
+      "seeds": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "decisions": [
+        0,
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500
+      ]
+    },
+    {
+      "condition": "long_run",
+      "seed": 950,
+      "decisions": [
+        1500,
+        1750,
+        3750
+      ]
+    },
+    {
+      "condition": "live_no_a",
+      "seeds": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "decisions": [
+        0,
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500
+      ]
+    },
+    {
+      "condition": "frozen_full",
+      "seeds": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "decisions": [
+        0,
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500
+      ]
+    },
+    {
+      "condition": "no_vision_full",
+      "seeds": [
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "decisions": [
+        0,
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500
+      ]
+    }
+  ],
+  "review_method": "human post-hoc inspection of all scheduled matched-condition checkpoint PNGs, selected long-run checkpoints, and selected preregistered MP4 segments; no semantic signal entered the controller",
+  "control_progression_observed": true,
+  "control_progression_seeds": {
+    "live_no_a": [
+      923,
+      925,
+      927,
+      930
+    ],
+    "frozen_full": [
+      923,
+      925
+    ],
+    "no_vision_full": [
+      923,
+      925
+    ]
+  }
+}
