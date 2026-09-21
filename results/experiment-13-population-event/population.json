@@ -1,0 +1,217 @@
+{
+  "name": "E4_E6_frozen_P20",
+  "source_experiment": "Experiment 4 selection, independently reused by Experiment 6",
+  "source_artifacts": [
+    "results/experiment-04-temporal-dn/classification.json:informative_dn_top20",
+    "results/experiment-06-generalization/classification.json:frozen_experiment4_ids"
+  ],
+  "selection_rule": "Exact persisted informative_dn_top20 order; no Experiment 13 reranking",
+  "count": 20,
+  "ordered_brain_indices_sha256": "62235877c0e42a74cd36890f44a407192a2ff9fa66d5d16937bc31282fda3ad7",
+  "historical_direction_available": false,
+  "contains_dnp01": [
+    15
+  ],
+  "neurons": [
+    {
+      "historical_rank": 1,
+      "experiment4_dn_slot": 1227,
+      "brain_index": 131148,
+      "flywire_malecns_id": 521262,
+      "cell_type": "DNae002",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 2,
+      "experiment4_dn_slot": 287,
+      "brain_index": 1593,
+      "flywire_malecns_id": 11706,
+      "cell_type": "DNg111",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 3,
+      "experiment4_dn_slot": 215,
+      "brain_index": 1131,
+      "flywire_malecns_id": 11222,
+      "cell_type": "DNg111",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 4,
+      "experiment4_dn_slot": 112,
+      "brain_index": 608,
+      "flywire_malecns_id": 10654,
+      "cell_type": "DNb01",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 5,
+      "experiment4_dn_slot": 1215,
+      "brain_index": 130350,
+      "flywire_malecns_id": 519771,
+      "cell_type": "DNp71",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 6,
+      "experiment4_dn_slot": 1268,
+      "brain_index": 135203,
+      "flywire_malecns_id": 531898,
+      "cell_type": "DNp04",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 7,
+      "experiment4_dn_slot": 64,
+      "brain_index": 333,
+      "flywire_malecns_id": 10361,
+      "cell_type": "DNg40",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 8,
+      "experiment4_dn_slot": 1160,
+      "brain_index": 125880,
+      "flywire_malecns_id": 512006,
+      "cell_type": "DNg13",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 9,
+      "experiment4_dn_slot": 136,
+      "brain_index": 703,
+      "flywire_malecns_id": 10759,
+      "cell_type": "DNb01",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 10,
+      "experiment4_dn_slot": 177,
+      "brain_index": 927,
+      "flywire_malecns_id": 11002,
+      "cell_type": "DNae002",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 11,
+      "experiment4_dn_slot": 38,
+      "brain_index": 204,
+      "flywire_malecns_id": 10223,
+      "cell_type": "DNpe056",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 12,
+      "experiment4_dn_slot": 262,
+      "brain_index": 1405,
+      "flywire_malecns_id": 11505,
+      "cell_type": "DNp54",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 13,
+      "experiment4_dn_slot": 267,
+      "brain_index": 1457,
+      "flywire_malecns_id": 11563,
+      "cell_type": "DNae001",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 14,
+      "experiment4_dn_slot": 488,
+      "brain_index": 3374,
+      "flywire_malecns_id": 13615,
+      "cell_type": "DNbe006",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 15,
+      "experiment4_dn_slot": 1,
+      "brain_index": 6,
+      "flywire_malecns_id": 10010,
+      "cell_type": "DNp01",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 16,
+      "experiment4_dn_slot": 69,
+      "brain_index": 359,
+      "flywire_malecns_id": 10388,
+      "cell_type": "DNp13",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 17,
+      "experiment4_dn_slot": 1163,
+      "brain_index": 125909,
+      "flywire_malecns_id": 512071,
+      "cell_type": "DNae001",
+      "side": "L",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 18,
+      "experiment4_dn_slot": 428,
+      "brain_index": 2699,
+      "flywire_malecns_id": 12885,
+      "cell_type": "DNpe020",
+      "side": "M",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 19,
+      "experiment4_dn_slot": 26,
+      "brain_index": 137,
+      "flywire_malecns_id": 10151,
+      "cell_type": "DNge103",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    },
+    {
+      "historical_rank": 20,
+      "experiment4_dn_slot": 94,
+      "brain_index": 505,
+      "flywire_malecns_id": 10543,
+      "cell_type": "DNa16",
+      "side": "R",
+      "training_fold_top50_frequency": 12,
+      "historical_selection_source": "Experiment 4 informative_dn_top20; frozen unchanged in Experiment 6"
+    }
+  ]
+}

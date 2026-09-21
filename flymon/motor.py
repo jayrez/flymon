@@ -112,3 +112,32 @@ def synthetic_frame(kind: str) -> np.ndarray:
     rgba = np.empty((144, 160, 4), np.uint8)
     rgba[..., :3] = gray[..., None]; rgba[..., 3] = 255
     return rgba
+
+
+def resolve_dn_ids(brain, data_dir: Path, flywire_ids: Iterable[int]) -> tuple[dict, np.ndarray]:
+    """Resolve an ordered, frozen DN identity list against MaleCNS metadata."""
+    meta = np.load(data_dir / "brain.npz")
+    if not np.array_equal(meta["cell_type"], brain.cell_type):
+        raise RuntimeError("FlyBrain and brain.npz metadata order differs")
+    requested = tuple(int(x) for x in flywire_ids)
+    if not requested or len(set(requested)) != len(requested):
+        raise ValueError("frozen DN IDs must be nonempty and unique")
+    lookup = {int(body_id): i for i, body_id in enumerate(meta["ids"])}
+    missing = [body_id for body_id in requested if body_id not in lookup]
+    if missing:
+        raise RuntimeError(f"Missing frozen DN IDs: {missing}")
+    indices = np.asarray([lookup[body_id] for body_id in requested], np.int32)
+    if not np.all(brain.superclass[indices] == "descending_neuron"):
+        raise RuntimeError("Frozen population contains non-descending neurons")
+    records = [
+        {
+            "historical_rank": rank,
+            "flywire_malecns_id": body_id,
+            "brain_index": int(index),
+            "cell_type": str(brain.cell_type[index]),
+            "side": str(brain.side[index]),
+            "superclass": str(brain.superclass[index]),
+        }
+        for rank, (body_id, index) in enumerate(zip(requested, indices), 1)
+    ]
+    return {"model": "MaleCNS v1.0", "neurons": records, "count": len(records)}, indices

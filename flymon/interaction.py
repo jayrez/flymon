@@ -108,3 +108,179 @@ class TransparentEventController:
         state={"strategy":self.config.strategy,"aggregation":self.config.aggregation,"cell_rates_hz":list(map(float,cells)),"aggregate_rate_hz":raw,"z":z,"evidence":evidence if math.isfinite(evidence) else None,"threshold_z":self.config.threshold_z,"above_threshold":above,"armed":self.armed,"refractory_blocked":blocked,"refractory_remaining":self.refractory,"refractory_suppressions":self.suppressions,"selected_action":"A" if fire else None,"ablated":self.ablated}
         if fire and self.config.strategy=="cumulative":self.history.clear()
         return ("A" if fire else None),state
+
+
+@dataclass(frozen=True)
+class FrozenVectorBaseline:
+    """Per-cell firing-rate baseline frozen before active visual input."""
+    means_hz: tuple[float, ...]
+    variances_hz2: tuple[float, ...]
+    windows: int
+
+    def __post_init__(self) -> None:
+        if not self.means_hz or len(self.means_hz) != len(self.variances_hz2):
+            raise ValueError("matching nonempty vector baseline statistics required")
+        if self.windows < 2:
+            raise ValueError("at least two baseline windows required")
+
+
+def estimate_frozen_vector_baseline(per_cell_counts, window_seconds: float = .2) -> FrozenVectorBaseline:
+    counts = np.asarray(per_cell_counts, float)
+    if counts.ndim != 2 or counts.shape[0] < 2 or window_seconds <= 0:
+        raise ValueError("baseline counts must be a windows-by-cells matrix")
+    if not np.all(np.isfinite(counts)) or np.any(counts < 0):
+        raise ValueError("baseline counts must be finite and nonnegative")
+    rates = counts / window_seconds
+    return FrozenVectorBaseline(
+        tuple(map(float, rates.mean(axis=0))),
+        tuple(map(float, rates.var(axis=0, ddof=1))),
+        int(rates.shape[0]),
+    )
+
+
+def population_z_vector(rates_hz, baseline: FrozenVectorBaseline, sd_floor_hz: float) -> np.ndarray:
+    rates = np.asarray(rates_hz, float)
+    means = np.asarray(baseline.means_hz, float)
+    variances = np.asarray(baseline.variances_hz2, float)
+    if rates.shape != means.shape or sd_floor_hz <= 0:
+        raise ValueError("population rates and baseline shape must match; floor must be positive")
+    if not np.all(np.isfinite(rates)) or np.any(rates < 0):
+        raise ValueError("population rates must be finite and nonnegative")
+    scales = np.maximum(np.sqrt(np.maximum(variances, 0)), sd_floor_hz)
+    return (rates - means) / scales
+
+
+def population_signal(z_history, strategy: str, window: int = 1) -> float | None:
+    history = [np.asarray(x, float) for x in z_history]
+    if not history or window < 1:
+        return None
+    current = history[-1]
+    if strategy == "mean":
+        return float(current.mean())
+    if strategy == "norm":
+        return float(np.sqrt(np.mean(current * current)))
+    if strategy == "change":
+        if len(history) < 2:
+            return None
+        difference = current - history[-2]
+        return float(np.sqrt(np.mean(difference * difference)))
+    if strategy == "window_change":
+        if len(history) < 2 * window:
+            return None
+        recent = np.mean(history[-window:], axis=0)
+        preceding = np.mean(history[-2 * window:-window], axis=0)
+        return float(np.sqrt(np.mean((recent - preceding) ** 2)))
+    raise ValueError(f"unknown population signal strategy {strategy}")
+
+
+@dataclass(frozen=True)
+class PopulationEventConfig:
+    signal: str
+    event_rule: str
+    threshold: float
+    sd_floor_hz: float
+    signal_window: int = 1
+    evidence_window: int = 1
+    hysteresis: float = .5
+    refractory_decisions: int = 5
+
+    def __post_init__(self) -> None:
+        if self.signal not in {"mean", "norm", "change", "window_change"}:
+            raise ValueError("unknown population signal")
+        if self.event_rule not in {"level", "rising", "cumulative"}:
+            raise ValueError("unknown population event rule")
+        if self.threshold < 0 or self.sd_floor_hz <= 0:
+            raise ValueError("threshold must be nonnegative and floor positive")
+        if min(self.signal_window, self.evidence_window) < 1:
+            raise ValueError("window sizes must be positive")
+        if self.hysteresis < 0 or self.refractory_decisions < 0:
+            raise ValueError("hysteresis and refractory must be nonnegative")
+
+
+class PopulationEventController:
+    """Sparse A-event decoder receiving only a frozen DN population rate vector."""
+    def __init__(self, baseline: FrozenVectorBaseline, config: PopulationEventConfig,
+                 ablated: bool = False):
+        self.baseline, self.config, self.ablated = baseline, config, ablated
+        self.reset()
+
+    def reset(self) -> None:
+        history = max(2 * self.config.signal_window + 1, self.config.evidence_window + 1, 4)
+        self.z_history = deque(maxlen=history)
+        self.signal_history = deque(maxlen=max(self.config.evidence_window, 1))
+        self.refractory = 0
+        self.armed = True
+        self.suppressions = 0
+
+    def decode(self, rates):
+        if self.ablated:
+            return None, {
+                "signal": None, "evidence": None, "above_threshold": False,
+                "refractory_blocked": False, "refractory_remaining": self.refractory,
+                "refractory_suppressions": self.suppressions,
+                "selected_action": None, "ablated": True,
+            }
+        z = population_z_vector(
+            rates["event_population_rates_hz"], self.baseline, self.config.sd_floor_hz)
+        self.z_history.append(z)
+        signal = population_signal(self.z_history, self.config.signal, self.config.signal_window)
+        if signal is not None:
+            self.signal_history.append(signal)
+        if signal is None:
+            evidence = None
+        elif self.config.event_rule == "cumulative":
+            evidence = (float(np.mean(self.signal_history))
+                        if len(self.signal_history) >= self.config.evidence_window else None)
+        else:
+            evidence = signal
+        above = evidence is not None and evidence > self.config.threshold
+        if self.config.event_rule == "level":
+            candidate = above
+        else:
+            candidate = above and self.armed
+            if evidence is not None and evidence <= self.config.threshold - self.config.hysteresis:
+                self.armed = True
+        blocked = candidate and self.refractory > 0
+        if blocked:
+            self.suppressions += 1
+        fire = candidate and not blocked
+        if candidate and self.config.event_rule != "level":
+            self.armed = False
+        if self.refractory:
+            self.refractory -= 1
+        if fire:
+            self.refractory = self.config.refractory_decisions
+            if self.config.event_rule == "cumulative":
+                self.signal_history.clear()
+        state = {
+            "signal_family": self.config.signal,
+            "event_rule": self.config.event_rule,
+            "signal": signal,
+            "evidence": evidence,
+            "threshold": self.config.threshold,
+            "above_threshold": above,
+            "armed": self.armed,
+            "refractory_blocked": blocked,
+            "refractory_remaining": self.refractory,
+            "refractory_suppressions": self.suppressions,
+            "selected_action": "A" if fire else None,
+            "ablated": False,
+        }
+        return ("A" if fire else None), state
+
+
+def permute_population_cells(windows, seed: int) -> np.ndarray:
+    """Independently permute cell identity in each decision window."""
+    values = np.asarray(windows, float)
+    if values.ndim != 2:
+        raise ValueError("population windows must be two-dimensional")
+    rng = np.random.default_rng(seed)
+    return np.stack([row[rng.permutation(values.shape[1])] for row in values])
+
+
+def permute_population_time(windows, seed: int) -> np.ndarray:
+    """Permute decision-window order while preserving each population vector."""
+    values = np.asarray(windows, float)
+    if values.ndim != 2:
+        raise ValueError("population windows must be two-dimensional")
+    return values[np.random.default_rng(seed).permutation(values.shape[0])]
