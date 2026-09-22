@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp21 ablations, held-out T4 mean DSI</text>
+<line x1="300.0" y1="34" x2="300.0" y2="272" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">frozen (observed)</text>
+<rect x="300.0" y="38" width="68.7" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+0.0258</text>
+<text x="292" y="74" text-anchor="end" font-size="11">A1_no_tonic_inhibition</text>
+<rect x="300.0" y="62" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.1879</text>
+<text x="292" y="98" text-anchor="end" font-size="11">A2_no_release</text>
+<rect x="300.0" y="86" width="61.2" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.0230</text>
+<text x="292" y="122" text-anchor="end" font-size="11">A3_clamp_inhibition</text>
+<rect x="300.0" y="110" width="7.1" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+0.0027</text>
+<text x="292" y="146" text-anchor="end" font-size="11">A4_neutral_inhibition</text>
+<rect x="300.0" y="134" width="63.2" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+0.0238</text>
+<text x="292" y="170" text-anchor="end" font-size="11">A5_temporal_flat</text>
+<rect x="300.0" y="158" width="21.3" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+0.0080</text>
+<text x="292" y="194" text-anchor="end" font-size="11">A7_remove_Mi1</text>
+<rect x="300.0" y="182" width="113.8" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+0.0428</text>
+<text x="292" y="218" text-anchor="end" font-size="11">A8_remove_Mi9</text>
+<rect x="300.0" y="206" width="46.3" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+0.0174</text>
+<text x="292" y="242" text-anchor="end" font-size="11">A9_remove_Mi4</text>
+<rect x="300.0" y="230" width="34.2" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+0.0129</text>
+</svg>

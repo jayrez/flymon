@@ -52,6 +52,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 18 | Does MaleCNS contain the spatial geometry for T4/T5 direction selectivity, and can a column-resolved model recover it? | **FAIL** (Category D) but **geometry PASS**; the four-direction geometry is in the connectome, yet only an explicit correlator reads it out |
 | 19 | What minimal mechanism converts that geometry into direction selectivity — is a correlator really required? | **FAIL** (Category F); extended timing and hidden-transient explanations rejected; only antisymmetric opponency on sign-preserving drives works (0.356, 8/8) |
 | 20 | Can a minimal sign-preserving conductance / two-compartment dendrite reproduce that opponent computation? | **FAIL** (Category E); small bias only (0.025 vs oracle 0.356) and it is insensitive to arm order, sign and geometry |
+| 21 | Can release from tonic shunting inhibition supply the missing T4 nonlinearity? | **FAIL** (Category E); Mi9 release occurs and is directional, but excitation adds 5–20× more conductance, so no R_in window ever coincides with excitation |
 
 ## Latest result (Experiment 15)
 
@@ -238,6 +239,32 @@ constraint whose biological implementation is unresolved. The proposed next step
 coupling, nonlinear subunits, or active conductances — with the arm-swap ablation adopted
 as an early rejection criterion.
 
+## Latest result (Experiment 21)
+
+Experiment 21 tested whether E20 failed because its zero-baseline inhibition could never be
+*released*. Every presynaptic class was given a tonic rate that the stimulus moves up or down,
+with conductance routed by MaleCNS weight sign and never negative, in a single passive
+compartment. A staged funnel screened 180 configurations on calibration data before any DSI
+ranking. E20 was reproduced exactly (0.031202248).
+
+**Verdict FAIL, category E; T4 FAIL; T5 does not transfer.** The release is real: in 95–98 % of
+driven pairs Mi9 drops below its tonic level during preferred-direction ON motion, ~1.45× more
+than in the null direction, peaking 0–3 frames before excitation. But inside the excitation
+window Mi1 adds 5–20× more conductance than Mi9 release removes (MaleCNS Mi1→T4 weight is 2–5×
+Mi9's, and release is capped at the baseline), so **input resistance falls during excitation in
+every one of 162 release-capable configurations** (overlap 0.00). The hypothesis family
+(tonic inhibition) reached only T4 +0.016, barely above zero-baseline (+0.010); the frozen
+fallback reached +0.026 (3/4) against the oracle's +0.343, and preventing release changed it by
+only 11 %. It also inverted ON/OFF polarity.
+
+**Exploratory lead (not preregistered, not selectable):** removing tonic inhibition while
+keeping tonic *excitation* gives T4 DSI +0.250 calibration / +0.188 held-out, 4/4, geometry- and
+timing-dependent — but with ON/OFF polarity fully inverted and no release involved, most likely
+an interaction of a depolarised operating point with mean-centred contrast. **Do not proceed to
+VP→DN.** Recommended Experiment 22: test the operating-point lead prospectively with contrast
+referenced to a declared adapting background and ON/OFF specificity as a gate before DSI; a
+T5-specific experiment is still required.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -246,6 +273,9 @@ as an early rejection criterion.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 21: `run_tonic_disinhibition_experiment.py` (calibrate/heldout),
+  `analyze_tonic_disinhibition_experiment.py`, `explore_tonic_excitation_lead.py`
+  (exploratory); model in `flymon/tonic_disinhibition.py`.
 - Experiment 20: `run_conductance_dendrite_experiment.py` (calibrate/heldout),
   `analyze_conductance_dendrite_experiment.py`; membrane model in
   `flymon/conductance_dendrite.py` (reuses E18 geometry and E19 stimuli/metrics).
@@ -261,7 +291,7 @@ as an early rejection criterion.
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
-  `test_conductance_dendrite.py` (CPU only;
+  `test_conductance_dendrite.py`, `test_tonic_disinhibition.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.
