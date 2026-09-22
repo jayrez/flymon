@@ -1,0 +1,550 @@
+{
+  "R2_L0.4": {
+    "reference": "fixed",
+    "adapt": 40,
+    "L0": 0.39675527811050415,
+    "rows": {
+      "Mi1_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi1_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18119837049577106,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.14356827429682645,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.14356827429682645,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18119837049577106,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18119837049577106,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.14356827429682645,
+        "sign_ok": true,
+        "prestep_silent": true
+      }
+    },
+    "static_L0_max_contrast": 0.0,
+    "passed": true
+  },
+  "R2_L0.5": {
+    "reference": "fixed",
+    "adapt": 40,
+    "L0": 0.4969330430030823,
+    "rows": {
+      "Mi1_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi1_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      }
+    },
+    "static_L0_max_contrast": 0.0,
+    "passed": true
+  },
+  "R2_L0.6": {
+    "reference": "fixed",
+    "adapt": 40,
+    "L0": 0.5972018837928772,
+    "rows": {
+      "Mi1_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18413038454659642,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.14589138678585886,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.14589138678585886,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18413038454659642,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18413038454659642,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.14589138678585886,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi1_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.18280403800673825,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1448404872478222,
+        "sign_ok": true,
+        "prestep_silent": true
+      }
+    },
+    "static_L0_max_contrast": 0.0,
+    "passed": true
+  },
+  "R1_L0.5_cold_filters": {
+    "reference": "fixed",
+    "adapt": 0,
+    "L0": 0.4969330430030823,
+    "rows": {
+      "Mi1_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_ON": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.22660179458219115,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.17954261129234836,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi1_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": -0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.2286631762823756,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.0,
+        "pre_abs_max": 0.0,
+        "post_mean": 0.1811758986809315,
+        "sign_ok": true,
+        "prestep_silent": true
+      }
+    },
+    "static_L0_max_contrast": 0.0,
+    "passed": true
+  },
+  "R0_sequence_mean": {
+    "reference": "sequence_mean",
+    "adapt": 0,
+    "L0": 0.4969330430030823,
+    "rows": {
+      "Mi1_ON": {
+        "expected_driver": "ON",
+        "pre_mean": -0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": 0.06095424813189413,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_ON": {
+        "expected_driver": "ON",
+        "pre_mean": -0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": 0.013895064842051387,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": -0.013895064842051387,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": -0.06095424813189413,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": -0.06095424813189413,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_ON": {
+        "expected_driver": "OFF",
+        "pre_mean": 0.16564754645029695,
+        "pre_abs_max": 0.165647546450297,
+        "post_mean": -0.013895064842051387,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi1_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": -0.061508744939296985,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi4_OFF": {
+        "expected_driver": "ON",
+        "pre_mean": 0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": -0.014021467337852823,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Mi9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": -0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": 0.014021467337852823,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm1_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": -0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": 0.061508744939296985,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm2_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": -0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": 0.061508744939296985,
+        "sign_ok": true,
+        "prestep_silent": true
+      },
+      "Tm9_OFF": {
+        "expected_driver": "OFF",
+        "pre_mean": -0.1671544313430786,
+        "pre_abs_max": 0.1671544313430786,
+        "post_mean": 0.014021467337852823,
+        "sign_ok": true,
+        "prestep_silent": true
+      }
+    },
+    "static_L0_max_contrast": 0.0,
+    "passed": true
+  },
+  "luminance_scale": {
+    "display_gray_0p5_reads_linear": 0.21223072707653046,
+    "background_linear": {
+      "0.4": {
+        "display": 0.6651850846308363,
+        "L0_measured": 0.39675527811050415,
+        "bar_on": 0.7991028428077698,
+        "bar_off": 0.0
+      },
+      "0.5": {
+        "display": 0.7353569830524495,
+        "L0_measured": 0.4969330430030823,
+        "bar_on": 1.0,
+        "bar_off": 0.0
+      },
+      "0.6": {
+        "display": 0.7977377330312598,
+        "L0_measured": 0.5972018837928772,
+        "bar_on": 1.0,
+        "bar_off": 0.19806930422782898
+      }
+    }
+  }
+}

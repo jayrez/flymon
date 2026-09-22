@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 21 September 2026. Flymon investigates whether Pokémon Red visual
+Updated 22 September 2026. Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -53,6 +53,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 19 | What minimal mechanism converts that geometry into direction selectivity — is a correlator really required? | **FAIL** (Category F); extended timing and hidden-transient explanations rejected; only antisymmetric opponency on sign-preserving drives works (0.356, 8/8) |
 | 20 | Can a minimal sign-preserving conductance / two-compartment dendrite reproduce that opponent computation? | **FAIL** (Category E); small bias only (0.025 vs oracle 0.356) and it is insensitive to arm order, sign and geometry |
 | 21 | Can release from tonic shunting inhibition supply the missing T4 nonlinearity? | **FAIL** (Category E); Mi9 release occurs and is directional, but excitation adds 5–20× more conductance, so no R_in window ever coincides with excitation |
+| 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
 
 ## Latest result (Experiment 15)
 
@@ -233,11 +234,12 @@ One clear positive: **ON/OFF specificity is reproduced strongly** — all four T
 conductance mapping preserves the T4 fast-excitatory/slow-inhibitory vs T5 both-excitatory
 asymmetry. Pathway polarity is not what is missing; directional ordering is.
 
-**Experiment 21 should not proceed to VP→DN.** The E19 oracle remains a computational
-constraint whose biological implementation is unresolved. The proposed next step is a
-*structurally asymmetric* dendrite — on-path/location-dependent inhibition, non-reciprocal
-coupling, nonlinear subunits, or active conductances — with the arm-swap ablation adopted
-as an early rejection criterion.
+**Experiment 22 should not proceed to VP→DN or gameplay (NO-GO).** Under a fixed adapting
+background the E21-parameter model gives correct ON/OFF polarity and geometry-dependent T4 DS
+(~0.19, 57 % of the E19 oracle), but it was excluded by the preregistered fast/slow temporal
+gate. The proposed next step is to preregister a timing criterion suited to a spatially
+offset Mi4 veto (tau = 0 abolition, arm-position swap), freeze Mi1 + Mi4 + tonic excitation
+prospectively, and address T5 separately.
 
 ## Latest result (Experiment 21)
 
@@ -265,6 +267,28 @@ VP→DN.** Recommended Experiment 22: test the operating-point lead prospectivel
 referenced to a declared adapting background and ON/OFF specificity as a gate before DSI; a
 T5-specific experiment is still required.
 
+## Latest result (Experiment 22)
+
+Experiment 22 asked whether the E21 exploratory lead (tonic excitation, T4 +0.188 held-out,
+ON/OFF inverted) survives when contrast, tonic rates, filter state and membrane baseline are
+defined against a fixed adapting background instead of each sequence's own temporal mean.
+The luminance scale was verified first: the retina works in linear light (display gray 0.5
+= linear 0.212), so backgrounds were set in linear light (L0 = 0.4969 measured) with bars at
+Weber ±c. R0 reproduced E21 bit-identically; the step-polarity audit passed for every
+fixed-reference condition (R0 shows spurious pre-step drive).
+
+**Verdict FAIL, category E, gameplay NO-GO; attribution of the E21 lead: mostly real.** At
+unchanged E21 parameters, held-out T4 DSI is +0.188 (R0 sequence mean), +0.191 (R0g, same
+mean on the gray bank), +0.189 (R1 fixed, cold) and **+0.196 (R2 fixed, pre-adapted)**; T4
+ON>OFF goes from 0/4 to **4/4** and T5 OFF>ON from 0/4 to 4/4. Removing tonic excitation
+abolishes it (+0.003). But under the fixed reference, equalising the fast/slow time constants
+removes only 18 % (111 % under R0), so all 72 tonic-excitation-only configurations failed the
+preregistered temporal gate; the funnel froze a weak A3 model (tonic Mi9 0.5) at +0.031
+(3/4), ON 4/4, geometry residual 0.14, stable under pre-adaptation. Ablations show Mi4
+carries the DS (Mi1+Mi4: +0.179) and tonic Mi9 suppresses it; exploratory calibration
+diagnostics show the fixed-reference DS needs Mi4 and temporal persistence (tau = 0 → 0) but
+not tau_slow > tau_fast. T5 is polarity-correct but not direction-selective (+0.002).
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -273,6 +297,9 @@ T5-specific experiment is still required.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 22: `run_fixed_background_experiment.py` (calibrate/heldout),
+  `analyze_fixed_background_experiment.py`, `diagnose_fixed_background_temporal.py`
+  (exploratory); fixed-reference signal path in `flymon/adapted_reference.py`.
 - Experiment 21: `run_tonic_disinhibition_experiment.py` (calibrate/heldout),
   `analyze_tonic_disinhibition_experiment.py`, `explore_tonic_excitation_lead.py`
   (exploratory); model in `flymon/tonic_disinhibition.py`.
@@ -291,7 +318,8 @@ T5-specific experiment is still required.
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
-  `test_conductance_dendrite.py`, `test_tonic_disinhibition.py` (CPU only;
+  `test_conductance_dendrite.py`, `test_tonic_disinhibition.py`,
+  `test_fixed_background.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

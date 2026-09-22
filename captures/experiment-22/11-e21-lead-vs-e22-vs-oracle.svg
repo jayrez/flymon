@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="232" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp22 held-out T4 mean DSI: prior models, E22 and the E19 oracle (benchmark only)</text>
+<line x1="300.0" y1="34" x2="300.0" y2="224" stroke="#999"/>
+<line x1="518.9" y1="34" x2="518.9" y2="224" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="292" y="50" text-anchor="end" font-size="11">E19 oracle (E19 bank)</text>
+<rect x="300.0" y="38" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+0.3427</text>
+<text x="292" y="74" text-anchor="end" font-size="11">E19 oracle (gray bank)</text>
+<rect x="300.0" y="62" width="499.5" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.3424</text>
+<text x="292" y="98" text-anchor="end" font-size="11">E20 C2 frozen</text>
+<rect x="300.0" y="86" width="18.5" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.0127</text>
+<text x="292" y="122" text-anchor="end" font-size="11">E21 frozen</text>
+<rect x="300.0" y="110" width="37.7" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+0.0258</text>
+<text x="292" y="146" text-anchor="end" font-size="11">E21 exploratory A1 (R0)</text>
+<rect x="300.0" y="134" width="274.2" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+0.1879</text>
+<text x="292" y="170" text-anchor="end" font-size="11">E22 E21-params R2</text>
+<rect x="300.0" y="158" width="286.2" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+0.1962</text>
+<text x="292" y="194" text-anchor="end" font-size="11">E22 frozen</text>
+<rect x="300.0" y="182" width="45.4" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+0.0311</text>
+</svg>

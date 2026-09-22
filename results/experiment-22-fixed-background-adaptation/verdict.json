@@ -1,0 +1,34 @@
+{
+  "scientific_verdict": "FAIL",
+  "mechanistic_category": "E",
+  "gameplay_readiness": "NO-GO",
+  "e21_lead_attribution": {
+    "retention_R2_over_R0": 1.0438024453581833,
+    "R2_t4_on_correct": 4,
+    "label": "mostly real"
+  },
+  "criteria": {
+    "t4_on_4of4": true,
+    "t4_mean_ge_015": false,
+    "t4_positive_4of4": false,
+    "geometry_residual_lt_040": true,
+    "temporal_drop_ge_040": true,
+    "stable_under_preadaptation": true
+  },
+  "criterion_values": {
+    "t4_mean": 0.031147106524666113,
+    "t4_positive": 3,
+    "t4_on_correct": 4,
+    "geometry_residual": 0.14286544800474194,
+    "temporal_drop": 0.9931431167554816,
+    "adapted_minus_cold": -0.006127962223007263
+  },
+  "polarity_audit_passed": true,
+  "r0_reproduced": true,
+  "gate_counts": {
+    "gate_temporal": 236,
+    "passed_all_gates": 37,
+    "gate_geometry": 7,
+    "gate_on_off": 8
+  }
+}
