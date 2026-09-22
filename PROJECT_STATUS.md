@@ -50,6 +50,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 16 | Does the pathway preserve biological motion / optic-flow / looming features? | **FAIL** (Category A); T4/T5 do not reproduce direction selectivity — failure is optic-lobe dynamics, upstream of Exp-15's transfer |
 | 17 | Why does retinal motion input not become T4/T5 direction selectivity, and can dynamics repair it? | **FAIL** (Category E); stimuli and gain exonerated, signal flow restored, but the LIF architecture cannot compute motion |
 | 18 | Does MaleCNS contain the spatial geometry for T4/T5 direction selectivity, and can a column-resolved model recover it? | **FAIL** (Category D) but **geometry PASS**; the four-direction geometry is in the connectome, yet only an explicit correlator reads it out |
+| 19 | What minimal mechanism converts that geometry into direction selectivity — is a correlator really required? | **FAIL** (Category F); extended timing and hidden-transient explanations rejected; only antisymmetric opponency on sign-preserving drives works (0.356, 8/8) |
 
 ## Latest result (Experiment 15)
 
@@ -157,6 +158,50 @@ path), so category E is still untested. Experiment 19 should **not** proceed to
 VP → DN transfer; it should settle flyvis and test a genuinely multiplicative/divisive
 dendritic interaction on this same geometry.
 
+## Latest result (Experiment 19)
+
+Experiment 19 asked what minimal mechanism turns Experiment-18's T4/T5 geometry into
+direction selectivity, and deliberately tested the two least interesting explanations
+first.
+
+**Both were rejected.** Extending `tau_slow` from E18's edge value 8 out to 24 lifted
+mean |DSI| only 0.052 → 0.093 with coherence stuck at 2/8, so E18's failure was **not**
+a temporal-range artifact (H0). Three predetermined temporal metrics — whole-sequence
+mean, a stimulus-defined motion window, and an anatomy-local event window around each
+neuron's own predicted receptive-field crossing — all agree and are all negative, so no
+transient was hidden by mean-rate averaging (H1).
+
+**The decisive result is a 2 × 2 decomposition** (held-out mean DSI, coherent subtypes):
+
+| | product only | antisymmetric opponent |
+|---|---:|---:|
+| **signed drives** | +0.056 [4/8] | **+0.356 [8/8]** |
+| **magnitude drives** | −0.104 [1/8] | +0.036 [4/8] |
+
+Both ingredients are necessary and neither suffices: plain multiplication does **not**
+work, and opponency on sign-stripped inputs does not either. Only their conjunction is
+coherent (all eight subtypes positive, mean sign consistency 0.84, min subtype +0.317,
+all Holm p < 1e−70). Coincidence, divisive/shunting (|DSI| ≈ 0.01–0.06) and a generic
+dendritic subunit all failed.
+
+The selected biological model inverted all four **T4** subtypes (−0.22 to −0.29), and
+that is mechanistically informative: T4's slow arm is inhibitory (Mi9, Mi4) while T5's
+is excitatory (Tm9), so a rule built on rectified magnitudes discards exactly the sign
+asymmetry the computation consumes. Ablations confirm the substrate is sound —
+geometry shuffle p = 0.005 (~42 SD from a tight null), temporal-flat −66 %, interaction
+ablation −82 % — and **ON/OFF specificity was restored** (all four T4 prefer ON, all
+four T5 prefer OFF) with no subtype-specific coefficients. Resolved-weight
+stratification shows the ~42 % coverage limit is not the cause.
+
+**Verdict FAIL, category F.** The supportable claim is that a minimal interaction of
+the *antisymmetric opponent class computed on sign-preserving drives* is sufficient to
+read out the MaleCNS geometry — not that biology evaluates the textbook HR equation
+(indeed the minimal 1-frame opponent product generalised better than E18's HR
+formulation). **Experiment 20 should not proceed to VP→DN**; the working mechanism is
+a control architecture, not a validated biological readout. Next steps: resolve flyvis
+(still F3, settling category E) and implement a genuine conductance/two-compartment
+dendritic model rather than a divisive approximation.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -165,6 +210,9 @@ dendritic interaction on this same geometry.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 19: `run_motion_nonlinearity_experiment.py` (calibrate/heldout),
+  `analyze_motion_nonlinearity_experiment.py`; mechanism family in
+  `flymon/motion_nonlinearity.py` (reuses the E18 geometry unchanged).
 - Experiment 18: `run_column_motion_experiment.py` (geometry/calibrate/heldout),
   `analyze_column_motion_experiment.py`; column geometry in `flymon/optic_columns.py`
   and the opt-in graded model in `flymon/column_motion.py`.
@@ -173,7 +221,7 @@ dendritic interaction on this same geometry.
   adapter in `flymon/optic_dynamics.py` (reference path bit-identical to stock FlyBrain).
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
-  `test_column_motion.py` (CPU only;
+  `test_column_motion.py`, `test_motion_nonlinearity.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

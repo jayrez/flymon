@@ -1,0 +1,46 @@
+{
+  "speed": {
+    "summary": {
+      "mean_abs_dsi": 0.1644670465139517,
+      "mean_dsi": -0.10242812869365217,
+      "mean_sign": 0.4115859402028947,
+      "n_coherent": 1,
+      "min_dsi": -0.28172004301697146,
+      "max_abs_dsi": 0.28172004301697146,
+      "all_same_sign": false
+    }
+  },
+  "width": {
+    "summary": {
+      "mean_abs_dsi": 0.12480974630893416,
+      "mean_dsi": -0.04718601965118626,
+      "mean_sign": 0.4827033060637982,
+      "n_coherent": 2,
+      "min_dsi": -0.16406046304498967,
+      "max_abs_dsi": 0.18152500478887845,
+      "all_same_sign": false
+    }
+  },
+  "contrast": {
+    "summary": {
+      "mean_abs_dsi": 0.12338479252668871,
+      "mean_dsi": -0.05035511537394688,
+      "mean_sign": 0.47914055008723244,
+      "n_coherent": 3,
+      "min_dsi": -0.18083533783796718,
+      "max_abs_dsi": 0.18083533783796718,
+      "all_same_sign": false
+    }
+  },
+  "position": {
+    "summary": {
+      "mean_abs_dsi": 0.18710701416085138,
+      "mean_dsi": -0.1159518266612688,
+      "mean_sign": 0.49937039973609226,
+      "n_coherent": 3,
+      "min_dsi": -0.3066860757883753,
+      "max_abs_dsi": 0.3066860757883753,
+      "all_same_sign": false
+    }
+  }
+}

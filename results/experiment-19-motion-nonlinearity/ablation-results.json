@@ -1,0 +1,46 @@
+{
+  "temporal_flat": {
+    "summary": {
+      "mean_abs_dsi": 0.0608247530369037,
+      "mean_dsi": -0.035793672197055974,
+      "mean_sign": 0.46124241140999583,
+      "n_coherent": 1,
+      "min_dsi": -0.1366213101282104,
+      "max_abs_dsi": 0.1366213101282104,
+      "all_same_sign": false
+    }
+  },
+  "interaction_ablation": {
+    "mechanism": {
+      "family": "N4_SUBUNIT",
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "alpha": 1.0,
+      "beta": 0.0,
+      "gamma": 0.0,
+      "gate": "identity",
+      "delta": 1,
+      "label": "ablate_interaction"
+    },
+    "summary": {
+      "mean_abs_dsi": 0.032817630587623284,
+      "mean_dsi": 0.0009798090240145945,
+      "mean_sign": 0.522724137188898,
+      "n_coherent": 2,
+      "min_dsi": -0.06827571618542867,
+      "max_abs_dsi": 0.06827571618542867,
+      "all_same_sign": false
+    }
+  },
+  "geometry_shuffle": {
+    "permutations": 200,
+    "null_mean": 0.00548560284322108,
+    "null_sd": 0.00258544199667109,
+    "null_95": [
+      0.0005400855982704719,
+      0.010524058493456289
+    ],
+    "observed": -0.10530979422290168,
+    "p_empirical": 0.004975124378109453
+  }
+}
