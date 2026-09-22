@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="278">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="24" font-size="15">Exp19 held-out DSI by subtype, OPPONENT_SIGNED (control architecture)</text>
+<line x1="300.0" y1="38" x2="300.0" y2="268" stroke="#999"/>
+<text x="292" y="55" text-anchor="end" font-size="11">T4a</text>
+<rect x="300.0" y="42" width="425.4" height="16" fill="#275e85"/>
+<line x1="694.3" y1="50" x2="755.7" y2="50" stroke="#111"/>
+<text x="892" y="55" font-size="11" text-anchor="end">+0.3529</text>
+<text x="292" y="81" text-anchor="end" font-size="11">T4b</text>
+<rect x="300.0" y="68" width="423.3" height="16" fill="#275e85"/>
+<line x1="690.3" y1="76" x2="756.7" y2="76" stroke="#111"/>
+<text x="892" y="81" font-size="11" text-anchor="end">+0.3512</text>
+<text x="292" y="107" text-anchor="end" font-size="11">T4c</text>
+<rect x="300.0" y="94" width="409.9" height="16" fill="#275e85"/>
+<line x1="678.4" y1="102" x2="742.2" y2="102" stroke="#111"/>
+<text x="892" y="107" font-size="11" text-anchor="end">+0.3401</text>
+<text x="292" y="133" text-anchor="end" font-size="11">T4d</text>
+<rect x="300.0" y="120" width="393.6" height="16" fill="#275e85"/>
+<line x1="661.6" y1="128" x2="725.8" y2="128" stroke="#111"/>
+<text x="892" y="133" font-size="11" text-anchor="end">+0.3266</text>
+<text x="292" y="159" text-anchor="end" font-size="11">T5a</text>
+<rect x="300.0" y="146" width="381.5" height="16" fill="#275e85"/>
+<line x1="651.7" y1="154" x2="710.8" y2="154" stroke="#111"/>
+<text x="892" y="159" font-size="11" text-anchor="end">+0.3165</text>
+<text x="292" y="185" text-anchor="end" font-size="11">T5b</text>
+<rect x="300.0" y="172" width="497.1" height="16" fill="#275e85"/>
+<line x1="769.2" y1="180" x2="824.1" y2="180" stroke="#111"/>
+<text x="892" y="185" font-size="11" text-anchor="end">+0.4124</text>
+<text x="292" y="211" text-anchor="end" font-size="11">T5c</text>
+<rect x="300.0" y="198" width="500.0" height="16" fill="#275e85"/>
+<line x1="772.4" y1="206" x2="827.4" y2="206" stroke="#111"/>
+<text x="892" y="211" font-size="11" text-anchor="end">+0.4148</text>
+<text x="292" y="237" text-anchor="end" font-size="11">T5d</text>
+<rect x="300.0" y="224" width="404.3" height="16" fill="#275e85"/>
+<line x1="676.2" y1="232" x2="732.7" y2="232" stroke="#111"/>
+<text x="892" y="237" font-size="11" text-anchor="end">+0.3354</text>
+</svg>

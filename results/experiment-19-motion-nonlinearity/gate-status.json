@@ -1,0 +1,123 @@
+{
+  "verdict": "FAIL",
+  "category": "F",
+  "thresholds": {
+    "mean_abs_dsi": 0.15,
+    "sign": 0.7,
+    "min_coherent": 6
+  },
+  "selected": "N2_COINCIDENCE|tf4|ts12|identity",
+  "selected_met_calibration": false,
+  "primary_metric_A": {
+    "mean_dsi": -0.10530979422290168,
+    "mean_abs_dsi": 0.18067718556718987,
+    "mean_sign": 0.40660682839991386,
+    "n_coherent": 1,
+    "min_dsi": -0.2856814899925985,
+    "all_same_sign": false
+  },
+  "hypothesis_H0": {
+    "best_extended": 0.09295875233660722,
+    "best_extended_coherent": 2,
+    "e18_tau8": 0.05210137670084182,
+    "rescued": false
+  },
+  "hypothesis_H1": {
+    "A": {
+      "mean_dsi": -0.10530979422290168,
+      "mean_abs_dsi": 0.18067718556718987,
+      "mean_sign": 0.40660682839991386,
+      "n_coherent": 1,
+      "min_dsi": -0.2856814899925985,
+      "all_same_sign": false
+    },
+    "C": {
+      "mean_dsi": -0.12380940580054009,
+      "mean_abs_dsi": 0.17370727794105165,
+      "mean_sign": 0.468669399421299,
+      "n_coherent": 3,
+      "min_dsi": -0.3443332755688855,
+      "all_same_sign": false
+    },
+    "D": {
+      "mean_dsi": -0.09287265533043637,
+      "mean_abs_dsi": 0.18763804531040962,
+      "mean_sign": 0.42696991857584216,
+      "n_coherent": 2,
+      "min_dsi": -0.2810858450021545,
+      "all_same_sign": false
+    },
+    "transient_rescue": false
+  },
+  "decomposition": {
+    "signed_product_only": {
+      "mean_abs_dsi": 0.0691665005719633,
+      "mean_dsi": 0.055968634234753685,
+      "mean_sign": 0.6751001063689159,
+      "n_coherent": 4,
+      "min_dsi": -0.05279146534883844,
+      "max_abs_dsi": 0.12875391018609245,
+      "all_same_sign": false
+    },
+    "signed_opponent": {
+      "mean_dsi": 0.3562374402375401,
+      "mean_abs_dsi": 0.3562374402375401,
+      "mean_sign": 0.8391440604112159,
+      "n_coherent": 8,
+      "min_dsi": 0.31649639531079493,
+      "all_same_sign": true
+    },
+    "magnitude_product_only": {
+      "mean_abs_dsi": 0.18832009805073646,
+      "mean_dsi": -0.1035506388860239,
+      "mean_sign": 0.40383040510666485,
+      "n_coherent": 1,
+      "min_dsi": -0.2813531269886463,
+      "max_abs_dsi": 0.2813531269886463,
+      "all_same_sign": false
+    },
+    "magnitude_opponent": {
+      "mean_abs_dsi": 0.3508802355347815,
+      "mean_dsi": 0.03593895531140606,
+      "mean_sign": 0.5166462429526363,
+      "n_coherent": 4,
+      "min_dsi": -0.34492644520626753,
+      "max_abs_dsi": 0.5188121733537144,
+      "all_same_sign": false
+    },
+    "e18_hr_formulation": {
+      "mean_abs_dsi": 0.12934747371803218,
+      "mean_dsi": 0.08157707996129297,
+      "mean_sign": 0.6007468944711513,
+      "n_coherent": 3,
+      "min_dsi": -0.08026458543884063,
+      "max_abs_dsi": 0.23929046731739095,
+      "all_same_sign": false
+    },
+    "linear_extended": {
+      "mean_abs_dsi": 0.05851504060115751,
+      "mean_dsi": 0.018891223285666565,
+      "mean_sign": 0.5646424350181596,
+      "n_coherent": 2,
+      "min_dsi": -0.10457831026601228,
+      "max_abs_dsi": 0.11248133725245399,
+      "all_same_sign": false
+    }
+  },
+  "opponent_signed_passes": true,
+  "biological_model_passes": false,
+  "on_off_specificity_ok": true,
+  "e18_reference_mean_abs_dsi": 0.0446,
+  "geometry_null": {
+    "permutations": 200,
+    "null_mean": 0.00548560284322108,
+    "null_sd": 0.00258544199667109,
+    "null_95": [
+      0.0005400855982704719,
+      0.010524058493456289
+    ],
+    "observed": -0.10530979422290168,
+    "p_empirical": 0.004975124378109453
+  },
+  "proceed_to_experiment20": false
+}
