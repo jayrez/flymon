@@ -1,0 +1,99 @@
+{
+  "verdict": "FAIL",
+  "category": "E",
+  "thresholds": {
+    "mean_dsi": 0.15,
+    "min_positive": 7
+  },
+  "selected": "C2_TWOCOMP_NL|tf4|ts12|gs1|Ei-0.2|gc2|th0.08",
+  "met_calibration": false,
+  "heldout": {
+    "mean_dsi": 0.024553549112417306,
+    "mean_abs_dsi": 0.08617689082499058,
+    "n_positive": 5,
+    "n_coherent": 2,
+    "mean_sign": 0.5407571206335176,
+    "min_dsi": -0.1360404615892197,
+    "t4_mean": 0.012697041363251074,
+    "t5_mean": 0.03641005686158354
+  },
+  "oracle": {
+    "mean_abs_dsi": 0.3562374402375401,
+    "mean_dsi": 0.3562374402375401,
+    "mean_sign": 0.8391440604112159,
+    "n_coherent": 8,
+    "min_dsi": 0.31649639531079493,
+    "max_abs_dsi": 0.41482918082891773,
+    "all_same_sign": true
+  },
+  "families": {
+    "C0_SINGLE": {
+      "mean_dsi": 0.0066793825299680375,
+      "mean_abs_dsi": 0.047949593860414655,
+      "n_positive": 6,
+      "n_coherent": 2,
+      "mean_sign": 0.5346710824299652,
+      "min_dsi": -0.1134957346121822,
+      "t4_mean": 0.005355215224827425,
+      "t5_mean": 0.008003549835108651
+    },
+    "C1_TWOCOMP": {
+      "mean_dsi": 0.005736130927003072,
+      "mean_abs_dsi": 0.046558150842468976,
+      "n_positive": 6,
+      "n_coherent": 2,
+      "mean_sign": 0.5323721627857427,
+      "min_dsi": -0.1077312832033459,
+      "t4_mean": 0.004230771887933716,
+      "t5_mean": 0.007241489966072428
+    },
+    "C2_TWOCOMP_NL": {
+      "mean_dsi": 0.024553549112417306,
+      "mean_abs_dsi": 0.08617689082499058,
+      "n_positive": 5,
+      "n_coherent": 2,
+      "mean_sign": 0.5407571206335176,
+      "min_dsi": -0.1360404615892197,
+      "t4_mean": 0.012697041363251074,
+      "t5_mean": 0.03641005686158354
+    }
+  },
+  "on_off_specificity_ok": true,
+  "oracle_ratio": 0.06892467309456561,
+  "mechanism_diagnostics": {
+    "arm_swap_relative_change": 0.02008112683115168,
+    "sign_destruction_relative_change": 0.2225440495128911,
+    "inhibition_neutralisation_relative_change": 0.06395178893350593,
+    "coupling_removal_relative_change": 0.9023586735693381,
+    "temporal_flat_relative_change": 0.6164090895028675,
+    "geometry_shuffle_residual_fraction": 0.7705652009679205,
+    "arm_order_matters": false,
+    "sign_matters": false,
+    "geometry_matters": false,
+    "mechanism_supported": false
+  },
+  "naive_improvement_only_category": "D",
+  "category_rule_note": "The preregistration lists categories D and E but specifies no precedence between them. The first implementation used an unpreregistered heuristic (C2 > C0 improvement => D). That heuristic would give category 'D'. It is superseded here by the mechanistic criteria recorded in mechanism_diagnostics, because 'conductance dynamics improve selectivity' (D) is only meaningful if the improvement depends on arm order, synaptic sign and the true geometry. This is a change to an implementation heuristic, not to any preregistered threshold; the primary endpoint and its thresholds are unchanged.",
+  "e19_oracle_reference": {
+    "mean_dsi": 0.3562374402375401,
+    "mean_abs_dsi": 0.3562374402375401,
+    "mean_sign": 0.8391440604112159,
+    "n_coherent": 8,
+    "min_dsi": 0.31649639531079493,
+    "all_same_sign": true
+  },
+  "geometry_null": {
+    "permutations": 200,
+    "stimulus_subset": "speed axis",
+    "null_mean": 0.01442341028661555,
+    "null_sd": 0.0013719872780807748,
+    "null_95": [
+      0.011707305994692697,
+      0.01689852442409409
+    ],
+    "observed": 0.018717962175981328,
+    "z": 3.1301688833755863,
+    "p_empirical": 0.004975124378109453
+  },
+  "proceed_to_vp_dn": false
+}

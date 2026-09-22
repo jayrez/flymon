@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="174">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="24" font-size="15">Exp20 held-out mean DSI by generalisation axis</text>
+<line x1="330.0" y1="38" x2="330.0" y2="164" stroke="#999"/>
+<line x1="800.0" y1="38" x2="800.0" y2="164" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="322" y="55" text-anchor="end" font-size="11">speed</text>
+<rect x="330.0" y="42" width="58.6" height="16" fill="#275e85"/>
+<text x="912" y="55" font-size="11" text-anchor="end">+0.0187</text>
+<text x="322" y="81" text-anchor="end" font-size="11">width</text>
+<rect x="330.0" y="68" width="103.5" height="16" fill="#275e85"/>
+<text x="912" y="81" font-size="11" text-anchor="end">+0.0330</text>
+<text x="322" y="107" text-anchor="end" font-size="11">contrast</text>
+<rect x="330.0" y="94" width="87.4" height="16" fill="#275e85"/>
+<text x="912" y="107" font-size="11" text-anchor="end">+0.0279</text>
+<text x="322" y="133" text-anchor="end" font-size="11">position</text>
+<rect x="330.0" y="120" width="104.1" height="16" fill="#275e85"/>
+<text x="912" y="133" font-size="11" text-anchor="end">+0.0332</text>
+</svg>

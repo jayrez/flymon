@@ -51,6 +51,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 17 | Why does retinal motion input not become T4/T5 direction selectivity, and can dynamics repair it? | **FAIL** (Category E); stimuli and gain exonerated, signal flow restored, but the LIF architecture cannot compute motion |
 | 18 | Does MaleCNS contain the spatial geometry for T4/T5 direction selectivity, and can a column-resolved model recover it? | **FAIL** (Category D) but **geometry PASS**; the four-direction geometry is in the connectome, yet only an explicit correlator reads it out |
 | 19 | What minimal mechanism converts that geometry into direction selectivity — is a correlator really required? | **FAIL** (Category F); extended timing and hidden-transient explanations rejected; only antisymmetric opponency on sign-preserving drives works (0.356, 8/8) |
+| 20 | Can a minimal sign-preserving conductance / two-compartment dendrite reproduce that opponent computation? | **FAIL** (Category E); small bias only (0.025 vs oracle 0.356) and it is insensitive to arm order, sign and geometry |
 
 ## Latest result (Experiment 15)
 
@@ -202,6 +203,41 @@ a control architecture, not a validated biological readout. Next steps: resolve 
 (still F3, settling category E) and implement a genuine conductance/two-compartment
 dendritic model rather than a divisive approximation.
 
+## Latest result (Experiment 20)
+
+Experiment 20 asked whether plausible membrane dynamics can implement Experiment-19's
+signed-opponent computation **without evaluating the opponent equation**. Synaptic sign
+was mapped to conductance channels physically: weight sign selects excitatory vs
+inhibitory, reversal potential supplies the polarity, and conductances stay
+non-negative.
+
+**Verdict FAIL, category E.** Held-out mean DSI: C0 single-compartment **+0.0067**,
+C1 two-compartment **+0.0057**, C2 two-compartment + output threshold **+0.0246** —
+against the E19 oracle's **+0.3562** (8/8 coherent). The selected model reaches 6.9 % of
+the oracle with only 5/8 subtypes positive and two (T4a, T5a) significantly inverted.
+
+The important part is mechanistic, not the missed threshold. **Swapping which arm feeds
+which compartment changed the result by 2.0 %**; a delay-and-compare mechanism is
+*defined* by that ordering, so near-invariance means the model is not computing anything
+spatially ordered. Consistently, **geometry shuffle leaves 77 % of the effect intact**
+(null +0.0144 vs observed +0.0187 over 200 permutations), destroying synaptic sign costs
+only 22 %, and neutralising inhibitory reversal only 6.5 % — yet sign and inhibition were
+exactly what E19 identified as essential. Coupling removal (−90 %) and temporal
+flattening (−62 %) do matter, but coupling dependence alone is not evidence of an
+opponent computation: a coupled-RC-plus-threshold cascade yields a small directional bias
+for any smooth drifting stimulus.
+
+One clear positive: **ON/OFF specificity is reproduced strongly** — all four T4 prefer ON
+(~40–60×) and all four T5 prefer OFF (~13×) with no per-subtype coefficients, because the
+conductance mapping preserves the T4 fast-excitatory/slow-inhibitory vs T5 both-excitatory
+asymmetry. Pathway polarity is not what is missing; directional ordering is.
+
+**Experiment 21 should not proceed to VP→DN.** The E19 oracle remains a computational
+constraint whose biological implementation is unresolved. The proposed next step is a
+*structurally asymmetric* dendrite — on-path/location-dependent inhibition, non-reciprocal
+coupling, nonlinear subunits, or active conductances — with the arm-swap ablation adopted
+as an early rejection criterion.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -210,6 +246,9 @@ dendritic model rather than a divisive approximation.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 20: `run_conductance_dendrite_experiment.py` (calibrate/heldout),
+  `analyze_conductance_dendrite_experiment.py`; membrane model in
+  `flymon/conductance_dendrite.py` (reuses E18 geometry and E19 stimuli/metrics).
 - Experiment 19: `run_motion_nonlinearity_experiment.py` (calibrate/heldout),
   `analyze_motion_nonlinearity_experiment.py`; mechanism family in
   `flymon/motion_nonlinearity.py` (reuses the E18 geometry unchanged).
@@ -221,7 +260,8 @@ dendritic model rather than a divisive approximation.
   adapter in `flymon/optic_dynamics.py` (reference path bit-identical to stock FlyBrain).
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
-  `test_column_motion.py`, `test_motion_nonlinearity.py` (CPU only;
+  `test_column_motion.py`, `test_motion_nonlinearity.py`,
+  `test_conductance_dendrite.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

@@ -1,0 +1,37 @@
+{
+  "selected": "C2_TWOCOMP_NL|tf4|ts12|gs1|Ei-0.2|gc2|th0.08",
+  "config": {
+    "model": "C2_TWOCOMP_NL",
+    "tau_fast": 4.0,
+    "tau_slow": 12.0,
+    "g_syn": 1.0,
+    "g_leak": 1.0,
+    "g_couple": 2.0,
+    "E_leak": 0.0,
+    "E_exc": 1.0,
+    "E_inh": -0.2,
+    "threshold": 0.08,
+    "c_mem": 1.0,
+    "swap_arms": false,
+    "magnitude_only": false,
+    "neutral_inhibition": false,
+    "readout": "A"
+  },
+  "met_preregistered_threshold": false,
+  "thresholds": {
+    "mean_dsi": 0.15,
+    "min_positive": 7
+  },
+  "calibration": {
+    "mean_dsi": 0.031202248138798478,
+    "n_positive": 6,
+    "n_coherent": 3
+  },
+  "near_equivalent_configs": [
+    "C2_TWOCOMP_NL|tf4|ts12|gs1|Ei-0.2|gc2|th0.08",
+    "C2_TWOCOMP_NL|tf4|ts12|gs1|Ei0|gc2|th0.08"
+  ],
+  "n_near_equivalent": 2,
+  "selection_rule": "simplest model (C0<C1<C2) with calibration mean DSI>=0.15 and >=7/8 positive subtypes; ties within 0.01 reported as sensitivity",
+  "seconds": 859.2552082538605
+}

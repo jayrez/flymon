@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="486">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="24" font-size="15">Exp20 conductance model vs E19 OPPONENT_SIGNED oracle (held-out DSI)</text>
+<line x1="446.1" y1="38" x2="446.1" y2="476" stroke="#999"/>
+<text x="322" y="55" text-anchor="end" font-size="11">T4a cond</text>
+<rect x="355.7" y="42" width="90.4" height="16" fill="#c0392b"/>
+<text x="912" y="55" font-size="11" text-anchor="end">-0.1059</text>
+<text x="322" y="81" text-anchor="end" font-size="11">T4b cond</text>
+<rect x="446.1" y="68" width="92.0" height="16" fill="#275e85"/>
+<text x="912" y="81" font-size="11" text-anchor="end">+0.1078</text>
+<text x="322" y="107" text-anchor="end" font-size="11">T4c cond</text>
+<rect x="442.2" y="94" width="3.9" height="16" fill="#c0392b"/>
+<text x="912" y="107" font-size="11" text-anchor="end">-0.0045</text>
+<text x="322" y="133" text-anchor="end" font-size="11">T4d cond</text>
+<rect x="446.1" y="120" width="45.6" height="16" fill="#275e85"/>
+<text x="912" y="133" font-size="11" text-anchor="end">+0.0534</text>
+<text x="322" y="159" text-anchor="end" font-size="11">T5a cond</text>
+<rect x="330.0" y="146" width="116.1" height="16" fill="#c0392b"/>
+<text x="912" y="159" font-size="11" text-anchor="end">-0.1360</text>
+<text x="322" y="185" text-anchor="end" font-size="11">T5b cond</text>
+<rect x="446.1" y="172" width="158.1" height="16" fill="#275e85"/>
+<text x="912" y="185" font-size="11" text-anchor="end">+0.1853</text>
+<text x="322" y="211" text-anchor="end" font-size="11">T5c cond</text>
+<rect x="446.1" y="198" width="26.6" height="16" fill="#275e85"/>
+<text x="912" y="211" font-size="11" text-anchor="end">+0.0312</text>
+<text x="322" y="237" text-anchor="end" font-size="11">T5d cond</text>
+<rect x="446.1" y="224" width="55.6" height="16" fill="#275e85"/>
+<text x="912" y="237" font-size="11" text-anchor="end">+0.0652</text>
+<text x="322" y="263" text-anchor="end" font-size="11">T4a oracle</text>
+<rect x="446.1" y="250" width="301.1" height="16" fill="#275e85"/>
+<text x="912" y="263" font-size="11" text-anchor="end">+0.3529</text>
+<text x="322" y="289" text-anchor="end" font-size="11">T4b oracle</text>
+<rect x="446.1" y="276" width="299.6" height="16" fill="#275e85"/>
+<text x="912" y="289" font-size="11" text-anchor="end">+0.3512</text>
+<text x="322" y="315" text-anchor="end" font-size="11">T4c oracle</text>
+<rect x="446.1" y="302" width="290.2" height="16" fill="#275e85"/>
+<text x="912" y="315" font-size="11" text-anchor="end">+0.3401</text>
+<text x="322" y="341" text-anchor="end" font-size="11">T4d oracle</text>
+<rect x="446.1" y="328" width="278.6" height="16" fill="#275e85"/>
+<text x="912" y="341" font-size="11" text-anchor="end">+0.3266</text>
+<text x="322" y="367" text-anchor="end" font-size="11">T5a oracle</text>
+<rect x="446.1" y="354" width="270.0" height="16" fill="#275e85"/>
+<text x="912" y="367" font-size="11" text-anchor="end">+0.3165</text>
+<text x="322" y="393" text-anchor="end" font-size="11">T5b oracle</text>
+<rect x="446.1" y="380" width="351.9" height="16" fill="#275e85"/>
+<text x="912" y="393" font-size="11" text-anchor="end">+0.4124</text>
+<text x="322" y="419" text-anchor="end" font-size="11">T5c oracle</text>
+<rect x="446.1" y="406" width="353.9" height="16" fill="#275e85"/>
+<text x="912" y="419" font-size="11" text-anchor="end">+0.4148</text>
+<text x="322" y="445" text-anchor="end" font-size="11">T5d oracle</text>
+<rect x="446.1" y="432" width="286.2" height="16" fill="#275e85"/>
+<text x="912" y="445" font-size="11" text-anchor="end">+0.3354</text>
+</svg>

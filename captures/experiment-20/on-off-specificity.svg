@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="278">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="24" font-size="15">Exp20 ON minus OFF response (T4 should be &gt;0, T5 &lt;0)</text>
+<line x1="667.6" y1="38" x2="667.6" y2="268" stroke="#999"/>
+<text x="322" y="55" text-anchor="end" font-size="11">T4a</text>
+<rect x="667.6" y="42" width="126.3" height="16" fill="#275e85"/>
+<text x="912" y="55" font-size="11" text-anchor="end">+0.0003</text>
+<text x="322" y="81" text-anchor="end" font-size="11">T4b</text>
+<rect x="667.6" y="68" width="63.4" height="16" fill="#275e85"/>
+<text x="912" y="81" font-size="11" text-anchor="end">+0.0002</text>
+<text x="322" y="107" text-anchor="end" font-size="11">T4c</text>
+<rect x="667.6" y="94" width="132.4" height="16" fill="#275e85"/>
+<text x="912" y="107" font-size="11" text-anchor="end">+0.0003</text>
+<text x="322" y="133" text-anchor="end" font-size="11">T4d</text>
+<rect x="667.6" y="120" width="107.6" height="16" fill="#275e85"/>
+<text x="912" y="133" font-size="11" text-anchor="end">+0.0003</text>
+<text x="322" y="159" text-anchor="end" font-size="11">T5a</text>
+<rect x="363.9" y="146" width="303.7" height="16" fill="#c0392b"/>
+<text x="912" y="159" font-size="11" text-anchor="end">-0.0007</text>
+<text x="322" y="185" text-anchor="end" font-size="11">T5b</text>
+<rect x="354.5" y="172" width="313.1" height="16" fill="#c0392b"/>
+<text x="912" y="185" font-size="11" text-anchor="end">-0.0008</text>
+<text x="322" y="211" text-anchor="end" font-size="11">T5c</text>
+<rect x="337.0" y="198" width="330.6" height="16" fill="#c0392b"/>
+<text x="912" y="211" font-size="11" text-anchor="end">-0.0008</text>
+<text x="322" y="237" text-anchor="end" font-size="11">T5d</text>
+<rect x="330.0" y="224" width="337.6" height="16" fill="#c0392b"/>
+<text x="912" y="237" font-size="11" text-anchor="end">-0.0008</text>
+</svg>
