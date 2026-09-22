@@ -1,0 +1,234 @@
+{
+  "T4a": {
+    "n_total": 1684,
+    "n_eligible": 1680,
+    "eligible_fraction": 0.997624703087886,
+    "resolved_weight_fraction": 0.42021070528198284,
+    "mean_angle_deg": 147.18494297732485,
+    "concentration": 0.5872709673360462,
+    "mean_magnitude": 0.39053121024159787,
+    "median_magnitude": 0.3738641550156651,
+    "by_side": {
+      "L": {
+        "n": 831,
+        "mean_angle_deg": 149.91118339732608,
+        "concentration": 0.4326928879417559
+      },
+      "R": {
+        "n": 849,
+        "mean_angle_deg": 145.62362499424523,
+        "concentration": 0.7393255970961452
+      }
+    },
+    "predicted_direction_votes": {
+      "up": 524,
+      "left": 411,
+      "right": 590,
+      "down": 155
+    },
+    "predicted_direction": "right"
+  },
+  "T4b": {
+    "n_total": 1690,
+    "n_eligible": 1687,
+    "eligible_fraction": 0.9982248520710059,
+    "resolved_weight_fraction": 0.4007653377688169,
+    "mean_angle_deg": 326.5022773538439,
+    "concentration": 0.5523658460974366,
+    "mean_magnitude": 0.3787147922398403,
+    "median_magnitude": 0.3391823683029427,
+    "by_side": {
+      "L": {
+        "n": 841,
+        "mean_angle_deg": 329.43818830508445,
+        "concentration": 0.45345437728363475
+      },
+      "R": {
+        "n": 846,
+        "mean_angle_deg": 324.4719805115852,
+        "concentration": 0.651693506731073
+      }
+    },
+    "predicted_direction_votes": {
+      "down": 534,
+      "right": 445,
+      "left": 527,
+      "up": 181
+    },
+    "predicted_direction": "down"
+  },
+  "T4c": {
+    "n_total": 1778,
+    "n_eligible": 1773,
+    "eligible_fraction": 0.9971878515185602,
+    "resolved_weight_fraction": 0.4283833387784213,
+    "mean_angle_deg": 51.45601470154012,
+    "concentration": 0.5467011547429942,
+    "mean_magnitude": 0.3790158400978712,
+    "median_magnitude": 0.35674285118210464,
+    "by_side": {
+      "L": {
+        "n": 890,
+        "mean_angle_deg": 50.04773481613849,
+        "concentration": 0.4194195118464427
+      },
+      "R": {
+        "n": 883,
+        "mean_angle_deg": 52.33768911262936,
+        "concentration": 0.6751994560443914
+      }
+    },
+    "predicted_direction_votes": {
+      "right": 385,
+      "up": 808,
+      "down": 137,
+      "left": 443
+    },
+    "predicted_direction": "up"
+  },
+  "T4d": {
+    "n_total": 1710,
+    "n_eligible": 1705,
+    "eligible_fraction": 0.9970760233918129,
+    "resolved_weight_fraction": 0.4182096409093118,
+    "mean_angle_deg": 252.43029714159115,
+    "concentration": 0.5297093137312778,
+    "mean_magnitude": 0.4079562460178029,
+    "median_magnitude": 0.3728298244352611,
+    "by_side": {
+      "L": {
+        "n": 845,
+        "mean_angle_deg": 257.87442390457704,
+        "concentration": 0.43294342939900127
+      },
+      "R": {
+        "n": 860,
+        "mean_angle_deg": 248.74561012635064,
+        "concentration": 0.6280044756393581
+      }
+    },
+    "predicted_direction_votes": {
+      "down": 977,
+      "right": 311,
+      "left": 250,
+      "up": 167
+    },
+    "predicted_direction": "down"
+  },
+  "T5a": {
+    "n_total": 1664,
+    "n_eligible": 1648,
+    "eligible_fraction": 0.9903846153846154,
+    "resolved_weight_fraction": 0.412361090926158,
+    "mean_angle_deg": 144.92235717009456,
+    "concentration": 0.8840359206339538,
+    "mean_magnitude": 0.6687931893024938,
+    "median_magnitude": 0.6697738240186393,
+    "by_side": {
+      "L": {
+        "n": 811,
+        "mean_angle_deg": 145.79041334130588,
+        "concentration": 0.8484252456435454
+      },
+      "R": {
+        "n": 837,
+        "mean_angle_deg": 144.14562603283437,
+        "concentration": 0.9187191746635187
+      }
+    },
+    "predicted_direction_votes": {
+      "up": 473,
+      "left": 548,
+      "right": 604,
+      "down": 23
+    },
+    "predicted_direction": "right"
+  },
+  "T5b": {
+    "n_total": 1715,
+    "n_eligible": 1707,
+    "eligible_fraction": 0.99533527696793,
+    "resolved_weight_fraction": 0.41378852258622634,
+    "mean_angle_deg": 323.1385423690517,
+    "concentration": 0.8933877207273079,
+    "mean_magnitude": 0.640093205586922,
+    "median_magnitude": 0.6487810063039743,
+    "by_side": {
+      "L": {
+        "n": 855,
+        "mean_angle_deg": 324.6416925980176,
+        "concentration": 0.8512780208057095
+      },
+      "R": {
+        "n": 852,
+        "mean_angle_deg": 321.7669669711988,
+        "concentration": 0.9362078990653192
+      }
+    },
+    "predicted_direction_votes": {
+      "right": 555,
+      "down": 559,
+      "left": 577,
+      "up": 16
+    },
+    "predicted_direction": "left"
+  },
+  "T5c": {
+    "n_total": 1720,
+    "n_eligible": 1712,
+    "eligible_fraction": 0.9953488372093023,
+    "resolved_weight_fraction": 0.4446551461797432,
+    "mean_angle_deg": 46.54965741753737,
+    "concentration": 0.8812544096752574,
+    "mean_magnitude": 0.6058918736199009,
+    "median_magnitude": 0.5930137368181734,
+    "by_side": {
+      "L": {
+        "n": 854,
+        "mean_angle_deg": 46.36340906675165,
+        "concentration": 0.8460488061519258
+      },
+      "R": {
+        "n": 858,
+        "mean_angle_deg": 46.72082382442562,
+        "concentration": 0.9163044224930302
+      }
+    },
+    "predicted_direction_votes": {
+      "up": 885,
+      "right": 404,
+      "down": 17,
+      "left": 406
+    },
+    "predicted_direction": "up"
+  },
+  "T5d": {
+    "n_total": 1620,
+    "n_eligible": 1617,
+    "eligible_fraction": 0.9981481481481481,
+    "resolved_weight_fraction": 0.44440076566309267,
+    "mean_angle_deg": 251.02467998493682,
+    "concentration": 0.8736439510466697,
+    "mean_magnitude": 0.6360621387035248,
+    "median_magnitude": 0.6224026993164956,
+    "by_side": {
+      "L": {
+        "n": 809,
+        "mean_angle_deg": 253.38723004643725,
+        "concentration": 0.8473029781632652
+      },
+      "R": {
+        "n": 808,
+        "mean_angle_deg": 248.8012832039305,
+        "concentration": 0.9014172588223779
+      }
+    },
+    "predicted_direction_votes": {
+      "down": 1293,
+      "left": 144,
+      "right": 169,
+      "up": 11
+    },
+    "predicted_direction": "down"
+  }
+}

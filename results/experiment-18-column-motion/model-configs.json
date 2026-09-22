@@ -1,0 +1,182 @@
+[
+  {
+    "name": "M0",
+    "tau_fast": 2.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": false,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 1.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 1.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 1.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 1.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 1.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 1.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 1.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 1.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 1.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 2.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 2.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 2.0,
+    "tau_slow": 3.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 2.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 2.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 2.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M1",
+    "tau_fast": 2.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M2",
+    "tau_fast": 2.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": true,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M3",
+    "tau_fast": 2.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": true,
+    "output_exponent": 2.0,
+    "temporal": true,
+    "correlator": false
+  },
+  {
+    "name": "M_HR",
+    "tau_fast": 1.0,
+    "tau_slow": 5.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": true
+  }
+]

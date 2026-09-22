@@ -1,0 +1,36 @@
+{
+  "outcome_category": "F3",
+  "run_with_pretrained_weights": false,
+  "install": {
+    "status": "succeeded (library import only)",
+    "flyvis_version": "1.2.0",
+    "torch_version": "2.14.0+cpu",
+    "torchvision_version": "0.29.0+cpu",
+    "python_version": "3.12.3",
+    "device": "cpu",
+    "isolation": "pip --target /tmp/flyvis-libs, outside the repository and outside the Flymon venv; never committed",
+    "install_size": "5.8 GB"
+  },
+  "venv_attempt": {
+    "python3 -m venv": "failed - ensurepip is not available on this system python",
+    "venv from the Flymon venv interpreter": "failed - same ensurepip limitation",
+    "fallback": "isolated pip --target directory, which keeps the Flymon environment untouched"
+  },
+  "pretrained_checkpoint_attempt": {
+    "flyvis_cli_present": false,
+    "console_scripts": "flyvis installs no console script of its own (only pytest/hydra entry points from dependencies)",
+    "download_helpers_found": "only download_sintel / download_url_to_file, which fetch the Sintel TRAINING dataset, not trained network checkpoints",
+    "Ensemble('flow/0000')": "FileNotFoundError - expects a local results directory (/tmp/flyvis-libs/data/results/flow/0000) that no bundled mechanism populates",
+    "conclusion": "pretrained networks would have to be trained locally; no download path exists in this install"
+  },
+  "why_not_used_as_control": [
+    "flyvis T4/T5 direction selectivity is a property of TRAINED networks (Lappalainen et al., Nature 2024).",
+    "An untrained connectome-initialised flyvis network would not show direction selectivity, so running it could be mistaken for evidence against the stimuli.",
+    "Per the Experiment-18 brief the dependency work was bounded rather than escalated."
+  ],
+  "substitute_controls_used": {
+    "experiment_17_hr_correlator": "|DSI| = 1.0 on the same retina samples, 0 for gray/frozen, 76% shuffle suppression, sign flip on reversal",
+    "experiment_18_M_HR": "explicit multiplicative correlator run on the SAME MaleCNS column geometry as the biological models; held-out mean |DSI| 0.354 with 85% sign agreement with the anatomical prediction"
+  },
+  "effect_on_verdict": "none - flyvis availability is not the Experiment-18 primary endpoint, and category E (flyvis succeeds where MaleCNS fails) could not be evaluated."
+}

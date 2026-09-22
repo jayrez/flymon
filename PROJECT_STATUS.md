@@ -49,6 +49,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 15 | Can a connectivity-selected biological pathway carry five-way screen-family identity into DNs? | **FAIL** (for scene identity); collapse across T5 → visual-projection → DN |
 | 16 | Does the pathway preserve biological motion / optic-flow / looming features? | **FAIL** (Category A); T4/T5 do not reproduce direction selectivity — failure is optic-lobe dynamics, upstream of Exp-15's transfer |
 | 17 | Why does retinal motion input not become T4/T5 direction selectivity, and can dynamics repair it? | **FAIL** (Category E); stimuli and gain exonerated, signal flow restored, but the LIF architecture cannot compute motion |
+| 18 | Does MaleCNS contain the spatial geometry for T4/T5 direction selectivity, and can a column-resolved model recover it? | **FAIL** (Category D) but **geometry PASS**; the four-direction geometry is in the connectome, yet only an explicit correlator reads it out |
 
 ## Latest result (Experiment 15)
 
@@ -121,6 +122,41 @@ should **not** proceed to VP → DN transfer; it needs an architecturally differ
 optic-lobe front end (graded photoreceptor/LMC transfer plus a nonlinear T4/T5
 interaction, or a flyvis-derived front end validated against the HR control).
 
+## Latest result (Experiment 18)
+
+Experiment 18 went upstream of Experiment 17's whole-cell-type interventions and asked
+whether the **optic-column geometry** needed for direction selectivity is present at
+all, using only released `assignedOlHex` annotations (no stimulus, no labels).
+
+**Geometry gate: PASS — and this revises Experiment 17.** Measuring, per T4/T5 neuron,
+the offset between the weighted centroids of its fast arm (Mi1 for T4; Tm1/Tm2 for T5)
+and its slow/sign-inverting arm (Mi9/Mi4; Tm9) recovers the canonical four-direction
+layout from connectivity alone: antiparallel pairs (T4a↔T4b 179.3°, T5a↔T5b 178.2°) on
+orthogonal axes (95.7°, 98.4°), ~1,700 cells per subtype at 99 %+ eligibility, with T5
+orientation very tight (R ≈ 0.88). Experiment 17 applied delays at the whole-cell-type
+level, which is spatially blind, so it could never have used this geometry.
+
+**But no biologically simple model reads it out.** Across a preregistered hierarchy —
+M0 instantaneous linear (mean |DSI| exactly **0.0000**, the expected analytic result),
+M1 + cell-class temporal filters, M2 + rectification, M3 + output squaring — none met
+the calibration threshold. The selected M1 reaches held-out mean |DSI| 0.045 but is
+*incoherent with its own anatomical prediction*: two subtypes (T4a, T5a) significantly
+prefer the **opposite** direction. By contrast an explicit multiplicative correlator
+(`M_HR`, a control architecture, not a biological claim) run on the **same** geometry
+reaches **0.354** and agrees with anatomy in **81–94 %** of responsive neurons for
+**all eight** subtypes. Geometry-shuffle (−62 %) and temporal-flat (−52 %) ablations
+confirm both ingredients are causally involved; frozen and gray controls give exactly
+zero and temporal shuffle removes 59 %, so the model is genuinely motion-driven —
+just not direction-selective. ON/OFF specificity is absent.
+
+**Verdict FAIL, category D** (geometry present, only an explicit correlator succeeds).
+The connectome supplies the *spatial* half of a motion detector in full; what the
+linear/rectifying family — and FlyBrain's LIF neuron — lacks is the *multiplicative*
+half. flyvis remained unobtainable (F3: no console script, no checkpoint download
+path), so category E is still untested. Experiment 19 should **not** proceed to
+VP → DN transfer; it should settle flyvis and test a genuinely multiplicative/divisive
+dendritic interaction on this same geometry.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -129,11 +165,15 @@ interaction, or a flyvis-derived front end validated against the HR control).
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 18: `run_column_motion_experiment.py` (geometry/calibrate/heldout),
+  `analyze_column_motion_experiment.py`; column geometry in `flymon/optic_columns.py`
+  and the opt-in graded model in `flymon/column_motion.py`.
 - Experiment 17: `run_optic_dynamics_experiment.py` (audit/gain/calibrate/traces/heldout),
   `run_positive_control.py`, `analyze_optic_dynamics_experiment.py`; opt-in dynamics
   adapter in `flymon/optic_dynamics.py` (reference path bit-identical to stock FlyBrain).
 - Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
-  `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py` (CPU only;
+  `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
+  `test_column_motion.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

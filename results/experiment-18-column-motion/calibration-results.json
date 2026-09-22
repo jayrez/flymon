@@ -1,0 +1,1182 @@
+{
+  "M0|tf2.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M0",
+      "tau_fast": 2.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": false,
+      "correlator": false
+    },
+    "mean_abs_dsi": 7.629622913215505e-19,
+    "min_sign": 0.06796116504854369,
+    "mean_sign": 0.07478738543736954,
+    "dynamic": 0.017141616603391807,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.017141616603391807,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -4.879341820369401e-19,
+        "effect": -8.252521000391898e-20,
+        "sign_consistency": 0.07916666666666666
+      },
+      "T4b": {
+        "dsi_mean": -8.584738616397419e-19,
+        "effect": -8.030695774489734e-20,
+        "sign_consistency": 0.06994665085951393
+      },
+      "T4c": {
+        "dsi_mean": -2.2135452239560123e-18,
+        "effect": -1.0254974863272369e-19,
+        "sign_consistency": 0.07332205301748448
+      },
+      "T4d": {
+        "dsi_mean": 4.833897761825832e-20,
+        "effect": -1.4267909821198536e-20,
+        "sign_consistency": 0.07917888563049853
+      },
+      "T5a": {
+        "dsi_mean": -7.46403667504211e-19,
+        "effect": -5.832191904783979e-20,
+        "sign_consistency": 0.06796116504854369
+      },
+      "T5b": {
+        "dsi_mean": -9.334830979863685e-19,
+        "effect": -7.120038871448451e-20,
+        "sign_consistency": 0.06971294669009959
+      },
+      "T5c": {
+        "dsi_mean": 7.567300853699545e-19,
+        "effect": 1.1510148647736007e-19,
+        "sign_consistency": 0.08294392523364486
+      },
+      "T5d": {
+        "dsi_mean": -5.878923446091716e-20,
+        "effect": -4.318034626349195e-20,
+        "sign_consistency": 0.07606679035250463
+      }
+    }
+  },
+  "M1|tf1.0|ts3.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 1.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.021440793123051853,
+    "min_sign": 0.2669902912621359,
+    "mean_sign": 0.41369864270934786,
+    "dynamic": 0.01629182842209661,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.01629182842209661,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.01608517529005359,
+        "effect": -2.637955221226644e-05,
+        "sign_consistency": 0.3273809523809524
+      },
+      "T4b": {
+        "dsi_mean": 0.029581796887855574,
+        "effect": 0.0009194455340101015,
+        "sign_consistency": 0.4831061055127445
+      },
+      "T4c": {
+        "dsi_mean": 0.017069246640940894,
+        "effect": 0.0006826135324411353,
+        "sign_consistency": 0.4269599548787366
+      },
+      "T4d": {
+        "dsi_mean": 0.0018200765259392087,
+        "effect": 0.0005535239344189259,
+        "sign_consistency": 0.3912023460410557
+      },
+      "T5a": {
+        "dsi_mean": -0.03632453025815123,
+        "effect": -0.0006503592291028242,
+        "sign_consistency": 0.2669902912621359
+      },
+      "T5b": {
+        "dsi_mean": 0.03701734123463352,
+        "effect": 0.0014604615957616964,
+        "sign_consistency": 0.5577035735207967
+      },
+      "T5c": {
+        "dsi_mean": 0.027058729936246424,
+        "effect": 0.0008787951970607719,
+        "sign_consistency": 0.44684579439252337
+      },
+      "T5d": {
+        "dsi_mean": -0.00656944821059438,
+        "effect": 0.0002221409733016608,
+        "sign_consistency": 0.40940012368583795
+      }
+    }
+  },
+  "M2|tf1.0|ts3.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 1.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.018200614935523697,
+    "min_sign": 0.1383495145631068,
+    "mean_sign": 0.37303341756644603,
+    "dynamic": 0.014510107429373666,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.014510107429373666,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.00819144527753634,
+        "effect": 0.00010911761302572512,
+        "sign_consistency": 0.3547619047619048
+      },
+      "T4b": {
+        "dsi_mean": 0.01677112828916869,
+        "effect": 0.0003603775482952036,
+        "sign_consistency": 0.4706579727326615
+      },
+      "T4c": {
+        "dsi_mean": 0.006086150875851649,
+        "effect": 0.00028003102338754974,
+        "sign_consistency": 0.4213197969543147
+      },
+      "T4d": {
+        "dsi_mean": 0.007148945803825566,
+        "effect": 0.0002783231811426965,
+        "sign_consistency": 0.4058651026392962
+      },
+      "T5a": {
+        "dsi_mean": -0.04068219701173703,
+        "effect": -0.0009873491983175971,
+        "sign_consistency": 0.1383495145631068
+      },
+      "T5b": {
+        "dsi_mean": 0.03219215476980881,
+        "effect": 0.0011335757078820552,
+        "sign_consistency": 0.5038078500292912
+      },
+      "T5c": {
+        "dsi_mean": 0.022473767890825915,
+        "effect": 0.0005782518745724427,
+        "sign_consistency": 0.3691588785046729
+      },
+      "T5d": {
+        "dsi_mean": -0.012059129565435587,
+        "effect": -0.0001319890886082925,
+        "sign_consistency": 0.3203463203463203
+      }
+    }
+  },
+  "M3|tf1.0|ts3.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 1.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.023775531078612702,
+    "min_sign": 0.30339805825242716,
+    "mean_sign": 0.43556703369194283,
+    "dynamic": 0.0026418916806502475,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.0026418916806502475,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.0122008539594626,
+        "effect": 3.9246783174936886e-05,
+        "sign_consistency": 0.39880952380952384
+      },
+      "T4b": {
+        "dsi_mean": 0.025900847481080125,
+        "effect": 6.649589473359173e-05,
+        "sign_consistency": 0.4700652045050385
+      },
+      "T4c": {
+        "dsi_mean": 0.01149703933898895,
+        "effect": 6.275108132653089e-05,
+        "sign_consistency": 0.4416243654822335
+      },
+      "T4d": {
+        "dsi_mean": 0.014125853836195862,
+        "effect": 6.038258582991079e-05,
+        "sign_consistency": 0.41818181818181815
+      },
+      "T5a": {
+        "dsi_mean": -0.035938940838142454,
+        "effect": -0.000116893266512004,
+        "sign_consistency": 0.30339805825242716
+      },
+      "T5b": {
+        "dsi_mean": 0.05059015326784231,
+        "effect": 0.0005194688241156628,
+        "sign_consistency": 0.5547744581136497
+      },
+      "T5c": {
+        "dsi_mean": 0.03993484904406199,
+        "effect": 0.00038753971600624903,
+        "sign_consistency": 0.4783878504672897
+      },
+      "T5d": {
+        "dsi_mean": -1.571086312731735e-05,
+        "effect": 0.00016716162169826693,
+        "sign_consistency": 0.41929499072356213
+      }
+    }
+  },
+  "M1|tf1.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 1.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.02828149241134869,
+    "min_sign": 0.2633495145631068,
+    "mean_sign": 0.4164673635618097,
+    "dynamic": 0.015724698574795058,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.015724698574795058,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.0170283417424355,
+        "effect": 6.440619360815859e-05,
+        "sign_consistency": 0.3375
+      },
+      "T4b": {
+        "dsi_mean": 0.03822720026959651,
+        "effect": 0.0012845989602799977,
+        "sign_consistency": 0.4848844101956135
+      },
+      "T4c": {
+        "dsi_mean": 0.023871716090488333,
+        "effect": 0.000989251760094675,
+        "sign_consistency": 0.43147208121827413
+      },
+      "T4d": {
+        "dsi_mean": 0.004998297176340109,
+        "effect": 0.0008295949486041196,
+        "sign_consistency": 0.3964809384164223
+      },
+      "T5a": {
+        "dsi_mean": -0.04620493064096108,
+        "effect": -0.0008571042178957218,
+        "sign_consistency": 0.2633495145631068
+      },
+      "T5b": {
+        "dsi_mean": 0.051809509587221705,
+        "effect": 0.0021166877814129317,
+        "sign_consistency": 0.562390158172232
+      },
+      "T5c": {
+        "dsi_mean": 0.03716486295194501,
+        "effect": 0.0012624237559418592,
+        "sign_consistency": 0.4462616822429907
+      },
+      "T5d": {
+        "dsi_mean": -0.006947080831801268,
+        "effect": 0.0003771093876320949,
+        "sign_consistency": 0.40940012368583795
+      }
+    }
+  },
+  "M2|tf1.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 1.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.023819732950105935,
+    "min_sign": 0.1316747572815534,
+    "mean_sign": 0.3828638742934263,
+    "dynamic": 0.014286125754466836,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.014286125754466836,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.011664959957453194,
+        "effect": 0.000245957732261173,
+        "sign_consistency": 0.3904761904761905
+      },
+      "T4b": {
+        "dsi_mean": 0.013908519153877473,
+        "effect": 0.0003920768760484449,
+        "sign_consistency": 0.46176644931831656
+      },
+      "T4c": {
+        "dsi_mean": 0.007839922543509162,
+        "effect": 0.00034029197861179186,
+        "sign_consistency": 0.4275239706711788
+      },
+      "T4d": {
+        "dsi_mean": 0.009447072613464285,
+        "effect": 0.0003617119842939552,
+        "sign_consistency": 0.41700879765395893
+      },
+      "T5a": {
+        "dsi_mean": -0.05446871668043369,
+        "effect": -0.0014357057534234907,
+        "sign_consistency": 0.1316747572815534
+      },
+      "T5b": {
+        "dsi_mean": 0.04606024380038099,
+        "effect": 0.001704975172094866,
+        "sign_consistency": 0.5225541886350322
+      },
+      "T5c": {
+        "dsi_mean": 0.0315050314092852,
+        "effect": 0.0008720211997010079,
+        "sign_consistency": 0.3773364485981308
+      },
+      "T5d": {
+        "dsi_mean": -0.015663397442443487,
+        "effect": -0.0001631908243170777,
+        "sign_consistency": 0.33457019171304886
+      }
+    }
+  },
+  "M3|tf1.0|ts5.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 1.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.030340485130660847,
+    "min_sign": 0.2967233009708738,
+    "mean_sign": 0.43748376008144807,
+    "dynamic": 0.0023826313813903773,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.0023826313813903773,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.018485544832427123,
+        "effect": 7.098146785458884e-05,
+        "sign_consistency": 0.4226190476190476
+      },
+      "T4b": {
+        "dsi_mean": 0.021686011424773673,
+        "effect": 7.11353860511514e-05,
+        "sign_consistency": 0.46295198577356256
+      },
+      "T4c": {
+        "dsi_mean": 0.012113207828022535,
+        "effect": 7.53884600878961e-05,
+        "sign_consistency": 0.43936830231246476
+      },
+      "T4d": {
+        "dsi_mean": 0.016931720567683883,
+        "effect": 7.4912769911243e-05,
+        "sign_consistency": 0.42756598240469207
+      },
+      "T5a": {
+        "dsi_mean": -0.044798109413807186,
+        "effect": -0.00016889856103268676,
+        "sign_consistency": 0.2967233009708738
+      },
+      "T5b": {
+        "dsi_mean": 0.07093967549264303,
+        "effect": 0.0007171890584994136,
+        "sign_consistency": 0.5565319273579379
+      },
+      "T5c": {
+        "dsi_mean": 0.05501322410770935,
+        "effect": 0.000525437952121295,
+        "sign_consistency": 0.4760514018691589
+      },
+      "T5d": {
+        "dsi_mean": 0.002756387378219988,
+        "effect": 0.00022458637698146274,
+        "sign_consistency": 0.41805813234384664
+      }
+    }
+  },
+  "M1|tf1.0|ts8.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 1.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.03518725045402608,
+    "min_sign": 0.2536407766990291,
+    "mean_sign": 0.41433830132210736,
+    "dynamic": 0.015082370610869091,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.015082370610869091,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.01879596283618026,
+        "effect": 5.137737537159269e-05,
+        "sign_consistency": 0.3351190476190476
+      },
+      "T4b": {
+        "dsi_mean": 0.04619958372886185,
+        "effect": 0.0015932310256370858,
+        "sign_consistency": 0.4819205690574985
+      },
+      "T4c": {
+        "dsi_mean": 0.030051142829549456,
+        "effect": 0.0012274868601942562,
+        "sign_consistency": 0.43090806542583193
+      },
+      "T4d": {
+        "dsi_mean": 0.006810387638468246,
+        "effect": 0.001034695051895866,
+        "sign_consistency": 0.39530791788856307
+      },
+      "T5a": {
+        "dsi_mean": -0.0569563601666023,
+        "effect": -0.001186831628648459,
+        "sign_consistency": 0.2536407766990291
+      },
+      "T5b": {
+        "dsi_mean": 0.06798075395774071,
+        "effect": 0.0028134730658138174,
+        "sign_consistency": 0.5618043350908026
+      },
+      "T5c": {
+        "dsi_mean": 0.04744544517468367,
+        "effect": 0.001628733594968424,
+        "sign_consistency": 0.45093457943925236
+      },
+      "T5d": {
+        "dsi_mean": -0.007258367300122101,
+        "effect": 0.00047998394781801864,
+        "sign_consistency": 0.40507111935683365
+      }
+    }
+  },
+  "M2|tf1.0|ts8.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 1.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.029717999954366345,
+    "min_sign": 0.11286407766990292,
+    "mean_sign": 0.3804077852458182,
+    "dynamic": 0.014054692030193456,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.014054692030193456,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.01501853196280587,
+        "effect": 0.0003643286327163447,
+        "sign_consistency": 0.4035714285714286
+      },
+      "T4b": {
+        "dsi_mean": 0.01239736248581685,
+        "effect": 0.00039032656360264137,
+        "sign_consistency": 0.44813278008298757
+      },
+      "T4c": {
+        "dsi_mean": 0.007889160438877135,
+        "effect": 0.0003729751325673349,
+        "sign_consistency": 0.4179357021996616
+      },
+      "T4d": {
+        "dsi_mean": 0.010386874383100089,
+        "effect": 0.00041318409341058193,
+        "sign_consistency": 0.42346041055718475
+      },
+      "T5a": {
+        "dsi_mean": -0.06929685434777276,
+        "effect": -0.0020147696943831526,
+        "sign_consistency": 0.11286407766990292
+      },
+      "T5b": {
+        "dsi_mean": 0.06247748741212835,
+        "effect": 0.0024431582891020214,
+        "sign_consistency": 0.5407147041593439
+      },
+      "T5c": {
+        "dsi_mean": 0.04149784263205688,
+        "effect": 0.0012347311108713047,
+        "sign_consistency": 0.375
+      },
+      "T5d": {
+        "dsi_mean": -0.018779885972372817,
+        "effect": -0.0001937690439250305,
+        "sign_consistency": 0.32158317872603587
+      }
+    }
+  },
+  "M3|tf1.0|ts8.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 1.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.03608914305558422,
+    "min_sign": 0.28519417475728154,
+    "mean_sign": 0.4326161579035753,
+    "dynamic": 0.0021326804773304404,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.0021326804773304404,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.023392459371226016,
+        "effect": 9.724470632443968e-05,
+        "sign_consistency": 0.43154761904761907
+      },
+      "T4b": {
+        "dsi_mean": 0.017866267777229914,
+        "effect": 6.756183316741237e-05,
+        "sign_consistency": 0.4451689389448725
+      },
+      "T4c": {
+        "dsi_mean": 0.012040281818080274,
+        "effect": 7.950913231467997e-05,
+        "sign_consistency": 0.4235758601240835
+      },
+      "T4d": {
+        "dsi_mean": 0.01766824480783985,
+        "effect": 8.179009527550866e-05,
+        "sign_consistency": 0.4281524926686217
+      },
+      "T5a": {
+        "dsi_mean": -0.056463868191630816,
+        "effect": -0.00027212793354350665,
+        "sign_consistency": 0.28519417475728154
+      },
+      "T5b": {
+        "dsi_mean": 0.09053292531155008,
+        "effect": 0.0008812115855373192,
+        "sign_consistency": 0.5618043350908026
+      },
+      "T5c": {
+        "dsi_mean": 0.06758840342034088,
+        "effect": 0.0006148101172568775,
+        "sign_consistency": 0.47546728971962615
+      },
+      "T5d": {
+        "dsi_mean": 0.003160693746775909,
+        "effect": 0.00022905494532743698,
+        "sign_consistency": 0.4100185528756957
+      }
+    }
+  },
+  "M1|tf2.0|ts3.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 2.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.031680386781693534,
+    "min_sign": 0.23300970873786409,
+    "mean_sign": 0.3949386798506256,
+    "dynamic": 0.01596561301755069,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.01596561301755069,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.0363838107084018,
+        "effect": -0.0006707501099238546,
+        "sign_consistency": 0.28214285714285714
+      },
+      "T4b": {
+        "dsi_mean": 0.03967080142000692,
+        "effect": 0.0010101838792013584,
+        "sign_consistency": 0.47895672791938354
+      },
+      "T4c": {
+        "dsi_mean": 0.01958771639527563,
+        "effect": 0.000582494636203451,
+        "sign_consistency": 0.41455160744500846
+      },
+      "T4d": {
+        "dsi_mean": -0.005905565153704494,
+        "effect": 0.0003450797413528772,
+        "sign_consistency": 0.3782991202346041
+      },
+      "T5a": {
+        "dsi_mean": -0.05503834939299685,
+        "effect": -0.0013842487781339833,
+        "sign_consistency": 0.23300970873786409
+      },
+      "T5b": {
+        "dsi_mean": 0.04810462925279006,
+        "effect": 0.0017824248262513997,
+        "sign_consistency": 0.546572934973638
+      },
+      "T5c": {
+        "dsi_mean": 0.034567093484602414,
+        "effect": 0.0009507572197461565,
+        "sign_consistency": 0.4357476635514019
+      },
+      "T5d": {
+        "dsi_mean": -0.014185128445770134,
+        "effect": -0.00010343524001704414,
+        "sign_consistency": 0.39022881880024735
+      }
+    }
+  },
+  "M2|tf2.0|ts3.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 2.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.027029456939627168,
+    "min_sign": 0.1328883495145631,
+    "mean_sign": 0.35538450891101725,
+    "dynamic": 0.014057656912013574,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.014057656912013574,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.021604163095597047,
+        "effect": -0.00033607566626355016,
+        "sign_consistency": 0.28273809523809523
+      },
+      "T4b": {
+        "dsi_mean": 0.033002218788960154,
+        "effect": 0.0005540644567412271,
+        "sign_consistency": 0.46176644931831656
+      },
+      "T4c": {
+        "dsi_mean": 0.012049473638179528,
+        "effect": 0.0003173034736690369,
+        "sign_consistency": 0.3942470389170897
+      },
+      "T4d": {
+        "dsi_mean": -0.0008884235115261072,
+        "effect": 0.0002187448471107771,
+        "sign_consistency": 0.37888563049853374
+      },
+      "T5a": {
+        "dsi_mean": -0.05562702219699033,
+        "effect": -0.001502667823489845,
+        "sign_consistency": 0.1328883495145631
+      },
+      "T5b": {
+        "dsi_mean": 0.04493885532087503,
+        "effect": 0.0016111922187917657,
+        "sign_consistency": 0.5014645577035736
+      },
+      "T5c": {
+        "dsi_mean": 0.03191899769137238,
+        "effect": 0.0007986166514478492,
+        "sign_consistency": 0.37383177570093457
+      },
+      "T5d": {
+        "dsi_mean": -0.01620650127351676,
+        "effect": -0.00024116196268328602,
+        "sign_consistency": 0.3172541743970315
+      }
+    }
+  },
+  "M3|tf2.0|ts3.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 2.0,
+      "tau_slow": 3.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.03308210642517221,
+    "min_sign": 0.2688106796116505,
+    "mean_sign": 0.40500880566660435,
+    "dynamic": 0.0024785057572486043,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.0024785057572486043,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.02719654412337036,
+        "effect": -5.02751774517263e-05,
+        "sign_consistency": 0.2982142857142857
+      },
+      "T4b": {
+        "dsi_mean": 0.042205383736898444,
+        "effect": 8.596538545029346e-05,
+        "sign_consistency": 0.46117368109069357
+      },
+      "T4c": {
+        "dsi_mean": 0.015485950990659038,
+        "effect": 5.066669162712917e-05,
+        "sign_consistency": 0.4077834179357022
+      },
+      "T4d": {
+        "dsi_mean": -0.000711460919311005,
+        "effect": 3.767997701512564e-05,
+        "sign_consistency": 0.3847507331378299
+      },
+      "T5a": {
+        "dsi_mean": -0.061269048299573296,
+        "effect": -0.0003579207306840022,
+        "sign_consistency": 0.2688106796116505
+      },
+      "T5b": {
+        "dsi_mean": 0.059449539318423165,
+        "effect": 0.000548102773227608,
+        "sign_consistency": 0.5553602811950791
+      },
+      "T5c": {
+        "dsi_mean": 0.044733947564814386,
+        "effect": 0.00035118911295102686,
+        "sign_consistency": 0.46261682242990654
+      },
+      "T5d": {
+        "dsi_mean": -0.013604976448327985,
+        "effect": 5.655701343573875e-06,
+        "sign_consistency": 0.4013605442176871
+      }
+    }
+  },
+  "M1|tf2.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 2.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.037605958052864576,
+    "min_sign": 0.2408980582524272,
+    "mean_sign": 0.4025886903995614,
+    "dynamic": 0.015500685490910573,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.015500685490910573,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.036068240904742,
+        "effect": -0.0005527668825833058,
+        "sign_consistency": 0.29642857142857143
+      },
+      "T4b": {
+        "dsi_mean": 0.04876129911081237,
+        "effect": 0.001421473683511561,
+        "sign_consistency": 0.48132780082987553
+      },
+      "T4c": {
+        "dsi_mean": 0.026963201857376284,
+        "effect": 0.0009299055762202147,
+        "sign_consistency": 0.419063733784546
+      },
+      "T4d": {
+        "dsi_mean": -0.0017620587258943537,
+        "effect": 0.0006580664308401642,
+        "sign_consistency": 0.38299120234604106
+      },
+      "T5a": {
+        "dsi_mean": -0.06451540842673434,
+        "effect": -0.00158240661571156,
+        "sign_consistency": 0.2408980582524272
+      },
+      "T5b": {
+        "dsi_mean": 0.06356421033099656,
+        "effect": 0.002497058224194119,
+        "sign_consistency": 0.5577035735207967
+      },
+      "T5c": {
+        "dsi_mean": 0.04517652287124959,
+        "effect": 0.0013811410449218724,
+        "sign_consistency": 0.4421728971962617
+      },
+      "T5d": {
+        "dsi_mean": -0.014036722195111146,
+        "effect": 8.590135514724912e-05,
+        "sign_consistency": 0.40012368583797153
+      }
+    }
+  },
+  "M2|tf2.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 2.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.030699115887863965,
+    "min_sign": 0.12439320388349515,
+    "mean_sign": 0.3635121765262448,
+    "dynamic": 0.01388249270219466,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.01388249270219466,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.012955083215916877,
+        "effect": -0.00016530613562004476,
+        "sign_consistency": 0.30238095238095236
+      },
+      "T4b": {
+        "dsi_mean": 0.029868308228818512,
+        "effect": 0.0006054512899784631,
+        "sign_consistency": 0.46650859513930054
+      },
+      "T4c": {
+        "dsi_mean": 0.012689162232955466,
+        "effect": 0.00039590697418117785,
+        "sign_consistency": 0.4021432600112803
+      },
+      "T4d": {
+        "dsi_mean": 0.0022542941458777864,
+        "effect": 0.0003243018761036568,
+        "sign_consistency": 0.3847507331378299
+      },
+      "T5a": {
+        "dsi_mean": -0.06897464611608896,
+        "effect": -0.0019510243785957385,
+        "sign_consistency": 0.12439320388349515
+      },
+      "T5b": {
+        "dsi_mean": 0.05855023455134193,
+        "effect": 0.0021825916830045763,
+        "sign_consistency": 0.5184534270650264
+      },
+      "T5c": {
+        "dsi_mean": 0.04060529483972352,
+        "effect": 0.0010923859765764145,
+        "sign_consistency": 0.3767523364485981
+      },
+      "T5d": {
+        "dsi_mean": -0.01969590377218866,
+        "effect": -0.00027236369839207135,
+        "sign_consistency": 0.3327149041434756
+      }
+    }
+  },
+  "M3|tf2.0|ts5.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 2.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.03727459013407311,
+    "min_sign": 0.2779126213592233,
+    "mean_sign": 0.4161079165074181,
+    "dynamic": 0.0022538127356320635,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.0022538127356320635,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.014297703030950586,
+        "effect": -1.4781608948593984e-05,
+        "sign_consistency": 0.33214285714285713
+      },
+      "T4b": {
+        "dsi_mean": 0.0405071217629347,
+        "effect": 9.541209128812153e-05,
+        "sign_consistency": 0.46828689982216953
+      },
+      "T4c": {
+        "dsi_mean": 0.017855835262995504,
+        "effect": 6.838050314146463e-05,
+        "sign_consistency": 0.4207557811618725
+      },
+      "T4d": {
+        "dsi_mean": 0.005604129170351134,
+        "effect": 5.666394594373719e-05,
+        "sign_consistency": 0.39413489736070384
+      },
+      "T5a": {
+        "dsi_mean": -0.06856860394498121,
+        "effect": -0.00038562191780186196,
+        "sign_consistency": 0.2779126213592233
+      },
+      "T5b": {
+        "dsi_mean": 0.08120997594880212,
+        "effect": 0.0007678041928990041,
+        "sign_consistency": 0.5577035735207967
+      },
+      "T5c": {
+        "dsi_mean": 0.06097826670540612,
+        "effect": 0.0005122353902048938,
+        "sign_consistency": 0.4672897196261682
+      },
+      "T5d": {
+        "dsi_mean": -0.009175085246163527,
+        "effect": 9.188490314230765e-05,
+        "sign_consistency": 0.4106369820655535
+      }
+    }
+  },
+  "M1|tf2.0|ts8.0|p1.0": {
+    "config": {
+      "name": "M1",
+      "tau_fast": 2.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.04413457943749902,
+    "min_sign": 0.23240291262135923,
+    "mean_sign": 0.40414565082814174,
+    "dynamic": 0.014909234438306603,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.014909234438306603,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.03652202472262317,
+        "effect": -0.0005232655699018146,
+        "sign_consistency": 0.3047619047619048
+      },
+      "T4b": {
+        "dsi_mean": 0.057433729766868384,
+        "effect": 0.0017851301577300061,
+        "sign_consistency": 0.4831061055127445
+      },
+      "T4c": {
+        "dsi_mean": 0.03403436945005223,
+        "effect": 0.0012205801606424535,
+        "sign_consistency": 0.4235758601240835
+      },
+      "T4d": {
+        "dsi_mean": 0.0011228516028841213,
+        "effect": 0.0009122162251718399,
+        "sign_consistency": 0.3812316715542522
+      },
+      "T5a": {
+        "dsi_mean": -0.07461692085665171,
+        "effect": -0.0018944514362905585,
+        "sign_consistency": 0.23240291262135923
+      },
+      "T5b": {
+        "dsi_mean": 0.08001558284453231,
+        "effect": 0.003245060550889038,
+        "sign_consistency": 0.5618043350908026
+      },
+      "T5c": {
+        "dsi_mean": 0.05555332834990101,
+        "effect": 0.001787259095205037,
+        "sign_consistency": 0.4480140186915888
+      },
+      "T5d": {
+        "dsi_mean": -0.01377782790647923,
+        "effect": 0.00022544015411125065,
+        "sign_consistency": 0.39826839826839827
+      }
+    }
+  },
+  "M2|tf2.0|ts8.0|p1.0": {
+    "config": {
+      "name": "M2",
+      "tau_fast": 2.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": true,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.03534990384103878,
+    "min_sign": 0.10861650485436893,
+    "mean_sign": 0.36693314766135976,
+    "dynamic": 0.013674688565243643,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.013674688565243643,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.007472581434504692,
+        "effect": -2.329370660902697e-05,
+        "sign_consistency": 0.32083333333333336
+      },
+      "T4b": {
+        "dsi_mean": 0.027544803824639977,
+        "effect": 0.0006169768180954672,
+        "sign_consistency": 0.46947243627741553
+      },
+      "T4c": {
+        "dsi_mean": 0.01349838471215682,
+        "effect": 0.00044337745445068277,
+        "sign_consistency": 0.41455160744500846
+      },
+      "T4d": {
+        "dsi_mean": 0.0036921875011378244,
+        "effect": 0.0003931052072523284,
+        "sign_consistency": 0.39002932551319647
+      },
+      "T5a": {
+        "dsi_mean": -0.08328339000362708,
+        "effect": -0.0025300883195554006,
+        "sign_consistency": 0.10861650485436893
+      },
+      "T5b": {
+        "dsi_mean": 0.07458964430306946,
+        "effect": 0.0029207748000117315,
+        "sign_consistency": 0.5371997656707674
+      },
+      "T5c": {
+        "dsi_mean": 0.050080246836535336,
+        "effect": 0.0014550958877467119,
+        "sign_consistency": 0.3744158878504673
+      },
+      "T5d": {
+        "dsi_mean": -0.022637992112639102,
+        "effect": -0.0003029419180000239,
+        "sign_consistency": 0.3203463203463203
+      }
+    }
+  },
+  "M3|tf2.0|ts8.0|p2.0": {
+    "config": {
+      "name": "M3",
+      "tau_fast": 2.0,
+      "tau_slow": 8.0,
+      "rectify_inputs": true,
+      "output_exponent": 2.0,
+      "temporal": true,
+      "correlator": false
+    },
+    "mean_abs_dsi": 0.04126626826937958,
+    "min_sign": 0.27063106796116504,
+    "mean_sign": 0.42211758323210224,
+    "dynamic": 0.002023716986504463,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 0.002023716986504463,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": -0.00662494656808155,
+        "effect": 1.4737063051486117e-05,
+        "sign_consistency": 0.35892857142857143
+      },
+      "T4b": {
+        "dsi_mean": 0.03569289370863053,
+        "effect": 9.605733688694272e-05,
+        "sign_consistency": 0.46947243627741553
+      },
+      "T4c": {
+        "dsi_mean": 0.017593990394407167,
+        "effect": 7.700439851361002e-05,
+        "sign_consistency": 0.43485617597292725
+      },
+      "T4d": {
+        "dsi_mean": 0.007700177981064874,
+        "effect": 6.731363524092659e-05,
+        "sign_consistency": 0.4046920821114369
+      },
+      "T5a": {
+        "dsi_mean": -0.07857429083283018,
+        "effect": -0.0004635718599601596,
+        "sign_consistency": 0.27063106796116504
+      },
+      "T5b": {
+        "dsi_mean": 0.10235566355575154,
+        "effect": 0.0009545012720334788,
+        "sign_consistency": 0.5629759812536614
+      },
+      "T5c": {
+        "dsi_mean": 0.0747780420826697,
+        "effect": 0.0006256178411459787,
+        "sign_consistency": 0.46845794392523366
+      },
+      "T5d": {
+        "dsi_mean": -0.006810141031601155,
+        "effect": 0.00012626287213741828,
+        "sign_consistency": 0.4069264069264069
+      }
+    }
+  },
+  "M_HR|tf1.0|ts5.0|p1.0": {
+    "config": {
+      "name": "M_HR",
+      "tau_fast": 1.0,
+      "tau_slow": 5.0,
+      "rectify_inputs": false,
+      "output_exponent": 1.0,
+      "temporal": true,
+      "correlator": true
+    },
+    "mean_abs_dsi": 0.38785518205205566,
+    "min_sign": 0.4608009024252679,
+    "mean_sign": 0.48070375668982057,
+    "dynamic": 1.5196999699247237e-05,
+    "frozen": 0.0,
+    "dynamic_vs_frozen": 1.5196999699247237e-05,
+    "per_subtype": {
+      "T4a": {
+        "dsi_mean": 0.3683674366934891,
+        "effect": 3.637421297181158e-05,
+        "sign_consistency": 0.4738095238095238
+      },
+      "T4b": {
+        "dsi_mean": 0.3537428959015326,
+        "effect": 3.346219916945992e-05,
+        "sign_consistency": 0.47895672791938354
+      },
+      "T4c": {
+        "dsi_mean": 0.3396898690175925,
+        "effect": 3.550242609430248e-05,
+        "sign_consistency": 0.4608009024252679
+      },
+      "T4d": {
+        "dsi_mean": 0.3622868343758427,
+        "effect": 3.724652480980757e-05,
+        "sign_consistency": 0.4656891495601173
+      },
+      "T5a": {
+        "dsi_mean": 0.3999221183180627,
+        "effect": 2.0188612454904108e-05,
+        "sign_consistency": 0.47390776699029125
+      },
+      "T5b": {
+        "dsi_mean": 0.4310955851282091,
+        "effect": 2.3508485401872304e-05,
+        "sign_consistency": 0.5032220269478618
+      },
+      "T5c": {
+        "dsi_mean": 0.38925025919109557,
+        "effect": 2.0354090595521596e-05,
+        "sign_consistency": 0.4672897196261682
+      },
+      "T5d": {
+        "dsi_mean": 0.458486457790621,
+        "effect": 2.8478207176985813e-05,
+        "sign_consistency": 0.5219542362399505
+      }
+    }
+  }
+}
