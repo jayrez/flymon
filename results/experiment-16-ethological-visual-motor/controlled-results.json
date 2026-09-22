@@ -1,0 +1,127 @@
+{
+  "held_out_mean_rate": {
+    "R1_6": {
+      "gray": 23.58429079064258,
+      "dark": 12.850325732899023,
+      "on_left": 30.23865857269766,
+      "off_left": 67.71693811074918,
+      "off_right": 67.3708765176192,
+      "loom_dark": 55.017663606751555,
+      "recede_dark": 56.69021320698846,
+      "flow_expand": 68.86316257032868
+    },
+    "lamina": {
+      "gray": 0.881712116952488,
+      "dark": 1.071035985380939,
+      "on_left": 1.001314309811639,
+      "off_left": 0.8314028675850436,
+      "off_right": 0.8309038515603036,
+      "loom_dark": 0.8730390778746134,
+      "recede_dark": 0.8716333989316839,
+      "flow_expand": 0.8408630868709587
+    },
+    "T4a_L": {
+      "gray": 2.2952095808383235,
+      "dark": 2.1867065868263476,
+      "on_left": 2.2338922155688623,
+      "off_left": 2.3319161676646707,
+      "off_right": 2.3195209580838325,
+      "loom_dark": 2.27497005988024,
+      "recede_dark": 2.304550898203593,
+      "flow_expand": 2.319700598802395
+    },
+    "T4b_L": {
+      "gray": 2.2589454976303314,
+      "dark": 2.1549763033175355,
+      "on_left": 2.1950829383886257,
+      "off_left": 2.298637440758294,
+      "off_right": 2.3008293838862555,
+      "loom_dark": 2.2569905213270145,
+      "recede_dark": 2.2861374407582935,
+      "flow_expand": 2.2962085308056865
+    },
+    "T5a_L": {
+      "gray": 1.9588377723970947,
+      "dark": 2.0215496368038743,
+      "on_left": 1.992009685230024,
+      "off_left": 1.917554479418886,
+      "off_right": 1.9407990314769976,
+      "loom_dark": 1.981416464891041,
+      "recede_dark": 1.9748184019370463,
+      "flow_expand": 1.9311138014527844
+    },
+    "T5b_L": {
+      "gray": 2.1020278099652376,
+      "dark": 2.22728852838934,
+      "on_left": 2.155619930475087,
+      "off_left": 2.075028968713789,
+      "off_right": 2.085573580533024,
+      "loom_dark": 2.14577056778679,
+      "recede_dark": 2.131517960602549,
+      "flow_expand": 2.0790266512166857
+    },
+    "LPLC2_R": {
+      "gray": 2.991758241758242,
+      "dark": 3.0428571428571427,
+      "on_left": 3.008241758241758,
+      "off_left": 2.971978021978022,
+      "off_right": 2.9763736263736265,
+      "loom_dark": 2.9510989010989013,
+      "recede_dark": 2.9598901098901105,
+      "flow_expand": 2.976923076923077
+    },
+    "VS": {
+      "gray": 3.6867647058823523,
+      "dark": 3.788235294117647,
+      "on_left": 3.6926470588235296,
+      "off_left": 3.6647058823529415,
+      "off_right": 3.6941176470588237,
+      "loom_dark": 3.6794117647058826,
+      "recede_dark": 3.7470588235294118,
+      "flow_expand": 3.642647058823529
+    },
+    "DNp01_R": {
+      "gray": 0.15,
+      "dark": 0.15,
+      "on_left": 0.1,
+      "off_left": 0.2,
+      "off_right": 0.2,
+      "loom_dark": 0.15,
+      "recede_dark": 0.2,
+      "flow_expand": 0.1
+    },
+    "DNg13_R": {
+      "gray": 4.3,
+      "dark": 4.4,
+      "on_left": 4.4,
+      "off_left": 4.65,
+      "off_right": 4.65,
+      "loom_dark": 4.25,
+      "recede_dark": 4.5,
+      "flow_expand": 4.3
+    }
+  },
+  "gate_status": {
+    "gate_a_pass": false,
+    "primary_endpoint_pass": false,
+    "criterion": "T4/T5 direction selectivity, or change response >= 0.25 of frozen baseline",
+    "t4t5_direction_selective_significant": false,
+    "t4t5_motion_change_any_significant": true,
+    "t4t5_motion_change_meaningful": false,
+    "max_t4t5_motion_relative_effect": 0.06273885909495036,
+    "max_t4t5_abs_dsi": 0.012036857411616366,
+    "retina_r16_motion_significant": true,
+    "primary": {
+      "name": "T5 horizontal OFF direction selectivity (held-out)",
+      "mean": 0.0049883161578583995,
+      "permutation_p": 0.7951204879512048,
+      "sign_consistency": 0.55,
+      "boot95": [
+        -0.030334148471498436,
+        0.0420075356950315
+      ]
+    },
+    "decision": "stop_at_gate_a",
+    "category": "A"
+  }
+}

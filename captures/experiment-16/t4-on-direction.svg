@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="310">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp16 T4 ON direction-selectivity index (held-out)</text>
+<line x1="376.7" y1="40" x2="376.7" y2="295" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="240" y="63" text-anchor="end" font-size="12">T4a_L</text>
+<rect x="329.1" y="48" width="47.6" height="20" fill="#275e85"/>
+<text x="770" y="63" font-size="12" text-anchor="end">-0.001</text>
+<text x="240" y="93" text-anchor="end" font-size="12">T4a_R</text>
+<rect x="376.7" y="78" width="54.5" height="20" fill="#275e85"/>
+<text x="770" y="93" font-size="12" text-anchor="end">0.001</text>
+<text x="240" y="123" text-anchor="end" font-size="12">T4b_L</text>
+<rect x="376.7" y="108" width="78.7" height="20" fill="#275e85"/>
+<text x="770" y="123" font-size="12" text-anchor="end">0.001</text>
+<text x="240" y="153" text-anchor="end" font-size="12">T4b_R</text>
+<rect x="376.7" y="138" width="353.3" height="20" fill="#275e85"/>
+<text x="770" y="153" font-size="12" text-anchor="end">0.006</text>
+<text x="240" y="183" text-anchor="end" font-size="12">T4c_L</text>
+<rect x="354.4" y="168" width="22.3" height="20" fill="#275e85"/>
+<text x="770" y="183" font-size="12" text-anchor="end">-0.000</text>
+<text x="240" y="213" text-anchor="end" font-size="12">T4c_R</text>
+<rect x="376.7" y="198" width="319.6" height="20" fill="#275e85"/>
+<text x="770" y="213" font-size="12" text-anchor="end">0.006</text>
+<text x="240" y="243" text-anchor="end" font-size="12">T4d_L</text>
+<rect x="250.0" y="228" width="126.7" height="20" fill="#275e85"/>
+<text x="770" y="243" font-size="12" text-anchor="end">-0.002</text>
+<text x="240" y="273" text-anchor="end" font-size="12">T4d_R</text>
+<rect x="376.7" y="258" width="185.6" height="20" fill="#275e85"/>
+<text x="770" y="273" font-size="12" text-anchor="end">0.003</text>
+</svg>

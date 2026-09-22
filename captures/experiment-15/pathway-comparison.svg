@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Experiment 15 — biological vs engineered DN pathways</text>
+<text x="205" y="63" text-anchor="end" font-size="12">bio all-DN</text>
+<rect x="215" y="48" width="110.8" height="20" fill="#275e85"/>
+<text x="695" y="63" font-size="12">0.206</text>
+<text x="205" y="93" text-anchor="end" font-size="12">bio anat (nested)</text>
+<rect x="215" y="78" width="118.3" height="20" fill="#275e85"/>
+<text x="695" y="93" font-size="12">0.220</text>
+<text x="205" y="123" text-anchor="end" font-size="12">bio P20</text>
+<rect x="215" y="108" width="101.6" height="20" fill="#275e85"/>
+<text x="695" y="123" font-size="12">0.189</text>
+<text x="205" y="153" text-anchor="end" font-size="12">bio nested-sel</text>
+<rect x="215" y="138" width="105.8" height="20" fill="#275e85"/>
+<text x="695" y="153" font-size="12">0.197</text>
+<text x="205" y="183" text-anchor="end" font-size="12">eng all-DN</text>
+<rect x="215" y="168" width="341.6" height="20" fill="#275e85"/>
+<text x="695" y="183" font-size="12">0.636</text>
+<text x="205" y="213" text-anchor="end" font-size="12">eng P20</text>
+<rect x="215" y="198" width="470.0" height="20" fill="#275e85"/>
+<text x="695" y="213" font-size="12">0.875</text>
+<text x="205" y="243" text-anchor="end" font-size="12">eng nested</text>
+<rect x="215" y="228" width="463.3" height="20" fill="#275e85"/>
+<text x="695" y="243" font-size="12">0.863</text>
+<line x1="322.4" y1="40" x2="322.4" y2="265" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="322.4" y="38" font-size="10" fill="#c0392b" text-anchor="middle">chance</text>
+</svg>

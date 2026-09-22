@@ -78,6 +78,37 @@ def prepare_plan(x,plan):
     return [(PreparedFold.make(x,f),[PreparedFold.make(x,i) for i in f['inner']]) for f in plan]
 
 
+def nested_fixed_subsets(y,plan,prepared,subsets,order,shape,nclass=None):
+    """Nested selection of one *label-free* feature subset per outer fold.
+
+    subsets: {name: feature-index array}, each a fixed anatomically chosen subset.
+    order: subset names for deterministic tie-breaking (earlier name preferred).
+    For every outer fold the inner folds pick the subset with the highest pooled
+    inner-training accuracy; the chosen subset is then evaluated once on the outer
+    held-out instances/seeds. Test labels never influence the choice. `prepared`
+    is the prepare_plan(x, plan) output (label-independent), so this is cheap to
+    repeat under permuted y for a valid permutation null."""
+    nclass=len(np.unique(y)) if nclass is None else nclass
+    rank={n:i for i,n in enumerate(order)}
+    predictions=np.full(shape,-1,int);choices=[]
+    for f,(outer,inners) in zip(plan,prepared):
+        correct={n:0 for n in subsets};total=0
+        for inner in inners:
+            means,_=inner.fit(y,nclass);truth=inner.truth(y)
+            for n,idx in subsets.items():
+                pred=np.argmin(cdist(inner.test[:,idx],means[:,idx],'sqeuclidean'),axis=1)
+                correct[n]+=int((pred==truth).sum())
+            total+=len(truth)
+        chosen=min(subsets,key=lambda n:(-correct[n],rank[n]))
+        means,_=outer.fit(y,nclass);idx=subsets[chosen]
+        pred=np.argmin(cdist(outer.test[:,idx],means[:,idx],'sqeuclidean'),axis=1)
+        predictions[np.ix_(outer.test_i,outer.test_s)]=pred.reshape(len(outer.test_i),len(outer.test_s))
+        choices.append(dict(instance_block=f['instance_block'],seed_block=f['seed_block'],chosen=chosen,
+                            chosen_size=int(len(idx)),inner_accuracy={n:correct[n]/total for n in subsets}))
+    assert np.all(predictions>=0)
+    return predictions,choices
+
+
 def nested(x,y,plan,sizes=SIZES,prepared=None,details=True,frozen=None):
     nclass=len(np.unique(y));prepared=prepare_plan(x,plan) if prepared is None else prepared
     predictions=np.full(x.shape[:2],-1,int)

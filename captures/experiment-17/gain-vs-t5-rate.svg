@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="210">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp17 Gate 1: T5 firing rate vs retinal gain</text>
+<line x1="250.0" y1="40" x2="250.0" y2="198" stroke="#999"/>
+<text x="240" y="60" text-anchor="end" font-size="11">0.5x</text>
+<rect x="250.0" y="46" width="500.0" height="18" fill="#275e85"/>
+<text x="812" y="60" font-size="11" text-anchor="end">2.2162</text>
+<text x="240" y="88" text-anchor="end" font-size="11">1.0x</text>
+<rect x="250.0" y="74" width="496.1" height="18" fill="#275e85"/>
+<text x="812" y="88" font-size="11" text-anchor="end">2.1988</text>
+<text x="240" y="116" text-anchor="end" font-size="11">2.0x</text>
+<rect x="250.0" y="102" width="493.6" height="18" fill="#275e85"/>
+<text x="812" y="116" font-size="11" text-anchor="end">2.1878</text>
+<text x="240" y="144" text-anchor="end" font-size="11">4.0x</text>
+<rect x="250.0" y="130" width="495.1" height="18" fill="#275e85"/>
+<text x="812" y="144" font-size="11" text-anchor="end">2.1943</text>
+<text x="240" y="172" text-anchor="end" font-size="11">8.0x</text>
+<rect x="250.0" y="158" width="493.2" height="18" fill="#275e85"/>
+<text x="812" y="172" font-size="11" text-anchor="end">2.1862</text>
+</svg>

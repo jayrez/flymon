@@ -1,0 +1,76 @@
+{
+  "note": "per-step traces, mean over 5 calibration seeds; lag in brain steps, positive = excitatory arm leads the inhibitory arm",
+  "families": {
+    "exc_t4": [
+      "Mi1",
+      "Tm3"
+    ],
+    "exc_t5": [
+      "Tm1",
+      "Tm2",
+      "Tm4",
+      "Tm9"
+    ],
+    "inhibitory": [
+      "Mi9",
+      "Mi4",
+      "CT1"
+    ]
+  },
+  "traces": {
+    "reference|off_left": {
+      "peak_exc_t4": 106,
+      "peak_exc_t5": 18,
+      "peak_inh": 117,
+      "lag_exc_t4_vs_inh": -1,
+      "lag_exc_t5_vs_inh": -1,
+      "exc_t5_mean": 0.0044521749173068535,
+      "inh_mean": 0.017679670619654725
+    },
+    "reference|off_right": {
+      "peak_exc_t4": 107,
+      "peak_exc_t5": 133,
+      "peak_inh": 176,
+      "lag_exc_t4_vs_inh": -2,
+      "lag_exc_t5_vs_inh": -1,
+      "exc_t5_mean": 0.004460677893300155,
+      "inh_mean": 0.01885042327705889
+    },
+    "reference|off_left__frozen_first": {
+      "peak_exc_t4": 155,
+      "peak_exc_t5": 174,
+      "peak_inh": 99,
+      "lag_exc_t4_vs_inh": -2,
+      "lag_exc_t5_vs_inh": -2,
+      "exc_t5_mean": 0.0044703602510809135,
+      "inh_mean": 0.018233196197501033
+    },
+    "E_tonic_delay1|off_left": {
+      "peak_exc_t4": 6,
+      "peak_exc_t5": 6,
+      "peak_inh": 18,
+      "lag_exc_t4_vs_inh": -12,
+      "lag_exc_t5_vs_inh": -1,
+      "exc_t5_mean": 0.028446712974211072,
+      "inh_mean": 0.0513686230248307
+    },
+    "E_tonic_delay1|off_right": {
+      "peak_exc_t4": 6,
+      "peak_exc_t5": 6,
+      "peak_inh": 7,
+      "lag_exc_t4_vs_inh": -12,
+      "lag_exc_t5_vs_inh": -1,
+      "exc_t5_mean": 0.028414078937199896,
+      "inh_mean": 0.05150673205523585
+    },
+    "E_tonic_delay1|off_left__frozen_first": {
+      "peak_exc_t4": 6,
+      "peak_exc_t5": 6,
+      "peak_inh": 18,
+      "lag_exc_t4_vs_inh": -12,
+      "lag_exc_t5_vs_inh": -1,
+      "exc_t5_mean": 0.02978560472478401,
+      "inh_mean": 0.05185809917442957
+    }
+  }
+}

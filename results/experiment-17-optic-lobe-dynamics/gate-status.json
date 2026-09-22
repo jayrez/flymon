@@ -1,0 +1,27 @@
+{
+  "verdict": "FAIL",
+  "category": "E",
+  "stimulus_adequacy_supported": true,
+  "gain_restored_selectivity": false,
+  "dynamics_repair_passed": false,
+  "selected_config": "E_tonic_delay1",
+  "primary": {
+    "mean": -0.0013856128525213673,
+    "dsi": -0.00010664981006429397,
+    "permutation_p": 0.9497050294970503,
+    "sign_consistency": 0.5,
+    "boot95": [
+      -0.041345638278917025,
+      0.03963315678339688
+    ]
+  },
+  "reference_primary": {
+    "mean": 0.0016330200123910454,
+    "dsi": 0.00014368842604666095,
+    "permutation_p": 0.9304069593040696
+  },
+  "experiment16_max_abs_dsi": 0.012,
+  "repaired_max_abs_t5_dsi": 0.0018798983095221346,
+  "repaired_max_abs_t4_dsi": 0.015547924918168574,
+  "proceed_to_vp_check": false
+}

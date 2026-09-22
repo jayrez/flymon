@@ -1,35 +1,139 @@
 # Flymon project status
 
-Updated 18 September 2026. Flymon currently measures how visual information from Pokémon Red's framebuffer propagates through the real MaleCNS v1.0 FlyBrain simulation. It does not control the game. No reinforcement learning, rewards, action decoder, or Pokémon RAM sensory input has been added.
+Updated 21 September 2026. Flymon investigates whether Pokémon Red visual
+information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
+biologically derived behaviour. A frozen descending-neuron controller now exists
+and has been run in closed loop (Experiments 7–14), but the project remains a
+scientific probe, not reinforcement learning. No reward learning, imitation
+learning, action-reward decoder, Pokémon RAM sensory input, map coordinates, or
+scripted gameplay policy is used anywhere.
 
 ## Runtime and data
 
-- `flybrain` 0.1.0 runs MaleCNS v1.0 on the Tesla P40 through CUDA/CuPy. The connectome contains **166,700 neurons** and **25,582,938 connections**. The installed environment uses Python 3.12 and PyBoy 2.7.0.
-- The [P40 benchmark](redfly-benchmark/results/SUMMARY.md) measured **1.931 ms per step** for one brain, or **517.9 brain steps/s**. Batch 4 was comparable in aggregate throughput; larger batches slowed down. GPU memory capacity was not the practical limit in this API. The five-minute single-brain run showed no sustained slowdown or thermal throttling.
-- PyBoy runs headless, yields `(144, 160, 4)` RGBA frames, and supports scripted buttons. The [canonical bedroom state](states/bedroom.state) provides the verified bedroom starting frame. The Pokémon Red ROM is supplied externally through `POKEMON_ROM` and is excluded from Git.
+- `flybrain` 0.1.0 runs MaleCNS v1.0 on the Tesla P40 through CUDA/CuPy. The
+  connectome contains **166,700 neurons** and **25,582,938 connections**. The
+  environment is Python 3.12 with CuPy and PyBoy; the brain files (`brain.npz`,
+  `weights.npz`) live under `redfly-benchmark/data/`.
+- PyBoy runs headless, yields `(144, 160, 4)` RGBA frames, and supports scripted
+  buttons. The [canonical bedroom state](states/bedroom.state) is the verified
+  starting frame. The ROM is supplied externally via `POKEMON_ROM` and is
+  excluded from Git.
 
-## Visual experiments
+## Current system
 
-All experiments use five conceptual screens (Intro, Title, New Game menu, Oak dialogue, and Bedroom), a no-vision baseline, 12 matched seeds, and 200 MaleCNS steps per trial. The descending-neuron (DN) population is selected from MaleCNS metadata, with **1,314 DNs**. Each experiment's report describes its own controls and exact encoder.
+```
+Pokémon Red framebuffer → visual encoder → visual projection / photoreceptors
+   → MaleCNS v1.0 (166,700 neurons) → descending neurons → frozen readouts → Game Boy actions
+```
 
-| Experiment | Visual path or readout | Verdict | DN within | DN between | Between/within | Key finding |
-| --- | --- | --- | ---: | ---: | ---: | --- |
-| [1](results/experiment-01-photoreceptors/analysis.md) | Frame → 1-D panorama → 6,006 photoreceptors | FAIL | 178.8 | 168.4 | 0.942 | Raw receptor drive changes activity, but DN vectors do not separate screens beyond trial variation. |
-| [2](results/experiment-02-feature-detectors/analysis.md) | Static features → biological projection cells | WEAK | 163.5 | 167.8 | 1.026 | Four screens produced identical injections; Title accounted for most separation. |
-| [3](results/experiment-03-spatiotemporal/analysis.md) | 18×20 spatial grid and frame change → 460 LC10a/LPLC2 cells | WEAK | 177.0 | 169.3 | 0.957 | Five encoder sequences and projection responses differ. Some identity reaches DNs, but all-DN totals remain noisy. |
-| [4](results/experiment-04-temporal-dn/analysis.md) | Compare 200-step DN totals with temporal DN bins and DN subsets | FAIL for temporal-readout hypothesis | 177.0* | 169.3* | 0.957* | Temporal binning did not materially improve the all-DN classifier; a small DN subset carried strong screen information in aggregate counts. |
+A frozen controller maps DN activity to four scientifically defensible controls
+(LEFT/RIGHT/UP/A; DOWN disabled): LEFT/RIGHT = DNa02 baseline-relative steering
+(Exp 8), UP = DNg100 baseline-relative locomotion (Exp 9), A = frozen Experiment-4
+P20 RMS-z rising-edge event decoder (Exp 13). These mappings are frozen; Experiment
+15 did not change them.
 
-*Experiment 4 reuses Experiment 3's sensory conditions and aggregate DN measurements; these are the aggregate-control distances, not a new readout result.*
+## Experiment arc
 
-Experiment 3's **40.0%** five-screen nearest-centroid result (20% chance) already used leave-one-seed-out validation; Experiment 4 verified there was no seed leakage. Its all-DN aggregate classifier scored **40.0%**, while grouped, nested temporal-bin choice scored **41.7%**. Training-fold-selected DNs using **aggregate** counts scored **98.3% (59/60)** with a conservative permutation **p = 0.001**; selected temporal bins scored **90.0%**. The selected aggregate result remained **97.9%** on four non-Title screens. Static input performed as well as or better than the changing-frame condition on the strongest readouts. These are offline diagnostics on five fixed screen sequences, not evidence of game-playing ability or generalization to unseen frames.
+Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 
-The main current finding is that visual-state information reaches a small DN subpopulation, while population-wide stochastic activity masks it in simple distance and nearest-centroid analyses. Experiment 4 did **not** support the idea that 200-step aggregation was the main loss mechanism. The selected DN result needs independent validation on new seeds, new instances of each visual state, and more game states before it can guide any behavior work.
+| Exp | Question / path | Verdict |
+| --- | --- | --- |
+| 1–2 | Panorama photoreceptor / static feature drive → DNs | FAIL / WEAK |
+| 3 | 18×20 spatiotemporal → 460 LC10a/LPLC2 cells → DNs | WEAK (all-DN 40 %) |
+| 4 | Is temporal DN readout the missing piece? | FAIL for temporal hypothesis; **discovered** a selected-DN subset at 98.3 % (p=0.001) |
+| 5 | Inferred biological R1–R6 retina → optic lobe → DNs | FAIL at DN stage; loss localised downstream of the optic lobe (stage D) |
+| 6 | Does the selected-DN signal generalise to unseen image instances/seeds? | PASS (nested selected-DN 86.3 %), but largely luminance-statistic driven |
+| 7–10 | Closed-loop interface, steering, locomotion, exploration calibration | controller components validated |
+| 11–13 | Neural interaction interface; DNp01 and P20 A-channel event decoding | A channel validated as aggregate visual drive |
+| 14 | Can the frozen controller autonomously progress from `bedroom.state`? | PASS (Category D); visual drive affects behaviour, but dynamic feedback not shown to uniquely cause progression |
+| 15 | Can a connectivity-selected biological pathway carry five-way screen-family identity into DNs? | **FAIL** (for scene identity); collapse across T5 → visual-projection → DN |
+| 16 | Does the pathway preserve biological motion / optic-flow / looming features? | **FAIL** (Category A); T4/T5 do not reproduce direction selectivity — failure is optic-lobe dynamics, upstream of Exp-15's transfer |
+| 17 | Why does retinal motion input not become T4/T5 direction selectivity, and can dynamics repair it? | **FAIL** (Category E); stimuli and gain exonerated, signal flow restored, but the LIF architecture cannot compute motion |
 
-## Reproducing and navigating the work
+## Latest result (Experiment 15)
 
-- The [CUDA benchmark workspace](redfly-benchmark/README.md) contains its script and raw measurements.
-- Experiment code is in `run_visual_experiment.py`, `run_feature_experiment.py`, `run_spatiotemporal_experiment.py`, and `run_temporal_dn_experiment.py`; analysis scripts and trial data sit beside their corresponding reports under `results/`. Experiment 4 can replay the saved Experiment 3 injection vectors without the ROM.
-- For experiments that capture game frames, set `POKEMON_ROM` to a locally owned ROM path. Keep the ROM outside this repository. The optional `compose.gui.yml` also requires `POKEMON_ROM_DIR` to point to its host directory. `webtop-config/` contains local GUI runtime files and stays ignored.
-- The `captures/vision/`, `captures/experiment-02/`, `captures/experiment-03/`, and `captures/experiment-04/` directories contain the visual encoding checks and analysis plots. The exact replayed Experiment 4 DN bins are in `results/experiment-04-temporal-dn/dn-bins-5.npz`.
+Driving the Experiment-6 dataset through the biological Experiment-5 retina
+reproduces the degradation pattern on held-out image instances: R1–R6 97.0 %,
+lamina 96.4 %, T4 50.5 %, **T5 80.9 %**, visual-projection 28.9 %, all-DN 20.6 %
+(chance 20 %). A label-free connectome audit ranks DNs by a structural
+restart-diffusion visual-influence score; its top cells are the known looming/escape
+cluster (DNp01/03/04/11) and the strongest T5 targets are LPLC2/LPLC1/VS — but no
+connectivity-selected DN or visual-projection subset exceeds chance on **five-way
+screen-family identity** (properly nested anatomical endpoint 22.0 %, p = 0.096). The
+decisive control: the *same* 20 P20 neurons score **87.5 %** via the engineered
+LC10a/LPLC2 injection but **18.9 %** via the biological retina. Scene-family identity
+is thus not preserved through the biological optic-lobe cascade. DNg13 ranks
+486/1314 structurally and did not preserve screen-family identity here, but its
+steering / optic-flow role is untested. Experiment 15 tested only scene identity;
+whether motion / optic-flow / looming features survive is the Experiment-16 question.
+No closed-loop test was run.
 
-The next useful sensory validation is to repeat the training-fold DN-subset analysis on independently captured screen instances and new stochastic seeds, then measure whether those DNs still discriminate state changes over time. No game controller has been built.
+## Latest result (Experiment 16)
+
+Experiment 16 answered the Experiment-15 open question with ethological synthetic
+motion / looming / optic-flow stimuli through the same frozen retina (held-out CNS
+seeds 1121–1140, matched-seed permutation tests). The **retina (R1–R6) robustly
+encodes motion** (motion-vs-frozen change response +38 spikes for optic flow, +13 for
+OFF motion, p = 0.0001, sign-consistency 1.00), but **T4/T5 do not reproduce
+direction selectivity** (max |DSI| = 0.012; no subtype significant) and their
+change response is negligible (≤ 6 % of baseline). The preregistered primary endpoint
+(T5 OFF-motion direction selectivity) was null (0.005 spike, p = 0.80). **Gate A
+failed → Category A:** the current optic-lobe LIF dynamics do not compute motion, so
+the VP and DN transfer stages were not tested. This localises the Experiment-15
+collapse to the optic-lobe dynamics themselves (upstream of the T5 → VP → DN transfer)
+rather than to biologically appropriate feature compression. Recommended next step is
+**Experiment 17: dynamics / gain repair** (with a flyvis functional positive control),
+not closed-loop control. flyvis was not installed and was deliberately not forced.
+
+## Latest result (Experiment 17)
+
+Experiment 17 asked *why* Experiment 16 failed and whether a biologically constrained
+dynamics change could repair it, using the unchanged Experiment-16 stimuli, fresh
+calibration seeds 1201–1220 and held-out seeds 1221–1240.
+
+Three findings, in order of increasing importance:
+
+1. **The stimuli are fine.** A Hassenstein-Reichardt correlator on the *same* retina
+   samples gives **|DSI| = 1.0** with a clean sign flip, exactly 0 for gray and frozen
+   input, 76 % suppression under temporal shuffling, and sign reversal under time
+   reversal. (flyvis 1.2.0 installed in an isolated directory but its pretrained
+   weights were unobtainable, so it could not serve as the positive control.)
+2. **Gain is irrelevant.** Across 0.5×–8× retinal gain, R1–R6 firing rises 5×
+   (26 → 131) while T4/T5 firing does not move (2.3 / 2.2) and max |DSI| stays at
+   noise with no trend. **Gain hypothesis rejected.**
+3. **Signal flow was genuinely broken, and was genuinely repaired — without
+   restoring the computation.** Every R1–R6 → lamina weight in MaleCNS is inhibitory
+   (9,636 edges, negative fraction 1.000), so in a spiking model with no maintained
+   LMC depolarisation the lamina is pinned at its floor. Adding a tonic term raised
+   L1 12.6×, L2 41×, Tm2 11× and T5a 4.7×, and made the cascade stimulus-locked — yet
+   the held-out primary endpoint stayed null: T5 OFF preferred−null **−0.0014 spike,
+   DSI −0.00011, p = 0.950**, CI [−0.041, +0.040].
+
+**Verdict FAIL, Category E (no simple repair).** The excitatory and inhibitory arms
+show a −1 step lag for moving *and* frozen stimuli alike, i.e. no motion-dependent
+temporal structure. The underlying reason is architectural: a motion detector computes
+a *correlation*, while FlyBrain integrates a linear weighted sum of spikes and
+thresholds it, so delayed inhibition plus undelayed excitation yields a linear
+asymmetry, never a correlator. This explains Experiments 15 and 16 together — the
+optic lobe transmits luminance change but never computes motion, so nothing
+motion-specific can reach visual-projection or descending neurons. Experiment 18
+should **not** proceed to VP → DN transfer; it needs an architecturally different
+optic-lobe front end (graded photoreceptor/LMC transfer plus a nonlinear T4/T5
+interaction, or a flyvis-derived front end validated against the HR control).
+
+## Reproducing and navigating
+
+- Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
+  with trial data and reports beside each `results/experiment-NN-*/analysis.md`.
+- Experiment 15: `run_pathway_audit.py` (label-free connectivity),
+  `run_biological_pathway_experiment.py` (biological retina sweep),
+  `analyze_biological_pathway_experiment.py` (held-out analysis);
+  connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 17: `run_optic_dynamics_experiment.py` (audit/gain/calibrate/traces/heldout),
+  `run_positive_control.py`, `analyze_optic_dynamics_experiment.py`; opt-in dynamics
+  adapter in `flymon/optic_dynamics.py` (reference path bit-identical to stock FlyBrain).
+- Tests: `test_generalization.py`, `test_interface.py`, `test_progression.py`,
+  `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py` (CPU only;
+  `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
+- Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
+  repository.

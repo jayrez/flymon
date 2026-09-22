@@ -1,0 +1,40 @@
+{
+  "selected": "E_tonic_delay1",
+  "config": {
+    "name": "E_tonic_delay1",
+    "eye_gain_scale": 1.0,
+    "tonic_add": {
+      "L1": 0.12,
+      "L2": 0.12,
+      "L3": 0.12,
+      "L5": 0.12
+    },
+    "tau_scale": {},
+    "delay_steps": {
+      "Mi9": 1,
+      "Mi4": 1,
+      "CT1": 1
+    }
+  },
+  "chosen_lamina_tonic": 0.12,
+  "preferred_directions": {
+    "T4a_L": "on_right",
+    "T4a_R": "on_left",
+    "T4b_L": "on_right",
+    "T4b_R": "on_left",
+    "T4c_L": "on_down",
+    "T4c_R": "on_down",
+    "T4d_L": "on_down",
+    "T4d_R": "on_down",
+    "T5a_L": "off_left",
+    "T5a_R": "off_left",
+    "T5b_L": "off_left",
+    "T5b_R": "off_left",
+    "T5c_L": "off_down",
+    "T5c_R": "off_down",
+    "T5d_L": "off_down",
+    "T5d_R": "off_up"
+  },
+  "selection_rule": "max mean |DSI| over T5 horizontal subtypes on calibration seeds; ties by sign consistency; pathological configs excluded",
+  "calibration_objective": 0.004231739143781683
+}

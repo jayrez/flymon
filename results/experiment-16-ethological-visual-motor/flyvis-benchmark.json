@@ -1,0 +1,4 @@
+{
+  "run": false,
+  "reason": "flyvis not installed (ModuleNotFoundError); dependency deliberately not forced"
+}

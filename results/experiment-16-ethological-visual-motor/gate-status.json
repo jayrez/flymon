@@ -1,0 +1,23 @@
+{
+  "gate_a_pass": false,
+  "primary_endpoint_pass": false,
+  "criterion": "T4/T5 direction selectivity, or change response >= 0.25 of frozen baseline",
+  "t4t5_direction_selective_significant": false,
+  "t4t5_motion_change_any_significant": true,
+  "t4t5_motion_change_meaningful": false,
+  "max_t4t5_motion_relative_effect": 0.06273885909495036,
+  "max_t4t5_abs_dsi": 0.012036857411616366,
+  "retina_r16_motion_significant": true,
+  "primary": {
+    "name": "T5 horizontal OFF direction selectivity (held-out)",
+    "mean": 0.0049883161578583995,
+    "permutation_p": 0.7951204879512048,
+    "sign_consistency": 0.55,
+    "boot95": [
+      -0.030334148471498436,
+      0.0420075356950315
+    ]
+  },
+  "decision": "stop_at_gate_a",
+  "category": "A"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="130">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp16 DNp01 loom ordered/dynamic contrasts (held-out, EXPLORATORY)</text>
+<line x1="730.0" y1="40" x2="730.0" y2="115" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="240" y="63" text-anchor="end" font-size="12">dynamic_vs_frozen</text>
+<rect x="730.0" y="48" width="0.5" height="20" fill="#275e85"/>
+<text x="770" y="63" font-size="12" text-anchor="end">0.000</text>
+<text x="240" y="93" text-anchor="end" font-size="12">ordered_vs_shuffle</text>
+<rect x="250.0" y="78" width="480.0" height="20" fill="#275e85"/>
+<text x="770" y="93" font-size="12" text-anchor="end">-0.050</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="310">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp16 T5 OFF direction-selectivity index (held-out)</text>
+<line x1="394.8" y1="40" x2="394.8" y2="295" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="240" y="63" text-anchor="end" font-size="12">T5a_L</text>
+<rect x="394.8" y="48" width="178.6" height="20" fill="#275e85"/>
+<text x="770" y="63" font-size="12" text-anchor="end">0.006</text>
+<text x="240" y="93" text-anchor="end" font-size="12">T5a_R</text>
+<rect x="380.8" y="78" width="14.1" height="20" fill="#275e85"/>
+<text x="770" y="93" font-size="12" text-anchor="end">-0.001</text>
+<text x="240" y="123" text-anchor="end" font-size="12">T5b_L</text>
+<rect x="394.8" y="108" width="84.4" height="20" fill="#275e85"/>
+<text x="770" y="123" font-size="12" text-anchor="end">0.003</text>
+<text x="240" y="153" text-anchor="end" font-size="12">T5b_R</text>
+<rect x="250.0" y="138" width="144.8" height="20" fill="#275e85"/>
+<text x="770" y="153" font-size="12" text-anchor="end">-0.005</text>
+<text x="240" y="183" text-anchor="end" font-size="12">T5c_L</text>
+<rect x="394.8" y="168" width="10.2" height="20" fill="#275e85"/>
+<text x="770" y="183" font-size="12" text-anchor="end">0.000</text>
+<text x="240" y="213" text-anchor="end" font-size="12">T5c_R</text>
+<rect x="394.8" y="198" width="335.2" height="20" fill="#275e85"/>
+<text x="770" y="213" font-size="12" text-anchor="end">0.012</text>
+<text x="240" y="243" text-anchor="end" font-size="12">T5d_L</text>
+<rect x="345.0" y="228" width="49.8" height="20" fill="#275e85"/>
+<text x="770" y="243" font-size="12" text-anchor="end">-0.002</text>
+<text x="240" y="273" text-anchor="end" font-size="12">T5d_R</text>
+<rect x="394.8" y="258" width="318.3" height="20" fill="#275e85"/>
+<text x="770" y="273" font-size="12" text-anchor="end">0.011</text>
+</svg>

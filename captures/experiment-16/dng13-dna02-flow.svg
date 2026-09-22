@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="190">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp16 DNg13/DNa02 flow(right-left) asymmetry (held-out, EXPLORATORY)</text>
+<line x1="661.4" y1="40" x2="661.4" y2="175" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="240" y="63" text-anchor="end" font-size="12">DNg13_L</text>
+<rect x="592.9" y="48" width="68.6" height="20" fill="#275e85"/>
+<text x="770" y="63" font-size="12" text-anchor="end">-0.050</text>
+<text x="240" y="93" text-anchor="end" font-size="12">DNg13_R</text>
+<rect x="592.9" y="78" width="68.6" height="20" fill="#275e85"/>
+<text x="770" y="93" font-size="12" text-anchor="end">-0.050</text>
+<text x="240" y="123" text-anchor="end" font-size="12">DNa02_L</text>
+<rect x="250.0" y="108" width="411.4" height="20" fill="#275e85"/>
+<text x="770" y="123" font-size="12" text-anchor="end">-0.300</text>
+<text x="240" y="153" text-anchor="end" font-size="12">DNa02_R</text>
+<rect x="661.4" y="138" width="68.6" height="20" fill="#275e85"/>
+<text x="770" y="153" font-size="12" text-anchor="end">0.050</text>
+</svg>
