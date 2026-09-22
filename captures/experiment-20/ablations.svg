@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="252">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="24" font-size="15">Exp20 ablations (held-out mean DSI)</text>
+<line x1="330.0" y1="38" x2="330.0" y2="242" stroke="#999"/>
+<text x="322" y="55" text-anchor="end" font-size="11">selected (observed)</text>
+<rect x="330.0" y="42" width="470.0" height="16" fill="#275e85"/>
+<text x="912" y="55" font-size="11" text-anchor="end">+0.0246</text>
+<text x="322" y="81" text-anchor="end" font-size="11">temporal_flat</text>
+<rect x="330.0" y="68" width="180.3" height="16" fill="#275e85"/>
+<text x="912" y="81" font-size="11" text-anchor="end">+0.0094</text>
+<text x="322" y="107" text-anchor="end" font-size="11">coupling_removed</text>
+<rect x="330.0" y="94" width="45.9" height="16" fill="#275e85"/>
+<text x="912" y="107" font-size="11" text-anchor="end">+0.0024</text>
+<text x="322" y="133" text-anchor="end" font-size="11">sign_destroyed</text>
+<rect x="330.0" y="120" width="365.4" height="16" fill="#275e85"/>
+<text x="912" y="133" font-size="11" text-anchor="end">+0.0191</text>
+<text x="322" y="159" text-anchor="end" font-size="11">inhibition_neutralised</text>
+<rect x="330.0" y="146" width="439.9" height="16" fill="#275e85"/>
+<text x="912" y="159" font-size="11" text-anchor="end">+0.0230</text>
+<text x="322" y="185" text-anchor="end" font-size="11">arm_swapped</text>
+<rect x="330.0" y="172" width="460.6" height="16" fill="#275e85"/>
+<text x="912" y="185" font-size="11" text-anchor="end">+0.0241</text>
+<text x="322" y="211" text-anchor="end" font-size="11">geometry null mean</text>
+<rect x="330.0" y="198" width="276.1" height="16" fill="#275e85"/>
+<text x="912" y="211" font-size="11" text-anchor="end">+0.0144</text>
+</svg>

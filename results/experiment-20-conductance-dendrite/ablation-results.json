@@ -1,0 +1,214 @@
+{
+  "temporal_flat": {
+    "config": {
+      "model": "C2_TWOCOMP_NL",
+      "tau_fast": 4.0,
+      "tau_slow": 4.0,
+      "g_syn": 1.0,
+      "g_leak": 1.0,
+      "g_couple": 2.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "E_inh": -0.2,
+      "threshold": 0.08,
+      "c_mem": 1.0,
+      "swap_arms": false,
+      "magnitude_only": false,
+      "neutral_inhibition": false,
+      "readout": "A"
+    },
+    "summary": {
+      "mean_dsi": 0.009418518259351805,
+      "mean_abs_dsi": 0.06774900798567485,
+      "n_positive": 5,
+      "n_coherent": 2,
+      "mean_sign": 0.5268070870548733,
+      "min_dsi": -0.11503390611151194,
+      "t4_mean": 0.010059892825794458,
+      "t5_mean": 0.008777143692909151
+    }
+  },
+  "coupling_removed": {
+    "config": {
+      "model": "C2_TWOCOMP_NL",
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "g_syn": 1.0,
+      "g_leak": 1.0,
+      "g_couple": 0.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "E_inh": -0.2,
+      "threshold": 0.08,
+      "c_mem": 1.0,
+      "swap_arms": false,
+      "magnitude_only": false,
+      "neutral_inhibition": false,
+      "readout": "A"
+    },
+    "summary": {
+      "mean_dsi": 0.0023974411030144686,
+      "mean_abs_dsi": 0.04833652189283141,
+      "n_positive": 6,
+      "n_coherent": 2,
+      "mean_sign": 0.5224191398069,
+      "min_dsi": -0.0998833308825377,
+      "t4_mean": 0.0031108294530475767,
+      "t5_mean": 0.0016840527529813608
+    }
+  },
+  "sign_destroyed": {
+    "config": {
+      "model": "C2_TWOCOMP_NL",
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "g_syn": 1.0,
+      "g_leak": 1.0,
+      "g_couple": 2.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "E_inh": -0.2,
+      "threshold": 0.08,
+      "c_mem": 1.0,
+      "swap_arms": false,
+      "magnitude_only": true,
+      "neutral_inhibition": false,
+      "readout": "A"
+    },
+    "summary": {
+      "mean_dsi": 0.01908930286280376,
+      "mean_abs_dsi": 0.08980929411964819,
+      "n_positive": 5,
+      "n_coherent": 2,
+      "mean_sign": 0.531839986392763,
+      "min_dsi": -0.1360404615892197,
+      "t4_mean": 0.0017685488640239843,
+      "t5_mean": 0.03641005686158354
+    }
+  },
+  "inhibition_neutralised": {
+    "config": {
+      "model": "C2_TWOCOMP_NL",
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "g_syn": 1.0,
+      "g_leak": 1.0,
+      "g_couple": 2.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "E_inh": -0.2,
+      "threshold": 0.08,
+      "c_mem": 1.0,
+      "swap_arms": false,
+      "magnitude_only": false,
+      "neutral_inhibition": true,
+      "readout": "A"
+    },
+    "summary": {
+      "mean_dsi": 0.02298330572194757,
+      "mean_abs_dsi": 0.08691360322861953,
+      "n_positive": 5,
+      "n_coherent": 2,
+      "mean_sign": 0.5382234637085432,
+      "min_dsi": -0.1360404615892197,
+      "t4_mean": 0.009556554582311605,
+      "t5_mean": 0.03641005686158354
+    }
+  },
+  "arm_swapped": {
+    "config": {
+      "model": "C2_TWOCOMP_NL",
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "g_syn": 1.0,
+      "g_leak": 1.0,
+      "g_couple": 2.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "E_inh": -0.2,
+      "threshold": 0.08,
+      "c_mem": 1.0,
+      "swap_arms": true,
+      "magnitude_only": false,
+      "neutral_inhibition": false,
+      "readout": "A"
+    },
+    "summary": {
+      "mean_dsi": 0.02406048617851586,
+      "mean_abs_dsi": 0.07485281511677216,
+      "n_positive": 6,
+      "n_coherent": 1,
+      "mean_sign": 0.5428561281934388,
+      "min_dsi": -0.1816923641512784,
+      "t4_mean": 0.0005396362326688794,
+      "t5_mean": 0.04758133612436284
+    }
+  },
+  "controls": {
+    "rates": {
+      "frozen": {
+        "T4a": 0.0,
+        "T4b": 0.0,
+        "T4c": 0.0,
+        "T4d": 0.0,
+        "T5a": 0.0,
+        "T5b": 0.0,
+        "T5c": 0.0,
+        "T5d": 0.0
+      },
+      "shuffle": {
+        "T4a": 0.0,
+        "T4b": 0.0,
+        "T4c": 0.0,
+        "T4d": 0.0,
+        "T5a": 8.089715551244947e-05,
+        "T5b": 8.02785517772562e-05,
+        "T5c": 9.977789855904987e-05,
+        "T5d": 9.195778100862905e-05
+      },
+      "reverse": {
+        "T4a": 0.0,
+        "T4b": 0.0,
+        "T4c": 0.0,
+        "T4d": 0.0,
+        "T5a": 0.0011198363539280686,
+        "T5b": 0.0011420323419589439,
+        "T5c": 0.0011221164740051136,
+        "T5d": 0.0011656382124486885
+      },
+      "gray": {
+        "T4a": 0.0,
+        "T4b": 0.0,
+        "T4c": 0.0,
+        "T4d": 0.0,
+        "T5a": 0.0,
+        "T5b": 0.0,
+        "T5c": 0.0,
+        "T5d": 0.0
+      }
+    },
+    "dynamic_reference": {
+      "T4a": 0.00021386814624846677,
+      "T4b": 0.00010703202914863351,
+      "T4c": 0.0002248731506888195,
+      "T4d": 0.00018043573955374117,
+      "T5a": 0.0005971699410369166,
+      "T5b": 0.0006246096295254705,
+      "T5c": 0.0006765970906122267,
+      "T5d": 0.0006795928192688291
+    }
+  },
+  "geometry_shuffle": {
+    "permutations": 200,
+    "stimulus_subset": "speed axis",
+    "null_mean": 0.01442341028661555,
+    "null_sd": 0.0013719872780807748,
+    "null_95": [
+      0.011707305994692697,
+      0.01689852442409409
+    ],
+    "observed": 0.018717962175981328,
+    "z": 3.1301688833755863,
+    "p_empirical": 0.004975124378109453
+  }
+}
