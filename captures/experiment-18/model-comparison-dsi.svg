@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="670">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp18 calibration mean |DSI| by model (M_HR is a control, not the biological result)</text>
+<line x1="250.0" y1="40" x2="250.0" y2="658" stroke="#999"/>
+<line x1="317.0" y1="40" x2="317.0" y2="658" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="240" y="60" text-anchor="end" font-size="11">M0|tf2.0ts5.0</text>
+<rect x="250.0" y="46" width="0.5" height="18" fill="#275e85"/>
+<text x="852" y="60" font-size="11" text-anchor="end">+0.0000</text>
+<text x="240" y="90" text-anchor="end" font-size="11">M1|tf1.0ts3.0</text>
+<rect x="250.0" y="76" width="28.7" height="18" fill="#275e85"/>
+<text x="852" y="90" font-size="11" text-anchor="end">+0.0214</text>
+<text x="240" y="120" text-anchor="end" font-size="11">M1|tf1.0ts5.0</text>
+<rect x="250.0" y="106" width="37.9" height="18" fill="#275e85"/>
+<text x="852" y="120" font-size="11" text-anchor="end">+0.0283</text>
+<text x="240" y="150" text-anchor="end" font-size="11">M1|tf1.0ts8.0</text>
+<rect x="250.0" y="136" width="47.2" height="18" fill="#275e85"/>
+<text x="852" y="150" font-size="11" text-anchor="end">+0.0352</text>
+<text x="240" y="180" text-anchor="end" font-size="11">M1|tf2.0ts3.0</text>
+<rect x="250.0" y="166" width="42.5" height="18" fill="#275e85"/>
+<text x="852" y="180" font-size="11" text-anchor="end">+0.0317</text>
+<text x="240" y="210" text-anchor="end" font-size="11">M1|tf2.0ts5.0</text>
+<rect x="250.0" y="196" width="50.4" height="18" fill="#275e85"/>
+<text x="852" y="210" font-size="11" text-anchor="end">+0.0376</text>
+<text x="240" y="240" text-anchor="end" font-size="11">M1|tf2.0ts8.0</text>
+<rect x="250.0" y="226" width="59.2" height="18" fill="#275e85"/>
+<text x="852" y="240" font-size="11" text-anchor="end">+0.0441</text>
+<text x="240" y="270" text-anchor="end" font-size="11">M2|tf1.0ts3.0</text>
+<rect x="250.0" y="256" width="24.4" height="18" fill="#275e85"/>
+<text x="852" y="270" font-size="11" text-anchor="end">+0.0182</text>
+<text x="240" y="300" text-anchor="end" font-size="11">M2|tf1.0ts5.0</text>
+<rect x="250.0" y="286" width="31.9" height="18" fill="#275e85"/>
+<text x="852" y="300" font-size="11" text-anchor="end">+0.0238</text>
+<text x="240" y="330" text-anchor="end" font-size="11">M2|tf1.0ts8.0</text>
+<rect x="250.0" y="316" width="39.8" height="18" fill="#275e85"/>
+<text x="852" y="330" font-size="11" text-anchor="end">+0.0297</text>
+<text x="240" y="360" text-anchor="end" font-size="11">M2|tf2.0ts3.0</text>
+<rect x="250.0" y="346" width="36.2" height="18" fill="#275e85"/>
+<text x="852" y="360" font-size="11" text-anchor="end">+0.0270</text>
+<text x="240" y="390" text-anchor="end" font-size="11">M2|tf2.0ts5.0</text>
+<rect x="250.0" y="376" width="41.2" height="18" fill="#275e85"/>
+<text x="852" y="390" font-size="11" text-anchor="end">+0.0307</text>
+<text x="240" y="420" text-anchor="end" font-size="11">M2|tf2.0ts8.0</text>
+<rect x="250.0" y="406" width="47.4" height="18" fill="#275e85"/>
+<text x="852" y="420" font-size="11" text-anchor="end">+0.0353</text>
+<text x="240" y="450" text-anchor="end" font-size="11">M3|tf1.0ts3.0</text>
+<rect x="250.0" y="436" width="31.9" height="18" fill="#275e85"/>
+<text x="852" y="450" font-size="11" text-anchor="end">+0.0238</text>
+<text x="240" y="480" text-anchor="end" font-size="11">M3|tf1.0ts5.0</text>
+<rect x="250.0" y="466" width="40.7" height="18" fill="#275e85"/>
+<text x="852" y="480" font-size="11" text-anchor="end">+0.0303</text>
+<text x="240" y="510" text-anchor="end" font-size="11">M3|tf1.0ts8.0</text>
+<rect x="250.0" y="496" width="48.4" height="18" fill="#275e85"/>
+<text x="852" y="510" font-size="11" text-anchor="end">+0.0361</text>
+<text x="240" y="540" text-anchor="end" font-size="11">M3|tf2.0ts3.0</text>
+<rect x="250.0" y="526" width="44.4" height="18" fill="#275e85"/>
+<text x="852" y="540" font-size="11" text-anchor="end">+0.0331</text>
+<text x="240" y="570" text-anchor="end" font-size="11">M3|tf2.0ts5.0</text>
+<rect x="250.0" y="556" width="50.0" height="18" fill="#275e85"/>
+<text x="852" y="570" font-size="11" text-anchor="end">+0.0373</text>
+<text x="240" y="600" text-anchor="end" font-size="11">M3|tf2.0ts8.0</text>
+<rect x="250.0" y="586" width="55.3" height="18" fill="#275e85"/>
+<text x="852" y="600" font-size="11" text-anchor="end">+0.0413</text>
+<text x="240" y="630" text-anchor="end" font-size="11">M_HR|tf1.0ts5.0</text>
+<rect x="250.0" y="616" width="520.0" height="18" fill="#275e85"/>
+<text x="852" y="630" font-size="11" text-anchor="end">+0.3879</text>
+</svg>

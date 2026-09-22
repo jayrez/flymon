@@ -1,0 +1,21 @@
+{
+  "selected": "M1|tf2.0|ts8.0|p1.0",
+  "config": {
+    "name": "M1",
+    "tau_fast": 2.0,
+    "tau_slow": 8.0,
+    "rectify_inputs": false,
+    "output_exponent": 1.0,
+    "temporal": true,
+    "correlator": false
+  },
+  "calibration_mean_abs_dsi": 0.04413457943749902,
+  "min_sign_consistency": 0.23240291262135923,
+  "thresholds": {
+    "mean_abs_dsi": 0.05,
+    "min_sign": 0.6
+  },
+  "met_preregistered_threshold": false,
+  "selection_rule": "simplest model (M0<M1<M2<M3) meeting mean|DSI|>=0.05, min sign>=0.6 and dynamic>frozen on calibration stimuli only; M_HR never selected",
+  "calibration_seconds": 92.62145638465881
+}

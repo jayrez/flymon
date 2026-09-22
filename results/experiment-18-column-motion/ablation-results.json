@@ -1,0 +1,116 @@
+{
+  "geometry_shuffle": {
+    "mean_abs_dsi": 0.016794944001539202,
+    "mean_sign_responsive": 0.5074906971949453,
+    "subtypes": {
+      "T4a": {
+        "dsi_mean": -0.0059670369611469105,
+        "sign_consistency_responsive": 0.45161290322580644
+      },
+      "T4b": {
+        "dsi_mean": -0.004292022021861426,
+        "sign_consistency_responsive": 0.46642899584076053
+      },
+      "T4c": {
+        "dsi_mean": 0.007940364080827838,
+        "sign_consistency_responsive": 0.4790249433106576
+      },
+      "T4d": {
+        "dsi_mean": -0.0034359443059190655,
+        "sign_consistency_responsive": 0.45872641509433965
+      },
+      "T5a": {
+        "dsi_mean": 0.025157297659780073,
+        "sign_consistency_responsive": 0.5519951632406288
+      },
+      "T5b": {
+        "dsi_mean": 0.031652809781528395,
+        "sign_consistency_responsive": 0.564072557050907
+      },
+      "T5c": {
+        "dsi_mean": 0.028932115131407803,
+        "sign_consistency_responsive": 0.5451368666278392
+      },
+      "T5d": {
+        "dsi_mean": 0.026981962069842096,
+        "sign_consistency_responsive": 0.5429277331686226
+      }
+    }
+  },
+  "temporal_flat": {
+    "mean_abs_dsi": 0.021586529761259524,
+    "mean_sign_responsive": 0.5314413764656123,
+    "subtypes": {
+      "T4a": {
+        "dsi_mean": -0.029440943384139263,
+        "sign_consistency_responsive": 0.26490066225165565
+      },
+      "T4b": {
+        "dsi_mean": 0.02859728908083319,
+        "sign_consistency_responsive": 0.7377654662973222
+      },
+      "T4c": {
+        "dsi_mean": 0.014774334778374221,
+        "sign_consistency_responsive": 0.6060054595086443
+      },
+      "T4d": {
+        "dsi_mean": -0.0007153270948991202,
+        "sign_consistency_responsive": 0.5371589840075258
+      },
+      "T5a": {
+        "dsi_mean": -0.03835874142421371,
+        "sign_consistency_responsive": 0.1674641148325359
+      },
+      "T5b": {
+        "dsi_mean": 0.03328061921965904,
+        "sign_consistency_responsive": 0.8276481149012568
+      },
+      "T5c": {
+        "dsi_mean": 0.01833587396720212,
+        "sign_consistency_responsive": 0.6376537369914853
+      },
+      "T5d": {
+        "dsi_mean": -0.009189109140755542,
+        "sign_consistency_responsive": 0.47293447293447294
+      }
+    }
+  },
+  "explicit_correlator": {
+    "mean_abs_dsi": 0.35374762199134524,
+    "mean_sign_responsive": 0.846872672867074,
+    "subtypes": {
+      "T4a": {
+        "dsi_mean": 0.33756866706864735,
+        "sign_consistency_responsive": 0.8081632653061225
+      },
+      "T4b": {
+        "dsi_mean": 0.33110156496879106,
+        "sign_consistency_responsive": 0.8207920792079207
+      },
+      "T4c": {
+        "dsi_mean": 0.321197926006178,
+        "sign_consistency_responsive": 0.810546875
+      },
+      "T4d": {
+        "dsi_mean": 0.32439346851003714,
+        "sign_consistency_responsive": 0.8076535750251762
+      },
+      "T5a": {
+        "dsi_mean": 0.29316231826864586,
+        "sign_consistency_responsive": 0.8051948051948052
+      },
+      "T5b": {
+        "dsi_mean": 0.45596984832981224,
+        "sign_consistency_responsive": 0.9354207436399217
+      },
+      "T5c": {
+        "dsi_mean": 0.41345251144755835,
+        "sign_consistency_responsive": 0.9091869060190074
+      },
+      "T5d": {
+        "dsi_mean": 0.3531346713310921,
+        "sign_consistency_responsive": 0.8780231335436383
+      }
+    }
+  }
+}

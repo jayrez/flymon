@@ -1,0 +1,45 @@
+{
+  "verdict": "FAIL",
+  "category": "D",
+  "geometry_gate": "PASS",
+  "geometry": {
+    "mean_eligible_fraction": 0.9961662884724076,
+    "concentration": {
+      "T4a": 0.5872709673360462,
+      "T4b": 0.5523658460974366,
+      "T4c": 0.5467011547429942,
+      "T4d": 0.5297093137312778,
+      "T5a": 0.8840359206339538,
+      "T5b": 0.8933877207273079,
+      "T5c": 0.8812544096752574,
+      "T5d": 0.8736439510466697
+    },
+    "antiparallel_pairs_deg": {
+      "T4ab": 179.31733437651906,
+      "T4cd": 159.02571755994896,
+      "T5ab": 178.21618519895716,
+      "T5cd": 155.52497743260054
+    },
+    "axis_separation_deg": {
+      "T4": 95.72892827578474,
+      "T5": 98.3726997525572
+    },
+    "antiparallel": true,
+    "orthogonal": true
+  },
+  "biological_model": {
+    "selected": "M1|tf2.0|ts8.0|p1.0",
+    "met_calibration_threshold": false,
+    "mean_abs_dsi": 0.044581021733140686,
+    "mean_sign_responsive": 0.5694750833103224,
+    "passed": false
+  },
+  "explicit_correlator": {
+    "mean_abs_dsi": 0.35374762199134524,
+    "mean_sign_responsive": 0.846872672867074,
+    "passed": true
+  },
+  "on_off_specificity_ok": false,
+  "experiment17_reference_max_dsi": 0.012,
+  "proceed_to_experiment19": false
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="310">
+<rect width="100%" height="100%" fill="white"/>
+<text x="15" y="26" font-size="15">Exp18 held-out DSI, explicit correlator CONTROL (not the biological model)</text>
+<line x1="250.0" y1="40" x2="250.0" y2="298" stroke="#999"/>
+<text x="240" y="60" text-anchor="end" font-size="11">T4a</text>
+<rect x="250.0" y="46" width="385.0" height="18" fill="#275e85"/>
+<line x1="606.1" y1="55" x2="663.2" y2="55" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="60" font-size="11" text-anchor="end">+0.3376</text>
+<text x="240" y="90" text-anchor="end" font-size="11">T4b</text>
+<rect x="250.0" y="76" width="377.6" height="18" fill="#275e85"/>
+<line x1="598.3" y1="85" x2="656.9" y2="85" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="90" font-size="11" text-anchor="end">+0.3311</text>
+<text x="240" y="120" text-anchor="end" font-size="11">T4c</text>
+<rect x="250.0" y="106" width="366.3" height="18" fill="#275e85"/>
+<line x1="588.1" y1="115" x2="644.5" y2="115" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="120" font-size="11" text-anchor="end">+0.3212</text>
+<text x="240" y="150" text-anchor="end" font-size="11">T4d</text>
+<rect x="250.0" y="136" width="369.9" height="18" fill="#275e85"/>
+<line x1="590.3" y1="145" x2="648.1" y2="145" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="150" font-size="11" text-anchor="end">+0.3244</text>
+<text x="240" y="180" text-anchor="end" font-size="11">T5a</text>
+<rect x="250.0" y="166" width="334.3" height="18" fill="#275e85"/>
+<line x1="554.1" y1="175" x2="614.7" y2="175" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="180" font-size="11" text-anchor="end">+0.2932</text>
+<text x="240" y="210" text-anchor="end" font-size="11">T5b</text>
+<rect x="250.0" y="196" width="520.0" height="18" fill="#275e85"/>
+<line x1="742.7" y1="205" x2="796.4" y2="205" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="210" font-size="11" text-anchor="end">+0.4560</text>
+<text x="240" y="240" text-anchor="end" font-size="11">T5c</text>
+<rect x="250.0" y="226" width="471.5" height="18" fill="#275e85"/>
+<line x1="694.3" y1="235" x2="749.3" y2="235" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="240" font-size="11" text-anchor="end">+0.4135</text>
+<text x="240" y="270" text-anchor="end" font-size="11">T5d</text>
+<rect x="250.0" y="256" width="402.7" height="18" fill="#275e85"/>
+<line x1="625.3" y1="265" x2="680.1" y2="265" stroke="#111" stroke-width="1.4"/>
+<text x="852" y="270" font-size="11" text-anchor="end">+0.3531</text>
+</svg>
