@@ -56,3 +56,6 @@ webtop-config/
 # Experiment 14 local audit media (manifests and metrics remain versioned)
 /captures/experiment-14-progression/videos/
 /captures/experiment-14-progression/checkpoints/
+
+# Claude Code internal worktrees
+.claude/worktrees/
