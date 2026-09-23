@@ -1,0 +1,86 @@
+{
+  "reversed": {
+    "T4a": {
+      "rule": "p -> p - 2d",
+      "offset_before_median_projection": 1.3694406474885579,
+      "offset_after_median_projection": -1.1409218942375503,
+      "snap_error_px": {
+        "median": 1.6072694621130217,
+        "p90": 2.55894824349045
+      },
+      "changed_inputs_fraction": 0.9122600861731297
+    },
+    "T4b": {
+      "rule": "p -> p - 2d",
+      "offset_before_median_projection": 1.5513017873375858,
+      "offset_after_median_projection": -1.3637426822544114,
+      "snap_error_px": {
+        "median": 1.5820303555249406,
+        "p90": 2.3830972802306527
+      },
+      "changed_inputs_fraction": 0.9334181509754029
+    },
+    "T4c": {
+      "rule": "p -> p - 2d",
+      "offset_before_median_projection": 1.4161943229715348,
+      "offset_after_median_projection": -1.2421874987294999,
+      "snap_error_px": {
+        "median": 1.5309349471147258,
+        "p90": 2.373172315140831
+      },
+      "changed_inputs_fraction": 0.9503925767309065
+    },
+    "T4d": {
+      "rule": "p -> p - 2d",
+      "offset_before_median_projection": 1.7890242880574974,
+      "offset_after_median_projection": -1.4730671017163566,
+      "snap_error_px": {
+        "median": 1.5000690892340316,
+        "p90": 2.3508235082365325
+      },
+      "changed_inputs_fraction": 0.9593046226787831
+    }
+  },
+  "colocated": {
+    "T4a": {
+      "rule": "p -> p - d",
+      "offset_before_median_projection": 1.3694406474885579,
+      "offset_after_median_projection": 0.0,
+      "snap_error_px": {
+        "median": 1.6018557389010646,
+        "p90": 2.237424909696163
+      },
+      "changed_inputs_fraction": 0.7164120642381512
+    },
+    "T4b": {
+      "rule": "p -> p - d",
+      "offset_before_median_projection": 1.5513017873375858,
+      "offset_after_median_projection": 0.04155052231964618,
+      "snap_error_px": {
+        "median": 1.5418659012334248,
+        "p90": 2.166626369778223
+      },
+      "changed_inputs_fraction": 0.8032230703986429
+    },
+    "T4c": {
+      "rule": "p -> p - d",
+      "offset_before_median_projection": 1.4161943229715348,
+      "offset_after_median_projection": 0.0,
+      "snap_error_px": {
+        "median": 1.6617165597066057,
+        "p90": 2.252173606630193
+      },
+      "changed_inputs_fraction": 0.8162027123483226
+    },
+    "T4d": {
+      "rule": "p -> p - d",
+      "offset_before_median_projection": 1.7890242880574974,
+      "offset_after_median_projection": -0.23971759139347526,
+      "snap_error_px": {
+        "median": 1.5124390839424295,
+        "p90": 2.125425533816823
+      },
+      "changed_inputs_fraction": 0.8577637297510865
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "subtypes": {
+    "native": {
+      "T4a": {
+        "n": 1680,
+        "dsi": 0.21193120068656318,
+        "ci": [
+          0.18804876473718649,
+          0.23575843628957616
+        ],
+        "p_sign": 4.6168837579795364e-38,
+        "p_holm": 9.233767515959073e-38,
+        "significant_expected_sign": true
+      },
+      "T4b": {
+        "n": 1687,
+        "dsi": 0.1938100800408979,
+        "ci": [
+          0.1684146360786629,
+          0.21945902463257214
+        ],
+        "p_sign": 7.420219724835086e-43,
+        "p_holm": 2.9680878899340346e-42,
+        "significant_expected_sign": true
+      },
+      "T4c": {
+        "n": 1773,
+        "dsi": 0.1947072909819927,
+        "ci": [
+          0.17003319780328252,
+          0.21997039355585724
+        ],
+        "p_sign": 4.945080849493076e-41,
+        "p_holm": 1.4835242548479228e-40,
+        "significant_expected_sign": true
+      },
+      "T4d": {
+        "n": 1705,
+        "dsi": 0.13956858084342147,
+        "ci": [
+          0.11649405558270315,
+          0.16335780793109309
+        ],
+        "p_sign": 3.537341181268627e-24,
+        "p_holm": 3.537341181268627e-24,
+        "significant_expected_sign": true
+      }
+    },
+    "reversed": {
+      "T4a": {
+        "n": 1680,
+        "dsi": -0.19063105990558016,
+        "ci": [
+          -0.2157134445261393,
+          -0.16503963688054096
+        ],
+        "p_sign": 6.077053335791812e-40,
+        "p_holm": 2.430821334316725e-39,
+        "significant_expected_sign": true
+      },
+      "T4b": {
+        "n": 1687,
+        "dsi": -0.16834227385353132,
+        "ci": [
+          -0.19284756623821758,
+          -0.14365224864057763
+        ],
+        "p_sign": 1.0759121703705108e-20,
+        "p_holm": 1.0759121703705108e-20,
+        "significant_expected_sign": true
+      },
+      "T4c": {
+        "n": 1773,
+        "dsi": -0.1549723519227066,
+        "ci": [
+          -0.17963753495193888,
+          -0.13086159274208325
+        ],
+        "p_sign": 2.22755669826124e-24,
+        "p_holm": 4.45511339652248e-24,
+        "significant_expected_sign": true
+      },
+      "T4d": {
+        "n": 1705,
+        "dsi": -0.16522389921667976,
+        "ci": [
+          -0.1900115244790249,
+          -0.1406764461615717
+        ],
+        "p_sign": 2.0938804919375966e-26,
+        "p_holm": 6.28164147581279e-26,
+        "significant_expected_sign": true
+      }
+    }
+  },
+  "per_neuron": {
+    "T4a": {
+      "n": 1680,
+      "n_with_mi4": 930,
+      "pearson": -0.41181282166072014,
+      "spearman": -0.3423089552669017,
+      "median_change": 0.0,
+      "sign_reversal_fraction": 0.6538461538461539,
+      "sign_reversal_fraction_mi4": 0.68,
+      "mean_dsi_with_mi4": 0.38804983689121286,
+      "mean_dsi_without_mi4": -0.006455908207202391,
+      "reversed_mean_dsi_with_mi4": -0.33915940804943323,
+      "spearman_dsi_vs_projection": 0.6193464542481959,
+      "spearman_dsi_vs_magnitude": 0.26316781962259506
+    },
+    "T4b": {
+      "n": 1687,
+      "n_with_mi4": 913,
+      "pearson": -0.5685009641107033,
+      "spearman": -0.42775119214432267,
+      "median_change": 0.0,
+      "sign_reversal_fraction": 0.6754966887417219,
+      "sign_reversal_fraction_mi4": 0.7937743190661478,
+      "mean_dsi_with_mi4": 0.3514264866337031,
+      "mean_dsi_without_mi4": 0.007887884667214243,
+      "reversed_mean_dsi_with_mi4": -0.3177422110879859,
+      "spearman_dsi_vs_projection": 0.7526537649883114,
+      "spearman_dsi_vs_magnitude": 0.1349782306072684
+    },
+    "T4c": {
+      "n": 1773,
+      "n_with_mi4": 973,
+      "pearson": -0.495029611272628,
+      "spearman": -0.42292784539847966,
+      "median_change": 0.0,
+      "sign_reversal_fraction": 0.6676923076923077,
+      "sign_reversal_fraction_mi4": 0.7343485617597293,
+      "mean_dsi_with_mi4": 0.3514298741038574,
+      "mean_dsi_without_mi4": 0.004093449260024636,
+      "reversed_mean_dsi_with_mi4": -0.2857561555672955,
+      "spearman_dsi_vs_projection": 0.6939972446337352,
+      "spearman_dsi_vs_magnitude": 0.16237763829784127
+    },
+    "T4d": {
+      "n": 1705,
+      "n_with_mi4": 900,
+      "pearson": -0.531693327064047,
+      "spearman": -0.3972487053545385,
+      "median_change": 0.0,
+      "sign_reversal_fraction": 0.6912028725314183,
+      "sign_reversal_fraction_mi4": 0.787321063394683,
+      "mean_dsi_with_mi4": 0.2659155838904685,
+      "mean_dsi_without_mi4": -0.0016889380911652718,
+      "reversed_mean_dsi_with_mi4": -0.3114968366678343,
+      "spearman_dsi_vs_projection": 0.6504107909212442,
+      "spearman_dsi_vs_magnitude": 0.12189725868151781
+    },
+    "all_T4": {
+      "pearson": -0.501265321517313,
+      "spearman": -0.3999872220650848,
+      "median_change": 0.0,
+      "sign_reversal_fraction": 0.6714579055441479,
+      "sign_reversal_fraction_mi4": 0.7452142206016409
+    }
+  },
+  "oracle_per_neuron_pearson": {
+    "T4a": 0.5405784017404586,
+    "T4b": 0.6520225637413839,
+    "T4c": 0.6395817390022938,
+    "T4d": 0.5853332457534001
+  },
+  "unit": "neuron (deterministic front end)",
+  "bootstrap": 10000,
+  "correction": "Holm over the four T4 subtypes, per condition"
+}

@@ -1,0 +1,63 @@
+{
+  "repository": {
+    "branch": "worktree-bridge-cse_014eULVFzQa6eL4wV7d1hV9L",
+    "base_head": "09833dad9ad89e3efaf5ad45d6a3228048b3ea62",
+    "e21": "74bf6f6a9cbd53369d02055969f492ff7a6b6464",
+    "origin_main": "88522ee37c9c1148c459a59310f45e276254911a",
+    "e22_on_origin_main": false,
+    "working_tree_at_start": "clean"
+  },
+  "candidate": {
+    "level": "E23",
+    "reference": "fixed",
+    "background": 0.5,
+    "adapt": 40,
+    "G": 16.0,
+    "beta": 2.0,
+    "r0_exc": 1.0,
+    "r0_mi9": 0.0,
+    "r0_mi4": 0.0,
+    "E_inh": -0.2,
+    "tau_fast": 4.0,
+    "tau_slow": 12.0,
+    "drop": [
+      "Mi9"
+    ],
+    "membrane_cold": false
+  },
+  "heldout_bank": {
+    "speeds": [
+      0.4,
+      1.25,
+      2.5,
+      3.5
+    ],
+    "widths": [
+      10,
+      22
+    ],
+    "contrasts": [
+      0.35,
+      0.65
+    ],
+    "offsets": [
+      14.0,
+      -14.0
+    ],
+    "n_stimuli": 86
+  },
+  "seeds": {
+    "geometry_null": 23092026
+  },
+  "runtime_seconds": {
+    "calibration_verification": 94.84216237068176,
+    "heldout": {
+      "conditions": 228.6358187198639,
+      "static": 54.29195165634155,
+      "geometry_null": 122.29466462135315,
+      "oracle": 24.93437647819519,
+      "total": 464.31209802627563
+    }
+  },
+  "hardware": "CPU only; 20 workers for permutations; deterministic"
+}

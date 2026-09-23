@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 22 September 2026. Flymon investigates whether Pokémon Red visual
+Updated 23 September 2026. Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -54,6 +54,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 20 | Can a minimal sign-preserving conductance / two-compartment dendrite reproduce that opponent computation? | **FAIL** (Category E); small bias only (0.025 vs oracle 0.356) and it is insensitive to arm order, sign and geometry |
 | 21 | Can release from tonic shunting inhibition supply the missing T4 nonlinearity? | **FAIL** (Category E); Mi9 release occurs and is directional, but excitation adds 5–20× more conductance, so no R_in window ever coincides with excitation |
 | 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
+| 23 | Is that T4 DS a Mi1–Mi4 spatially offset inhibitory veto rather than a fast/slow correlator? | **FAIL** (preregistered; Category E by fall-through, NO-GO); 6/7 criteria met — reversing Mi4 geometry flips DS in 4/4 subtypes (+0.185 → −0.170, ON kept), Mi4 must be inhibitory, persistence needed, fast/slow timing not; co-location reached only 66 % reduction (threshold 70 %) |
 
 ## Latest result (Experiment 15)
 
@@ -234,12 +235,11 @@ One clear positive: **ON/OFF specificity is reproduced strongly** — all four T
 conductance mapping preserves the T4 fast-excitatory/slow-inhibitory vs T5 both-excitatory
 asymmetry. Pathway polarity is not what is missing; directional ordering is.
 
-**Experiment 22 should not proceed to VP→DN or gameplay (NO-GO).** Under a fixed adapting
-background the E21-parameter model gives correct ON/OFF polarity and geometry-dependent T4 DS
-(~0.19, 57 % of the E19 oracle), but it was excluded by the preregistered fast/slow temporal
-gate. The proposed next step is to preregister a timing criterion suited to a spatially
-offset Mi4 veto (tau = 0 abolition, arm-position swap), freeze Mi1 + Mi4 + tonic excitation
-prospectively, and address T5 separately.
+**Experiment 23: preregistered NO-GO, flagged for an owner decision.** Every causal test of
+the Mi1–Mi4 spatial veto passed except co-location (66 % vs 70 % reduction); under the task's
+own definition ("strong causal support, one marginal threshold") this would be a CONDITIONAL
+GO freezing the E23 native T4 readout, with T5 unresolved. No gameplay or generation work has
+started.
 
 ## Latest result (Experiment 21)
 
@@ -289,6 +289,25 @@ carries the DS (Mi1+Mi4: +0.179) and tonic Mi9 suppresses it; exploratory calibr
 diagnostics show the fixed-reference DS needs Mi4 and temporal persistence (tau = 0 → 0) but
 not tau_slow > tau_fast. T5 is polarity-correct but not direction-selective (+0.002).
 
+## Latest result (Experiment 23)
+
+Experiment 23 froze the E22 fixed-background, pre-adapted Mi1 + Mi4 model (E21 parameters,
+Mi9 excluded) and tested it causally on a fresh held-out bank with anatomy-only geometry
+transforms. Each T4 neuron's Mi4 inputs were rigidly translated to negate (reversal) or remove
+(co-location) the Mi1→Mi4 centroid offset, snapped to retina columns, weights and counts
+preserved. Anatomically, Mi4 sits ahead of Mi1 along the predicted preferred direction in
+74–79 % of neurons (a Barlow–Levick null-side veto layout).
+
+**Verdict FAIL (Category E by fall-through), NO-GO; spatial veto partially-to-strongly
+supported (analyst, non-preregistered).** Native T4 +0.185 (4/4, ON 4/4). **Reversed Mi4
+geometry −0.170, 4/4 subtypes negative, ON preserved**; 75 % of Mi4-bearing neurons flip sign;
+DSI tracks the offset's projection (Spearman +0.62…+0.75). Mi4 → excitatory +0.005, Mi4
+removed +0.003, Mi1 removed: no response; no filtering 0.000, equal/common filters keep
+79–84 %; geometry residual ≈ 0; static DSI ≈ 0. Co-location gave −0.064 (66 % reduction, 70 %
+required); exploratory calibration diagnostics trace this to lattice quantisation of
+sub-column shifts, not filter asymmetry. The E19 oracle does **not** reverse with Mi4 (it is
+Mi9-dominated), so the biological mechanism is Mi4-specific. T5 remains unresolved.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -297,6 +316,9 @@ not tau_slow > tau_fast. T5 is polarity-correct but not direction-selective (+0.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 23: `run_spatial_veto_experiment.py` (calibrate/heldout),
+  `analyze_spatial_veto_experiment.py`, `diagnose_spatial_veto_colocation.py`
+  (exploratory); geometry transforms in `flymon/spatial_veto.py`.
 - Experiment 22: `run_fixed_background_experiment.py` (calibrate/heldout),
   `analyze_fixed_background_experiment.py`, `diagnose_fixed_background_temporal.py`
   (exploratory); fixed-reference signal path in `flymon/adapted_reference.py`.
@@ -319,7 +341,7 @@ not tau_slow > tau_fast. T5 is polarity-correct but not direction-selective (+0.
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
   `test_conductance_dendrite.py`, `test_tonic_disinhibition.py`,
-  `test_fixed_background.py` (CPU only;
+  `test_fixed_background.py`, `test_spatial_veto.py` (CPU only;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

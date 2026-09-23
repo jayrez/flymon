@@ -1,0 +1,169 @@
+{
+  "column_spacing_px": 3.3473684210526358,
+  "subtypes": {
+    "T4a": {
+      "native": {
+        "n_with_mi4": 930,
+        "n_total": 1680,
+        "magnitude_median_px": 2.681651207441919,
+        "projection_median_px": 1.3694406474885579,
+        "projection_positive_fraction": 0.7860215053763441,
+        "screen_angle_circular_mean_deg": 289.23693443830473,
+        "angle_concentration_R": 0.5431685967421055
+      },
+      "reversed": {
+        "n_with_mi4": 930,
+        "n_total": 1680,
+        "magnitude_median_px": 2.7601413205097467,
+        "projection_median_px": -1.1409218942375503,
+        "projection_positive_fraction": 0.24623655913978496,
+        "screen_angle_circular_mean_deg": 103.95345666316682,
+        "angle_concentration_R": 0.4179277923279983
+      },
+      "colocated": {
+        "n_with_mi4": 930,
+        "n_total": 1680,
+        "magnitude_median_px": 1.4313307363590304,
+        "projection_median_px": 0.0,
+        "projection_positive_fraction": 0.4956989247311828,
+        "screen_angle_circular_mean_deg": 34.32867556914667,
+        "angle_concentration_R": 0.03790388812544413
+      },
+      "snap_error_px": {
+        "reversed": {
+          "median": 1.6072694621130217,
+          "p90": 2.55894824349045
+        },
+        "colocated": {
+          "median": 1.6018557389010646,
+          "p90": 2.237424909696163
+        }
+      },
+      "weight_totals_preserved": true,
+      "input_counts_preserved": true
+    },
+    "T4b": {
+      "native": {
+        "n_with_mi4": 913,
+        "n_total": 1687,
+        "magnitude_median_px": 2.998624520974234,
+        "projection_median_px": 1.5513017873375858,
+        "projection_positive_fraction": 0.7513691128148959,
+        "screen_angle_circular_mean_deg": 106.01846072052543,
+        "angle_concentration_R": 0.5332192785949342
+      },
+      "reversed": {
+        "n_with_mi4": 913,
+        "n_total": 1687,
+        "magnitude_median_px": 3.1475370979152433,
+        "projection_median_px": -1.3637426822544114,
+        "projection_positive_fraction": 0.2727272727272727,
+        "screen_angle_circular_mean_deg": 292.9090515510867,
+        "angle_concentration_R": 0.4838574355035106
+      },
+      "colocated": {
+        "n_with_mi4": 913,
+        "n_total": 1687,
+        "magnitude_median_px": 1.3788269332675136,
+        "projection_median_px": 0.04155052231964618,
+        "projection_positive_fraction": 0.511500547645126,
+        "screen_angle_circular_mean_deg": 269.1314730647782,
+        "angle_concentration_R": 0.0434616551710367
+      },
+      "snap_error_px": {
+        "reversed": {
+          "median": 1.5820303555249406,
+          "p90": 2.3830972802306527
+        },
+        "colocated": {
+          "median": 1.5418659012334248,
+          "p90": 2.166626369778223
+        }
+      },
+      "weight_totals_preserved": true,
+      "input_counts_preserved": true
+    },
+    "T4c": {
+      "native": {
+        "n_with_mi4": 973,
+        "n_total": 1773,
+        "magnitude_median_px": 2.8452735324771887,
+        "projection_median_px": 1.4161943229715348,
+        "projection_positive_fraction": 0.7399794450154162,
+        "screen_angle_circular_mean_deg": 255.5519859156443,
+        "angle_concentration_R": 0.6117163415217057
+      },
+      "reversed": {
+        "n_with_mi4": 973,
+        "n_total": 1773,
+        "magnitude_median_px": 2.913577275889985,
+        "projection_median_px": -1.2421874987294999,
+        "projection_positive_fraction": 0.2805755395683453,
+        "screen_angle_circular_mean_deg": 70.75690500248496,
+        "angle_concentration_R": 0.5460951001062933
+      },
+      "colocated": {
+        "n_with_mi4": 973,
+        "n_total": 1773,
+        "magnitude_median_px": 1.4757771426929982,
+        "projection_median_px": 0.0,
+        "projection_positive_fraction": 0.4563206577595067,
+        "screen_angle_circular_mean_deg": 50.77295126010997,
+        "angle_concentration_R": 0.11185367462746013
+      },
+      "snap_error_px": {
+        "reversed": {
+          "median": 1.5309349471147258,
+          "p90": 2.373172315140831
+        },
+        "colocated": {
+          "median": 1.6617165597066057,
+          "p90": 2.252173606630193
+        }
+      },
+      "weight_totals_preserved": true,
+      "input_counts_preserved": true
+    },
+    "T4d": {
+      "native": {
+        "n_with_mi4": 900,
+        "n_total": 1705,
+        "magnitude_median_px": 3.335959046815086,
+        "projection_median_px": 1.7890242880574974,
+        "projection_positive_fraction": 0.7455555555555555,
+        "screen_angle_circular_mean_deg": 81.82001039092951,
+        "angle_concentration_R": 0.778175061273156
+      },
+      "reversed": {
+        "n_with_mi4": 900,
+        "n_total": 1705,
+        "magnitude_median_px": 3.411014799888404,
+        "projection_median_px": -1.4730671017163566,
+        "projection_positive_fraction": 0.24333333333333335,
+        "screen_angle_circular_mean_deg": 264.8839295651722,
+        "angle_concentration_R": 0.6955601322676435
+      },
+      "colocated": {
+        "n_with_mi4": 900,
+        "n_total": 1705,
+        "magnitude_median_px": 1.3291909664695258,
+        "projection_median_px": -0.23971759139347526,
+        "projection_positive_fraction": 0.3888888888888889,
+        "screen_angle_circular_mean_deg": 261.68802578526527,
+        "angle_concentration_R": 0.2158470695392242
+      },
+      "snap_error_px": {
+        "reversed": {
+          "median": 1.5000690892340316,
+          "p90": 2.3508235082365325
+        },
+        "colocated": {
+          "median": 1.5124390839424295,
+          "p90": 2.125425533816823
+        }
+      },
+      "weight_totals_preserved": true,
+      "input_counts_preserved": true
+    }
+  }
+}

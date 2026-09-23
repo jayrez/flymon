@@ -1,0 +1,35 @@
+{
+  "scientific_verdict": "FAIL",
+  "mechanistic_category": "E",
+  "gameplay_progression": "NO-GO",
+  "criteria": {
+    "N_native": true,
+    "R_reversal": true,
+    "C_colocation": false,
+    "G_geometry": true,
+    "I_mi4_inhibition": true,
+    "P_persistence": true,
+    "S_static": true
+  },
+  "criterion_values": {
+    "native": 0.18500428813821881,
+    "native_positive": 4,
+    "native_on": 4,
+    "reversed": -0.16979239622462447,
+    "reversed_negative": 4,
+    "reversed_on": 4,
+    "colocated": -0.063560857883071,
+    "colocated_reduction": 0.656435758745311,
+    "geometry_residual": -0.00564348970234379,
+    "mi4_excitatory": 0.004611134450414226,
+    "no_filtering": -2.2497554497665565e-05,
+    "static_native": 0.0022225607330112586,
+    "static_reversed": -0.007828950883151803
+  },
+  "failed_criteria": [
+    "C_colocation"
+  ],
+  "category_note": "E reached by fall-through: the preregistered ladder has no rule for 'all causal criteria met except co-location'",
+  "spatial_veto_support_assessment": "partially supported (direction reverses with Mi4 geometry; failed: C_colocation)",
+  "support_assessment_basis": "analyst interpretation, not preregistered; the formal verdict is the preregistered category above"
+}
