@@ -1,0 +1,43 @@
+{
+ "status": "NOT CALIBRATED (NO-GO before calibration); defaults recorded, eta = 0",
+ "config": {
+  "eta": 0.0,
+  "tau_elig_steps": 25.0,
+  "e_max": 5.0,
+  "theta_appetitive": 1.0,
+  "theta_aversive": 1.0,
+  "sign": -1.0,
+  "k_max": 1.0,
+  "cross_compartment": false,
+  "shuffle_eligibility_seed": null
+ },
+ "preregistered_grids": {
+  "eta": [
+   0.01,
+   0.03,
+   0.1,
+   0.3,
+   1.0
+  ],
+  "tau_steps": [
+   5,
+   25,
+   100
+  ],
+  "dan_amplitude": [
+   0.1,
+   0.2,
+   0.3,
+   0.5,
+   0.8
+  ]
+ },
+ "dan_default_amplitude_by_rule": 0.1,
+ "dan_window_steps": 10,
+ "theta_rule": "99th percentile of per-step DAN spiking fraction in 600 unstimulated steps",
+ "theta": {
+  "appetitive": 1.0,
+  "aversive": 1.0
+ },
+ "edge_hash": "65dbc6264c04a2fa"
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="256" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E26 KCg-d mean rate per cell by visual condition (6 seeds; 50 Hz = one spike per 20 ms step)</text>
+<line x1="300.0" y1="34" x2="300.0" y2="248" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">no_visual</text>
+<rect x="300.0" y="38" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+48.5738</text>
+<text x="292" y="74" text-anchor="end" font-size="11">gray</text>
+<rect x="300.0" y="62" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+48.5738</text>
+<text x="292" y="98" text-anchor="end" font-size="11">vertical</text>
+<rect x="300.0" y="86" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+48.5801</text>
+<text x="292" y="122" text-anchor="end" font-size="11">horizontal</text>
+<rect x="300.0" y="110" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+48.5737</text>
+<text x="292" y="146" text-anchor="end" font-size="11">pokemon_bedroom</text>
+<rect x="300.0" y="134" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+48.5736</text>
+<text x="292" y="170" text-anchor="end" font-size="11">pokemon_house1f</text>
+<rect x="300.0" y="158" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+48.5737</text>
+<text x="292" y="194" text-anchor="end" font-size="11">drifting_vertical</text>
+<rect x="300.0" y="182" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+48.5676</text>
+<text x="292" y="218" text-anchor="end" font-size="11">pokemon_walk</text>
+<rect x="300.0" y="206" width="499.9" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+48.5675</text>
+</svg>
