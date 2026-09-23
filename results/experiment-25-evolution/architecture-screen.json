@@ -1,0 +1,48 @@
+{
+  "rule": "mean over the last 3 screen generations of the top-quartile mean training fitness",
+  "architectures": {
+    "dn": {
+      "score": 1585.8569156771002,
+      "best": 3455.323943661972,
+      "median_last": 873.0067271333228,
+      "best_milestone_rates": {
+        "M2": 0.75,
+        "M3": 0.125,
+        "M4": 0.125,
+        "M5": 0.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "generations": 8
+    },
+    "t4": {
+      "score": 1601.4008742289516,
+      "best": 5021.426300984528,
+      "median_last": 834.8565451087406,
+      "best_milestone_rates": {
+        "M2": 0.7916666666666666,
+        "M3": 0.08333333333333333,
+        "M4": 0.08333333333333333,
+        "M5": 0.020833333333333332,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "generations": 8
+    },
+    "t4dn": {
+      "score": 1264.4657822809495,
+      "best": 3057.3853809494335,
+      "median_last": 1191.0533725411085,
+      "best_milestone_rates": {
+        "M2": 0.8333333333333334,
+        "M3": 0.020833333333333332,
+        "M4": 0.020833333333333332,
+        "M5": 0.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "generations": 8
+    }
+  },
+  "winner": "t4"
+}

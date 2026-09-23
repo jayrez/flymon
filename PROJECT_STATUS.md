@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 23 September 2026 (Experiment 24). Flymon investigates whether Pokémon Red visual
+Updated 23 September 2026 (Experiment 25). Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -56,6 +56,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
 | 23 | Is that T4 DS a Mi1–Mi4 spatially offset inhibitory veto rather than a fast/slow correlator? | **FAIL** (preregistered; Category E by fall-through, NO-GO); 6/7 criteria met — reversing Mi4 geometry flips DS in 4/4 subtypes (+0.185 → −0.170, ON kept), Mi4 must be inhibitory, persistence needed, fast/slow timing not; co-location reached only 66 % reduction (threshold 70 %) |
 | 24 | Generation 0: can the frozen E23 T4 readout run in the closed Pokémon loop, and what is the baseline? | **READY WITH CAVEATS**; 40/40 episodes unattended and bit-reproducible, T4 verifiably injected, 1.2× real time, 8 instances ≈ 36 decisions/s; but actions are 94 % identical without vision, random explores 2× more tiles, and DOWN-less E14 controls cap progress at M2 |
+| 25 | Can evolution produce vision-dependent Pokémon behaviour beyond Gen 0 and random, with the E23 sensory model frozen? | **EVOLUTION WORKS, NOT STREAM-READY**; T4-only linear decoder (38 gens): held-out median 5,428 vs Gen0 −23 / matched random 905 / uniform random 1,384 (p = 0.06), leaves the house on 65 % of unseen seeds, Oak's Lab on 25 %; −76 % without vision, −77 % with shuffled T4 geometry; rejected for long text-window runs |
 
 ## Latest result (Experiment 15)
 
@@ -236,11 +237,12 @@ One clear positive: **ON/OFF specificity is reproduced strongly** — all four T
 conductance mapping preserves the T4 fast-excitatory/slow-inhibitory vs T5 both-excitatory
 asymmetry. Pathway polarity is not what is missing; directional ordering is.
 
-**Project decision after E23: CONDITIONAL GO** — gameplay uses the frozen E23 native T4 readout
-(E23 itself stays a preregistered FAIL / E / NO-GO). **Experiment 24 (Generation 0): READY WITH
-CAVEATS** for a population/evolution harness. Before E25 fitness work: enable DOWN in the
-evolvable action set, let the evolvable readout observe frozen T4 output directly (the T4 →
-FlyBrain → DN route transmits almost nothing), and cache GPU injection indices for ~3× speed.
+**Project decision after E23: CONDITIONAL GO** for gameplay on the frozen E23 T4 readout; E24
+established the closed-loop baseline. **Experiment 25: EVOLUTION WORKS, NOT STREAM-READY.** A
+vision-dependent T4-only controller evolved, but does not significantly beat uniform random over
+the 7-button action space and holds text windows open on 40 % of seeds. Recommended E26: continue
+the T4-only lineage with the 1,500-decision budget, a window-advancing interaction term that
+separates scripted story dialogue from stuck menus, and vision ablations inside training fitness.
 T5 remains a separate unresolved research track.
 
 ## Latest result (Experiment 21)
@@ -325,6 +327,22 @@ function and a multi-seed champion protocol are proposed but not implemented. Di
 E23's "Mi1 + Mi4 only" candidate also carried small Tm1/Tm2/Tm9 inputs (0.43 % of |w|); E24
 freezes the code as run.
 
+## Latest result (Experiment 25 / evolution)
+
+First population experiment on the frozen E23 T4 pathway (sensory hash unchanged from E24).
+Engineering first: vectorised column sampling (8×) and a bit-identical vectorised FlyBrain
+injection step (3×) gave 320 decisions/s (T4-only) or 67/s (with FlyBrain) on 8 workers. A
+linear softmax decoder over 7 actions (DOWN and B added) was evolved by mutation + elitism with
+a progression-dominant fitness from evaluator RAM only. Architecture screen (training seeds):
+T4-only 1,601 ≈ DN-only 1,586 > T4+DN 1,265. The T4-only lineage ran 30 more generations
+(population 32); training median 633 → 1,214. On 20 unseen seeds the champion (253 parameters)
+has median fitness 5,428 (p10 1,485), leaves the house on 65 % and reaches Oak's Lab on 25 %
+of seeds, beats Gen 0 and matched random on 20/20 seeds, and beats uniform random only
+non-significantly (13/20, p = 0.06). Removing vision drops it 76 % and shuffling T4 geometry
+77 % (no house exits), so it is vision-dependent — but two of eight finalists were not.
+Rejected as a livestream champion (text windows ≥ 30 decisions on 40 % of seeds, partly
+Oak's scripted dialogue). No Route 1 or battle.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -333,6 +351,9 @@ freezes the code as run.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 25: `run_evolution.py` (screen / main / finalists / heldout / champion-log /
+  throughput), `analyze_evolution.py`; genome, features and fitness in `flymon/evolution.py`,
+  accelerations in `flymon/fast_io.py`.
 - Experiment 24: `run_generation_zero.py` (episode / action-distribution / replay-check /
   parallel), `analyze_generation_zero.py`; frozen gameplay T4 in `flymon/frozen_t4.py`,
   evaluator-only telemetry in `flymon/gameplay_eval.py` (needs `POKEMON_ROM`).
@@ -362,7 +383,7 @@ freezes the code as run.
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
   `test_conductance_dendrite.py`, `test_tonic_disinhibition.py`,
   `test_fixed_background.py`, `test_spatial_veto.py`,
-  `test_generation_zero.py` (CPU only; ROM tests need `POKEMON_ROM`;
+  `test_generation_zero.py`, `test_evolution.py` (CPU only; ROM tests need `POKEMON_ROM`;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

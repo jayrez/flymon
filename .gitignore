@@ -58,3 +58,12 @@ webtop-config/
 /captures/experiment-14-progression/checkpoints/
 /captures/experiment-24/videos/
 /captures/experiment-24/live/
+
+# Experiment 25: only the final checkpoint of each phase is committed
+/results/experiment-25-evolution/checkpoints/**/gen-*.json.gz
+!/results/experiment-25-evolution/checkpoints/main/gen-029.json.gz
+!/results/experiment-25-evolution/checkpoints/screen-dn/gen-007.json.gz
+!/results/experiment-25-evolution/checkpoints/screen-t4/gen-007.json.gz
+!/results/experiment-25-evolution/checkpoints/screen-t4dn/gen-007.json.gz
+/results/experiment-25-evolution/smoke/checkpoints/
+/captures/experiment-25/videos/
