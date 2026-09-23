@@ -1,0 +1,27 @@
+{
+  "status": "PROPOSAL for Experiment 25; not implemented, not run",
+  "unit": "one episode from states/bedroom.state, 1,500 decisions, evaluator telemetry only",
+  "formula": "F = 100*sum_k w_k*M_k + 2.0*N_tiles_new + 10.0*N_maps_new + 5.0*I_interact - 20.0*L_loop - 10.0*I_idle - 0.5*R_revisit_moves",
+  "terms": {
+    "M_k": "milestone indicators M1..M8 with w = (0.2, 1, 2, 2, 3, 2, 4, 6); M0 excluded (trivially met); M6 counts only if the window closes within 50 decisions (no dialogue lock)",
+    "N_tiles_new": "unique (map,x,y) tiles, capped at 60 per map so pacing one large room cannot dominate",
+    "N_maps_new": "unique maps beyond the spawn map",
+    "I_interact": "text windows opened AND closed (entered/exit window state), capped at 5",
+    "L_loop": "fraction of decisions in any loop state (wall bump, oscillation, menu loop, A spam), EXCLUDING plain inactivity",
+    "I_idle": "fraction of decisions inside >= 20-decision NONE runs",
+    "R_revisit_moves": "successful moves onto already-visited tiles"
+  },
+  "anti_gaming": [
+    "tile novelty capped per map and counted on tile entries, not decisions",
+    "no reward for raw action count or raw distance",
+    "interaction rewarded only for open+close cycles, capped",
+    "milestones counted once per episode",
+    "all terms from evaluator telemetry; controller never sees F or telemetry",
+    "the frozen T4 sensory model is outside the search space"
+  ],
+  "gen0_reference": "compute F for the 10 Gen-0 and 10 C0-random episodes first; E25 reports improvement relative to both",
+  "prerequisites_from_E24": [
+    "enable DOWN (and B) in the evolvable action set, otherwise M3+ is unreachable",
+    "give the evolvable readout direct access to frozen T4 output, since T4 injection barely changes DN rates (94% identical actions vs no-visual)"
+  ]
+}

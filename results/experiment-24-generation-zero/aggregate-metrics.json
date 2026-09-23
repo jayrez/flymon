@@ -1,0 +1,1928 @@
+{
+  "aggregate": {
+    "gen0": {
+      "n_runs": 10,
+      "seeds": [
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2409,
+        2410
+      ],
+      "completed": 10,
+      "metrics": {
+        "total_actions": {
+          "mean": 119.1,
+          "median": 68.5,
+          "min": 20.0,
+          "max": 269.0,
+          "sd": 98.26658751692877
+        },
+        "actions_per_minute": {
+          "mean": 23.82,
+          "median": 13.7,
+          "min": 4.0,
+          "max": 53.8,
+          "sd": 19.653317503385754
+        },
+        "idle_fraction": {
+          "mean": 0.9206,
+          "median": 0.9543333333333333,
+          "min": 0.8206666666666667,
+          "max": 0.9866666666666667,
+          "sd": 0.06551105834461919
+        },
+        "directional_actions": {
+          "mean": 117.9,
+          "median": 67.0,
+          "min": 18.0,
+          "max": 269.0,
+          "sd": 98.8775336801372
+        },
+        "a_presses": {
+          "mean": 1.2,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 4.0,
+          "sd": 1.4757295747452437
+        },
+        "successful_moves": {
+          "mean": 37.9,
+          "median": 11.0,
+          "min": 0.0,
+          "max": 119.0,
+          "sd": 48.068122955285496
+        },
+        "blocked_moves": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "map_changes": {
+          "mean": 0.9,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 2.0,
+          "sd": 0.7378647873726218
+        },
+        "direction_changes": {
+          "mean": 44.7,
+          "median": 26.5,
+          "min": 0.0,
+          "max": 113.0,
+          "sd": 42.502418231855415
+        },
+        "locomotion_entropy_bits": {
+          "mean": 1.0735143237894704,
+          "median": 1.1982995797168798,
+          "min": 0.0,
+          "max": 1.3921472236645345,
+          "sd": 0.40690875391423714
+        },
+        "action_entropy_bits": {
+          "mean": 0.44197069976635295,
+          "median": 0.30412108996858733,
+          "min": 0.1084113109898408,
+          "max": 0.8542882885486432,
+          "sd": 0.2832057795438003
+        },
+        "unique_tiles": {
+          "mean": 11.5,
+          "median": 11.0,
+          "min": 1.0,
+          "max": 23.0,
+          "sd": 5.400617248673217
+        },
+        "unique_maps": {
+          "mean": 1.7,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 2.0,
+          "sd": 0.48304589153964794
+        },
+        "revisit_rate": {
+          "mean": 0.27432816901101154,
+          "median": 0.045454545454545456,
+          "min": 0.0,
+          "max": 0.8823529411764706,
+          "sd": 0.40198669859171376
+        },
+        "loop_fraction": {
+          "mean": 0.6447333333333333,
+          "median": 0.712,
+          "min": 0.35333333333333333,
+          "max": 0.9753333333333334,
+          "sd": 0.20749974267424176
+        },
+        "best_milestone_index": {
+          "mean": 2.2,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 6.0,
+          "sd": 1.3984117975602022
+        }
+      },
+      "loop_flags": {
+        "wall_bump": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "lr_oscillation": {
+          "mean": 0.09826666666666665,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.37666666666666665,
+          "sd": 0.1594958724648802
+        },
+        "ud_oscillation": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "menu_loop": {
+          "mean": 0.043,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.43,
+          "sd": 0.1359779393872403
+        },
+        "a_spam": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "inactivity": {
+          "mean": 0.5488,
+          "median": 0.712,
+          "min": 0.042666666666666665,
+          "max": 0.938,
+          "sd": 0.34314950850203063
+        }
+      },
+      "milestone_rate": {
+        "M0": 1.0,
+        "M1": 0.9,
+        "M2": 0.7,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.1,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "milestone_first_decision": {
+        "M0": [
+          288,
+          147,
+          292,
+          74,
+          1095,
+          53,
+          398,
+          222,
+          152,
+          32
+        ],
+        "M1": [
+          40,
+          17,
+          23,
+          9,
+          null,
+          2,
+          20,
+          31,
+          6,
+          5
+        ],
+        "M2": [
+          312,
+          327,
+          490,
+          910,
+          null,
+          null,
+          685,
+          915,
+          299,
+          null
+        ],
+        "M3": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M4": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M5": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M6": [
+          null,
+          null,
+          null,
+          null,
+          836,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M7": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M8": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "action_totals": {
+        "NONE": 13809,
+        "LEFT": 582,
+        "RIGHT": 449,
+        "UP": 148,
+        "A": 12,
+        "DOWN": 0,
+        "B": 0,
+        "START": 0,
+        "SELECT": 0
+      },
+      "maps_visited": [
+        "RedsHouse1F",
+        "RedsHouse2F"
+      ],
+      "wall_s": {
+        "mean": 252.88557570349658,
+        "median": 254.04531147998932,
+        "min": 247.52788141497876,
+        "max": 257.66756519299815,
+        "sd": 3.290283412249013
+      },
+      "decisions_per_s": {
+        "mean": 5.932443470689765,
+        "median": 5.904458642331295,
+        "min": 5.821454473233642,
+        "max": 6.059923397014256,
+        "sd": 0.07746548792700228
+      },
+      "stage_ms_per_decision": {
+        "emulator": {
+          "mean": 3.2726212502573615,
+          "median": 3.211858803028008,
+          "min": 3.0762323686503805,
+          "max": 3.896673261614827,
+          "sd": 0.22855930676109432
+        },
+        "t4": {
+          "mean": 63.39460129957297,
+          "median": 63.26996474615105,
+          "min": 61.82777653620966,
+          "max": 64.71092291847647,
+          "sd": 0.9454535947952034
+        },
+        "brain": {
+          "mean": 99.28924336316608,
+          "median": 99.93988611280413,
+          "min": 97.08624751194536,
+          "max": 100.52200101444032,
+          "sd": 1.1969930390925025
+        },
+        "controller": {
+          "mean": 0.33287958236954485,
+          "median": 0.3308605088871749,
+          "min": 0.31910728870813426,
+          "max": 0.3596561575541273,
+          "sd": 0.01222322307943121
+        },
+        "evaluator": {
+          "mean": 0.060175655789983774,
+          "median": 0.059161042561754584,
+          "min": 0.05511463150226822,
+          "max": 0.06561041541863233,
+          "sd": 0.003965802775610953
+        }
+      },
+      "max_rss_mb": {
+        "mean": 1382.36953125,
+        "median": 1388.001953125,
+        "min": 1317.796875,
+        "max": 1393.62109375,
+        "sd": 23.092530490701442
+      }
+    },
+    "c0_random": {
+      "n_runs": 10,
+      "seeds": [
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2409,
+        2410
+      ],
+      "completed": 10,
+      "metrics": {
+        "total_actions": {
+          "mean": 115.5,
+          "median": 118.0,
+          "min": 102.0,
+          "max": 122.0,
+          "sd": 6.670832032063167
+        },
+        "actions_per_minute": {
+          "mean": 23.1,
+          "median": 23.6,
+          "min": 20.4,
+          "max": 24.4,
+          "sd": 1.3341664064126333
+        },
+        "idle_fraction": {
+          "mean": 0.923,
+          "median": 0.9213333333333333,
+          "min": 0.9186666666666666,
+          "max": 0.932,
+          "sd": 0.004447221354708792
+        },
+        "directional_actions": {
+          "mean": 114.4,
+          "median": 116.5,
+          "min": 101.0,
+          "max": 121.0,
+          "sd": 6.586180818788517
+        },
+        "a_presses": {
+          "mean": 1.1,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 2.0,
+          "sd": 0.7378647873726218
+        },
+        "successful_moves": {
+          "mean": 83.5,
+          "median": 81.0,
+          "min": 70.0,
+          "max": 101.0,
+          "sd": 9.489760563657839
+        },
+        "blocked_moves": {
+          "mean": 1.4,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 3.0,
+          "sd": 1.0749676997731399
+        },
+        "map_changes": {
+          "mean": 1.2,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 3.0,
+          "sd": 1.2292725943057183
+        },
+        "direction_changes": {
+          "mean": 65.9,
+          "median": 65.5,
+          "min": 50.0,
+          "max": 75.0,
+          "sd": 7.519604008486381
+        },
+        "locomotion_entropy_bits": {
+          "mean": 1.2798909621560313,
+          "median": 1.2725616387880634,
+          "min": 1.238324798314731,
+          "max": 1.3516904759366588,
+          "sd": 0.03238553167741462
+        },
+        "action_entropy_bits": {
+          "mean": 0.5011117973895656,
+          "median": 0.5069238497734425,
+          "min": 0.45076006731723073,
+          "max": 0.5283526004762306,
+          "sd": 0.02499967092137124
+        },
+        "unique_tiles": {
+          "mean": 22.6,
+          "median": 24.0,
+          "min": 15.0,
+          "max": 29.0,
+          "sd": 4.247875285886398
+        },
+        "unique_maps": {
+          "mean": 1.6,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 2.0,
+          "sd": 0.5163977794943223
+        },
+        "revisit_rate": {
+          "mean": 0.7424535335693127,
+          "median": 0.7345238095238096,
+          "min": 0.7045454545454546,
+          "max": 0.8181818181818182,
+          "sd": 0.033908855027427326
+        },
+        "loop_fraction": {
+          "mean": 0.7040666666666666,
+          "median": 0.7053333333333334,
+          "min": 0.6466666666666666,
+          "max": 0.7973333333333333,
+          "sd": 0.043470949573135895
+        },
+        "best_milestone_index": {
+          "mean": 1.6,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 2.0,
+          "sd": 0.5163977794943223
+        }
+      },
+      "loop_flags": {
+        "wall_bump": {
+          "mean": 0.0009333333333333334,
+          "median": 0.0006666666666666666,
+          "min": 0.0,
+          "max": 0.002,
+          "sd": 0.0007166451331820934
+        },
+        "lr_oscillation": {
+          "mean": 0.39593333333333336,
+          "median": 0.3873333333333333,
+          "min": 0.2986666666666667,
+          "max": 0.56,
+          "sd": 0.07674453372579786
+        },
+        "ud_oscillation": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "menu_loop": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "a_spam": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "inactivity": {
+          "mean": 0.5026666666666667,
+          "median": 0.49833333333333335,
+          "min": 0.42533333333333334,
+          "max": 0.5953333333333334,
+          "sd": 0.046107764269436524
+        }
+      },
+      "milestone_rate": {
+        "M0": 1.0,
+        "M1": 1.0,
+        "M2": 0.6,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "milestone_first_decision": {
+        "M0": [
+          78,
+          147,
+          186,
+          231,
+          113,
+          200,
+          174,
+          107,
+          65,
+          267
+        ],
+        "M1": [
+          6,
+          49,
+          26,
+          37,
+          3,
+          15,
+          22,
+          20,
+          4,
+          40
+        ],
+        "M2": [
+          1449,
+          null,
+          null,
+          1229,
+          null,
+          null,
+          1462,
+          629,
+          325,
+          737
+        ],
+        "M3": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M4": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M5": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M6": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M7": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M8": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "action_totals": {
+        "NONE": 13845,
+        "LEFT": 589,
+        "RIGHT": 426,
+        "UP": 129,
+        "A": 11,
+        "DOWN": 0,
+        "B": 0,
+        "START": 0,
+        "SELECT": 0
+      },
+      "maps_visited": [
+        "RedsHouse1F",
+        "RedsHouse2F"
+      ],
+      "wall_s": {
+        "mean": 4.3798292165010935,
+        "median": 4.376669049510383,
+        "min": 4.207476968003903,
+        "max": 4.488554686016869,
+        "sd": 0.08029045216197883
+      },
+      "decisions_per_s": {
+        "mean": 342.5840551857861,
+        "median": 342.72652935183737,
+        "min": 334.1832961672337,
+        "max": 356.50819039696967,
+        "sd": 6.362828504058397
+      },
+      "stage_ms_per_decision": {
+        "emulator": {
+          "mean": 2.6948949359706598,
+          "median": 2.691591309548433,
+          "min": 2.5930862782988697,
+          "max": 2.7657282312284224,
+          "sd": 0.04937107633279668
+        },
+        "t4": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "brain": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "controller": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "evaluator": {
+          "mean": 0.0317362815878975,
+          "median": 0.031929125145931415,
+          "min": 0.029455933370627463,
+          "max": 0.032442156555286296,
+          "sd": 0.0008457796858313792
+        }
+      },
+      "max_rss_mb": {
+        "mean": 322.0421875,
+        "median": 322.1171875,
+        "min": 321.2734375,
+        "max": 322.2109375,
+        "sd": 0.2857282362665615
+      }
+    },
+    "c1_no_visual": {
+      "n_runs": 10,
+      "seeds": [
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2409,
+        2410
+      ],
+      "completed": 10,
+      "metrics": {
+        "total_actions": {
+          "mean": 115.6,
+          "median": 63.5,
+          "min": 14.0,
+          "max": 261.0,
+          "sd": 98.53617497030102
+        },
+        "actions_per_minute": {
+          "mean": 23.119999999999997,
+          "median": 12.7,
+          "min": 2.8,
+          "max": 52.2,
+          "sd": 19.707234994060205
+        },
+        "idle_fraction": {
+          "mean": 0.9229333333333333,
+          "median": 0.9576666666666667,
+          "min": 0.826,
+          "max": 0.9906666666666667,
+          "sd": 0.06569078331353403
+        },
+        "directional_actions": {
+          "mean": 114.8,
+          "median": 63.0,
+          "min": 13.0,
+          "max": 261.0,
+          "sd": 98.63603127998745
+        },
+        "a_presses": {
+          "mean": 0.8,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 3.0,
+          "sd": 1.0327955589886446
+        },
+        "successful_moves": {
+          "mean": 31.7,
+          "median": 9.0,
+          "min": 0.0,
+          "max": 97.0,
+          "sd": 38.594904672335524
+        },
+        "blocked_moves": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "map_changes": {
+          "mean": 0.7,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 2.0,
+          "sd": 0.674948557710553
+        },
+        "direction_changes": {
+          "mean": 38.7,
+          "median": 22.5,
+          "min": 0.0,
+          "max": 94.0,
+          "sd": 36.53628333588407
+        },
+        "locomotion_entropy_bits": {
+          "mean": 1.006335952203964,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.3921472236645345,
+          "sd": 0.38068651246038504
+        },
+        "action_entropy_bits": {
+          "mean": 0.42336743016282136,
+          "median": 0.2916079006389929,
+          "min": 0.07980527902578438,
+          "max": 0.8237295470622836,
+          "sd": 0.28148436070944577
+        },
+        "unique_tiles": {
+          "mean": 10.1,
+          "median": 10.0,
+          "min": 1.0,
+          "max": 13.0,
+          "sd": 3.446415206816755
+        },
+        "unique_maps": {
+          "mean": 1.6,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 2.0,
+          "sd": 0.5163977794943223
+        },
+        "revisit_rate": {
+          "mean": 0.2595188181324915,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.8762886597938144,
+          "sd": 0.41789478785953693
+        },
+        "loop_fraction": {
+          "mean": 0.6459333333333335,
+          "median": 0.75,
+          "min": 0.248,
+          "max": 0.9973333333333333,
+          "sd": 0.25289620180795297
+        },
+        "best_milestone_index": {
+          "mean": 2.1,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 6.0,
+          "sd": 1.449137674618944
+        }
+      },
+      "loop_flags": {
+        "wall_bump": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "lr_oscillation": {
+          "mean": 0.07666666666666666,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.318,
+          "sd": 0.12792822061464637
+        },
+        "ud_oscillation": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "menu_loop": {
+          "mean": 0.08446666666666666,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.8446666666666667,
+          "sd": 0.2671070530288891
+        },
+        "a_spam": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "inactivity": {
+          "mean": 0.5699333333333334,
+          "median": 0.75,
+          "min": 0.014,
+          "max": 0.9866666666666667,
+          "sd": 0.36756609550923114
+        }
+      },
+      "milestone_rate": {
+        "M0": 1.0,
+        "M1": 0.9,
+        "M2": 0.6,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.1,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "milestone_first_decision": {
+        "M0": [
+          248,
+          270,
+          328,
+          55,
+          1215,
+          58,
+          278,
+          252,
+          172,
+          30
+        ],
+        "M1": [
+          39,
+          17,
+          22,
+          6,
+          null,
+          2,
+          50,
+          35,
+          29,
+          5
+        ],
+        "M2": [
+          498,
+          423,
+          490,
+          null,
+          null,
+          null,
+          1493,
+          604,
+          385,
+          null
+        ],
+        "M3": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M4": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M5": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M6": [
+          null,
+          null,
+          null,
+          null,
+          214,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M7": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M8": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "action_totals": {
+        "NONE": 13844,
+        "LEFT": 606,
+        "RIGHT": 409,
+        "UP": 133,
+        "A": 8,
+        "DOWN": 0,
+        "B": 0,
+        "START": 0,
+        "SELECT": 0
+      },
+      "maps_visited": [
+        "RedsHouse1F",
+        "RedsHouse2F"
+      ],
+      "wall_s": {
+        "mean": 143.0990522935055,
+        "median": 143.2151395694964,
+        "min": 140.1551077150216,
+        "max": 146.6173483330058,
+        "sd": 1.9090448656054835
+      },
+      "decisions_per_s": {
+        "mean": 10.483925881049847,
+        "median": 10.473800820260582,
+        "min": 10.230712920773286,
+        "max": 10.702428362796175,
+        "sd": 0.13962093202855239
+      },
+      "stage_ms_per_decision": {
+        "emulator": {
+          "mean": 3.2725047809712122,
+          "median": 3.1200123503125115,
+          "min": 3.0850332059004963,
+          "max": 4.528557682254662,
+          "sd": 0.44409586740426454
+        },
+        "t4": {
+          "mean": 62.330471199465684,
+          "median": 62.555850392634355,
+          "min": 61.19206216446279,
+          "max": 63.06884839059785,
+          "sd": 0.6621569567732712
+        },
+        "brain": {
+          "mean": 28.219365699903573,
+          "median": 28.145221757780142,
+          "min": 27.592842594739825,
+          "max": 28.948418745674037,
+          "sd": 0.4888703531507155
+        },
+        "controller": {
+          "mean": 0.3344187287012271,
+          "median": 0.336150788362526,
+          "min": 0.3267710479946497,
+          "max": 0.33959547731016454,
+          "sd": 0.004244539717873006
+        },
+        "evaluator": {
+          "mean": 0.06298716229114992,
+          "median": 0.06324028555536643,
+          "min": 0.05848848804210623,
+          "max": 0.06479489605408162,
+          "sd": 0.0018271579423294673
+        }
+      },
+      "max_rss_mb": {
+        "mean": 1381.3296875,
+        "median": 1386.609375,
+        "min": 1317.9140625,
+        "max": 1393.5390625,
+        "sd": 22.659114940986864
+      }
+    },
+    "c2_shuffled_geometry": {
+      "n_runs": 10,
+      "seeds": [
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2409,
+        2410
+      ],
+      "completed": 10,
+      "metrics": {
+        "total_actions": {
+          "mean": 121.0,
+          "median": 71.0,
+          "min": 22.0,
+          "max": 261.0,
+          "sd": 96.61952873686216
+        },
+        "actions_per_minute": {
+          "mean": 24.2,
+          "median": 14.2,
+          "min": 4.4,
+          "max": 52.2,
+          "sd": 19.323905747372432
+        },
+        "idle_fraction": {
+          "mean": 0.9193333333333333,
+          "median": 0.9526666666666667,
+          "min": 0.826,
+          "max": 0.9853333333333333,
+          "sd": 0.0644130191579081
+        },
+        "directional_actions": {
+          "mean": 119.7,
+          "median": 68.5,
+          "min": 21.0,
+          "max": 261.0,
+          "sd": 97.24545119324492
+        },
+        "a_presses": {
+          "mean": 1.3,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 4.0,
+          "sd": 1.2516655570345725
+        },
+        "successful_moves": {
+          "mean": 40.5,
+          "median": 11.0,
+          "min": 0.0,
+          "max": 135.0,
+          "sd": 52.510845440621964
+        },
+        "blocked_moves": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "map_changes": {
+          "mean": 0.7,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 2.0,
+          "sd": 0.674948557710553
+        },
+        "direction_changes": {
+          "mean": 47.2,
+          "median": 31.0,
+          "min": 0.0,
+          "max": 120.0,
+          "sd": 42.15263271071505
+        },
+        "locomotion_entropy_bits": {
+          "mean": 1.0670260597783527,
+          "median": 1.1710006495602745,
+          "min": 0.0,
+          "max": 1.3921472236645345,
+          "sd": 0.4046871473645966
+        },
+        "action_entropy_bits": {
+          "mean": 0.44975631433555574,
+          "median": 0.3281445772672753,
+          "min": 0.11425543544566659,
+          "max": 0.8464269349291995,
+          "sd": 0.2751357530198577
+        },
+        "unique_tiles": {
+          "mean": 10.9,
+          "median": 11.5,
+          "min": 1.0,
+          "max": 15.0,
+          "sd": 3.956710193526379
+        },
+        "unique_maps": {
+          "mean": 1.6,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 2.0,
+          "sd": 0.5163977794943223
+        },
+        "revisit_rate": {
+          "mean": 0.27312022211801135,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.9111111111111111,
+          "sd": 0.4200580271100432
+        },
+        "loop_fraction": {
+          "mean": 0.6534666666666666,
+          "median": 0.7010000000000001,
+          "min": 0.318,
+          "max": 0.966,
+          "sd": 0.18786856450951073
+        },
+        "best_milestone_index": {
+          "mean": 2.1,
+          "median": 2.0,
+          "min": 1.0,
+          "max": 6.0,
+          "sd": 1.449137674618944
+        }
+      },
+      "loop_flags": {
+        "wall_bump": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "lr_oscillation": {
+          "mean": 0.11986666666666665,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.5573333333333333,
+          "sd": 0.20371677264474353
+        },
+        "ud_oscillation": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "menu_loop": {
+          "mean": 0.017066666666666667,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.17066666666666666,
+          "sd": 0.05396953873354034
+        },
+        "a_spam": {
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "inactivity": {
+          "mean": 0.5388666666666666,
+          "median": 0.7010000000000001,
+          "min": 0.032,
+          "max": 0.9553333333333334,
+          "sd": 0.35019741169873575
+        }
+      },
+      "milestone_rate": {
+        "M0": 1.0,
+        "M1": 0.9,
+        "M2": 0.6,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.1,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "milestone_first_decision": {
+        "M0": [
+          341,
+          147,
+          117,
+          74,
+          1225,
+          56,
+          235,
+          186,
+          314,
+          37
+        ],
+        "M1": [
+          40,
+          3,
+          11,
+          19,
+          null,
+          2,
+          20,
+          40,
+          31,
+          5
+        ],
+        "M2": [
+          352,
+          315,
+          350,
+          null,
+          null,
+          null,
+          685,
+          582,
+          622,
+          null
+        ],
+        "M3": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M4": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M5": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M6": [
+          null,
+          null,
+          null,
+          null,
+          1225,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M7": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "M8": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "action_totals": {
+        "NONE": 13790,
+        "LEFT": 579,
+        "RIGHT": 463,
+        "UP": 155,
+        "A": 13,
+        "DOWN": 0,
+        "B": 0,
+        "START": 0,
+        "SELECT": 0
+      },
+      "maps_visited": [
+        "RedsHouse1F",
+        "RedsHouse2F"
+      ],
+      "wall_s": {
+        "mean": 242.94807082719927,
+        "median": 245.8227024254884,
+        "min": 225.97706986998674,
+        "max": 253.16518723301124,
+        "sd": 9.444426224290826
+      },
+      "decisions_per_s": {
+        "mean": 6.182762345724598,
+        "median": 6.10265401839546,
+        "min": 5.924985249332136,
+        "max": 6.637841621997344,
+        "sd": 0.24602246102311787
+      },
+      "stage_ms_per_decision": {
+        "emulator": {
+          "mean": 3.171670277422527,
+          "median": 3.171595663035987,
+          "min": 3.0051300633931533,
+          "max": 3.404213395959232,
+          "sd": 0.10858567389366755
+        },
+        "t4": {
+          "mean": 62.87406821327362,
+          "median": 63.085888814161684,
+          "min": 61.25461238172526,
+          "max": 64.1655920004705,
+          "sd": 0.9642192891726297
+        },
+        "brain": {
+          "mean": 93.90910371604647,
+          "median": 96.00890359323239,
+          "min": 83.94284544879338,
+          "max": 99.64807760868764,
+          "sd": 5.8024981480594295
+        },
+        "controller": {
+          "mean": 0.3260421441906753,
+          "median": 0.3205640597443562,
+          "min": 0.31409465661272407,
+          "max": 0.3484728239127435,
+          "sd": 0.01212107446041138
+        },
+        "evaluator": {
+          "mean": 0.057757715638338904,
+          "median": 0.05600386821121599,
+          "min": 0.051773224103574954,
+          "max": 0.06744754820829257,
+          "sd": 0.004923044445839348
+        }
+      },
+      "max_rss_mb": {
+        "mean": 1380.15078125,
+        "median": 1388.69921875,
+        "min": 1317.828125,
+        "max": 1388.69921875,
+        "sd": 22.125114652309065
+      }
+    }
+  },
+  "in_loop_verification": {
+    "gen0": {
+      "mean_injected_t4_cells_per_decision": 273.57966666666664,
+      "mean_t4_response": 0.005236351173911689,
+      "sensory_hashes": [
+        "87829806e398f66b49b6b5e68be210a4a38baf909b22e15bfa7ad6df5a28ea76"
+      ],
+      "injection_enabled": true
+    },
+    "c1_no_visual": {
+      "mean_injected_t4_cells_per_decision": 0.0,
+      "mean_t4_response": 0.005535536430629803,
+      "sensory_hashes": [
+        "87829806e398f66b49b6b5e68be210a4a38baf909b22e15bfa7ad6df5a28ea76"
+      ],
+      "injection_enabled": false
+    },
+    "c2_shuffled_geometry": {
+      "mean_injected_t4_cells_per_decision": 546.1722666666667,
+      "mean_t4_response": 0.006587056504460206,
+      "sensory_hashes": [
+        "67e5db6f451c54b9c2bcc399dd1d2ae1081a5751873e9939984c3ba8d2177a4c",
+        "95dfbf25dc1db5be8c35e61e111829af85d73336d73f92bde66de413af5c80e9",
+        "a4dd05e2ed5540ab5613fe93c390fbcb8b56f982661f2671940126b74616b255",
+        "c352dc3febe7d5e53d295f3f04238a96960a5601a5342efe252a68d709daf2a8",
+        "cb22121eaa690c7908d4c9fd994e8b5bb687890966ab3df8eecbacf638f6b7fe",
+        "cbd776a5590b7a11143452aec0051d1572335d811d718497e6b90c9ac107df51",
+        "d0e6b9914e1e0d1f4a8093569ace554896dabc5632dc81a501ca7ce144bf36ad",
+        "e7202e85bf75714c8106ee3789701015e0df4c8fc547f83f6f06703737a76fca",
+        "ec96c55f9181587a09d9db2a115ebb0603e61ab115d53a8eedd1ff3d2341de5d",
+        "ffe0350435d50e97b601b8eb74bb7172e8841e65bbc2231adb80868c7f893b5f"
+      ],
+      "injection_enabled": true
+    }
+  },
+  "paired_comparisons": {
+    "c0_random": {
+      "unique_tiles": {
+        "gen0_mean": 11.5,
+        "control_mean": 22.6,
+        "mean_difference": -11.1,
+        "gen0_better_seeds": 0,
+        "ties": 0,
+        "exact_sign_flip_p": 0.001953125,
+        "n": 10
+      },
+      "successful_moves": {
+        "gen0_mean": 37.9,
+        "control_mean": 83.5,
+        "mean_difference": -45.6,
+        "gen0_better_seeds": 3,
+        "ties": 0,
+        "exact_sign_flip_p": 0.015625,
+        "n": 10
+      },
+      "loop_fraction": {
+        "gen0_mean": 0.6447333333333333,
+        "control_mean": 0.7040666666666666,
+        "mean_difference": -0.059333333333333314,
+        "gen0_better_seeds": 5,
+        "ties": 0,
+        "exact_sign_flip_p": 0.423828125,
+        "n": 10
+      },
+      "best_milestone_index": {
+        "gen0_mean": 2.2,
+        "control_mean": 1.6,
+        "mean_difference": 0.6,
+        "gen0_better_seeds": 3,
+        "ties": 6,
+        "exact_sign_flip_p": 0.5,
+        "n": 10
+      },
+      "unique_maps": {
+        "gen0_mean": 1.7,
+        "control_mean": 1.6,
+        "mean_difference": 0.1,
+        "gen0_better_seeds": 2,
+        "ties": 7,
+        "exact_sign_flip_p": 1.0,
+        "n": 10
+      }
+    },
+    "c1_no_visual": {
+      "unique_tiles": {
+        "gen0_mean": 11.5,
+        "control_mean": 10.1,
+        "mean_difference": 1.4,
+        "gen0_better_seeds": 4,
+        "ties": 6,
+        "exact_sign_flip_p": 0.125,
+        "n": 10
+      },
+      "successful_moves": {
+        "gen0_mean": 37.9,
+        "control_mean": 31.7,
+        "mean_difference": 6.2,
+        "gen0_better_seeds": 5,
+        "ties": 5,
+        "exact_sign_flip_p": 0.0625,
+        "n": 10
+      },
+      "loop_fraction": {
+        "gen0_mean": 0.6447333333333333,
+        "control_mean": 0.6459333333333335,
+        "mean_difference": -0.001200000000000001,
+        "gen0_better_seeds": 7,
+        "ties": 0,
+        "exact_sign_flip_p": 0.966796875,
+        "n": 10
+      },
+      "best_milestone_index": {
+        "gen0_mean": 2.2,
+        "control_mean": 2.1,
+        "mean_difference": 0.1,
+        "gen0_better_seeds": 1,
+        "ties": 9,
+        "exact_sign_flip_p": 1.0,
+        "n": 10
+      },
+      "unique_maps": {
+        "gen0_mean": 1.7,
+        "control_mean": 1.6,
+        "mean_difference": 0.1,
+        "gen0_better_seeds": 1,
+        "ties": 9,
+        "exact_sign_flip_p": 1.0,
+        "n": 10
+      }
+    },
+    "c2_shuffled_geometry": {
+      "unique_tiles": {
+        "gen0_mean": 11.5,
+        "control_mean": 10.9,
+        "mean_difference": 0.6,
+        "gen0_better_seeds": 2,
+        "ties": 6,
+        "exact_sign_flip_p": 0.75,
+        "n": 10
+      },
+      "successful_moves": {
+        "gen0_mean": 37.9,
+        "control_mean": 40.5,
+        "mean_difference": -2.6,
+        "gen0_better_seeds": 0,
+        "ties": 7,
+        "exact_sign_flip_p": 0.25,
+        "n": 10
+      },
+      "loop_fraction": {
+        "gen0_mean": 0.6447333333333333,
+        "control_mean": 0.6534666666666666,
+        "mean_difference": -0.008733333333333333,
+        "gen0_better_seeds": 4,
+        "ties": 0,
+        "exact_sign_flip_p": 0.751953125,
+        "n": 10
+      },
+      "best_milestone_index": {
+        "gen0_mean": 2.2,
+        "control_mean": 2.1,
+        "mean_difference": 0.1,
+        "gen0_better_seeds": 1,
+        "ties": 9,
+        "exact_sign_flip_p": 1.0,
+        "n": 10
+      },
+      "unique_maps": {
+        "gen0_mean": 1.7,
+        "control_mean": 1.6,
+        "mean_difference": 0.1,
+        "gen0_better_seeds": 1,
+        "ties": 9,
+        "exact_sign_flip_p": 1.0,
+        "n": 10
+      }
+    }
+  },
+  "action_identity_vs_gen0": {
+    "c1_no_visual": {
+      "mean_fraction_identical_actions": 0.9406000000000001,
+      "per_seed": [
+        0.9486666666666667,
+        0.962,
+        0.9586666666666667,
+        0.8793333333333333,
+        0.9906666666666667,
+        0.914,
+        0.9653333333333334,
+        0.954,
+        0.952,
+        0.8813333333333333
+      ]
+    },
+    "c2_shuffled_geometry": {
+      "mean_fraction_identical_actions": 0.9406666666666667,
+      "per_seed": [
+        0.9586666666666667,
+        0.96,
+        0.9606666666666667,
+        0.882,
+        0.9853333333333333,
+        0.9053333333333333,
+        0.968,
+        0.958,
+        0.9513333333333334,
+        0.8773333333333333
+      ]
+    }
+  },
+  "best_baseline_run": {
+    "seed": 2404,
+    "selection": "most milestones reached, then unique tiles, then successful moves",
+    "metrics": {
+      "decisions": 1500,
+      "total_actions": 246,
+      "actions_per_minute": 49.2,
+      "action_counts": {
+        "NONE": 1254,
+        "LEFT": 175,
+        "UP": 15,
+        "RIGHT": 55,
+        "A": 1
+      },
+      "directional_actions": 245,
+      "a_presses": 1,
+      "b_presses": 0,
+      "start_presses": 0,
+      "select_presses": 0,
+      "idle_fraction": 0.836,
+      "successful_moves": 114,
+      "map_changes": 2,
+      "blocked_moves": 0,
+      "direction_changes": 105,
+      "locomotion_entropy_bits": 1.218485728458375,
+      "action_entropy_bits": 0.8260058418616443,
+      "unique_tiles": 23,
+      "unique_maps": 2,
+      "maps_visited": [
+        "RedsHouse1F",
+        "RedsHouse2F"
+      ],
+      "revisit_rate": 0.8070175438596491,
+      "loop_fraction": 0.37333333333333335,
+      "loop_flag_fractions": {
+        "wall_bump": 0.0,
+        "lr_oscillation": 0.3,
+        "ud_oscillation": 0.0,
+        "menu_loop": 0.0,
+        "a_spam": 0.0,
+        "inactivity": 0.10466666666666667
+      },
+      "milestones": {
+        "M0": 74,
+        "M1": 9,
+        "M2": 910,
+        "M3": null,
+        "M4": null,
+        "M5": null,
+        "M6": null,
+        "M7": null,
+        "M8": null
+      },
+      "best_milestone": "M2",
+      "best_milestone_index": 2
+    },
+    "milestone_events": [
+      [
+        9,
+        "M1"
+      ],
+      [
+        74,
+        "M0"
+      ],
+      [
+        910,
+        "M2"
+      ]
+    ],
+    "note": "Generation-0 baseline run with the highest milestone; not a champion; nothing tuned on it"
+  },
+  "parallel": {
+    "1": {
+      "instances": 1,
+      "per_instance_decisions_per_s": {
+        "mean": 5.869372714319062,
+        "median": 5.869372714319062,
+        "min": 5.869372714319062,
+        "max": 5.869372714319062,
+        "sd": 0.0
+      },
+      "aggregate_decisions_per_s": 5.869372714319062,
+      "aggregate_speed_vs_realtime": 1.1738745428638124,
+      "per_instance_stage_ms": {
+        "emulator": 3.0660627596080303,
+        "t4": 62.41131391356854,
+        "brain": 100.19655832535743,
+        "controller": 0.3264152937723945
+      },
+      "max_rss_mb": 1314.75
+    },
+    "2": {
+      "instances": 2,
+      "per_instance_decisions_per_s": {
+        "mean": 5.8980303749726595,
+        "median": 5.8980303749726595,
+        "min": 5.7886662316884285,
+        "max": 6.007394518256891,
+        "sd": 0.15466425466987446
+      },
+      "aggregate_decisions_per_s": 11.796060749945319,
+      "aggregate_speed_vs_realtime": 2.359212149989064,
+      "per_instance_stage_ms": {
+        "emulator": 3.0785534654084286,
+        "t4": 62.259787419364635,
+        "brain": 99.56627046340145,
+        "controller": 0.3229153240681626
+      },
+      "max_rss_mb": 1314.98046875
+    },
+    "4": {
+      "instances": 4,
+      "per_instance_decisions_per_s": {
+        "mean": 5.703608771170349,
+        "median": 5.697991914913686,
+        "min": 5.66496352462733,
+        "max": 5.753487730226696,
+        "sd": 0.038661353263693875
+      },
+      "aggregate_decisions_per_s": 22.8144350846814,
+      "aggregate_speed_vs_realtime": 4.56288701693628,
+      "per_instance_stage_ms": {
+        "emulator": 3.184306959204453,
+        "t4": 63.534629513160326,
+        "brain": 103.55875312593221,
+        "controller": 0.35090210076305084
+      },
+      "max_rss_mb": 1315.0625
+    },
+    "8": {
+      "instances": 8,
+      "per_instance_decisions_per_s": {
+        "mean": 4.520897853473926,
+        "median": 4.510840993628067,
+        "min": 4.452323804861249,
+        "max": 4.599497616058047,
+        "sd": 0.060031037796623464
+      },
+      "aggregate_decisions_per_s": 36.1671828277914,
+      "aggregate_speed_vs_realtime": 7.23343656555828,
+      "per_instance_stage_ms": {
+        "emulator": 3.6687395185678424,
+        "t4": 69.6928343536274,
+        "brain": 140.88502234718666,
+        "controller": 0.35638083376397844
+      },
+      "max_rss_mb": 1312.87890625
+    }
+  },
+  "gpu_memory": {
+    "1": {
+      "return_codes": [
+        0
+      ],
+      "wall_s": 44.67780806301744,
+      "peak_gpu_mem_mib": 359.0,
+      "mean_gpu_util_pct": 5.2727272727272725
+    },
+    "2": {
+      "return_codes": [
+        0,
+        0
+      ],
+      "wall_s": 44.757550573995104,
+      "peak_gpu_mem_mib": 715.0,
+      "mean_gpu_util_pct": 18.318181818181817
+    },
+    "4": {
+      "return_codes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "wall_s": 54.92454089401872,
+      "peak_gpu_mem_mib": 1429.0,
+      "mean_gpu_util_pct": 32.81481481481482
+    },
+    "8": {
+      "return_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "wall_s": 59.0523866120202,
+      "peak_gpu_mem_mib": 2857.0,
+      "mean_gpu_util_pct": 50.48275862068966
+    }
+  },
+  "replay": {
+    "seed": 2401,
+    "horizon": 200,
+    "identical": true,
+    "first_divergence": null,
+    "actions": [
+      {
+        "null": 193,
+        "RIGHT": 3,
+        "UP": 4
+      },
+      {
+        "null": 193,
+        "RIGHT": 3,
+        "UP": 4
+      }
+    ],
+    "cross_process": {
+      "horizon": 300,
+      "identical_to_batch_log": true,
+      "first_divergence": null,
+      "note": "fresh process vs the benchmark episode log (benchmark ran with 3 concurrent processes)"
+    }
+  },
+  "readiness": {
+    "decision": "READY WITH CAVEATS",
+    "gate": {
+      "all_episodes_completed": true,
+      "runs_per_condition": {
+        "gen0": 10,
+        "c0_random": 10,
+        "c1_no_visual": 10,
+        "c2_shuffled_geometry": 10
+      },
+      "t4_in_loop": true,
+      "c1_no_injection": true,
+      "guard_never_tripped": true,
+      "controls_completed": true,
+      "throughput_measured": true,
+      "replay_identical": true
+    },
+    "caveats": [
+      "gen0 actions are largely identical to the no-visual control: the frozen T4 injection barely changes DN output, so current behaviour is dominated by the downstream network, not vision",
+      "the frozen E14 action set has DOWN disabled; RedsHouse1F's exit is at the bottom of the room, so no condition (including random) can reach Pallet Town: progress is capped at M2 by the action space, not by vision",
+      "Generation 0 explores fewer tiles than matched-rate random actions"
+    ]
+  }
+}

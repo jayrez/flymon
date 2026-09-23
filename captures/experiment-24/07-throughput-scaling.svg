@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="256" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp24 closed-loop decisions/s vs concurrent instances (real time = 5 decisions/s)</text>
+<line x1="300.0" y1="34" x2="300.0" y2="248" stroke="#999"/>
+<line x1="369.1" y1="34" x2="369.1" y2="248" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="292" y="50" text-anchor="end" font-size="11">1 instance(s) aggregate</text>
+<rect x="300.0" y="38" width="81.1" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+5.8694</text>
+<text x="292" y="74" text-anchor="end" font-size="11">2 instance(s) aggregate</text>
+<rect x="300.0" y="62" width="163.1" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+11.7961</text>
+<text x="292" y="98" text-anchor="end" font-size="11">4 instance(s) aggregate</text>
+<rect x="300.0" y="86" width="315.4" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+22.8144</text>
+<text x="292" y="122" text-anchor="end" font-size="11">8 instance(s) aggregate</text>
+<rect x="300.0" y="110" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+36.1672</text>
+<text x="292" y="146" text-anchor="end" font-size="11">1 instance(s) per-instance</text>
+<rect x="300.0" y="134" width="81.1" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+5.8694</text>
+<text x="292" y="170" text-anchor="end" font-size="11">2 instance(s) per-instance</text>
+<rect x="300.0" y="158" width="81.5" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+5.8980</text>
+<text x="292" y="194" text-anchor="end" font-size="11">4 instance(s) per-instance</text>
+<rect x="300.0" y="182" width="78.9" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+5.7036</text>
+<text x="292" y="218" text-anchor="end" font-size="11">8 instance(s) per-instance</text>
+<rect x="300.0" y="206" width="62.5" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+4.5209</text>
+</svg>

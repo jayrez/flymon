@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="304" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp24 Gen0 vs C0 random (means over matched seeds)</text>
+<line x1="300.0" y1="34" x2="300.0" y2="296" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">unique_tiles Gen0</text>
+<rect x="300.0" y="38" width="68.9" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+11.5000</text>
+<text x="292" y="74" text-anchor="end" font-size="11">successful_moves Gen0</text>
+<rect x="300.0" y="62" width="226.9" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+37.9000</text>
+<text x="292" y="98" text-anchor="end" font-size="11">loop_fraction Gen0</text>
+<rect x="300.0" y="86" width="3.9" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.6447</text>
+<text x="292" y="122" text-anchor="end" font-size="11">best_milestone_index Gen0</text>
+<rect x="300.0" y="110" width="13.2" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+2.2000</text>
+<text x="292" y="146" text-anchor="end" font-size="11">unique_maps Gen0</text>
+<rect x="300.0" y="134" width="10.2" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+1.7000</text>
+<text x="292" y="170" text-anchor="end" font-size="11">unique_tiles C0 random</text>
+<rect x="300.0" y="158" width="135.3" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+22.6000</text>
+<text x="292" y="194" text-anchor="end" font-size="11">successful_moves C0 random</text>
+<rect x="300.0" y="182" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+83.5000</text>
+<text x="292" y="218" text-anchor="end" font-size="11">loop_fraction C0 random</text>
+<rect x="300.0" y="206" width="4.2" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+0.7041</text>
+<text x="292" y="242" text-anchor="end" font-size="11">best_milestone_index C0 random</text>
+<rect x="300.0" y="230" width="9.6" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+1.6000</text>
+<text x="292" y="266" text-anchor="end" font-size="11">unique_maps C0 random</text>
+<rect x="300.0" y="254" width="9.6" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+1.6000</text>
+</svg>

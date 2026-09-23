@@ -1,0 +1,73 @@
+{
+  "frozen_sensory_model": {
+    "e23_commit": "e6a88c5ae2272aad4ace8d8885cd8d55854b771d",
+    "model": {
+      "level": "E23",
+      "reference": "fixed",
+      "background": 0.5,
+      "adapt": 40,
+      "G": 16.0,
+      "beta": 2.0,
+      "r0_exc": 1.0,
+      "r0_mi9": 0.0,
+      "r0_mi4": 0.0,
+      "E_inh": -0.2,
+      "tau_fast": 4.0,
+      "tau_slow": 12.0,
+      "drop": [
+        "Mi9"
+      ],
+      "membrane_cold": false
+    },
+    "constants": {
+      "sigma_source": "E21 selected-config constants",
+      "g_leak": 1.0,
+      "E_leak": 0.0,
+      "E_exc": 1.0,
+      "c_mem": 1.0
+    },
+    "sigma": 0.22038561487267905,
+    "M": 0.142424245364964,
+    "chemistry": {
+      "Mi1": "exc",
+      "Mi4": "inh",
+      "Mi9": "inh",
+      "Tm1": "exc",
+      "Tm2": "exc",
+      "Tm9": "exc"
+    },
+    "L0_measured": 0.4969330430030823,
+    "geometry": "native",
+    "n_t4": 6845,
+    "input_classes": [
+      "Mi1",
+      "Mi4",
+      "Tm1",
+      "Tm2",
+      "Tm9"
+    ],
+    "t5": "not represented; T5 direction selectivity unresolved",
+    "sha256": "87829806e398f66b49b6b5e68be210a4a38baf909b22e15bfa7ad6df5a28ea76"
+  },
+  "injection": {
+    "gain": 2.04902873884378,
+    "cap": 0.8,
+    "levels": 16,
+    "target": "MaleCNS T4a-d (E18 audit records)"
+  },
+  "boundary": {
+    "frozen": [
+      "E23 T4 model parameters (FROZEN_E23_CONFIG)",
+      "Mi1/Mi4/Tm projection weights and geometry",
+      "temporal constants",
+      "ON/OFF polarity",
+      "fixed-reference preprocessing and L0",
+      "T4 -> FlyBrain injection gain / cap / levels"
+    ],
+    "evolvable_in_future": [
+      "downstream readout from T4 / DN / population rates to actions",
+      "action arbitration, cooldowns, hold durations",
+      "which frozen neural signals the readout may observe"
+    ]
+  }
+}
