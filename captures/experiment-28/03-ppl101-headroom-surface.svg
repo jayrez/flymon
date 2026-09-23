@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E28 PPL101 response to fixed DAN amplitude 0.3 (pp duty); R4_PPL1 needs &gt;= 10</text>
+<text x="205.0" y="62" text-anchor="middle" font-size="12">APL x3</text>
+<text x="315.0" y="62" text-anchor="middle" font-size="12">APL x4</text>
+<text x="425.0" y="62" text-anchor="middle" font-size="12">APL x5</text>
+<text x="535.0" y="62" text-anchor="middle" font-size="12">APL x6</text>
+<text x="645.0" y="62" text-anchor="middle" font-size="12">APL x8</text>
+<text x="142" y="102.0" text-anchor="end" font-size="12">20 ms (1 st)</text>
+<rect x="150" y="70" width="108" height="54" fill="rgb(245,248,255)" stroke="#fff" stroke-width="1"/>
+<text x="205.0" y="102.0" text-anchor="middle" font-size="13">+0.7</text>
+<rect x="260" y="70" width="108" height="54" fill="rgb(70,126,176)" stroke="#1e8449" stroke-width="4"/>
+<text x="315.0" y="102.0" text-anchor="middle" font-size="13">+12.5</text>
+<rect x="370" y="70" width="108" height="54" fill="rgb(122,162,199)" stroke="#fff" stroke-width="1"/>
+<text x="425.0" y="102.0" text-anchor="middle" font-size="13">+9.0</text>
+<rect x="480" y="70" width="108" height="54" fill="rgb(112,155,195)" stroke="#fff" stroke-width="1"/>
+<text x="535.0" y="102.0" text-anchor="middle" font-size="13">+9.7</text>
+<rect x="590" y="70" width="108" height="54" fill="rgb(47,109,166)" stroke="#1e8449" stroke-width="4"/>
+<text x="645.0" y="102.0" text-anchor="middle" font-size="13">+14.1</text>
+<text x="142" y="158.0" text-anchor="end" font-size="12">40 ms (2 st)</text>
+<rect x="150" y="126" width="108" height="54" fill="rgb(107,151,193)" stroke="#1e8449" stroke-width="4"/>
+<text x="205.0" y="158.0" text-anchor="middle" font-size="13">+10.0</text>
+<rect x="260" y="126" width="108" height="54" fill="rgb(125,164,201)" stroke="#fff" stroke-width="1"/>
+<text x="315.0" y="158.0" text-anchor="middle" font-size="13">+8.8</text>
+<rect x="370" y="126" width="108" height="54" fill="rgb(130,168,203)" stroke="#fff" stroke-width="1"/>
+<text x="425.0" y="158.0" text-anchor="middle" font-size="13">+8.4</text>
+<rect x="480" y="126" width="108" height="54" fill="rgb(124,163,200)" stroke="#fff" stroke-width="1"/>
+<text x="535.0" y="158.0" text-anchor="middle" font-size="13">+8.8</text>
+<rect x="590" y="126" width="108" height="54" fill="rgb(74,128,178)" stroke="#1e8449" stroke-width="4"/>
+<text x="645.0" y="158.0" text-anchor="middle" font-size="13">+12.2</text>
+<text x="142" y="214.0" text-anchor="end" font-size="12">60 ms (3 st)</text>
+<rect x="150" y="182" width="108" height="54" fill="rgb(71,126,177)" stroke="#1e8449" stroke-width="4"/>
+<text x="205.0" y="214.0" text-anchor="middle" font-size="13">+12.4</text>
+<rect x="260" y="182" width="108" height="54" fill="rgb(45,108,165)" stroke="#1e8449" stroke-width="4"/>
+<text x="315.0" y="214.0" text-anchor="middle" font-size="13">+14.2</text>
+<rect x="370" y="182" width="108" height="54" fill="rgb(74,128,178)" stroke="#1e8449" stroke-width="4"/>
+<text x="425.0" y="214.0" text-anchor="middle" font-size="13">+12.2</text>
+<rect x="480" y="182" width="108" height="54" fill="rgb(79,132,180)" stroke="#1e8449" stroke-width="4"/>
+<text x="535.0" y="214.0" text-anchor="middle" font-size="13">+11.9</text>
+<rect x="590" y="182" width="108" height="54" fill="rgb(79,132,180)" stroke="#1e8449" stroke-width="4"/>
+<text x="645.0" y="214.0" text-anchor="middle" font-size="13">+11.9</text>
+<text x="142" y="270.0" text-anchor="end" font-size="12">80 ms (4 st)</text>
+<rect x="150" y="238" width="108" height="54" fill="rgb(107,151,193)" stroke="#1e8449" stroke-width="4"/>
+<text x="205.0" y="270.0" text-anchor="middle" font-size="13">+10.0</text>
+<rect x="260" y="238" width="108" height="54" fill="rgb(60,119,172)" stroke="#1e8449" stroke-width="4"/>
+<text x="315.0" y="270.0" text-anchor="middle" font-size="13">+13.2</text>
+<rect x="370" y="238" width="108" height="54" fill="rgb(87,138,184)" stroke="#1e8449" stroke-width="4"/>
+<text x="425.0" y="270.0" text-anchor="middle" font-size="13">+11.3</text>
+<rect x="480" y="238" width="108" height="54" fill="rgb(64,121,173)" stroke="#1e8449" stroke-width="4"/>
+<text x="535.0" y="270.0" text-anchor="middle" font-size="13">+12.9</text>
+<rect x="590" y="238" width="108" height="54" fill="rgb(106,150,192)" stroke="#1e8449" stroke-width="4"/>
+<text x="645.0" y="270.0" text-anchor="middle" font-size="13">+10.1</text>
+<text x="142" y="326.0" text-anchor="end" font-size="12">100 ms (5 st)</text>
+<rect x="150" y="294" width="108" height="54" fill="rgb(92,141,186)" stroke="#1e8449" stroke-width="4"/>
+<text x="205.0" y="326.0" text-anchor="middle" font-size="13">+11.0</text>
+<rect x="260" y="294" width="108" height="54" fill="rgb(87,138,184)" stroke="#1e8449" stroke-width="4"/>
+<text x="315.0" y="326.0" text-anchor="middle" font-size="13">+11.3</text>
+<rect x="370" y="294" width="108" height="54" fill="rgb(134,170,205)" stroke="#fff" stroke-width="1"/>
+<text x="425.0" y="326.0" text-anchor="middle" font-size="13">+8.2</text>
+<rect x="480" y="294" width="108" height="54" fill="rgb(141,175,208)" stroke="#fff" stroke-width="1"/>
+<text x="535.0" y="326.0" text-anchor="middle" font-size="13">+7.7</text>
+<rect x="590" y="294" width="108" height="54" fill="rgb(121,161,199)" stroke="#fff" stroke-width="1"/>
+<text x="645.0" y="326.0" text-anchor="middle" font-size="13">+9.1</text>
+<text x="150" y="384" font-size="11">green outline = criterion passes at this point; rows: requested refractory (effective steps); columns: APL output gain</text>
+</svg>

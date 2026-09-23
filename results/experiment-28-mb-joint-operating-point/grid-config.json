@@ -1,0 +1,221 @@
+{
+ "dt_ms": 20.0,
+ "rows": [
+  {
+   "key": "ref20ms|apl3|kcg1|sens1",
+   "requested_refractory_ms": 20.0,
+   "refractory_steps": 1,
+   "effective_refractory_ms": 20.0,
+   "ceiling_hz": 25.0,
+   "apl_gain": 3.0
+  },
+  {
+   "key": "ref20ms|apl4|kcg1|sens1",
+   "requested_refractory_ms": 20.0,
+   "refractory_steps": 1,
+   "effective_refractory_ms": 20.0,
+   "ceiling_hz": 25.0,
+   "apl_gain": 4.0
+  },
+  {
+   "key": "ref20ms|apl5|kcg1|sens1",
+   "requested_refractory_ms": 20.0,
+   "refractory_steps": 1,
+   "effective_refractory_ms": 20.0,
+   "ceiling_hz": 25.0,
+   "apl_gain": 5.0
+  },
+  {
+   "key": "ref20ms|apl6|kcg1|sens1",
+   "requested_refractory_ms": 20.0,
+   "refractory_steps": 1,
+   "effective_refractory_ms": 20.0,
+   "ceiling_hz": 25.0,
+   "apl_gain": 6.0
+  },
+  {
+   "key": "ref20ms|apl8|kcg1|sens1",
+   "requested_refractory_ms": 20.0,
+   "refractory_steps": 1,
+   "effective_refractory_ms": 20.0,
+   "ceiling_hz": 25.0,
+   "apl_gain": 8.0
+  },
+  {
+   "key": "ref40ms|apl3|kcg1|sens1",
+   "requested_refractory_ms": 40.0,
+   "refractory_steps": 2,
+   "effective_refractory_ms": 40.0,
+   "ceiling_hz": 16.666666666666668,
+   "apl_gain": 3.0
+  },
+  {
+   "key": "ref40ms|apl4|kcg1|sens1",
+   "requested_refractory_ms": 40.0,
+   "refractory_steps": 2,
+   "effective_refractory_ms": 40.0,
+   "ceiling_hz": 16.666666666666668,
+   "apl_gain": 4.0
+  },
+  {
+   "key": "ref40ms|apl5|kcg1|sens1",
+   "requested_refractory_ms": 40.0,
+   "refractory_steps": 2,
+   "effective_refractory_ms": 40.0,
+   "ceiling_hz": 16.666666666666668,
+   "apl_gain": 5.0
+  },
+  {
+   "key": "ref40ms|apl6|kcg1|sens1",
+   "requested_refractory_ms": 40.0,
+   "refractory_steps": 2,
+   "effective_refractory_ms": 40.0,
+   "ceiling_hz": 16.666666666666668,
+   "apl_gain": 6.0
+  },
+  {
+   "key": "ref40ms|apl8|kcg1|sens1",
+   "requested_refractory_ms": 40.0,
+   "refractory_steps": 2,
+   "effective_refractory_ms": 40.0,
+   "ceiling_hz": 16.666666666666668,
+   "apl_gain": 8.0
+  },
+  {
+   "key": "ref60ms|apl3|kcg1|sens1",
+   "requested_refractory_ms": 60.0,
+   "refractory_steps": 3,
+   "effective_refractory_ms": 60.0,
+   "ceiling_hz": 12.5,
+   "apl_gain": 3.0
+  },
+  {
+   "key": "ref60ms|apl4|kcg1|sens1",
+   "requested_refractory_ms": 60.0,
+   "refractory_steps": 3,
+   "effective_refractory_ms": 60.0,
+   "ceiling_hz": 12.5,
+   "apl_gain": 4.0
+  },
+  {
+   "key": "ref60ms|apl5|kcg1|sens1",
+   "requested_refractory_ms": 60.0,
+   "refractory_steps": 3,
+   "effective_refractory_ms": 60.0,
+   "ceiling_hz": 12.5,
+   "apl_gain": 5.0
+  },
+  {
+   "key": "ref60ms|apl6|kcg1|sens1",
+   "requested_refractory_ms": 60.0,
+   "refractory_steps": 3,
+   "effective_refractory_ms": 60.0,
+   "ceiling_hz": 12.5,
+   "apl_gain": 6.0
+  },
+  {
+   "key": "ref60ms|apl8|kcg1|sens1",
+   "requested_refractory_ms": 60.0,
+   "refractory_steps": 3,
+   "effective_refractory_ms": 60.0,
+   "ceiling_hz": 12.5,
+   "apl_gain": 8.0
+  },
+  {
+   "key": "ref80ms|apl3|kcg1|sens1",
+   "requested_refractory_ms": 80.0,
+   "refractory_steps": 4,
+   "effective_refractory_ms": 80.0,
+   "ceiling_hz": 10.0,
+   "apl_gain": 3.0
+  },
+  {
+   "key": "ref80ms|apl4|kcg1|sens1",
+   "requested_refractory_ms": 80.0,
+   "refractory_steps": 4,
+   "effective_refractory_ms": 80.0,
+   "ceiling_hz": 10.0,
+   "apl_gain": 4.0
+  },
+  {
+   "key": "ref80ms|apl5|kcg1|sens1",
+   "requested_refractory_ms": 80.0,
+   "refractory_steps": 4,
+   "effective_refractory_ms": 80.0,
+   "ceiling_hz": 10.0,
+   "apl_gain": 5.0
+  },
+  {
+   "key": "ref80ms|apl6|kcg1|sens1",
+   "requested_refractory_ms": 80.0,
+   "refractory_steps": 4,
+   "effective_refractory_ms": 80.0,
+   "ceiling_hz": 10.0,
+   "apl_gain": 6.0
+  },
+  {
+   "key": "ref80ms|apl8|kcg1|sens1",
+   "requested_refractory_ms": 80.0,
+   "refractory_steps": 4,
+   "effective_refractory_ms": 80.0,
+   "ceiling_hz": 10.0,
+   "apl_gain": 8.0
+  },
+  {
+   "key": "ref100ms|apl3|kcg1|sens1",
+   "requested_refractory_ms": 100.0,
+   "refractory_steps": 5,
+   "effective_refractory_ms": 100.0,
+   "ceiling_hz": 8.333333333333334,
+   "apl_gain": 3.0
+  },
+  {
+   "key": "ref100ms|apl4|kcg1|sens1",
+   "requested_refractory_ms": 100.0,
+   "refractory_steps": 5,
+   "effective_refractory_ms": 100.0,
+   "ceiling_hz": 8.333333333333334,
+   "apl_gain": 4.0
+  },
+  {
+   "key": "ref100ms|apl5|kcg1|sens1",
+   "requested_refractory_ms": 100.0,
+   "refractory_steps": 5,
+   "effective_refractory_ms": 100.0,
+   "ceiling_hz": 8.333333333333334,
+   "apl_gain": 5.0
+  },
+  {
+   "key": "ref100ms|apl6|kcg1|sens1",
+   "requested_refractory_ms": 100.0,
+   "refractory_steps": 5,
+   "effective_refractory_ms": 100.0,
+   "ceiling_hz": 8.333333333333334,
+   "apl_gain": 6.0
+  },
+  {
+   "key": "ref100ms|apl8|kcg1|sens1",
+   "requested_refractory_ms": 100.0,
+   "refractory_steps": 5,
+   "effective_refractory_ms": 100.0,
+   "ceiling_hz": 8.333333333333334,
+   "apl_gain": 8.0
+  }
+ ],
+ "n": 25,
+ "recommended_requested_ms": [
+  20,
+  30,
+  40,
+  50,
+  60
+ ],
+ "recommended_mapping": {
+  "20": 1,
+  "30": 2,
+  "40": 2,
+  "50": 2,
+  "60": 3
+ },
+ "resolution": "30 and 50 ms map to 2 steps (same as 40 ms); replaced prospectively by 80 and 100 ms"
+}

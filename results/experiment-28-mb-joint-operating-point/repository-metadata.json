@@ -1,0 +1,13 @@
+{
+ "branch": "experiment-28-mb-joint-operating-point",
+ "base_commit": "f43b6180410ee46c3fc852ad5806af6abe0991df",
+ "origin_main": "f43b6180410ee46c3fc852ad5806af6abe0991df",
+ "e27_commit_in_history": "b36e30d",
+ "python": "3.12.3",
+ "flybrain": "0.1.0",
+ "cupy": "14.2.0",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+ "gpu": "Tesla P40, 580.178.04"
+}

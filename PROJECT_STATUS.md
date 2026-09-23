@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 23 September 2026 (Experiment 24). Flymon investigates whether Pokémon Red visual
+Updated 23 September 2026 (Experiment 28). Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -58,6 +58,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 24 | Generation 0: can the frozen E23 T4 readout run in the closed Pokémon loop, and what is the baseline? | **READY WITH CAVEATS**; 40/40 episodes unattended and bit-reproducible, T4 verifiably injected, 1.2× real time, 8 instances ≈ 36 decisions/s; but actions are 94 % identical without vision, random explores 2× more tiles, and DOWN-less E14 controls cap progress at M2 |
 | 26 (Ph. 0–6) | Can the audited mushroom-body circuit support dopamine-gated plasticity? (biological-learning track, separate from E25) | **NO-GO**; 418-edge KCg-d→MBON01/11 set reproduced exactly and plasticity machinery tested, but stock FlyBrain holds the whole mushroom body (KCs, MBONs, PAM/PPL1 DANs) at the 50 Hz ceiling: no visual drive, DAN gate cannot open, zeroing all plastic edges changes MBONs −0.34 % |
 | 27 | Can a minimal dynamical intervention restore a responsive mushroom-body regime (connectome and 418-edge set frozen)? | **PARTIAL**; refractory ≥ 20 ms breaks saturation, 20 ms + APL×5 restores KCg-d visual selectivity (+7–13 %, confirmed), but no point also gives ≥ 10 % plastic leverage (best −6.6 %) or preregistered DAN headroom; nothing frozen, E26 Phases 3–6 not rerun |
+| 28 | Does a preregistered joint refractory × APL grid contain one point with KCg-d visual coding, fixed-amplitude DAN range and ≥ 10 % leverage on each MBON? | **PARTIAL — TRADEOFF REMAINS**; 25 unique points, none all-pass (frozen point = null); R3 region (APL ≥ 6, ≤ 60 ms) and R5 region (≥ 80 ms, APL ≤ 6) are disjoint; 80 ms + APL×3 passes everything except R3 and replicates on fresh seeds (descriptive); E26 Phases 3–6 not rerun |
 
 ## Latest result (Experiment 15)
 
@@ -357,6 +358,30 @@ central-brain excitation. **PARTIAL — no operating point frozen; E26 Phases 3�
 Next: a separately preregistered two-parameter (refractory × APL) search with a fixed DAN
 amplitude, criteria unchanged.
 
+## Latest result (Experiment 28 — joint mushroom-body operating-point search)
+
+E28 reproduced the E27 anchors. Stock and 60 ms were bit-identical. At 20 ms + APL×5 a ±1–2 spike leverage
+difference was traced to non-deterministic float32 cuSPARSE SpMV; it was not material. E28 then ran a
+preregistered 5 × 5 grid (refractory 20/40/60/80/100 ms = 1–5 unique steps × APL gain 3/4/5/6/8; 30/50 ms
+dropped prospectively as step duplicates) on fresh seeds 2901–2906. R4 used a fixed DAN amplitude of 0.3,
+and R5 was scored per MBON.
+
+- **R1/R2/R6:** every point is non-saturated and passes all three.
+- **R4:** passes at 15 points.
+- **R3 (KCg-d visual coding):** passes only at 20/6, 40/6, 40/8 and 60/8.
+- **R5 (≥ 10 % leverage on both MBON01 and MBON11):** passes only at 80/3, 80/4, 100/3, 100/5 and 100/6.
+  MBON11 is the binding MBON.
+
+The two regions are disjoint and never adjacent. APL gain drives visual selectivity (ρ = +0.59) and
+refractory length drives leverage (ρ = +0.62 to +0.76). No point passes all criteria, so
+`frozen-operating-point.json` is null. The best non-passing point is 80 ms + APL×3. On confirmation seeds
+2911–2920 it reproduced (descriptively) PAM +13.2 pp, PPL1 +11.6 pp, MBON01 −15.2 % and MBON11 −10.6 %,
+but no visual modulation (+1.4 %).
+
+**PARTIAL — TRADEOFF REMAINS. No learning run; E26 Phases 3–6 remain blocked.** Next: a separately audited
+and preregistered question about whether the 418-edge KCg-d → MBON01/11 circuit is too narrow. Nothing is
+to be broadened post hoc.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -365,6 +390,8 @@ amplitude, criteria unchanged.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 28: `run_mb_joint_operating_point.py` (anchors / grid / select / confirm),
+  `analyze_mb_joint_operating_point.py`; figures in `captures/experiment-28/`.
 - Experiment 27: `run_mb_operating_regime.py` (stock / sweep / diagnostic / confirm),
   `analyze_mb_operating_regime.py`.
 - Experiment 26: `audit_learning_circuit.py` (audit), `run_mb_plasticity.py` (visual / bridge /

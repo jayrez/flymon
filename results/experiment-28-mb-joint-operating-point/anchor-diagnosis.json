@@ -1,0 +1,8 @@
+{
+ "verdict": "E27 anchors reproduced; no material difference; E28 proceeds",
+ "stock": "bit-identical (KCg-d 48.52 Hz, best visual -0.02%, target zero -0.33%)",
+ "ref60": "bit-identical (KCg-d 3.32 Hz, visual +4.31%, MBON01 -11.48%, MBON11 -10.18%)",
+ "ref20_apl5": "baseline, visual and DAN bit-identical (KCg-d 1.37 Hz, visual -10.28%, PAM +12.8 pp, PPL +10.6 pp); leverage differs in 2 of 36 seed-condition counts by 1-2 spikes (MBON01 seed 2801 zeroed 118 vs 116; MBON11 seed 2804 baseline 137 vs 136; seed 2801 zeroed 127 vs 125) -> target zero -7.65% vs E27 -7.84%; all pass/fail flags identical",
+ "cause": "FlyBrain's cuSPARSE SpMV (_W @ spikes, float32) is not bit-deterministic on this GPU (Tesla P40): 5/5 probes of 30,000 active presynaptic cells gave run-to-run differences of <= 4.5e-8 on ~2,300 rows. Under the 0.3 V all-KC leverage drive an ULP difference occasionally flips a single threshold crossing. Within-process repeats of the leverage assay were identical, and running the DAN assay first did not change leverage (no state leak across reset).",
+ "implication": "leverage values carry a floating-point reproducibility noise of order 0.2-0.5 percentage points at strongly driven points; the preregistered thresholds are applied as frozen, without any margin adjustment"
+}
