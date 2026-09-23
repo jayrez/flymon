@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="448" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E27 kcgain sweep (base refractory 20 ms): visual %, DAN headroom pp, zero-edge %</text>
+<line x1="615.4" y1="34" x2="615.4" y2="440" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.75|sens1 vis%</text>
+<rect x="615.4" y="38" width="3.9" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+0.1656</text>
+<text x="292" y="74" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.75|sens1 PAMpp</text>
+<rect x="615.4" y="62" width="16.2" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.6856</text>
+<text x="292" y="98" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.75|sens1 PPLpp</text>
+<rect x="615.4" y="86" width="37.5" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+1.5833</text>
+<text x="292" y="122" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.75|sens1 zero%</text>
+<rect x="490.6" y="110" width="124.7" height="15" fill="#c0392b"/>
+<text x="894" y="122" font-size="11" text-anchor="end">-5.2717</text>
+<text x="292" y="146" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.5|sens1 vis%</text>
+<rect x="594.9" y="134" width="20.5" height="15" fill="#c0392b"/>
+<text x="894" y="146" font-size="11" text-anchor="end">-0.8646</text>
+<text x="292" y="170" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.5|sens1 PAMpp</text>
+<rect x="615.4" y="158" width="7.3" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+0.3106</text>
+<text x="292" y="194" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.5|sens1 PPLpp</text>
+<rect x="615.4" y="182" width="43.4" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+1.8333</text>
+<text x="292" y="218" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.5|sens1 zero%</text>
+<rect x="548.7" y="206" width="66.6" height="15" fill="#c0392b"/>
+<text x="894" y="218" font-size="11" text-anchor="end">-2.8163</text>
+<text x="292" y="242" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.35|sens1 vis%</text>
+<rect x="615.4" y="230" width="20.9" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+0.8833</text>
+<text x="292" y="266" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.35|sens1 PAMpp</text>
+<rect x="615.4" y="254" width="92.4" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+3.9053</text>
+<text x="292" y="290" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.35|sens1 PPLpp</text>
+<rect x="615.4" y="278" width="80.8" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+3.4167</text>
+<text x="292" y="314" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.35|sens1 zero%</text>
+<rect x="367.0" y="302" width="248.4" height="15" fill="#c0392b"/>
+<text x="894" y="314" font-size="11" text-anchor="end">-10.4978</text>
+<text x="292" y="338" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.25|sens1 vis%</text>
+<rect x="594.8" y="326" width="20.6" height="15" fill="#c0392b"/>
+<text x="894" y="338" font-size="11" text-anchor="end">-0.8704</text>
+<text x="292" y="362" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.25|sens1 PAMpp</text>
+<rect x="615.4" y="350" width="184.6" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+7.8030</text>
+<text x="292" y="386" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.25|sens1 PPLpp</text>
+<rect x="615.4" y="374" width="122.2" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+5.1667</text>
+<text x="292" y="410" text-anchor="end" font-size="11">ref20ms|apl1|kcg0.25|sens1 zero%</text>
+<rect x="300.0" y="398" width="315.4" height="15" fill="#c0392b"/>
+<text x="894" y="410" font-size="11" text-anchor="end">-13.3292</text>
+</svg>

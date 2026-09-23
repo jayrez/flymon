@@ -1,0 +1,23 @@
+{
+ "edge_set": {
+  "n": 418,
+  "sha256": "65dbc6264c04a2fa... (full hash in proposed-plastic-edges.json)",
+  "per_edge": {
+   "pre_idx": "int FlyBrain index (KCg-d)",
+   "post_idx": "int FlyBrain index (MBON01/MBON11)",
+   "pre_body": "int MaleCNS bodyId",
+   "post_body": "int MaleCNS bodyId",
+   "w0": "float baseline FlyBrain weight (read-only)",
+   "compartment": "appetitive|aversive"
+  },
+  "derivation": "flymon/mb_plasticity.audited_edge_set(brain.npz cell_type/ids, weights.npz)"
+ },
+ "plastic_state": {
+  "edge_hash": "str, must equal the edge-set sha256 (load rejects mismatch)",
+  "delta": "float[418], w_eff = w0 + delta, bounds [lo, hi]",
+  "config": "PlasticityConfig",
+  "provenance": "edge hash, frozen-W sha256, channel, seed, protocol",
+  "meta": "free-form"
+ },
+ "not_stored": "the frozen FlyBrain matrix (never modified); neural state (reset independently)"
+}

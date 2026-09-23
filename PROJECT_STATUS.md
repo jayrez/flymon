@@ -56,6 +56,8 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
 | 23 | Is that T4 DS a Mi1–Mi4 spatially offset inhibitory veto rather than a fast/slow correlator? | **FAIL** (preregistered; Category E by fall-through, NO-GO); 6/7 criteria met — reversing Mi4 geometry flips DS in 4/4 subtypes (+0.185 → −0.170, ON kept), Mi4 must be inhibitory, persistence needed, fast/slow timing not; co-location reached only 66 % reduction (threshold 70 %) |
 | 24 | Generation 0: can the frozen E23 T4 readout run in the closed Pokémon loop, and what is the baseline? | **READY WITH CAVEATS**; 40/40 episodes unattended and bit-reproducible, T4 verifiably injected, 1.2× real time, 8 instances ≈ 36 decisions/s; but actions are 94 % identical without vision, random explores 2× more tiles, and DOWN-less E14 controls cap progress at M2 |
+| 26 (Ph. 0–6) | Can the audited mushroom-body circuit support dopamine-gated plasticity? (biological-learning track, separate from E25) | **NO-GO**; 418-edge KCg-d→MBON01/11 set reproduced exactly and plasticity machinery tested, but stock FlyBrain holds the whole mushroom body (KCs, MBONs, PAM/PPL1 DANs) at the 50 Hz ceiling: no visual drive, DAN gate cannot open, zeroing all plastic edges changes MBONs −0.34 % |
+| 27 | Can a minimal dynamical intervention restore a responsive mushroom-body regime (connectome and 418-edge set frozen)? | **PARTIAL**; refractory ≥ 20 ms breaks saturation, 20 ms + APL×5 restores KCg-d visual selectivity (+7–13 %, confirmed), but no point also gives ≥ 10 % plastic leverage (best −6.6 %) or preregistered DAN headroom; nothing frozen, E26 Phases 3–6 not rerun |
 
 ## Latest result (Experiment 15)
 
@@ -325,6 +327,36 @@ function and a multi-seed champion protocol are proposed but not implemented. Di
 E23's "Mi1 + Mi4 only" candidate also carried small Tm1/Tm2/Tm9 inputs (0.43 % of |w|); E24
 freezes the code as run.
 
+## Latest result (Experiment 26, Phases 0–6 — biological-learning track)
+
+E26 is a separate track from the E25 evolution work (PR #9): learning inside the modelled brain.
+Phases 0–2 audited MaleCNS mushroom-body circuitry and proposed 418 existing plastic edges
+(KCg-d → MBON01 gated by PAM01; KCg-d → MBON11 gated by PPL101). Phases 3–6 implemented the
+machinery — plastic weights kept separate from the frozen FlyBrain matrix (bit-identical with
+zero deltas), a spike-gated reinforcement bridge, eligibility traces, a bounded compartment-
+specific three-factor rule, and plastic-state save/load — all unit/GPU tested. Validation then
+found stock FlyBrain drives every KC, MBON, PAM01, PPL101, APL and DPM cell to ~97 % duty
+(48.6 Hz of a 50 Hz maximum) within 0.35 s of reset, independent of input. Consequently no visual
+condition moves KCg-d (P1 fail), DAN stimulation cannot raise DAN activity (gate never opens),
+and zeroing all plastic edges changes the target MBONs by −0.34 % (gate −10 %). **NO-GO; Phase 7
+Pokémon conditioning is not justified.** Next: a separate preregistered experiment to place the
+mushroom body in a responsive regime (e.g. FlyBrain refractoriness), then rerun Phases 3–6.
+
+## Latest result (Experiment 27 — mushroom-body operating regime)
+
+E27 reproduced E26's stock saturation bit-identically and then walked a preregistered ladder of
+interventions with the connectome, the 418-edge plastic set and the T4 path frozen:
+FlyBrain's own global refractory (0–100 ms), then existing-APL output gain (×1.5–5 at 20 ms),
+then a shared KC input gain (0.75–0.25). Refractory ≥ 20 ms ends the 50 Hz lock; 20 ms + APL×5
+sparsens KCs (~1.3 Hz) and makes KCg-d visually selective (+7 % to +13 % on fresh confirmation
+seeds), but the audited KCg-d edges then carry only ~6–8 % of MBON01/11 output (gate 10 %) and
+DAN headroom at the preregistered rule amplitude is +4 pp (≥ +12 pp at larger amplitudes).
+Points with ≥ 10 % leverage (60 ms; KC gain ≤ 0.35) lose visual modulation. FlyBrain's
+`sensory_input=False` does not relieve the saturation, which is intrinsic to recurrent KC /
+central-brain excitation. **PARTIAL — no operating point frozen; E26 Phases 3–6 not rerun.**
+Next: a separately preregistered two-parameter (refractory × APL) search with a fixed DAN
+amplitude, criteria unchanged.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -333,6 +365,11 @@ freezes the code as run.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 27: `run_mb_operating_regime.py` (stock / sweep / diagnostic / confirm),
+  `analyze_mb_operating_regime.py`.
+- Experiment 26: `audit_learning_circuit.py` (audit), `run_mb_plasticity.py` (visual / bridge /
+  maxeffect / calibrate / condition), `diagnose_mb_saturation.py`; plasticity in
+  `flymon/mb_plasticity.py`, accelerations in `flymon/fast_io.py`.
 - Experiment 24: `run_generation_zero.py` (episode / action-distribution / replay-check /
   parallel), `analyze_generation_zero.py`; frozen gameplay T4 in `flymon/frozen_t4.py`,
   evaluator-only telemetry in `flymon/gameplay_eval.py` (needs `POKEMON_ROM`).
@@ -362,7 +399,8 @@ freezes the code as run.
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
   `test_conductance_dendrite.py`, `test_tonic_disinhibition.py`,
   `test_fixed_background.py`, `test_spatial_veto.py`,
-  `test_generation_zero.py` (CPU only; ROM tests need `POKEMON_ROM`;
+  `test_generation_zero.py`, `test_fast_io.py`, `test_mb_plasticity.py`,
+  `test_mb_operating_regime.py` (CPU only; ROM tests need `POKEMON_ROM`;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

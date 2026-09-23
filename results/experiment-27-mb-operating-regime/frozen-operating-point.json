@@ -1,0 +1,19 @@
+{
+ "operating_point": {
+  "refractory_ms": 20,
+  "apl_gain": 5.0,
+  "kc_gain": 1.0,
+  "sensory_input": true
+ },
+ "key": "ref20ms|apl5|kcg1|sens1",
+ "passes_all": false,
+ "status": "NO POINT PASSED: best-ranked point frozen for descriptive confirmation only",
+ "calibration_criteria": {
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R5": false,
+  "R6": true
+ }
+}

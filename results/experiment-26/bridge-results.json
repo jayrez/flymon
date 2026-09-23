@@ -1,0 +1,99 @@
+{
+ "theta": {
+  "appetitive": 1.0,
+  "aversive": 1.0
+ },
+ "baseline_fraction_p99": {
+  "appetitive": 1.0,
+  "aversive": 1.0
+ },
+ "baseline_mean": {
+  "appetitive": 0.9721590909090908,
+  "aversive": 0.9719444444444445
+ },
+ "sweep": {
+  "appetitive|0.1": {
+   "channel": "appetitive",
+   "amplitude": 0.1,
+   "dan_spikes_mean": 440.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "appetitive|0.2": {
+   "channel": "appetitive",
+   "amplitude": 0.2,
+   "dan_spikes_mean": 440.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "appetitive|0.3": {
+   "channel": "appetitive",
+   "amplitude": 0.3,
+   "dan_spikes_mean": 440.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "appetitive|0.5": {
+   "channel": "appetitive",
+   "amplitude": 0.5,
+   "dan_spikes_mean": 440.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "appetitive|0.8": {
+   "channel": "appetitive",
+   "amplitude": 0.8,
+   "dan_spikes_mean": 440.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "aversive|0.1": {
+   "channel": "aversive",
+   "amplitude": 0.1,
+   "dan_spikes_mean": 20.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "aversive|0.2": {
+   "channel": "aversive",
+   "amplitude": 0.2,
+   "dan_spikes_mean": 20.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "aversive|0.3": {
+   "channel": "aversive",
+   "amplitude": 0.3,
+   "dan_spikes_mean": 20.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "aversive|0.5": {
+   "channel": "aversive",
+   "amplitude": 0.5,
+   "dan_spikes_mean": 20.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  },
+  "aversive|0.8": {
+   "channel": "aversive",
+   "amplitude": 0.8,
+   "dan_spikes_mean": 20.0,
+   "per_step_fraction": 1.0,
+   "fraction_spiking_once": 1.0,
+   "target_mbon_spikes_during": 20.0
+  }
+ },
+ "default_amplitude": 0.1,
+ "rule": "smallest grid amplitude with >= 50% of DANs spiking at least once in the 10-step window, both channels",
+ "seconds": 27.97035739698913
+}

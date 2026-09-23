@@ -1,0 +1,187 @@
+{
+ "seeds": [
+  2701,
+  2702,
+  2703,
+  2704,
+  2705,
+  2706
+ ],
+ "steps": 600,
+ "dt_s": 0.02,
+ "max_rate_hz": 50.0,
+ "populations": {
+  "KCg-d": {
+   "n": 206,
+   "spike_fraction_of_steps": 0.9714751887810141,
+   "rate_hz": 48.573759439050704,
+   "first_step_90pct_active": [
+    18,
+    18,
+    18,
+    18,
+    20,
+    18
+   ]
+  },
+  "KCg-m": {
+   "n": 1346,
+   "spike_fraction_of_steps": 0.971963637114083,
+   "rate_hz": 48.59818185570415,
+   "first_step_90pct_active": [
+    18,
+    17,
+    17,
+    19,
+    20,
+    18
+   ]
+  },
+  "KCab": {
+   "n": 1681,
+   "spike_fraction_of_steps": 0.9717674664551524,
+   "rate_hz": 48.58837332275762,
+   "first_step_90pct_active": [
+    18,
+    18,
+    18,
+    19,
+    19,
+    18
+   ]
+  },
+  "KCapbp-ap2": {
+   "n": 291,
+   "spike_fraction_of_steps": 0.9711082474226803,
+   "rate_hz": 48.55541237113402,
+   "first_step_90pct_active": [
+    18,
+    19,
+    17,
+    19,
+    19,
+    18
+   ]
+  },
+  "MBON01": {
+   "n": 2,
+   "spike_fraction_of_steps": 0.9722222222222223,
+   "rate_hz": 48.611111111111114,
+   "first_step_90pct_active": [
+    17,
+    16,
+    17,
+    18,
+    18,
+    17
+   ]
+  },
+  "MBON11": {
+   "n": 2,
+   "spike_fraction_of_steps": 0.9722222222222223,
+   "rate_hz": 48.611111111111114,
+   "first_step_90pct_active": [
+    17,
+    16,
+    17,
+    18,
+    17,
+    17
+   ]
+  },
+  "PAM01": {
+   "n": 44,
+   "spike_fraction_of_steps": 0.972159090909091,
+   "rate_hz": 48.607954545454554,
+   "first_step_90pct_active": [
+    17,
+    17,
+    18,
+    18,
+    18,
+    18
+   ]
+  },
+  "PPL101": {
+   "n": 2,
+   "spike_fraction_of_steps": 0.9719444444444445,
+   "rate_hz": 48.59722222222222,
+   "first_step_90pct_active": [
+    17,
+    16,
+    16,
+    18,
+    18,
+    16
+   ]
+  },
+  "APL": {
+   "n": 2,
+   "spike_fraction_of_steps": 0.9725,
+   "rate_hz": 48.625,
+   "first_step_90pct_active": [
+    17,
+    16,
+    17,
+    18,
+    17,
+    17
+   ]
+  },
+  "DPM": {
+   "n": 2,
+   "spike_fraction_of_steps": 0.9722222222222223,
+   "rate_hz": 48.611111111111114,
+   "first_step_90pct_active": [
+    17,
+    16,
+    17,
+    18,
+    19,
+    17
+   ]
+  },
+  "controller_DN": {
+   "n": 10,
+   "spike_fraction_of_steps": 0.004416666666666667,
+   "rate_hz": 0.22083333333333333,
+   "first_step_90pct_active": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "all_KC": {
+   "n": 4064,
+   "spike_fraction_of_steps": 0.9717214840332459,
+   "rate_hz": 48.58607420166229,
+   "first_step_90pct_active": [
+    18,
+    18,
+    17,
+    19,
+    19,
+    18
+   ]
+  }
+ },
+ "whole_brain": {
+  "fraction_neurons_above_0p9_of_steps": 0.04556688662267547,
+  "n_neurons_above_0p9": 7596,
+  "fraction_silent": 0.024583083383323337,
+  "median_rate_hz": 0.5138888888888888
+ },
+ "saturated_by_superclass": {
+  "ascending_neuron": 5,
+  "cb_intrinsic": 5372,
+  "cb_sensory": 1748,
+  "sensory_ascending": 35,
+  "vnc_intrinsic": 8,
+  "vnc_motor": 4,
+  "vnc_sensory": 422,
+  "vnc_tbc": 2
+ }
+}

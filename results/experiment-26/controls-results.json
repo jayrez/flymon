@@ -1,0 +1,4 @@
+{
+ "status": "NOT RUN",
+ "reason": "stopped at the preregistered maximum-effect gate (NO-GO): target MBONs change by -0.34% when all 418 plastic edges are zeroed (gate requires <= -10%), and the spike-derived DAN gate cannot open because PAM01/PPL101 already spike on ~97% of steps (theta = 1.0)"
+}

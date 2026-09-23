@@ -1,0 +1,30 @@
+{
+ "branch": "experiment-27-mb-operating-regime",
+ "base": "336f06bb44008f6240e8b080acf735d17ce6bbba",
+ "e26_audit": "af293936404c51ac68df30c628850394fe5d3bd7",
+ "e26_validation": "336f06bb44008f6240e8b080acf735d17ce6bbba",
+ "origin_main": "b86ddb37dc2836b4366babaa6bc86f86d19cf26c",
+ "prs": {
+  "pr9": "open (E25)",
+  "pr10": "open (E26 audits)",
+  "pr11": "open (E26 phases 3-6, stacked on #10)"
+ },
+ "edge_hash": "65dbc6264c04a2fa",
+ "t4_sha256": "87829806e398f66b",
+ "seeds": {
+  "e26": [
+   2701,
+   2706
+  ],
+  "calibration": [
+   2801,
+   2806
+  ],
+  "confirmation": [
+   2811,
+   2820
+  ]
+ },
+ "flybrain": "0.1.0",
+ "device": "cuda (Tesla P40)"
+}

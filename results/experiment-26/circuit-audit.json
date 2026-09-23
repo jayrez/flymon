@@ -1,0 +1,1009 @@
+{
+ "sources": {
+  "brain.npz": "cc9bd1ecd00bd703a6fa648bc6ad145c93c7c1ee53debdcc9ce0d1f4305e6aca",
+  "weights.npz": "c29919aa44069a271b1ee978abe05fa9bf6e45e4ba3e436e92b624ef1b5be40c",
+  "body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "body-neurotransmitters-male-cns-v1.0.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+ },
+ "population_counts": {
+  "KC": {
+   "n": 4064,
+   "types": 12,
+   "consensus_nt": {
+    "acetylcholine": 4064
+   },
+   "cls": {
+    "Kenyon_Cell": 4064
+   },
+   "ground_truth_nt": {
+    "null": 4064
+   }
+  },
+  "MBON": {
+   "n": 97,
+   "types": 36,
+   "consensus_nt": {
+    "glutamate": 26,
+    "acetylcholine": 50,
+    "gaba": 21
+   },
+   "cls": {
+    "MBON": 97
+   },
+   "ground_truth_nt": {
+    "glutamate": 16,
+    "acetylcholine": 32,
+    "null": 32,
+    "gaba": 17
+   }
+  },
+  "PAM": {
+   "n": 316,
+   "types": 15,
+   "consensus_nt": {
+    "dopamine": 316
+   },
+   "cls": {
+    "DAN": 316
+   },
+   "ground_truth_nt": {
+    "dopamine": 316
+   }
+  },
+  "PPL1": {
+   "n": 16,
+   "types": 8,
+   "consensus_nt": {
+    "dopamine": 16
+   },
+   "cls": {
+    "DAN": 16
+   },
+   "ground_truth_nt": {
+    "dopamine": 16
+   }
+  },
+  "PPL2": {
+   "n": 8,
+   "types": 4,
+   "consensus_nt": {
+    "dopamine": 6,
+    "unclear": 2
+   },
+   "cls": {
+    "DAN": 8
+   },
+   "ground_truth_nt": {
+    "dopamine": 6,
+    "null": 2
+   }
+  },
+  "DPM": {
+   "n": 2,
+   "types": 1,
+   "consensus_nt": {
+    "dopamine": 2
+   },
+   "cls": {
+    "null": 2
+   },
+   "ground_truth_nt": {
+    "null": 2
+   }
+  },
+  "APL": {
+   "n": 2,
+   "types": 1,
+   "consensus_nt": {
+    "gaba": 2
+   },
+   "cls": {
+    "null": 2
+   },
+   "ground_truth_nt": {
+    "gaba": 2
+   }
+  },
+  "OA": {
+   "n": 43,
+   "types": 18,
+   "consensus_nt": {
+    "unclear": 6,
+    "octopamine": 33,
+    "acetylcholine": 4
+   },
+   "cls": {
+    "null": 41,
+    "ALLN": 2
+   },
+   "ground_truth_nt": {
+    "null": 10,
+    "octopamine": 33
+   }
+  }
+ },
+ "block_synapses": {
+  "KC->KC": {
+   "edges": 642933,
+   "synapses": 1153845
+  },
+  "KC->MBON": {
+   "edges": 61210,
+   "synapses": 463640
+  },
+  "KC->PAM": {
+   "edges": 124837,
+   "synapses": 204282
+  },
+  "KC->PPL1": {
+   "edges": 20405,
+   "synapses": 77087
+  },
+  "KC->APL": {
+   "edges": 4693,
+   "synapses": 210352
+  },
+  "KC->DPM": {
+   "edges": 4237,
+   "synapses": 95527
+  },
+  "PAM->KC": {
+   "edges": 110450,
+   "synapses": 173789
+  },
+  "PAM->MBON": {
+   "edges": 2693,
+   "synapses": 28546
+  },
+  "PAM->PAM": {
+   "edges": 4715,
+   "synapses": 7391
+  },
+  "PAM->PPL1": {
+   "edges": 122,
+   "synapses": 312
+  },
+  "PAM->APL": {
+   "edges": 590,
+   "synapses": 4565
+  },
+  "PAM->DPM": {
+   "edges": 554,
+   "synapses": 2569
+  },
+  "PPL1->KC": {
+   "edges": 17149,
+   "synapses": 49256
+  },
+  "PPL1->MBON": {
+   "edges": 430,
+   "synapses": 11070
+  },
+  "PPL1->PAM": {
+   "edges": 387,
+   "synapses": 849
+  },
+  "PPL1->PPL1": {
+   "edges": 95,
+   "synapses": 969
+  },
+  "PPL1->APL": {
+   "edges": 24,
+   "synapses": 3405
+  },
+  "PPL1->DPM": {
+   "edges": 23,
+   "synapses": 1611
+  },
+  "PPL2->KC": {
+   "edges": 1514,
+   "synapses": 2082
+  },
+  "PPL2->MBON": {
+   "edges": 37,
+   "synapses": 95
+  },
+  "PPL2->PAM": {
+   "edges": 40,
+   "synapses": 52
+  },
+  "PPL2->PPL1": {
+   "edges": 7,
+   "synapses": 8
+  },
+  "PPL2->APL": {
+   "edges": 7,
+   "synapses": 129
+  },
+  "DPM->KC": {
+   "edges": 4082,
+   "synapses": 32795
+  },
+  "DPM->MBON": {
+   "edges": 112,
+   "synapses": 6561
+  },
+  "DPM->PAM": {
+   "edges": 545,
+   "synapses": 2970
+  },
+  "DPM->PPL1": {
+   "edges": 23,
+   "synapses": 1484
+  },
+  "DPM->APL": {
+   "edges": 4,
+   "synapses": 3521
+  },
+  "DPM->DPM": {
+   "edges": 3,
+   "synapses": 4
+  },
+  "APL->KC": {
+   "edges": 4633,
+   "synapses": 196200
+  },
+  "APL->MBON": {
+   "edges": 120,
+   "synapses": 4466
+  },
+  "APL->PAM": {
+   "edges": 423,
+   "synapses": 1059
+  },
+  "APL->PPL1": {
+   "edges": 23,
+   "synapses": 656
+  },
+  "APL->APL": {
+   "edges": 3,
+   "synapses": 22
+  },
+  "APL->DPM": {
+   "edges": 4,
+   "synapses": 1595
+  },
+  "MBON->KC": {
+   "edges": 6813,
+   "synapses": 11181
+  },
+  "MBON->MBON": {
+   "edges": 1606,
+   "synapses": 26259
+  },
+  "MBON->PAM": {
+   "edges": 2119,
+   "synapses": 6585
+  },
+  "MBON->PPL1": {
+   "edges": 419,
+   "synapses": 4435
+  },
+  "MBON->APL": {
+   "edges": 79,
+   "synapses": 2383
+  },
+  "MBON->DPM": {
+   "edges": 60,
+   "synapses": 370
+  }
+ },
+ "kc_input_composition": {
+  "KC": 1153845,
+  "cb_intrinsic": 451118,
+  "APL": 196200,
+  "PAM": 173789,
+  "PPL1": 49256,
+  "DPM": 32795,
+  "MBON": 11181,
+  "visual_projection": 11094,
+  "PPL2": 2082,
+  "ascending_neuron": 316,
+  "visual_centrifugal": 314,
+  "descending_neuron": 202,
+  "ol_intrinsic": 31,
+  "cb_endocrine": 8
+ },
+ "kc_types": {
+  "KC": {
+   "n": 2,
+   "input_synapses": 320,
+   "visual_projection_input_fraction": 0.0
+  },
+  "KCa'b'-ap1": {
+   "n": 2,
+   "input_synapses": 1162,
+   "visual_projection_input_fraction": 0.0
+  },
+  "KCab": {
+   "n": 1681,
+   "input_synapses": 681967,
+   "visual_projection_input_fraction": 1.4663466120794701e-05
+  },
+  "KCab-p": {
+   "n": 129,
+   "input_synapses": 67368,
+   "visual_projection_input_fraction": 0.025175157344733405
+  },
+  "KCapbp-ap1": {
+   "n": 197,
+   "input_synapses": 105245,
+   "visual_projection_input_fraction": 4.750819516366573e-05
+  },
+  "KCapbp-ap2": {
+   "n": 291,
+   "input_synapses": 160509,
+   "visual_projection_input_fraction": 0.0
+  },
+  "KCapbp-m": {
+   "n": 205,
+   "input_synapses": 112952,
+   "visual_projection_input_fraction": 0.0
+  },
+  "KCg": {
+   "n": 1,
+   "input_synapses": 899,
+   "visual_projection_input_fraction": 0.067853170189099
+  },
+  "KCg-d": {
+   "n": 206,
+   "input_synapses": 112536,
+   "visual_projection_input_fraction": 0.07367420203312718
+  },
+  "KCg-m": {
+   "n": 1346,
+   "input_synapses": 832280,
+   "visual_projection_input_fraction": 0.0005526986110443601
+  },
+  "KCg-s1": {
+   "n": 2,
+   "input_synapses": 4306,
+   "visual_projection_input_fraction": 0.2087784486762657
+  },
+  "KCg-s2": {
+   "n": 2,
+   "input_synapses": 2687,
+   "visual_projection_input_fraction": 0.006326758466691477
+  }
+ },
+ "dan_to_mbon": {
+  "PAM06->MBON03": 3296,
+  "PAM10->MBON06": 3274,
+  "PPL101->MBON11": 2311,
+  "PAM08->MBON05": 2197,
+  "PAM11->MBON07": 1918,
+  "PAM12->MBON09": 1804,
+  "PAM01->MBON01": 1597,
+  "PAM04->MBON02": 1168,
+  "PAM05->MBON26": 1132,
+  "PPL103->MBON32": 972,
+  "PAM05->MBON03": 962,
+  "PAM13->MBON09": 872,
+  "PAM07->MBON05": 860,
+  "PPL106->MBON14": 860,
+  "PAM14->MBON09": 812,
+  "PPL103->MBON12": 802,
+  "PAM05->MBON04": 727,
+  "PPL103->MBON31": 681,
+  "PAM06->MBON04": 677,
+  "PPL103->MBON35": 676,
+  "PPL105->MBON13": 657,
+  "PAM08->MBON21": 617,
+  "PAM02->MBON01": 550,
+  "PAM04->MBON24": 527,
+  "PPL105->MBON18": 434,
+  "PAM09->MBON06": 381,
+  "PAM08->MBON29": 321,
+  "PAM01->MBON27": 305,
+  "PAM08->MBON04": 302,
+  "PPL104->MBON16": 302,
+  "PPL107->MBON04": 265,
+  "PPL103->MBON33": 263,
+  "PAM07->MBON21": 253,
+  "PAM02->MBON03": 245,
+  "PAM13->MBON10": 234,
+  "PAM11->MBON06": 204,
+  "PAM01->MBON21": 202,
+  "PAM08->MBON27": 198,
+  "PAM12->MBON05": 196,
+  "PPL103->MBON30": 187,
+  "PPL104->MBON28": 167,
+  "PPL102->MBON35": 162,
+  "PAM14->MBON10": 143,
+  "PAM08->MBON26": 140,
+  "PAM01->MBON29": 140,
+  "PPL103->MBON15-like": 140,
+  "PPL102->MBON11": 128,
+  "PPL105->MBON23": 125,
+  "PPL104->MBON17": 118,
+  "PPL103->MBON15": 117,
+  "PAM08->MBON09": 113,
+  "PPL101->MBON25,MBON34": 113,
+  "PAM10->MBON11": 112,
+  "PPL108->MBON35": 107,
+  "PAM12->MBON33": 102,
+  "PPL101->MBON30": 101,
+  "PAM14->MBON03": 98,
+  "PPL105->MBON19": 98,
+  "PPL101->MBON20": 93,
+  "PAM03->MBON03": 92,
+  "PAM07->MBON27": 77,
+  "PPL105->MBON15-like": 77,
+  "PAM10->MBON07": 74,
+  "PAM15->MBON01": 73,
+  "PPL102->MBON32": 73,
+  "PAM06->MBON26": 67,
+  "PAM13->MBON05": 67,
+  "PAM01->MBON05": 65,
+  "PAM02->MBON02": 65,
+  "PAM12->MBON30": 61,
+  "PPL102->MBON25,MBON34": 58,
+  "PPL102->MBON33": 57,
+  "PAM11->MBON11": 56,
+  "PPL104->MBON17-like": 49,
+  "PPL101->MBON35": 48,
+  "PAM03->MBON02": 45,
+  "PAM08->MBON01": 44,
+  "PAM01->MBON24": 42,
+  "PPL103->MBON25,MBON34": 41,
+  "PAM08->MBON33": 40
+ },
+ "dan_to_kc": {
+  "PAM08": {
+   "KCg-m": 26896,
+   "KCg-d": 4733,
+   "KCg-s1": 191,
+   "KCg-s2": 108,
+   "KCapbp-ap1": 57,
+   "KCg": 39
+  },
+  "PAM09": {
+   "KCab-p": 5072,
+   "KCab": 929,
+   "KCapbp-m": 17,
+   "KCg-m": 11,
+   "KCapbp-ap1": 1
+  },
+  "PAM01": {
+   "KCg-m": 20498,
+   "KCg-d": 3254,
+   "KCapbp-ap1": 169,
+   "KCg-s1": 60,
+   "KCg": 19,
+   "KCab": 17
+  },
+  "PAM05": {
+   "KCapbp-ap1": 8824,
+   "KCapbp-ap2": 1768,
+   "KCg-m": 212,
+   "KCapbp-m": 130,
+   "KCa'b'-ap1": 59,
+   "KCg-d": 20
+  },
+  "PAM10": {
+   "KCab": 15662,
+   "KCab-p": 3159,
+   "KCg-m": 28,
+   "KCapbp-m": 28,
+   "KCapbp-ap2": 4,
+   "KCg-d": 1
+  },
+  "PAM06": {
+   "KCapbp-ap2": 9973,
+   "KCapbp-m": 7639,
+   "KCapbp-ap1": 717,
+   "KCa'b'-ap1": 67,
+   "KCg-m": 16,
+   "KCg-s1": 3
+  },
+  "PAM14": {
+   "KCapbp-m": 3761,
+   "KCapbp-ap2": 2549,
+   "KCapbp-ap1": 229,
+   "KCa'b'-ap1": 12,
+   "KCg-m": 11,
+   "KCab-p": 10
+  },
+  "PAM11": {
+   "KCab": 7426,
+   "KCab-p": 1417,
+   "KCapbp-m": 151,
+   "KCg-m": 18,
+   "KCapbp-ap1": 17,
+   "KCapbp-ap2": 15
+  },
+  "PAM07": {
+   "KCg-m": 10385,
+   "KCg-d": 1376,
+   "KCg-s1": 65,
+   "KCg-s2": 31,
+   "KCg": 8
+  },
+  "PAM04": {
+   "KCab": 11143,
+   "KCab-p": 1318,
+   "KCapbp-m": 18,
+   "KCg-m": 8,
+   "KCapbp-ap2": 7,
+   "KCapbp-ap1": 2
+  },
+  "PAM13": {
+   "KCapbp-ap1": 2980,
+   "KCapbp-ap2": 1773,
+   "KCapbp-m": 146,
+   "KCg-m": 71,
+   "KCa'b'-ap1": 32
+  },
+  "PAM12": {
+   "KCg-m": 9072,
+   "KCg-d": 1307,
+   "KCg-s1": 42,
+   "KCg-s2": 15,
+   "KCg": 9,
+   "KCapbp-ap1": 9
+  },
+  "PAM02": {
+   "KCapbp-ap2": 1935,
+   "KCapbp-ap1": 1497,
+   "KCapbp-m": 868,
+   "KCg-m": 605,
+   "KCa'b'-ap1": 17,
+   "KCg-d": 6
+  },
+  "PAM15": {
+   "KCg-m": 1001,
+   "KCapbp-ap1": 247,
+   "KCapbp-m": 71,
+   "KCapbp-ap2": 56,
+   "KCg-d": 43,
+   "KCg-s2": 4
+  },
+  "PAM03": {
+   "KCab": 842,
+   "KCapbp-m": 420,
+   "KCapbp-ap2": 198,
+   "KCab-p": 92,
+   "KCapbp-ap1": 3,
+   "KCa'b'-ap1": 1
+  },
+  "PPL103": {
+   "KCg-m": 11600,
+   "KCg-d": 3175,
+   "KCapbp-m": 2004,
+   "KCapbp-ap2": 1865,
+   "KCapbp-ap1": 1676,
+   "KCg-s2": 105
+  },
+  "PPL101": {
+   "KCg-m": 7240,
+   "KCab": 3282,
+   "KCg-d": 634,
+   "KCab-p": 244,
+   "KCg-s1": 35,
+   "KCg-s2": 30
+  },
+  "PPL104": {
+   "KCapbp-ap2": 983,
+   "KCapbp-ap1": 802,
+   "KCapbp-m": 399,
+   "KCg-s1": 9,
+   "KCg-s2": 3,
+   "KCab-p": 1
+  },
+  "PPL105": {
+   "KCab": 4415,
+   "KCapbp-m": 1355,
+   "KCapbp-ap2": 1252,
+   "KCab-p": 918,
+   "KCapbp-ap1": 200,
+   "KCa'b'-ap1": 6
+  },
+  "PPL106": {
+   "KCab": 5959,
+   "KCab-p": 305,
+   "KCapbp-m": 14,
+   "KCapbp-ap2": 7,
+   "KCapbp-ap1": 2
+  },
+  "PPL102": {
+   "KCg-m": 519,
+   "KCg-d": 66,
+   "KCg-s1": 3,
+   "KCg-s2": 2
+  },
+  "PPL107": {
+   "KCapbp-m": 7,
+   "KCapbp-ap2": 6
+  },
+  "PPL108": {
+   "KCg-m": 1
+  }
+ },
+ "kc_to_mbon": {
+  "MBON05": {
+   "KCg-m": 30862,
+   "KCg-d": 4612,
+   "KCapbp-ap1": 291,
+   "KCg-s2": 289,
+   "KCg-s1": 180,
+   "KCapbp-ap2": 42,
+   "_total": 36320
+  },
+  "MBON01": {
+   "KCg-m": 30690,
+   "KCapbp-ap1": 3826,
+   "KCg-d": 3720,
+   "KCapbp-ap2": 2212,
+   "KCg-s1": 198,
+   "KCapbp-m": 129,
+   "_total": 40888
+  },
+  "MBON09": {
+   "KCg-m": 37726,
+   "KCapbp-ap2": 7548,
+   "KCapbp-m": 6102,
+   "KCg-d": 6038,
+   "KCapbp-ap1": 5599,
+   "KCg-s1": 293,
+   "_total": 63579
+  },
+  "MBON11": {
+   "KCg-m": 24293,
+   "KCab": 12592,
+   "KCg-d": 3273,
+   "KCab-p": 558,
+   "KCapbp-ap2": 175,
+   "KCapbp-ap1": 156,
+   "_total": 41460
+  },
+  "MBON03": {
+   "KCapbp-ap2": 11748,
+   "KCapbp-m": 7693,
+   "KCapbp-ap1": 4476,
+   "KCa'b'-ap1": 70,
+   "KCg-m": 12,
+   "KCab": 3,
+   "_total": 24004
+  },
+  "MBON32": {
+   "KCg-m": 7669,
+   "KCg-d": 2786,
+   "KCapbp-ap1": 2058,
+   "KCapbp-ap2": 415,
+   "KCg-s1": 84,
+   "KCapbp-m": 57,
+   "_total": 13164
+  },
+  "MBON27": {
+   "KCg-d": 4760,
+   "KCg-m": 673,
+   "KCapbp-ap1": 75,
+   "KCg-s1": 57,
+   "KCg": 28,
+   "KCg-s2": 16,
+   "_total": 5609
+  },
+  "MBON31": {
+   "KCapbp-ap1": 5765,
+   "KCapbp-ap2": 3129,
+   "KCapbp-m": 1506,
+   "KCg-m": 42,
+   "KCa'b'-ap1": 25,
+   "KCg-d": 23,
+   "_total": 10493
+  },
+  "MBON30": {
+   "KCg-m": 11509,
+   "KCg-d": 243,
+   "KCg-s1": 73,
+   "KCapbp-ap1": 16,
+   "KCg-s2": 8,
+   "KCg": 4,
+   "_total": 11859
+  },
+  "MBON06": {
+   "KCab": 22028,
+   "KCab-p": 3262,
+   "KCapbp-m": 93,
+   "KCg-m": 42,
+   "KCapbp-ap2": 32,
+   "KCapbp-ap1": 6,
+   "_total": 25465
+  },
+  "MBON26": {
+   "KCapbp-ap1": 3744,
+   "KCg-m": 319,
+   "KCapbp-ap2": 265,
+   "KCg-d": 146,
+   "KCg-s2": 31,
+   "KCapbp-m": 26,
+   "_total": 4557
+  },
+  "MBON13": {
+   "KCapbp-ap2": 5271,
+   "KCapbp-m": 3876,
+   "KCapbp-ap1": 1022,
+   "KCa'b'-ap1": 25,
+   "_total": 10194
+  },
+  "MBON22": {
+   "KCg-m": 8218,
+   "KCab": 7055,
+   "KCg-d": 640,
+   "KCapbp-ap2": 87,
+   "KCapbp-ap1": 25,
+   "KCab-p": 21,
+   "_total": 16084
+  },
+  "MBON04": {
+   "KCg-m": 2069,
+   "KCapbp-ap1": 1850,
+   "KCapbp-ap2": 1820,
+   "KCapbp-m": 919,
+   "KCg-s2": 51,
+   "KCg-d": 45,
+   "_total": 6803
+  },
+  "MBON14": {
+   "KCab": 21755,
+   "KCab-p": 423,
+   "KCapbp-m": 39,
+   "_total": 22217
+  },
+  "MBON33": {
+   "KCg-d": 872,
+   "KCg-m": 629,
+   "KCg-s2": 48,
+   "KCg-s1": 35,
+   "KCg": 12,
+   "_total": 1596
+  },
+  "MBON21": {
+   "KCg-m": 7712,
+   "KCg-d": 480,
+   "KCab": 113,
+   "KCg-s2": 43,
+   "KCg-s1": 29,
+   "KCg": 5,
+   "_total": 8383
+  },
+  "MBON35": {
+   "KCg-m": 2940,
+   "KCg-d": 1600,
+   "KCg-s1": 39,
+   "KCg-s2": 35,
+   "KCapbp-ap1": 28,
+   "KCg": 10,
+   "_total": 4655
+  },
+  "MBON12": {
+   "KCg-m": 11461,
+   "KCapbp-ap2": 4813,
+   "KCapbp-ap1": 3611,
+   "KCapbp-m": 2233,
+   "KCg-d": 416,
+   "KCa'b'-ap1": 26,
+   "_total": 22603
+  },
+  "MBON20": {
+   "KCg-m": 3521,
+   "KCg-d": 1022,
+   "KCg-s1": 41,
+   "KCg": 7,
+   "KCg-s2": 7,
+   "KCab": 4,
+   "_total": 4604
+  },
+  "MBON18": {
+   "KCab": 13798,
+   "KCab-p": 86,
+   "KCapbp-m": 41,
+   "_total": 13925
+  },
+  "MBON16": {
+   "KCapbp-ap2": 1957,
+   "KCapbp-ap1": 1308,
+   "KCapbp-m": 320,
+   "KCg-s1": 16,
+   "KCa'b'-ap1": 4,
+   "KCab-p": 3,
+   "_total": 3610
+  },
+  "MBON07": {
+   "KCab": 20368,
+   "KCab-p": 2345,
+   "KCapbp-m": 89,
+   "KCg-m": 16,
+   "KCapbp-ap2": 15,
+   "KCg-d": 5,
+   "_total": 22840
+  },
+  "MBON02": {
+   "KCab": 15722,
+   "KCab-p": 1109,
+   "KCapbp-ap2": 852,
+   "KCapbp-m": 723,
+   "KCapbp-ap1": 222,
+   "KCg-m": 26,
+   "_total": 18671
+  },
+  "MBON28": {
+   "KCapbp-ap1": 1591,
+   "KCapbp-ap2": 643,
+   "KCapbp-m": 36,
+   "KCg-s1": 8,
+   "KCg-m": 1,
+   "_total": 2279
+  },
+  "MBON17": {
+   "KCapbp-ap2": 1716,
+   "KCapbp-m": 1173,
+   "KCapbp-ap1": 124,
+   "KCa'b'-ap1": 3,
+   "KCg-s1": 3,
+   "KCab": 1,
+   "_total": 3020
+  },
+  "MBON15-like": {
+   "KCapbp-m": 1581,
+   "KCapbp-ap2": 1529,
+   "KCapbp-ap1": 117,
+   "KCa'b'-ap1": 4,
+   "KCab": 2,
+   "KCg-m": 1,
+   "_total": 3235
+  },
+  "MBON17-like": {
+   "KCapbp-ap2": 1050,
+   "KCapbp-m": 816,
+   "KCapbp-ap1": 17,
+   "KCa'b'-ap1": 4,
+   "KCab": 1,
+   "KCg-s1": 1,
+   "_total": 1889
+  },
+  "MBON29": {
+   "KCg-m": 4867,
+   "KCg-d": 85,
+   "KCg-s2": 18,
+   "KCg-s1": 17,
+   "KCapbp-ap1": 15,
+   "KCg": 3,
+   "_total": 5005
+  },
+  "MBON19": {
+   "KCab-p": 920,
+   "KCab": 532,
+   "KCapbp-m": 479,
+   "KCapbp-ap2": 54,
+   "_total": 1985
+  },
+  "MBON24": {
+   "KCab": 3237,
+   "KCg-m": 196,
+   "KCab-p": 179,
+   "KCapbp-ap2": 11,
+   "KCapbp-m": 6,
+   "KCapbp-ap1": 2,
+   "_total": 3634
+  },
+  "MBON23": {
+   "KCab": 2474,
+   "KCab-p": 403,
+   "KCapbp-m": 50,
+   "KCapbp-ap2": 7,
+   "_total": 2934
+  },
+  "MBON10": {
+   "KCapbp-ap1": 1332,
+   "KCapbp-ap2": 956,
+   "KCapbp-m": 362,
+   "KCg-m": 37,
+   "KCg-s1": 3,
+   "KCa'b'-ap1": 3,
+   "_total": 2695
+  },
+  "MBON15": {
+   "KCapbp-ap2": 673,
+   "KCapbp-m": 403,
+   "KCapbp-ap1": 223,
+   "KCa'b'-ap1": 6,
+   "KCg-m": 1,
+   "_total": 1306
+  },
+  "MBON25,MBON34": {
+   "KCg-m": 1888,
+   "KCg-d": 24,
+   "KCg-s1": 3,
+   "KCg-s2": 2,
+   "KCapbp-ap2": 1,
+   "KCa'b'-ap1": 1,
+   "_total": 1921
+  },
+  "MBON25-like": {
+   "KCg-m": 120,
+   "KCapbp-ap1": 19,
+   "KCapbp-ap2": 11,
+   "KCg-d": 3,
+   "KCg-s1": 1,
+   "_total": 154
+  }
+ },
+ "reachability_hops_min_and_fraction": {
+  "T4": {
+   "KC": [
+    2,
+    1.0
+   ],
+   "MBON": [
+    2,
+    1.0
+   ],
+   "PAM": [
+    2,
+    1.0
+   ],
+   "PPL1": [
+    2,
+    1.0
+   ],
+   "controller_DN": [
+    2,
+    1.0
+   ]
+  },
+  "KC": {
+   "KC": [
+    0,
+    1.0
+   ],
+   "MBON": [
+    1,
+    1.0
+   ],
+   "PAM": [
+    1,
+    1.0
+   ],
+   "PPL1": [
+    1,
+    1.0
+   ],
+   "controller_DN": [
+    2,
+    1.0
+   ]
+  },
+  "MBON": {
+   "KC": [
+    1,
+    1.0
+   ],
+   "MBON": [
+    0,
+    1.0
+   ],
+   "PAM": [
+    1,
+    1.0
+   ],
+   "PPL1": [
+    1,
+    1.0
+   ],
+   "controller_DN": [
+    1,
+    1.0
+   ]
+  }
+ },
+ "mbon_to_controller_dn_direct_edges": {
+  "MBON35": 3,
+  "MBON31": 4,
+  "MBON26": 3,
+  "MBON32": 9,
+  "MBON30": 2,
+  "MBON27": 9
+ },
+ "flybrain_sign_rule": "FlyBrain build: sign -1 iff consensus_nt matches gaba|glutamate|histamine, else +1 (dopamine and octopamine are therefore simulated as excitatory)"
+}
