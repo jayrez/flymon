@@ -1,0 +1,17 @@
+{
+  "note": "pooled Generation-0 action frequencies; frozen before any C0 episode",
+  "counts": {
+    "NONE": 13809,
+    "RIGHT": 449,
+    "UP": 148,
+    "LEFT": 582,
+    "A": 12
+  },
+  "law": {
+    "A": 0.0008,
+    "LEFT": 0.0388,
+    "NONE": 0.9206,
+    "RIGHT": 0.029933333333333333,
+    "UP": 0.009866666666666666
+  }
+}

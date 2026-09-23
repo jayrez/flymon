@@ -1,0 +1,10 @@
+{
+  "status": "PROPOSAL; not executed",
+  "training": "cheap fitness F on training seeds (e.g. 2 seeds x 1,500 decisions per candidate per generation); seeds disjoint from all evaluation seeds",
+  "finalists": "top K = 8 candidates by mean training F over the last 3 generations (not the single best run)",
+  "evaluation": "each finalist on >= 20 unseen FlyBrain seeds from a pre-registered block, identical save state(s), identical 1,500-decision budget, plus 2 held-out save states if available",
+  "report": "mean, median, 10th percentile and worst-case F; milestone attainment rates; loop fraction; comparison to Gen-0 and random on the same seeds",
+  "selection_rule": "maximise the 10th-percentile F (robust), tie-break by median; reject candidates whose worst case is below Gen-0 median or whose milestone rate depends on < 3 seeds",
+  "livestream_brain": "the robust champion; the frozen E23 T4 hash and controller hash are recorded and displayed; T5 is stated as unresolved",
+  "controls": "re-run the champion with T4 injection/readout disabled and with shuffled T4 geometry on the same seeds to show the behaviour depends on vision"
+}

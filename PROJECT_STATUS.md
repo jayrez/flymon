@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 23 September 2026. Flymon investigates whether Pokémon Red visual
+Updated 23 September 2026 (Experiment 24). Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -55,6 +55,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 21 | Can release from tonic shunting inhibition supply the missing T4 nonlinearity? | **FAIL** (Category E); Mi9 release occurs and is directional, but excitation adds 5–20× more conductance, so no R_in window ever coincides with excitation |
 | 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
 | 23 | Is that T4 DS a Mi1–Mi4 spatially offset inhibitory veto rather than a fast/slow correlator? | **FAIL** (preregistered; Category E by fall-through, NO-GO); 6/7 criteria met — reversing Mi4 geometry flips DS in 4/4 subtypes (+0.185 → −0.170, ON kept), Mi4 must be inhibitory, persistence needed, fast/slow timing not; co-location reached only 66 % reduction (threshold 70 %) |
+| 24 | Generation 0: can the frozen E23 T4 readout run in the closed Pokémon loop, and what is the baseline? | **READY WITH CAVEATS**; 40/40 episodes unattended and bit-reproducible, T4 verifiably injected, 1.2× real time, 8 instances ≈ 36 decisions/s; but actions are 94 % identical without vision, random explores 2× more tiles, and DOWN-less E14 controls cap progress at M2 |
 
 ## Latest result (Experiment 15)
 
@@ -235,11 +236,12 @@ One clear positive: **ON/OFF specificity is reproduced strongly** — all four T
 conductance mapping preserves the T4 fast-excitatory/slow-inhibitory vs T5 both-excitatory
 asymmetry. Pathway polarity is not what is missing; directional ordering is.
 
-**Experiment 23: preregistered NO-GO, flagged for an owner decision.** Every causal test of
-the Mi1–Mi4 spatial veto passed except co-location (66 % vs 70 % reduction); under the task's
-own definition ("strong causal support, one marginal threshold") this would be a CONDITIONAL
-GO freezing the E23 native T4 readout, with T5 unresolved. No gameplay or generation work has
-started.
+**Project decision after E23: CONDITIONAL GO** — gameplay uses the frozen E23 native T4 readout
+(E23 itself stays a preregistered FAIL / E / NO-GO). **Experiment 24 (Generation 0): READY WITH
+CAVEATS** for a population/evolution harness. Before E25 fitness work: enable DOWN in the
+evolvable action set, let the evolvable readout observe frozen T4 output directly (the T4 →
+FlyBrain → DN route transmits almost nothing), and cache GPU injection indices for ~3× speed.
+T5 remains a separate unresolved research track.
 
 ## Latest result (Experiment 21)
 
@@ -308,6 +310,21 @@ required); exploratory calibration diagnostics trace this to lattice quantisatio
 sub-column shifts, not filter asymmetry. The E19 oracle does **not** reverse with Mi4 (it is
 Mi9-dominated), so the biological mechanism is Mi4-specific. T5 remains unresolved.
 
+## Latest result (Experiment 24 / Generation 0)
+
+The frozen E23 T4 model now streams every Game Boy frame (bit-exact against E23's batch
+simulation) and injects into the matching 6,845 MaleCNS T4 cells; FlyBrain and the frozen
+E14 DN controller close the loop. Ten fixed seeds × 1,500 decisions from `bedroom.state`, with
+random-action (C0), no-visual (C1) and shuffled-T4-geometry (C2) controls: all 40 episodes ran
+unattended; replays are bit-identical within and across processes; the controller sees only
+neural rates. Gen 0: 92 % NONE, 11.5 unique tiles, M1 9/10, M2 (leaves bedroom) 7/10, nothing
+beyond M2 — DOWN is disabled and the house exit needs it. Random actions at the same rate explore
+2× more tiles (p = 0.002); Gen 0 and no-visual actions are 94 % identical. Throughput 5.9
+decisions/s (1.2× real time) per instance; 8 instances give 36 decisions/s. A robust fitness
+function and a multi-seed champion protocol are proposed but not implemented. Discrepancy noted:
+E23's "Mi1 + Mi4 only" candidate also carried small Tm1/Tm2/Tm9 inputs (0.43 % of |w|); E24
+freezes the code as run.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -316,6 +333,9 @@ Mi9-dominated), so the biological mechanism is Mi4-specific. T5 remains unresolv
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 24: `run_generation_zero.py` (episode / action-distribution / replay-check /
+  parallel), `analyze_generation_zero.py`; frozen gameplay T4 in `flymon/frozen_t4.py`,
+  evaluator-only telemetry in `flymon/gameplay_eval.py` (needs `POKEMON_ROM`).
 - Experiment 23: `run_spatial_veto_experiment.py` (calibrate/heldout),
   `analyze_spatial_veto_experiment.py`, `diagnose_spatial_veto_colocation.py`
   (exploratory); geometry transforms in `flymon/spatial_veto.py`.
@@ -341,7 +361,8 @@ Mi9-dominated), so the biological mechanism is Mi4-specific. T5 remains unresolv
   `test_pathway.py`, `test_ethology.py`, `test_optic_dynamics.py`,
   `test_column_motion.py`, `test_motion_nonlinearity.py`,
   `test_conductance_dendrite.py`, `test_tonic_disinhibition.py`,
-  `test_fixed_background.py`, `test_spatial_veto.py` (CPU only;
+  `test_fixed_background.py`, `test_spatial_veto.py`,
+  `test_generation_zero.py` (CPU only; ROM tests need `POKEMON_ROM`;
   `FLYMON_GPU_TESTS=1` adds the GPU reference-equivalence check).
 - Set `POKEMON_ROM` to a locally owned ROM for capture steps; keep it outside the
   repository.

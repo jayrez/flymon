@@ -56,3 +56,5 @@ webtop-config/
 # Experiment 14 local audit media (manifests and metrics remain versioned)
 /captures/experiment-14-progression/videos/
 /captures/experiment-14-progression/checkpoints/
+/captures/experiment-24/videos/
+/captures/experiment-24/live/

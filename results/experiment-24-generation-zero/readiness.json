@@ -1,0 +1,23 @@
+{
+  "decision": "READY WITH CAVEATS",
+  "gate": {
+    "all_episodes_completed": true,
+    "runs_per_condition": {
+      "gen0": 10,
+      "c0_random": 10,
+      "c1_no_visual": 10,
+      "c2_shuffled_geometry": 10
+    },
+    "t4_in_loop": true,
+    "c1_no_injection": true,
+    "guard_never_tripped": true,
+    "controls_completed": true,
+    "throughput_measured": true,
+    "replay_identical": true
+  },
+  "caveats": [
+    "gen0 actions are largely identical to the no-visual control: the frozen T4 injection barely changes DN output, so current behaviour is dominated by the downstream network, not vision",
+    "the frozen E14 action set has DOWN disabled; RedsHouse1F's exit is at the bottom of the room, so no condition (including random) can reach Pallet Town: progress is capped at M2 by the action space, not by vision",
+    "Generation 0 explores fewer tiles than matched-rate random actions"
+  ]
+}

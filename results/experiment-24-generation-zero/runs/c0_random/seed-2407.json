@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "run_id": "e24-c0_random-seed2407",
+    "experiment": 24,
+    "generation": 0,
+    "condition": "c0_random",
+    "seed": 2407,
+    "horizon": 1500,
+    "start_timestamp": "2026-09-23T04:31:44Z",
+    "save_state": {
+      "path": "states/bedroom.state",
+      "sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+    },
+    "spawn": {
+      "map": 38,
+      "x": 3,
+      "y": 6
+    },
+    "sensory": null,
+    "injection": null,
+    "injection_enabled": false,
+    "controller": {
+      "source": "C0 random: iid actions from the pooled Generation-0 action law",
+      "law": {
+        "A": 0.0008,
+        "LEFT": 0.0388,
+        "NONE": 0.9206,
+        "RIGHT": 0.029933333333333333,
+        "UP": 0.009866666666666666
+      },
+      "rng": "numpy default_rng(seed)"
+    },
+    "controller_sha256": "4f874f7a5a30f2a7b11ef1c0b8732a08a29d6b2e78f113dc128b45e44b43c04f",
+    "timing": {
+      "neural_steps": 10,
+      "window_seconds": 0.2,
+      "hold_frames": 8,
+      "release_frames": 4,
+      "game_fps": 60,
+      "t4_updates_per_decision": 12,
+      "frame_skipping": false,
+      "asynchronous_buffering": false
+    },
+    "provenance": "Gameplay uses the frozen E23 T4 visual readout. T5 direction selectivity remains unresolved and is not represented as a validated motion pathway in this baseline."
+  },
+  "metrics": {
+    "decisions": 1500,
+    "total_actions": 113,
+    "actions_per_minute": 22.6,
+    "action_counts": {
+      "NONE": 1387,
+      "RIGHT": 44,
+      "LEFT": 49,
+      "UP": 20
+    },
+    "directional_actions": 113,
+    "a_presses": 0,
+    "b_presses": 0,
+    "start_presses": 0,
+    "select_presses": 0,
+    "idle_fraction": 0.9246666666666666,
+    "successful_moves": 84,
+    "map_changes": 1,
+    "blocked_moves": 2,
+    "direction_changes": 72,
+    "locomotion_entropy_bits": 1.266376212165607,
+    "action_entropy_bits": 0.4981224788550629,
+    "unique_tiles": 24,
+    "unique_maps": 2,
+    "maps_visited": [
+      "RedsHouse1F",
+      "RedsHouse2F"
+    ],
+    "revisit_rate": 0.7261904761904762,
+    "loop_fraction": 0.7113333333333334,
+    "loop_flag_fractions": {
+      "wall_bump": 0.0013333333333333333,
+      "lr_oscillation": 0.418,
+      "ud_oscillation": 0.0,
+      "menu_loop": 0.0,
+      "a_spam": 0.0,
+      "inactivity": 0.4866666666666667
+    },
+    "milestones": {
+      "M0": 174,
+      "M1": 22,
+      "M2": 1462,
+      "M3": null,
+      "M4": null,
+      "M5": null,
+      "M6": null,
+      "M7": null,
+      "M8": null
+    },
+    "best_milestone": "M2",
+    "best_milestone_index": 2
+  },
+  "performance": {
+    "wall_s": 4.4215756399789825,
+    "decisions_per_s": 339.24558169655785,
+    "game_fps": 4070.9469803586944,
+    "speed_vs_realtime": 67.84911633931158,
+    "stage_s": {
+      "emulator": 4.075877857161686,
+      "evaluator": 0.048367263429099694
+    },
+    "stage_ms_per_decision": {
+      "emulator": 2.717251904774457,
+      "evaluator": 0.032244842286066465
+    },
+    "max_rss_mb": 322.2109375
+  },
+  "t4_mean_over_episode": null,
+  "log": "results/experiment-24-generation-zero/episodes/c0_random/seed-2407.jsonl.gz",
+  "log_sha256": "ebf46598968307006b353a5279b58fe0a37d87581d9292b331210f5dd33a378c",
+  "metrics_online_v1": {
+    "locomotion_entropy_bits": 1.266376212165607,
+    "revisit_rate": 0.7261904761904762
+  },
+  "metrics_version": 2
+}

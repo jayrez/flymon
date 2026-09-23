@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "run_id": "e24-c2_shuffled_geometry-seed2409",
+    "experiment": 24,
+    "generation": 0,
+    "condition": "c2_shuffled_geometry",
+    "seed": 2409,
+    "horizon": 1500,
+    "start_timestamp": "2026-09-23T04:21:23Z",
+    "save_state": {
+      "path": "states/bedroom.state",
+      "sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+    },
+    "spawn": {
+      "map": 38,
+      "x": 3,
+      "y": 6
+    },
+    "sensory": {
+      "e23_commit": "e6a88c5ae2272aad4ace8d8885cd8d55854b771d",
+      "model": {
+        "level": "E23",
+        "reference": "fixed",
+        "background": 0.5,
+        "adapt": 40,
+        "G": 16.0,
+        "beta": 2.0,
+        "r0_exc": 1.0,
+        "r0_mi9": 0.0,
+        "r0_mi4": 0.0,
+        "E_inh": -0.2,
+        "tau_fast": 4.0,
+        "tau_slow": 12.0,
+        "drop": [
+          "Mi9"
+        ],
+        "membrane_cold": false
+      },
+      "constants": {
+        "sigma_source": "E21 selected-config constants",
+        "g_leak": 1.0,
+        "E_leak": 0.0,
+        "E_exc": 1.0,
+        "c_mem": 1.0
+      },
+      "sigma": 0.22038561487267905,
+      "M": 0.142424245364964,
+      "chemistry": {
+        "Mi1": "exc",
+        "Mi4": "inh",
+        "Mi9": "inh",
+        "Tm1": "exc",
+        "Tm2": "exc",
+        "Tm9": "exc"
+      },
+      "L0_measured": 0.4969330430030823,
+      "geometry": "column-shuffle-seed-24002409",
+      "n_t4": 6845,
+      "input_classes": [
+        "Mi1",
+        "Mi4",
+        "Tm1",
+        "Tm2",
+        "Tm9"
+      ],
+      "t5": "not represented; T5 direction selectivity unresolved",
+      "sha256": "cbd776a5590b7a11143452aec0051d1572335d811d718497e6b90c9ac107df51"
+    },
+    "injection": {
+      "gain": 2.04902873884378,
+      "cap": 0.8,
+      "levels": 16,
+      "target": "MaleCNS T4a-d (E18 audit records)"
+    },
+    "injection_enabled": true,
+    "controller": {
+      "direction": {
+        "steering_multiplier": 2.0,
+        "steering_floor_hz": 1.62992073549913,
+        "steering_side": "L",
+        "forward_multiplier": 2.0,
+        "forward_floor_hz": 0.5,
+        "backward_multiplier": 2.0,
+        "backward_floor_hz": 2.4659848095803594,
+        "cooldown_decisions": 1
+      },
+      "event": {
+        "selected": {
+          "name": "norm_rising",
+          "signal": "norm",
+          "event_rule": "rising",
+          "signal_window": 1,
+          "evidence_window": 1,
+          "threshold": 1.5,
+          "candidate_order": 3,
+          "live_rate": 0.03583333333333334,
+          "no_vision_rate": 0.0,
+          "live_no_effect": 0.03583333333333334,
+          "controlled_gain": 0.06100000000000001,
+          "controlled_consistency": 1.0,
+          "positive_seed_fraction": 0.9,
+          "seed_effect_sd": 0.022474807208613102,
+          "suppression_fraction": 0.0032142857142857142,
+          "max_event_run": 1,
+          "objective": 0.06443248867403721,
+          "eligible": true
+        },
+        "sd_floor_hz": 1.989834412880423
+      },
+      "source": "Experiment 14 frozen controller (E8/E9/E13 thresholds); no parameter changed"
+    },
+    "controller_sha256": "d3392824cea0d492a50c381f9e3f964b15ec83b002a2ffce18d39aca98c9cf46",
+    "timing": {
+      "neural_steps": 10,
+      "window_seconds": 0.2,
+      "hold_frames": 8,
+      "release_frames": 4,
+      "game_fps": 60,
+      "t4_updates_per_decision": 12,
+      "frame_skipping": false,
+      "asynchronous_buffering": false
+    },
+    "provenance": "Gameplay uses the frozen E23 T4 visual readout. T5 direction selectivity remains unresolved and is not represented as a validated motion pathway in this baseline."
+  },
+  "metrics": {
+    "decisions": 1500,
+    "total_actions": 58,
+    "actions_per_minute": 11.6,
+    "action_counts": {
+      "NONE": 1442,
+      "RIGHT": 45,
+      "UP": 10,
+      "A": 3
+    },
+    "directional_actions": 55,
+    "a_presses": 3,
+    "b_presses": 0,
+    "start_presses": 0,
+    "select_presses": 0,
+    "idle_fraction": 0.9613333333333334,
+    "successful_moves": 9,
+    "map_changes": 1,
+    "blocked_moves": 0,
+    "direction_changes": 18,
+    "locomotion_entropy_bits": 1.0,
+    "action_entropy_bits": 0.2725820416558175,
+    "unique_tiles": 10,
+    "unique_maps": 2,
+    "maps_visited": [
+      "RedsHouse1F",
+      "RedsHouse2F"
+    ],
+    "revisit_rate": 0.0,
+    "loop_fraction": 0.7733333333333333,
+    "loop_flag_fractions": {
+      "wall_bump": 0.0,
+      "lr_oscillation": 0.0,
+      "ud_oscillation": 0.0,
+      "menu_loop": 0.0,
+      "a_spam": 0.0,
+      "inactivity": 0.7733333333333333
+    },
+    "milestones": {
+      "M0": 314,
+      "M1": 31,
+      "M2": 622,
+      "M3": null,
+      "M4": null,
+      "M5": null,
+      "M6": null,
+      "M7": null,
+      "M8": null
+    },
+    "best_milestone": "M2",
+    "best_milestone_index": 2
+  },
+  "performance": {
+    "wall_s": 225.97706986998674,
+    "decisions_per_s": 6.637841621997344,
+    "game_fps": 79.65409946396814,
+    "speed_vs_realtime": 1.327568324399469,
+    "stage_s": {
+      "t4": 92.33629549699253,
+      "brain": 125.91426817319007,
+      "controller": 0.5227092358691152,
+      "emulator": 4.638807953859214,
+      "evaluator": 0.09806171286618337
+    },
+    "stage_ms_per_decision": {
+      "t4": 61.55753033132836,
+      "brain": 83.94284544879338,
+      "controller": 0.3484728239127435,
+      "emulator": 3.0925386359061426,
+      "evaluator": 0.06537447524412225
+    },
+    "max_rss_mb": 1388.69921875
+  },
+  "t4_mean_over_episode": 0.003668870833455001,
+  "log": "results/experiment-24-generation-zero/episodes/c2_shuffled_geometry/seed-2409.jsonl.gz",
+  "log_sha256": "f7825efd393d38155abc896186a8ca7b3e8e7b1ec0d8f2515a6c891be84ed0c1",
+  "metrics_online_v1": {
+    "locomotion_entropy_bits": 1.0,
+    "revisit_rate": 0.0
+  },
+  "metrics_version": 2
+}

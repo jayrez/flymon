@@ -1,0 +1,45 @@
+{
+  "1": {
+    "return_codes": [
+      0
+    ],
+    "wall_s": 44.67780806301744,
+    "peak_gpu_mem_mib": 359.0,
+    "mean_gpu_util_pct": 5.2727272727272725
+  },
+  "2": {
+    "return_codes": [
+      0,
+      0
+    ],
+    "wall_s": 44.757550573995104,
+    "peak_gpu_mem_mib": 715.0,
+    "mean_gpu_util_pct": 18.318181818181817
+  },
+  "4": {
+    "return_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "wall_s": 54.92454089401872,
+    "peak_gpu_mem_mib": 1429.0,
+    "mean_gpu_util_pct": 32.81481481481482
+  },
+  "8": {
+    "return_codes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "wall_s": 59.0523866120202,
+    "peak_gpu_mem_mib": 2857.0,
+    "mean_gpu_util_pct": 50.48275862068966
+  }
+}
