@@ -1,0 +1,570 @@
+{
+ "stock_e26_seeds": {
+  "all_KC": {
+   "rate_hz": 48.58607420166229,
+   "ceiling_normalised_duty": 0.9717214840332459,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    18,
+    18,
+    17,
+    19,
+    19,
+    18
+   ]
+  },
+  "KCg-d": {
+   "rate_hz": 48.573759439050704,
+   "ceiling_normalised_duty": 0.9714751887810141,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    18,
+    18,
+    18,
+    18,
+    20,
+    18
+   ]
+  },
+  "MBON01": {
+   "rate_hz": 48.611111111111114,
+   "ceiling_normalised_duty": 0.9722222222222223,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    16,
+    17,
+    18,
+    18,
+    17
+   ]
+  },
+  "MBON11": {
+   "rate_hz": 48.611111111111114,
+   "ceiling_normalised_duty": 0.9722222222222223,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    16,
+    17,
+    18,
+    17,
+    17
+   ]
+  },
+  "PAM01": {
+   "rate_hz": 48.607954545454554,
+   "ceiling_normalised_duty": 0.972159090909091,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    17,
+    18,
+    18,
+    18,
+    18
+   ]
+  },
+  "PPL101": {
+   "rate_hz": 48.59722222222222,
+   "ceiling_normalised_duty": 0.9719444444444445,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    16,
+    16,
+    18,
+    18,
+    16
+   ]
+  },
+  "APL": {
+   "rate_hz": 48.625,
+   "ceiling_normalised_duty": 0.9725,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    16,
+    17,
+    18,
+    17,
+    17
+   ]
+  },
+  "DPM": {
+   "rate_hz": 48.611111111111114,
+   "ceiling_normalised_duty": 0.9722222222222223,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    16,
+    17,
+    18,
+    19,
+    17
+   ]
+  },
+  "controller_DN": {
+   "rate_hz": 0.2222222222222222,
+   "ceiling_normalised_duty": 0.0044444444444444444,
+   "mean_voltage_end": 0.658817877372106,
+   "step_to_90pct_of_ceiling": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "best_point_confirmation": {
+  "all_KC": {
+   "rate_hz": 8.933236958661416,
+   "ceiling_normalised_duty": 0.3573294783464567,
+   "mean_voltage_end": 0.2225417522713542,
+   "step_to_90pct_of_ceiling": [
+    20,
+    98,
+    28,
+    98,
+    21,
+    51,
+    26,
+    20,
+    31,
+    47
+   ]
+  },
+  "KCg-d": {
+   "rate_hz": 1.3186084142394823,
+   "ceiling_normalised_duty": 0.05274433656957929,
+   "mean_voltage_end": 0.09562806412577629,
+   "step_to_90pct_of_ceiling": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    502,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "MBON01": {
+   "rate_hz": 9.704166666666666,
+   "ceiling_normalised_duty": 0.38816666666666666,
+   "mean_voltage_end": 0.25109247863292694,
+   "step_to_90pct_of_ceiling": [
+    14,
+    17,
+    17,
+    16,
+    12,
+    17,
+    18,
+    17,
+    16,
+    19
+   ]
+  },
+  "MBON11": {
+   "rate_hz": 10.675,
+   "ceiling_normalised_duty": 0.42700000000000005,
+   "mean_voltage_end": 0.2345397286117077,
+   "step_to_90pct_of_ceiling": [
+    16,
+    16,
+    13,
+    16,
+    17,
+    16,
+    17,
+    16,
+    17,
+    15
+   ]
+  },
+  "PAM01": {
+   "rate_hz": 10.660984848484848,
+   "ceiling_normalised_duty": 0.42643939393939395,
+   "mean_voltage_end": 0.28897951245307923,
+   "step_to_90pct_of_ceiling": [
+    16,
+    18,
+    17,
+    22,
+    18,
+    17,
+    18,
+    17,
+    18,
+    17
+   ]
+  },
+  "PPL101": {
+   "rate_hz": 12.391666666666667,
+   "ceiling_normalised_duty": 0.4956666666666667,
+   "mean_voltage_end": 0.3641763389110565,
+   "step_to_90pct_of_ceiling": [
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    18,
+    17,
+    17,
+    15
+   ]
+  },
+  "APL": {
+   "rate_hz": 10.154166666666663,
+   "ceiling_normalised_duty": 0.40616666666666656,
+   "mean_voltage_end": 0.23580424785614013,
+   "step_to_90pct_of_ceiling": [
+    16,
+    15,
+    16,
+    16,
+    16,
+    16,
+    17,
+    16,
+    17,
+    14
+   ]
+  },
+  "DPM": {
+   "rate_hz": 10.258333333333333,
+   "ceiling_normalised_duty": 0.4103333333333333,
+   "mean_voltage_end": 0.2138958141207695,
+   "step_to_90pct_of_ceiling": [
+    16,
+    15,
+    16,
+    16,
+    17,
+    16,
+    17,
+    16,
+    16,
+    15
+   ]
+  },
+  "controller_DN": {
+   "rate_hz": 0.455,
+   "ceiling_normalised_duty": 0.0182,
+   "mean_voltage_end": 0.7045575499534606,
+   "step_to_90pct_of_ceiling": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "stock_confirmation": {
+  "all_KC": {
+   "rate_hz": 48.5720595472441,
+   "ceiling_normalised_duty": 0.971441190944882,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    18,
+    19,
+    18,
+    18,
+    20,
+    18,
+    19,
+    18,
+    19,
+    20
+   ]
+  },
+  "KCg-d": {
+   "rate_hz": 48.48171521035599,
+   "ceiling_normalised_duty": 0.9696343042071198,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    20,
+    18,
+    19,
+    21,
+    18,
+    20,
+    19,
+    20,
+    21
+   ]
+  },
+  "MBON01": {
+   "rate_hz": 48.550000000000004,
+   "ceiling_normalised_duty": 0.9710000000000001,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    19,
+    17,
+    18,
+    20,
+    17,
+    18,
+    17,
+    19,
+    19
+   ]
+  },
+  "MBON11": {
+   "rate_hz": 48.59166666666667,
+   "ceiling_normalised_duty": 0.9718333333333333,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    18,
+    17,
+    18,
+    18,
+    17,
+    17,
+    17,
+    19,
+    17
+   ]
+  },
+  "PAM01": {
+   "rate_hz": 48.54185606060605,
+   "ceiling_normalised_duty": 0.9708371212121211,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    19,
+    17,
+    19,
+    20,
+    17,
+    18,
+    17,
+    19,
+    19
+   ]
+  },
+  "PPL101": {
+   "rate_hz": 48.56249999999999,
+   "ceiling_normalised_duty": 0.9712499999999998,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    17,
+    16,
+    19,
+    15
+   ]
+  },
+  "APL": {
+   "rate_hz": 48.62083333333334,
+   "ceiling_normalised_duty": 0.9724166666666667,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    17,
+    17,
+    17,
+    18,
+    18,
+    17,
+    17,
+    16,
+    17,
+    16
+   ]
+  },
+  "DPM": {
+   "rate_hz": 48.61666666666666,
+   "ceiling_normalised_duty": 0.9723333333333333,
+   "mean_voltage_end": 0.0,
+   "step_to_90pct_of_ceiling": [
+    16,
+    18,
+    17,
+    17,
+    17,
+    17,
+    17,
+    16,
+    18,
+    17
+   ]
+  },
+  "controller_DN": {
+   "rate_hz": 0.22166666666666662,
+   "ceiling_normalised_duty": 0.0044333333333333325,
+   "mean_voltage_end": 0.6614587426185607,
+   "step_to_90pct_of_ceiling": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "whole_brain": {
+  "stock_at_ceiling": 0.04714857028594282,
+  "best_at_ceiling": 0.0012087582483503298,
+  "stock_silent": 0.10658668266346731,
+  "best_silent": 0.052914217156568674
+ },
+ "sensory_input_off_diagnostic": {
+  "note": "FlyBrain documented flag; NOT selectable (outside the preregistered ladder)",
+  "populations": {
+   "all_KC": {
+    "rate_hz": 48.43302985564304,
+    "ceiling_normalised_duty": 0.9686605971128609,
+    "mean_voltage_end": 0.0002125002720276825,
+    "step_to_90pct_of_ceiling": [
+     22,
+     20,
+     22,
+     30,
+     22,
+     19
+    ]
+   },
+   "KCg-d": {
+    "rate_hz": 48.29712783171521,
+    "ceiling_normalised_duty": 0.9659425566343042,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     22,
+     19,
+     23,
+     32,
+     19,
+     18
+    ]
+   },
+   "MBON01": {
+    "rate_hz": 48.388888888888886,
+    "ceiling_normalised_duty": 0.9677777777777777,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     18,
+     18,
+     21,
+     28,
+     17,
+     18
+    ]
+   },
+   "MBON11": {
+    "rate_hz": 48.55555555555556,
+    "ceiling_normalised_duty": 0.9711111111111111,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     17,
+     16,
+     16,
+     20,
+     19,
+     17
+    ]
+   },
+   "PAM01": {
+    "rate_hz": 48.35385101010101,
+    "ceiling_normalised_duty": 0.9670770202020202,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     23,
+     19,
+     21,
+     30,
+     19,
+     18
+    ]
+   },
+   "PPL101": {
+    "rate_hz": 48.46527777777778,
+    "ceiling_normalised_duty": 0.9693055555555556,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     16,
+     19,
+     14,
+     28,
+     18,
+     19
+    ]
+   },
+   "APL": {
+    "rate_hz": 48.59027777777778,
+    "ceiling_normalised_duty": 0.9718055555555556,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     17,
+     18,
+     15,
+     20,
+     17,
+     18
+    ]
+   },
+   "DPM": {
+    "rate_hz": 48.59027777777778,
+    "ceiling_normalised_duty": 0.9718055555555556,
+    "mean_voltage_end": 0.0,
+    "step_to_90pct_of_ceiling": [
+     17,
+     16,
+     16,
+     20,
+     17,
+     17
+    ]
+   },
+   "controller_DN": {
+    "rate_hz": 0.24444444444444444,
+    "ceiling_normalised_duty": 0.004888888888888889,
+    "mean_voltage_end": 0.7206106980641683,
+    "step_to_90pct_of_ceiling": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "whole_brain_at_ceiling": 0.02717956408718256,
+  "criteria": {
+   "R1": false,
+   "R2": true,
+   "R3": false,
+   "R4": false,
+   "R5": false,
+   "R6": false
+  }
+ },
+ "interpretation": "Stock: KC/MBON/DAN/APL/DPM reach >=90% of the 50 Hz ceiling within ~17 steps and stay there; removing synapses onto sensory neurons (sensory_input=False) does NOT relieve it, so the attractor is intrinsic to recurrent central-brain / KC excitation (KC->KC 1.15 M ACh synapses) with no refractoriness. A 20 ms refractory breaks the one-spike-per-step lock (KCg-d 16.8 Hz, 67% of the new ceiling) but KC activity stays tonic and input-insensitive; longer refractories lower rates to 2-3 Hz (~27% of ceiling). Strengthening existing APL output 5x on top of 20 ms sparsens KCs to ~1.3 Hz and makes KCg-d visually selective (+7 to +13%), but MBON/DAN activity is then driven mostly by non-KCg-d inputs, so the 418 KCg-d edges carry only ~6-8% of target-MBON output.",
+ "dan_amplitude_rule_note": "The E26 amplitude rule (smallest amplitude with >=50% of DANs spiking once in 10 steps) was built in the saturated regime; at 20 ms + APL5 spontaneous activity already meets it at 0.1, where headroom is +4 pp. The grid shows +12-25 pp at 0.3-0.8 (confirmation seeds). R4 is scored as preregistered (fail)."
+}

@@ -41,14 +41,15 @@ def jdump(name, obj):
 
 
 class Harness:
-    def __init__(self):
+    def __init__(self, refractory=0.0, sensory_input=True):
         from scipy import sparse
         from flybrain import FlyBrain
         import run_generation_zero as G
         from run_visual_experiment import DATA
         from flymon.fast_io import FastColumnSampler
         from flymon.frozen_t4 import T4Injection
-        self.brain = FlyBrain(data=DATA, device="cuda")
+        # defaults reproduce E26 exactly (stock FlyBrain); E27 passes an operating point
+        self.brain = FlyBrain(data=DATA, device="cuda", refractory=refractory, sensory_input=sensory_input)
         ct = self.brain.cell_type.astype(str); self.ct = ct
         meta = np.load(DATA / "brain.npz")
         W = sparse.load_npz(DATA / "weights.npz").tocsr()
