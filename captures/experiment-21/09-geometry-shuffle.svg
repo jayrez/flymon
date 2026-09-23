@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp21 geometry shuffle null, 200 permutations (T4 mean DSI, held-out speed axis)</text>
+<line x1="50" y1="244" x2="830" y2="244" stroke="#333"/>
+<rect x="50.0" y="235.7" width="25.0" height="8.3" fill="#9bb7cc"/>
+<rect x="76.0" y="214.8" width="25.0" height="29.2" fill="#9bb7cc"/>
+<rect x="102.0" y="198.2" width="25.0" height="45.8" fill="#9bb7cc"/>
+<rect x="128.0" y="152.3" width="25.0" height="91.7" fill="#9bb7cc"/>
+<rect x="154.0" y="85.7" width="25.0" height="158.3" fill="#9bb7cc"/>
+<rect x="180.0" y="44.0" width="25.0" height="200.0" fill="#9bb7cc"/>
+<rect x="206.0" y="98.2" width="25.0" height="145.8" fill="#9bb7cc"/>
+<rect x="232.0" y="173.2" width="25.0" height="70.8" fill="#9bb7cc"/>
+<rect x="258.0" y="169.0" width="25.0" height="75.0" fill="#9bb7cc"/>
+<rect x="284.0" y="239.8" width="25.0" height="4.2" fill="#9bb7cc"/>
+<rect x="310.0" y="239.8" width="25.0" height="4.2" fill="#9bb7cc"/>
+<rect x="336.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="362.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="388.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="414.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="440.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="466.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="492.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="518.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="544.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="570.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="596.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="622.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="648.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="674.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="700.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="726.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="752.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="778.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<rect x="804.0" y="244.0" width="25.0" height="0.0" fill="#9bb7cc"/>
+<line x1="830.0" y1="36" x2="830.0" y2="244" stroke="#c0392b" stroke-width="2"/>
+<text x="830.0" y="32" font-size="11" fill="#c0392b" text-anchor="middle">observed +0.0242</text>
+<text x="50" y="262" font-size="10">+0.0002</text>
+<text x="780" y="262" font-size="10">+0.0242</text>
+</svg>

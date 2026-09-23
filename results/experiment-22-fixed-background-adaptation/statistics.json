@@ -1,0 +1,114 @@
+{
+  "frozen_model": "A3|fixed|L0.5|ad40|G16|b2|r0e2|mi90.5|mi40",
+  "selection_status": "passed_all_gates_not_4of4_positive",
+  "subtypes": {
+    "T4a": {
+      "n": 1680,
+      "dsi": -0.035443248146425924,
+      "ci": [
+        -0.049022831085203715,
+        -0.021838815117264418
+      ],
+      "p_sign": 8.364400617968673e-32,
+      "p_holm": 4.182200308984337e-31,
+      "significant": false
+    },
+    "T4b": {
+      "n": 1687,
+      "dsi": 0.0951389028397299,
+      "ci": [
+        0.0791008078411886,
+        0.11134310140778654
+      ],
+      "p_sign": 6.092469090110982e-64,
+      "p_holm": 3.6554814540665893e-63,
+      "significant": true
+    },
+    "T4c": {
+      "n": 1773,
+      "dsi": 0.03727894275039307,
+      "ci": [
+        0.021978063552448353,
+        0.05267307623311362
+      ],
+      "p_sign": 8.696216555563702e-17,
+      "p_holm": 3.4784866222254807e-16,
+      "significant": true
+    },
+    "T4d": {
+      "n": 1705,
+      "dsi": 0.02761382865496741,
+      "ci": [
+        0.01462788145000259,
+        0.040905879368432395
+      ],
+      "p_sign": 3.194134862556761e-05,
+      "p_holm": 6.388269725113522e-05,
+      "significant": true
+    },
+    "T5a": {
+      "n": 1648,
+      "dsi": -0.06891955608124699,
+      "ci": [
+        -0.07394021015599524,
+        -0.06383934882587902
+      ],
+      "p_sign": 3.400982631664697e-110,
+      "p_holm": 2.380687842165288e-109,
+      "significant": false
+    },
+    "T5b": {
+      "n": 1707,
+      "dsi": 0.06217710353525168,
+      "ci": [
+        0.05717020878533486,
+        0.0671786267726115
+      ],
+      "p_sign": 3.5284162291598045e-114,
+      "p_holm": 2.8227329833278436e-113,
+      "significant": true
+    },
+    "T5c": {
+      "n": 1712,
+      "dsi": 0.013168573787940015,
+      "ci": [
+        0.007538167612597552,
+        0.018920953647659392
+      ],
+      "p_sign": 1.288799908657682e-10,
+      "p_holm": 3.866399725973046e-10,
+      "significant": true
+    },
+    "T5d": {
+      "n": 1617,
+      "dsi": 0.0020125067017730445,
+      "ci": [
+        -0.00497176863366406,
+        0.008902382337593134
+      ],
+      "p_sign": 0.3714911760249471,
+      "p_holm": 0.3714911760249471,
+      "significant": false
+    }
+  },
+  "criteria": {
+    "t4_on_4of4": true,
+    "t4_mean_ge_015": false,
+    "t4_positive_4of4": false,
+    "geometry_residual_lt_040": true,
+    "temporal_drop_ge_040": true,
+    "stable_under_preadaptation": true
+  },
+  "criterion_values": {
+    "t4_mean": 0.031147106524666113,
+    "t4_positive": 3,
+    "t4_on_correct": 4,
+    "geometry_residual": 0.14286544800474194,
+    "temporal_drop": 0.9931431167554816,
+    "adapted_minus_cold": -0.006127962223007263
+  },
+  "secondary_mechanistic_lead": false,
+  "unit": "neuron (deterministic front end)",
+  "bootstrap": 10000,
+  "correction": "Holm over 8 subtypes"
+}

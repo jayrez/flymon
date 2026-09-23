@@ -1,0 +1,69 @@
+{
+  "selected": "D1_UNIFORM_TONIC|G16|b2|r0e1|r0i1|Ei-0.2",
+  "config": {
+    "family": "D1_UNIFORM_TONIC",
+    "tau_fast": 4.0,
+    "tau_slow": 12.0,
+    "G": 16.0,
+    "beta": 2.0,
+    "r0_exc": 1.0,
+    "r0_inh": 1.0,
+    "E_inh": -0.2,
+    "bounded": false,
+    "clamp_inhibition": false,
+    "no_release": false,
+    "neutral_inhibition": false,
+    "drop_classes": [],
+    "g_leak": 1.0,
+    "E_leak": 0.0,
+    "E_exc": 1.0,
+    "c_mem": 1.0
+  },
+  "selection_status": "no_mechanism_valid_configuration",
+  "met_preregistered_threshold": false,
+  "calibration": {
+    "cal_t4_mean_dsi": 0.026727858262073224,
+    "cal_t4_positive": 3,
+    "release_fraction": 0.9769940763190522,
+    "median_overlap": 0.0,
+    "median_rin_increase": 1.3355394517601777,
+    "clamp_relative_drop": null
+  },
+  "family_best_survivor": {},
+  "gate_outcomes": {
+    "gate1_no_inhibitory_release": 18,
+    "gate2_no_rin_window_overlapping_excitation": 162
+  },
+  "constants": {
+    "sigma": 0.22038561487267905,
+    "M": 0.142424245364964,
+    "chemistry": {
+      "Mi1": "exc",
+      "Mi4": "inh",
+      "Mi9": "inh",
+      "Tm1": "exc",
+      "Tm2": "exc",
+      "Tm9": "exc"
+    }
+  },
+  "d0_reproduction": {
+    "reproduced_mean_dsi": 0.031202248138798478,
+    "e20_recorded": 0.031202248138798478,
+    "abs_difference": 0.0,
+    "matches": true
+  },
+  "timing_seconds": {
+    "d0_reproduction": 13.108412981033325,
+    "mechanism_screen_and_calibration": 593.2423090934753
+  },
+  "thresholds": {
+    "t4_mean_dsi": 0.15,
+    "t4_positive": 4,
+    "release": 0.9,
+    "release_frames": 3,
+    "gate1_fraction": 0.5,
+    "overlap": 0.5,
+    "rin": 0.05,
+    "clamp_drop": 0.4
+  }
+}

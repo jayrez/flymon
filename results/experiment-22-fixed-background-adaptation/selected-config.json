@@ -1,0 +1,88 @@
+{
+  "selected": "A3|fixed|L0.5|ad40|G16|b2|r0e2|mi90.5|mi40",
+  "config": {
+    "level": "A3",
+    "reference": "fixed",
+    "background": 0.5,
+    "adapt": 40,
+    "G": 16.0,
+    "beta": 2.0,
+    "r0_exc": 2.0,
+    "r0_mi9": 0.5,
+    "r0_mi4": 0.0,
+    "E_inh": -0.2,
+    "tau_fast": 4.0,
+    "tau_slow": 12.0,
+    "drop": [],
+    "membrane_cold": false
+  },
+  "selection_status": "passed_all_gates_not_4of4_positive",
+  "calibration": {
+    "cal_t4_mean_dsi": 0.051593666674555304,
+    "cal_t4_positive": 3,
+    "cal_t4_per_subtype": {
+      "T4a": -0.07867384579753273,
+      "T4b": 0.16442182792326782,
+      "T4c": 0.08375773476888093,
+      "T4d": 0.03686894980360519
+    },
+    "t4_on_correct": 4,
+    "t5_off_correct": 4,
+    "static_t4_dsi": -0.003992122043813778,
+    "geometry": {
+      "observed": 0.051593666674555304,
+      "null_mean": 0.0031632981698179576,
+      "null_sd": 0.003643760265196434,
+      "null_95": [
+        -0.0021770527462350287,
+        0.009858783585619701
+      ],
+      "z": 13.291315829427973,
+      "p_empirical": 0.047619047619047616,
+      "residual_fraction": 0.06131175343228739,
+      "permutations": 20
+    },
+    "temporal_flat_t4": 0.018773235383364142,
+    "temporal_drop": 0.6361329482205105
+  },
+  "constants": {
+    "sigma": 0.22038561487267905,
+    "M": 0.142424245364964,
+    "chemistry": {
+      "Mi1": "exc",
+      "Mi4": "inh",
+      "Mi9": "inh",
+      "Tm1": "exc",
+      "Tm2": "exc",
+      "Tm9": "exc"
+    }
+  },
+  "L0_measured": 0.4969330430030823,
+  "r0_reproduction": {
+    "reproduced": {
+      "mean_dsi": 0.1265254116495501,
+      "n_positive": 6,
+      "n_coherent": 5,
+      "t4_mean": 0.2496589580233145,
+      "t5_mean": 0.0033918652757857467,
+      "t4_positive": 4,
+      "mean_sign": 0.645192400282792
+    },
+    "e21_saved": {
+      "mean_dsi": 0.1265254116495501,
+      "n_positive": 6,
+      "n_coherent": 5,
+      "t4_mean": 0.2496589580233145,
+      "t5_mean": 0.0033918652757857467,
+      "t4_positive": 4,
+      "mean_sign": 0.645192400282792
+    },
+    "abs_diff_t4": 0.0,
+    "abs_diff_all8": 0.0,
+    "matches": true
+  },
+  "timing_seconds": {
+    "r0_reproduction": 10.086883783340454,
+    "calibration_funnel": 3886.9827542304993
+  }
+}

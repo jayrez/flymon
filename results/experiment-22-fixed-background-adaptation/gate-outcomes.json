@@ -1,0 +1,44 @@
+{
+  "order": [
+    "on_off",
+    "static",
+    "geometry",
+    "temporal"
+  ],
+  "counts": {
+    "gate_temporal": 236,
+    "passed_all_gates": 37,
+    "gate_geometry": 7,
+    "gate_on_off": 8
+  },
+  "by_level": {
+    "A1": {
+      "n": 36,
+      "on_off_pass": 36,
+      "all_gates": 0,
+      "best_cal_t4": 0.21722677165301704,
+      "best_cal_t4_on_off_pass": 0.21722677165301704
+    },
+    "A2": {
+      "n": 36,
+      "on_off_pass": 36,
+      "all_gates": 0,
+      "best_cal_t4": 0.214842159303886,
+      "best_cal_t4_on_off_pass": 0.214842159303886
+    },
+    "A3": {
+      "n": 216,
+      "on_off_pass": 208,
+      "all_gates": 37,
+      "best_cal_t4": 0.23332868330091525,
+      "best_cal_t4_on_off_pass": 0.18842666562070995
+    }
+  },
+  "thresholds": {
+    "static_dsi_max": 0.05,
+    "geometry_residual_max": 0.4,
+    "temporal_min_drop": 0.4,
+    "gate_permutations": 20,
+    "gate_seed": 2209
+  }
+}

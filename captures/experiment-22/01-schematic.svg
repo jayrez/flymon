@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp22: fixed adapting background, pre-adaptation, tonic single compartment</text>
+<rect x="20" y="60" width="250" height="110" rx="10" fill="#f4f4f4" stroke="#555"/>
+<text x="145" y="85" font-size="12" text-anchor="middle">stimulus on background L0</text>
+<text x="145" y="105" font-size="11" text-anchor="middle">L0 = 0.4969 (linear light)</text>
+<text x="145" y="125" font-size="11" text-anchor="middle">bars at Weber +/- c</text>
+<text x="145" y="145" font-size="11" text-anchor="middle">40 neutral frames first (unscored)</text>
+<rect x="320" y="60" width="250" height="110" rx="10" fill="#eef4f8" stroke="#275e85"/>
+<text x="445" y="85" font-size="12" text-anchor="middle">s = polarity x (L - L0), low-pass</text>
+<text x="445" y="105" font-size="11" text-anchor="middle">R0 control: s = L - mean_t L</text>
+<text x="445" y="125" font-size="11" text-anchor="middle">r = max(0, r0 + beta s / sigma)</text>
+<text x="445" y="145" font-size="11" text-anchor="middle">r0_exc=2.0, Mi9=0.5, Mi4=0.0</text>
+<rect x="620" y="60" width="250" height="110" rx="10" fill="#fdf2e9" stroke="#e67e22"/>
+<text x="745" y="85" font-size="12" text-anchor="middle">passive compartment (E21)</text>
+<text x="745" y="105" font-size="11" text-anchor="middle">G=16.0, E_inh=-0.2</text>
+<text x="745" y="125" font-size="11" text-anchor="middle">output = max(V - V_rest, 0)</text>
+<text x="745" y="145" font-size="11" text-anchor="middle">V starts at adapted rest</text>
+<line x1="270" y1="115" x2="320" y2="115" stroke="#333" stroke-width="2"/>
+<line x1="570" y1="115" x2="620" y2="115" stroke="#333" stroke-width="2"/>
+<text x="20" y="220" font-size="11" fill="#555">Frozen configuration shown. Class-level parameters only; no opponent product; no per-subtype parameters.</text>
+</svg>

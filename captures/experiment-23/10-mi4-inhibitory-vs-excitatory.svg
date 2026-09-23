@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="112" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">Exp23 Mi4 sign conversion, held-out T4 mean DSI</text>
+<line x1="300.0" y1="34" x2="300.0" y2="104" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">Mi4 inhibitory (native)</text>
+<rect x="300.0" y="38" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+0.1850</text>
+<text x="292" y="74" text-anchor="end" font-size="11">Mi4 excitatory</text>
+<rect x="300.0" y="62" width="12.5" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.0046</text>
+</svg>

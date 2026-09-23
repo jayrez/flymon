@@ -1,0 +1,66 @@
+{
+  "overall": "FAIL",
+  "mechanistic_category": "E",
+  "t4_verdict": "FAIL",
+  "t5_verdict": "does not transfer",
+  "endpoint": {
+    "t4_mean_ge_015": false,
+    "t4_4of4_positive": false,
+    "no_t4_inverted": true,
+    "t4_on_preference": false,
+    "gates_passed": false,
+    "geometry_residual_le_05": true
+  },
+  "inverted_t4_subtypes": [],
+  "selection_status": "no_mechanism_valid_configuration",
+  "gate_outcomes": {
+    "gate1_no_inhibitory_release": 18,
+    "gate2_no_rin_window_overlapping_excitation": 162
+  },
+  "heldout": {
+    "mean_dsi": 0.013927338494829258,
+    "n_positive": 5,
+    "n_coherent": 2,
+    "t4_mean": 0.02581897357508925,
+    "t5_mean": 0.0020357034145692676,
+    "t4_positive": 3,
+    "mean_sign": 0.5922486282557577
+  },
+  "oracle_t4_mean": 0.34269324513996835,
+  "oracle_all8_mean": 0.3562374402375401,
+  "e20": {
+    "C0": {
+      "mean_dsi": 0.0066793825299680375,
+      "mean_abs_dsi": 0.047949593860414655,
+      "n_positive": 6,
+      "n_coherent": 2,
+      "mean_sign": 0.5346710824299652,
+      "min_dsi": -0.1134957346121822,
+      "t4_mean": 0.005355215224827425,
+      "t5_mean": 0.008003549835108651
+    },
+    "C2": {
+      "mean_dsi": 0.024553549112417306,
+      "mean_abs_dsi": 0.08617689082499058,
+      "n_positive": 5,
+      "n_coherent": 2,
+      "mean_sign": 0.5407571206335176,
+      "min_dsi": -0.1360404615892197,
+      "t4_mean": 0.012697041363251074,
+      "t5_mean": 0.03641005686158354
+    }
+  },
+  "geometry": {
+    "observed": 0.024184768860226014,
+    "null_mean": 0.004507150184417691,
+    "null_sd": 0.001477849657637153,
+    "z": 13.315034151684062,
+    "p_empirical": 0.004975124378109453,
+    "residual_fraction": 0.18636316974813422
+  },
+  "on_off": {
+    "t4_on": false,
+    "t5_off": false
+  },
+  "proceed_to_vp_dn": false
+}

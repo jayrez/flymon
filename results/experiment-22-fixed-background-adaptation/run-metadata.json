@@ -1,0 +1,77 @@
+{
+  "repository": {
+    "branch": "worktree-bridge-cse_014eULVFzQa6eL4wV7d1hV9L",
+    "base_head": "74bf6f6a9cbd53369d02055969f492ff7a6b6464",
+    "origin_main": "88522ee37c9c1148c459a59310f45e276254911a",
+    "e21_in_base": true,
+    "e21_on_origin_main": false,
+    "working_tree_at_start": "clean"
+  },
+  "reference_definitions": {
+    "R0": "s = L - mean_t L (column_motion.contrast_signal), E19 bank, filters initialised at frame 0, membrane at tonic rest",
+    "R0g": "as R0 on the gray-background bank",
+    "R1": "s = L - L0, gray-background bank, filters initialised at frame 0, membrane at tonic rest",
+    "R2": "s = L - L0, gray-background bank, 40 neutral L0 frames prepended (filters + membrane settle; never scored)",
+    "R3": "R2 with r0_exc = 0"
+  },
+  "luminance_scale": {
+    "space": "linear light (sRGB decoded by flymon.retina.linear_luminance)",
+    "display_gray_0p5_reads_linear": 0.21223072707653046,
+    "background_linear": {
+      "0.4": {
+        "display": 0.6651850846308363,
+        "L0_measured": 0.39675527811050415
+      },
+      "0.5": {
+        "display": 0.7353569830524495,
+        "L0_measured": 0.4969330430030823
+      },
+      "0.6": {
+        "display": 0.7977377330312598,
+        "L0_measured": 0.5972018837928772
+      }
+    },
+    "bars": "L0 +/- c*min(L0, 1-L0) (Weber), E19 trajectories"
+  },
+  "adaptation": {
+    "frames": 40,
+    "sensitivity": [
+      30,
+      60
+    ],
+    "excluded_from_scoring": true,
+    "scoring_window": "all 60 stimulus frames (E21 scalar)"
+  },
+  "constants": {
+    "sigma": 0.22038561487267905,
+    "M": 0.142424245364964,
+    "chemistry": {
+      "Mi1": "exc",
+      "Mi4": "inh",
+      "Mi9": "inh",
+      "Tm1": "exc",
+      "Tm2": "exc",
+      "Tm9": "exc"
+    }
+  },
+  "seeds": {
+    "calibration_geometry_gate": 2209,
+    "heldout_geometry_null": 22092026,
+    "reference_condition_nulls": 22092027
+  },
+  "runtime_seconds": {
+    "r0_reproduction": 10.086883783340454,
+    "calibration_funnel": 3886.9827542304993,
+    "heldout": {
+      "primary": 52.07347059249878,
+      "reference_conditions": 900.8506438732147,
+      "initial_condition": 128.640367269516,
+      "ablations": 376.63589215278625,
+      "inhibition_decomposition": 313.3059320449829,
+      "geometry_null": 201.474999666214,
+      "oracle": 16.59861969947815,
+      "total": 2054.50799202919
+    }
+  },
+  "hardware": "CPU only (20 worker processes); deterministic"
+}
