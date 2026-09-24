@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="568" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E28: stock (E27 seeds 2801-2806) vs E27-best and E28-best (E28 calibration seeds 2901-2906)</text>
+<line x1="417.4" y1="34" x2="417.4" y2="560" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">stock KCg-d Hz</text>
+<rect x="417.4" y="38" width="382.6" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+48.5243</text>
+<text x="292" y="74" text-anchor="end" font-size="11">stock vis %</text>
+<rect x="417.3" y="62" width="0.5" height="15" fill="#c0392b"/>
+<text x="894" y="74" font-size="11" text-anchor="end">-0.0168</text>
+<text x="292" y="98" text-anchor="end" font-size="11">stock PAM pp</text>
+<rect x="417.4" y="86" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="122" text-anchor="end" font-size="11">stock PPL pp</text>
+<rect x="417.4" y="110" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="146" text-anchor="end" font-size="11">stock MBON01 zero %</text>
+<rect x="414.7" y="134" width="2.7" height="15" fill="#c0392b"/>
+<text x="894" y="146" font-size="11" text-anchor="end">-0.3401</text>
+<text x="292" y="170" text-anchor="end" font-size="11">stock MBON11 zero %</text>
+<rect x="414.9" y="158" width="2.5" height="15" fill="#c0392b"/>
+<text x="894" y="170" font-size="11" text-anchor="end">-0.3118</text>
+<text x="292" y="194" text-anchor="end" font-size="11">stock criteria /8</text>
+<rect x="417.4" y="182" width="7.9" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+1.0000</text>
+<text x="292" y="218" text-anchor="end" font-size="11">E27-best 20/5 KCg-d Hz</text>
+<rect x="417.4" y="206" width="10.7" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+1.3583</text>
+<text x="292" y="242" text-anchor="end" font-size="11">E27-best 20/5 vis %</text>
+<rect x="417.4" y="230" width="85.9" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+10.8900</text>
+<text x="292" y="266" text-anchor="end" font-size="11">E27-best 20/5 PAM pp</text>
+<rect x="417.4" y="254" width="86.2" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+10.9280</text>
+<text x="292" y="290" text-anchor="end" font-size="11">E27-best 20/5 PPL pp</text>
+<rect x="417.4" y="278" width="71.0" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+9.0000</text>
+<text x="292" y="314" text-anchor="end" font-size="11">E27-best 20/5 MBON01 zero %</text>
+<rect x="366.9" y="302" width="50.5" height="15" fill="#c0392b"/>
+<text x="894" y="314" font-size="11" text-anchor="end">-6.4000</text>
+<text x="292" y="338" text-anchor="end" font-size="11">E27-best 20/5 MBON11 zero %</text>
+<rect x="364.5" y="326" width="52.9" height="15" fill="#c0392b"/>
+<text x="894" y="338" font-size="11" text-anchor="end">-6.7073</text>
+<text x="292" y="362" text-anchor="end" font-size="11">E27-best 20/5 criteria /8</text>
+<rect x="417.4" y="350" width="31.5" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+4.0000</text>
+<text x="292" y="386" text-anchor="end" font-size="11">E28-best 80/3 KCg-d Hz</text>
+<rect x="417.4" y="374" width="19.9" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+2.5188</text>
+<text x="292" y="410" text-anchor="end" font-size="11">E28-best 80/3 vis %</text>
+<rect x="389.9" y="398" width="27.5" height="15" fill="#c0392b"/>
+<text x="894" y="410" font-size="11" text-anchor="end">-3.4824</text>
+<text x="292" y="434" text-anchor="end" font-size="11">E28-best 80/3 PAM pp</text>
+<rect x="417.4" y="422" width="96.4" height="15" fill="#275e85"/>
+<text x="894" y="434" font-size="11" text-anchor="end">+12.2235</text>
+<text x="292" y="458" text-anchor="end" font-size="11">E28-best 80/3 PPL pp</text>
+<rect x="417.4" y="446" width="78.9" height="15" fill="#275e85"/>
+<text x="894" y="458" font-size="11" text-anchor="end">+10.0000</text>
+<text x="292" y="482" text-anchor="end" font-size="11">E28-best 80/3 MBON01 zero %</text>
+<rect x="300.0" y="470" width="117.4" height="15" fill="#c0392b"/>
+<text x="894" y="482" font-size="11" text-anchor="end">-14.8867</text>
+<text x="292" y="506" text-anchor="end" font-size="11">E28-best 80/3 MBON11 zero %</text>
+<rect x="329.8" y="494" width="87.6" height="15" fill="#c0392b"/>
+<text x="894" y="506" font-size="11" text-anchor="end">-11.1111</text>
+<text x="292" y="530" text-anchor="end" font-size="11">E28-best 80/3 criteria /8</text>
+<rect x="417.4" y="518" width="55.2" height="15" fill="#275e85"/>
+<text x="894" y="530" font-size="11" text-anchor="end">+7.0000</text>
+</svg>

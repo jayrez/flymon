@@ -1,0 +1,54 @@
+{
+ "note": "descriptive only; NOT frozen; must not be used as an operating point",
+ "rule": "most criteria passed; then R3, R5, R4; then fewest refractory steps; then lowest APL gain",
+ "operating_point": {
+  "refractory_ms": 80.0,
+  "apl_gain": 3.0,
+  "kc_gain": 1.0,
+  "sensory_input": true
+ },
+ "key": "ref80ms|apl3|kcg1|sens1",
+ "criteria": {
+  "R1": true,
+  "R2": true,
+  "R3": false,
+  "R4_PAM": true,
+  "R4_PPL1": true,
+  "R5_MBON01": true,
+  "R5_MBON11": true,
+  "R6": true,
+  "R4": true,
+  "R5": true,
+  "all_pass": false
+ },
+ "summary": {
+  "key": "ref80ms|apl3|kcg1|sens1",
+  "refractory_ms": 80.0,
+  "refractory_steps": 4,
+  "apl_gain": 3.0,
+  "kcgd_rate": 2.5188106796116503,
+  "kcgd_norm_duty": 0.25188106796116505,
+  "visual_best": "drifting_vertical",
+  "visual_rel": -0.03482427259830295,
+  "visual_consistent": 4,
+  "visual_dz": -0.7665326573696383,
+  "cells_modulated": 0.0,
+  "pam_pp": 12.22348484848485,
+  "ppl_pp": 10.000000000000002,
+  "mbon01_lev": -0.14886731391585756,
+  "mbon11_lev": -0.11111111111111116,
+  "criteria": {
+   "R1": true,
+   "R2": true,
+   "R3": false,
+   "R4_PAM": true,
+   "R4_PPL1": true,
+   "R5_MBON01": true,
+   "R5_MBON11": true,
+   "R6": true,
+   "R4": true,
+   "R5": true,
+   "all_pass": false
+  }
+ }
+}

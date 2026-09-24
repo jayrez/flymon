@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E28 KCg-d |visual modulation| vs MBON11 leverage (labels ms/APL; green = R3 and R5_MBON11)</text>
+<rect x="80" y="50" width="760" height="500" fill="none" stroke="#999"/>
+<line x1="161.3" y1="50" x2="161.3" y2="550" stroke="#c0392b" stroke-dasharray="4"/>
+<line x1="80" y1="163.4" x2="840" y2="163.4" stroke="#c0392b" stroke-dasharray="4"/>
+<circle cx="110.1" cy="435.1" r="5" fill="#275e85"/>
+<text x="117.1" y="430.1" font-size="10">20/3</text>
+<circle cx="327.6" cy="266.1" r="5" fill="#275e85"/>
+<text x="334.6" y="261.1" font-size="10">20/4</text>
+<circle cx="257.1" cy="268.5" r="5" fill="#275e85"/>
+<text x="264.1" y="263.5" font-size="10">20/5</text>
+<circle cx="265.1" cy="255.8" r="5" fill="#275e85"/>
+<text x="272.1" y="250.8" font-size="10">20/6</text>
+<circle cx="129.7" cy="123.6" r="5" fill="#275e85"/>
+<text x="136.7" y="118.6" font-size="10">20/8</text>
+<circle cx="117.6" cy="550.0" r="5" fill="#275e85"/>
+<text x="124.6" y="545.0" font-size="10">40/3</text>
+<circle cx="180.3" cy="366.1" r="5" fill="#275e85"/>
+<text x="187.3" y="361.1" font-size="10">40/4</text>
+<circle cx="182.9" cy="507.9" r="5" fill="#275e85"/>
+<text x="189.9" y="502.9" font-size="10">40/5</text>
+<circle cx="227.6" cy="430.9" r="5" fill="#275e85"/>
+<text x="234.6" y="425.9" font-size="10">40/6</text>
+<circle cx="218.7" cy="442.2" r="5" fill="#275e85"/>
+<text x="225.7" y="437.2" font-size="10">40/8</text>
+<circle cx="174.5" cy="240.4" r="5" fill="#275e85"/>
+<text x="181.5" y="235.4" font-size="10">60/3</text>
+<circle cx="122.5" cy="229.7" r="5" fill="#275e85"/>
+<text x="129.5" y="224.7" font-size="10">60/4</text>
+<circle cx="246.4" cy="250.8" r="5" fill="#275e85"/>
+<text x="253.4" y="245.8" font-size="10">60/5</text>
+<circle cx="177.5" cy="316.5" r="5" fill="#275e85"/>
+<text x="184.5" y="311.5" font-size="10">60/6</text>
+<circle cx="840.0" cy="317.7" r="5" fill="#275e85"/>
+<text x="847.0" y="312.7" font-size="10">60/8</text>
+<circle cx="136.6" cy="127.9" r="5" fill="#275e85"/>
+<text x="143.6" y="122.9" font-size="10">80/3</text>
+<circle cx="172.0" cy="101.6" r="5" fill="#275e85"/>
+<text x="179.0" y="96.6" font-size="10">80/4</text>
+<circle cx="184.9" cy="245.0" r="5" fill="#275e85"/>
+<text x="191.9" y="240.0" font-size="10">80/5</text>
+<circle cx="248.8" cy="240.3" r="5" fill="#275e85"/>
+<text x="255.8" y="235.3" font-size="10">80/6</text>
+<circle cx="222.3" cy="358.9" r="5" fill="#275e85"/>
+<text x="229.3" y="353.9" font-size="10">80/8</text>
+<circle cx="116.3" cy="50.0" r="5" fill="#275e85"/>
+<text x="123.3" y="45.0" font-size="10">100/3</text>
+<circle cx="134.9" cy="205.6" r="5" fill="#275e85"/>
+<text x="141.9" y="200.6" font-size="10">100/4</text>
+<circle cx="165.7" cy="66.3" r="5" fill="#275e85"/>
+<text x="172.7" y="61.3" font-size="10">100/5</text>
+<circle cx="139.9" cy="116.1" r="5" fill="#275e85"/>
+<text x="146.9" y="111.1" font-size="10">100/6</text>
+<circle cx="370.5" cy="250.2" r="5" fill="#275e85"/>
+<text x="377.5" y="245.2" font-size="10">100/8</text>
+<text x="460.0" y="608" text-anchor="middle" font-size="12">best |visual modulation| vs no-visual (%)</text>
+<text x="18" y="300.0" font-size="12" transform="rotate(-90 18 300.0)" text-anchor="middle">MBON11 drop when 418 edges zeroed (%)</text>
+<text x="80" y="566" font-size="10">+0.00</text>
+<text x="840" y="566" font-size="10" text-anchor="end">+46.73</text>
+<text x="76" y="550" font-size="10" text-anchor="end">-2.11</text>
+<text x="76" y="60" font-size="10" text-anchor="end">+13.55</text>
+</svg>
