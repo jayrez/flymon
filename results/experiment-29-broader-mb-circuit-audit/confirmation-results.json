@@ -1,0 +1,4029 @@
+{
+ "seeds": [
+  3021,
+  3022,
+  3023,
+  3024,
+  3025,
+  3026,
+  3027,
+  3028,
+  3029,
+  3030
+ ],
+ "descriptive_confirmation_only": false,
+ "chosen": [
+  "KCapbp-ap2->MBON17",
+  "KCapbp-ap2->MBON16",
+  "KCapbp-ap2->MBON13"
+ ],
+ "confirmation": [
+  {
+   "key": "KCapbp-ap2->MBON17",
+   "status": "coexisting",
+   "descriptive_only": false,
+   "visual_regime": "60/8",
+   "leverage_regime": "60/8",
+   "visual_confirms": false,
+   "leverage_confirms": true,
+   "confirmed": false
+  },
+  {
+   "key": "KCapbp-ap2->MBON16",
+   "status": "coexisting",
+   "descriptive_only": false,
+   "visual_regime": "60/8",
+   "leverage_regime": "60/8",
+   "visual_confirms": false,
+   "leverage_confirms": true,
+   "confirmed": false
+  },
+  {
+   "key": "KCapbp-ap2->MBON13",
+   "status": "coexisting",
+   "descriptive_only": false,
+   "visual_regime": "60/8",
+   "leverage_regime": "60/8",
+   "visual_confirms": false,
+   "leverage_confirms": true,
+   "confirmed": false
+  }
+ ],
+ "per_regime": {
+  "60/8": {
+   "rows": {
+    "KCapbp-ap2->MBON17": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 0.8311855670103093,
+      "gray_rate_hz": 0.8937285223367698,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "pokemon_bedroom",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 311.6,
+         "rel_diff": 0.10735572782084411,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2362184752180514,
+         "per_seed_diff": [
+          -202.0,
+          229.0,
+          -1284.0,
+          -996.0,
+          -1751.0,
+          1720.0,
+          1251.0,
+          1944.0,
+          1324.0,
+          881.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 93.2,
+         "rel_diff": 0.029863180492806563,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.07680855047513477,
+         "per_seed_diff": [
+          -1583.0,
+          1565.0,
+          -826.0,
+          -676.0,
+          -1337.0,
+          2110.0,
+          513.0,
+          361.0,
+          781.0,
+          24.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.10869565217391305,
+        "q75_cell_modulation": 0.1916952474277315,
+        "top_cells": [
+         {
+          "body_id": 530565,
+          "modulation": 0.4893617021276595,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.4216867469879518,
+          "mean_diff": 3.5
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.40625,
+          "mean_diff": 2.6
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.4032258064516129,
+          "mean_diff": 2.5
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": -240.0,
+         "rel_diff": -0.082687338501292,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2161858245622322,
+         "per_seed_diff": [
+          -516.0,
+          -562.0,
+          272.0,
+          -888.0,
+          -2504.0,
+          -420.0,
+          593.0,
+          500.0,
+          1690.0,
+          -565.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -458.4,
+         "rel_diff": -0.14688070748822454,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.39944840480668276,
+         "per_seed_diff": [
+          -1897.0,
+          774.0,
+          730.0,
+          -568.0,
+          -2090.0,
+          -30.0,
+          -145.0,
+          -1083.0,
+          1147.0,
+          -1422.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.10084033613445377,
+        "q75_cell_modulation": 0.15255754475703326,
+        "top_cells": [
+         {
+          "body_id": 53221,
+          "modulation": 0.3283582089552239,
+          "mean_diff": -2.2
+         },
+         {
+          "body_id": 78359,
+          "modulation": 0.28125,
+          "mean_diff": -1.8
+         },
+         {
+          "body_id": 84498,
+          "modulation": 0.26732673267326734,
+          "mean_diff": -2.7
+         },
+         {
+          "body_id": 106931,
+          "modulation": 0.2605042016806723,
+          "mean_diff": -3.1
+         },
+         {
+          "body_id": 133083,
+          "modulation": 0.2571428571428572,
+          "mean_diff": -1.8
+         }
+        ],
+        "fraction_active": 0.9945017182130584
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 134.0,
+         "rel_diff": 0.04616709732988803,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.1317094271263377,
+         "per_seed_diff": [
+          519.0,
+          -254.0,
+          -583.0,
+          -426.0,
+          -1715.0,
+          741.0,
+          174.0,
+          2211.0,
+          289.0,
+          384.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -84.4,
+         "rel_diff": -0.02704348104713384,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.10475802359503503,
+         "per_seed_diff": [
+          -862.0,
+          1082.0,
+          -125.0,
+          -106.0,
+          -1301.0,
+          1131.0,
+          -564.0,
+          628.0,
+          -254.0,
+          -473.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.006872852233676976,
+        "median_cell_modulation": 0.1075268817204301,
+        "q75_cell_modulation": 0.196524064171123,
+        "top_cells": [
+         {
+          "body_id": 580421,
+          "modulation": 0.5,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.48192771084337344,
+          "mean_diff": 4.0
+         },
+         {
+          "body_id": 44551,
+          "modulation": 0.425,
+          "mean_diff": 3.4
+         },
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 33086,
+          "modulation": 0.393939393939394,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 0.99553264604811
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 343.3,
+         "rel_diff": 0.11827734711455642,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.31653849028651837,
+         "per_seed_diff": [
+          61.0,
+          353.0,
+          -821.0,
+          -1003.0,
+          -962.0,
+          1587.0,
+          2233.0,
+          657.0,
+          338.0,
+          990.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 124.9,
+         "rel_diff": 0.04002050690505944,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": 0.10641439988013987,
+         "per_seed_diff": [
+          -1320.0,
+          1689.0,
+          -363.0,
+          -683.0,
+          -548.0,
+          1977.0,
+          1495.0,
+          -926.0,
+          -205.0,
+          133.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.12751677852348992,
+        "q75_cell_modulation": 0.20812706270627063,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.48,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.4166666666666667,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 530565,
+          "modulation": 0.40425531914893614,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 76352,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 93644,
+          "modulation": 0.3953488372093023,
+          "mean_diff": 1.7
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 14.1,
+         "rel_diff": 0.004857881136950904,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.011470739076737652,
+         "per_seed_diff": [
+          733.0,
+          -1874.0,
+          231.0,
+          -444.0,
+          -2308.0,
+          205.0,
+          814.0,
+          1389.0,
+          1126.0,
+          269.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -204.3,
+         "rel_diff": -0.06546188599442469,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.26248054365281187,
+         "per_seed_diff": [
+          -648.0,
+          -538.0,
+          689.0,
+          -124.0,
+          -1894.0,
+          595.0,
+          76.0,
+          -194.0,
+          583.0,
+          -588.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.12295081967213116,
+        "q75_cell_modulation": 0.176730869338886,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 87334,
+          "modulation": 0.37500000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.36144578313253006,
+          "mean_diff": 3.0
+         },
+         {
+          "body_id": 57796,
+          "modulation": 0.3,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 67439,
+          "modulation": 0.2988505747126437,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 181.3,
+         "rel_diff": 0.062463393626184326,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.23539151417478393,
+         "per_seed_diff": [
+          -610.0,
+          319.0,
+          -923.0,
+          -106.0,
+          -433.0,
+          868.0,
+          269.0,
+          1721.0,
+          125.0,
+          583.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -37.1,
+         "rel_diff": -0.011887596526642955,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.03705249436793373,
+         "per_seed_diff": [
+          -1991.0,
+          1655.0,
+          -465.0,
+          214.0,
+          -19.0,
+          1258.0,
+          -469.0,
+          138.0,
+          -418.0,
+          -274.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.08823529411764706,
+        "q75_cell_modulation": 0.15783972125435541,
+        "top_cells": [
+         {
+          "body_id": 76352,
+          "modulation": 0.43750000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.37349397590361444,
+          "mean_diff": 3.1
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.3709677419354838,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 106559,
+          "modulation": 0.3658536585365854,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 79656,
+          "modulation": 0.36538461538461536,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 0.9993127147766323
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON17",
+      "regime": "60/8",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 285,
+      "edge_sha256": "c2bbc7ad357311754368d2d3b49198cb4d2409005b90be657de40c6ebae6ade9",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       93.0,
+       82.0,
+       86.0,
+       90.0,
+       79.0,
+       77.0,
+       87.0,
+       75.0,
+       87.0,
+       80.0
+      ],
+      "zeroed_mbon": [
+       59.0,
+       59.0,
+       58.0,
+       58.0,
+       58.0,
+       58.0,
+       57.0,
+       58.0,
+       60.0,
+       58.0
+      ],
+      "per_seed_delta": [
+       -34.0,
+       -23.0,
+       -28.0,
+       -32.0,
+       -21.0,
+       -19.0,
+       -30.0,
+       -17.0,
+       -27.0,
+       -22.0
+      ],
+      "baseline_mbon_rate_hz": 6.966666666666666,
+      "zeroed_mbon_rate_hz": 4.858333333333333,
+      "abs_spike_difference": -25.299999999999997,
+      "rel_change": -0.3026315789473684,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       13782,
+       12689,
+       13233,
+       13528,
+       12507,
+       12429,
+       13400,
+       12370,
+       13407,
+       12641
+      ],
+      "kc_spikes_zeroed": [
+       13192,
+       12584,
+       11789,
+       13204,
+       12987,
+       13344,
+       14022,
+       12846,
+       12732,
+       13680
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL104",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.0485,
+      "baseline_rate_hz": 2.425,
+      "stimulated_duty": 0.2,
+      "delta_pp": 15.150000000000002,
+      "per_seed_delta_pp": [
+       15.500000000000004,
+       16.5,
+       13.0,
+       14.000000000000002,
+       15.000000000000002,
+       15.500000000000004,
+       16.5,
+       16.0,
+       15.000000000000002,
+       14.500000000000002
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON17",
+      "dan_type": "PPL104",
+      "stimulus": "pokemon_bedroom",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         30,
+         38,
+         35,
+         43,
+         47,
+         39,
+         22,
+         16,
+         30,
+         23
+        ],
+        "dan": [
+         47,
+         57,
+         56,
+         58,
+         62,
+         50,
+         42,
+         42,
+         52,
+         54
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         32,
+         38,
+         24,
+         31,
+         32,
+         53,
+         40,
+         29,
+         27,
+         30
+        ],
+        "dan": [
+         56,
+         59,
+         46,
+         58,
+         55,
+         71,
+         61,
+         42,
+         50,
+         54
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         31,
+         18,
+         16,
+         26,
+         35,
+         27,
+         32,
+         13,
+         24,
+         16
+        ],
+        "dan": [
+         62,
+         45,
+         40,
+         58,
+         65,
+         59,
+         53,
+         45,
+         52,
+         45
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.04024767801857599,
+      "mbon_zeroed_rel_under_visual_drive": -0.2916666666666667,
+      "zeroed_lower_seeds": 9,
+      "dan_visual_rel_vs_no_visual": 0.06153846153846159,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    },
+    "KCapbp-ap2->MBON16": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 0.8311855670103093,
+      "gray_rate_hz": 0.8937285223367698,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "pokemon_bedroom",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 311.6,
+         "rel_diff": 0.10735572782084411,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2362184752180514,
+         "per_seed_diff": [
+          -202.0,
+          229.0,
+          -1284.0,
+          -996.0,
+          -1751.0,
+          1720.0,
+          1251.0,
+          1944.0,
+          1324.0,
+          881.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 93.2,
+         "rel_diff": 0.029863180492806563,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.07680855047513477,
+         "per_seed_diff": [
+          -1583.0,
+          1565.0,
+          -826.0,
+          -676.0,
+          -1337.0,
+          2110.0,
+          513.0,
+          361.0,
+          781.0,
+          24.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.10869565217391305,
+        "q75_cell_modulation": 0.1916952474277315,
+        "top_cells": [
+         {
+          "body_id": 530565,
+          "modulation": 0.4893617021276595,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.4216867469879518,
+          "mean_diff": 3.5
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.40625,
+          "mean_diff": 2.6
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.4032258064516129,
+          "mean_diff": 2.5
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": -240.0,
+         "rel_diff": -0.082687338501292,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2161858245622322,
+         "per_seed_diff": [
+          -516.0,
+          -562.0,
+          272.0,
+          -888.0,
+          -2504.0,
+          -420.0,
+          593.0,
+          500.0,
+          1690.0,
+          -565.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -458.4,
+         "rel_diff": -0.14688070748822454,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.39944840480668276,
+         "per_seed_diff": [
+          -1897.0,
+          774.0,
+          730.0,
+          -568.0,
+          -2090.0,
+          -30.0,
+          -145.0,
+          -1083.0,
+          1147.0,
+          -1422.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.10084033613445377,
+        "q75_cell_modulation": 0.15255754475703326,
+        "top_cells": [
+         {
+          "body_id": 53221,
+          "modulation": 0.3283582089552239,
+          "mean_diff": -2.2
+         },
+         {
+          "body_id": 78359,
+          "modulation": 0.28125,
+          "mean_diff": -1.8
+         },
+         {
+          "body_id": 84498,
+          "modulation": 0.26732673267326734,
+          "mean_diff": -2.7
+         },
+         {
+          "body_id": 106931,
+          "modulation": 0.2605042016806723,
+          "mean_diff": -3.1
+         },
+         {
+          "body_id": 133083,
+          "modulation": 0.2571428571428572,
+          "mean_diff": -1.8
+         }
+        ],
+        "fraction_active": 0.9945017182130584
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 134.0,
+         "rel_diff": 0.04616709732988803,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.1317094271263377,
+         "per_seed_diff": [
+          519.0,
+          -254.0,
+          -583.0,
+          -426.0,
+          -1715.0,
+          741.0,
+          174.0,
+          2211.0,
+          289.0,
+          384.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -84.4,
+         "rel_diff": -0.02704348104713384,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.10475802359503503,
+         "per_seed_diff": [
+          -862.0,
+          1082.0,
+          -125.0,
+          -106.0,
+          -1301.0,
+          1131.0,
+          -564.0,
+          628.0,
+          -254.0,
+          -473.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.006872852233676976,
+        "median_cell_modulation": 0.1075268817204301,
+        "q75_cell_modulation": 0.196524064171123,
+        "top_cells": [
+         {
+          "body_id": 580421,
+          "modulation": 0.5,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.48192771084337344,
+          "mean_diff": 4.0
+         },
+         {
+          "body_id": 44551,
+          "modulation": 0.425,
+          "mean_diff": 3.4
+         },
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 33086,
+          "modulation": 0.393939393939394,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 0.99553264604811
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 343.3,
+         "rel_diff": 0.11827734711455642,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.31653849028651837,
+         "per_seed_diff": [
+          61.0,
+          353.0,
+          -821.0,
+          -1003.0,
+          -962.0,
+          1587.0,
+          2233.0,
+          657.0,
+          338.0,
+          990.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 124.9,
+         "rel_diff": 0.04002050690505944,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": 0.10641439988013987,
+         "per_seed_diff": [
+          -1320.0,
+          1689.0,
+          -363.0,
+          -683.0,
+          -548.0,
+          1977.0,
+          1495.0,
+          -926.0,
+          -205.0,
+          133.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.12751677852348992,
+        "q75_cell_modulation": 0.20812706270627063,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.48,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.4166666666666667,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 530565,
+          "modulation": 0.40425531914893614,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 76352,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 93644,
+          "modulation": 0.3953488372093023,
+          "mean_diff": 1.7
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 14.1,
+         "rel_diff": 0.004857881136950904,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.011470739076737652,
+         "per_seed_diff": [
+          733.0,
+          -1874.0,
+          231.0,
+          -444.0,
+          -2308.0,
+          205.0,
+          814.0,
+          1389.0,
+          1126.0,
+          269.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -204.3,
+         "rel_diff": -0.06546188599442469,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.26248054365281187,
+         "per_seed_diff": [
+          -648.0,
+          -538.0,
+          689.0,
+          -124.0,
+          -1894.0,
+          595.0,
+          76.0,
+          -194.0,
+          583.0,
+          -588.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.12295081967213116,
+        "q75_cell_modulation": 0.176730869338886,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 87334,
+          "modulation": 0.37500000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.36144578313253006,
+          "mean_diff": 3.0
+         },
+         {
+          "body_id": 57796,
+          "modulation": 0.3,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 67439,
+          "modulation": 0.2988505747126437,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 181.3,
+         "rel_diff": 0.062463393626184326,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.23539151417478393,
+         "per_seed_diff": [
+          -610.0,
+          319.0,
+          -923.0,
+          -106.0,
+          -433.0,
+          868.0,
+          269.0,
+          1721.0,
+          125.0,
+          583.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -37.1,
+         "rel_diff": -0.011887596526642955,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.03705249436793373,
+         "per_seed_diff": [
+          -1991.0,
+          1655.0,
+          -465.0,
+          214.0,
+          -19.0,
+          1258.0,
+          -469.0,
+          138.0,
+          -418.0,
+          -274.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.08823529411764706,
+        "q75_cell_modulation": 0.15783972125435541,
+        "top_cells": [
+         {
+          "body_id": 76352,
+          "modulation": 0.43750000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.37349397590361444,
+          "mean_diff": 3.1
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.3709677419354838,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 106559,
+          "modulation": 0.3658536585365854,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 79656,
+          "modulation": 0.36538461538461536,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 0.9993127147766323
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON16",
+      "regime": "60/8",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 286,
+      "edge_sha256": "58d2c68805956f2aa0816d72590522e990043081f39bf891ad1b6309cb33de30",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       94.0,
+       83.0,
+       89.0,
+       90.0,
+       82.0,
+       79.0,
+       90.0,
+       81.0,
+       89.0,
+       85.0
+      ],
+      "zeroed_mbon": [
+       54.0,
+       58.0,
+       57.0,
+       59.0,
+       57.0,
+       58.0,
+       57.0,
+       57.0,
+       58.0,
+       58.0
+      ],
+      "per_seed_delta": [
+       -40.0,
+       -25.0,
+       -32.0,
+       -31.0,
+       -25.0,
+       -21.0,
+       -33.0,
+       -24.0,
+       -31.0,
+       -27.0
+      ],
+      "baseline_mbon_rate_hz": 7.183333333333334,
+      "zeroed_mbon_rate_hz": 4.7749999999999995,
+      "abs_spike_difference": -28.900000000000006,
+      "rel_change": -0.33526682134570773,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       13782,
+       12689,
+       13233,
+       13528,
+       12507,
+       12429,
+       13400,
+       12370,
+       13407,
+       12641
+      ],
+      "kc_spikes_zeroed": [
+       13114,
+       12858,
+       13251,
+       12933,
+       12261,
+       12864,
+       13304,
+       12688,
+       13049,
+       12532
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL104",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.0485,
+      "baseline_rate_hz": 2.425,
+      "stimulated_duty": 0.2,
+      "delta_pp": 15.150000000000002,
+      "per_seed_delta_pp": [
+       15.500000000000004,
+       16.5,
+       13.0,
+       14.000000000000002,
+       15.000000000000002,
+       15.500000000000004,
+       16.5,
+       16.0,
+       15.000000000000002,
+       14.500000000000002
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON16",
+      "dan_type": "PPL104",
+      "stimulus": "pokemon_bedroom",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         36,
+         42,
+         44,
+         42,
+         50,
+         39,
+         20,
+         22,
+         35,
+         30
+        ],
+        "dan": [
+         47,
+         57,
+         56,
+         58,
+         62,
+         50,
+         42,
+         42,
+         52,
+         54
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         43,
+         40,
+         33,
+         42,
+         34,
+         55,
+         45,
+         26,
+         30,
+         34
+        ],
+        "dan": [
+         56,
+         59,
+         46,
+         58,
+         55,
+         71,
+         61,
+         42,
+         50,
+         54
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         34,
+         34,
+         36,
+         28,
+         26,
+         34,
+         29,
+         31,
+         33,
+         30
+        ],
+        "dan": [
+         51,
+         54,
+         54,
+         54,
+         49,
+         55,
+         54,
+         50,
+         55,
+         54
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.06111111111111119,
+      "mbon_zeroed_rel_under_visual_drive": -0.17539267015706814,
+      "zeroed_lower_seeds": 7,
+      "dan_visual_rel_vs_no_visual": 0.06153846153846159,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    },
+    "KCapbp-ap2->MBON13": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 0.8311855670103093,
+      "gray_rate_hz": 0.8937285223367698,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "pokemon_bedroom",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 311.6,
+         "rel_diff": 0.10735572782084411,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2362184752180514,
+         "per_seed_diff": [
+          -202.0,
+          229.0,
+          -1284.0,
+          -996.0,
+          -1751.0,
+          1720.0,
+          1251.0,
+          1944.0,
+          1324.0,
+          881.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 93.2,
+         "rel_diff": 0.029863180492806563,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.07680855047513477,
+         "per_seed_diff": [
+          -1583.0,
+          1565.0,
+          -826.0,
+          -676.0,
+          -1337.0,
+          2110.0,
+          513.0,
+          361.0,
+          781.0,
+          24.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.10869565217391305,
+        "q75_cell_modulation": 0.1916952474277315,
+        "top_cells": [
+         {
+          "body_id": 530565,
+          "modulation": 0.4893617021276595,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.4216867469879518,
+          "mean_diff": 3.5
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.40625,
+          "mean_diff": 2.6
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.4032258064516129,
+          "mean_diff": 2.5
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": -240.0,
+         "rel_diff": -0.082687338501292,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2161858245622322,
+         "per_seed_diff": [
+          -516.0,
+          -562.0,
+          272.0,
+          -888.0,
+          -2504.0,
+          -420.0,
+          593.0,
+          500.0,
+          1690.0,
+          -565.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -458.4,
+         "rel_diff": -0.14688070748822454,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.39944840480668276,
+         "per_seed_diff": [
+          -1897.0,
+          774.0,
+          730.0,
+          -568.0,
+          -2090.0,
+          -30.0,
+          -145.0,
+          -1083.0,
+          1147.0,
+          -1422.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.10084033613445377,
+        "q75_cell_modulation": 0.15255754475703326,
+        "top_cells": [
+         {
+          "body_id": 53221,
+          "modulation": 0.3283582089552239,
+          "mean_diff": -2.2
+         },
+         {
+          "body_id": 78359,
+          "modulation": 0.28125,
+          "mean_diff": -1.8
+         },
+         {
+          "body_id": 84498,
+          "modulation": 0.26732673267326734,
+          "mean_diff": -2.7
+         },
+         {
+          "body_id": 106931,
+          "modulation": 0.2605042016806723,
+          "mean_diff": -3.1
+         },
+         {
+          "body_id": 133083,
+          "modulation": 0.2571428571428572,
+          "mean_diff": -1.8
+         }
+        ],
+        "fraction_active": 0.9945017182130584
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 134.0,
+         "rel_diff": 0.04616709732988803,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.1317094271263377,
+         "per_seed_diff": [
+          519.0,
+          -254.0,
+          -583.0,
+          -426.0,
+          -1715.0,
+          741.0,
+          174.0,
+          2211.0,
+          289.0,
+          384.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -84.4,
+         "rel_diff": -0.02704348104713384,
+         "consistent_seeds": 7,
+         "positive_seeds": 3,
+         "dz": -0.10475802359503503,
+         "per_seed_diff": [
+          -862.0,
+          1082.0,
+          -125.0,
+          -106.0,
+          -1301.0,
+          1131.0,
+          -564.0,
+          628.0,
+          -254.0,
+          -473.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.006872852233676976,
+        "median_cell_modulation": 0.1075268817204301,
+        "q75_cell_modulation": 0.196524064171123,
+        "top_cells": [
+         {
+          "body_id": 580421,
+          "modulation": 0.5,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.48192771084337344,
+          "mean_diff": 4.0
+         },
+         {
+          "body_id": 44551,
+          "modulation": 0.425,
+          "mean_diff": 3.4
+         },
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 33086,
+          "modulation": 0.393939393939394,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 0.99553264604811
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 343.3,
+         "rel_diff": 0.11827734711455642,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.31653849028651837,
+         "per_seed_diff": [
+          61.0,
+          353.0,
+          -821.0,
+          -1003.0,
+          -962.0,
+          1587.0,
+          2233.0,
+          657.0,
+          338.0,
+          990.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 124.9,
+         "rel_diff": 0.04002050690505944,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": 0.10641439988013987,
+         "per_seed_diff": [
+          -1320.0,
+          1689.0,
+          -363.0,
+          -683.0,
+          -548.0,
+          1977.0,
+          1495.0,
+          -926.0,
+          -205.0,
+          133.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.003436426116838488,
+        "median_cell_modulation": 0.12751677852348992,
+        "q75_cell_modulation": 0.20812706270627063,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.48,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 580421,
+          "modulation": 0.4166666666666667,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 530565,
+          "modulation": 0.40425531914893614,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 76352,
+          "modulation": 0.3958333333333333,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 93644,
+          "modulation": 0.3953488372093023,
+          "mean_diff": 1.7
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 14.1,
+         "rel_diff": 0.004857881136950904,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.011470739076737652,
+         "per_seed_diff": [
+          733.0,
+          -1874.0,
+          231.0,
+          -444.0,
+          -2308.0,
+          205.0,
+          814.0,
+          1389.0,
+          1126.0,
+          269.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -204.3,
+         "rel_diff": -0.06546188599442469,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.26248054365281187,
+         "per_seed_diff": [
+          -648.0,
+          -538.0,
+          689.0,
+          -124.0,
+          -1894.0,
+          595.0,
+          76.0,
+          -194.0,
+          583.0,
+          -588.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.12295081967213116,
+        "q75_cell_modulation": 0.176730869338886,
+        "top_cells": [
+         {
+          "body_id": 77539,
+          "modulation": 0.4,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 87334,
+          "modulation": 0.37500000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.36144578313253006,
+          "mean_diff": 3.0
+         },
+         {
+          "body_id": 57796,
+          "modulation": 0.3,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 67439,
+          "modulation": 0.2988505747126437,
+          "mean_diff": 2.6
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 181.3,
+         "rel_diff": 0.062463393626184326,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.23539151417478393,
+         "per_seed_diff": [
+          -610.0,
+          319.0,
+          -923.0,
+          -106.0,
+          -433.0,
+          868.0,
+          269.0,
+          1721.0,
+          125.0,
+          583.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -37.1,
+         "rel_diff": -0.011887596526642955,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.03705249436793373,
+         "per_seed_diff": [
+          -1991.0,
+          1655.0,
+          -465.0,
+          214.0,
+          -19.0,
+          1258.0,
+          -469.0,
+          138.0,
+          -418.0,
+          -274.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.08823529411764706,
+        "q75_cell_modulation": 0.15783972125435541,
+        "top_cells": [
+         {
+          "body_id": 76352,
+          "modulation": 0.43750000000000006,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 75185,
+          "modulation": 0.37349397590361444,
+          "mean_diff": 3.1
+         },
+         {
+          "body_id": 47630,
+          "modulation": 0.3709677419354838,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 106559,
+          "modulation": 0.3658536585365854,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 79656,
+          "modulation": 0.36538461538461536,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 0.9993127147766323
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON13",
+      "regime": "60/8",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 290,
+      "edge_sha256": "98da9460ac91f987582fadef39b32f3156ea6219568a064096dc03585a34ddb0",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       93.0,
+       83.0,
+       89.0,
+       91.0,
+       82.0,
+       79.0,
+       88.0,
+       79.0,
+       89.0,
+       85.0
+      ],
+      "zeroed_mbon": [
+       57.0,
+       60.0,
+       57.0,
+       59.0,
+       59.0,
+       59.0,
+       57.0,
+       58.0,
+       58.0,
+       58.0
+      ],
+      "per_seed_delta": [
+       -36.0,
+       -23.0,
+       -32.0,
+       -32.0,
+       -23.0,
+       -20.0,
+       -31.0,
+       -21.0,
+       -31.0,
+       -27.0
+      ],
+      "baseline_mbon_rate_hz": 7.1499999999999995,
+      "zeroed_mbon_rate_hz": 4.8500000000000005,
+      "abs_spike_difference": -27.599999999999994,
+      "rel_change": -0.3216783216783216,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       13782,
+       12689,
+       13233,
+       13528,
+       12507,
+       12429,
+       13400,
+       12370,
+       13407,
+       12641
+      ],
+      "kc_spikes_zeroed": [
+       13709,
+       12608,
+       13232,
+       12794,
+       12988,
+       13063,
+       13061,
+       13563,
+       13619,
+       12657
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL105",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.078,
+      "baseline_rate_hz": 3.9,
+      "stimulated_duty": 0.185,
+      "delta_pp": 10.700000000000001,
+      "per_seed_delta_pp": [
+       14.000000000000002,
+       11.5,
+       13.0,
+       11.000000000000002,
+       13.0,
+       13.5,
+       6.999999999999999,
+       12.000000000000002,
+       1.0000000000000009,
+       11.000000000000002
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON13",
+      "dan_type": "PPL105",
+      "stimulus": "pokemon_bedroom",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         44,
+         56,
+         48,
+         55,
+         61,
+         52,
+         46,
+         43,
+         46,
+         43
+        ],
+        "dan": [
+         91,
+         93,
+         91,
+         88,
+         91,
+         89,
+         94,
+         87,
+         94,
+         97
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         46,
+         48,
+         44,
+         56,
+         49,
+         65,
+         62,
+         41,
+         45,
+         49
+        ],
+        "dan": [
+         92,
+         90,
+         85,
+         94,
+         94,
+         95,
+         91,
+         91,
+         92,
+         90
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         39,
+         51,
+         42,
+         38,
+         44,
+         41,
+         43,
+         40,
+         43,
+         48
+        ],
+        "dan": [
+         91,
+         96,
+         88,
+         83,
+         84,
+         101,
+         101,
+         87,
+         93,
+         93
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.022267206477732823,
+      "mbon_zeroed_rel_under_visual_drive": -0.15049504950495052,
+      "zeroed_lower_seeds": 9,
+      "dan_visual_rel_vs_no_visual": -0.001092896174863326,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    }
+   },
+   "visual_passing_classes": [],
+   "w_unchanged": true,
+   "t4_sha256": "87829806e398f66b49b6b5e68be210a4a38baf909b22e15bfa7ad6df5a28ea76"
+  },
+  "80/3": {
+   "rows": {
+    "KCapbp-ap2->MBON17": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 2.4787227949599084,
+      "gray_rate_hz": 2.514547537227949,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "vertical",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 228.9,
+         "rel_diff": 0.026445001559665882,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5093651785373531,
+         "per_seed_diff": [
+          1003.0,
+          -86.0,
+          -372.0,
+          380.0,
+          623.0,
+          122.0,
+          -131.0,
+          742.0,
+          197.0,
+          -189.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 103.8,
+         "rel_diff": 0.011821246355685131,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2948221786098266,
+         "per_seed_diff": [
+          430.0,
+          -318.0,
+          394.0,
+          -507.0,
+          -166.0,
+          -74.0,
+          151.0,
+          530.0,
+          230.0,
+          368.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02666666666666667,
+        "q75_cell_modulation": 0.03864824495892458,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.08013937282229965,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.07220216606498195,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 145026,
+          "modulation": 0.07191780821917809,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 60960,
+          "modulation": 0.06862745098039216,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.06551724137931034,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": 1.0,
+         "rel_diff": 0.00011553080628949708,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.00186239869020675,
+         "per_seed_diff": [
+          497.0,
+          -45.0,
+          187.0,
+          89.0,
+          491.0,
+          -357.0,
+          -1127.0,
+          699.0,
+          -5.0,
+          -419.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -124.1,
+         "rel_diff": -0.01413310860058309,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2209526716681186,
+         "per_seed_diff": [
+          -76.0,
+          -277.0,
+          953.0,
+          -798.0,
+          -298.0,
+          -553.0,
+          -845.0,
+          487.0,
+          28.0,
+          138.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.010380622837370242,
+        "q75_cell_modulation": 0.020000222224691385,
+        "top_cells": [
+         {
+          "body_id": 57796,
+          "modulation": 0.05194805194805195,
+          "mean_diff": -1.6
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.0477815699658703,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 59463,
+          "modulation": 0.04666666666666666,
+          "mean_diff": -1.4
+         },
+         {
+          "body_id": 83737,
+          "modulation": 0.0440251572327044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.04391891891891892,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 188.8,
+         "rel_diff": 0.021812216227457052,
+         "consistent_seeds": 8,
+         "positive_seeds": 8,
+         "dz": 0.5215886229990857,
+         "per_seed_diff": [
+          364.0,
+          516.0,
+          147.0,
+          112.0,
+          378.0,
+          -254.0,
+          59.0,
+          494.0,
+          604.0,
+          -532.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 63.7,
+         "rel_diff": 0.007254464285714287,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12106644311470201,
+         "per_seed_diff": [
+          -209.0,
+          284.0,
+          913.0,
+          -775.0,
+          -411.0,
+          -450.0,
+          341.0,
+          282.0,
+          637.0,
+          25.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023489932885906038,
+        "q75_cell_modulation": 0.033009052977895914,
+        "top_cells": [
+         {
+          "body_id": 75611,
+          "modulation": 0.08450704225352113,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.07167235494880546,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.07094594594594594,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.06944444444444445,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.06859205776173286,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 193.6,
+         "rel_diff": 0.022366764097646635,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5033714461256592,
+         "per_seed_diff": [
+          328.0,
+          606.0,
+          -145.0,
+          122.0,
+          303.0,
+          -313.0,
+          -265.0,
+          452.0,
+          855.0,
+          -7.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 68.5,
+         "rel_diff": 0.007801111516034986,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12351636661701644,
+         "per_seed_diff": [
+          -245.0,
+          374.0,
+          621.0,
+          -765.0,
+          -486.0,
+          -509.0,
+          17.0,
+          240.0,
+          888.0,
+          550.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02333333333333333,
+        "q75_cell_modulation": 0.03442350989453727,
+        "top_cells": [
+         {
+          "body_id": 40066,
+          "modulation": 0.08053691275167785,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 131662,
+          "modulation": 0.07317073170731708,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 41793,
+          "modulation": 0.0711864406779661,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 151584,
+          "modulation": 0.06802721088435375,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 64782,
+          "modulation": 0.06597222222222222,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 191.5,
+         "rel_diff": 0.02212414940443869,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.650558840853486,
+         "per_seed_diff": [
+          598.0,
+          -4.0,
+          198.0,
+          127.0,
+          305.0,
+          -325.0,
+          -116.0,
+          516.0,
+          489.0,
+          127.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 66.4,
+         "rel_diff": 0.00756195335276968,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.11727519373846267,
+         "per_seed_diff": [
+          25.0,
+          -236.0,
+          964.0,
+          -760.0,
+          -484.0,
+          -521.0,
+          166.0,
+          304.0,
+          522.0,
+          684.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023411371237458192,
+        "q75_cell_modulation": 0.033444816053511704,
+        "top_cells": [
+         {
+          "body_id": 60960,
+          "modulation": 0.06209150326797385,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 55935,
+          "modulation": 0.05944055944055943,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.059027777777777776,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.05405405405405406,
+          "mean_diff": 1.6
+         },
+         {
+          "body_id": 79893,
+          "modulation": 0.053763440860215055,
+          "mean_diff": 1.5
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 83.9,
+         "rel_diff": 0.009693034647688807,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.18052215808015995,
+         "per_seed_diff": [
+          681.0,
+          285.0,
+          -25.0,
+          470.0,
+          -206.0,
+          -724.0,
+          -381.0,
+          658.0,
+          264.0,
+          -183.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -41.2,
+         "rel_diff": -0.004692055393586006,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": -0.07143559250545364,
+         "per_seed_diff": [
+          108.0,
+          53.0,
+          741.0,
+          -417.0,
+          -995.0,
+          -920.0,
+          -99.0,
+          446.0,
+          297.0,
+          374.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.013333333333333334,
+        "q75_cell_modulation": 0.023217821782178218,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.048780487804878044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 552080,
+          "modulation": 0.048701298701298704,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 75075,
+          "modulation": 0.04666666666666666,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 78512,
+          "modulation": 0.04529616724738676,
+          "mean_diff": 1.3
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.04482758620689655,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON17",
+      "regime": "80/3",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 285,
+      "edge_sha256": "c2bbc7ad357311754368d2d3b49198cb4d2409005b90be657de40c6ebae6ade9",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       83.0,
+       83.0,
+       83.0,
+       84.0,
+       84.0,
+       85.0,
+       83.0,
+       84.0,
+       83.0,
+       86.0
+      ],
+      "zeroed_mbon": [
+       58.0,
+       59.0,
+       57.0,
+       58.0,
+       59.0,
+       60.0,
+       56.0,
+       58.0,
+       59.0,
+       59.0
+      ],
+      "per_seed_delta": [
+       -25.0,
+       -24.0,
+       -26.0,
+       -26.0,
+       -25.0,
+       -25.0,
+       -27.0,
+       -26.0,
+       -24.0,
+       -27.0
+      ],
+      "baseline_mbon_rate_hz": 6.983333333333333,
+      "zeroed_mbon_rate_hz": 4.858333333333333,
+      "abs_spike_difference": -25.5,
+      "rel_change": -0.3042959427207637,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       12437,
+       12355,
+       12654,
+       12446,
+       12396,
+       12661,
+       12462,
+       12352,
+       12509,
+       12582
+      ],
+      "kc_spikes_zeroed": [
+       12321,
+       12512,
+       12692,
+       12417,
+       12519,
+       12241,
+       12348,
+       12550,
+       12442,
+       12161
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL104",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.05750000000000001,
+      "baseline_rate_hz": 2.8750000000000004,
+      "stimulated_duty": 0.185,
+      "delta_pp": 12.75,
+      "per_seed_delta_pp": [
+       9.5,
+       15.000000000000002,
+       15.000000000000002,
+       3.5000000000000004,
+       14.500000000000002,
+       13.5,
+       13.5,
+       14.000000000000002,
+       14.500000000000002,
+       14.500000000000002
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON17",
+      "dan_type": "PPL104",
+      "stimulus": "vertical",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         61,
+         61,
+         62,
+         62,
+         60,
+         68,
+         62,
+         63,
+         62,
+         66
+        ],
+        "dan": [
+         65,
+         69,
+         70,
+         69,
+         66,
+         74,
+         68,
+         65,
+         70,
+         67
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         64,
+         64,
+         60,
+         62,
+         65,
+         65,
+         59,
+         69,
+         63,
+         63
+        ],
+        "dan": [
+         64,
+         66,
+         66,
+         64,
+         73,
+         70,
+         60,
+         74,
+         75,
+         64
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         57,
+         59,
+         53,
+         57,
+         60,
+         63,
+         55,
+         55,
+         59,
+         55
+        ],
+        "dan": [
+         71,
+         68,
+         69,
+         67,
+         71,
+         70,
+         65,
+         65,
+         72,
+         66
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.011164274322168991,
+      "mbon_zeroed_rel_under_visual_drive": -0.09621451104100949,
+      "zeroed_lower_seeds": 10,
+      "dan_visual_rel_vs_no_visual": -0.010248901903367538,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    },
+    "KCapbp-ap2->MBON16": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 2.4787227949599084,
+      "gray_rate_hz": 2.514547537227949,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "vertical",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 228.9,
+         "rel_diff": 0.026445001559665882,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5093651785373531,
+         "per_seed_diff": [
+          1003.0,
+          -86.0,
+          -372.0,
+          380.0,
+          623.0,
+          122.0,
+          -131.0,
+          742.0,
+          197.0,
+          -189.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 103.8,
+         "rel_diff": 0.011821246355685131,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2948221786098266,
+         "per_seed_diff": [
+          430.0,
+          -318.0,
+          394.0,
+          -507.0,
+          -166.0,
+          -74.0,
+          151.0,
+          530.0,
+          230.0,
+          368.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02666666666666667,
+        "q75_cell_modulation": 0.03864824495892458,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.08013937282229965,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.07220216606498195,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 145026,
+          "modulation": 0.07191780821917809,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 60960,
+          "modulation": 0.06862745098039216,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.06551724137931034,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": 1.0,
+         "rel_diff": 0.00011553080628949708,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.00186239869020675,
+         "per_seed_diff": [
+          497.0,
+          -45.0,
+          187.0,
+          89.0,
+          491.0,
+          -357.0,
+          -1127.0,
+          699.0,
+          -5.0,
+          -419.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -124.1,
+         "rel_diff": -0.01413310860058309,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2209526716681186,
+         "per_seed_diff": [
+          -76.0,
+          -277.0,
+          953.0,
+          -798.0,
+          -298.0,
+          -553.0,
+          -845.0,
+          487.0,
+          28.0,
+          138.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.010380622837370242,
+        "q75_cell_modulation": 0.020000222224691385,
+        "top_cells": [
+         {
+          "body_id": 57796,
+          "modulation": 0.05194805194805195,
+          "mean_diff": -1.6
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.0477815699658703,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 59463,
+          "modulation": 0.04666666666666666,
+          "mean_diff": -1.4
+         },
+         {
+          "body_id": 83737,
+          "modulation": 0.0440251572327044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.04391891891891892,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 188.8,
+         "rel_diff": 0.021812216227457052,
+         "consistent_seeds": 8,
+         "positive_seeds": 8,
+         "dz": 0.5215886229990857,
+         "per_seed_diff": [
+          364.0,
+          516.0,
+          147.0,
+          112.0,
+          378.0,
+          -254.0,
+          59.0,
+          494.0,
+          604.0,
+          -532.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 63.7,
+         "rel_diff": 0.007254464285714287,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12106644311470201,
+         "per_seed_diff": [
+          -209.0,
+          284.0,
+          913.0,
+          -775.0,
+          -411.0,
+          -450.0,
+          341.0,
+          282.0,
+          637.0,
+          25.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023489932885906038,
+        "q75_cell_modulation": 0.033009052977895914,
+        "top_cells": [
+         {
+          "body_id": 75611,
+          "modulation": 0.08450704225352113,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.07167235494880546,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.07094594594594594,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.06944444444444445,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.06859205776173286,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 193.6,
+         "rel_diff": 0.022366764097646635,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5033714461256592,
+         "per_seed_diff": [
+          328.0,
+          606.0,
+          -145.0,
+          122.0,
+          303.0,
+          -313.0,
+          -265.0,
+          452.0,
+          855.0,
+          -7.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 68.5,
+         "rel_diff": 0.007801111516034986,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12351636661701644,
+         "per_seed_diff": [
+          -245.0,
+          374.0,
+          621.0,
+          -765.0,
+          -486.0,
+          -509.0,
+          17.0,
+          240.0,
+          888.0,
+          550.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02333333333333333,
+        "q75_cell_modulation": 0.03442350989453727,
+        "top_cells": [
+         {
+          "body_id": 40066,
+          "modulation": 0.08053691275167785,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 131662,
+          "modulation": 0.07317073170731708,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 41793,
+          "modulation": 0.0711864406779661,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 151584,
+          "modulation": 0.06802721088435375,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 64782,
+          "modulation": 0.06597222222222222,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 191.5,
+         "rel_diff": 0.02212414940443869,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.650558840853486,
+         "per_seed_diff": [
+          598.0,
+          -4.0,
+          198.0,
+          127.0,
+          305.0,
+          -325.0,
+          -116.0,
+          516.0,
+          489.0,
+          127.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 66.4,
+         "rel_diff": 0.00756195335276968,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.11727519373846267,
+         "per_seed_diff": [
+          25.0,
+          -236.0,
+          964.0,
+          -760.0,
+          -484.0,
+          -521.0,
+          166.0,
+          304.0,
+          522.0,
+          684.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023411371237458192,
+        "q75_cell_modulation": 0.033444816053511704,
+        "top_cells": [
+         {
+          "body_id": 60960,
+          "modulation": 0.06209150326797385,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 55935,
+          "modulation": 0.05944055944055943,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.059027777777777776,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.05405405405405406,
+          "mean_diff": 1.6
+         },
+         {
+          "body_id": 79893,
+          "modulation": 0.053763440860215055,
+          "mean_diff": 1.5
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 83.9,
+         "rel_diff": 0.009693034647688807,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.18052215808015995,
+         "per_seed_diff": [
+          681.0,
+          285.0,
+          -25.0,
+          470.0,
+          -206.0,
+          -724.0,
+          -381.0,
+          658.0,
+          264.0,
+          -183.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -41.2,
+         "rel_diff": -0.004692055393586006,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": -0.07143559250545364,
+         "per_seed_diff": [
+          108.0,
+          53.0,
+          741.0,
+          -417.0,
+          -995.0,
+          -920.0,
+          -99.0,
+          446.0,
+          297.0,
+          374.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.013333333333333334,
+        "q75_cell_modulation": 0.023217821782178218,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.048780487804878044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 552080,
+          "modulation": 0.048701298701298704,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 75075,
+          "modulation": 0.04666666666666666,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 78512,
+          "modulation": 0.04529616724738676,
+          "mean_diff": 1.3
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.04482758620689655,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON16",
+      "regime": "80/3",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 286,
+      "edge_sha256": "58d2c68805956f2aa0816d72590522e990043081f39bf891ad1b6309cb33de30",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       83.0,
+       83.0,
+       84.0,
+       84.0,
+       84.0,
+       86.0,
+       84.0,
+       84.0,
+       85.0,
+       86.0
+      ],
+      "zeroed_mbon": [
+       52.0,
+       54.0,
+       52.0,
+       54.0,
+       54.0,
+       54.0,
+       52.0,
+       51.0,
+       51.0,
+       52.0
+      ],
+      "per_seed_delta": [
+       -31.0,
+       -29.0,
+       -32.0,
+       -30.0,
+       -30.0,
+       -32.0,
+       -32.0,
+       -33.0,
+       -34.0,
+       -34.0
+      ],
+      "baseline_mbon_rate_hz": 7.0249999999999995,
+      "zeroed_mbon_rate_hz": 4.383333333333334,
+      "abs_spike_difference": -31.699999999999996,
+      "rel_change": -0.37603795966785286,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       12437,
+       12355,
+       12654,
+       12446,
+       12396,
+       12661,
+       12462,
+       12352,
+       12509,
+       12582
+      ],
+      "kc_spikes_zeroed": [
+       12408,
+       12290,
+       12650,
+       12522,
+       12527,
+       12468,
+       12566,
+       12641,
+       12483,
+       12477
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL104",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.05750000000000001,
+      "baseline_rate_hz": 2.8750000000000004,
+      "stimulated_duty": 0.185,
+      "delta_pp": 12.75,
+      "per_seed_delta_pp": [
+       9.5,
+       15.000000000000002,
+       15.000000000000002,
+       3.5000000000000004,
+       14.500000000000002,
+       13.5,
+       13.5,
+       14.000000000000002,
+       14.500000000000002,
+       14.500000000000002
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON16",
+      "dan_type": "PPL104",
+      "stimulus": "vertical",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         67,
+         68,
+         67,
+         64,
+         66,
+         69,
+         69,
+         63,
+         69,
+         69
+        ],
+        "dan": [
+         65,
+         69,
+         70,
+         69,
+         66,
+         74,
+         68,
+         65,
+         70,
+         67
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         69,
+         64,
+         69,
+         71,
+         67,
+         70,
+         63,
+         76,
+         72,
+         67
+        ],
+        "dan": [
+         64,
+         66,
+         66,
+         64,
+         73,
+         70,
+         60,
+         74,
+         75,
+         64
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         56,
+         59,
+         63,
+         58,
+         58,
+         60,
+         60,
+         60,
+         60,
+         58
+        ],
+        "dan": [
+         63,
+         71,
+         66,
+         66,
+         59,
+         66,
+         64,
+         66,
+         68,
+         66
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.025335320417287675,
+      "mbon_zeroed_rel_under_visual_drive": -0.13953488372093015,
+      "zeroed_lower_seeds": 10,
+      "dan_visual_rel_vs_no_visual": -0.010248901903367538,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    },
+    "KCapbp-ap2->MBON13": {
+     "visual_gate": false,
+     "visual": {
+      "cells": 291,
+      "baseline_rate_hz": 2.4787227949599084,
+      "gray_rate_hz": 2.514547537227949,
+      "fraction_active_no_visual": 1.0,
+      "best_stimulus": "vertical",
+      "passes_gate": false,
+      "passing_stimuli": [],
+      "stimuli": {
+       "vertical": {
+        "no_visual": {
+         "mean_diff": 228.9,
+         "rel_diff": 0.026445001559665882,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5093651785373531,
+         "per_seed_diff": [
+          1003.0,
+          -86.0,
+          -372.0,
+          380.0,
+          623.0,
+          122.0,
+          -131.0,
+          742.0,
+          197.0,
+          -189.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 103.8,
+         "rel_diff": 0.011821246355685131,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.2948221786098266,
+         "per_seed_diff": [
+          430.0,
+          -318.0,
+          394.0,
+          -507.0,
+          -166.0,
+          -74.0,
+          151.0,
+          530.0,
+          230.0,
+          368.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02666666666666667,
+        "q75_cell_modulation": 0.03864824495892458,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.08013937282229965,
+          "mean_diff": 2.3
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.07220216606498195,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 145026,
+          "modulation": 0.07191780821917809,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 60960,
+          "modulation": 0.06862745098039216,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.06551724137931034,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "horizontal": {
+        "no_visual": {
+         "mean_diff": 1.0,
+         "rel_diff": 0.00011553080628949708,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.00186239869020675,
+         "per_seed_diff": [
+          497.0,
+          -45.0,
+          187.0,
+          89.0,
+          491.0,
+          -357.0,
+          -1127.0,
+          699.0,
+          -5.0,
+          -419.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -124.1,
+         "rel_diff": -0.01413310860058309,
+         "consistent_seeds": 6,
+         "positive_seeds": 4,
+         "dz": -0.2209526716681186,
+         "per_seed_diff": [
+          -76.0,
+          -277.0,
+          953.0,
+          -798.0,
+          -298.0,
+          -553.0,
+          -845.0,
+          487.0,
+          28.0,
+          138.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.010380622837370242,
+        "q75_cell_modulation": 0.020000222224691385,
+        "top_cells": [
+         {
+          "body_id": 57796,
+          "modulation": 0.05194805194805195,
+          "mean_diff": -1.6
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.0477815699658703,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 59463,
+          "modulation": 0.04666666666666666,
+          "mean_diff": -1.4
+         },
+         {
+          "body_id": 83737,
+          "modulation": 0.0440251572327044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.04391891891891892,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "drifting_vertical": {
+        "no_visual": {
+         "mean_diff": 188.8,
+         "rel_diff": 0.021812216227457052,
+         "consistent_seeds": 8,
+         "positive_seeds": 8,
+         "dz": 0.5215886229990857,
+         "per_seed_diff": [
+          364.0,
+          516.0,
+          147.0,
+          112.0,
+          378.0,
+          -254.0,
+          59.0,
+          494.0,
+          604.0,
+          -532.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 63.7,
+         "rel_diff": 0.007254464285714287,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12106644311470201,
+         "per_seed_diff": [
+          -209.0,
+          284.0,
+          913.0,
+          -775.0,
+          -411.0,
+          -450.0,
+          341.0,
+          282.0,
+          637.0,
+          25.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023489932885906038,
+        "q75_cell_modulation": 0.033009052977895914,
+        "top_cells": [
+         {
+          "body_id": 75611,
+          "modulation": 0.08450704225352113,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 84657,
+          "modulation": 0.07167235494880546,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.07094594594594594,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.06944444444444445,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 122600,
+          "modulation": 0.06859205776173286,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom": {
+        "no_visual": {
+         "mean_diff": 193.6,
+         "rel_diff": 0.022366764097646635,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.5033714461256592,
+         "per_seed_diff": [
+          328.0,
+          606.0,
+          -145.0,
+          122.0,
+          303.0,
+          -313.0,
+          -265.0,
+          452.0,
+          855.0,
+          -7.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 68.5,
+         "rel_diff": 0.007801111516034986,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.12351636661701644,
+         "per_seed_diff": [
+          -245.0,
+          374.0,
+          621.0,
+          -765.0,
+          -486.0,
+          -509.0,
+          17.0,
+          240.0,
+          888.0,
+          550.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.02333333333333333,
+        "q75_cell_modulation": 0.03442350989453727,
+        "top_cells": [
+         {
+          "body_id": 40066,
+          "modulation": 0.08053691275167785,
+          "mean_diff": 2.4
+         },
+         {
+          "body_id": 131662,
+          "modulation": 0.07317073170731708,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 41793,
+          "modulation": 0.0711864406779661,
+          "mean_diff": 2.1
+         },
+         {
+          "body_id": 151584,
+          "modulation": 0.06802721088435375,
+          "mean_diff": 2.0
+         },
+         {
+          "body_id": 64782,
+          "modulation": 0.06597222222222222,
+          "mean_diff": 1.9
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_bedroom_after_walk": {
+        "no_visual": {
+         "mean_diff": 191.5,
+         "rel_diff": 0.02212414940443869,
+         "consistent_seeds": 7,
+         "positive_seeds": 7,
+         "dz": 0.650558840853486,
+         "per_seed_diff": [
+          598.0,
+          -4.0,
+          198.0,
+          127.0,
+          305.0,
+          -325.0,
+          -116.0,
+          516.0,
+          489.0,
+          127.0
+         ]
+        },
+        "gray": {
+         "mean_diff": 66.4,
+         "rel_diff": 0.00756195335276968,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": 0.11727519373846267,
+         "per_seed_diff": [
+          25.0,
+          -236.0,
+          964.0,
+          -760.0,
+          -484.0,
+          -521.0,
+          166.0,
+          304.0,
+          522.0,
+          684.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.023411371237458192,
+        "q75_cell_modulation": 0.033444816053511704,
+        "top_cells": [
+         {
+          "body_id": 60960,
+          "modulation": 0.06209150326797385,
+          "mean_diff": 1.9
+         },
+         {
+          "body_id": 55935,
+          "modulation": 0.05944055944055943,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 49535,
+          "modulation": 0.059027777777777776,
+          "mean_diff": 1.7
+         },
+         {
+          "body_id": 82028,
+          "modulation": 0.05405405405405406,
+          "mean_diff": 1.6
+         },
+         {
+          "body_id": 79893,
+          "modulation": 0.053763440860215055,
+          "mean_diff": 1.5
+         }
+        ],
+        "fraction_active": 1.0
+       },
+       "pokemon_walk": {
+        "no_visual": {
+         "mean_diff": 83.9,
+         "rel_diff": 0.009693034647688807,
+         "consistent_seeds": 5,
+         "positive_seeds": 5,
+         "dz": 0.18052215808015995,
+         "per_seed_diff": [
+          681.0,
+          285.0,
+          -25.0,
+          470.0,
+          -206.0,
+          -724.0,
+          -381.0,
+          658.0,
+          264.0,
+          -183.0
+         ]
+        },
+        "gray": {
+         "mean_diff": -41.2,
+         "rel_diff": -0.004692055393586006,
+         "consistent_seeds": 6,
+         "positive_seeds": 6,
+         "dz": -0.07143559250545364,
+         "per_seed_diff": [
+          108.0,
+          53.0,
+          741.0,
+          -417.0,
+          -995.0,
+          -920.0,
+          -99.0,
+          446.0,
+          297.0,
+          374.0
+         ]
+        },
+        "passes_gate": false,
+        "fraction_cells_modulated": 0.0,
+        "median_cell_modulation": 0.013333333333333334,
+        "q75_cell_modulation": 0.023217821782178218,
+        "top_cells": [
+         {
+          "body_id": 131662,
+          "modulation": 0.048780487804878044,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 552080,
+          "modulation": 0.048701298701298704,
+          "mean_diff": 1.5
+         },
+         {
+          "body_id": 75075,
+          "modulation": 0.04666666666666666,
+          "mean_diff": 1.4
+         },
+         {
+          "body_id": 78512,
+          "modulation": 0.04529616724738676,
+          "mean_diff": 1.3
+         },
+         {
+          "body_id": 81095,
+          "modulation": 0.04482758620689655,
+          "mean_diff": 1.3
+         }
+        ],
+        "fraction_active": 1.0
+       }
+      }
+     },
+     "leverage": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON13",
+      "regime": "80/3",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "edges": 290,
+      "edge_sha256": "98da9460ac91f987582fadef39b32f3156ea6219568a064096dc03585a34ddb0",
+      "mbon_cells": 2,
+      "kc_cells": 291,
+      "baseline_mbon": [
+       83.0,
+       83.0,
+       84.0,
+       84.0,
+       83.0,
+       86.0,
+       84.0,
+       84.0,
+       85.0,
+       86.0
+      ],
+      "zeroed_mbon": [
+       57.0,
+       61.0,
+       56.0,
+       60.0,
+       58.0,
+       58.0,
+       56.0,
+       59.0,
+       60.0,
+       60.0
+      ],
+      "per_seed_delta": [
+       -26.0,
+       -22.0,
+       -28.0,
+       -24.0,
+       -25.0,
+       -28.0,
+       -28.0,
+       -25.0,
+       -25.0,
+       -26.0
+      ],
+      "baseline_mbon_rate_hz": 7.016666666666667,
+      "zeroed_mbon_rate_hz": 4.875,
+      "abs_spike_difference": -25.700000000000003,
+      "rel_change": -0.30522565320665085,
+      "lower_seeds": 10,
+      "kc_spikes_baseline": [
+       12437,
+       12355,
+       12654,
+       12446,
+       12396,
+       12661,
+       12462,
+       12352,
+       12509,
+       12582
+      ],
+      "kc_spikes_zeroed": [
+       12531,
+       12498,
+       12436,
+       12417,
+       12446,
+       12353,
+       12638,
+       12640,
+       12567,
+       12447
+      ],
+      "passes": true,
+      "w_unchanged": true
+     },
+     "dan": {
+      "dan_type": "PPL105",
+      "cells": 2,
+      "amplitude": 0.3,
+      "baseline_duty": 0.064,
+      "baseline_rate_hz": 3.2,
+      "stimulated_duty": 0.18,
+      "delta_pp": 11.600000000000001,
+      "per_seed_delta_pp": [
+       14.000000000000002,
+       14.000000000000002,
+       4.000000000000001,
+       14.000000000000002,
+       7.999999999999999,
+       8.5,
+       13.0,
+       13.0,
+       15.000000000000002,
+       12.5
+      ],
+      "positive_seeds": 10,
+      "usable": true
+     },
+     "natural_drive_descriptive": {
+      "kc_type": "KCapbp-ap2",
+      "mbon_type": "MBON13",
+      "dan_type": "PPL105",
+      "stimulus": "vertical",
+      "seeds": [
+       3021,
+       3022,
+       3023,
+       3024,
+       3025,
+       3026,
+       3027,
+       3028,
+       3029,
+       3030
+      ],
+      "counts": {
+       "no_visual": {
+        "mbon": [
+         72,
+         72,
+         68,
+         68,
+         71,
+         74,
+         78,
+         71,
+         70,
+         73
+        ],
+        "dan": [
+         80,
+         76,
+         76,
+         78,
+         80,
+         82,
+         77,
+         84,
+         75,
+         76
+        ]
+       },
+       "stimulus": {
+        "mbon": [
+         74,
+         70,
+         73,
+         72,
+         73,
+         69,
+         70,
+         76,
+         76,
+         74
+        ],
+        "dan": [
+         75,
+         80,
+         75,
+         74,
+         77,
+         76,
+         73,
+         78,
+         80,
+         69
+        ]
+       },
+       "stimulus_zeroed": {
+        "mbon": [
+         64,
+         66,
+         64,
+         64,
+         60,
+         59,
+         66,
+         61,
+         64,
+         63
+        ],
+        "dan": [
+         74,
+         73,
+         76,
+         76,
+         74,
+         75,
+         80,
+         77,
+         74,
+         69
+        ]
+       }
+      },
+      "mbon_visual_rel_vs_no_visual": 0.01394700139470014,
+      "mbon_zeroed_rel_under_visual_drive": -0.13204951856946356,
+      "zeroed_lower_seeds": 10,
+      "dan_visual_rel_vs_no_visual": -0.03443877551020411,
+      "note": "descriptive diagnostic added after the leverage stage; not preregistered; not used for any decision"
+     }
+    }
+   },
+   "visual_passing_classes": [],
+   "w_unchanged": true,
+   "t4_sha256": "87829806e398f66b49b6b5e68be210a4a38baf909b22e15bfa7ad6df5a28ea76"
+  }
+ },
+ "seconds": 1492.7182170489687
+}

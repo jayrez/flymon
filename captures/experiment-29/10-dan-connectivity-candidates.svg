@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1216" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E29 raw synapses between each candidate's matched DAN and its KC class / MBON</text>
+<line x1="300.0" y1="34" x2="300.0" y2="1208" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 PPL104 dan_to_mbon</text>
+<rect x="300.0" y="38" width="5.9" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+118.0000</text>
+<text x="292" y="74" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 PPL104 dan_to_kc</text>
+<rect x="300.0" y="62" width="49.3" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+983.0000</text>
+<text x="292" y="98" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 PPL104 kc_to_dan</text>
+<rect x="300.0" y="86" width="61.2" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+1220.0000</text>
+<text x="292" y="122" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 PPL104 mbon_to_dan</text>
+<rect x="300.0" y="110" width="3.4" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+68.0000</text>
+<text x="292" y="146" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 PPL104 dan_to_mbon</text>
+<rect x="300.0" y="134" width="15.1" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+302.0000</text>
+<text x="292" y="170" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 PPL104 dan_to_kc</text>
+<rect x="300.0" y="158" width="49.3" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+983.0000</text>
+<text x="292" y="194" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 PPL104 kc_to_dan</text>
+<rect x="300.0" y="182" width="61.2" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+1220.0000</text>
+<text x="292" y="218" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 PPL104 mbon_to_dan</text>
+<rect x="300.0" y="206" width="8.0" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+160.0000</text>
+<text x="292" y="242" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 PPL105 dan_to_mbon</text>
+<rect x="300.0" y="230" width="32.9" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+657.0000</text>
+<text x="292" y="266" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 PPL105 dan_to_kc</text>
+<rect x="300.0" y="254" width="62.8" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+1252.0000</text>
+<text x="292" y="290" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 PPL105 kc_to_dan</text>
+<rect x="300.0" y="278" width="99.5" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+1984.0000</text>
+<text x="292" y="314" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 PPL105 mbon_to_dan</text>
+<rect x="300.0" y="302" width="0.9" height="15" fill="#275e85"/>
+<text x="894" y="314" font-size="11" text-anchor="end">+17.0000</text>
+<text x="292" y="338" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 PAM06 dan_to_mbon</text>
+<rect x="300.0" y="326" width="165.2" height="15" fill="#275e85"/>
+<text x="894" y="338" font-size="11" text-anchor="end">+3296.0000</text>
+<text x="292" y="362" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 PAM06 dan_to_kc</text>
+<rect x="300.0" y="350" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+9973.0000</text>
+<text x="292" y="386" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 PAM06 kc_to_dan</text>
+<rect x="300.0" y="374" width="397.0" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+7918.0000</text>
+<text x="292" y="410" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 PAM06 mbon_to_dan</text>
+<rect x="300.0" y="398" width="2.0" height="15" fill="#275e85"/>
+<text x="894" y="410" font-size="11" text-anchor="end">+39.0000</text>
+<text x="292" y="434" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 PPL105 dan_to_mbon</text>
+<rect x="300.0" y="422" width="32.9" height="15" fill="#275e85"/>
+<text x="894" y="434" font-size="11" text-anchor="end">+657.0000</text>
+<text x="292" y="458" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 PPL105 dan_to_kc</text>
+<rect x="300.0" y="446" width="67.9" height="15" fill="#275e85"/>
+<text x="894" y="458" font-size="11" text-anchor="end">+1355.0000</text>
+<text x="292" y="482" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 PPL105 kc_to_dan</text>
+<rect x="300.0" y="470" width="93.2" height="15" fill="#275e85"/>
+<text x="894" y="482" font-size="11" text-anchor="end">+1859.0000</text>
+<text x="292" y="506" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 PPL105 mbon_to_dan</text>
+<rect x="300.0" y="494" width="0.9" height="15" fill="#275e85"/>
+<text x="894" y="506" font-size="11" text-anchor="end">+17.0000</text>
+<text x="292" y="530" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 PPL104 dan_to_mbon</text>
+<rect x="300.0" y="518" width="5.9" height="15" fill="#275e85"/>
+<text x="894" y="530" font-size="11" text-anchor="end">+118.0000</text>
+<text x="292" y="554" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 PPL104 dan_to_kc</text>
+<rect x="300.0" y="542" width="20.0" height="15" fill="#275e85"/>
+<text x="894" y="554" font-size="11" text-anchor="end">+399.0000</text>
+<text x="292" y="578" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 PPL104 kc_to_dan</text>
+<rect x="300.0" y="566" width="27.0" height="15" fill="#275e85"/>
+<text x="894" y="578" font-size="11" text-anchor="end">+538.0000</text>
+<text x="292" y="602" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 PPL104 mbon_to_dan</text>
+<rect x="300.0" y="590" width="3.4" height="15" fill="#275e85"/>
+<text x="894" y="602" font-size="11" text-anchor="end">+68.0000</text>
+<text x="292" y="626" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like PPL103 dan_to_mbon</text>
+<rect x="300.0" y="614" width="7.0" height="15" fill="#275e85"/>
+<text x="894" y="626" font-size="11" text-anchor="end">+140.0000</text>
+<text x="292" y="650" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like PPL103 dan_to_kc</text>
+<rect x="300.0" y="638" width="100.5" height="15" fill="#275e85"/>
+<text x="894" y="650" font-size="11" text-anchor="end">+2004.0000</text>
+<text x="292" y="674" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like PPL103 kc_to_dan</text>
+<rect x="300.0" y="662" width="105.1" height="15" fill="#275e85"/>
+<text x="894" y="674" font-size="11" text-anchor="end">+2096.0000</text>
+<text x="292" y="698" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like PPL103 mbon_to_dan</text>
+<rect x="300.0" y="686" width="0.9" height="15" fill="#275e85"/>
+<text x="894" y="698" font-size="11" text-anchor="end">+17.0000</text>
+<text x="292" y="722" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 PPL104 dan_to_mbon</text>
+<rect x="300.0" y="710" width="15.1" height="15" fill="#275e85"/>
+<text x="894" y="722" font-size="11" text-anchor="end">+302.0000</text>
+<text x="292" y="746" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 PPL104 dan_to_kc</text>
+<rect x="300.0" y="734" width="40.2" height="15" fill="#275e85"/>
+<text x="894" y="746" font-size="11" text-anchor="end">+802.0000</text>
+<text x="292" y="770" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 PPL104 kc_to_dan</text>
+<rect x="300.0" y="758" width="67.0" height="15" fill="#275e85"/>
+<text x="894" y="770" font-size="11" text-anchor="end">+1336.0000</text>
+<text x="292" y="794" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 PPL104 mbon_to_dan</text>
+<rect x="300.0" y="782" width="8.0" height="15" fill="#275e85"/>
+<text x="894" y="794" font-size="11" text-anchor="end">+160.0000</text>
+<text x="292" y="818" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like PPL103 dan_to_mbon</text>
+<rect x="300.0" y="806" width="7.0" height="15" fill="#275e85"/>
+<text x="894" y="818" font-size="11" text-anchor="end">+140.0000</text>
+<text x="292" y="842" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like PPL103 dan_to_kc</text>
+<rect x="300.0" y="830" width="93.5" height="15" fill="#275e85"/>
+<text x="894" y="842" font-size="11" text-anchor="end">+1865.0000</text>
+<text x="292" y="866" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like PPL103 kc_to_dan</text>
+<rect x="300.0" y="854" width="173.8" height="15" fill="#275e85"/>
+<text x="894" y="866" font-size="11" text-anchor="end">+3466.0000</text>
+<text x="292" y="890" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like PPL103 mbon_to_dan</text>
+<rect x="300.0" y="878" width="0.9" height="15" fill="#275e85"/>
+<text x="894" y="890" font-size="11" text-anchor="end">+17.0000</text>
+<text x="292" y="914" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 PPL104 dan_to_mbon</text>
+<rect x="300.0" y="902" width="8.4" height="15" fill="#275e85"/>
+<text x="894" y="914" font-size="11" text-anchor="end">+167.0000</text>
+<text x="292" y="938" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 PPL104 dan_to_kc</text>
+<rect x="300.0" y="926" width="40.2" height="15" fill="#275e85"/>
+<text x="894" y="938" font-size="11" text-anchor="end">+802.0000</text>
+<text x="292" y="962" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 PPL104 kc_to_dan</text>
+<rect x="300.0" y="950" width="67.0" height="15" fill="#275e85"/>
+<text x="894" y="962" font-size="11" text-anchor="end">+1336.0000</text>
+<text x="292" y="986" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 PPL104 mbon_to_dan</text>
+<rect x="300.0" y="974" width="6.6" height="15" fill="#275e85"/>
+<text x="894" y="986" font-size="11" text-anchor="end">+131.0000</text>
+<text x="292" y="1010" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 PAM01 dan_to_mbon</text>
+<rect x="300.0" y="998" width="80.1" height="15" fill="#275e85"/>
+<text x="894" y="1010" font-size="11" text-anchor="end">+1597.0000</text>
+<text x="292" y="1034" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 PAM01 dan_to_kc</text>
+<rect x="300.0" y="1022" width="163.1" height="15" fill="#275e85"/>
+<text x="894" y="1034" font-size="11" text-anchor="end">+3254.0000</text>
+<text x="292" y="1058" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 PAM01 kc_to_dan</text>
+<rect x="300.0" y="1046" width="177.4" height="15" fill="#275e85"/>
+<text x="894" y="1058" font-size="11" text-anchor="end">+3538.0000</text>
+<text x="292" y="1082" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 PAM01 mbon_to_dan</text>
+<rect x="300.0" y="1070" width="6.4" height="15" fill="#275e85"/>
+<text x="894" y="1082" font-size="11" text-anchor="end">+128.0000</text>
+<text x="292" y="1106" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 PPL101 dan_to_mbon</text>
+<rect x="300.0" y="1094" width="115.9" height="15" fill="#275e85"/>
+<text x="894" y="1106" font-size="11" text-anchor="end">+2311.0000</text>
+<text x="292" y="1130" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 PPL101 dan_to_kc</text>
+<rect x="300.0" y="1118" width="31.8" height="15" fill="#275e85"/>
+<text x="894" y="1130" font-size="11" text-anchor="end">+634.0000</text>
+<text x="292" y="1154" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 PPL101 kc_to_dan</text>
+<rect x="300.0" y="1142" width="61.0" height="15" fill="#275e85"/>
+<text x="894" y="1154" font-size="11" text-anchor="end">+1216.0000</text>
+<text x="292" y="1178" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 PPL101 mbon_to_dan</text>
+<rect x="300.0" y="1166" width="10.3" height="15" fill="#275e85"/>
+<text x="894" y="1178" font-size="11" text-anchor="end">+205.0000</text>
+</svg>

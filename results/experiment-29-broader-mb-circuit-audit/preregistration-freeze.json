@@ -1,0 +1,7 @@
+{
+ "preregistration_sha256": "e21287e06475f79f04e15a9396363d11c18c7247b8acf755e0d6468a7347ed6d",
+ "seed_freeze_sha256": "28ee3e0ef16b70aa257092e7a76358e3e048526decf05ae20fe0531cb817cdff",
+ "visual_projection_set_sha256": "1f5f5f6d4ba9e17e87e7ada82ebc864b573f40a1c5564e54db2c10e27916e7d6",
+ "frozen_at_utc": "2026-09-24T01:37:11Z",
+ "note": "frozen before any E29 dynamic (simulation) result; static audit outputs existed"
+}

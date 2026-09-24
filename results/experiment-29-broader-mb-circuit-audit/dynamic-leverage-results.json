@@ -1,0 +1,1650 @@
+{
+ "seeds": [
+  3011,
+  3012,
+  3013,
+  3014,
+  3015,
+  3016
+ ],
+ "regimes": [
+  "60/8",
+  "80/3"
+ ],
+ "primary_regime": "60/8",
+ "results": [
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON17",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 285,
+   "edge_sha256": "c2bbc7ad357311754368d2d3b49198cb4d2409005b90be657de40c6ebae6ade9",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    90.0,
+    84.0,
+    79.0,
+    81.0,
+    82.0,
+    77.0
+   ],
+   "zeroed_mbon": [
+    59.0,
+    60.0,
+    58.0,
+    58.0,
+    56.0,
+    60.0
+   ],
+   "per_seed_delta": [
+    -31.0,
+    -24.0,
+    -21.0,
+    -23.0,
+    -26.0,
+    -17.0
+   ],
+   "baseline_mbon_rate_hz": 6.847222222222222,
+   "zeroed_mbon_rate_hz": 4.875,
+   "abs_spike_difference": -23.66666666666667,
+   "rel_change": -0.2880324543610548,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    13541,
+    13134,
+    12189,
+    12683,
+    12421,
+    12230
+   ],
+   "kc_spikes_zeroed": [
+    12366,
+    13479,
+    12996,
+    12719,
+    12537,
+    13400
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 1,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.4272449297714047
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON16",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 286,
+   "edge_sha256": "58d2c68805956f2aa0816d72590522e990043081f39bf891ad1b6309cb33de30",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    91.0,
+    86.0,
+    79.0,
+    84.0,
+    84.0,
+    81.0
+   ],
+   "zeroed_mbon": [
+    57.0,
+    59.0,
+    57.0,
+    58.0,
+    55.0,
+    59.0
+   ],
+   "per_seed_delta": [
+    -34.0,
+    -27.0,
+    -22.0,
+    -26.0,
+    -29.0,
+    -22.0
+   ],
+   "baseline_mbon_rate_hz": 7.013888888888889,
+   "zeroed_mbon_rate_hz": 4.791666666666667,
+   "abs_spike_difference": -26.66666666666667,
+   "rel_change": -0.3168316831683169,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    13541,
+    13134,
+    12189,
+    12683,
+    12421,
+    12230
+   ],
+   "kc_spikes_zeroed": [
+    13790,
+    12870,
+    12858,
+    13401,
+    12529,
+    12615
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 2,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.4126094468665542
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON13",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 290,
+   "edge_sha256": "98da9460ac91f987582fadef39b32f3156ea6219568a064096dc03585a34ddb0",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    91.0,
+    86.0,
+    81.0,
+    84.0,
+    83.0,
+    80.0
+   ],
+   "zeroed_mbon": [
+    56.0,
+    59.0,
+    59.0,
+    59.0,
+    58.0,
+    60.0
+   ],
+   "per_seed_delta": [
+    -35.0,
+    -27.0,
+    -22.0,
+    -25.0,
+    -25.0,
+    -20.0
+   ],
+   "baseline_mbon_rate_hz": 7.013888888888889,
+   "zeroed_mbon_rate_hz": 4.875,
+   "abs_spike_difference": -25.66666666666667,
+   "rel_change": -0.304950495049505,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    13541,
+    13134,
+    12189,
+    12683,
+    12421,
+    12230
+   ],
+   "kc_spikes_zeroed": [
+    13587,
+    13479,
+    12117,
+    13418,
+    12190,
+    12364
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 3,
+   "dan_type": "PPL105",
+   "static_input_fraction": 0.4101418317586649
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON03",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 577,
+   "edge_sha256": "bc9d8f2c74015aa4d99e468a67aa060ee373e9dc67c3c298e598ea3914544158",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    91.0,
+    87.0,
+    82.0,
+    84.0,
+    84.0,
+    81.0
+   ],
+   "zeroed_mbon": [
+    63.0,
+    60.0,
+    62.0,
+    63.0,
+    60.0,
+    65.0
+   ],
+   "per_seed_delta": [
+    -28.0,
+    -27.0,
+    -20.0,
+    -21.0,
+    -24.0,
+    -16.0
+   ],
+   "baseline_mbon_rate_hz": 7.069444444444444,
+   "zeroed_mbon_rate_hz": 5.180555555555555,
+   "abs_spike_difference": -22.666666666666664,
+   "rel_change": -0.26719056974459726,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    13541,
+    13134,
+    12189,
+    12683,
+    12421,
+    12230
+   ],
+   "kc_spikes_zeroed": [
+    12665,
+    12960,
+    12135,
+    13127,
+    12576,
+    12459
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 4,
+   "dan_type": "PAM06",
+   "static_input_fraction": 0.39076223789015785
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON13",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 205,
+   "edge_sha256": "fc78d83e1cc546ba21947ea709f06d233aee4910b17fcc89587db7e9ff24eb75",
+   "mbon_cells": 2,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    92.0,
+    86.0,
+    100.0,
+    92.0,
+    97.0,
+    94.0
+   ],
+   "zeroed_mbon": [
+    55.0,
+    55.0,
+    55.0,
+    56.0,
+    56.0,
+    55.0
+   ],
+   "per_seed_delta": [
+    -37.0,
+    -31.0,
+    -45.0,
+    -36.0,
+    -41.0,
+    -39.0
+   ],
+   "baseline_mbon_rate_hz": 7.791666666666667,
+   "zeroed_mbon_rate_hz": 4.611111111111112,
+   "abs_spike_difference": -38.166666666666664,
+   "rel_change": -0.4081996434937611,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    9455,
+    9207,
+    10460,
+    9562,
+    9904,
+    9937
+   ],
+   "kc_spikes_zeroed": [
+    10276,
+    10632,
+    10105,
+    9909,
+    9590,
+    9837
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 5,
+   "dan_type": "PPL105",
+   "static_input_fraction": 0.2988815246935701
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON17",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 201,
+   "edge_sha256": "571380032b177bbbd1b376067318a134f2b63ee71dab7efd2116bcb17f7b608f",
+   "mbon_cells": 2,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    85.0,
+    83.0,
+    94.0,
+    85.0,
+    91.0,
+    90.0
+   ],
+   "zeroed_mbon": [
+    55.0,
+    54.0,
+    56.0,
+    57.0,
+    57.0,
+    58.0
+   ],
+   "per_seed_delta": [
+    -30.0,
+    -29.0,
+    -38.0,
+    -28.0,
+    -34.0,
+    -32.0
+   ],
+   "baseline_mbon_rate_hz": 7.333333333333333,
+   "zeroed_mbon_rate_hz": 4.680555555555555,
+   "abs_spike_difference": -31.833333333333336,
+   "rel_change": -0.36174242424242425,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    9455,
+    9207,
+    10460,
+    9562,
+    9904,
+    9937
+   ],
+   "kc_spikes_zeroed": [
+    10760,
+    10616,
+    10295,
+    9919,
+    9615,
+    10067
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 6,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.29234639240894467
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON15-like",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 380,
+   "edge_sha256": "17f0552146c20d2db5ae924762460d17d81a7c98b5a89b0acebb19772a7cccec",
+   "mbon_cells": 4,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    167.0,
+    162.0,
+    178.0,
+    170.0,
+    174.0,
+    169.0
+   ],
+   "zeroed_mbon": [
+    119.0,
+    111.0,
+    110.0,
+    112.0,
+    111.0,
+    119.0
+   ],
+   "per_seed_delta": [
+    -48.0,
+    -51.0,
+    -68.0,
+    -58.0,
+    -63.0,
+    -50.0
+   ],
+   "baseline_mbon_rate_hz": 7.083333333333333,
+   "zeroed_mbon_rate_hz": 4.736111111111112,
+   "abs_spike_difference": -56.33333333333333,
+   "rel_change": -0.33137254901960783,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    9455,
+    9207,
+    10460,
+    9562,
+    9904,
+    9937
+   ],
+   "kc_spikes_zeroed": [
+    9655,
+    10342,
+    10011,
+    9904,
+    10159,
+    9913
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 7,
+   "dan_type": "PPL103",
+   "static_input_fraction": 0.2826575811486691
+  },
+  {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON16",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 181,
+   "edge_sha256": "2fdd1ba81700d9be3fe3288e6be70db17cbe19bd485b311b6f6f963b7f59d9c6",
+   "mbon_cells": 2,
+   "kc_cells": 197,
+   "baseline_mbon": [
+    91.0,
+    91.0,
+    92.0,
+    88.0,
+    95.0,
+    92.0
+   ],
+   "zeroed_mbon": [
+    54.0,
+    54.0,
+    54.0,
+    57.0,
+    54.0,
+    55.0
+   ],
+   "per_seed_delta": [
+    -37.0,
+    -37.0,
+    -38.0,
+    -31.0,
+    -41.0,
+    -37.0
+   ],
+   "baseline_mbon_rate_hz": 7.625,
+   "zeroed_mbon_rate_hz": 4.555555555555555,
+   "abs_spike_difference": -36.833333333333336,
+   "rel_change": -0.40255009107468126,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    9512,
+    9315,
+    9172,
+    9083,
+    9508,
+    9399
+   ],
+   "kc_spikes_zeroed": [
+    9192,
+    9947,
+    9307,
+    9313,
+    9295,
+    9467
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 8,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.2817422864463879
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON15-like",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 482,
+   "edge_sha256": "0da5ce1d0709060e475dad273e74413a617904d988224694b280de1e1c24a779",
+   "mbon_cells": 4,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    167.0,
+    155.0,
+    147.0,
+    151.0,
+    153.0,
+    148.0
+   ],
+   "zeroed_mbon": [
+    114.0,
+    119.0,
+    119.0,
+    118.0,
+    119.0,
+    120.0
+   ],
+   "per_seed_delta": [
+    -53.0,
+    -36.0,
+    -28.0,
+    -33.0,
+    -34.0,
+    -28.0
+   ],
+   "baseline_mbon_rate_hz": 6.395833333333333,
+   "zeroed_mbon_rate_hz": 4.923611111111112,
+   "abs_spike_difference": -35.33333333333333,
+   "rel_change": -0.23018458197611288,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    13541,
+    13134,
+    12189,
+    12683,
+    12421,
+    12230
+   ],
+   "kc_spikes_zeroed": [
+    13364,
+    12522,
+    13563,
+    12212,
+    12268,
+    13231
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 9,
+   "dan_type": "PPL103",
+   "static_input_fraction": 0.2804172691103304
+  },
+  {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON28",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 182,
+   "edge_sha256": "4bc9c19d82d88f054683ead97a8236c2aad80098c72062bdcb1ad68b42e19cac",
+   "mbon_cells": 2,
+   "kc_cells": 197,
+   "baseline_mbon": [
+    88.0,
+    87.0,
+    88.0,
+    84.0,
+    90.0,
+    89.0
+   ],
+   "zeroed_mbon": [
+    38.0,
+    39.0,
+    39.0,
+    38.0,
+    41.0,
+    36.0
+   ],
+   "per_seed_delta": [
+    -50.0,
+    -48.0,
+    -49.0,
+    -46.0,
+    -49.0,
+    -53.0
+   ],
+   "baseline_mbon_rate_hz": 7.305555555555556,
+   "zeroed_mbon_rate_hz": 3.2083333333333335,
+   "abs_spike_difference": -49.16666666666667,
+   "rel_change": -0.5608365019011408,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    9512,
+    9315,
+    9172,
+    9083,
+    9508,
+    9399
+   ],
+   "kc_spikes_zeroed": [
+    9199,
+    9370,
+    9284,
+    9664,
+    8992,
+    9533
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 10,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.2760615992738167
+  },
+  {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON01",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 212,
+   "edge_sha256": "d0f0cc54f9053ebb45a3285f07266ff5a2d48682447f8dc68a18105f1d6d34a2",
+   "mbon_cells": 2,
+   "kc_cells": 206,
+   "baseline_mbon": [
+    53.0,
+    55.0,
+    52.0,
+    54.0,
+    55.0,
+    58.0
+   ],
+   "zeroed_mbon": [
+    53.0,
+    58.0,
+    54.0,
+    55.0,
+    49.0,
+    50.0
+   ],
+   "per_seed_delta": [
+    0.0,
+    3.0,
+    2.0,
+    1.0,
+    -6.0,
+    -8.0
+   ],
+   "baseline_mbon_rate_hz": 4.541666666666667,
+   "zeroed_mbon_rate_hz": 4.430555555555555,
+   "abs_spike_difference": -1.3333333333333357,
+   "rel_change": -0.024464831804281387,
+   "lower_seeds": 2,
+   "kc_spikes_baseline": [
+    9300,
+    9010,
+    9306,
+    9441,
+    9288,
+    9299
+   ],
+   "kc_spikes_zeroed": [
+    9315,
+    9115,
+    9169,
+    9448,
+    9130,
+    9189
+   ],
+   "passes": false,
+   "w_unchanged": true,
+   "role": "reference",
+   "rank": 130,
+   "dan_type": "PAM01",
+   "static_input_fraction": 0.07638712708103412
+  },
+  {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON11",
+   "regime": "60/8",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 206,
+   "edge_sha256": "909d24eba8f290e386a5b7b51e02a13820d8d80853efb30d70515370e1505a6f",
+   "mbon_cells": 2,
+   "kc_cells": 206,
+   "baseline_mbon": [
+    54.0,
+    56.0,
+    51.0,
+    55.0,
+    55.0,
+    55.0
+   ],
+   "zeroed_mbon": [
+    54.0,
+    56.0,
+    55.0,
+    52.0,
+    51.0,
+    53.0
+   ],
+   "per_seed_delta": [
+    0.0,
+    0.0,
+    4.0,
+    -3.0,
+    -4.0,
+    -2.0
+   ],
+   "baseline_mbon_rate_hz": 4.527777777777778,
+   "zeroed_mbon_rate_hz": 4.458333333333333,
+   "abs_spike_difference": -0.8333333333333357,
+   "rel_change": -0.015337423312883479,
+   "lower_seeds": 3,
+   "kc_spikes_baseline": [
+    9300,
+    9010,
+    9306,
+    9441,
+    9288,
+    9299
+   ],
+   "kc_spikes_zeroed": [
+    9231,
+    9083,
+    9428,
+    9341,
+    9184,
+    9527
+   ],
+   "passes": false,
+   "w_unchanged": true,
+   "role": "reference",
+   "rank": 131,
+   "dan_type": "PPL101",
+   "static_input_fraction": 0.06862915589590557
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON17",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 285,
+   "edge_sha256": "c2bbc7ad357311754368d2d3b49198cb4d2409005b90be657de40c6ebae6ade9",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    85.0,
+    85.0,
+    85.0,
+    82.0,
+    83.0,
+    83.0
+   ],
+   "zeroed_mbon": [
+    59.0,
+    54.0,
+    55.0,
+    57.0,
+    59.0,
+    61.0
+   ],
+   "per_seed_delta": [
+    -26.0,
+    -31.0,
+    -30.0,
+    -25.0,
+    -24.0,
+    -22.0
+   ],
+   "baseline_mbon_rate_hz": 6.986111111111111,
+   "zeroed_mbon_rate_hz": 4.791666666666667,
+   "abs_spike_difference": -26.33333333333333,
+   "rel_change": -0.3141153081510934,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    12506,
+    12475,
+    12495,
+    12459,
+    12556,
+    12388
+   ],
+   "kc_spikes_zeroed": [
+    12421,
+    12635,
+    12376,
+    12404,
+    12416,
+    12615
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 1,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.4272449297714047
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON16",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 286,
+   "edge_sha256": "58d2c68805956f2aa0816d72590522e990043081f39bf891ad1b6309cb33de30",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    85.0,
+    85.0,
+    85.0,
+    84.0,
+    84.0,
+    83.0
+   ],
+   "zeroed_mbon": [
+    54.0,
+    54.0,
+    53.0,
+    51.0,
+    52.0,
+    52.0
+   ],
+   "per_seed_delta": [
+    -31.0,
+    -31.0,
+    -32.0,
+    -33.0,
+    -32.0,
+    -31.0
+   ],
+   "baseline_mbon_rate_hz": 7.027777777777778,
+   "zeroed_mbon_rate_hz": 4.388888888888888,
+   "abs_spike_difference": -31.666666666666664,
+   "rel_change": -0.37549407114624506,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    12506,
+    12475,
+    12495,
+    12459,
+    12556,
+    12388
+   ],
+   "kc_spikes_zeroed": [
+    12720,
+    12454,
+    12466,
+    12431,
+    12403,
+    12615
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 2,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.4126094468665542
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON13",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 290,
+   "edge_sha256": "98da9460ac91f987582fadef39b32f3156ea6219568a064096dc03585a34ddb0",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    85.0,
+    85.0,
+    85.0,
+    84.0,
+    83.0,
+    83.0
+   ],
+   "zeroed_mbon": [
+    58.0,
+    59.0,
+    60.0,
+    59.0,
+    60.0,
+    60.0
+   ],
+   "per_seed_delta": [
+    -27.0,
+    -26.0,
+    -25.0,
+    -25.0,
+    -23.0,
+    -23.0
+   ],
+   "baseline_mbon_rate_hz": 7.013888888888889,
+   "zeroed_mbon_rate_hz": 4.944444444444445,
+   "abs_spike_difference": -24.833333333333336,
+   "rel_change": -0.29504950495049503,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    12506,
+    12475,
+    12495,
+    12459,
+    12556,
+    12388
+   ],
+   "kc_spikes_zeroed": [
+    12482,
+    12385,
+    12641,
+    12384,
+    12646,
+    12626
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 3,
+   "dan_type": "PPL105",
+   "static_input_fraction": 0.4101418317586649
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON03",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 577,
+   "edge_sha256": "bc9d8f2c74015aa4d99e468a67aa060ee373e9dc67c3c298e598ea3914544158",
+   "mbon_cells": 2,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    85.0,
+    85.0,
+    85.0,
+    84.0,
+    84.0,
+    83.0
+   ],
+   "zeroed_mbon": [
+    71.0,
+    65.0,
+    64.0,
+    65.0,
+    64.0,
+    67.0
+   ],
+   "per_seed_delta": [
+    -14.0,
+    -20.0,
+    -21.0,
+    -19.0,
+    -20.0,
+    -16.0
+   ],
+   "baseline_mbon_rate_hz": 7.027777777777778,
+   "zeroed_mbon_rate_hz": 5.5,
+   "abs_spike_difference": -18.33333333333333,
+   "rel_change": -0.21739130434782605,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    12506,
+    12475,
+    12495,
+    12459,
+    12556,
+    12388
+   ],
+   "kc_spikes_zeroed": [
+    12412,
+    12376,
+    12645,
+    12451,
+    12298,
+    12540
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 4,
+   "dan_type": "PAM06",
+   "static_input_fraction": 0.39076223789015785
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON13",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 205,
+   "edge_sha256": "fc78d83e1cc546ba21947ea709f06d233aee4910b17fcc89587db7e9ff24eb75",
+   "mbon_cells": 2,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    85.0,
+    84.0,
+    85.0,
+    87.0,
+    86.0,
+    85.0
+   ],
+   "zeroed_mbon": [
+    58.0,
+    58.0,
+    56.0,
+    58.0,
+    56.0,
+    58.0
+   ],
+   "per_seed_delta": [
+    -27.0,
+    -26.0,
+    -29.0,
+    -29.0,
+    -30.0,
+    -27.0
+   ],
+   "baseline_mbon_rate_hz": 7.111111111111111,
+   "zeroed_mbon_rate_hz": 4.777777777777778,
+   "abs_spike_difference": -27.999999999999993,
+   "rel_change": -0.32812499999999994,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8971,
+    8962,
+    9043,
+    9057,
+    9046,
+    8924
+   ],
+   "kc_spikes_zeroed": [
+    8930,
+    8936,
+    9006,
+    9008,
+    8820,
+    8976
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 5,
+   "dan_type": "PPL105",
+   "static_input_fraction": 0.2988815246935701
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON17",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 201,
+   "edge_sha256": "571380032b177bbbd1b376067318a134f2b63ee71dab7efd2116bcb17f7b608f",
+   "mbon_cells": 2,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    82.0,
+    83.0,
+    82.0,
+    85.0,
+    85.0,
+    81.0
+   ],
+   "zeroed_mbon": [
+    54.0,
+    56.0,
+    56.0,
+    55.0,
+    55.0,
+    57.0
+   ],
+   "per_seed_delta": [
+    -28.0,
+    -27.0,
+    -26.0,
+    -30.0,
+    -30.0,
+    -24.0
+   ],
+   "baseline_mbon_rate_hz": 6.916666666666667,
+   "zeroed_mbon_rate_hz": 4.625,
+   "abs_spike_difference": -27.5,
+   "rel_change": -0.3313253012048193,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8971,
+    8962,
+    9043,
+    9057,
+    9046,
+    8924
+   ],
+   "kc_spikes_zeroed": [
+    8925,
+    8792,
+    9059,
+    8895,
+    9005,
+    9006
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 6,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.29234639240894467
+  },
+  {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON15-like",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 380,
+   "edge_sha256": "17f0552146c20d2db5ae924762460d17d81a7c98b5a89b0acebb19772a7cccec",
+   "mbon_cells": 4,
+   "kc_cells": 205,
+   "baseline_mbon": [
+    154.0,
+    153.0,
+    151.0,
+    158.0,
+    158.0,
+    153.0
+   ],
+   "zeroed_mbon": [
+    105.0,
+    108.0,
+    109.0,
+    111.0,
+    112.0,
+    116.0
+   ],
+   "per_seed_delta": [
+    -49.0,
+    -45.0,
+    -42.0,
+    -47.0,
+    -46.0,
+    -37.0
+   ],
+   "baseline_mbon_rate_hz": 6.4375,
+   "zeroed_mbon_rate_hz": 4.590277777777778,
+   "abs_spike_difference": -44.33333333333333,
+   "rel_change": -0.28694714131607335,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8971,
+    8962,
+    9043,
+    9057,
+    9046,
+    8924
+   ],
+   "kc_spikes_zeroed": [
+    8826,
+    8977,
+    8976,
+    9098,
+    8866,
+    8953
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 7,
+   "dan_type": "PPL103",
+   "static_input_fraction": 0.2826575811486691
+  },
+  {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON16",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 181,
+   "edge_sha256": "2fdd1ba81700d9be3fe3288e6be70db17cbe19bd485b311b6f6f963b7f59d9c6",
+   "mbon_cells": 2,
+   "kc_cells": 197,
+   "baseline_mbon": [
+    85.0,
+    82.0,
+    87.0,
+    86.0,
+    82.0,
+    84.0
+   ],
+   "zeroed_mbon": [
+    51.0,
+    50.0,
+    52.0,
+    50.0,
+    51.0,
+    52.0
+   ],
+   "per_seed_delta": [
+    -34.0,
+    -32.0,
+    -35.0,
+    -36.0,
+    -31.0,
+    -32.0
+   ],
+   "baseline_mbon_rate_hz": 7.027777777777778,
+   "zeroed_mbon_rate_hz": 4.25,
+   "abs_spike_difference": -33.33333333333333,
+   "rel_change": -0.39525691699604737,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8532,
+    8259,
+    8635,
+    8576,
+    8486,
+    8567
+   ],
+   "kc_spikes_zeroed": [
+    8425,
+    8421,
+    8534,
+    8411,
+    8345,
+    8450
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 8,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.2817422864463879
+  },
+  {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON15-like",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 482,
+   "edge_sha256": "0da5ce1d0709060e475dad273e74413a617904d988224694b280de1e1c24a779",
+   "mbon_cells": 4,
+   "kc_cells": 291,
+   "baseline_mbon": [
+    155.0,
+    156.0,
+    154.0,
+    153.0,
+    156.0,
+    161.0
+   ],
+   "zeroed_mbon": [
+    123.0,
+    116.0,
+    114.0,
+    121.0,
+    116.0,
+    120.0
+   ],
+   "per_seed_delta": [
+    -32.0,
+    -40.0,
+    -40.0,
+    -32.0,
+    -40.0,
+    -41.0
+   ],
+   "baseline_mbon_rate_hz": 6.493055555555556,
+   "zeroed_mbon_rate_hz": 4.930555555555555,
+   "abs_spike_difference": -37.500000000000014,
+   "rel_change": -0.2406417112299466,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    12506,
+    12475,
+    12495,
+    12459,
+    12556,
+    12388
+   ],
+   "kc_spikes_zeroed": [
+    12731,
+    12430,
+    12473,
+    12665,
+    12538,
+    12589
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 9,
+   "dan_type": "PPL103",
+   "static_input_fraction": 0.2804172691103304
+  },
+  {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON28",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 182,
+   "edge_sha256": "4bc9c19d82d88f054683ead97a8236c2aad80098c72062bdcb1ad68b42e19cac",
+   "mbon_cells": 2,
+   "kc_cells": 197,
+   "baseline_mbon": [
+    84.0,
+    81.0,
+    86.0,
+    82.0,
+    80.0,
+    80.0
+   ],
+   "zeroed_mbon": [
+    35.0,
+    38.0,
+    34.0,
+    36.0,
+    35.0,
+    36.0
+   ],
+   "per_seed_delta": [
+    -49.0,
+    -43.0,
+    -52.0,
+    -46.0,
+    -45.0,
+    -44.0
+   ],
+   "baseline_mbon_rate_hz": 6.847222222222222,
+   "zeroed_mbon_rate_hz": 2.972222222222222,
+   "abs_spike_difference": -46.50000000000001,
+   "rel_change": -0.565922920892495,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8532,
+    8259,
+    8635,
+    8576,
+    8486,
+    8567
+   ],
+   "kc_spikes_zeroed": [
+    8448,
+    8427,
+    8574,
+    8377,
+    8471,
+    8588
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "candidate",
+   "rank": 10,
+   "dan_type": "PPL104",
+   "static_input_fraction": 0.2760615992738167
+  },
+  {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON01",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 212,
+   "edge_sha256": "d0f0cc54f9053ebb45a3285f07266ff5a2d48682447f8dc68a18105f1d6d34a2",
+   "mbon_cells": 2,
+   "kc_cells": 206,
+   "baseline_mbon": [
+    49.0,
+    53.0,
+    51.0,
+    56.0,
+    53.0,
+    52.0
+   ],
+   "zeroed_mbon": [
+    44.0,
+    44.0,
+    44.0,
+    43.0,
+    43.0,
+    44.0
+   ],
+   "per_seed_delta": [
+    -5.0,
+    -9.0,
+    -7.0,
+    -13.0,
+    -10.0,
+    -8.0
+   ],
+   "baseline_mbon_rate_hz": 4.361111111111112,
+   "zeroed_mbon_rate_hz": 3.638888888888889,
+   "abs_spike_difference": -8.666666666666671,
+   "rel_change": -0.16560509554140135,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8898,
+    9016,
+    8900,
+    8893,
+    8905,
+    8940
+   ],
+   "kc_spikes_zeroed": [
+    8956,
+    8930,
+    8888,
+    8897,
+    8992,
+    8846
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "reference",
+   "rank": 130,
+   "dan_type": "PAM01",
+   "static_input_fraction": 0.07638712708103412
+  },
+  {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON11",
+   "regime": "80/3",
+   "seeds": [
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016
+   ],
+   "edges": 206,
+   "edge_sha256": "909d24eba8f290e386a5b7b51e02a13820d8d80853efb30d70515370e1505a6f",
+   "mbon_cells": 2,
+   "kc_cells": 206,
+   "baseline_mbon": [
+    53.0,
+    54.0,
+    51.0,
+    51.0,
+    58.0,
+    53.0
+   ],
+   "zeroed_mbon": [
+    46.0,
+    45.0,
+    46.0,
+    49.0,
+    46.0,
+    40.0
+   ],
+   "per_seed_delta": [
+    -7.0,
+    -9.0,
+    -5.0,
+    -2.0,
+    -12.0,
+    -13.0
+   ],
+   "baseline_mbon_rate_hz": 4.444444444444445,
+   "zeroed_mbon_rate_hz": 3.777777777777778,
+   "abs_spike_difference": -8.0,
+   "rel_change": -0.15,
+   "lower_seeds": 6,
+   "kc_spikes_baseline": [
+    8898,
+    9016,
+    8900,
+    8893,
+    8905,
+    8940
+   ],
+   "kc_spikes_zeroed": [
+    8846,
+    8841,
+    8875,
+    8891,
+    8828,
+    8795
+   ],
+   "passes": true,
+   "w_unchanged": true,
+   "role": "reference",
+   "rank": 131,
+   "dan_type": "PPL101",
+   "static_input_fraction": 0.06862915589590557
+  }
+ ],
+ "seconds": 454.07673294399865
+}

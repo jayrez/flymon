@@ -1,0 +1,13 @@
+{
+ "branch": "experiment-29-broader-mb-circuit-audit",
+ "base_commit": "50e3685665457ff434ff9d9bae9ac1fdd8a385f8",
+ "origin_main": "50e3685665457ff434ff9d9bae9ac1fdd8a385f8",
+ "e28_merge": "50e3685665457ff434ff9d9bae9ac1fdd8a385f8",
+ "python": "3.12.3",
+ "flybrain": "0.1.0",
+ "cupy": "14.2.0",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+ "gpu": "Tesla P40, 580.178.04"
+}

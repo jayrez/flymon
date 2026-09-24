@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="832" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E29 static MBON input fraction (%) of eligible candidates (top 30) + E26 references</text>
+<line x1="300.0" y1="34" x2="300.0" y2="824" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">#1 KCapbp-ap2-&gt;MBON17 (PPL104)</text>
+<rect x="300.0" y="38" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+42.7245</text>
+<text x="292" y="74" text-anchor="end" font-size="11">#2 KCapbp-ap2-&gt;MBON16 (PPL104)</text>
+<rect x="300.0" y="62" width="482.9" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+41.2609</text>
+<text x="292" y="98" text-anchor="end" font-size="11">#3 KCapbp-ap2-&gt;MBON13 (PPL105)</text>
+<rect x="300.0" y="86" width="480.0" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+41.0142</text>
+<text x="292" y="122" text-anchor="end" font-size="11">#4 KCapbp-ap2-&gt;MBON03 (PAM06)</text>
+<rect x="300.0" y="110" width="457.3" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+39.0762</text>
+<text x="292" y="146" text-anchor="end" font-size="11">#5 KCapbp-m-&gt;MBON13 (PPL105)</text>
+<rect x="300.0" y="134" width="349.8" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+29.8882</text>
+<text x="292" y="170" text-anchor="end" font-size="11">#6 KCapbp-m-&gt;MBON17 (PPL104)</text>
+<rect x="300.0" y="158" width="342.1" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+29.2346</text>
+<text x="292" y="194" text-anchor="end" font-size="11">#7 KCapbp-m-&gt;MBON15-like (PPL103)</text>
+<rect x="300.0" y="182" width="330.8" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+28.2658</text>
+<text x="292" y="218" text-anchor="end" font-size="11">#8 KCapbp-ap1-&gt;MBON16 (PPL104)</text>
+<rect x="300.0" y="206" width="329.7" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+28.1742</text>
+<text x="292" y="242" text-anchor="end" font-size="11">#9 KCapbp-ap2-&gt;MBON15-like (PPL103)</text>
+<rect x="300.0" y="230" width="328.2" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+28.0417</text>
+<text x="292" y="266" text-anchor="end" font-size="11">#10 KCapbp-ap1-&gt;MBON28 (PPL104)</text>
+<rect x="300.0" y="254" width="323.1" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+27.6062</text>
+<text x="292" y="290" text-anchor="end" font-size="11">#11 KCapbp-m-&gt;MBON03 (PAM06)</text>
+<rect x="300.0" y="278" width="290.8" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+24.8525</text>
+<text x="292" y="314" text-anchor="end" font-size="11">#12 KCab-p-&gt;MBON19 (PPL105)</text>
+<rect x="300.0" y="302" width="281.8" height="15" fill="#275e85"/>
+<text x="894" y="314" font-size="11" text-anchor="end">+24.0798</text>
+<text x="292" y="338" text-anchor="end" font-size="11">#13 KCapbp-ap1-&gt;MBON31 (PPL103)</text>
+<rect x="300.0" y="326" width="260.9" height="15" fill="#275e85"/>
+<text x="894" y="338" font-size="11" text-anchor="end">+22.2972</text>
+<text x="292" y="362" text-anchor="end" font-size="11">#14 KCapbp-ap2-&gt;MBON15 (PPL103)</text>
+<rect x="300.0" y="350" width="255.6" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+21.8375</text>
+<text x="292" y="386" text-anchor="end" font-size="11">#15 KCapbp-ap2-&gt;MBON12 (PPL103)</text>
+<rect x="300.0" y="374" width="201.9" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+17.2513</text>
+<text x="292" y="410" text-anchor="end" font-size="11">#16 KCapbp-ap1-&gt;MBON26 (PAM05)</text>
+<rect x="300.0" y="398" width="200.6" height="15" fill="#275e85"/>
+<text x="894" y="410" font-size="11" text-anchor="end">+17.1392</text>
+<text x="292" y="434" text-anchor="end" font-size="11">#17 KCapbp-ap1-&gt;MBON03 (PAM06)</text>
+<rect x="300.0" y="422" width="174.0" height="15" fill="#275e85"/>
+<text x="894" y="434" font-size="11" text-anchor="end">+14.8651</text>
+<text x="292" y="458" text-anchor="end" font-size="11">#18 KCapbp-ap1-&gt;MBON10 (PAM13)</text>
+<rect x="300.0" y="446" width="168.0" height="15" fill="#275e85"/>
+<text x="894" y="458" font-size="11" text-anchor="end">+14.3578</text>
+<text x="292" y="482" text-anchor="end" font-size="11">#19 KCapbp-m-&gt;MBON15 (PPL103)</text>
+<rect x="300.0" y="470" width="156.3" height="15" fill="#275e85"/>
+<text x="894" y="482" font-size="11" text-anchor="end">+13.3586</text>
+<text x="292" y="506" text-anchor="end" font-size="11">#20 KCapbp-m-&gt;MBON19 (PPL105)</text>
+<rect x="300.0" y="494" width="151.6" height="15" fill="#275e85"/>
+<text x="894" y="506" font-size="11" text-anchor="end">+12.9549</text>
+<text x="292" y="530" text-anchor="end" font-size="11">#21 KCapbp-ap1-&gt;MBON12 (PPL103)</text>
+<rect x="300.0" y="518" width="151.2" height="15" fill="#275e85"/>
+<text x="894" y="530" font-size="11" text-anchor="end">+12.9184</text>
+<text x="292" y="554" text-anchor="end" font-size="11">#22 KCapbp-ap2-&gt;MBON31 (PPL103)</text>
+<rect x="300.0" y="542" width="141.8" height="15" fill="#275e85"/>
+<text x="894" y="554" font-size="11" text-anchor="end">+12.1190</text>
+<text x="292" y="578" text-anchor="end" font-size="11">#23 KCapbp-ap2-&gt;MBON28 (PPL104)</text>
+<rect x="300.0" y="566" width="129.9" height="15" fill="#275e85"/>
+<text x="894" y="578" font-size="11" text-anchor="end">+11.0969</text>
+<text x="292" y="602" text-anchor="end" font-size="11">#24 KCapbp-ap2-&gt;MBON10 (PAM13)</text>
+<rect x="300.0" y="590" width="124.2" height="15" fill="#275e85"/>
+<text x="894" y="602" font-size="11" text-anchor="end">+10.6152</text>
+<text x="292" y="626" text-anchor="end" font-size="11">#25 KCapbp-ap2-&gt;MBON09 (PAM13)</text>
+<rect x="300.0" y="614" width="122.8" height="15" fill="#275e85"/>
+<text x="894" y="626" font-size="11" text-anchor="end">+10.4902</text>
+<text x="292" y="650" text-anchor="end" font-size="11">#26 KCab-p-&gt;MBON06 (PAM10)</text>
+<rect x="300.0" y="638" width="119.9" height="15" fill="#275e85"/>
+<text x="894" y="650" font-size="11" text-anchor="end">+10.2487</text>
+<text x="292" y="674" text-anchor="end" font-size="11">#27 KCab-p-&gt;MBON23 (PPL105)</text>
+<rect x="300.0" y="662" width="114.6" height="15" fill="#275e85"/>
+<text x="894" y="674" font-size="11" text-anchor="end">+9.7919</text>
+<text x="292" y="698" text-anchor="end" font-size="11">#28 KCapbp-ap1-&gt;MBON04 (PAM05)</text>
+<rect x="300.0" y="686" width="103.8" height="15" fill="#275e85"/>
+<text x="894" y="698" font-size="11" text-anchor="end">+8.8725</text>
+<text x="292" y="722" text-anchor="end" font-size="11">#29 KCapbp-ap2-&gt;MBON04 (PAM05)</text>
+<rect x="300.0" y="710" width="102.7" height="15" fill="#275e85"/>
+<text x="894" y="722" font-size="11" text-anchor="end">+8.7769</text>
+<text x="292" y="746" text-anchor="end" font-size="11">#30 KCab-p-&gt;MBON07 (PAM11)</text>
+<rect x="300.0" y="734" width="102.1" height="15" fill="#275e85"/>
+<text x="894" y="746" font-size="11" text-anchor="end">+8.7208</text>
+<text x="292" y="770" text-anchor="end" font-size="11">#130 KCg-d-&gt;MBON01 (PAM01)</text>
+<rect x="300.0" y="758" width="89.4" height="15" fill="#275e85"/>
+<text x="894" y="770" font-size="11" text-anchor="end">+7.6387</text>
+<text x="292" y="794" text-anchor="end" font-size="11">#131 KCg-d-&gt;MBON11 (PPL101)</text>
+<rect x="300.0" y="782" width="80.3" height="15" fill="#275e85"/>
+<text x="894" y="794" font-size="11" text-anchor="end">+6.8629</text>
+</svg>

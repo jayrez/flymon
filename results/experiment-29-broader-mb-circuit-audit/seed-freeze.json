@@ -1,0 +1,90 @@
+{
+ "blocks": {
+  "visual_screen": [
+   3001,
+   3002,
+   3003,
+   3004,
+   3005,
+   3006
+  ],
+  "dynamic_leverage": [
+   3011,
+   3012,
+   3013,
+   3014,
+   3015,
+   3016
+  ],
+  "confirmation": [
+   3021,
+   3022,
+   3023,
+   3024,
+   3025,
+   3026,
+   3027,
+   3028,
+   3029,
+   3030
+  ]
+ },
+ "sensitivity": "uses the confirmation block 3021-3030 (preregistered)",
+ "previous_blocks_checked": {
+  "E26": [
+   2701,
+   2702,
+   2703,
+   2704,
+   2705,
+   2706
+  ],
+  "E26_cs_rng": [
+   2601,
+   2602
+  ],
+  "E27_cal": [
+   2801,
+   2802,
+   2803,
+   2804,
+   2805,
+   2806
+  ],
+  "E27_conf": [
+   2811,
+   2812,
+   2813,
+   2814,
+   2815,
+   2816,
+   2817,
+   2818,
+   2819,
+   2820
+  ],
+  "E28_cal": [
+   2901,
+   2902,
+   2903,
+   2904,
+   2905,
+   2906
+  ],
+  "E28_conf": [
+   2911,
+   2912,
+   2913,
+   2914,
+   2915,
+   2916,
+   2917,
+   2918,
+   2919,
+   2920
+  ]
+ },
+ "verification": "no occurrence of 3001-3030 as a seed anywhere in tracked .py/.md/.json; whole-word hits are cell indices / data values only (experiment-05 visual_index, experiment-06 dn_indices, experiment-15 brain_index, E26 synapse total, E27/E28 spike counts)",
+ "disjoint": true,
+ "frozen_before_any_dynamic_result": true
+}
