@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Flymon Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/static/style.css">
+<style>
+  .grid { display: grid; grid-template-columns: 640px 1fr 1fr; gap: 12px; padding: 12px; }
+  .col { display: flex; flex-direction: column; gap: 12px; }
+</style>
+</head>
+<body class="research">
+<!-- Research mode: detailed telemetry. Same controller as broadcast mode; read-only. -->
+<div class="grid">
+  <div class="col">
+    <img class="game" src="/stream.mjpg" alt="live emulator frame">
+    <div class="panel"><h2>Provenance</h2><div id="provenance"></div></div>
+  </div>
+  <div class="col">
+    <div class="panel"><h2>Controller output (softmax)</h2><div id="probs"></div>
+      <div class="kv" style="margin-top:6px"><span>Action</span><b id="action">—</b><span>Recent</span><span class="mono" id="recent"></span>
+        <span>Genome</span><span class="mono"><span id="ctlhash"></span> · <span id="frozen"></span></span></div></div>
+    <div class="panel"><h2>Controller inputs (35 features: T4 pools, deltas, previous action)</h2><div class="features" id="features"></div></div>
+    <div class="panel"><h2>T4 activity (pooled, per subtype)</h2><div id="t4"></div>
+      <div class="kv"><span>Visual pathway</span><span class="mono" id="vision"></span></div></div>
+  </div>
+  <div class="col">
+    <div class="panel"><h2>Run</h2><div class="kv">
+      <span>Episode</span><span id="episode">—</span><span>Seed</span><span class="mono" id="seed">—</span>
+      <span>Decision</span><span id="decision">—</span><span>Episode time</span><span id="runtime">—</span>
+      <span>Uptime</span><span id="uptime">—</span><span>Decisions/s</span><span id="dps">—</span><span>Speed</span><span id="speed">—</span>
+      <span>Map (evaluator)</span><span id="mapname">—</span><span>Unique tiles</span><span id="tiles">—</span>
+      <span>Episodes (all time)</span><span id="episodes">—</span><span>Runtime (all time)</span><span id="allruntime">—</span>
+      <span>Best fitness</span><span id="besttotal">—</span><span>Crashes / restarts</span><span><span id="crashes">0</span> / <span id="restarts">0</span></span>
+      <span>Connection</span><span id="conn">—</span></div></div>
+    <div class="panel"><h2>Milestones (evaluator only)</h2><div id="milestones"></div>
+      <div class="kv"><span>Furthest (episode)</span><span id="furthest">—</span><span>Furthest (all time)</span><span id="alltime">—</span></div></div>
+    <div class="panel"><h2>Watchdog</h2><div id="watchdog" class="mono">—</div><div id="log"></div></div>
+  </div>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

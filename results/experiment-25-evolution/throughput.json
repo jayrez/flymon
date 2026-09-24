@@ -1,0 +1,86 @@
+{
+  "t4-1": {
+    "workers": 1,
+    "arch": "t4",
+    "episodes": 2,
+    "decisions": 400,
+    "wall_s": 8.876428749994375,
+    "aggregate_decisions_per_s": 45.06316799988436,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 2.954404412594158,
+      "t4": 18.32089850664488,
+      "brain": 0.0,
+      "controller": 0.4162576583621558
+    }
+  },
+  "t4dn-1": {
+    "workers": 1,
+    "arch": "t4dn",
+    "episodes": 2,
+    "decisions": 400,
+    "wall_s": 20.012712814001134,
+    "aggregate_decisions_per_s": 19.987295261647645,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 2.9731957164767664,
+      "t4": 18.543820432096254,
+      "brain": 26.11574861315603,
+      "controller": 0.5152131649811054
+    }
+  },
+  "t4-4": {
+    "workers": 4,
+    "arch": "t4",
+    "episodes": 8,
+    "decisions": 1600,
+    "wall_s": 9.323898670001654,
+    "aggregate_decisions_per_s": 171.60203651159114,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 3.2648546131895273,
+      "t4": 18.827948835078132,
+      "brain": 0.0,
+      "controller": 0.4325257969139784
+    }
+  },
+  "t4dn-4": {
+    "workers": 4,
+    "arch": "t4dn",
+    "episodes": 8,
+    "decisions": 1600,
+    "wall_s": 31.7383660839987,
+    "aggregate_decisions_per_s": 50.41217294442452,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 3.175372558162053,
+      "t4": 19.04292109536982,
+      "brain": 52.96450518166239,
+      "controller": 0.5100422860232356
+    }
+  },
+  "t4-8": {
+    "workers": 8,
+    "arch": "t4",
+    "episodes": 16,
+    "decisions": 3200,
+    "wall_s": 9.996696874004556,
+    "aggregate_decisions_per_s": 320.10573495744285,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 3.3125775003281888,
+      "t4": 19.416248160941905,
+      "brain": 0.0,
+      "controller": 0.47824539083194395
+    }
+  },
+  "t4dn-8": {
+    "workers": 8,
+    "arch": "t4dn",
+    "episodes": 16,
+    "decisions": 3200,
+    "wall_s": 47.70168380299583,
+    "aggregate_decisions_per_s": 67.08358583767705,
+    "per_episode_stage_ms_per_decision": {
+      "emulator": 3.335027505245307,
+      "t4": 19.769801687543804,
+      "brain": 88.90573410521029,
+      "controller": 0.5383333909048815
+    }
+  }
+}

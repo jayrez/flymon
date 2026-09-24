@@ -1,0 +1,14 @@
+{
+ "branch": "e30-e25-live-controller-recovery",
+ "base_commit": "3e8cb99a1c49de190dd07db2bd2ff246be7ff946",
+ "origin_main": "3e8cb99a1c49de190dd07db2bd2ff246be7ff946",
+ "e29_commit": "d5389b410e5ccf96646dbeaa519ad5f58807cabd",
+ "e29_merged_in_main": true,
+ "e25_commit": "40d644b2aa5c715091ca35e3b2b7e8360ace9f4a",
+ "python": "3.12.3",
+ "pyboy": "unknown",
+ "numpy": "2.5.3",
+ "flybrain": "0.1.0",
+ "rom_sha256": "5ca7ba01642a3b27b0cc0b5349b52792795b62d3ed977e98a09390659af96b7b",
+ "start_state_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+}

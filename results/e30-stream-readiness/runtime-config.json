@@ -1,0 +1,99 @@
+{
+ "schema": 1,
+ "controller": {
+  "genome_sha256": "9fd9795d01af51133ff26b349d186417e5611b452e722dafb4a8187fc1ad31df",
+  "file": "results/e30-stream-readiness/champion-genome.json",
+  "file_sha256": "5e53cdec85f1d36242040a92c1987f22086c385b92d2119f9bb65d880f0de6f6",
+  "architecture": "E25 T4-only linear softmax, 253 params",
+  "frozen": true,
+  "learning_during_runtime": "none"
+ },
+ "vision": "normal",
+ "episode": {
+  "max_decisions": 3000,
+  "max_wall_s": 900,
+  "timing": "8 frames held + 4 released per decision (E24/E25)",
+  "realtime": true,
+  "fps": 60.0,
+  "start_wait": "uniform 0-59 frames from rng([seed, 2500]) (E25)",
+  "policy_rng": "rng([seed, 2501]) (E25)"
+ },
+ "seeds": {
+  "base": 40001,
+  "rule": "seed = base + all-time episode index (persisted in SQLite); disjoint from E25 training 2501-2508 and held-out 2601-2620"
+ },
+ "start_state": {
+  "path": "states/bedroom.state",
+  "sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95",
+  "policy": "every episode (and every recovery) restarts from this approved state; no mid-episode resume"
+ },
+ "rom": {
+  "env": "POKEMON_ROM",
+  "sha256": "5ca7ba01642a3b27b0cc0b5349b52792795b62d3ed977e98a09390659af96b7b",
+  "committed": false
+ },
+ "watchdog": {
+  "heartbeat_timeout_s": 60,
+  "startup_grace_s": 240,
+  "frozen_frame_decisions": 600,
+  "stuck_state_decisions": 900,
+  "restart_backoff_s": 2.0,
+  "actions_allowed": [
+   "restart crashed/frozen worker",
+   "end episode early",
+   "rotate seed",
+   "log + mark"
+  ],
+  "actions_forbidden": [
+   "press any button",
+   "advance dialogue",
+   "move/teleport player",
+   "edit RAM"
+  ]
+ },
+ "telemetry": {
+  "host": "127.0.0.1",
+  "port": 8765,
+  "frame_every_decisions": 1,
+  "frame_scale": 4,
+  "jpeg_quality": 85
+ },
+ "soak_plan": {
+  "duration_h": 6.0,
+  "mode": "real time (60 fps, 5 decisions/s), one continuous supervisor run",
+  "fault_injection": [
+   [
+    3600,
+    "kill (SIGKILL worker: simulated crash)"
+   ],
+   [
+    10800,
+    "stop (SIGSTOP worker: simulated hang)"
+   ]
+  ],
+  "pass_rule": "S3: supervisor runs the full duration unattended; every crash/hang recovered automatically (no human action); no unrecovered stall; >= 1 completed episode per hour; memory growth of the worker < 200 MB between the first and last hour",
+  "metrics": [
+   "uptime",
+   "crashes",
+   "restarts",
+   "watchdog interventions",
+   "episodes completed",
+   "episode duration",
+   "progress distribution",
+   "longest uninterrupted runtime",
+   "worker/supervisor RSS",
+   "GPU memory / utilisation",
+   "worker CPU",
+   "decisions/s",
+   "speed ratio"
+  ]
+ },
+ "runtime_dir": "runtime/stream",
+ "restart_conditions": [
+  "worker process exit",
+  "heartbeat older than heartbeat_timeout_s",
+  "frozen frame for frozen_frame_decisions (episode ends)",
+  "identical (map,x,y,window) for stuck_state_decisions (episode ends)",
+  "episode wall clock > max_wall_s (episode ends)"
+ ]
+}

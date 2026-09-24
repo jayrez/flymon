@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="424" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E30 decisions inside long (&gt;= 30) text/menu windows by class, 20 seeds</text>
+<line x1="300.0" y1="34" x2="300.0" y2="416" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">champion|normal scripted</text>
+<rect x="300.0" y="38" width="163.3" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+597.0000</text>
+<text x="292" y="74" text-anchor="end" font-size="11">champion|normal navigable</text>
+<rect x="300.0" y="62" width="159.7" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+584.0000</text>
+<text x="292" y="98" text-anchor="end" font-size="11">champion|normal stall</text>
+<rect x="300.0" y="86" width="42.1" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+154.0000</text>
+<text x="292" y="122" text-anchor="end" font-size="11">champion|none scripted</text>
+<rect x="300.0" y="110" width="73.9" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+270.0000</text>
+<text x="292" y="146" text-anchor="end" font-size="11">champion|none navigable</text>
+<rect x="300.0" y="134" width="378.6" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+1384.0000</text>
+<text x="292" y="170" text-anchor="end" font-size="11">champion|none stall</text>
+<rect x="300.0" y="158" width="21.3" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+78.0000</text>
+<text x="292" y="194" text-anchor="end" font-size="11">champion|shuffled scripted</text>
+<rect x="300.0" y="182" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="218" text-anchor="end" font-size="11">champion|shuffled navigable</text>
+<rect x="300.0" y="206" width="388.9" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+1422.0000</text>
+<text x="292" y="242" text-anchor="end" font-size="11">champion|shuffled stall</text>
+<rect x="300.0" y="230" width="24.9" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+91.0000</text>
+<text x="292" y="266" text-anchor="end" font-size="11">random_matched|none scripted</text>
+<rect x="300.0" y="254" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="290" text-anchor="end" font-size="11">random_matched|none navigable</text>
+<rect x="300.0" y="278" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="314" text-anchor="end" font-size="11">random_matched|none stall</text>
+<rect x="300.0" y="302" width="478.4" height="15" fill="#275e85"/>
+<text x="894" y="314" font-size="11" text-anchor="end">+1749.0000</text>
+<text x="292" y="338" text-anchor="end" font-size="11">random_uniform|none scripted</text>
+<rect x="300.0" y="326" width="42.7" height="15" fill="#275e85"/>
+<text x="894" y="338" font-size="11" text-anchor="end">+156.0000</text>
+<text x="292" y="362" text-anchor="end" font-size="11">random_uniform|none navigable</text>
+<rect x="300.0" y="350" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+1828.0000</text>
+<text x="292" y="386" text-anchor="end" font-size="11">random_uniform|none stall</text>
+<rect x="300.0" y="374" width="113.2" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+414.0000</text>
+</svg>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fly Brain Plays Pokémon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/static/style.css">
+<style>
+  .wrap { display: grid; grid-template-columns: 640px 360px; gap: 14px; padding: 14px; width: 1034px; }
+  .side { display: flex; flex-direction: column; gap: 10px; }
+  .big { font-size: 34px; font-weight: 700; letter-spacing: .04em; }
+  .foot { grid-column: 1 / span 2; font-size: 13px; }
+</style>
+</head>
+<body class="broadcast">
+<!-- Broadcast mode: OBS browser source (transparent). Same controller as research mode. -->
+<div class="wrap">
+  <img class="game" src="/stream.mjpg" alt="Pokémon Red (live emulator frame)">
+  <div class="side">
+    <div class="panel"><h1>Fly Brain Plays Pokémon</h1><div class="dim" id="oneliner"></div></div>
+    <div class="panel"><h2>Button pressed</h2><div class="big" id="action">—</div>
+      <div class="btns"><span class="btn" data-a="UP">↑</span><span class="btn" data-a="DOWN">↓</span><span class="btn" data-a="LEFT">←</span><span class="btn" data-a="RIGHT">→</span><span class="btn" data-a="A">A</span><span class="btn" data-a="B">B</span><span class="btn" data-a="NONE">·</span></div></div>
+    <div class="panel"><h2>Fly visual pathway (T4 motion cells)</h2><div id="t4"></div></div>
+    <div class="panel"><h2>Progress</h2><div id="milestones"></div>
+      <div class="kv" style="margin-top:6px"><span>Episode</span><span><b id="episode">—</b> · <span id="runtime">—</span></span>
+        <span>Best ever</span><span id="alltime">—</span><span>Stream uptime</span><span id="uptime">—</span></div></div>
+  </div>
+  <div class="panel foot dim">A frozen, connectome-derived fly T4 visual model turns each frame into neural activity; an externally
+    evolved 253-parameter readout picks the button. No learning happens live. Game RAM is used only for this overlay, never by the controller.</div>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

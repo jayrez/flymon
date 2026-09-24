@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 24 September 2026 (Experiment 29). Flymon investigates whether Pokémon Red visual
+Updated 24 September 2026 (Experiment 30). **Direction: the biological-learning track (E26–E29) is closed after E29 (NO BROADER CIRCUIT: leverage solved, held-out KC visual coding failed); the project now follows the E25 live-controller path — a frozen fly-derived visual pathway read by an externally evolved controller, with no within-run learning.** Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -56,10 +56,12 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 22 | Does the E21 tonic-excitation T4 lead survive contrast defined against a fixed adapting background with pre-adaptation? | **FAIL** (Category E, NO-GO); frozen gate-passing model weak (+0.031), but at E21 parameters the lead survives (+0.196, 4/4) with ON/OFF corrected 4/4 — the inversion was a sequence-mean artefact; DS is Mi4-borne and not fast/slow-timing-dependent |
 | 23 | Is that T4 DS a Mi1–Mi4 spatially offset inhibitory veto rather than a fast/slow correlator? | **FAIL** (preregistered; Category E by fall-through, NO-GO); 6/7 criteria met — reversing Mi4 geometry flips DS in 4/4 subtypes (+0.185 → −0.170, ON kept), Mi4 must be inhibitory, persistence needed, fast/slow timing not; co-location reached only 66 % reduction (threshold 70 %) |
 | 24 | Generation 0: can the frozen E23 T4 readout run in the closed Pokémon loop, and what is the baseline? | **READY WITH CAVEATS**; 40/40 episodes unattended and bit-reproducible, T4 verifiably injected, 1.2× real time, 8 instances ≈ 36 decisions/s; but actions are 94 % identical without vision, random explores 2× more tiles, and DOWN-less E14 controls cap progress at M2 |
+| 25 | Can evolution produce vision-dependent Pokémon behaviour beyond Gen 0 and random, with the E23 sensory model frozen? | **EVOLUTION WORKS, NOT STREAM-READY**; T4-only linear decoder (38 gens): held-out median 5,428 vs Gen0 −23 / matched random 905 / uniform random 1,384 (p = 0.06), leaves the house on 65 % of unseen seeds, Oak's Lab on 25 %; −76 % without vision, −77 % with shuffled T4 geometry; rejected for long text-window runs | (PR #9 never merged; recovered into main in E30)
 | 26 (Ph. 0–6) | Can the audited mushroom-body circuit support dopamine-gated plasticity? (biological-learning track, separate from E25) | **NO-GO**; 418-edge KCg-d→MBON01/11 set reproduced exactly and plasticity machinery tested, but stock FlyBrain holds the whole mushroom body (KCs, MBONs, PAM/PPL1 DANs) at the 50 Hz ceiling: no visual drive, DAN gate cannot open, zeroing all plastic edges changes MBONs −0.34 % |
 | 27 | Can a minimal dynamical intervention restore a responsive mushroom-body regime (connectome and 418-edge set frozen)? | **PARTIAL**; refractory ≥ 20 ms breaks saturation, 20 ms + APL×5 restores KCg-d visual selectivity (+7–13 %, confirmed), but no point also gives ≥ 10 % plastic leverage (best −6.6 %) or preregistered DAN headroom; nothing frozen, E26 Phases 3–6 not rerun |
 | 28 | Does a preregistered joint refractory × APL grid contain one point with KCg-d visual coding, fixed-amplitude DAN range and ≥ 10 % leverage on each MBON? | **PARTIAL — TRADEOFF REMAINS**; 25 unique points, none all-pass (frozen point = null); R3 region (APL ≥ 6, ≤ 60 ms) and R5 region (≥ 80 ms, APL ≤ 6) are disjoint; 80 ms + APL×3 passes everything except R3 and replicates on fresh seeds (descriptive); E26 Phases 3–6 not rerun |
 | 29 | Is the 418-edge KCg-d → MBON01/11 circuit too narrow — does a broader KC → MBON ← DAN circuit carry both frozen Pokémon visual coding and ≥ 10 % MBON leverage? | **NO BROADER CIRCUIT** (held-out); α′β′ KC → MBON13/16/17 (PPL104/105) have 23–57 % leverage (10/10 confirmed) and usable DANs, but no KC class passes the visual gate on held-out seeds (the screen passes were trial-state fluctuations); recommendation **DO NOT PROCEED — PIVOT EARLY** to the E25 live controller |
+| 30 | Can the E25 vision-dependent controller be recovered on current main and run as a robust, honest, unattended live stream? | **STREAM READY WITH CAVEATS**; E25 champion (9fd9795d…, 253 params) recovered from the committed artifact and reproduced **exactly** (100/100 held-out episodes, every decision log); −76 % without vision, −77 % shuffled T4; still p = 0.06 vs uniform random; 6.00 h unattended real-time soak, 33 episodes, injected crash + hang auto-recovered, 0 unplanned failures; GET-only telemetry + OBS overlay; RAM never reaches the controller (tested); gameplay stalls in Oak's Lab, no Route 1 |
 
 ## Latest result (Experiment 15)
 
@@ -406,6 +408,27 @@ modulated. The screen responses were population-wide trial-state fluctuations.
 **Recommendation: DO NOT PROCEED — PIVOT EARLY to the E25 live controller.** E25 is to be described as an
 externally evolved readout of fly visual activity, not biological learning.
 
+## Latest result (Experiment 30 — E25 live-controller recovery and stream readiness)
+
+**Project direction.** E29 ended the biological-learning track (NO BROADER CIRCUIT): leverage was solved but no
+KC class carries reliable Pokémon-driven visual information on held-out seeds. E26–E29 remain in the repository
+as research. The live system is E25's architecture — Pokémon pixels → frozen connectome-derived T4 visual model →
+externally evolved 253-parameter linear decoder → buttons — described as an evolved readout of fly visual activity,
+never as biological learning. The whole-brain FlyBrain simulation is not in this loop.
+
+E30 recovered E25 (PR #9, never merged) file by file from 40d644b onto main (fast_io already identical; evolution
+code, tests and historical results restored; `e25-recovery-audit.md`). The champion reproduces E25 **exactly** on the
+20 held-out seeds (median 5,428.46; identical per seed and per decision in all five conditions). Vision dependence
+holds (no vision −75.6 %, p = 0.0045; shuffled T4 −77.1 %, 20/20), matched random is beaten 20/20, uniform random
+still only 13/20 (p = 0.06). Long text windows are 37 % scripted Oak dialogue, 50 % navigable, 13 % genuine stalls
+(repeat loops in Oak's Lab, 2/20 seeds). A new runtime (`flymon/live_runtime.py`, frames-only controller boundary),
+supervisor/watchdog (`run_stream.py`), SQLite stream state, GET-only SSE/MJPEG telemetry and an OBS overlay +
+research dashboard (`overlay/`) ran a preregistered **6.00 h unattended real-time soak**: 33 completed 10-minute
+episodes (house exit 70 %, Oak's Lab 48 %, Route 1 0 %), injected crash and hang recovered automatically, 0
+unplanned failures, 5.00 decisions/s, flat memory. **STREAM READY WITH CAVEATS** (weak gameplay; overlay not yet
+checked visually in OBS). Next: stream hardening (OBS check, 24 h soak), then a preregistered progress experiment
+past Oak's Lab without RAM inputs.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -414,6 +437,9 @@ externally evolved readout of fly visual activity, not biological learning.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 30 (live stream): `run_stream.py` (supervisor/watchdog/overlay server), `flymon/live_runtime.py`,
+  `flymon/stream_eval.py`, `flymon/telemetry.py`, `flymon/stream_state.py`, `overlay/`; `run_stream_readiness.py`
+  (provenance / reproduce / analyze), `analyze_stream_readiness.py`; E25 code: `flymon/evolution.py`, `run_evolution.py`.
 - Experiment 29: `audit_broader_mb_circuit.py` (static audit), `run_broader_mb_circuit.py` (visual / rank /
   leverage / confirm), `analyze_broader_mb_circuit.py`; figures in `captures/experiment-29/`.
 - Experiment 28: `run_mb_joint_operating_point.py` (anchors / grid / select / confirm),

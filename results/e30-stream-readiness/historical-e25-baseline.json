@@ -1,0 +1,358 @@
+{
+ "source": "40d644b2aa5c715091ca35e3b2b7e8360ace9f4a:results/experiment-25-evolution/champion-evaluation.json and analysis.md",
+ "architecture": "t4 (frozen E23/E24 T4 pathway; 253-parameter linear softmax decoder)",
+ "actions": [
+  "NONE",
+  "UP",
+  "DOWN",
+  "LEFT",
+  "RIGHT",
+  "A",
+  "B"
+ ],
+ "generations": "38 (8 screen + 30 main)",
+ "main_population": 32,
+ "heldout_seeds": [
+  2601,
+  2602,
+  2603,
+  2604,
+  2605,
+  2606,
+  2607,
+  2608,
+  2609,
+  2610,
+  2611,
+  2612,
+  2613,
+  2614,
+  2615,
+  2616,
+  2617,
+  2618,
+  2619,
+  2620
+ ],
+ "budget": 1500,
+ "champion": {
+  "normal": {
+   "n": 20,
+   "mean": 4752.802720467985,
+   "median": 5428.463280877444,
+   "p10": 1484.7278399117308,
+   "worst": 1326.5734439834025,
+   "best": 8517.753571428571,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 1.0,
+    "M3": 0.65,
+    "M4": 0.55,
+    "M5": 0.25,
+    "M6": 1.0,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 13,
+   "unique_tiles": 82.4,
+   "unique_maps": 2.9,
+   "loop_fraction_median": 0.31733333333333336,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.4,
+   "completed_interactions": 5.9,
+   "action_fraction": {
+    "NONE": 0.08906666666666668,
+    "UP": 0.22303333333333336,
+    "DOWN": 0.11286666666666664,
+    "LEFT": 0.1569333333333333,
+    "RIGHT": 0.1522666666666667,
+    "A": 0.048766666666666666,
+    "B": 0.21706666666666669
+   }
+  },
+  "no_vision": {
+   "n": 20,
+   "mean": 2118.259672622907,
+   "median": 1326.7624859093185,
+   "p10": 906.7084834968778,
+   "worst": 685.7773195876289,
+   "best": 8419.686440677966,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 1.0,
+    "M3": 0.15,
+    "M4": 0.15,
+    "M5": 0.1,
+    "M6": 1.0,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 3,
+   "unique_tiles": 78.3,
+   "unique_maps": 2.25,
+   "loop_fraction_median": 0.5693333333333332,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.8,
+   "completed_interactions": 5.2,
+   "action_fraction": {
+    "NONE": 0.13626666666666665,
+    "UP": 0.16956666666666664,
+    "DOWN": 0.13856666666666667,
+    "LEFT": 0.14639999999999997,
+    "RIGHT": 0.15349999999999997,
+    "A": 0.1091,
+    "B": 0.1466
+   }
+  },
+  "shuffled": {
+   "n": 20,
+   "mean": 1206.7430340568815,
+   "median": 1242.9812674552197,
+   "p10": 910.013887117067,
+   "worst": 739.9630390143737,
+   "best": 1538.7678391959798,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 1.0,
+    "M3": 0.0,
+    "M4": 0.0,
+    "M5": 0.0,
+    "M6": 0.95,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 0,
+   "unique_tiles": 63.5,
+   "unique_maps": 2.0,
+   "loop_fraction_median": 0.43766666666666665,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.65,
+   "completed_interactions": 2.65,
+   "action_fraction": {
+    "NONE": 0.10926666666666666,
+    "UP": 0.1867,
+    "DOWN": 0.1419,
+    "LEFT": 0.1360333333333333,
+    "RIGHT": 0.1673,
+    "A": 0.0662,
+    "B": 0.1926
+   }
+  },
+  "no_vision_drop": 0.7555915150825403,
+  "shuffled_drop": 0.7710252048984465
+ },
+ "baselines": {
+  "gen0": {
+   "n": 20,
+   "mean": 11.75867448346494,
+   "median": -22.64623655913978,
+   "p10": -755.88,
+   "worst": -1102.2,
+   "best": 1100.1208053691275,
+   "milestone_rate": {
+    "M1": 0.7,
+    "M2": 0.2,
+    "M3": 0.0,
+    "M4": 0.0,
+    "M5": 0.0,
+    "M6": 0.2,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 0,
+   "unique_tiles": 11.85,
+   "unique_maps": 1.2,
+   "loop_fraction_median": 0.32933333333333337,
+   "idle_fraction": 0.38456666666666667,
+   "lock_seed_fraction": 0.2,
+   "completed_interactions": 0.0,
+   "action_fraction": {
+    "NONE": 0.8908000000000001,
+    "UP": 0.009366666666666667,
+    "DOWN": 0.0,
+    "LEFT": 0.07406666666666667,
+    "RIGHT": 0.024999999999999998,
+    "A": 0.0007666666666666666,
+    "B": 0.0
+   }
+  },
+  "random_matched": {
+   "n": 20,
+   "mean": 582.2692389510355,
+   "median": 905.3053318207601,
+   "p10": -169.89456521739132,
+   "worst": -508.73333333333335,
+   "best": 1038.1837837837838,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 0.7,
+    "M3": 0.0,
+    "M4": 0.0,
+    "M5": 0.0,
+    "M6": 0.15,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 0,
+   "unique_tiles": 21.9,
+   "unique_maps": 1.7,
+   "loop_fraction_median": 0.3953333333333333,
+   "idle_fraction": 0.49273333333333336,
+   "lock_seed_fraction": 0.15,
+   "completed_interactions": 0.0,
+   "action_fraction": {
+    "NONE": 0.9225333333333333,
+    "UP": 0.009733333333333333,
+    "DOWN": 0.0,
+    "LEFT": 0.03816666666666666,
+    "RIGHT": 0.028699999999999996,
+    "A": 0.0008666666666666666,
+    "B": 0.0
+   }
+  },
+  "random_uniform": {
+   "n": 20,
+   "mean": 2823.2530055216903,
+   "median": 1383.8474214923654,
+   "p10": 729.6868715819603,
+   "worst": -316.92258064516136,
+   "best": 8212.919463087248,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 0.9,
+    "M3": 0.45,
+    "M4": 0.3,
+    "M5": 0.05,
+    "M6": 1.0,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 9,
+   "unique_tiles": 78.5,
+   "unique_maps": 2.4,
+   "loop_fraction_median": 0.728,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.7,
+   "completed_interactions": 7.55,
+   "action_fraction": {
+    "NONE": 0.14216666666666666,
+    "UP": 0.14603333333333332,
+    "DOWN": 0.14640000000000003,
+    "LEFT": 0.13979999999999998,
+    "RIGHT": 0.13996666666666666,
+    "A": 0.145,
+    "B": 0.14063333333333333
+   }
+  },
+  "screen-best-dn": {
+   "n": 20,
+   "mean": 3717.961179742695,
+   "median": 1449.6795983849836,
+   "p10": 850.8213587145981,
+   "worst": 583.4,
+   "best": 8556.602135231316,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 1.0,
+    "M3": 0.45,
+    "M4": 0.45,
+    "M5": 0.25,
+    "M6": 1.0,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 9,
+   "unique_tiles": 88.7,
+   "unique_maps": 2.75,
+   "loop_fraction_median": 0.45433333333333337,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.8,
+   "completed_interactions": 2.4,
+   "action_fraction": {
+    "NONE": 0.13883333333333336,
+    "UP": 0.19136666666666666,
+    "DOWN": 0.1553,
+    "LEFT": 0.1349666666666667,
+    "RIGHT": 0.17516666666666666,
+    "A": 0.07276666666666667,
+    "B": 0.1316
+   }
+  },
+  "screen-best-t4dn": {
+   "n": 20,
+   "mean": 1340.6008911333963,
+   "median": 1325.782208994709,
+   "p10": 1229.1889083346837,
+   "worst": 1141.212030075188,
+   "best": 1530.1891891891892,
+   "milestone_rate": {
+    "M1": 1.0,
+    "M2": 1.0,
+    "M3": 0.0,
+    "M4": 0.0,
+    "M5": 0.0,
+    "M6": 0.95,
+    "M7": 0.0,
+    "M8": 0.0
+   },
+   "major_seeds": 0,
+   "unique_tiles": 36.1,
+   "unique_maps": 2.0,
+   "loop_fraction_median": 0.41766666666666663,
+   "idle_fraction": 0.0,
+   "lock_seed_fraction": 0.0,
+   "completed_interactions": 3.75,
+   "action_fraction": {
+    "NONE": 0.060366666666666666,
+    "UP": 0.1629,
+    "DOWN": 0.04066666666666667,
+    "LEFT": 0.03736666666666666,
+    "RIGHT": 0.058133333333333335,
+    "A": 0.09813333333333332,
+    "B": 0.5424333333333333
+   }
+  }
+ },
+ "comparisons": {
+  "vs_gen0": {
+   "mean_difference": 4741.044045984519,
+   "champion_better_seeds": 20,
+   "exact_sign_flip_p": 1.9073486328125e-06
+  },
+  "vs_random_matched": {
+   "mean_difference": 4170.533481516949,
+   "champion_better_seeds": 20,
+   "exact_sign_flip_p": 1.9073486328125e-06
+  },
+  "vs_random_uniform": {
+   "mean_difference": 1929.5497149462942,
+   "champion_better_seeds": 13,
+   "exact_sign_flip_p": 0.05971336364746094
+  },
+  "vs_no_vision": {
+   "mean_difference": 2634.543047845077,
+   "champion_better_seeds": 16,
+   "exact_sign_flip_p": 0.004459381103515625
+  },
+  "vs_shuffled": {
+   "mean_difference": 3546.059686411103,
+   "champion_better_seeds": 20,
+   "exact_sign_flip_p": 1.9073486328125e-06
+  }
+ },
+ "headline": {
+  "champion_median": 5428.46,
+  "gen0_median": -22.6,
+  "matched_random_median": 905,
+  "uniform_random_median": 1384,
+  "p_vs_uniform": 0.06,
+  "house_exit_rate": 0.65,
+  "oak_lab_rate": 0.25,
+  "route1": 0,
+  "battle": 0,
+  "no_vision_degradation": -0.76,
+  "shuffled_degradation": -0.77,
+  "finalists_lacking_vision_dependence": "3/8",
+  "long_text_window_seed_fraction": 0.4
+ }
+}

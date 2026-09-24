@@ -1,0 +1,7 @@
+{
+ "reproduction_preregistration_sha256": "64c8413454fed41e398298fc364774ebd8616c8730aed96847ab0be287cd7081",
+ "stream_eval_py_sha256": "02e3f3903653e15ddc3f652674ec27433921588d7d5c39081a9d569469d6e5e2",
+ "live_runtime_py_sha256": "9824ff3a7a24667389261c881d129ccffd7281b1c65dd68129b9ce9d530b53ae",
+ "champion_genome_sha256_file": "5e53cdec85f1d36242040a92c1987f22086c385b92d2119f9bb65d880f0de6f6",
+ "frozen_at_utc": "2026-09-24T05:36:52Z"
+}

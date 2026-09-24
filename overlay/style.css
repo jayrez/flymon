@@ -1,0 +1,21 @@
+:root { --fg: #f4f6fb; --dim: #aab3c5; --accent: #5aa9ff; --ok: #53d18a; --warn: #ffb347; --panel: rgba(12, 16, 26, 0.78); }
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.35 "Inter", "Segoe UI", system-ui, sans-serif; color: var(--fg); }
+body.broadcast { background: transparent; }
+body.research { background: #0b0f18; }
+.panel { background: var(--panel); border-radius: 10px; padding: 10px 14px; }
+h1 { font-size: 20px; margin: 0 0 4px; } h2 { font-size: 13px; margin: 0 0 6px; color: var(--dim); text-transform: uppercase; letter-spacing: .06em; }
+.dim { color: var(--dim); } .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; }
+.game { image-rendering: pixelated; width: 640px; height: 576px; border-radius: 6px; background: #000; display: block; }
+.bar { display: grid; grid-template-columns: 58px 1fr 44px; align-items: center; gap: 6px; margin: 2px 0; font-size: 13px; }
+.bar .track { height: 10px; background: rgba(255,255,255,.08); border-radius: 5px; overflow: hidden; }
+.bar .fill { display: block; height: 100%; background: var(--accent); }
+.bar .v { text-align: right; color: var(--dim); font-variant-numeric: tabular-nums; }
+.ms { display: inline-block; padding: 3px 8px; margin: 2px; border-radius: 12px; background: rgba(255,255,255,.08); color: var(--dim); font-size: 12px; }
+.ms.done { background: rgba(83, 209, 138, .25); color: var(--fg); } .ms.best { outline: 1px solid var(--warn); }
+.btns { display: flex; gap: 6px; } .btn { padding: 6px 10px; border-radius: 6px; background: rgba(255,255,255,.08); font-weight: 600; }
+.btn.on { background: var(--accent); color: #041022; }
+.features { display: grid; grid-template-columns: repeat(14, 14px); gap: 2px; } .cell { width: 14px; height: 14px; border-radius: 2px; background: #222; }
+#log div { font-size: 12px; color: var(--dim); } #log .warn { color: var(--warn); }
+#provenance div { margin: 3px 0; font-size: 12.5px; } #provenance b { color: var(--accent); margin-right: 4px; }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; } .kv span:nth-child(odd) { color: var(--dim); }

@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "transport": {
+  "sse": "/events (text/event-stream, one JSON object per 'data:' line)",
+  "snapshot": "/state (latest decision message + stream stats)",
+  "frame": "/frame.jpg (latest frame, JPEG, 4x) and /stream.mjpg (multipart JPEG)",
+  "provenance": "/provenance",
+  "schema": "/schema",
+  "pages": "/overlay (broadcast, transparent) and /dashboard (research)",
+  "direction": "GET only; one-way worker -> overlay"
+ },
+ "decision_message": {
+  "type": "str",
+  "schema": "int",
+  "ts": "float",
+  "episode": "int",
+  "seed": "int",
+  "decision": "int",
+  "episode_runtime_s": "float",
+  "uptime_s": "float",
+  "decisions_per_second": "float",
+  "speed_ratio": "float",
+  "action": "str",
+  "recent_actions": "list",
+  "controller": "dict",
+  "t4": "dict",
+  "visual_pathway": "dict",
+  "game": "dict",
+  "milestone": "dict",
+  "unique_tiles": "int",
+  "watchdog": "dict",
+  "frame_sha1": "str"
+ },
+ "field_notes": {
+  "action": "NONE | UP | DOWN | LEFT | RIGHT | A | B (controller output)",
+  "controller": "top_action, probabilities (7 softmax outputs), features (35 controller inputs), genome sha256, frozen=true, kind",
+  "t4": "mean pooled frozen-T4 activity per subtype (T4a-d), what the controller reads",
+  "visual_pathway": "status, mode (normal|none|shuffled), sensory_sha256",
+  "game": "EVALUATOR/OVERLAY ONLY (RAM): map, map_name, x, y, window, battle, dialogue window run length",
+  "milestone": "EVALUATOR/OVERLAY ONLY: current, furthest_episode, furthest_all_time",
+  "watchdog": "healthy, restarts, interventions, last (supervisor view)",
+  "speed_ratio": "emulated game frames per wall second / 60"
+ },
+ "other_messages": {
+  "episode_end": "type, episode, seed, decisions, fitness, furthest_milestone, end_reason, watchdog, dialogue summary",
+  "stats": "type, stream stats from the SQLite store",
+  "watchdog": "type, kind, detail"
+ }
+}

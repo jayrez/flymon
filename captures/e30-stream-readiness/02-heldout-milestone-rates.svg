@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="664" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E30 held-out milestone rates (20 seeds x 1,500 decisions)</text>
+<line x1="300.0" y1="34" x2="300.0" y2="656" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">champion|normal bedroom_exit</text>
+<rect x="300.0" y="38" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+1.0000</text>
+<text x="292" y="74" text-anchor="end" font-size="11">champion|normal house_exit</text>
+<rect x="300.0" y="62" width="325.0" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.6500</text>
+<text x="292" y="98" text-anchor="end" font-size="11">champion|normal oak_lab</text>
+<rect x="300.0" y="86" width="125.0" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.2500</text>
+<text x="292" y="122" text-anchor="end" font-size="11">champion|normal route1</text>
+<rect x="300.0" y="110" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="146" text-anchor="end" font-size="11">champion|normal battle</text>
+<rect x="300.0" y="134" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="170" text-anchor="end" font-size="11">champion|none bedroom_exit</text>
+<rect x="300.0" y="158" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+1.0000</text>
+<text x="292" y="194" text-anchor="end" font-size="11">champion|none house_exit</text>
+<rect x="300.0" y="182" width="75.0" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+0.1500</text>
+<text x="292" y="218" text-anchor="end" font-size="11">champion|none oak_lab</text>
+<rect x="300.0" y="206" width="50.0" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+0.1000</text>
+<text x="292" y="242" text-anchor="end" font-size="11">champion|none route1</text>
+<rect x="300.0" y="230" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="266" text-anchor="end" font-size="11">champion|none battle</text>
+<rect x="300.0" y="254" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="290" text-anchor="end" font-size="11">champion|shuffled bedroom_exit</text>
+<rect x="300.0" y="278" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+1.0000</text>
+<text x="292" y="314" text-anchor="end" font-size="11">champion|shuffled house_exit</text>
+<rect x="300.0" y="302" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="314" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="338" text-anchor="end" font-size="11">champion|shuffled oak_lab</text>
+<rect x="300.0" y="326" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="338" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="362" text-anchor="end" font-size="11">champion|shuffled route1</text>
+<rect x="300.0" y="350" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="386" text-anchor="end" font-size="11">champion|shuffled battle</text>
+<rect x="300.0" y="374" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="410" text-anchor="end" font-size="11">random_matched|none bedroom_exit</text>
+<rect x="300.0" y="398" width="350.0" height="15" fill="#275e85"/>
+<text x="894" y="410" font-size="11" text-anchor="end">+0.7000</text>
+<text x="292" y="434" text-anchor="end" font-size="11">random_matched|none house_exit</text>
+<rect x="300.0" y="422" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="434" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="458" text-anchor="end" font-size="11">random_matched|none oak_lab</text>
+<rect x="300.0" y="446" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="458" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="482" text-anchor="end" font-size="11">random_matched|none route1</text>
+<rect x="300.0" y="470" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="482" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="506" text-anchor="end" font-size="11">random_matched|none battle</text>
+<rect x="300.0" y="494" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="506" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="530" text-anchor="end" font-size="11">random_uniform|none bedroom_exit</text>
+<rect x="300.0" y="518" width="450.0" height="15" fill="#275e85"/>
+<text x="894" y="530" font-size="11" text-anchor="end">+0.9000</text>
+<text x="292" y="554" text-anchor="end" font-size="11">random_uniform|none house_exit</text>
+<rect x="300.0" y="542" width="225.0" height="15" fill="#275e85"/>
+<text x="894" y="554" font-size="11" text-anchor="end">+0.4500</text>
+<text x="292" y="578" text-anchor="end" font-size="11">random_uniform|none oak_lab</text>
+<rect x="300.0" y="566" width="25.0" height="15" fill="#275e85"/>
+<text x="894" y="578" font-size="11" text-anchor="end">+0.0500</text>
+<text x="292" y="602" text-anchor="end" font-size="11">random_uniform|none route1</text>
+<rect x="300.0" y="590" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="602" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="626" text-anchor="end" font-size="11">random_uniform|none battle</text>
+<rect x="300.0" y="614" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="626" font-size="11" text-anchor="end">+0.0000</text>
+</svg>
