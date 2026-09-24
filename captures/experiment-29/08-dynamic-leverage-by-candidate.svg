@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E29 MBON change when candidate KC-&gt;MBON edges are zeroed (%), seeds 3011-3016; pass &lt;= -10 %</text>
+<line x1="800.0" y1="34" x2="800.0" y2="632" stroke="#999"/>
+<line x1="711.6" y1="34" x2="711.6" y2="632" stroke="#c0392b" stroke-dasharray="4"/>
+<text x="292" y="50" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 60/8</text>
+<rect x="545.5" y="38" width="254.5" height="15" fill="#c0392b"/>
+<text x="894" y="50" font-size="11" text-anchor="end">-28.8032</text>
+<text x="292" y="74" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON17 80/3</text>
+<rect x="522.5" y="62" width="277.5" height="15" fill="#c0392b"/>
+<text x="894" y="74" font-size="11" text-anchor="end">-31.4115</text>
+<text x="292" y="98" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 60/8</text>
+<rect x="520.1" y="86" width="279.9" height="15" fill="#c0392b"/>
+<text x="894" y="98" font-size="11" text-anchor="end">-31.6832</text>
+<text x="292" y="122" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON16 80/3</text>
+<rect x="468.2" y="110" width="331.8" height="15" fill="#c0392b"/>
+<text x="894" y="122" font-size="11" text-anchor="end">-37.5494</text>
+<text x="292" y="146" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 60/8</text>
+<rect x="530.6" y="134" width="269.4" height="15" fill="#c0392b"/>
+<text x="894" y="146" font-size="11" text-anchor="end">-30.4950</text>
+<text x="292" y="170" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON13 80/3</text>
+<rect x="539.3" y="158" width="260.7" height="15" fill="#c0392b"/>
+<text x="894" y="170" font-size="11" text-anchor="end">-29.5050</text>
+<text x="292" y="194" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 60/8</text>
+<rect x="563.9" y="182" width="236.1" height="15" fill="#c0392b"/>
+<text x="894" y="194" font-size="11" text-anchor="end">-26.7191</text>
+<text x="292" y="218" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON03 80/3</text>
+<rect x="607.9" y="206" width="192.1" height="15" fill="#c0392b"/>
+<text x="894" y="218" font-size="11" text-anchor="end">-21.7391</text>
+<text x="292" y="242" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 60/8</text>
+<rect x="439.4" y="230" width="360.6" height="15" fill="#c0392b"/>
+<text x="894" y="242" font-size="11" text-anchor="end">-40.8200</text>
+<text x="292" y="266" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON13 80/3</text>
+<rect x="510.1" y="254" width="289.9" height="15" fill="#c0392b"/>
+<text x="894" y="266" font-size="11" text-anchor="end">-32.8125</text>
+<text x="292" y="290" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 60/8</text>
+<rect x="480.4" y="278" width="319.6" height="15" fill="#c0392b"/>
+<text x="894" y="290" font-size="11" text-anchor="end">-36.1742</text>
+<text x="292" y="314" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON17 80/3</text>
+<rect x="507.3" y="302" width="292.7" height="15" fill="#c0392b"/>
+<text x="894" y="314" font-size="11" text-anchor="end">-33.1325</text>
+<text x="292" y="338" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like 60/8</text>
+<rect x="507.2" y="326" width="292.8" height="15" fill="#c0392b"/>
+<text x="894" y="338" font-size="11" text-anchor="end">-33.1373</text>
+<text x="292" y="362" text-anchor="end" font-size="11">KCapbp-m-&gt;MBON15-like 80/3</text>
+<rect x="546.5" y="350" width="253.5" height="15" fill="#c0392b"/>
+<text x="894" y="362" font-size="11" text-anchor="end">-28.6947</text>
+<text x="292" y="386" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 60/8</text>
+<rect x="444.3" y="374" width="355.7" height="15" fill="#c0392b"/>
+<text x="894" y="386" font-size="11" text-anchor="end">-40.2550</text>
+<text x="292" y="410" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON16 80/3</text>
+<rect x="450.8" y="398" width="349.2" height="15" fill="#c0392b"/>
+<text x="894" y="410" font-size="11" text-anchor="end">-39.5257</text>
+<text x="292" y="434" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like 60/8</text>
+<rect x="596.6" y="422" width="203.4" height="15" fill="#c0392b"/>
+<text x="894" y="434" font-size="11" text-anchor="end">-23.0185</text>
+<text x="292" y="458" text-anchor="end" font-size="11">KCapbp-ap2-&gt;MBON15-like 80/3</text>
+<rect x="587.4" y="446" width="212.6" height="15" fill="#c0392b"/>
+<text x="894" y="458" font-size="11" text-anchor="end">-24.0642</text>
+<text x="292" y="482" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 60/8</text>
+<rect x="304.5" y="470" width="495.5" height="15" fill="#c0392b"/>
+<text x="894" y="482" font-size="11" text-anchor="end">-56.0837</text>
+<text x="292" y="506" text-anchor="end" font-size="11">KCapbp-ap1-&gt;MBON28 80/3</text>
+<rect x="300.0" y="494" width="500.0" height="15" fill="#c0392b"/>
+<text x="894" y="506" font-size="11" text-anchor="end">-56.5923</text>
+<text x="292" y="530" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 60/8</text>
+<rect x="778.4" y="518" width="21.6" height="15" fill="#c0392b"/>
+<text x="894" y="530" font-size="11" text-anchor="end">-2.4465</text>
+<text x="292" y="554" text-anchor="end" font-size="11">KCg-d-&gt;MBON01 80/3</text>
+<rect x="653.7" y="542" width="146.3" height="15" fill="#c0392b"/>
+<text x="894" y="554" font-size="11" text-anchor="end">-16.5605</text>
+<text x="292" y="578" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 60/8</text>
+<rect x="786.4" y="566" width="13.6" height="15" fill="#c0392b"/>
+<text x="894" y="578" font-size="11" text-anchor="end">-1.5337</text>
+<text x="292" y="602" text-anchor="end" font-size="11">KCg-d-&gt;MBON11 80/3</text>
+<rect x="667.5" y="590" width="132.5" height="15" fill="#c0392b"/>
+<text x="894" y="602" font-size="11" text-anchor="end">-15.0000</text>
+</svg>

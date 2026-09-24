@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="468" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E29 KC-class response vs no-visual (%), 60 ms + APL x8, seeds 3001-3006; green = passes frozen visual gate</text>
+<text x="155.0" y="144" font-size="10" transform="rotate(-60 155.0 144)">vertical</text>
+<text x="225.0" y="144" font-size="10" transform="rotate(-60 225.0 144)">horizontal</text>
+<text x="295.0" y="144" font-size="10" transform="rotate(-60 295.0 144)">drifting_vertical</text>
+<text x="365.0" y="144" font-size="10" transform="rotate(-60 365.0 144)">pokemon_bedroom</text>
+<text x="435.0" y="144" font-size="10" transform="rotate(-60 435.0 144)">pokemon_bedroom_after_walk</text>
+<text x="505.0" y="144" font-size="10" transform="rotate(-60 505.0 144)">pokemon_walk</text>
+<text x="114" y="166.0" text-anchor="end" font-size="11">KC (2)</text>
+<rect x="120" y="150" width="69" height="23" fill="rgb(255,245,247)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="165.0" text-anchor="middle" font-size="8">+2</text>
+<rect x="190" y="150" width="69" height="23" fill="rgb(255,251,252)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="165.0" text-anchor="middle" font-size="8">+1</text>
+<rect x="260" y="150" width="69" height="23" fill="rgb(255,250,251)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="165.0" text-anchor="middle" font-size="8">+1</text>
+<rect x="330" y="150" width="69" height="23" fill="rgb(255,251,252)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="165.0" text-anchor="middle" font-size="8">+1</text>
+<rect x="400" y="150" width="69" height="23" fill="rgb(248,246,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="165.0" text-anchor="middle" font-size="8">-2</text>
+<rect x="470" y="150" width="69" height="23" fill="rgb(248,246,255)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="165.0" text-anchor="middle" font-size="8">-2</text>
+<text x="114" y="190.0" text-anchor="end" font-size="11">KCa'b'-ap1 (2)</text>
+<rect x="120" y="174" width="69" height="23" fill="rgb(255,134,158)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="189.0" text-anchor="middle" font-size="8">+30</text>
+<rect x="190" y="174" width="69" height="23" fill="rgb(255,170,187)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="189.0" text-anchor="middle" font-size="8">+21</text>
+<rect x="260" y="174" width="69" height="23" fill="rgb(255,227,233)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="189.0" text-anchor="middle" font-size="8">+7</text>
+<rect x="330" y="174" width="69" height="23" fill="rgb(255,121,147)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="189.0" text-anchor="middle" font-size="8">+34</text>
+<rect x="400" y="174" width="69" height="23" fill="rgb(255,219,226)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="189.0" text-anchor="middle" font-size="8">+9</text>
+<rect x="470" y="174" width="69" height="23" fill="rgb(255,164,182)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="189.0" text-anchor="middle" font-size="8">+23</text>
+<text x="114" y="214.0" text-anchor="end" font-size="11">KCab (1681)</text>
+<rect x="120" y="198" width="69" height="23" fill="rgb(255,252,253)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="213.0" text-anchor="middle" font-size="8">+1</text>
+<rect x="190" y="198" width="69" height="23" fill="rgb(253,253,255)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="213.0" text-anchor="middle" font-size="8">-0</text>
+<rect x="260" y="198" width="69" height="23" fill="rgb(255,254,254)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="213.0" text-anchor="middle" font-size="8">+0</text>
+<rect x="330" y="198" width="69" height="23" fill="rgb(252,251,255)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="213.0" text-anchor="middle" font-size="8">-1</text>
+<rect x="400" y="198" width="69" height="23" fill="rgb(242,239,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="213.0" text-anchor="middle" font-size="8">-4</text>
+<rect x="470" y="198" width="69" height="23" fill="rgb(240,236,255)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="213.0" text-anchor="middle" font-size="8">-5</text>
+<text x="114" y="238.0" text-anchor="end" font-size="11">KCab-p (129)</text>
+<rect x="120" y="222" width="69" height="23" fill="rgb(243,240,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="237.0" text-anchor="middle" font-size="8">-4</text>
+<rect x="190" y="222" width="69" height="23" fill="rgb(246,244,255)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="237.0" text-anchor="middle" font-size="8">-3</text>
+<rect x="260" y="222" width="69" height="23" fill="rgb(255,249,250)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="237.0" text-anchor="middle" font-size="8">+1</text>
+<rect x="330" y="222" width="69" height="23" fill="rgb(240,237,255)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="237.0" text-anchor="middle" font-size="8">-5</text>
+<rect x="400" y="222" width="69" height="23" fill="rgb(245,242,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="237.0" text-anchor="middle" font-size="8">-3</text>
+<rect x="470" y="222" width="69" height="23" fill="rgb(235,230,255)" stroke="#1e8449" stroke-width="3"/>
+<text x="505.0" y="237.0" text-anchor="middle" font-size="8">-6</text>
+<text x="114" y="262.0" text-anchor="end" font-size="11">KCapbp-ap1 (197)</text>
+<rect x="120" y="246" width="69" height="23" fill="rgb(255,157,176)" stroke="#1e8449" stroke-width="3"/>
+<text x="155.0" y="261.0" text-anchor="middle" font-size="8">+25</text>
+<rect x="190" y="246" width="69" height="23" fill="rgb(255,119,146)" stroke="#1e8449" stroke-width="3"/>
+<text x="225.0" y="261.0" text-anchor="middle" font-size="8">+34</text>
+<rect x="260" y="246" width="69" height="23" fill="rgb(255,154,174)" stroke="#1e8449" stroke-width="3"/>
+<text x="295.0" y="261.0" text-anchor="middle" font-size="8">+25</text>
+<rect x="330" y="246" width="69" height="23" fill="rgb(255,114,142)" stroke="#1e8449" stroke-width="3"/>
+<text x="365.0" y="261.0" text-anchor="middle" font-size="8">+36</text>
+<rect x="400" y="246" width="69" height="23" fill="rgb(255,191,203)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="261.0" text-anchor="middle" font-size="8">+16</text>
+<rect x="470" y="246" width="69" height="23" fill="rgb(255,117,144)" stroke="#1e8449" stroke-width="3"/>
+<text x="505.0" y="261.0" text-anchor="middle" font-size="8">+35</text>
+<text x="114" y="286.0" text-anchor="end" font-size="11">KCapbp-ap2 (291)</text>
+<rect x="120" y="270" width="69" height="23" fill="rgb(255,136,159)" stroke="#1e8449" stroke-width="3"/>
+<text x="155.0" y="285.0" text-anchor="middle" font-size="8">+30</text>
+<rect x="190" y="270" width="69" height="23" fill="rgb(255,121,148)" stroke="#1e8449" stroke-width="3"/>
+<text x="225.0" y="285.0" text-anchor="middle" font-size="8">+34</text>
+<rect x="260" y="270" width="69" height="23" fill="rgb(255,173,189)" stroke="#1e8449" stroke-width="3"/>
+<text x="295.0" y="285.0" text-anchor="middle" font-size="8">+21</text>
+<rect x="330" y="270" width="69" height="23" fill="rgb(255,105,135)" stroke="#1e8449" stroke-width="3"/>
+<text x="365.0" y="285.0" text-anchor="middle" font-size="8">+38</text>
+<rect x="400" y="270" width="69" height="23" fill="rgb(255,187,201)" stroke="#1e8449" stroke-width="3"/>
+<text x="435.0" y="285.0" text-anchor="middle" font-size="8">+17</text>
+<rect x="470" y="270" width="69" height="23" fill="rgb(255,127,152)" stroke="#1e8449" stroke-width="3"/>
+<text x="505.0" y="285.0" text-anchor="middle" font-size="8">+32</text>
+<text x="114" y="310.0" text-anchor="end" font-size="11">KCapbp-m (205)</text>
+<rect x="120" y="294" width="69" height="23" fill="rgb(255,158,177)" stroke="#1e8449" stroke-width="3"/>
+<text x="155.0" y="309.0" text-anchor="middle" font-size="8">+24</text>
+<rect x="190" y="294" width="69" height="23" fill="rgb(255,160,179)" stroke="#1e8449" stroke-width="3"/>
+<text x="225.0" y="309.0" text-anchor="middle" font-size="8">+24</text>
+<rect x="260" y="294" width="69" height="23" fill="rgb(255,181,196)" stroke="#1e8449" stroke-width="3"/>
+<text x="295.0" y="309.0" text-anchor="middle" font-size="8">+19</text>
+<rect x="330" y="294" width="69" height="23" fill="rgb(255,135,159)" stroke="#1e8449" stroke-width="3"/>
+<text x="365.0" y="309.0" text-anchor="middle" font-size="8">+30</text>
+<rect x="400" y="294" width="69" height="23" fill="rgb(255,187,201)" stroke="#1e8449" stroke-width="3"/>
+<text x="435.0" y="309.0" text-anchor="middle" font-size="8">+17</text>
+<rect x="470" y="294" width="69" height="23" fill="rgb(255,172,188)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="309.0" text-anchor="middle" font-size="8">+21</text>
+<text x="114" y="334.0" text-anchor="end" font-size="11">KCg (1)</text>
+<rect x="120" y="318" width="69" height="23" fill="rgb(198,184,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="333.0" text-anchor="middle" font-size="8">-18</text>
+<rect x="190" y="318" width="69" height="23" fill="rgb(255,247,249)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="333.0" text-anchor="middle" font-size="8">+2</text>
+<rect x="260" y="318" width="69" height="23" fill="rgb(218,208,255)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="333.0" text-anchor="middle" font-size="8">-12</text>
+<rect x="330" y="318" width="69" height="23" fill="rgb(255,240,243)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="333.0" text-anchor="middle" font-size="8">+4</text>
+<rect x="400" y="318" width="69" height="23" fill="rgb(204,191,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="333.0" text-anchor="middle" font-size="8">-16</text>
+<rect x="470" y="318" width="69" height="23" fill="rgb(221,212,255)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="333.0" text-anchor="middle" font-size="8">-11</text>
+<text x="114" y="358.0" text-anchor="end" font-size="11">KCg-d (206)</text>
+<rect x="120" y="342" width="69" height="23" fill="rgb(254,254,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="357.0" text-anchor="middle" font-size="8">-0</text>
+<rect x="190" y="342" width="69" height="23" fill="rgb(255,196,207)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="357.0" text-anchor="middle" font-size="8">+15</text>
+<rect x="260" y="342" width="69" height="23" fill="rgb(255,208,218)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="357.0" text-anchor="middle" font-size="8">+12</text>
+<rect x="330" y="342" width="69" height="23" fill="rgb(255,204,214)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="357.0" text-anchor="middle" font-size="8">+13</text>
+<rect x="400" y="342" width="69" height="23" fill="rgb(255,234,238)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="357.0" text-anchor="middle" font-size="8">+5</text>
+<rect x="470" y="342" width="69" height="23" fill="rgb(255,193,205)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="357.0" text-anchor="middle" font-size="8">+15</text>
+<text x="114" y="382.0" text-anchor="end" font-size="11">KCg-m (1346)</text>
+<rect x="120" y="366" width="69" height="23" fill="rgb(249,247,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="381.0" text-anchor="middle" font-size="8">-2</text>
+<rect x="190" y="366" width="69" height="23" fill="rgb(255,243,245)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="381.0" text-anchor="middle" font-size="8">+3</text>
+<rect x="260" y="366" width="69" height="23" fill="rgb(251,251,255)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="381.0" text-anchor="middle" font-size="8">-1</text>
+<rect x="330" y="366" width="69" height="23" fill="rgb(255,229,234)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="381.0" text-anchor="middle" font-size="8">+6</text>
+<rect x="400" y="366" width="69" height="23" fill="rgb(233,228,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="381.0" text-anchor="middle" font-size="8">-7</text>
+<rect x="470" y="366" width="69" height="23" fill="rgb(249,248,255)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="381.0" text-anchor="middle" font-size="8">-2</text>
+<text x="114" y="406.0" text-anchor="end" font-size="11">KCg-s1 (2)</text>
+<rect x="120" y="390" width="69" height="23" fill="rgb(232,227,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="405.0" text-anchor="middle" font-size="8">-7</text>
+<rect x="190" y="390" width="69" height="23" fill="rgb(252,251,255)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="405.0" text-anchor="middle" font-size="8">-1</text>
+<rect x="260" y="390" width="69" height="23" fill="rgb(255,232,237)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="405.0" text-anchor="middle" font-size="8">+6</text>
+<rect x="330" y="390" width="69" height="23" fill="rgb(255,225,231)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="405.0" text-anchor="middle" font-size="8">+7</text>
+<rect x="400" y="390" width="69" height="23" fill="rgb(208,196,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="405.0" text-anchor="middle" font-size="8">-15</text>
+<rect x="470" y="390" width="69" height="23" fill="rgb(235,231,255)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="405.0" text-anchor="middle" font-size="8">-6</text>
+<text x="114" y="430.0" text-anchor="end" font-size="11">KCg-s2 (2)</text>
+<rect x="120" y="414" width="69" height="23" fill="rgb(242,239,255)" stroke="none" stroke-width="0"/>
+<text x="155.0" y="429.0" text-anchor="middle" font-size="8">-4</text>
+<rect x="190" y="414" width="69" height="23" fill="rgb(255,240,243)" stroke="none" stroke-width="0"/>
+<text x="225.0" y="429.0" text-anchor="middle" font-size="8">+4</text>
+<rect x="260" y="414" width="69" height="23" fill="rgb(250,248,255)" stroke="none" stroke-width="0"/>
+<text x="295.0" y="429.0" text-anchor="middle" font-size="8">-2</text>
+<rect x="330" y="414" width="69" height="23" fill="rgb(255,231,236)" stroke="none" stroke-width="0"/>
+<text x="365.0" y="429.0" text-anchor="middle" font-size="8">+6</text>
+<rect x="400" y="414" width="69" height="23" fill="rgb(241,237,255)" stroke="none" stroke-width="0"/>
+<text x="435.0" y="429.0" text-anchor="middle" font-size="8">-4</text>
+<rect x="470" y="414" width="69" height="23" fill="rgb(255,247,249)" stroke="none" stroke-width="0"/>
+<text x="505.0" y="429.0" text-anchor="middle" font-size="8">+2</text>
+</svg>

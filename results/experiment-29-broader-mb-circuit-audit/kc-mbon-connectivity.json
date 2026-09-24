@@ -1,0 +1,5953 @@
+{
+ "weights": "FlyBrain W (signed, input-normalised); raw_synapses from the minconf-0.5 feather",
+ "kc_types": [
+  "KC",
+  "KCa'b'-ap1",
+  "KCab",
+  "KCab-p",
+  "KCapbp-ap1",
+  "KCapbp-ap2",
+  "KCapbp-m",
+  "KCg",
+  "KCg-d",
+  "KCg-m",
+  "KCg-s1",
+  "KCg-s2"
+ ],
+ "mbon_types": [
+  "MBON01",
+  "MBON02",
+  "MBON03",
+  "MBON04",
+  "MBON05",
+  "MBON06",
+  "MBON07",
+  "MBON09",
+  "MBON10",
+  "MBON11",
+  "MBON12",
+  "MBON13",
+  "MBON14",
+  "MBON15",
+  "MBON15-like",
+  "MBON16",
+  "MBON17",
+  "MBON17-like",
+  "MBON18",
+  "MBON19",
+  "MBON20",
+  "MBON21",
+  "MBON22",
+  "MBON23",
+  "MBON24",
+  "MBON25,MBON34",
+  "MBON25-like",
+  "MBON26",
+  "MBON27",
+  "MBON28",
+  "MBON29",
+  "MBON30",
+  "MBON31",
+  "MBON32",
+  "MBON33",
+  "MBON35"
+ ],
+ "n_pairs_with_edges": 258,
+ "matrix_sha256": "e6bb57caf2a03124ccdf94b27024cd459294ec37b651d3ead11438cb8abb680d",
+ "pairs": {
+  "KC->MBON22": {
+   "kc_type": "KC",
+   "mbon_type": "MBON22",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00030602875631302595,
+   "abs_weight_sum": 0.00030602875631302595,
+   "median_edge_weight": 0.00030602875631302595,
+   "max_edge_weight": 0.00030602875631302595,
+   "per_target_mbon_cell_abs": [
+    0.00030602875631302595,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCa'b'-ap1->MBON01": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON01",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0009849410271272063,
+   "abs_weight_sum": 0.0009849410271272063,
+   "median_edge_weight": 0.0004924705135636032,
+   "max_edge_weight": 0.0007380376337096095,
+   "per_target_mbon_cell_abs": [
+    0.0007380376337096095,
+    0.0002469034225214273
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 24
+  },
+  "KCa'b'-ap1->MBON02": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON02",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0010279951384291053,
+   "abs_weight_sum": 0.0010279951384291053,
+   "median_edge_weight": 0.00036529681528918445,
+   "max_edge_weight": 0.0005713741411454976,
+   "per_target_mbon_cell_abs": [
+    0.00045662101911148056,
+    0.0005713741411454976
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 11
+  },
+  "KCa'b'-ap1->MBON03": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON03",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0045211962424218655,
+   "abs_weight_sum": 0.0045211962424218655,
+   "median_edge_weight": 0.0016735128592699766,
+   "max_edge_weight": 0.0026194772217422724,
+   "per_target_mbon_cell_abs": [
+    0.0019017191516468301,
+    0.0026194772217422724
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RL": 1,
+    "LR": 1
+   },
+   "raw_synapses": 70
+  },
+  "KCa'b'-ap1->MBON04": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON04",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.002485831268131733,
+   "abs_weight_sum": 0.002485831268131733,
+   "median_edge_weight": 0.0012429156340658665,
+   "max_edge_weight": 0.0018602728378027678,
+   "per_target_mbon_cell_abs": [
+    0.000625558546744287,
+    0.0018602728378027678
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RL": 1
+   },
+   "raw_synapses": 25
+  },
+  "KCa'b'-ap1->MBON05": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON05",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00018890811770688742,
+   "abs_weight_sum": 0.00018890811770688742,
+   "median_edge_weight": 9.445405885344371e-05,
+   "max_edge_weight": 0.00014553921937476844,
+   "per_target_mbon_cell_abs": [
+    4.336889469414018e-05,
+    0.00014553921937476844
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCa'b'-ap1->MBON07": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON07",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0003269042063038796,
+   "abs_weight_sum": 0.0003269042063038796,
+   "median_edge_weight": 0.0003269042063038796,
+   "max_edge_weight": 0.0003269042063038796,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0003269042063038796,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCa'b'-ap1->MBON09": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON09",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 6,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.0037805032916367054,
+   "abs_weight_sum": 0.0037805032916367054,
+   "median_edge_weight": 0.00040952666313387454,
+   "max_edge_weight": 0.001222120365127921,
+   "per_target_mbon_cell_abs": [
+    0.0002702556666918099,
+    0.0004481792857404798,
+    0.0014834961330052465,
+    0.0015785721479915082
+   ],
+   "hemisphere_pattern": {
+    "RL": 2,
+    "LR": 2,
+    "RR": 2
+   },
+   "raw_synapses": 68
+  },
+  "KCa'b'-ap1->MBON10": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON10",
+   "kc_cells": 2,
+   "mbon_cells": 9,
+   "edges": 2,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.003870271146297455,
+   "abs_weight_sum": 0.003870271146297455,
+   "median_edge_weight": 0.0019351355731487274,
+   "max_edge_weight": 0.0024125452619045973,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0014577260008081794,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0024125452619045973,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 2
+   },
+   "raw_synapses": 3
+  },
+  "KCa'b'-ap1->MBON11": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON11",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0002848306321538985,
+   "abs_weight_sum": 0.0002848306321538985,
+   "median_edge_weight": 0.00014241531607694924,
+   "max_edge_weight": 0.0001803101331461221,
+   "per_target_mbon_cell_abs": [
+    0.00010452051355969161,
+    0.0001803101331461221
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 7
+  },
+  "KCa'b'-ap1->MBON12": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON12",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.0037326717283576727,
+   "abs_weight_sum": 0.0037326717283576727,
+   "median_edge_weight": 0.0009402786381542683,
+   "max_edge_weight": 0.0010285042226314545,
+   "per_target_mbon_cell_abs": [
+    0.0010285042226314545,
+    0.000965783663559705,
+    0.0009147736127488315,
+    0.0008236101712100208
+   ],
+   "hemisphere_pattern": {
+    "LL": 2,
+    "RR": 2
+   },
+   "raw_synapses": 26
+  },
+  "KCa'b'-ap1->MBON13": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON13",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0036678402684628963,
+   "abs_weight_sum": 0.0036678402684628963,
+   "median_edge_weight": 0.0036678402684628963,
+   "max_edge_weight": 0.0036678402684628963,
+   "per_target_mbon_cell_abs": [
+    0.0036678402684628963,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 25
+  },
+  "KCa'b'-ap1->MBON15": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON15",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.005791505798697472,
+   "abs_weight_sum": 0.005791505798697472,
+   "median_edge_weight": 0.005791505798697472,
+   "max_edge_weight": 0.005791505798697472,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.005791505798697472,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 6
+  },
+  "KCa'b'-ap1->MBON15-like": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0025906735099852085,
+   "abs_weight_sum": 0.0025906735099852085,
+   "median_edge_weight": 0.0025906735099852085,
+   "max_edge_weight": 0.0025906735099852085,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0025906735099852085,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCa'b'-ap1->MBON16": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON16",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.001916626701131463,
+   "abs_weight_sum": 0.001916626701131463,
+   "median_edge_weight": 0.001916626701131463,
+   "max_edge_weight": 0.001916626701131463,
+   "per_target_mbon_cell_abs": [
+    0.001916626701131463,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCa'b'-ap1->MBON17": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON17",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0015037594130262733,
+   "abs_weight_sum": 0.0015037594130262733,
+   "median_edge_weight": 0.0015037594130262733,
+   "max_edge_weight": 0.0015037594130262733,
+   "per_target_mbon_cell_abs": [
+    0.0015037594130262733,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCa'b'-ap1->MBON17-like": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0030935807153582573,
+   "abs_weight_sum": 0.0030935807153582573,
+   "median_edge_weight": 0.0030935807153582573,
+   "max_edge_weight": 0.0030935807153582573,
+   "per_target_mbon_cell_abs": [
+    0.0030935807153582573,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCa'b'-ap1->MBON22": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON22",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0001315270346822217,
+   "abs_weight_sum": 0.0001315270346822217,
+   "median_edge_weight": 0.0001315270346822217,
+   "max_edge_weight": 0.0001315270346822217,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0001315270346822217
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCa'b'-ap1->MBON24": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON24",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.000260960339801386,
+   "abs_weight_sum": 0.000260960339801386,
+   "median_edge_weight": 0.000260960339801386,
+   "max_edge_weight": 0.000260960339801386,
+   "per_target_mbon_cell_abs": [
+    0.000260960339801386,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCa'b'-ap1->MBON25,MBON34": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 2,
+   "mbon_cells": 7,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0009596928721293807,
+   "abs_weight_sum": 0.0009596928721293807,
+   "median_edge_weight": 0.0009596928721293807,
+   "max_edge_weight": 0.0009596928721293807,
+   "per_target_mbon_cell_abs": [
+    0.0009596928721293807,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCa'b'-ap1->MBON26": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON26",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0015104218618944287,
+   "abs_weight_sum": 0.0015104218618944287,
+   "median_edge_weight": 0.0015104218618944287,
+   "max_edge_weight": 0.0015104218618944287,
+   "per_target_mbon_cell_abs": [
+    0.0015104218618944287,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 15
+  },
+  "KCa'b'-ap1->MBON30": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON30",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00022943672956898808,
+   "abs_weight_sum": 0.00022943672956898808,
+   "median_edge_weight": 0.00022943672956898808,
+   "max_edge_weight": 0.00022943672956898808,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00022943672956898808
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCa'b'-ap1->MBON31": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON31",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0019327702466398478,
+   "abs_weight_sum": 0.0019327702466398478,
+   "median_edge_weight": 0.0009663851233199239,
+   "max_edge_weight": 0.0009757562074810266,
+   "per_target_mbon_cell_abs": [
+    0.0009757562074810266,
+    0.000957014097366482
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 25
+  },
+  "KCa'b'-ap1->MBON32": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON32",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0008921035332605243,
+   "abs_weight_sum": 0.0008921035332605243,
+   "median_edge_weight": 0.00044605176663026214,
+   "max_edge_weight": 0.0007891222485341132,
+   "per_target_mbon_cell_abs": [
+    0.00010298130655428395,
+    0.0007891222485341132
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 15
+  },
+  "KCa'b'-ap1->MBON35": {
+   "kc_type": "KCa'b'-ap1",
+   "mbon_type": "MBON35",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 4.089477806701325e-05,
+   "abs_weight_sum": 4.089477806701325e-05,
+   "median_edge_weight": 4.089477806701325e-05,
+   "max_edge_weight": 4.089477806701325e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    4.089477806701325e-05
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON02": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON02",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 3237,
+   "source_kc_cells": 1669,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.466198205947876,
+   "abs_weight_sum": 1.466198205947876,
+   "median_edge_weight": 0.000380916113499552,
+   "max_edge_weight": 0.0017141224816441536,
+   "per_target_mbon_cell_abs": [
+    0.7248401885735802,
+    0.7413579625863349
+   ],
+   "hemisphere_pattern": {
+    "LR": 793,
+    "RR": 831,
+    "LL": 799,
+    "RL": 814
+   },
+   "raw_synapses": 15722
+  },
+  "KCab->MBON03": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON03",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00017463183030486107,
+   "abs_weight_sum": 0.00017463183030486107,
+   "median_edge_weight": 8.731591515243053e-05,
+   "max_edge_weight": 0.0001164212153526023,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00017463182302890345
+   ],
+   "hemisphere_pattern": {
+    "LR": 2
+   },
+   "raw_synapses": 3
+  },
+  "KCab->MBON06": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON06",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1674,
+   "source_kc_cells": 1674,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.3783866167068481,
+   "abs_weight_sum": 1.3783866167068481,
+   "median_edge_weight": 0.0008218856528401375,
+   "max_edge_weight": 0.0021721264347434044,
+   "per_target_mbon_cell_abs": [
+    0.673208761625574,
+    0.7051778826607915
+   ],
+   "hemisphere_pattern": {
+    "LR": 818,
+    "RL": 856
+   },
+   "raw_synapses": 22028
+  },
+  "KCab->MBON07": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON07",
+   "kc_cells": 1681,
+   "mbon_cells": 4,
+   "edges": 3316,
+   "source_kc_cells": 1678,
+   "target_mbon_cells": 4,
+   "weight_sum": 3.020225763320923,
+   "abs_weight_sum": 3.020225763320923,
+   "median_edge_weight": 0.0009019456338137388,
+   "max_edge_weight": 0.003098853398114443,
+   "per_target_mbon_cell_abs": [
+    0.7464788568322547,
+    0.7412553061294602,
+    0.7572048340807669,
+    0.7752866913215257
+   ],
+   "hemisphere_pattern": {
+    "RR": 1701,
+    "LL": 1615
+   },
+   "raw_synapses": 20368
+  },
+  "KCab->MBON09": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON09",
+   "kc_cells": 1681,
+   "mbon_cells": 4,
+   "edges": 5,
+   "source_kc_cells": 5,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.00027882997528649867,
+   "abs_weight_sum": 0.00027882997528649867,
+   "median_edge_weight": 5.602241071755998e-05,
+   "max_edge_weight": 6.1812337662559e-05,
+   "per_target_mbon_cell_abs": [
+    5.4051131883170456e-05,
+    0.00011204482143511996,
+    6.1812337662559e-05,
+    5.0921680667670444e-05
+   ],
+   "hemisphere_pattern": {
+    "LL": 3,
+    "RR": 1,
+    "LR": 1
+   },
+   "raw_synapses": 5
+  },
+  "KCab->MBON10": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON10",
+   "kc_cells": 1681,
+   "mbon_cells": 9,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0012062726309522986,
+   "abs_weight_sum": 0.0012062726309522986,
+   "median_edge_weight": 0.0012062726309522986,
+   "max_edge_weight": 0.0012062726309522986,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0012062726309522986,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON11": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON11",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 2155,
+   "source_kc_cells": 1659,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.540980339050293,
+   "abs_weight_sum": 0.540980339050293,
+   "median_edge_weight": 0.0002524341980461031,
+   "max_edge_weight": 0.0009929448133334517,
+   "per_target_mbon_cell_abs": [
+    0.2803240155772073,
+    0.2606563290246413
+   ],
+   "hemisphere_pattern": {
+    "LL": 806,
+    "RL": 254,
+    "RR": 850,
+    "LR": 245
+   },
+   "raw_synapses": 12592
+  },
+  "KCab->MBON14": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON14",
+   "kc_cells": 1681,
+   "mbon_cells": 4,
+   "edges": 3235,
+   "source_kc_cells": 1665,
+   "target_mbon_cells": 4,
+   "weight_sum": 3.4649529457092285,
+   "abs_weight_sum": 3.4649529457092285,
+   "median_edge_weight": 0.0010289830388501287,
+   "max_edge_weight": 0.0044979918748140335,
+   "per_target_mbon_cell_abs": [
+    0.873517791784252,
+    0.8512449798872694,
+    0.8839046571811195,
+    0.8562853745534085
+   ],
+   "hemisphere_pattern": {
+    "RR": 1631,
+    "LL": 1604
+   },
+   "raw_synapses": 21755
+  },
+  "KCab->MBON15-like": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 1681,
+   "mbon_cells": 4,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0013459923211485147,
+   "abs_weight_sum": 0.0013459923211485147,
+   "median_edge_weight": 0.0006729961605742574,
+   "max_edge_weight": 0.0006983240018598735,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0006476683774963021,
+    0.0006983240018598735,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCab->MBON16": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON16",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0007689350168220699,
+   "abs_weight_sum": 0.0007689350168220699,
+   "median_edge_weight": 0.0007689350168220699,
+   "max_edge_weight": 0.0007689350168220699,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0007689350168220699
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCab->MBON17": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON17",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0005012531182728708,
+   "abs_weight_sum": 0.0005012531182728708,
+   "median_edge_weight": 0.0005012531182728708,
+   "max_edge_weight": 0.0005012531182728708,
+   "per_target_mbon_cell_abs": [
+    0.0005012531182728708,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON17-like": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0007440476329065859,
+   "abs_weight_sum": 0.0007440476329065859,
+   "median_edge_weight": 0.0007440476329065859,
+   "max_edge_weight": 0.0007440476329065859,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0007440476329065859
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON18": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON18",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1646,
+   "source_kc_cells": 1646,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.621385931968689,
+   "abs_weight_sum": 1.621385931968689,
+   "median_edge_weight": 0.0009408444166183472,
+   "max_edge_weight": 0.0024697165936231613,
+   "per_target_mbon_cell_abs": [
+    0.8103022538125515,
+    0.811083723048796
+   ],
+   "hemisphere_pattern": {
+    "RR": 835,
+    "LL": 811
+   },
+   "raw_synapses": 13798
+  },
+  "KCab->MBON19": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON19",
+   "kc_cells": 1681,
+   "mbon_cells": 4,
+   "edges": 324,
+   "source_kc_cells": 249,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.5727035999298096,
+   "abs_weight_sum": 0.5727035999298096,
+   "median_edge_weight": 0.0011876485077664256,
+   "max_edge_weight": 0.00712589081376791,
+   "per_target_mbon_cell_abs": [
+    0.14964371046517044,
+    0.09187279478646815,
+    0.1282722526229918,
+    0.20291480491869152
+   ],
+   "hemisphere_pattern": {
+    "RR": 134,
+    "LL": 190
+   },
+   "raw_synapses": 532
+  },
+  "KCab->MBON20": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON20",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 4,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0006648006965406239,
+   "abs_weight_sum": 0.0006648006965406239,
+   "median_edge_weight": 0.00016620017413515598,
+   "max_edge_weight": 0.00016934801533352584,
+   "per_target_mbon_cell_abs": [
+    0.0003386960306670517,
+    0.00032610466587357223
+   ],
+   "hemisphere_pattern": {
+    "RR": 2,
+    "LL": 2
+   },
+   "raw_synapses": 4
+  },
+  "KCab->MBON21": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON21",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 90,
+   "source_kc_cells": 90,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.017983324825763702,
+   "abs_weight_sum": 0.017983324825763702,
+   "median_edge_weight": 0.00016409583622589707,
+   "max_edge_weight": 0.0006563833449035883,
+   "per_target_mbon_cell_abs": [
+    0.009845750173553824,
+    0.008137571043334901
+   ],
+   "hemisphere_pattern": {
+    "RL": 45,
+    "LL": 2,
+    "RR": 43
+   },
+   "raw_synapses": 113
+  },
+  "KCab->MBON22": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON22",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1540,
+   "source_kc_cells": 1539,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.810620903968811,
+   "abs_weight_sum": 0.810620903968811,
+   "median_edge_weight": 0.0005100479465909302,
+   "max_edge_weight": 0.0018413783982396126,
+   "per_target_mbon_cell_abs": [
+    0.4053861053980654,
+    0.40523478406248614
+   ],
+   "hemisphere_pattern": {
+    "RR": 798,
+    "LR": 1,
+    "LL": 741
+   },
+   "raw_synapses": 7055
+  },
+  "KCab->MBON23": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON23",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1031,
+   "source_kc_cells": 1031,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.192778468132019,
+   "abs_weight_sum": 1.192778468132019,
+   "median_edge_weight": 0.0009066183120012283,
+   "max_edge_weight": 0.005197505000978708,
+   "per_target_mbon_cell_abs": [
+    0.6350861275568604,
+    0.5576923091430217
+   ],
+   "hemisphere_pattern": {
+    "RR": 555,
+    "LL": 476
+   },
+   "raw_synapses": 2474
+  },
+  "KCab->MBON24": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON24",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1414,
+   "source_kc_cells": 1253,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.8567324876785278,
+   "abs_weight_sum": 0.8567324876785278,
+   "median_edge_weight": 0.000521920679602772,
+   "max_edge_weight": 0.002956194570288062,
+   "per_target_mbon_cell_abs": [
+    0.44232776990975253,
+    0.4144047414883971
+   ],
+   "hemisphere_pattern": {
+    "RR": 605,
+    "LR": 174,
+    "LL": 624,
+    "RL": 11
+   },
+   "raw_synapses": 3237
+  },
+  "KCab->MBON25,MBON34": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 1681,
+   "mbon_cells": 7,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0014992504147812724,
+   "abs_weight_sum": 0.0014992504147812724,
+   "median_edge_weight": 0.0014992504147812724,
+   "max_edge_weight": 0.0014992504147812724,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0014992504147812724
+   ],
+   "hemisphere_pattern": {
+    "LR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON30": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON30",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00011471836478449404,
+   "abs_weight_sum": 0.00011471836478449404,
+   "median_edge_weight": 0.00011471836478449404,
+   "max_edge_weight": 0.00011471836478449404,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00011471836478449404
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab->MBON31": {
+   "kc_type": "KCab",
+   "mbon_type": "MBON31",
+   "kc_cells": 1681,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 3,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0002392535243416205,
+   "abs_weight_sum": 0.0002392535243416205,
+   "median_edge_weight": 7.975117478054017e-05,
+   "max_edge_weight": 7.975117478054017e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0002392535243416205
+   ],
+   "hemisphere_pattern": {
+    "RR": 3
+   },
+   "raw_synapses": 3
+  },
+  "KCab-p->MBON02": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON02",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 243,
+   "source_kc_cells": 126,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.10317237675189972,
+   "abs_weight_sum": 0.10317237675189972,
+   "median_edge_weight": 0.000380916113499552,
+   "max_edge_weight": 0.0011872146278619766,
+   "per_target_mbon_cell_abs": [
+    0.05698630191909615,
+    0.0461860775394598
+   ],
+   "hemisphere_pattern": {
+    "RR": 59,
+    "LR": 64,
+    "RL": 57,
+    "LL": 63
+   },
+   "raw_synapses": 1109
+  },
+  "KCab-p->MBON03": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON03",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 5.821060767630115e-05,
+   "abs_weight_sum": 5.821060767630115e-05,
+   "median_edge_weight": 5.821060767630115e-05,
+   "max_edge_weight": 5.821060767630115e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    5.821060767630115e-05
+   ],
+   "hemisphere_pattern": {
+    "LR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab-p->MBON05": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON05",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 4.851307312492281e-05,
+   "abs_weight_sum": 4.851307312492281e-05,
+   "median_edge_weight": 4.851307312492281e-05,
+   "max_edge_weight": 4.851307312492281e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    4.851307312492281e-05
+   ],
+   "hemisphere_pattern": {
+    "RL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab-p->MBON06": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON06",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 129,
+   "source_kc_cells": 129,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.20497478544712067,
+   "abs_weight_sum": 0.20497478544712067,
+   "median_edge_weight": 0.0015263590030372143,
+   "max_edge_weight": 0.002352466806769371,
+   "per_target_mbon_cell_abs": [
+    0.10646592179546133,
+    0.09850886429194361
+   ],
+   "hemisphere_pattern": {
+    "LR": 64,
+    "RL": 65
+   },
+   "raw_synapses": 3262
+  },
+  "KCab-p->MBON07": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON07",
+   "kc_cells": 129,
+   "mbon_cells": 4,
+   "edges": 258,
+   "source_kc_cells": 129,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.3488314747810364,
+   "abs_weight_sum": 0.3488314747810364,
+   "median_edge_weight": 0.0013630167813971639,
+   "max_edge_weight": 0.0027260335627943277,
+   "per_target_mbon_cell_abs": [
+    0.09510828209749889,
+    0.08826413736096583,
+    0.0819646735326387,
+    0.08349439478479326
+   ],
+   "hemisphere_pattern": {
+    "RR": 130,
+    "LL": 128
+   },
+   "raw_synapses": 2345
+  },
+  "KCab-p->MBON10": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON10",
+   "kc_cells": 129,
+   "mbon_cells": 9,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0012062726309522986,
+   "abs_weight_sum": 0.0012062726309522986,
+   "median_edge_weight": 0.0012062726309522986,
+   "max_edge_weight": 0.0012062726309522986,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0012062726309522986,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab-p->MBON11": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON11",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 128,
+   "source_kc_cells": 122,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.02324886992573738,
+   "abs_weight_sum": 0.02324886992573738,
+   "median_edge_weight": 0.0001567807630635798,
+   "max_edge_weight": 0.00047034231829456985,
+   "per_target_mbon_cell_abs": [
+    0.010086229412991088,
+    0.013162639683287125
+   ],
+   "hemisphere_pattern": {
+    "LL": 57,
+    "RL": 4,
+    "RR": 64,
+    "LR": 3
+   },
+   "raw_synapses": 558
+  },
+  "KCab-p->MBON14": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON14",
+   "kc_cells": 129,
+   "mbon_cells": 4,
+   "edges": 184,
+   "source_kc_cells": 115,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.06685179471969604,
+   "abs_weight_sum": 0.06685179471969604,
+   "median_edge_weight": 0.00032128512975759804,
+   "max_edge_weight": 0.0016064257360994816,
+   "per_target_mbon_cell_abs": [
+    0.009701760805910453,
+    0.02955823260708712,
+    0.014729512360645458,
+    0.012862287985626608
+   ],
+   "hemisphere_pattern": {
+    "RR": 84,
+    "LL": 100
+   },
+   "raw_synapses": 423
+  },
+  "KCab-p->MBON15-like": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 129,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0006983240018598735,
+   "abs_weight_sum": 0.0006983240018598735,
+   "median_edge_weight": 0.0006983240018598735,
+   "max_edge_weight": 0.0006983240018598735,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0006983240018598735,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCab-p->MBON16": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON16",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 3,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0011534024961292744,
+   "abs_weight_sum": 0.0011534024961292744,
+   "median_edge_weight": 0.00038446750841103494,
+   "max_edge_weight": 0.00038446750841103494,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0011534025252331048
+   ],
+   "hemisphere_pattern": {
+    "RR": 3
+   },
+   "raw_synapses": 3
+  },
+  "KCab-p->MBON18": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON18",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 50,
+   "source_kc_cells": 50,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.010103637352585793,
+   "abs_weight_sum": 0.010103637352585793,
+   "median_edge_weight": 0.0001176055520772934,
+   "max_edge_weight": 0.0011741223279386759,
+   "per_target_mbon_cell_abs": [
+    0.0037633776664733887,
+    0.006340260741126258
+   ],
+   "hemisphere_pattern": {
+    "RR": 23,
+    "LL": 27
+   },
+   "raw_synapses": 86
+  },
+  "KCab-p->MBON19": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON19",
+   "kc_cells": 129,
+   "mbon_cells": 4,
+   "edges": 214,
+   "source_kc_cells": 129,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.9631937146186829,
+   "abs_weight_sum": 0.9631937146186829,
+   "median_edge_weight": 0.004423653706908226,
+   "max_edge_weight": 0.013064133003354073,
+   "per_target_mbon_cell_abs": [
+    0.28978622728027403,
+    0.07302709319628775,
+    0.3089005248621106,
+    0.2914798220153898
+   ],
+   "hemisphere_pattern": {
+    "RR": 89,
+    "LL": 125
+   },
+   "raw_synapses": 920
+  },
+  "KCab-p->MBON22": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON22",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 12,
+   "source_kc_cells": 12,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0022012360859662294,
+   "abs_weight_sum": 0.0022012360859662294,
+   "median_edge_weight": 0.00016777310520410538,
+   "max_edge_weight": 0.00030602875631302595,
+   "per_target_mbon_cell_abs": [
+    0.001938182147569023,
+    0.0002630540693644434
+   ],
+   "hemisphere_pattern": {
+    "RR": 10,
+    "LL": 2
+   },
+   "raw_synapses": 21
+  },
+  "KCab-p->MBON23": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON23",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 124,
+   "source_kc_cells": 124,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.19583898782730103,
+   "abs_weight_sum": 0.19583898782730103,
+   "median_edge_weight": 0.0015592515701428056,
+   "max_edge_weight": 0.0046777548268437386,
+   "per_target_mbon_cell_abs": [
+    0.0929283769801259,
+    0.1029106026981026
+   ],
+   "hemisphere_pattern": {
+    "RR": 60,
+    "LL": 64
+   },
+   "raw_synapses": 403
+  },
+  "KCab-p->MBON24": {
+   "kc_type": "KCab-p",
+   "mbon_type": "MBON24",
+   "kc_cells": 129,
+   "mbon_cells": 2,
+   "edges": 88,
+   "source_kc_cells": 81,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.04777839407324791,
+   "abs_weight_sum": 0.04777839407324791,
+   "median_edge_weight": 0.000521920679602772,
+   "max_edge_weight": 0.0013437247835099697,
+   "per_target_mbon_cell_abs": [
+    0.01096033418434672,
+    0.03681806079111993
+   ],
+   "hemisphere_pattern": {
+    "RR": 23,
+    "LR": 8,
+    "LL": 57
+   },
+   "raw_synapses": 179
+  },
+  "KCapbp-ap1->MBON01": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON01",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 198,
+   "source_kc_cells": 197,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.15715745091438293,
+   "abs_weight_sum": 0.15715745091438293,
+   "median_edge_weight": 0.0007818608428351581,
+   "max_edge_weight": 0.001476075267419219,
+   "per_target_mbon_cell_abs": [
+    0.07860100881953258,
+    0.07855643832226633
+   ],
+   "hemisphere_pattern": {
+    "RR": 101,
+    "LL": 96,
+    "RL": 1
+   },
+   "raw_synapses": 3826
+  },
+  "KCapbp-ap1->MBON02": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON02",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 117,
+   "source_kc_cells": 99,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.02093779295682907,
+   "abs_weight_sum": 0.02093779295682907,
+   "median_edge_weight": 9.5229028374888e-05,
+   "max_edge_weight": 0.0006666031549684703,
+   "per_target_mbon_cell_abs": [
+    0.004748858584207483,
+    0.01618893451814074
+   ],
+   "hemisphere_pattern": {
+    "LR": 22,
+    "RR": 20,
+    "LL": 75
+   },
+   "raw_synapses": 222
+  },
+  "KCapbp-ap1->MBON03": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON03",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 260,
+   "source_kc_cells": 197,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.297302782535553,
+   "abs_weight_sum": 0.297302782535553,
+   "median_edge_weight": 0.0012806333834305406,
+   "max_edge_weight": 0.0026624067686498165,
+   "per_target_mbon_cell_abs": [
+    0.15654952041222714,
+    0.14075324546865886
+   ],
+   "hemisphere_pattern": {
+    "RL": 101,
+    "LL": 21,
+    "LR": 96,
+    "RR": 42
+   },
+   "raw_synapses": 4476
+  },
+  "KCapbp-ap1->MBON04": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON04",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 205,
+   "source_kc_cells": 196,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.17744943499565125,
+   "abs_weight_sum": 0.17744943499565125,
+   "median_edge_weight": 0.0008267879020422697,
+   "max_edge_weight": 0.001876675640232861,
+   "per_target_mbon_cell_abs": [
+    0.08784629093133844,
+    0.08960314211435616
+   ],
+   "hemisphere_pattern": {
+    "LR": 96,
+    "RR": 4,
+    "RL": 100,
+    "LL": 5
+   },
+   "raw_synapses": 1850
+  },
+  "KCapbp-ap1->MBON05": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON05",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 124,
+   "source_kc_cells": 124,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.013592598959803581,
+   "abs_weight_sum": 0.013592598959803581,
+   "median_edge_weight": 9.702614624984562e-05,
+   "max_edge_weight": 0.00029107843874953687,
+   "per_target_mbon_cell_abs": [
+    0.004423627247888362,
+    0.009168970820610411
+   ],
+   "hemisphere_pattern": {
+    "LR": 49,
+    "RL": 75
+   },
+   "raw_synapses": 291
+  },
+  "KCapbp-ap1->MBON06": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON06",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 6,
+   "source_kc_cells": 6,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0003862655721604824,
+   "abs_weight_sum": 0.0003862655721604824,
+   "median_edge_weight": 6.721333193127066e-05,
+   "max_edge_weight": 6.721333193127066e-05,
+   "per_target_mbon_cell_abs": [
+    0.00026885332772508264,
+    0.00011741223715944216
+   ],
+   "hemisphere_pattern": {
+    "LR": 4,
+    "RL": 2
+   },
+   "raw_synapses": 6
+  },
+  "KCapbp-ap1->MBON09": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON09",
+   "kc_cells": 197,
+   "mbon_cells": 4,
+   "edges": 434,
+   "source_kc_cells": 197,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.3133049011230469,
+   "abs_weight_sum": 0.3133049011230469,
+   "median_edge_weight": 0.0007282913429662585,
+   "max_edge_weight": 0.0017925577703863382,
+   "per_target_mbon_cell_abs": [
+    0.05605102435947629,
+    0.07546218523566495,
+    0.1026084817640367,
+    0.07918321486431523
+   ],
+   "hemisphere_pattern": {
+    "RL": 202,
+    "LL": 17,
+    "RR": 23,
+    "LR": 192
+   },
+   "raw_synapses": 5599
+  },
+  "KCapbp-ap1->MBON10": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON10",
+   "kc_cells": 197,
+   "mbon_cells": 9,
+   "edges": 530,
+   "source_kc_cells": 193,
+   "target_mbon_cells": 9,
+   "weight_sum": 1.2922024726867676,
+   "abs_weight_sum": 1.2922024726867676,
+   "median_edge_weight": 0.0022255193907767534,
+   "max_edge_weight": 0.011220196262001991,
+   "per_target_mbon_cell_abs": [
+    0.2648367977235466,
+    0.12244898348581046,
+    0.13157894398318604,
+    0.09277108451351523,
+    0.07669832243118435,
+    0.15132605063263327,
+    0.020740740932524204,
+    0.24246079719159752,
+    0.18934081448242068
+   ],
+   "hemisphere_pattern": {
+    "LL": 287,
+    "RR": 243
+   },
+   "raw_synapses": 1332
+  },
+  "KCapbp-ap1->MBON11": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON11",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 109,
+   "source_kc_cells": 93,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.006905337329953909,
+   "abs_weight_sum": 0.006905337329953909,
+   "median_edge_weight": 5.2260256779845804e-05,
+   "max_edge_weight": 0.0002524341980461031,
+   "per_target_mbon_cell_abs": [
+    0.004128560278331861,
+    0.002776775996608194
+   ],
+   "hemisphere_pattern": {
+    "LL": 26,
+    "RL": 36,
+    "LR": 10,
+    "RR": 37
+   },
+   "raw_synapses": 156
+  },
+  "KCapbp-ap1->MBON12": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON12",
+   "kc_cells": 197,
+   "mbon_cells": 4,
+   "edges": 392,
+   "source_kc_cells": 197,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.516734778881073,
+   "abs_weight_sum": 0.516734778881073,
+   "median_edge_weight": 0.001241721911355853,
+   "max_edge_weight": 0.003049245337024331,
+   "per_target_mbon_cell_abs": [
+    0.1066705827252008,
+    0.1357615904416889,
+    0.13401433218677994,
+    0.1402882641123142
+   ],
+   "hemisphere_pattern": {
+    "LL": 191,
+    "RR": 201
+   },
+   "raw_synapses": 3611
+  },
+  "KCapbp-ap1->MBON13": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON13",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 177,
+   "source_kc_cells": 177,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.15796920657157898,
+   "abs_weight_sum": 0.15796920657157898,
+   "median_edge_weight": 0.0008200754527933896,
+   "max_edge_weight": 0.0026408450212329626,
+   "per_target_mbon_cell_abs": [
+    0.08186619737534784,
+    0.07610300026135519
+   ],
+   "hemisphere_pattern": {
+    "LL": 90,
+    "RR": 87
+   },
+   "raw_synapses": 1022
+  },
+  "KCapbp-ap1->MBON15": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON15",
+   "kc_cells": 197,
+   "mbon_cells": 4,
+   "edges": 125,
+   "source_kc_cells": 104,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.27360355854034424,
+   "abs_weight_sum": 0.27360355854034424,
+   "median_edge_weight": 0.001490312977693975,
+   "max_edge_weight": 0.008941877633333206,
+   "per_target_mbon_cell_abs": [
+    0.020558002637699246,
+    0.09652509534498677,
+    0.09243697777856141,
+    0.06408345745876431
+   ],
+   "hemisphere_pattern": {
+    "RR": 48,
+    "LL": 77
+   },
+   "raw_synapses": 223
+  },
+  "KCapbp-ap1->MBON15-like": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 197,
+   "mbon_cells": 4,
+   "edges": 73,
+   "source_kc_cells": 65,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.09033671766519547,
+   "abs_weight_sum": 0.09033671766519547,
+   "median_edge_weight": 0.000895255128853023,
+   "max_edge_weight": 0.004428044427186251,
+   "per_target_mbon_cell_abs": [
+    0.046494464739225805,
+    0.009715025662444532,
+    0.002793296007439494,
+    0.03133392985910177
+   ],
+   "hemisphere_pattern": {
+    "LL": 48,
+    "RR": 25
+   },
+   "raw_synapses": 117
+  },
+  "KCapbp-ap1->MBON16": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON16",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 181,
+   "source_kc_cells": 181,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.5634845495223999,
+   "abs_weight_sum": 0.5634845495223999,
+   "median_edge_weight": 0.0028749401681125164,
+   "max_edge_weight": 0.010062290355563164,
+   "per_target_mbon_cell_abs": [
+    0.30666027445113286,
+    0.2568242984416429
+   ],
+   "hemisphere_pattern": {
+    "LL": 92,
+    "RR": 89
+   },
+   "raw_synapses": 1308
+  },
+  "KCapbp-ap1->MBON17": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON17",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 47,
+   "source_kc_cells": 47,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.061928968876600266,
+   "abs_weight_sum": 0.061928968876600266,
+   "median_edge_weight": 0.0009905893821269274,
+   "max_edge_weight": 0.00501253129914403,
+   "per_target_mbon_cell_abs": [
+    0.04310776945203543,
+    0.01882119826041162
+   ],
+   "hemisphere_pattern": {
+    "LL": 26,
+    "RR": 21
+   },
+   "raw_synapses": 124
+  },
+  "KCapbp-ap1->MBON17-like": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 12,
+   "source_kc_cells": 12,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.013089023530483246,
+   "abs_weight_sum": 0.013089023530483246,
+   "median_edge_weight": 0.0007733951788395643,
+   "max_edge_weight": 0.0038669761270284653,
+   "per_target_mbon_cell_abs": [
+    0.011600927915424109,
+    0.0014880952658131719
+   ],
+   "hemisphere_pattern": {
+    "LL": 10,
+    "RR": 2
+   },
+   "raw_synapses": 17
+  },
+  "KCapbp-ap1->MBON20": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON20",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00016934801533352584,
+   "abs_weight_sum": 0.00016934801533352584,
+   "median_edge_weight": 0.00016934801533352584,
+   "max_edge_weight": 0.00016934801533352584,
+   "per_target_mbon_cell_abs": [
+    0.00016934801533352584,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCapbp-ap1->MBON21": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON21",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0001535390765639022,
+   "abs_weight_sum": 0.0001535390765639022,
+   "median_edge_weight": 0.0001535390765639022,
+   "max_edge_weight": 0.0001535390765639022,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0001535390765639022
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCapbp-ap1->MBON22": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON22",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 23,
+   "source_kc_cells": 23,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0027863788418471813,
+   "abs_weight_sum": 0.0027863788418471813,
+   "median_edge_weight": 0.00010200958786299452,
+   "max_edge_weight": 0.00020401917572598904,
+   "per_target_mbon_cell_abs": [
+    0.0017341629936709069,
+    0.0010522162774577737
+   ],
+   "hemisphere_pattern": {
+    "RR": 12,
+    "LR": 3,
+    "LL": 8
+   },
+   "raw_synapses": 25
+  },
+  "KCapbp-ap1->MBON24": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON24",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0005297053139656782,
+   "abs_weight_sum": 0.0005297053139656782,
+   "median_edge_weight": 0.0002648526569828391,
+   "max_edge_weight": 0.0002687449741642922,
+   "per_target_mbon_cell_abs": [
+    0.000260960339801386,
+    0.0002687449741642922
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCapbp-ap1->MBON25-like": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON25-like",
+   "kc_cells": 197,
+   "mbon_cells": 1,
+   "edges": 12,
+   "source_kc_cells": 12,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.02761627919971943,
+   "abs_weight_sum": 0.02761627919971943,
+   "median_edge_weight": 0.0021802326664328575,
+   "max_edge_weight": 0.004360465332865715,
+   "per_target_mbon_cell_abs": [
+    0.02761627919971943
+   ],
+   "hemisphere_pattern": {
+    "LR": 12
+   },
+   "raw_synapses": 19
+  },
+  "KCapbp-ap1->MBON26": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON26",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 196,
+   "source_kc_cells": 196,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.342783659696579,
+   "abs_weight_sum": 0.342783659696579,
+   "median_edge_weight": 0.0017118115210905671,
+   "max_edge_weight": 0.0033180194441229105,
+   "per_target_mbon_cell_abs": [
+    0.15637901570880786,
+    0.186404628388118
+   ],
+   "hemisphere_pattern": {
+    "RR": 100,
+    "LL": 96
+   },
+   "raw_synapses": 3744
+  },
+  "KCapbp-ap1->MBON27": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON27",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 56,
+   "source_kc_cells": 56,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.013303491286933422,
+   "abs_weight_sum": 0.013303491286933422,
+   "median_edge_weight": 0.00018535681010689586,
+   "max_edge_weight": 0.0004981733509339392,
+   "per_target_mbon_cell_abs": [
+    0.005147791292984039,
+    0.008155699644703418
+   ],
+   "hemisphere_pattern": {
+    "RR": 23,
+    "LL": 33
+   },
+   "raw_synapses": 75
+  },
+  "KCapbp-ap1->MBON28": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON28",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 182,
+   "source_kc_cells": 182,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.5521231889724731,
+   "abs_weight_sum": 0.5521231889724731,
+   "median_edge_weight": 0.0029533146880567074,
+   "max_edge_weight": 0.005893909838050604,
+   "per_target_mbon_cell_abs": [
+    0.2809430272609461,
+    0.27118017128668725
+   ],
+   "hemisphere_pattern": {
+    "RR": 89,
+    "LL": 93
+   },
+   "raw_synapses": 1591
+  },
+  "KCapbp-ap1->MBON29": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON29",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 12,
+   "source_kc_cells": 12,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0032625216990709305,
+   "abs_weight_sum": 0.0032625216990709305,
+   "median_edge_weight": 0.00021968365763314068,
+   "max_edge_weight": 0.00043936731526628137,
+   "per_target_mbon_cell_abs": [
+    0.0017574692610651255,
+    0.0015050527144921944
+   ],
+   "hemisphere_pattern": {
+    "LL": 6,
+    "LR": 6
+   },
+   "raw_synapses": 15
+  },
+  "KCapbp-ap1->MBON30": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON30",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 12,
+   "source_kc_cells": 12,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.001747527508996427,
+   "abs_weight_sum": 0.001747527508996427,
+   "median_edge_weight": 0.00011471836478449404,
+   "max_edge_weight": 0.00034415509435348213,
+   "per_target_mbon_cell_abs": [
+    0.0004856254963669926,
+    0.0012619020126294345
+   ],
+   "hemisphere_pattern": {
+    "LL": 4,
+    "RL": 1,
+    "LR": 1,
+    "RR": 6
+   },
+   "raw_synapses": 16
+  },
+  "KCapbp-ap1->MBON31": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON31",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 197,
+   "source_kc_cells": 197,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.44594457745552063,
+   "abs_weight_sum": 0.44594457745552063,
+   "median_edge_weight": 0.00231278408318758,
+   "max_edge_weight": 0.0034526758827269077,
+   "per_target_mbon_cell_abs": [
+    0.22104631131514907,
+    0.22489831753773615
+   ],
+   "hemisphere_pattern": {
+    "LL": 96,
+    "RR": 101
+   },
+   "raw_synapses": 5765
+  },
+  "KCapbp-ap1->MBON32": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON32",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 195,
+   "source_kc_cells": 195,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.11702103912830353,
+   "abs_weight_sum": 0.11702103912830353,
+   "median_edge_weight": 0.000607017136644572,
+   "max_edge_weight": 0.0015175427542999387,
+   "per_target_mbon_cell_abs": [
+    0.044178981330333045,
+    0.07284205398173071
+   ],
+   "hemisphere_pattern": {
+    "LL": 94,
+    "RR": 101
+   },
+   "raw_synapses": 2058
+  },
+  "KCapbp-ap1->MBON35": {
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON35",
+   "kc_cells": 197,
+   "mbon_cells": 2,
+   "edges": 14,
+   "source_kc_cells": 14,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0011450537713244557,
+   "abs_weight_sum": 0.0011450537713244557,
+   "median_edge_weight": 6.134216528153047e-05,
+   "max_edge_weight": 0.00020447389397304505,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0011450537822383922
+   ],
+   "hemisphere_pattern": {
+    "RR": 14
+   },
+   "raw_synapses": 28
+  },
+  "KCapbp-ap2->MBON01": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON01",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 280,
+   "source_kc_cells": 279,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.09085668623447418,
+   "abs_weight_sum": 0.09085668623447418,
+   "median_edge_weight": 0.00028805399779230356,
+   "max_edge_weight": 0.0013530689757317305,
+   "per_target_mbon_cell_abs": [
+    0.046496371272951365,
+    0.04436031461591483
+   ],
+   "hemisphere_pattern": {
+    "RR": 150,
+    "LR": 1,
+    "LL": 129
+   },
+   "raw_synapses": 2212
+  },
+  "KCapbp-ap2->MBON02": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON02",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 402,
+   "source_kc_cells": 263,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.07925690710544586,
+   "abs_weight_sum": 0.07925690710544586,
+   "median_edge_weight": 0.00018264840764459223,
+   "max_edge_weight": 0.000761832226999104,
+   "per_target_mbon_cell_abs": [
+    0.04392694157286314,
+    0.03532996885769535
+   ],
+   "hemisphere_pattern": {
+    "RR": 114,
+    "LR": 111,
+    "RL": 72,
+    "LL": 105
+   },
+   "raw_synapses": 852
+  },
+  "KCapbp-ap2->MBON03": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON03",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 577,
+   "source_kc_cells": 291,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.7815244197845459,
+   "abs_weight_sum": 0.7815244197845459,
+   "median_edge_weight": 0.0013692377833649516,
+   "max_edge_weight": 0.003958321176469326,
+   "per_target_mbon_cell_abs": [
+    0.4160200818296289,
+    0.3655043939506868
+   ],
+   "hemisphere_pattern": {
+    "RL": 158,
+    "LL": 132,
+    "RR": 154,
+    "LR": 133
+   },
+   "raw_synapses": 11748
+  },
+  "KCapbp-ap2->MBON04": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON04",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 304,
+   "source_kc_cells": 289,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.17553752660751343,
+   "abs_weight_sum": 0.17553752660751343,
+   "median_edge_weight": 0.0005781420040875673,
+   "max_edge_weight": 0.0016085790703073144,
+   "per_target_mbon_cell_abs": [
+    0.08025022269430337,
+    0.09528730739839375
+   ],
+   "hemisphere_pattern": {
+    "LR": 132,
+    "RR": 2,
+    "RL": 157,
+    "LL": 13
+   },
+   "raw_synapses": 1820
+  },
+  "KCapbp-ap2->MBON05": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON05",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 28,
+   "source_kc_cells": 28,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.001996395643800497,
+   "abs_weight_sum": 0.001996395643800497,
+   "median_edge_weight": 4.851307312492281e-05,
+   "max_edge_weight": 0.00024256536562461406,
+   "per_target_mbon_cell_abs": [
+    0.00034695115391514264,
+    0.0016494444862473756
+   ],
+   "hemisphere_pattern": {
+    "LR": 6,
+    "RL": 22
+   },
+   "raw_synapses": 42
+  },
+  "KCapbp-ap2->MBON06": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON06",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 29,
+   "source_kc_cells": 29,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0020317258313298225,
+   "abs_weight_sum": 0.0020317258313298225,
+   "median_edge_weight": 6.721333193127066e-05,
+   "max_edge_weight": 0.00013442666386254132,
+   "per_target_mbon_cell_abs": [
+    0.0012098399747628719,
+    0.0008218856601160951
+   ],
+   "hemisphere_pattern": {
+    "LR": 16,
+    "RL": 13
+   },
+   "raw_synapses": 32
+  },
+  "KCapbp-ap2->MBON07": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON07",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 13,
+   "source_kc_cells": 13,
+   "target_mbon_cells": 3,
+   "weight_sum": 0.0022519270423799753,
+   "abs_weight_sum": 0.0022519270423799753,
+   "median_edge_weight": 0.00015144630742724985,
+   "max_edge_weight": 0.0003028926148544997,
+   "per_target_mbon_cell_abs": [
+    0.0012115704594179988,
+    0.0006538084126077592,
+    0.0,
+    0.00038654814125038683
+   ],
+   "hemisphere_pattern": {
+    "RR": 9,
+    "LL": 4
+   },
+   "raw_synapses": 15
+  },
+  "KCapbp-ap2->MBON09": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON09",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 583,
+   "source_kc_cells": 291,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.41960692405700684,
+   "abs_weight_sum": 0.41960692405700684,
+   "median_edge_weight": 0.0007129035657271743,
+   "max_edge_weight": 0.0016071207355707884,
+   "per_target_mbon_cell_abs": [
+    0.10302145854075206,
+    0.07165266200172482,
+    0.1291877865951392,
+    0.11574498229310848
+   ],
+   "hemisphere_pattern": {
+    "RL": 315,
+    "LL": 1,
+    "LR": 266,
+    "RR": 1
+   },
+   "raw_synapses": 7548
+  },
+  "KCapbp-ap2->MBON10": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON10",
+   "kc_cells": 291,
+   "mbon_cells": 9,
+   "edges": 495,
+   "source_kc_cells": 253,
+   "target_mbon_cells": 9,
+   "weight_sum": 0.9553708434104919,
+   "abs_weight_sum": 0.9553708434104919,
+   "median_edge_weight": 0.00148148147854954,
+   "max_edge_weight": 0.00841514766216278,
+   "per_target_mbon_cell_abs": [
+    0.029673590674065053,
+    0.12244898255448788,
+    0.15869218070292845,
+    0.10240964032709599,
+    0.11541271273745224,
+    0.11934477114118636,
+    0.10518518555909395,
+    0.1881785293808207,
+    0.014025245793163776
+   ],
+   "hemisphere_pattern": {
+    "LL": 257,
+    "RR": 238
+   },
+   "raw_synapses": 956
+  },
+  "KCapbp-ap2->MBON11": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON11",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 107,
+   "source_kc_cells": 103,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.006926387548446655,
+   "abs_weight_sum": 0.006926387548446655,
+   "median_edge_weight": 5.2260256779845804e-05,
+   "max_edge_weight": 0.0001803101331461221,
+   "per_target_mbon_cell_abs": [
+    0.001985889750358183,
+    0.004940497514326125
+   ],
+   "hemisphere_pattern": {
+    "LL": 22,
+    "RL": 6,
+    "RR": 75,
+    "LR": 4
+   },
+   "raw_synapses": 175
+  },
+  "KCapbp-ap2->MBON12": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON12",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 581,
+   "source_kc_cells": 291,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.6900539398193359,
+   "abs_weight_sum": 0.6900539398193359,
+   "median_edge_weight": 0.0011754333972930908,
+   "max_edge_weight": 0.003294440684840083,
+   "per_target_mbon_cell_abs": [
+    0.14443138148635626,
+    0.16073399741435423,
+    0.19134014350129291,
+    0.19354838793515228
+   ],
+   "hemisphere_pattern": {
+    "LL": 265,
+    "RR": 316
+   },
+   "raw_synapses": 4813
+  },
+  "KCapbp-ap2->MBON13": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON13",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 290,
+   "source_kc_cells": 290,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.8202837109565735,
+   "abs_weight_sum": 0.8202837109565735,
+   "median_edge_weight": 0.0027875585947185755,
+   "max_edge_weight": 0.006068558432161808,
+   "per_target_mbon_cell_abs": [
+    0.3751467119436711,
+    0.44513695157365873
+   ],
+   "hemisphere_pattern": {
+    "LL": 132,
+    "RR": 158
+   },
+   "raw_synapses": 5271
+  },
+  "KCapbp-ap2->MBON15": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON15",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 339,
+   "source_kc_cells": 239,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.8734995126724243,
+   "abs_weight_sum": 0.8734995126724243,
+   "median_edge_weight": 0.00193050189409405,
+   "max_edge_weight": 0.008403361774981022,
+   "per_target_mbon_cell_abs": [
+    0.1967694527702406,
+    0.19980694726109505,
+    0.278711493127048,
+    0.19821162556763738
+   ],
+   "hemisphere_pattern": {
+    "RR": 174,
+    "LL": 165
+   },
+   "raw_synapses": 673
+  },
+  "KCapbp-ap2->MBON15-like": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 482,
+   "source_kc_cells": 281,
+   "target_mbon_cells": 4,
+   "weight_sum": 1.121669054031372,
+   "abs_weight_sum": 1.121669054031372,
+   "median_edge_weight": 0.0020949721802026033,
+   "max_edge_weight": 0.009078212082386017,
+   "per_target_mbon_cell_abs": [
+    0.21328413242008537,
+    0.2577720162225887,
+    0.3659217908862047,
+    0.28469113691244274
+   ],
+   "hemisphere_pattern": {
+    "LL": 217,
+    "RR": 265
+   },
+   "raw_synapses": 1529
+  },
+  "KCapbp-ap2->MBON16": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON16",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 286,
+   "source_kc_cells": 286,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.825218915939331,
+   "abs_weight_sum": 0.825218915939331,
+   "median_edge_weight": 0.002691272646188736,
+   "max_edge_weight": 0.007689350284636021,
+   "per_target_mbon_cell_abs": [
+    0.36847148690139875,
+    0.45674740683170967
+   ],
+   "hemisphere_pattern": {
+    "LL": 129,
+    "RR": 157
+   },
+   "raw_synapses": 1957
+  },
+  "KCapbp-ap2->MBON17": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON17",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 285,
+   "source_kc_cells": 285,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.8544898629188538,
+   "abs_weight_sum": 0.8544898629188538,
+   "median_edge_weight": 0.002971768146380782,
+   "max_edge_weight": 0.007429420482367277,
+   "per_target_mbon_cell_abs": [
+    0.3839598980266601,
+    0.47052996151614934
+   ],
+   "hemisphere_pattern": {
+    "LL": 130,
+    "RR": 155
+   },
+   "raw_synapses": 1716
+  },
+  "KCapbp-ap2->MBON17-like": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 266,
+   "source_kc_cells": 266,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.7957770824432373,
+   "abs_weight_sum": 0.7957770824432373,
+   "median_edge_weight": 0.0029761905316263437,
+   "max_edge_weight": 0.01005413755774498,
+   "per_target_mbon_cell_abs": [
+    0.382830620277673,
+    0.41294643917353824
+   ],
+   "hemisphere_pattern": {
+    "LL": 124,
+    "RR": 142
+   },
+   "raw_synapses": 1050
+  },
+  "KCapbp-ap2->MBON19": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON19",
+   "kc_cells": 291,
+   "mbon_cells": 4,
+   "edges": 40,
+   "source_kc_cells": 39,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.06106414273381233,
+   "abs_weight_sum": 0.06106414273381233,
+   "median_edge_weight": 0.0011778563493862748,
+   "max_edge_weight": 0.004711425397545099,
+   "per_target_mbon_cell_abs": [
+    0.01306413346901536,
+    0.0318021213170141,
+    0.006108202505856752,
+    0.01008968660607934
+   ],
+   "hemisphere_pattern": {
+    "RR": 27,
+    "LL": 13
+   },
+   "raw_synapses": 54
+  },
+  "KCapbp-ap2->MBON20": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON20",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00016305233293678612,
+   "abs_weight_sum": 0.00016305233293678612,
+   "median_edge_weight": 0.00016305233293678612,
+   "max_edge_weight": 0.00016305233293678612,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00016305233293678612
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCapbp-ap2->MBON22": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON22",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 27,
+   "source_kc_cells": 24,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.010144084692001343,
+   "abs_weight_sum": 0.010144084692001343,
+   "median_edge_weight": 0.0001315270346822217,
+   "max_edge_weight": 0.004208865109831095,
+   "per_target_mbon_cell_abs": [
+    0.004488422011490911,
+    0.0056556624913355336
+   ],
+   "hemisphere_pattern": {
+    "RR": 15,
+    "RL": 3,
+    "LL": 9
+   },
+   "raw_synapses": 87
+  },
+  "KCapbp-ap2->MBON23": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON23",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 4,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0033724880777299404,
+   "abs_weight_sum": 0.0033724880777299404,
+   "median_edge_weight": 0.0007796257850714028,
+   "max_edge_weight": 0.0013599274680018425,
+   "per_target_mbon_cell_abs": [
+    0.0018132366240024567,
+    0.0015592515701428056
+   ],
+   "hemisphere_pattern": {
+    "RR": 2,
+    "LL": 2
+   },
+   "raw_synapses": 7
+  },
+  "KCapbp-ap2->MBON24": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON24",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 11,
+   "source_kc_cells": 11,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0029561948031187057,
+   "abs_weight_sum": 0.0029561948031187057,
+   "median_edge_weight": 0.0002687449741642922,
+   "max_edge_weight": 0.0002687449741642922,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0029561947158072144
+   ],
+   "hemisphere_pattern": {
+    "LL": 11
+   },
+   "raw_synapses": 11
+  },
+  "KCapbp-ap2->MBON25,MBON34": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 291,
+   "mbon_cells": 7,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0015243901871144772,
+   "abs_weight_sum": 0.0015243901871144772,
+   "median_edge_weight": 0.0015243901871144772,
+   "max_edge_weight": 0.0015243901871144772,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0015243901871144772,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCapbp-ap2->MBON25-like": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON25-like",
+   "kc_cells": 291,
+   "mbon_cells": 1,
+   "edges": 8,
+   "source_kc_cells": 8,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.015988372266292572,
+   "abs_weight_sum": 0.015988372266292572,
+   "median_edge_weight": 0.0014534883666783571,
+   "max_edge_weight": 0.0029069767333567142,
+   "per_target_mbon_cell_abs": [
+    0.01598837203346193
+   ],
+   "hemisphere_pattern": {
+    "LR": 8
+   },
+   "raw_synapses": 11
+  },
+  "KCapbp-ap2->MBON26": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON26",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 120,
+   "source_kc_cells": 120,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.024013550952076912,
+   "abs_weight_sum": 0.024013550952076912,
+   "median_edge_weight": 0.00017015484627336264,
+   "max_edge_weight": 0.001361238770186901,
+   "per_target_mbon_cell_abs": [
+    0.009465310591622256,
+    0.014548239356372505
+   ],
+   "hemisphere_pattern": {
+    "RR": 46,
+    "LL": 74
+   },
+   "raw_synapses": 265
+  },
+  "KCapbp-ap2->MBON28": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON28",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 207,
+   "source_kc_cells": 207,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.2219388782978058,
+   "abs_weight_sum": 0.2219388782978058,
+   "median_edge_weight": 0.0009823183063417673,
+   "max_edge_weight": 0.0032743941992521286,
+   "per_target_mbon_cell_abs": [
+    0.12278978450922295,
+    0.09914909527287818
+   ],
+   "hemisphere_pattern": {
+    "RR": 112,
+    "LL": 95
+   },
+   "raw_synapses": 643
+  },
+  "KCapbp-ap2->MBON30": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON30",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 3,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0003265618288423866,
+   "abs_weight_sum": 0.0003265618288423866,
+   "median_edge_weight": 0.00011471836478449404,
+   "max_edge_weight": 0.00011471836478449404,
+   "per_target_mbon_cell_abs": [
+    9.712509927339852e-05,
+    0.00022943672956898808
+   ],
+   "hemisphere_pattern": {
+    "RL": 1,
+    "RR": 2
+   },
+   "raw_synapses": 3
+  },
+  "KCapbp-ap2->MBON31": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON31",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 291,
+   "source_kc_cells": 291,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.24237990379333496,
+   "abs_weight_sum": 0.24237990379333496,
+   "median_edge_weight": 0.0007975117769092321,
+   "max_edge_weight": 0.002153281820937991,
+   "per_target_mbon_cell_abs": [
+    0.11453876769519411,
+    0.12784113473026082
+   ],
+   "hemisphere_pattern": {
+    "LL": 133,
+    "RR": 158
+   },
+   "raw_synapses": 3129
+  },
+  "KCapbp-ap2->MBON32": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON32",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 163,
+   "source_kc_cells": 163,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.024417482316493988,
+   "abs_weight_sum": 0.024417482316493988,
+   "median_edge_weight": 0.00012140342005295679,
+   "max_edge_weight": 0.000607017136644572,
+   "per_target_mbon_cell_abs": [
+    0.0043252148607280105,
+    0.020092266571737127
+   ],
+   "hemisphere_pattern": {
+    "LL": 47,
+    "RR": 116
+   },
+   "raw_synapses": 415
+  },
+  "KCapbp-ap2->MBON35": {
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON35",
+   "kc_cells": 291,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 8.17895561340265e-05,
+   "abs_weight_sum": 8.17895561340265e-05,
+   "median_edge_weight": 8.17895561340265e-05,
+   "max_edge_weight": 8.17895561340265e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    8.17895561340265e-05
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCapbp-m->MBON01": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON01",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 51,
+   "source_kc_cells": 51,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.005305602215230465,
+   "abs_weight_sum": 0.005305602215230465,
+   "median_edge_weight": 8.200418233172968e-05,
+   "max_edge_weight": 0.0009464630857110023,
+   "per_target_mbon_cell_abs": [
+    0.0007790397357894108,
+    0.004526562752289465
+   ],
+   "hemisphere_pattern": {
+    "RR": 13,
+    "LL": 38
+   },
+   "raw_synapses": 129
+  },
+  "KCapbp-m->MBON02": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON02",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 315,
+   "source_kc_cells": 199,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.06721055507659912,
+   "abs_weight_sum": 0.06721055507659912,
+   "median_edge_weight": 0.00018264840764459223,
+   "max_edge_weight": 0.0007305936305783689,
+   "per_target_mbon_cell_abs": [
+    0.03835616511059925,
+    0.028854395117377862
+   ],
+   "hemisphere_pattern": {
+    "RR": 80,
+    "LR": 96,
+    "RL": 50,
+    "LL": 89
+   },
+   "raw_synapses": 723
+  },
+  "KCapbp-m->MBON03": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON03",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 394,
+   "source_kc_cells": 204,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.49704909324645996,
+   "abs_weight_sum": 0.49704909324645996,
+   "median_edge_weight": 0.0011790659045800567,
+   "max_edge_weight": 0.003609057515859604,
+   "per_target_mbon_cell_abs": [
+    0.20972158831136767,
+    0.2873275513484259
+   ],
+   "hemisphere_pattern": {
+    "RL": 94,
+    "LL": 108,
+    "RR": 82,
+    "LR": 110
+   },
+   "raw_synapses": 7693
+  },
+  "KCapbp-m->MBON04": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON04",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 214,
+   "source_kc_cells": 196,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.08671332895755768,
+   "abs_weight_sum": 0.08671332895755768,
+   "median_edge_weight": 0.0003854279639199376,
+   "max_edge_weight": 0.0016085790703073144,
+   "per_target_mbon_cell_abs": [
+    0.05281501273566391,
+    0.033898304420290515
+   ],
+   "hemisphere_pattern": {
+    "LR": 106,
+    "RR": 2,
+    "RL": 87,
+    "LL": 19
+   },
+   "raw_synapses": 919
+  },
+  "KCapbp-m->MBON05": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON05",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 5,
+   "source_kc_cells": 5,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00022198865190148354,
+   "abs_weight_sum": 0.00022198865190148354,
+   "median_edge_weight": 4.336889469414018e-05,
+   "max_edge_weight": 4.851307312492281e-05,
+   "per_target_mbon_cell_abs": [
+    0.00017347557877656072,
+    4.851307312492281e-05
+   ],
+   "hemisphere_pattern": {
+    "LR": 4,
+    "RL": 1
+   },
+   "raw_synapses": 5
+  },
+  "KCapbp-m->MBON06": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON06",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 68,
+   "source_kc_cells": 66,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00581697141751647,
+   "abs_weight_sum": 0.00581697141751647,
+   "median_edge_weight": 6.721333193127066e-05,
+   "max_edge_weight": 0.0002348244743188843,
+   "per_target_mbon_cell_abs": [
+    0.0028229599847691134,
+    0.002994012047565775
+   ],
+   "hemisphere_pattern": {
+    "LR": 31,
+    "RL": 33,
+    "LL": 4
+   },
+   "raw_synapses": 93
+  },
+  "KCapbp-m->MBON07": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON07",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 51,
+   "source_kc_cells": 42,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.01294819638133049,
+   "abs_weight_sum": 0.01294819638133049,
+   "median_edge_weight": 0.0001549426669953391,
+   "max_edge_weight": 0.0007572315516881645,
+   "per_target_mbon_cell_abs": [
+    0.008178100688382983,
+    0.0004903563094558194,
+    0.0009296560019720346,
+    0.0033500838617328554
+   ],
+   "hemisphere_pattern": {
+    "RR": 43,
+    "LL": 8
+   },
+   "raw_synapses": 89
+  },
+  "KCapbp-m->MBON09": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON09",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 415,
+   "source_kc_cells": 205,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.3376500904560089,
+   "abs_weight_sum": 0.3376500904560089,
+   "median_edge_weight": 0.0008035603677853942,
+   "max_edge_weight": 0.001731337164528668,
+   "per_target_mbon_cell_abs": [
+    0.06432084774132818,
+    0.03904761934609269,
+    0.11150945834378945,
+    0.12277217540031415
+   ],
+   "hemisphere_pattern": {
+    "RL": 190,
+    "LL": 1,
+    "LR": 220,
+    "RR": 4
+   },
+   "raw_synapses": 6102
+  },
+  "KCapbp-m->MBON10": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON10",
+   "kc_cells": 205,
+   "mbon_cells": 9,
+   "edges": 217,
+   "source_kc_cells": 144,
+   "target_mbon_cells": 7,
+   "weight_sum": 0.3155063986778259,
+   "abs_weight_sum": 0.3155063986778259,
+   "median_edge_weight": 0.0012062726309522986,
+   "max_edge_weight": 0.006031363271176815,
+   "per_target_mbon_cell_abs": [
+    0.005192878190428019,
+    0.0,
+    0.09409888164373115,
+    0.05301204917486757,
+    0.09861212881514803,
+    0.016380655230022967,
+    0.01925925922114402,
+    0.028950543142855167,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 156,
+    "RR": 61
+   },
+   "raw_synapses": 362
+  },
+  "KCapbp-m->MBON11": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON11",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 98,
+   "source_kc_cells": 89,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0060483659617602825,
+   "abs_weight_sum": 0.0060483659617602825,
+   "median_edge_weight": 5.2260256779845804e-05,
+   "max_edge_weight": 0.0002163721655961126,
+   "per_target_mbon_cell_abs": [
+    0.0018291089872946031,
+    0.0042192570108454674
+   ],
+   "hemisphere_pattern": {
+    "LL": 20,
+    "RL": 10,
+    "LR": 18,
+    "RR": 50
+   },
+   "raw_synapses": 152
+  },
+  "KCapbp-m->MBON12": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON12",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 404,
+   "source_kc_cells": 205,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.31812137365341187,
+   "abs_weight_sum": 0.31812137365341187,
+   "median_edge_weight": 0.0007484785746783018,
+   "max_edge_weight": 0.0021962937898933887,
+   "per_target_mbon_cell_abs": [
+    0.0645019093353767,
+    0.09395695407874882,
+    0.06906540648196824,
+    0.09059711804729886
+   ],
+   "hemisphere_pattern": {
+    "LL": 215,
+    "RR": 189
+   },
+   "raw_synapses": 2233
+  },
+  "KCapbp-m->MBON13": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON13",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 205,
+   "source_kc_cells": 205,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.5977630615234375,
+   "abs_weight_sum": 0.5977630615234375,
+   "median_edge_weight": 0.002934272401034832,
+   "max_edge_weight": 0.005084467586129904,
+   "per_target_mbon_cell_abs": [
+    0.32188966960529797,
+    0.27587337978184223
+   ],
+   "hemisphere_pattern": {
+    "LL": 110,
+    "RR": 95
+   },
+   "raw_synapses": 3876
+  },
+  "KCapbp-m->MBON14": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON14",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 18,
+   "source_kc_cells": 14,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.006439521908760071,
+   "abs_weight_sum": 0.006439521908760071,
+   "median_edge_weight": 0.0001714971731416881,
+   "max_edge_weight": 0.0017966222949326038,
+   "per_target_mbon_cell_abs": [
+    0.002335608995053917,
+    0.0008032128243939951,
+    0.0010712372604757547,
+    0.0022294632508419454
+   ],
+   "hemisphere_pattern": {
+    "RR": 5,
+    "LL": 13
+   },
+   "raw_synapses": 39
+  },
+  "KCapbp-m->MBON15": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON15",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 221,
+   "source_kc_cells": 162,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.5343438386917114,
+   "abs_weight_sum": 0.5343438386917114,
+   "median_edge_weight": 0.001490312977693975,
+   "max_edge_weight": 0.008941877633333206,
+   "per_target_mbon_cell_abs": [
+    0.09397944039665163,
+    0.0994208482443355,
+    0.16806723235640675,
+    0.1728763043647632
+   ],
+   "hemisphere_pattern": {
+    "RR": 105,
+    "LL": 116
+   },
+   "raw_synapses": 403
+  },
+  "KCapbp-m->MBON15-like": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 380,
+   "source_kc_cells": 204,
+   "target_mbon_cells": 4,
+   "weight_sum": 1.130630373954773,
+   "abs_weight_sum": 1.130630373954773,
+   "median_edge_weight": 0.002685765502974391,
+   "max_edge_weight": 0.010474860668182373,
+   "per_target_mbon_cell_abs": [
+    0.23099630943033844,
+    0.3452072507934645,
+    0.36731843918096274,
+    0.18710832518991083
+   ],
+   "hemisphere_pattern": {
+    "LL": 201,
+    "RR": 179
+   },
+   "raw_synapses": 1581
+  },
+  "KCapbp-m->MBON16": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON16",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 130,
+   "source_kc_cells": 130,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.13704359531402588,
+   "abs_weight_sum": 0.13704359531402588,
+   "median_edge_weight": 0.0008636241545900702,
+   "max_edge_weight": 0.0034602077212184668,
+   "per_target_mbon_cell_abs": [
+    0.07091518869856372,
+    0.06612841135938652
+   ],
+   "hemisphere_pattern": {
+    "LL": 63,
+    "RR": 67
+   },
+   "raw_synapses": 320
+  },
+  "KCapbp-m->MBON17": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON17",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 201,
+   "source_kc_cells": 201,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.5846928358078003,
+   "abs_weight_sum": 0.5846928358078003,
+   "median_edge_weight": 0.002506265649572015,
+   "max_edge_weight": 0.007518797181546688,
+   "per_target_mbon_cell_abs": [
+    0.3122807004256174,
+    0.27241208439227194
+   ],
+   "hemisphere_pattern": {
+    "LL": 108,
+    "RR": 93
+   },
+   "raw_synapses": 1173
+  },
+  "KCapbp-m->MBON17-like": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 192,
+   "source_kc_cells": 192,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.6190286874771118,
+   "abs_weight_sum": 0.6190286874771118,
+   "median_edge_weight": 0.0029761905316263437,
+   "max_edge_weight": 0.010416666977107525,
+   "per_target_mbon_cell_abs": [
+    0.313225053017959,
+    0.3058035787544213
+   ],
+   "hemisphere_pattern": {
+    "LL": 103,
+    "RR": 89
+   },
+   "raw_synapses": 816
+  },
+  "KCapbp-m->MBON18": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON18",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 27,
+   "source_kc_cells": 27,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.004817381966859102,
+   "abs_weight_sum": 0.004817381966859102,
+   "median_edge_weight": 0.0001176055520772934,
+   "max_edge_weight": 0.00035223670420236886,
+   "per_target_mbon_cell_abs": [
+    0.002116899937391281,
+    0.0027004814328392968
+   ],
+   "hemisphere_pattern": {
+    "RR": 14,
+    "LL": 13
+   },
+   "raw_synapses": 41
+  },
+  "KCapbp-m->MBON19": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON19",
+   "kc_cells": 205,
+   "mbon_cells": 4,
+   "edges": 199,
+   "source_kc_cells": 154,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.5181958675384521,
+   "abs_weight_sum": 0.5181958675384521,
+   "median_edge_weight": 0.0017452007159590721,
+   "max_edge_weight": 0.010600706562399864,
+   "per_target_mbon_cell_abs": [
+    0.02969121257774532,
+    0.307420500786975,
+    0.12390925083309412,
+    0.05717489030212164
+   ],
+   "hemisphere_pattern": {
+    "RR": 94,
+    "LL": 105
+   },
+   "raw_synapses": 479
+  },
+  "KCapbp-m->MBON22": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON22",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 14,
+   "source_kc_cells": 14,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0018387757008895278,
+   "abs_weight_sum": 0.0018387757008895278,
+   "median_edge_weight": 0.00011676830763462931,
+   "max_edge_weight": 0.0002630540693644434,
+   "per_target_mbon_cell_abs": [
+    0.0009180862907669507,
+    0.000920689242775552
+   ],
+   "hemisphere_pattern": {
+    "RR": 8,
+    "LL": 6
+   },
+   "raw_synapses": 16
+  },
+  "KCapbp-m->MBON23": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON23",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 39,
+   "source_kc_cells": 39,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.02452581748366356,
+   "abs_weight_sum": 0.02452581748366356,
+   "median_edge_weight": 0.0005197505233809352,
+   "max_edge_weight": 0.0010395010467618704,
+   "per_target_mbon_cell_abs": [
+    0.009972801432013512,
+    0.014553014654666185
+   ],
+   "hemisphere_pattern": {
+    "RR": 19,
+    "LL": 20
+   },
+   "raw_synapses": 50
+  },
+  "KCapbp-m->MBON24": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON24",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 6,
+   "source_kc_cells": 6,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0015969006344676018,
+   "abs_weight_sum": 0.0015969006344676018,
+   "median_edge_weight": 0.0002687449741642922,
+   "max_edge_weight": 0.0002687449741642922,
+   "per_target_mbon_cell_abs": [
+    0.000521920679602772,
+    0.0010749798966571689
+   ],
+   "hemisphere_pattern": {
+    "RR": 2,
+    "LL": 4
+   },
+   "raw_synapses": 6
+  },
+  "KCapbp-m->MBON25,MBON34": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 205,
+   "mbon_cells": 7,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0015243901871144772,
+   "abs_weight_sum": 0.0015243901871144772,
+   "median_edge_weight": 0.0015243901871144772,
+   "max_edge_weight": 0.0015243901871144772,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0015243901871144772,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCapbp-m->MBON26": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON26",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 6,
+   "source_kc_cells": 6,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0022120128851383924,
+   "abs_weight_sum": 0.0022120128851383924,
+   "median_edge_weight": 0.00012761613470502198,
+   "max_edge_weight": 0.0016164709813892841,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0022120129433460534
+   ],
+   "hemisphere_pattern": {
+    "LL": 6
+   },
+   "raw_synapses": 26
+  },
+  "KCapbp-m->MBON28": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON28",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 21,
+   "source_kc_cells": 21,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.013105936348438263,
+   "abs_weight_sum": 0.013105936348438263,
+   "median_edge_weight": 0.0003699593071360141,
+   "max_edge_weight": 0.002959674457088113,
+   "per_target_mbon_cell_abs": [
+    0.0016371971287298948,
+    0.011468738550320268
+   ],
+   "hemisphere_pattern": {
+    "RR": 4,
+    "LL": 17
+   },
+   "raw_synapses": 36
+  },
+  "KCapbp-m->MBON31": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON31",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 205,
+   "source_kc_cells": 205,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.1161537617444992,
+   "abs_weight_sum": 0.1161537617444992,
+   "median_edge_weight": 0.0005254072020761669,
+   "max_edge_weight": 0.0019515124149620533,
+   "per_target_mbon_cell_abs": [
+    0.06319897931825835,
+    0.05295478091284167
+   ],
+   "hemisphere_pattern": {
+    "LL": 110,
+    "RR": 95
+   },
+   "raw_synapses": 1506
+  },
+  "KCapbp-m->MBON32": {
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON32",
+   "kc_cells": 205,
+   "mbon_cells": 2,
+   "edges": 28,
+   "source_kc_cells": 28,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.003349465085193515,
+   "abs_weight_sum": 0.003349465085193515,
+   "median_edge_weight": 0.00011219236330362037,
+   "max_edge_weight": 0.0004634158976841718,
+   "per_target_mbon_cell_abs": [
+    0.0006178878575155977,
+    0.002731576983933337
+   ],
+   "hemisphere_pattern": {
+    "LL": 3,
+    "RR": 25
+   },
+   "raw_synapses": 57
+  },
+  "KCg->MBON01": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON01",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0014814204769209027,
+   "abs_weight_sum": 0.0014814204769209027,
+   "median_edge_weight": 0.0014814204769209027,
+   "max_edge_weight": 0.0014814204769209027,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0014814204769209027
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 36
+  },
+  "KCg->MBON04": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON04",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0009830205235630274,
+   "abs_weight_sum": 0.0009830205235630274,
+   "median_edge_weight": 0.0009830205235630274,
+   "max_edge_weight": 0.0009830205235630274,
+   "per_target_mbon_cell_abs": [
+    0.0009830205235630274,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LR": 1
+   },
+   "raw_synapses": 11
+  },
+  "KCg->MBON05": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON05",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0014796865871176124,
+   "abs_weight_sum": 0.0014796865871176124,
+   "median_edge_weight": 0.0007398432935588062,
+   "max_edge_weight": 0.0014311735285446048,
+   "per_target_mbon_cell_abs": [
+    0.0014311735285446048,
+    4.851307312492281e-05
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 34
+  },
+  "KCg->MBON09": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON09",
+   "kc_cells": 1,
+   "mbon_cells": 4,
+   "edges": 2,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.002593627665191889,
+   "abs_weight_sum": 0.002593627665191889,
+   "median_edge_weight": 0.0012968138325959444,
+   "max_edge_weight": 0.0015126049984246492,
+   "per_target_mbon_cell_abs": [
+    0.0010810226667672396,
+    0.0015126049984246492,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 2
+   },
+   "raw_synapses": 47
+  },
+  "KCg->MBON11": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON11",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0012542461045086384,
+   "abs_weight_sum": 0.0012542461045086384,
+   "median_edge_weight": 0.0012542461045086384,
+   "max_edge_weight": 0.0012542461045086384,
+   "per_target_mbon_cell_abs": [
+    0.0012542461045086384,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 24
+  },
+  "KCg->MBON12": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON12",
+   "kc_cells": 1,
+   "mbon_cells": 4,
+   "edges": 2,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0009837038815021515,
+   "abs_weight_sum": 0.0009837038815021515,
+   "median_edge_weight": 0.0004918519407510757,
+   "max_edge_weight": 0.0006898454739712179,
+   "per_target_mbon_cell_abs": [
+    0.0002938583493232727,
+    0.0006898454739712179,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 2
+   },
+   "raw_synapses": 7
+  },
+  "KCg->MBON20": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON20",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0011413664324209094,
+   "abs_weight_sum": 0.0011413664324209094,
+   "median_edge_weight": 0.0011413664324209094,
+   "max_edge_weight": 0.0011413664324209094,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0011413664324209094
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 7
+  },
+  "KCg->MBON21": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON21",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0008204791811294854,
+   "abs_weight_sum": 0.0008204791811294854,
+   "median_edge_weight": 0.0008204791811294854,
+   "max_edge_weight": 0.0008204791811294854,
+   "per_target_mbon_cell_abs": [
+    0.0008204791811294854,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 5
+  },
+  "KCg->MBON22": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON22",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0002630540693644434,
+   "abs_weight_sum": 0.0002630540693644434,
+   "median_edge_weight": 0.0002630540693644434,
+   "max_edge_weight": 0.0002630540693644434,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0002630540693644434
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCg->MBON24": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON24",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0002687449741642922,
+   "abs_weight_sum": 0.0002687449741642922,
+   "median_edge_weight": 0.0002687449741642922,
+   "max_edge_weight": 0.0002687449741642922,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0002687449741642922
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg->MBON26": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON26",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00025523226941004395,
+   "abs_weight_sum": 0.00025523226941004395,
+   "median_edge_weight": 0.00025523226941004395,
+   "max_edge_weight": 0.00025523226941004395,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00025523226941004395
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCg->MBON27": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON27",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.005189990624785423,
+   "abs_weight_sum": 0.005189990624785423,
+   "median_edge_weight": 0.005189990624785423,
+   "max_edge_weight": 0.005189990624785423,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.005189990624785423
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 28
+  },
+  "KCg->MBON29": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON29",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0006543748313561082,
+   "abs_weight_sum": 0.0006543748313561082,
+   "median_edge_weight": 0.0003271874156780541,
+   "max_edge_weight": 0.00043936731526628137,
+   "per_target_mbon_cell_abs": [
+    0.00043936731526628137,
+    0.00021500753064174205
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "LR": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCg->MBON30": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON30",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0003885003970935941,
+   "abs_weight_sum": 0.0003885003970935941,
+   "median_edge_weight": 0.0003885003970935941,
+   "max_edge_weight": 0.0003885003970935941,
+   "per_target_mbon_cell_abs": [
+    0.0003885003970935941,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCg->MBON32": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON32",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.001441738335415721,
+   "abs_weight_sum": 0.001441738335415721,
+   "median_edge_weight": 0.001441738335415721,
+   "max_edge_weight": 0.001441738335415721,
+   "per_target_mbon_cell_abs": [
+    0.001441738335415721,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 28
+  },
+  "KCg->MBON33": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON33",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0021306818816810846,
+   "abs_weight_sum": 0.0021306818816810846,
+   "median_edge_weight": 0.0021306818816810846,
+   "max_edge_weight": 0.0021306818816810846,
+   "per_target_mbon_cell_abs": [
+    0.0021306818816810846,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 12
+  },
+  "KCg->MBON35": {
+   "kc_type": "KCg",
+   "mbon_type": "MBON35",
+   "kc_cells": 1,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0003932672552764416,
+   "abs_weight_sum": 0.0003932672552764416,
+   "median_edge_weight": 0.0003932672552764416,
+   "max_edge_weight": 0.0003932672552764416,
+   "per_target_mbon_cell_abs": [
+    0.0003932672552764416,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 10
+  },
+  "KCg-d->MBON01": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON01",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 212,
+   "source_kc_cells": 206,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.15277424454689026,
+   "abs_weight_sum": 0.15277424454689026,
+   "median_edge_weight": 0.0007380376337096095,
+   "max_edge_weight": 0.002091106725856662,
+   "per_target_mbon_cell_abs": [
+    0.08446430796539062,
+    0.06830994619667763
+   ],
+   "hemisphere_pattern": {
+    "RR": 107,
+    "LL": 99,
+    "RL": 6
+   },
+   "raw_synapses": 3720
+  },
+  "KCg-d->MBON02": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON02",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 6,
+   "source_kc_cells": 5,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0005635644774883986,
+   "abs_weight_sum": 0.0005635644774883986,
+   "median_edge_weight": 9.5229028374888e-05,
+   "max_edge_weight": 9.5229028374888e-05,
+   "per_target_mbon_cell_abs": [
+    0.00018264840764459223,
+    0.000380916113499552
+   ],
+   "hemisphere_pattern": {
+    "RR": 2,
+    "RL": 4
+   },
+   "raw_synapses": 6
+  },
+  "KCg-d->MBON04": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON04",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 22,
+   "source_kc_cells": 22,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.004315090831369162,
+   "abs_weight_sum": 0.004315090831369162,
+   "median_edge_weight": 9.63569909799844e-05,
+   "max_edge_weight": 0.0013435303699225187,
+   "per_target_mbon_cell_abs": [
+    0.0021447720428113826,
+    0.0021703182719647884
+   ],
+   "hemisphere_pattern": {
+    "LR": 17,
+    "RL": 5
+   },
+   "raw_synapses": 45
+  },
+  "KCg-d->MBON05": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON05",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 213,
+   "source_kc_cells": 206,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.21201872825622559,
+   "abs_weight_sum": 0.21201872825622559,
+   "median_edge_weight": 0.0009974846616387367,
+   "max_edge_weight": 0.0017949837492778897,
+   "per_target_mbon_cell_abs": [
+    0.0988377115863841,
+    0.11318100223434158
+   ],
+   "hemisphere_pattern": {
+    "LR": 99,
+    "RL": 107,
+    "LL": 7
+   },
+   "raw_synapses": 4612
+  },
+  "KCg-d->MBON06": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON06",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00011741223715944216,
+   "abs_weight_sum": 0.00011741223715944216,
+   "median_edge_weight": 5.870611857972108e-05,
+   "max_edge_weight": 5.870611857972108e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.00011741223715944216
+   ],
+   "hemisphere_pattern": {
+    "RL": 2
+   },
+   "raw_synapses": 2
+  },
+  "KCg-d->MBON07": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON07",
+   "kc_cells": 206,
+   "mbon_cells": 4,
+   "edges": 3,
+   "source_kc_cells": 3,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0007572314934805036,
+   "abs_weight_sum": 0.0007572314934805036,
+   "median_edge_weight": 0.0003028926148544997,
+   "max_edge_weight": 0.0003028926148544997,
+   "per_target_mbon_cell_abs": [
+    0.0007572315371362492,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 3
+   },
+   "raw_synapses": 5
+  },
+  "KCg-d->MBON09": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON09",
+   "kc_cells": 206,
+   "mbon_cells": 4,
+   "edges": 419,
+   "source_kc_cells": 206,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.33423328399658203,
+   "abs_weight_sum": 0.33423328399658203,
+   "median_edge_weight": 0.0007638252573087811,
+   "max_edge_weight": 0.002087788889184594,
+   "per_target_mbon_cell_abs": [
+    0.08150910800031852,
+    0.08750700349264662,
+    0.07992335308517795,
+    0.08529381663902313
+   ],
+   "hemisphere_pattern": {
+    "LL": 198,
+    "RL": 6,
+    "RR": 214,
+    "LR": 1
+   },
+   "raw_synapses": 6038
+  },
+  "KCg-d->MBON11": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON11",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 206,
+   "source_kc_cells": 206,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.13725832104682922,
+   "abs_weight_sum": 0.13725832104682922,
+   "median_edge_weight": 0.0006491164676845074,
+   "max_edge_weight": 0.0016200679820030928,
+   "per_target_mbon_cell_abs": [
+    0.062032924266532063,
+    0.07522538752527907
+   ],
+   "hemisphere_pattern": {
+    "LL": 99,
+    "RR": 107
+   },
+   "raw_synapses": 3273
+  },
+  "KCg-d->MBON12": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON12",
+   "kc_cells": 206,
+   "mbon_cells": 4,
+   "edges": 205,
+   "source_kc_cells": 147,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.059801872819662094,
+   "abs_weight_sum": 0.059801872819662094,
+   "median_edge_weight": 0.0002745367237366736,
+   "max_edge_weight": 0.0013721603900194168,
+   "per_target_mbon_cell_abs": [
+    0.009991183964302763,
+    0.016004414996132255,
+    0.01966763217933476,
+    0.01413864124333486
+   ],
+   "hemisphere_pattern": {
+    "LL": 89,
+    "RR": 116
+   },
+   "raw_synapses": 416
+  },
+  "KCg-d->MBON20": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON20",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 202,
+   "source_kc_cells": 202,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.17005175352096558,
+   "abs_weight_sum": 0.17005175352096558,
+   "median_edge_weight": 0.0008152616792358458,
+   "max_edge_weight": 0.0022015240974724293,
+   "per_target_mbon_cell_abs": [
+    0.09178662172053009,
+    0.07826512260362506
+   ],
+   "hemisphere_pattern": {
+    "RR": 106,
+    "LL": 96
+   },
+   "raw_synapses": 1022
+  },
+  "KCg-d->MBON21": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON21",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 187,
+   "source_kc_cells": 177,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.07598957419395447,
+   "abs_weight_sum": 0.07598957419395447,
+   "median_edge_weight": 0.00032819167245179415,
+   "max_edge_weight": 0.0015353907365351915,
+   "per_target_mbon_cell_abs": [
+    0.03560879634460434,
+    0.04038077655422967
+   ],
+   "hemisphere_pattern": {
+    "LL": 84,
+    "RL": 2,
+    "RR": 93,
+    "LR": 8
+   },
+   "raw_synapses": 480
+  },
+  "KCg-d->MBON22": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON22",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 183,
+   "source_kc_cells": 182,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.07142577320337296,
+   "abs_weight_sum": 0.07142577320337296,
+   "median_edge_weight": 0.0003945810894947499,
+   "max_edge_weight": 0.0010522162774577737,
+   "per_target_mbon_cell_abs": [
+    0.044068142102332786,
+    0.027357622762792744
+   ],
+   "hemisphere_pattern": {
+    "RR": 105,
+    "LR": 1,
+    "LL": 77
+   },
+   "raw_synapses": 640
+  },
+  "KCg-d->MBON25,MBON34": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 206,
+   "mbon_cells": 7,
+   "edges": 22,
+   "source_kc_cells": 22,
+   "target_mbon_cells": 3,
+   "weight_sum": 0.02349112555384636,
+   "abs_weight_sum": 0.02349112555384636,
+   "median_edge_weight": 0.0009596928721293807,
+   "max_edge_weight": 0.0019193857442587614,
+   "per_target_mbon_cell_abs": [
+    0.01439539308194071,
+    0.0,
+    0.0,
+    0.0,
+    0.0015698587521910667,
+    0.007525870110839605,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 14,
+    "LR": 6,
+    "RR": 2
+   },
+   "raw_synapses": 24
+  },
+  "KCg-d->MBON25-like": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON25-like",
+   "kc_cells": 206,
+   "mbon_cells": 1,
+   "edges": 3,
+   "source_kc_cells": 3,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.004360465332865715,
+   "abs_weight_sum": 0.004360465332865715,
+   "median_edge_weight": 0.0014534883666783571,
+   "max_edge_weight": 0.0014534883666783571,
+   "per_target_mbon_cell_abs": [
+    0.004360465100035071
+   ],
+   "hemisphere_pattern": {
+    "LR": 3
+   },
+   "raw_synapses": 3
+  },
+  "KCg-d->MBON26": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON26",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 65,
+   "source_kc_cells": 65,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.014576500281691551,
+   "abs_weight_sum": 0.014576500281691551,
+   "median_edge_weight": 0.00010069479321828112,
+   "max_edge_weight": 0.002517369808629155,
+   "per_target_mbon_cell_abs": [
+    0.013895881413191091,
+    0.0006806193850934505
+   ],
+   "hemisphere_pattern": {
+    "RR": 58,
+    "LL": 7
+   },
+   "raw_synapses": 146
+  },
+  "KCg-d->MBON27": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON27",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 205,
+   "source_kc_cells": 205,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.8277015089988708,
+   "abs_weight_sum": 0.8277015089988708,
+   "median_edge_weight": 0.0040778499096632,
+   "max_edge_weight": 0.00830288976430893,
+   "per_target_mbon_cell_abs": [
+    0.46977748366771266,
+    0.3579240044928156
+   ],
+   "hemisphere_pattern": {
+    "RR": 106,
+    "LL": 99
+   },
+   "raw_synapses": 4760
+  },
+  "KCg-d->MBON29": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON29",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 68,
+   "source_kc_cells": 63,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.018448658287525177,
+   "abs_weight_sum": 0.018448658287525177,
+   "median_edge_weight": 0.00021968365763314068,
+   "max_edge_weight": 0.0006450225482694805,
+   "per_target_mbon_cell_abs": [
+    0.008128295332426205,
+    0.010320361383492127
+   ],
+   "hemisphere_pattern": {
+    "RL": 7,
+    "LL": 24,
+    "RR": 22,
+    "LR": 15
+   },
+   "raw_synapses": 85
+  },
+  "KCg-d->MBON30": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON30",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 131,
+   "source_kc_cells": 126,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.025765370577573776,
+   "abs_weight_sum": 0.025765370577573776,
+   "median_edge_weight": 0.00019425019854679704,
+   "max_edge_weight": 0.0006798756658099592,
+   "per_target_mbon_cell_abs": [
+    0.011655011883703992,
+    0.014110358868492767
+   ],
+   "hemisphere_pattern": {
+    "LL": 60,
+    "RL": 5,
+    "RR": 62,
+    "LR": 4
+   },
+   "raw_synapses": 243
+  },
+  "KCg-d->MBON31": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON31",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 9,
+   "source_kc_cells": 9,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0017685749335214496,
+   "abs_weight_sum": 0.0017685749335214496,
+   "median_edge_weight": 7.975117478054017e-05,
+   "max_edge_weight": 0.000600465340539813,
+   "per_target_mbon_cell_abs": [
+    0.0010508143459446728,
+    0.0007177605730248615
+   ],
+   "hemisphere_pattern": {
+    "LL": 6,
+    "RR": 3
+   },
+   "raw_synapses": 23
+  },
+  "KCg-d->MBON32": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON32",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 204,
+   "source_kc_cells": 204,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.15385225415229797,
+   "abs_weight_sum": 0.15385225415229797,
+   "median_edge_weight": 0.0007284205639734864,
+   "max_edge_weight": 0.0018536635907366872,
+   "per_target_mbon_cell_abs": [
+    0.08532001430285163,
+    0.06853223246434936
+   ],
+   "hemisphere_pattern": {
+    "LL": 99,
+    "RR": 105
+   },
+   "raw_synapses": 2786
+  },
+  "KCg-d->MBON33": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON33",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 199,
+   "source_kc_cells": 199,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.1731991171836853,
+   "abs_weight_sum": 0.1731991171836853,
+   "median_edge_weight": 0.0007102272938936949,
+   "max_edge_weight": 0.004423799924552441,
+   "per_target_mbon_cell_abs": [
+    0.08007812657160684,
+    0.09312099067028612
+   ],
+   "hemisphere_pattern": {
+    "LL": 98,
+    "RR": 101
+   },
+   "raw_synapses": 872
+  },
+  "KCg-d->MBON35": {
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON35",
+   "kc_cells": 206,
+   "mbon_cells": 2,
+   "edges": 204,
+   "source_kc_cells": 204,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.06427128612995148,
+   "abs_weight_sum": 0.06427128612995148,
+   "median_edge_weight": 0.00028626344283111393,
+   "max_edge_weight": 0.0009814746445044875,
+   "per_target_mbon_cell_abs": [
+    0.029101776890456676,
+    0.03516950891207671
+   ],
+   "hemisphere_pattern": {
+    "LL": 98,
+    "RR": 106
+   },
+   "raw_synapses": 1600
+  },
+  "KCg-m->MBON01": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON01",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1360,
+   "source_kc_cells": 1343,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.2606606483459473,
+   "abs_weight_sum": 1.2606606483459473,
+   "median_edge_weight": 0.0009430481004528701,
+   "max_edge_weight": 0.0017220878507941961,
+   "per_target_mbon_cell_abs": [
+    0.6214276930113556,
+    0.6392329550399154
+   ],
+   "hemisphere_pattern": {
+    "RR": 653,
+    "LR": 12,
+    "LL": 690,
+    "RL": 5
+   },
+   "raw_synapses": 30690
+  },
+  "KCg-m->MBON02": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON02",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 23,
+   "source_kc_cells": 23,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00241738255135715,
+   "abs_weight_sum": 0.00241738255135715,
+   "median_edge_weight": 9.132420382229611e-05,
+   "max_edge_weight": 0.0002856870705727488,
+   "per_target_mbon_cell_abs": [
+    0.0013698630573344417,
+    0.0010475192975718528
+   ],
+   "hemisphere_pattern": {
+    "LR": 7,
+    "RR": 8,
+    "LL": 6,
+    "RL": 2
+   },
+   "raw_synapses": 26
+  },
+  "KCg-m->MBON03": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON03",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 11,
+   "source_kc_cells": 11,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0006985273794271052,
+   "abs_weight_sum": 0.0006985273794271052,
+   "median_edge_weight": 5.821060767630115e-05,
+   "max_edge_weight": 0.0001164212153526023,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0006985272921156138
+   ],
+   "hemisphere_pattern": {
+    "LR": 11
+   },
+   "raw_synapses": 12
+  },
+  "KCg-m->MBON04": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON04",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 883,
+   "source_kc_cells": 877,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.19714632630348206,
+   "abs_weight_sum": 0.19714632630348206,
+   "median_edge_weight": 0.0001787310029612854,
+   "max_edge_weight": 0.0013404826167970896,
+   "per_target_mbon_cell_abs": [
+    0.10661304517270764,
+    0.09053327585570514
+   ],
+   "hemisphere_pattern": {
+    "LR": 472,
+    "RR": 3,
+    "RL": 405,
+    "LL": 3
+   },
+   "raw_synapses": 2069
+  },
+  "KCg-m->MBON05": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON05",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1618,
+   "source_kc_cells": 1346,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.412419080734253,
+   "abs_weight_sum": 1.412419080734253,
+   "median_edge_weight": 0.0009702614624984562,
+   "max_edge_weight": 0.002765245269984007,
+   "per_target_mbon_cell_abs": [
+    0.7148494930443121,
+    0.6975694956927327
+   ],
+   "hemisphere_pattern": {
+    "LR": 691,
+    "RL": 655,
+    "LL": 272
+   },
+   "raw_synapses": 30862
+  },
+  "KCg-m->MBON06": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON06",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 36,
+   "source_kc_cells": 36,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0025592364836484194,
+   "abs_weight_sum": 0.0025592364836484194,
+   "median_edge_weight": 5.870611857972108e-05,
+   "max_edge_weight": 0.00017611835210118443,
+   "per_target_mbon_cell_abs": [
+    0.0007393466512439772,
+    0.0018198896723333746
+   ],
+   "hemisphere_pattern": {
+    "LR": 10,
+    "RL": 26
+   },
+   "raw_synapses": 42
+  },
+  "KCg-m->MBON07": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON07",
+   "kc_cells": 1346,
+   "mbon_cells": 4,
+   "edges": 9,
+   "source_kc_cells": 9,
+   "target_mbon_cells": 3,
+   "weight_sum": 0.002445635851472616,
+   "abs_weight_sum": 0.002445635851472616,
+   "median_edge_weight": 0.0001634521031519398,
+   "max_edge_weight": 0.0006057852297089994,
+   "per_target_mbon_cell_abs": [
+    0.0018173557036789134,
+    0.0001634521031519398,
+    0.0004648280009860173,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 5,
+    "LL": 4
+   },
+   "raw_synapses": 16
+  },
+  "KCg-m->MBON09": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON09",
+   "kc_cells": 1346,
+   "mbon_cells": 4,
+   "edges": 2809,
+   "source_kc_cells": 1346,
+   "target_mbon_cells": 4,
+   "weight_sum": 2.0875864028930664,
+   "abs_weight_sum": 2.0875864028930664,
+   "median_edge_weight": 0.0007417480810545385,
+   "max_edge_weight": 0.0018331805476918817,
+   "per_target_mbon_cell_abs": [
+    0.5707799603987951,
+    0.5970308164796734,
+    0.4490048242951161,
+    0.4707709481663187
+   ],
+   "hemisphere_pattern": {
+    "LL": 1382,
+    "RL": 73,
+    "RR": 1309,
+    "LR": 45
+   },
+   "raw_synapses": 37726
+  },
+  "KCg-m->MBON10": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON10",
+   "kc_cells": 1346,
+   "mbon_cells": 9,
+   "edges": 31,
+   "source_kc_cells": 31,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.03579723462462425,
+   "abs_weight_sum": 0.03579723462462425,
+   "median_edge_weight": 0.0012062726309522986,
+   "max_edge_weight": 0.002805049065500498,
+   "per_target_mbon_cell_abs": [
+    0.014836795162409544,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0031201248057186604,
+    0.0,
+    0.0024125452619045973,
+    0.015427769860252738
+   ],
+   "hemisphere_pattern": {
+    "LL": 19,
+    "RR": 12
+   },
+   "raw_synapses": 37
+  },
+  "KCg-m->MBON11": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON11",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1373,
+   "source_kc_cells": 1344,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.0356721878051758,
+   "abs_weight_sum": 1.0356721878051758,
+   "median_edge_weight": 0.0007573025650344789,
+   "max_edge_weight": 0.0016227911692112684,
+   "per_target_mbon_cell_abs": [
+    0.51497256388393,
+    0.5206996058914228
+   ],
+   "hemisphere_pattern": {
+    "LL": 690,
+    "RL": 13,
+    "RR": 654,
+    "LR": 16
+   },
+   "raw_synapses": 24293
+  },
+  "KCg-m->MBON12": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON12",
+   "kc_cells": 1346,
+   "mbon_cells": 4,
+   "edges": 2531,
+   "source_kc_cells": 1330,
+   "target_mbon_cells": 4,
+   "weight_sum": 1.6460797786712646,
+   "abs_weight_sum": 1.6460797786712646,
+   "median_edge_weight": 0.0005877166986465454,
+   "max_edge_weight": 0.002745367120951414,
+   "per_target_mbon_cell_abs": [
+    0.46885100528015755,
+    0.39652317931177095,
+    0.40143314546730835,
+    0.37927247845800593
+   ],
+   "hemisphere_pattern": {
+    "LL": 1314,
+    "RR": 1217
+   },
+   "raw_synapses": 11461
+  },
+  "KCg-m->MBON15": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON15",
+   "kc_cells": 1346,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0014684287598356605,
+   "abs_weight_sum": 0.0014684287598356605,
+   "median_edge_weight": 0.0014684287598356605,
+   "max_edge_weight": 0.0014684287598356605,
+   "per_target_mbon_cell_abs": [
+    0.0014684287598356605,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-m->MBON15-like": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON15-like",
+   "kc_cells": 1346,
+   "mbon_cells": 4,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.000895255128853023,
+   "abs_weight_sum": 0.000895255128853023,
+   "median_edge_weight": 0.000895255128853023,
+   "max_edge_weight": 0.000895255128853023,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.000895255128853023
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-m->MBON20": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON20",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1179,
+   "source_kc_cells": 1179,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.5862579345703125,
+   "abs_weight_sum": 0.5862579345703125,
+   "median_edge_weight": 0.000489157042466104,
+   "max_edge_weight": 0.0022015240974724293,
+   "per_target_mbon_cell_abs": [
+    0.3268416619830532,
+    0.25941627017164137
+   ],
+   "hemisphere_pattern": {
+    "RR": 591,
+    "LL": 588
+   },
+   "raw_synapses": 3521
+  },
+  "KCg-m->MBON21": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON21",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1363,
+   "source_kc_cells": 1335,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.2227416038513184,
+   "abs_weight_sum": 1.2227416038513184,
+   "median_edge_weight": 0.0008204791811294854,
+   "max_edge_weight": 0.0027896291576325893,
+   "per_target_mbon_cell_abs": [
+    0.6007548479828984,
+    0.621986790720257
+   ],
+   "hemisphere_pattern": {
+    "LL": 682,
+    "RL": 18,
+    "RR": 652,
+    "LR": 11
+   },
+   "raw_synapses": 7712
+  },
+  "KCg-m->MBON22": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON22",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1376,
+   "source_kc_cells": 1327,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.9445185661315918,
+   "abs_weight_sum": 0.9445185661315918,
+   "median_edge_weight": 0.0006576351588591933,
+   "max_edge_weight": 0.0021044325549155474,
+   "per_target_mbon_cell_abs": [
+    0.47128430098382523,
+    0.4732342565548606
+   ],
+   "hemisphere_pattern": {
+    "RR": 651,
+    "LR": 20,
+    "LL": 675,
+    "RL": 30
+   },
+   "raw_synapses": 8218
+  },
+  "KCg-m->MBON24": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON24",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 161,
+   "source_kc_cells": 161,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.05195783078670502,
+   "abs_weight_sum": 0.05195783078670502,
+   "median_edge_weight": 0.0002687449741642922,
+   "max_edge_weight": 0.0013437247835099697,
+   "per_target_mbon_cell_abs": [
+    0.02400835120351985,
+    0.0279494772257749
+   ],
+   "hemisphere_pattern": {
+    "RR": 72,
+    "LL": 89
+   },
+   "raw_synapses": 196
+  },
+  "KCg-m->MBON25,MBON34": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 1346,
+   "mbon_cells": 7,
+   "edges": 1203,
+   "source_kc_cells": 868,
+   "target_mbon_cells": 7,
+   "weight_sum": 2.2093071937561035,
+   "abs_weight_sum": 2.2093071937561035,
+   "median_edge_weight": 0.0015243901871144772,
+   "max_edge_weight": 0.007621951401233673,
+   "per_target_mbon_cell_abs": [
+    0.4788867476163432,
+    0.044416242744773626,
+    0.3963414500467479,
+    0.5109289456158876,
+    0.06907378509640694,
+    0.5117591667221859,
+    0.19790105416905135
+   ],
+   "hemisphere_pattern": {
+    "RL": 736,
+    "LL": 11,
+    "LR": 456
+   },
+   "raw_synapses": 1888
+  },
+  "KCg-m->MBON25-like": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON25-like",
+   "kc_cells": 1346,
+   "mbon_cells": 1,
+   "edges": 90,
+   "source_kc_cells": 90,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.1744186133146286,
+   "abs_weight_sum": 0.1744186133146286,
+   "median_edge_weight": 0.0014534883666783571,
+   "max_edge_weight": 0.004360465332865715,
+   "per_target_mbon_cell_abs": [
+    0.17441860516555607
+   ],
+   "hemisphere_pattern": {
+    "LR": 86,
+    "RR": 4
+   },
+   "raw_synapses": 120
+  },
+  "KCg-m->MBON26": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON26",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 184,
+   "source_kc_cells": 184,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.029779033735394478,
+   "abs_weight_sum": 0.029779033735394478,
+   "median_edge_weight": 0.00010069479321828112,
+   "max_edge_weight": 0.0030208437237888575,
+   "per_target_mbon_cell_abs": [
+    0.017017419952026103,
+    0.012761613354086876
+   ],
+   "hemisphere_pattern": {
+    "RR": 102,
+    "LL": 82
+   },
+   "raw_synapses": 319
+  },
+  "KCg-m->MBON27": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON27",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 352,
+   "source_kc_cells": 352,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.11893612891435623,
+   "abs_weight_sum": 0.11893612891435623,
+   "median_edge_weight": 0.00018535681010689586,
+   "max_edge_weight": 0.003707136260345578,
+   "per_target_mbon_cell_abs": [
+    0.049983393400907516,
+    0.06895273381087463
+   ],
+   "hemisphere_pattern": {
+    "RR": 166,
+    "LL": 186
+   },
+   "raw_synapses": 673
+  },
+  "KCg-m->MBON28": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON28",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.00032743942574597895,
+   "abs_weight_sum": 0.00032743942574597895,
+   "median_edge_weight": 0.00032743942574597895,
+   "max_edge_weight": 0.00032743942574597895,
+   "per_target_mbon_cell_abs": [
+    0.00032743942574597895,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-m->MBON29": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON29",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1928,
+   "source_kc_cells": 1281,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.0575847625732422,
+   "abs_weight_sum": 1.0575847625732422,
+   "median_edge_weight": 0.00043936731526628137,
+   "max_edge_weight": 0.0027950978837907314,
+   "per_target_mbon_cell_abs": [
+    0.5235061474959366,
+    0.5340786952001508
+   ],
+   "hemisphere_pattern": {
+    "RL": 319,
+    "LL": 624,
+    "RR": 581,
+    "LR": 404
+   },
+   "raw_synapses": 4867
+  },
+  "KCg-m->MBON30": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON30",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1465,
+   "source_kc_cells": 1343,
+   "target_mbon_cells": 2,
+   "weight_sum": 1.2112330198287964,
+   "abs_weight_sum": 1.2112330198287964,
+   "median_edge_weight": 0.0008030285825952888,
+   "max_edge_weight": 0.0022943674121052027,
+   "per_target_mbon_cell_abs": [
+    0.6020784818392713,
+    0.6091545243398286
+   ],
+   "hemisphere_pattern": {
+    "LL": 689,
+    "RL": 60,
+    "RR": 654,
+    "LR": 62
+   },
+   "raw_synapses": 11509
+  },
+  "KCg-m->MBON31": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON31",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 31,
+   "source_kc_cells": 31,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0032228382769972086,
+   "abs_weight_sum": 0.0032228382769972086,
+   "median_edge_weight": 7.505816756747663e-05,
+   "max_edge_weight": 0.00037529083783738315,
+   "per_target_mbon_cell_abs": [
+    0.002026570524321869,
+    0.0011962676217081025
+   ],
+   "hemisphere_pattern": {
+    "LL": 21,
+    "RR": 10
+   },
+   "raw_synapses": 42
+  },
+  "KCg-m->MBON32": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON32",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1312,
+   "source_kc_cells": 1312,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.42535200715065,
+   "abs_weight_sum": 0.42535200715065,
+   "median_edge_weight": 0.0003089439123868942,
+   "max_edge_weight": 0.0013354376424103975,
+   "per_target_mbon_cell_abs": [
+    0.22455074149547727,
+    0.20080126407265197
+   ],
+   "hemisphere_pattern": {
+    "LL": 681,
+    "RR": 631
+   },
+   "raw_synapses": 7669
+  },
+  "KCg-m->MBON33": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON33",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 359,
+   "source_kc_cells": 359,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.1237259954214096,
+   "abs_weight_sum": 0.1237259954214096,
+   "median_edge_weight": 0.00022118999913800508,
+   "max_edge_weight": 0.005308560095727444,
+   "per_target_mbon_cell_abs": [
+    0.06267755839508027,
+    0.06104844018409494
+   ],
+   "hemisphere_pattern": {
+    "LL": 199,
+    "RR": 160
+   },
+   "raw_synapses": 629
+  },
+  "KCg-m->MBON35": {
+   "kc_type": "KCg-m",
+   "mbon_type": "MBON35",
+   "kc_cells": 1346,
+   "mbon_cells": 2,
+   "edges": 1018,
+   "source_kc_cells": 1018,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.11827528476715088,
+   "abs_weight_sum": 0.11827528476715088,
+   "median_edge_weight": 8.17895561340265e-05,
+   "max_edge_weight": 0.0006292276084423065,
+   "per_target_mbon_cell_abs": [
+    0.049040426732972264,
+    0.06923485890729353
+   ],
+   "hemisphere_pattern": {
+    "LL": 476,
+    "RR": 542
+   },
+   "raw_synapses": 2940
+  },
+  "KCg-s1->MBON01": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON01",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.008131034672260284,
+   "abs_weight_sum": 0.008131034672260284,
+   "median_edge_weight": 0.004065517336130142,
+   "max_edge_weight": 0.004633236210793257,
+   "per_target_mbon_cell_abs": [
+    0.004633236210793257,
+    0.0034977984614670277
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 198
+  },
+  "KCg-s1->MBON04": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON04",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0012316665379330516,
+   "abs_weight_sum": 0.0012316665379330516,
+   "median_edge_weight": 0.0002583712339401245,
+   "max_edge_weight": 0.000625558546744287,
+   "per_target_mbon_cell_abs": [
+    0.0007149240482249297,
+    0.0005167424387764186
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LR": 1,
+    "RL": 1,
+    "LL": 1
+   },
+   "raw_synapses": 13
+  },
+  "KCg-s1->MBON05": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON05",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.008331107906997204,
+   "abs_weight_sum": 0.008331107906997204,
+   "median_edge_weight": 0.0033827738370746374,
+   "max_edge_weight": 0.0047057680785655975,
+   "per_target_mbon_cell_abs": [
+    0.0033827738370746374,
+    0.004948333444190212
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RL": 1,
+    "LL": 1
+   },
+   "raw_synapses": 180
+  },
+  "KCg-s1->MBON09": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON09",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.01621209643781185,
+   "abs_weight_sum": 0.01621209643781185,
+   "median_edge_weight": 0.0040445830672979355,
+   "max_edge_weight": 0.004537815228104591,
+   "per_target_mbon_cell_abs": [
+    0.004270039498806,
+    0.004537815228104591,
+    0.0035851155407726765,
+    0.003819126170128584
+   ],
+   "hemisphere_pattern": {
+    "LL": 2,
+    "RR": 2
+   },
+   "raw_synapses": 293
+  },
+  "KCg-s1->MBON10": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON10",
+   "kc_cells": 2,
+   "mbon_cells": 9,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.003546888940036297,
+   "abs_weight_sum": 0.003546888940036297,
+   "median_edge_weight": 0.0017734444700181484,
+   "max_edge_weight": 0.002805049065500498,
+   "per_target_mbon_cell_abs": [
+    0.0007418397581204772,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.002805049065500498
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCg-s1->MBON11": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON11",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.005916057154536247,
+   "abs_weight_sum": 0.005916057154536247,
+   "median_edge_weight": 0.0028849621303379536,
+   "max_edge_weight": 0.002978834556415677,
+   "per_target_mbon_cell_abs": [
+    0.003031094813195523,
+    0.0028849621303379536
+   ],
+   "hemisphere_pattern": {
+    "RL": 1,
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 138
+  },
+  "KCg-s1->MBON12": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON12",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 3,
+   "weight_sum": 0.0018735381308943033,
+   "abs_weight_sum": 0.0018735381308943033,
+   "median_edge_weight": 0.0004139072843827307,
+   "max_edge_weight": 0.0013223625719547272,
+   "per_target_mbon_cell_abs": [
+    0.0013223625719547272,
+    0.0004139072843827307,
+    0.0,
+    0.0001372683618683368
+   ],
+   "hemisphere_pattern": {
+    "LL": 2,
+    "RR": 1
+   },
+   "raw_synapses": 13
+  },
+  "KCg-s1->MBON16": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON16",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0070983716286718845,
+   "abs_weight_sum": 0.0070983716286718845,
+   "median_edge_weight": 0.0035491858143359423,
+   "max_edge_weight": 0.004791566636413336,
+   "per_target_mbon_cell_abs": [
+    0.004791566636413336,
+    0.0023068049922585487
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 16
+  },
+  "KCg-s1->MBON17": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON17",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.001491842558607459,
+   "abs_weight_sum": 0.001491842558607459,
+   "median_edge_weight": 0.0007459212793037295,
+   "max_edge_weight": 0.0009905893821269274,
+   "per_target_mbon_cell_abs": [
+    0.0005012531182728708,
+    0.0009905893821269274
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCg-s1->MBON17-like": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON17-like",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0007733951788395643,
+   "abs_weight_sum": 0.0007733951788395643,
+   "median_edge_weight": 0.0007733951788395643,
+   "max_edge_weight": 0.0007733951788395643,
+   "per_target_mbon_cell_abs": [
+    0.0007733951788395643,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-s1->MBON20": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON20",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.006829946301877499,
+   "abs_weight_sum": 0.006829946301877499,
+   "median_edge_weight": 0.0034149731509387493,
+   "max_edge_weight": 0.003895004279911518,
+   "per_target_mbon_cell_abs": [
+    0.003895004279911518,
+    0.0029349420219659805
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 41
+  },
+  "KCg-s1->MBON21": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON21",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0045793140307068825,
+   "abs_weight_sum": 0.0045793140307068825,
+   "median_edge_weight": 0.0022896570153534412,
+   "max_edge_weight": 0.0026101642288267612,
+   "per_target_mbon_cell_abs": [
+    0.001969150034710765,
+    0.0026101642288267612
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 29
+  },
+  "KCg-s1->MBON22": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON22",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00046707323053851724,
+   "abs_weight_sum": 0.00046707323053851724,
+   "median_edge_weight": 0.00010200958786299452,
+   "max_edge_weight": 0.0002630540693644434,
+   "per_target_mbon_cell_abs": [
+    0.00020401917572598904,
+    0.0002630540693644434
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 4
+  },
+  "KCg-s1->MBON25,MBON34": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 2,
+   "mbon_cells": 7,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0032475877087563276,
+   "abs_weight_sum": 0.0032475877087563276,
+   "median_edge_weight": 0.0016237938543781638,
+   "max_edge_weight": 0.0018814675277099013,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0013661201810464263,
+    0.0,
+    0.0018814675277099013,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 1,
+    "LR": 1
+   },
+   "raw_synapses": 3
+  },
+  "KCg-s1->MBON25-like": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON25-like",
+   "kc_cells": 2,
+   "mbon_cells": 1,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0014534883666783571,
+   "abs_weight_sum": 0.0014534883666783571,
+   "median_edge_weight": 0.0014534883666783571,
+   "max_edge_weight": 0.0014534883666783571,
+   "per_target_mbon_cell_abs": [
+    0.0014534883666783571
+   ],
+   "hemisphere_pattern": {
+    "LR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-s1->MBON26": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON26",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0007743235910311341,
+   "abs_weight_sum": 0.0007743235910311341,
+   "median_edge_weight": 0.00038716179551556706,
+   "max_edge_weight": 0.0006041687447577715,
+   "per_target_mbon_cell_abs": [
+    0.0006041687447577715,
+    0.00017015484627336264
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 8
+  },
+  "KCg-s1->MBON27": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON27",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.009851274080574512,
+   "abs_weight_sum": 0.009851274080574512,
+   "median_edge_weight": 0.004925637040287256,
+   "max_edge_weight": 0.006144138053059578,
+   "per_target_mbon_cell_abs": [
+    0.006144138053059578,
+    0.003707136260345578
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 57
+  },
+  "KCg-s1->MBON28": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON28",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0028321146965026855,
+   "abs_weight_sum": 0.0028321146965026855,
+   "median_edge_weight": 0.0014160573482513428,
+   "max_edge_weight": 0.00184979650657624,
+   "per_target_mbon_cell_abs": [
+    0.0009823183063417673,
+    0.00184979650657624
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 8
+  },
+  "KCg-s1->MBON29": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON29",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0037018891889601946,
+   "abs_weight_sum": 0.0037018891889601946,
+   "median_edge_weight": 0.0007525263354182243,
+   "max_edge_weight": 0.0017574692610651255,
+   "per_target_mbon_cell_abs": [
+    0.002196836576331407,
+    0.0015050526708364487
+   ],
+   "hemisphere_pattern": {
+    "RL": 1,
+    "LL": 1,
+    "RR": 1,
+    "LR": 1
+   },
+   "raw_synapses": 17
+  },
+  "KCg-s1->MBON30": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON30",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.007864235900342464,
+   "abs_weight_sum": 0.007864235900342464,
+   "median_edge_weight": 0.001417110557667911,
+   "max_edge_weight": 0.004932889714837074,
+   "per_target_mbon_cell_abs": [
+    0.002816627762513235,
+    0.005047608079621568
+   ],
+   "hemisphere_pattern": {
+    "RL": 1,
+    "LL": 1,
+    "RR": 1,
+    "LR": 1
+   },
+   "raw_synapses": 73
+  },
+  "KCg-s1->MBON32": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON32",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.004573913756757975,
+   "abs_weight_sum": 0.004573913756757975,
+   "median_edge_weight": 0.0022869568783789873,
+   "max_edge_weight": 0.002934967400506139,
+   "per_target_mbon_cell_abs": [
+    0.002934967400506139,
+    0.001638946239836514
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 84
+  },
+  "KCg-s1->MBON33": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON33",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.006868986412882805,
+   "abs_weight_sum": 0.006868986412882805,
+   "median_edge_weight": 0.0034344932064414024,
+   "max_edge_weight": 0.0035511364694684744,
+   "per_target_mbon_cell_abs": [
+    0.0035511364694684744,
+    0.0033178499434143305
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 35
+  },
+  "KCg-s1->MBON35": {
+   "kc_type": "KCg-s1",
+   "mbon_type": "MBON35",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0015603991923853755,
+   "abs_weight_sum": 0.0015603991923853755,
+   "median_edge_weight": 0.0007801995961926877,
+   "max_edge_weight": 0.0008651879616081715,
+   "per_target_mbon_cell_abs": [
+    0.0008651879616081715,
+    0.000695211230777204
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 39
+  },
+  "KCg-s2->MBON01": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON01",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0021777136716991663,
+   "abs_weight_sum": 0.0021777136716991663,
+   "median_edge_weight": 0.0008610439253970981,
+   "max_edge_weight": 0.0012756676878780127,
+   "per_target_mbon_cell_abs": [
+    0.0009020460165629629,
+    0.0012756676878780127
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 53
+  },
+  "KCg-s2->MBON03": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON03",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 5.821060767630115e-05,
+   "abs_weight_sum": 5.821060767630115e-05,
+   "median_edge_weight": 5.821060767630115e-05,
+   "max_edge_weight": 5.821060767630115e-05,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    5.821060767630115e-05
+   ],
+   "hemisphere_pattern": {
+    "LR": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-s2->MBON04": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON04",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.004837300628423691,
+   "abs_weight_sum": 0.004837300628423691,
+   "median_edge_weight": 0.001033484935760498,
+   "max_edge_weight": 0.002680965233594179,
+   "per_target_mbon_cell_abs": [
+    0.002770330735074822,
+    0.002066969813313335
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RR": 1,
+    "LL": 1,
+    "RL": 1
+   },
+   "raw_synapses": 51
+  },
+  "KCg-s2->MBON05": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON05",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.013238362967967987,
+   "abs_weight_sum": 0.013238362967967987,
+   "median_edge_weight": 0.0062581864185631275,
+   "max_edge_weight": 0.006592072080820799,
+   "per_target_mbon_cell_abs": [
+    0.006592072080820799,
+    0.00664629100356251
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "LL": 1,
+    "RL": 1
+   },
+   "raw_synapses": 289
+  },
+  "KCg-s2->MBON09": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON09",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 5,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.00846653338521719,
+   "abs_weight_sum": 0.00846653338521719,
+   "median_edge_weight": 0.0018841022392734885,
+   "max_edge_weight": 0.002352941082790494,
+   "per_target_mbon_cell_abs": [
+    0.002324198605492711,
+    0.002352941082790494,
+    0.0018543701153248549,
+    0.001935023919941159
+   ],
+   "hemisphere_pattern": {
+    "LL": 2,
+    "RR": 2,
+    "LR": 1
+   },
+   "raw_synapses": 153
+  },
+  "KCg-s2->MBON11": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON11",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0037874551489949226,
+   "abs_weight_sum": 0.0037874551489949226,
+   "median_edge_weight": 0.0018937275744974613,
+   "max_edge_weight": 0.002271907636895776,
+   "per_target_mbon_cell_abs": [
+    0.001515547395683825,
+    0.002271907636895776
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 92
+  },
+  "KCg-s2->MBON12": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON12",
+   "kc_cells": 2,
+   "mbon_cells": 4,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 4,
+   "weight_sum": 0.00326430331915617,
+   "abs_weight_sum": 0.00326430331915617,
+   "median_edge_weight": 0.0009378260583616793,
+   "max_edge_weight": 0.001241721911355853,
+   "per_target_mbon_cell_abs": [
+    0.00014692917466163635,
+    0.001241721911355853,
+    0.0009147736127488315,
+    0.0009608785039745271
+   ],
+   "hemisphere_pattern": {
+    "LL": 2,
+    "RR": 2
+   },
+   "raw_synapses": 23
+  },
+  "KCg-s2->MBON20": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON20",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0011665490455925465,
+   "abs_weight_sum": 0.0011665490455925465,
+   "median_edge_weight": 0.0005832745227962732,
+   "max_edge_weight": 0.0006773920613341033,
+   "per_target_mbon_cell_abs": [
+    0.0006773920613341033,
+    0.000489157042466104
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 7
+  },
+  "KCg-s2->MBON21": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON21",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.006866099312901497,
+   "abs_weight_sum": 0.006866099312901497,
+   "median_edge_weight": 0.0034330496564507484,
+   "max_edge_weight": 0.004102395847439766,
+   "per_target_mbon_cell_abs": [
+    0.004102395847439766,
+    0.002763703465461731
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 43
+  },
+  "KCg-s2->MBON22": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON22",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 4,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0014602546580135822,
+   "abs_weight_sum": 0.0014602546580135822,
+   "median_edge_weight": 0.00021877788822166622,
+   "max_edge_weight": 0.0009206891991198063,
+   "per_target_mbon_cell_abs": [
+    0.0004080383441760205,
+    0.001052216233802028
+   ],
+   "hemisphere_pattern": {
+    "LR": 1,
+    "RR": 1,
+    "LL": 1,
+    "RL": 1
+   },
+   "raw_synapses": 12
+  },
+  "KCg-s2->MBON24": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON24",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0002687449741642922,
+   "abs_weight_sum": 0.0002687449741642922,
+   "median_edge_weight": 0.0002687449741642922,
+   "max_edge_weight": 0.0002687449741642922,
+   "per_target_mbon_cell_abs": [
+    0.0,
+    0.0002687449741642922
+   ],
+   "hemisphere_pattern": {
+    "LL": 1
+   },
+   "raw_synapses": 1
+  },
+  "KCg-s2->MBON25,MBON34": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON25,MBON34",
+   "kc_cells": 2,
+   "mbon_cells": 7,
+   "edges": 1,
+   "source_kc_cells": 1,
+   "target_mbon_cells": 1,
+   "weight_sum": 0.0019193857442587614,
+   "abs_weight_sum": 0.0019193857442587614,
+   "median_edge_weight": 0.0019193857442587614,
+   "max_edge_weight": 0.0019193857442587614,
+   "per_target_mbon_cell_abs": [
+    0.0019193857442587614,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "hemisphere_pattern": {
+    "RL": 1
+   },
+   "raw_synapses": 2
+  },
+  "KCg-s2->MBON26": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON26",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0027467217296361923,
+   "abs_weight_sum": 0.0027467217296361923,
+   "median_edge_weight": 0.0013733608648180962,
+   "max_edge_weight": 0.0020418581552803516,
+   "per_target_mbon_cell_abs": [
+    0.0007048635743558407,
+    0.0020418581552803516
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 31
+  },
+  "KCg-s2->MBON27": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON27",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.002830615732818842,
+   "abs_weight_sum": 0.002830615732818842,
+   "median_edge_weight": 0.001415307866409421,
+   "max_edge_weight": 0.001668211305513978,
+   "per_target_mbon_cell_abs": [
+    0.0011624045437201858,
+    0.001668211305513978
+   ],
+   "hemisphere_pattern": {
+    "RR": 1,
+    "LL": 1
+   },
+   "raw_synapses": 16
+  },
+  "KCg-s2->MBON29": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON29",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0039262487553060055,
+   "abs_weight_sum": 0.0039262487553060055,
+   "median_edge_weight": 0.001075037638656795,
+   "max_edge_weight": 0.0026362037751823664,
+   "per_target_mbon_cell_abs": [
+    0.0026362037751823664,
+    0.001290045169298537
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "LR": 1,
+    "RR": 1
+   },
+   "raw_synapses": 18
+  },
+  "KCg-s2->MBON30": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON30",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 3,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0008649671217426658,
+   "abs_weight_sum": 0.0008649671217426658,
+   "median_edge_weight": 0.00019425019854679704,
+   "max_edge_weight": 0.0005735918530263007,
+   "per_target_mbon_cell_abs": [
+    0.00029137529782019556,
+    0.0005735918530263007
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 8
+  },
+  "KCg-s2->MBON32": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON32",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.002843312919139862,
+   "abs_weight_sum": 0.002843312919139862,
+   "median_edge_weight": 0.001421656459569931,
+   "max_edge_weight": 0.0017506822478026152,
+   "per_target_mbon_cell_abs": [
+    0.0017506822478026152,
+    0.0010926307877525687
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 52
+  },
+  "KCg-s2->MBON33": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON33",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.00948265753686428,
+   "abs_weight_sum": 0.00948265753686428,
+   "median_edge_weight": 0.00474132876843214,
+   "max_edge_weight": 0.004866180010139942,
+   "per_target_mbon_cell_abs": [
+    0.004616477061063051,
+    0.004866180010139942
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 48
+  },
+  "KCg-s2->MBON35": {
+   "kc_type": "KCg-s2",
+   "mbon_type": "MBON35",
+   "kc_cells": 2,
+   "mbon_cells": 2,
+   "edges": 2,
+   "source_kc_cells": 2,
+   "target_mbon_cells": 2,
+   "weight_sum": 0.0013968200655654073,
+   "abs_weight_sum": 0.0013968200655654073,
+   "median_edge_weight": 0.0006984100327827036,
+   "max_edge_weight": 0.0008651879616081715,
+   "per_target_mbon_cell_abs": [
+    0.0008651879616081715,
+    0.0005316321039572358
+   ],
+   "hemisphere_pattern": {
+    "LL": 1,
+    "RR": 1
+   },
+   "raw_synapses": 35
+  }
+ }
+}

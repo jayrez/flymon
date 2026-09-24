@@ -1,6 +1,6 @@
 # Flymon project status
 
-Updated 23 September 2026 (Experiment 28). Flymon investigates whether Pokémon Red visual
+Updated 24 September 2026 (Experiment 29). Flymon investigates whether Pokémon Red visual
 information can pass through the real MaleCNS v1.0 FlyBrain simulation and produce
 biologically derived behaviour. A frozen descending-neuron controller now exists
 and has been run in closed loop (Experiments 7–14), but the project remains a
@@ -59,6 +59,7 @@ Full reports and exact encoders live under `results/experiment-NN-*/`. Summary:
 | 26 (Ph. 0–6) | Can the audited mushroom-body circuit support dopamine-gated plasticity? (biological-learning track, separate from E25) | **NO-GO**; 418-edge KCg-d→MBON01/11 set reproduced exactly and plasticity machinery tested, but stock FlyBrain holds the whole mushroom body (KCs, MBONs, PAM/PPL1 DANs) at the 50 Hz ceiling: no visual drive, DAN gate cannot open, zeroing all plastic edges changes MBONs −0.34 % |
 | 27 | Can a minimal dynamical intervention restore a responsive mushroom-body regime (connectome and 418-edge set frozen)? | **PARTIAL**; refractory ≥ 20 ms breaks saturation, 20 ms + APL×5 restores KCg-d visual selectivity (+7–13 %, confirmed), but no point also gives ≥ 10 % plastic leverage (best −6.6 %) or preregistered DAN headroom; nothing frozen, E26 Phases 3–6 not rerun |
 | 28 | Does a preregistered joint refractory × APL grid contain one point with KCg-d visual coding, fixed-amplitude DAN range and ≥ 10 % leverage on each MBON? | **PARTIAL — TRADEOFF REMAINS**; 25 unique points, none all-pass (frozen point = null); R3 region (APL ≥ 6, ≤ 60 ms) and R5 region (≥ 80 ms, APL ≤ 6) are disjoint; 80 ms + APL×3 passes everything except R3 and replicates on fresh seeds (descriptive); E26 Phases 3–6 not rerun |
+| 29 | Is the 418-edge KCg-d → MBON01/11 circuit too narrow — does a broader KC → MBON ← DAN circuit carry both frozen Pokémon visual coding and ≥ 10 % MBON leverage? | **NO BROADER CIRCUIT** (held-out); α′β′ KC → MBON13/16/17 (PPL104/105) have 23–57 % leverage (10/10 confirmed) and usable DANs, but no KC class passes the visual gate on held-out seeds (the screen passes were trial-state fluctuations); recommendation **DO NOT PROCEED — PIVOT EARLY** to the E25 live controller |
 
 ## Latest result (Experiment 15)
 
@@ -382,6 +383,29 @@ but no visual modulation (+1.4 %).
 and preregistered question about whether the 418-edge KCg-d → MBON01/11 circuit is too narrow. Nothing is
 to be broadened post hoc.
 
+## Latest result (Experiment 29 — broader mushroom-body circuit audit)
+
+E29 audited all 4,064 KCs (12 types) against the 9,201-cell visual-projection set and the full KC × MBON
+matrix. Only KCg-d (7.1 %) and KCab-p (2.5 %) receive substantial direct visual input. The original E26 edges
+supply only ~7 % of MBON01/11 input: 7th and 8th among KCg-d's own targets.
+
+Probe regime: 60 ms + APL×8, seeds 3001–3006. Four classes passed the frozen visual gate:
+
+- the three α′β′ types (+30–38 % to the bedroom frame, despite ~0 direct visual input);
+- KCab-p (−6 %).
+
+The hash-frozen ranking put α′β′ KC → MBON17/16/13/03 units first (28–43 % static input share, matched
+PPL104/PPL105/PAM06 DANs by topology). All 10 tested units had 23–57 % leverage in both 60/8 and 80/3; the E26
+references had only −2.5 % / −1.5 % at 60/8.
+
+On confirmation (seeds 3021–3030), leverage (−30 % to −34 %, 10/10) and matched-DAN range (+11–15 pp) held.
+**No KC class passed the visual gate** in either regime: KCapbp-ap2 +11.8 % in only 7/10 seeds, 0 % of cells
+modulated. The screen responses were population-wide trial-state fluctuations.
+
+**NO BROADER CIRCUIT. Leverage is solved; reliable Pokémon-driven KC activity is not.**
+**Recommendation: DO NOT PROCEED — PIVOT EARLY to the E25 live controller.** E25 is to be described as an
+externally evolved readout of fly visual activity, not biological learning.
+
 ## Reproducing and navigating
 
 - Experiment code is at the repository root (`run_*_experiment.py` / `analyze_*`),
@@ -390,6 +414,8 @@ to be broadened post hoc.
   `run_biological_pathway_experiment.py` (biological retina sweep),
   `analyze_biological_pathway_experiment.py` (held-out analysis);
   connectivity tracing lives in `flymon/pathway.py`.
+- Experiment 29: `audit_broader_mb_circuit.py` (static audit), `run_broader_mb_circuit.py` (visual / rank /
+  leverage / confirm), `analyze_broader_mb_circuit.py`; figures in `captures/experiment-29/`.
 - Experiment 28: `run_mb_joint_operating_point.py` (anchors / grid / select / confirm),
   `analyze_mb_joint_operating_point.py`; figures in `captures/experiment-28/`.
 - Experiment 27: `run_mb_operating_regime.py` (stock / sweep / diagnostic / confirm),

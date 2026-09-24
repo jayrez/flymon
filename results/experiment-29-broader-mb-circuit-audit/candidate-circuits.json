@@ -1,0 +1,322 @@
+{
+ "rule": "viable = visual gate AND leverage pass (60/8 -> coexisting; else 80/3 -> split) AND topology-matched DAN; confirmation order: coexisting first, then split, each by frozen rank; cap 3",
+ "circuits": [
+  {
+   "key": "KCapbp-ap2->MBON17",
+   "role": "candidate",
+   "rank": 1,
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON17",
+   "dan_type": "PPL104",
+   "topology_dan": "PPL104",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.2880324543610548,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.3141153081510934,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap2->MBON16",
+   "role": "candidate",
+   "rank": 2,
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON16",
+   "dan_type": "PPL104",
+   "topology_dan": "PPL104",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.3168316831683169,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.37549407114624506,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap2->MBON13",
+   "role": "candidate",
+   "rank": 3,
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON13",
+   "dan_type": "PPL105",
+   "topology_dan": "PPL105",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.304950495049505,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.29504950495049503,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap2->MBON03",
+   "role": "candidate",
+   "rank": 4,
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON03",
+   "dan_type": "PAM06",
+   "topology_dan": "PAM06",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.26719056974459726,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.21739130434782605,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-m->MBON13",
+   "role": "candidate",
+   "rank": 5,
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON13",
+   "dan_type": "PPL105",
+   "topology_dan": "PPL105",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.4081996434937611,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.32812499999999994,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-m->MBON17",
+   "role": "candidate",
+   "rank": 6,
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON17",
+   "dan_type": "PPL104",
+   "topology_dan": "PPL104",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.36174242424242425,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.3313253012048193,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-m->MBON15-like",
+   "role": "candidate",
+   "rank": 7,
+   "kc_type": "KCapbp-m",
+   "mbon_type": "MBON15-like",
+   "dan_type": "PPL103",
+   "topology_dan": "PPL103",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.33137254901960783,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.28694714131607335,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap1->MBON16",
+   "role": "candidate",
+   "rank": 8,
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON16",
+   "dan_type": "PPL104",
+   "topology_dan": "PPL104",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.40255009107468126,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.39525691699604737,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap2->MBON15-like",
+   "role": "candidate",
+   "rank": 9,
+   "kc_type": "KCapbp-ap2",
+   "mbon_type": "MBON15-like",
+   "dan_type": "PPL103",
+   "topology_dan": "PPL103",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.23018458197611288,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.2406417112299466,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCapbp-ap1->MBON28",
+   "role": "candidate",
+   "rank": 10,
+   "kc_type": "KCapbp-ap1",
+   "mbon_type": "MBON28",
+   "dan_type": "PPL104",
+   "topology_dan": "PPL104",
+   "visual_gate": true,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.5608365019011408,
+     "lower": 6,
+     "passes": true
+    },
+    "80/3": {
+     "rel": -0.565922920892495,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": true,
+   "status": "coexisting"
+  },
+  {
+   "key": "KCg-d->MBON01",
+   "role": "reference",
+   "rank": 130,
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON01",
+   "dan_type": "PAM01",
+   "topology_dan": "PAM01",
+   "visual_gate": false,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.024464831804281387,
+     "lower": 2,
+     "passes": false
+    },
+    "80/3": {
+     "rel": -0.16560509554140135,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": false,
+   "status": null
+  },
+  {
+   "key": "KCg-d->MBON11",
+   "role": "reference",
+   "rank": 131,
+   "kc_type": "KCg-d",
+   "mbon_type": "MBON11",
+   "dan_type": "PPL101",
+   "topology_dan": "PPL101",
+   "visual_gate": false,
+   "dan_match": true,
+   "leverage": {
+    "60/8": {
+     "rel": -0.015337423312883479,
+     "lower": 3,
+     "passes": false
+    },
+    "80/3": {
+     "rel": -0.15,
+     "lower": 6,
+     "passes": true
+    }
+   },
+   "viable": false,
+   "status": null
+  }
+ ],
+ "viable": [
+  "KCapbp-ap2->MBON17",
+  "KCapbp-ap2->MBON16",
+  "KCapbp-ap2->MBON13",
+  "KCapbp-ap2->MBON03",
+  "KCapbp-m->MBON13",
+  "KCapbp-m->MBON17",
+  "KCapbp-m->MBON15-like",
+  "KCapbp-ap1->MBON16",
+  "KCapbp-ap2->MBON15-like",
+  "KCapbp-ap1->MBON28"
+ ],
+ "confirmation_set": [
+  "KCapbp-ap2->MBON17",
+  "KCapbp-ap2->MBON16",
+  "KCapbp-ap2->MBON13"
+ ]
+}
