@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="904" font-family="sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="22" font-size="14">E30 action frequencies per condition</text>
+<line x1="300.0" y1="34" x2="300.0" y2="896" stroke="#999"/>
+<text x="292" y="50" text-anchor="end" font-size="11">champion|normal NONE</text>
+<rect x="300.0" y="38" width="48.3" height="15" fill="#275e85"/>
+<text x="894" y="50" font-size="11" text-anchor="end">+0.0891</text>
+<text x="292" y="74" text-anchor="end" font-size="11">champion|normal UP</text>
+<rect x="300.0" y="62" width="120.9" height="15" fill="#275e85"/>
+<text x="894" y="74" font-size="11" text-anchor="end">+0.2230</text>
+<text x="292" y="98" text-anchor="end" font-size="11">champion|normal DOWN</text>
+<rect x="300.0" y="86" width="61.2" height="15" fill="#275e85"/>
+<text x="894" y="98" font-size="11" text-anchor="end">+0.1129</text>
+<text x="292" y="122" text-anchor="end" font-size="11">champion|normal LEFT</text>
+<rect x="300.0" y="110" width="85.1" height="15" fill="#275e85"/>
+<text x="894" y="122" font-size="11" text-anchor="end">+0.1569</text>
+<text x="292" y="146" text-anchor="end" font-size="11">champion|normal RIGHT</text>
+<rect x="300.0" y="134" width="82.5" height="15" fill="#275e85"/>
+<text x="894" y="146" font-size="11" text-anchor="end">+0.1523</text>
+<text x="292" y="170" text-anchor="end" font-size="11">champion|normal A</text>
+<rect x="300.0" y="158" width="26.4" height="15" fill="#275e85"/>
+<text x="894" y="170" font-size="11" text-anchor="end">+0.0488</text>
+<text x="292" y="194" text-anchor="end" font-size="11">champion|normal B</text>
+<rect x="300.0" y="182" width="117.6" height="15" fill="#275e85"/>
+<text x="894" y="194" font-size="11" text-anchor="end">+0.2171</text>
+<text x="292" y="218" text-anchor="end" font-size="11">champion|none NONE</text>
+<rect x="300.0" y="206" width="73.9" height="15" fill="#275e85"/>
+<text x="894" y="218" font-size="11" text-anchor="end">+0.1363</text>
+<text x="292" y="242" text-anchor="end" font-size="11">champion|none UP</text>
+<rect x="300.0" y="230" width="91.9" height="15" fill="#275e85"/>
+<text x="894" y="242" font-size="11" text-anchor="end">+0.1696</text>
+<text x="292" y="266" text-anchor="end" font-size="11">champion|none DOWN</text>
+<rect x="300.0" y="254" width="75.1" height="15" fill="#275e85"/>
+<text x="894" y="266" font-size="11" text-anchor="end">+0.1386</text>
+<text x="292" y="290" text-anchor="end" font-size="11">champion|none LEFT</text>
+<rect x="300.0" y="278" width="79.3" height="15" fill="#275e85"/>
+<text x="894" y="290" font-size="11" text-anchor="end">+0.1464</text>
+<text x="292" y="314" text-anchor="end" font-size="11">champion|none RIGHT</text>
+<rect x="300.0" y="302" width="83.2" height="15" fill="#275e85"/>
+<text x="894" y="314" font-size="11" text-anchor="end">+0.1535</text>
+<text x="292" y="338" text-anchor="end" font-size="11">champion|none A</text>
+<rect x="300.0" y="326" width="59.1" height="15" fill="#275e85"/>
+<text x="894" y="338" font-size="11" text-anchor="end">+0.1091</text>
+<text x="292" y="362" text-anchor="end" font-size="11">champion|none B</text>
+<rect x="300.0" y="350" width="79.5" height="15" fill="#275e85"/>
+<text x="894" y="362" font-size="11" text-anchor="end">+0.1466</text>
+<text x="292" y="386" text-anchor="end" font-size="11">champion|shuffled NONE</text>
+<rect x="300.0" y="374" width="59.2" height="15" fill="#275e85"/>
+<text x="894" y="386" font-size="11" text-anchor="end">+0.1093</text>
+<text x="292" y="410" text-anchor="end" font-size="11">champion|shuffled UP</text>
+<rect x="300.0" y="398" width="101.2" height="15" fill="#275e85"/>
+<text x="894" y="410" font-size="11" text-anchor="end">+0.1867</text>
+<text x="292" y="434" text-anchor="end" font-size="11">champion|shuffled DOWN</text>
+<rect x="300.0" y="422" width="76.9" height="15" fill="#275e85"/>
+<text x="894" y="434" font-size="11" text-anchor="end">+0.1419</text>
+<text x="292" y="458" text-anchor="end" font-size="11">champion|shuffled LEFT</text>
+<rect x="300.0" y="446" width="73.7" height="15" fill="#275e85"/>
+<text x="894" y="458" font-size="11" text-anchor="end">+0.1360</text>
+<text x="292" y="482" text-anchor="end" font-size="11">champion|shuffled RIGHT</text>
+<rect x="300.0" y="470" width="90.7" height="15" fill="#275e85"/>
+<text x="894" y="482" font-size="11" text-anchor="end">+0.1673</text>
+<text x="292" y="506" text-anchor="end" font-size="11">champion|shuffled A</text>
+<rect x="300.0" y="494" width="35.9" height="15" fill="#275e85"/>
+<text x="894" y="506" font-size="11" text-anchor="end">+0.0662</text>
+<text x="292" y="530" text-anchor="end" font-size="11">champion|shuffled B</text>
+<rect x="300.0" y="518" width="104.4" height="15" fill="#275e85"/>
+<text x="894" y="530" font-size="11" text-anchor="end">+0.1926</text>
+<text x="292" y="554" text-anchor="end" font-size="11">random_matched|none NONE</text>
+<rect x="300.0" y="542" width="500.0" height="15" fill="#275e85"/>
+<text x="894" y="554" font-size="11" text-anchor="end">+0.9225</text>
+<text x="292" y="578" text-anchor="end" font-size="11">random_matched|none UP</text>
+<rect x="300.0" y="566" width="5.3" height="15" fill="#275e85"/>
+<text x="894" y="578" font-size="11" text-anchor="end">+0.0097</text>
+<text x="292" y="602" text-anchor="end" font-size="11">random_matched|none DOWN</text>
+<rect x="300.0" y="590" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="602" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="626" text-anchor="end" font-size="11">random_matched|none LEFT</text>
+<rect x="300.0" y="614" width="20.7" height="15" fill="#275e85"/>
+<text x="894" y="626" font-size="11" text-anchor="end">+0.0382</text>
+<text x="292" y="650" text-anchor="end" font-size="11">random_matched|none RIGHT</text>
+<rect x="300.0" y="638" width="15.6" height="15" fill="#275e85"/>
+<text x="894" y="650" font-size="11" text-anchor="end">+0.0287</text>
+<text x="292" y="674" text-anchor="end" font-size="11">random_matched|none A</text>
+<rect x="300.0" y="662" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="674" font-size="11" text-anchor="end">+0.0009</text>
+<text x="292" y="698" text-anchor="end" font-size="11">random_matched|none B</text>
+<rect x="300.0" y="686" width="0.5" height="15" fill="#275e85"/>
+<text x="894" y="698" font-size="11" text-anchor="end">+0.0000</text>
+<text x="292" y="722" text-anchor="end" font-size="11">random_uniform|none NONE</text>
+<rect x="300.0" y="710" width="77.1" height="15" fill="#275e85"/>
+<text x="894" y="722" font-size="11" text-anchor="end">+0.1422</text>
+<text x="292" y="746" text-anchor="end" font-size="11">random_uniform|none UP</text>
+<rect x="300.0" y="734" width="79.1" height="15" fill="#275e85"/>
+<text x="894" y="746" font-size="11" text-anchor="end">+0.1460</text>
+<text x="292" y="770" text-anchor="end" font-size="11">random_uniform|none DOWN</text>
+<rect x="300.0" y="758" width="79.3" height="15" fill="#275e85"/>
+<text x="894" y="770" font-size="11" text-anchor="end">+0.1464</text>
+<text x="292" y="794" text-anchor="end" font-size="11">random_uniform|none LEFT</text>
+<rect x="300.0" y="782" width="75.8" height="15" fill="#275e85"/>
+<text x="894" y="794" font-size="11" text-anchor="end">+0.1398</text>
+<text x="292" y="818" text-anchor="end" font-size="11">random_uniform|none RIGHT</text>
+<rect x="300.0" y="806" width="75.9" height="15" fill="#275e85"/>
+<text x="894" y="818" font-size="11" text-anchor="end">+0.1400</text>
+<text x="292" y="842" text-anchor="end" font-size="11">random_uniform|none A</text>
+<rect x="300.0" y="830" width="78.6" height="15" fill="#275e85"/>
+<text x="894" y="842" font-size="11" text-anchor="end">+0.1450</text>
+<text x="292" y="866" text-anchor="end" font-size="11">random_uniform|none B</text>
+<rect x="300.0" y="854" width="76.2" height="15" fill="#275e85"/>
+<text x="894" y="866" font-size="11" text-anchor="end">+0.1406</text>
+</svg>

@@ -1,0 +1,2347 @@
+{
+ "seeds": [
+  2601,
+  2602,
+  2603,
+  2604,
+  2605,
+  2606,
+  2607,
+  2608,
+  2609,
+  2610,
+  2611,
+  2612,
+  2613,
+  2614,
+  2615,
+  2616,
+  2617,
+  2618,
+  2619,
+  2620
+ ],
+ "budget": 1500,
+ "conditions": {
+  "champion|normal": {
+   "rows": [
+    {
+     "seed": 2601,
+     "historical": 1488.5171974522293,
+     "recovered": 1488.5171974522293,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 202,
+      "M6": 9
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 202,
+      "M6": 9
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2602,
+     "historical": 8181.484403669725,
+     "recovered": 8181.484403669725,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 23,
+      "M2": 202,
+      "M3": 373,
+      "M4": 421,
+      "M5": 559,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 23,
+      "M2": 202,
+      "M3": 373,
+      "M4": 421,
+      "M5": 559,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2603,
+     "historical": 5433.615450643777,
+     "recovered": 5433.615450643777,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 197,
+      "M3": 335,
+      "M4": 530,
+      "M6": 1413
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 197,
+      "M3": 335,
+      "M4": 530,
+      "M6": 1413
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2604,
+     "historical": 5423.311111111111,
+     "recovered": 5423.311111111111,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 85,
+      "M3": 318,
+      "M4": 367,
+      "M6": 178
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 85,
+      "M3": 318,
+      "M4": 367,
+      "M6": 178
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2605,
+     "historical": 5765.55687732342,
+     "recovered": 5765.55687732342,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 313,
+      "M3": 1316,
+      "M4": 1388,
+      "M6": 174
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 313,
+      "M3": 1316,
+      "M4": 1388,
+      "M6": 174
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2606,
+     "historical": 1326.5734439834025,
+     "recovered": 1326.5734439834025,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 5,
+      "M2": 356,
+      "M6": 855
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 5,
+      "M2": 356,
+      "M6": 855
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2607,
+     "historical": 1593.9092627599243,
+     "recovered": 1593.9092627599243,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M2": 159,
+      "M6": 381
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M2": 159,
+      "M6": 381
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2608,
+     "historical": 8347.134351145038,
+     "recovered": 8347.134351145038,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 187,
+      "M3": 441,
+      "M4": 541,
+      "M5": 890,
+      "M6": 353
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 187,
+      "M3": 441,
+      "M4": 541,
+      "M5": 890,
+      "M6": 353
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2609,
+     "historical": 4669.869230769231,
+     "recovered": 4669.869230769231,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 79,
+      "M3": 377,
+      "M6": 177
+     },
+     "recovered_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 79,
+      "M3": 377,
+      "M6": 177
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2610,
+     "historical": 1450.6236220472442,
+     "recovered": 1450.6236220472442,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 390,
+      "M6": 575
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 390,
+      "M6": 575
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2611,
+     "historical": 5798.821292775666,
+     "recovered": 5798.821292775666,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 328,
+      "M3": 910,
+      "M4": 1060,
+      "M6": 147
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 328,
+      "M3": 910,
+      "M4": 1060,
+      "M6": 147
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2612,
+     "historical": 5584.870036101083,
+     "recovered": 5584.870036101083,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 271,
+      "M3": 638,
+      "M4": 1239,
+      "M6": 964
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 271,
+      "M3": 638,
+      "M4": 1239,
+      "M6": 964
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2613,
+     "historical": 8238.745664739885,
+     "recovered": 8238.745664739885,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 139,
+      "M3": 569,
+      "M4": 612,
+      "M5": 722,
+      "M6": 458
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 139,
+      "M3": 569,
+      "M4": 612,
+      "M5": 722,
+      "M6": 458
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2614,
+     "historical": 4570.389323843417,
+     "recovered": 4570.389323843417,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 242,
+      "M3": 1474,
+      "M6": 392
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 242,
+      "M3": 1474,
+      "M6": 392
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2615,
+     "historical": 5622.750439367311,
+     "recovered": 5622.750439367311,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 278,
+      "M3": 622,
+      "M4": 1058,
+      "M6": 52
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 278,
+      "M3": 622,
+      "M4": 1058,
+      "M6": 52
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2616,
+     "historical": 1649.2,
+     "recovered": 1649.2,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 129,
+      "M6": 75
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 129,
+      "M6": 75
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2617,
+     "historical": 1570.8232209737828,
+     "recovered": 1570.8232209737828,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 283,
+      "M6": 818
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 283,
+      "M6": 818
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2618,
+     "historical": 1551.5913793103448,
+     "recovered": 1551.5913793103448,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 256,
+      "M6": 482
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 256,
+      "M6": 482
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2619,
+     "historical": 8517.753571428571,
+     "recovered": 8517.753571428571,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 21,
+      "M2": 352,
+      "M3": 1028,
+      "M4": 1071,
+      "M5": 1247,
+      "M6": 1
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 21,
+      "M2": 352,
+      "M3": 1028,
+      "M4": 1071,
+      "M5": 1247,
+      "M6": 1
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2620,
+     "historical": 8270.51452991453,
+     "recovered": 8270.51452991453,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 135,
+      "M3": 498,
+      "M4": 537,
+      "M5": 823,
+      "M6": 724
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 135,
+      "M3": 498,
+      "M4": 537,
+      "M5": 823,
+      "M6": 724
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    }
+   ],
+   "historical_median": 5428.463280877444,
+   "recovered_median": 5428.463280877444,
+   "rel_diff": 0.0,
+   "identical_fitness_seeds": 20,
+   "identical_milestone_seeds": 20
+  },
+  "champion|none": {
+   "rows": [
+    {
+     "seed": 2601,
+     "historical": 1069.7,
+     "recovered": 1069.7,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 24,
+      "M2": 146,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 24,
+      "M2": 146,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2602,
+     "historical": 8419.686440677966,
+     "recovered": 8419.686440677966,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 2,
+      "M2": 49,
+      "M3": 398,
+      "M4": 425,
+      "M5": 528,
+      "M6": 554
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 2,
+      "M2": 49,
+      "M3": 398,
+      "M4": 425,
+      "M5": 528,
+      "M6": 554
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2603,
+     "historical": 1419.2148148148149,
+     "recovered": 1419.2148148148149,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 28,
+      "M2": 706,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 28,
+      "M2": 706,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2604,
+     "historical": 924.6538975501113,
+     "recovered": 924.6538975501113,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 49,
+      "M6": 219
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 49,
+      "M6": 219
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2605,
+     "historical": 905.0322033898306,
+     "recovered": 905.0322033898306,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 318,
+      "M6": 41
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 318,
+      "M6": 41
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2606,
+     "historical": 1363.951201478743,
+     "recovered": 1363.951201478743,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 14,
+      "M1": 5,
+      "M2": 644,
+      "M6": 242
+     },
+     "recovered_milestones": {
+      "M0": 14,
+      "M1": 5,
+      "M2": 644,
+      "M6": 242
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2607,
+     "historical": 8329.000823045268,
+     "recovered": 8329.000823045268,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 48,
+      "M2": 338,
+      "M3": 834,
+      "M4": 861,
+      "M5": 1371,
+      "M6": 1
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 48,
+      "M2": 338,
+      "M3": 834,
+      "M4": 861,
+      "M5": 1371,
+      "M6": 1
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2608,
+     "historical": 1478.452268602541,
+     "recovered": 1478.452268602541,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 107,
+      "M6": 9
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 107,
+      "M6": 9
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2609,
+     "historical": 1345.7779816513762,
+     "recovered": 1345.7779816513762,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 254,
+      "M6": 150
+     },
+     "recovered_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 254,
+      "M6": 150
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2610,
+     "historical": 1126.5892933618843,
+     "recovered": 1126.5892933618843,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 77,
+      "M6": 5
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 77,
+      "M6": 5
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2611,
+     "historical": 1302.073469387755,
+     "recovered": 1302.073469387755,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 92,
+      "M6": 33
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 92,
+      "M6": 33
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2612,
+     "historical": 685.7773195876289,
+     "recovered": 685.7773195876289,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 447,
+      "M6": 10
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 447,
+      "M6": 10
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2613,
+     "historical": 1341.2296593186372,
+     "recovered": 1341.2296593186372,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 20,
+      "M2": 146,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 20,
+      "M2": 146,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2614,
+     "historical": 5355.869291338583,
+     "recovered": 5355.869291338583,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 283,
+      "M3": 648,
+      "M4": 1382,
+      "M6": 51
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 283,
+      "M3": 648,
+      "M4": 1382,
+      "M6": 51
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2615,
+     "historical": 906.8947368421052,
+     "recovered": 906.8947368421052,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 25,
+      "M2": 187,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 25,
+      "M2": 187,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2616,
+     "historical": 1104.1826741996233,
+     "recovered": 1104.1826741996233,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 241,
+      "M6": 427
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 241,
+      "M6": 427
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2617,
+     "historical": 1444.6240837696337,
+     "recovered": 1444.6240837696337,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 225,
+      "M6": 48
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 225,
+      "M6": 48
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2618,
+     "historical": 1312.2953125,
+     "recovered": 1312.2953125,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 88,
+      "M6": 157
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 88,
+      "M6": 157
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2619,
+     "historical": 1186.9208053691275,
+     "recovered": 1186.9208053691275,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 4,
+      "M2": 464,
+      "M6": 138
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 4,
+      "M2": 464,
+      "M6": 138
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2620,
+     "historical": 1343.2671755725191,
+     "recovered": 1343.2671755725191,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 29,
+      "M2": 184,
+      "M6": 2
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 29,
+      "M2": 184,
+      "M6": 2
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    }
+   ],
+   "historical_median": 1326.7624859093185,
+   "recovered_median": 1326.7624859093185,
+   "rel_diff": 0.0,
+   "identical_fitness_seeds": 20,
+   "identical_milestone_seeds": 20
+  },
+  "champion|shuffled": {
+   "rows": [
+    {
+     "seed": 2601,
+     "historical": 1169.9959287531806,
+     "recovered": 1169.9959287531806,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 43
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 43
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2602,
+     "historical": 1363.4604288499027,
+     "recovered": 1363.4604288499027,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 9,
+      "M2": 100,
+      "M6": 508
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 9,
+      "M2": 100,
+      "M6": 508
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2603,
+     "historical": 1347.8340136054421,
+     "recovered": 1347.8340136054421,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 193,
+      "M6": 1405
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 193,
+      "M6": 1405
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2604,
+     "historical": 1092.248598130841,
+     "recovered": 1092.248598130841,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 67,
+      "M6": 219
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 67,
+      "M6": 219
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2605,
+     "historical": 1375.5204081632653,
+     "recovered": 1375.5204081632653,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 187,
+      "M6": 42
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 187,
+      "M6": 42
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2606,
+     "historical": 1028.0060606060606,
+     "recovered": 1028.0060606060606,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 5,
+      "M2": 382,
+      "M6": 724
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 5,
+      "M2": 382,
+      "M6": 724
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2607,
+     "historical": 1255.859587955626,
+     "recovered": 1255.859587955626,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 7,
+      "M2": 237,
+      "M6": 510
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 7,
+      "M2": 237,
+      "M6": 510
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2608,
+     "historical": 1524.8428571428572,
+     "recovered": 1524.8428571428572,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 212,
+      "M6": 283
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 212,
+      "M6": 283
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2609,
+     "historical": 1017.0715025906736,
+     "recovered": 1017.0715025906736,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 69,
+      "M6": 482
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 69,
+      "M6": 482
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2610,
+     "historical": 1301.4331753554502,
+     "recovered": 1301.4331753554502,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 71,
+      "M6": 1115
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 71,
+      "M6": 1115
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2611,
+     "historical": 822.2853146853147,
+     "recovered": 822.2853146853147,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 95,
+      "M6": 147
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 95,
+      "M6": 147
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2612,
+     "historical": 919.7615062761506,
+     "recovered": 919.7615062761506,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 7,
+      "M2": 87,
+      "M6": 105
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 7,
+      "M2": 87,
+      "M6": 105
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2613,
+     "historical": 1538.7678391959798,
+     "recovered": 1538.7678391959798,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 9,
+      "M2": 71,
+      "M6": 546
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 9,
+      "M2": 71,
+      "M6": 546
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2614,
+     "historical": 1514.8328638497653,
+     "recovered": 1514.8328638497653,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 255,
+      "M6": 90
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 3,
+      "M2": 255,
+      "M6": 90
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2615,
+     "historical": 1380.562962962963,
+     "recovered": 1380.562962962963,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 21,
+      "M6": 336
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 21,
+      "M6": 336
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2616,
+     "historical": 1357.436165577342,
+     "recovered": 1357.436165577342,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 125,
+      "M6": 1135
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 1,
+      "M2": 125,
+      "M6": 1135
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2617,
+     "historical": 989.3426294820717,
+     "recovered": 989.3426294820717,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 229,
+      "M6": 38
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 229,
+      "M6": 38
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2618,
+     "historical": 739.9630390143737,
+     "recovered": 739.9630390143737,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 12,
+      "M2": 273,
+      "M6": 509
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 12,
+      "M2": 273,
+      "M6": 509
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2619,
+     "historical": 1230.1029469548134,
+     "recovered": 1230.1029469548134,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 4,
+      "M2": 169,
+      "M6": 116
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 4,
+      "M2": 169,
+      "M6": 116
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2620,
+     "historical": 1165.5328519855595,
+     "recovered": 1165.5328519855595,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 4,
+      "M2": 286,
+      "M6": 187
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 4,
+      "M2": 286,
+      "M6": 187
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    }
+   ],
+   "historical_median": 1242.9812674552197,
+   "recovered_median": 1242.9812674552197,
+   "rel_diff": 0.0,
+   "identical_fitness_seeds": 20,
+   "identical_milestone_seeds": 20
+  },
+  "random_matched|none": {
+   "rows": [
+    {
+     "seed": 2601,
+     "historical": 903.8292682926829,
+     "recovered": 903.8292682926829,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 110,
+      "M1": 5,
+      "M2": 1104
+     },
+     "recovered_milestones": {
+      "M0": 110,
+      "M1": 5,
+      "M2": 1104
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2602,
+     "historical": 981.1333333333333,
+     "recovered": 981.1333333333333,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 111,
+      "M1": 7,
+      "M2": 571
+     },
+     "recovered_milestones": {
+      "M0": 111,
+      "M1": 7,
+      "M2": 571
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2603,
+     "historical": -168.25,
+     "recovered": -168.25,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 101,
+      "M1": 25
+     },
+     "recovered_milestones": {
+      "M0": 101,
+      "M1": 25
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2604,
+     "historical": -158.2123456790124,
+     "recovered": -158.2123456790124,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 127,
+      "M1": 3
+     },
+     "recovered_milestones": {
+      "M0": 127,
+      "M1": 3
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2605,
+     "historical": -149.17777777777775,
+     "recovered": -149.17777777777775,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 143,
+      "M1": 4
+     },
+     "recovered_milestones": {
+      "M0": 143,
+      "M1": 4
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2606,
+     "historical": 991.5,
+     "recovered": 991.5,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 116,
+      "M1": 1,
+      "M2": 1060
+     },
+     "recovered_milestones": {
+      "M0": 116,
+      "M1": 1,
+      "M2": 1060
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2607,
+     "historical": 906.7813953488372,
+     "recovered": 906.7813953488372,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 232,
+      "M1": 34,
+      "M2": 868
+     },
+     "recovered_milestones": {
+      "M0": 232,
+      "M1": 34,
+      "M2": 868
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2608,
+     "historical": 923.0727272727272,
+     "recovered": 923.0727272727272,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 120,
+      "M1": 15,
+      "M2": 658
+     },
+     "recovered_milestones": {
+      "M0": 120,
+      "M1": 15,
+      "M2": 658
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2609,
+     "historical": 896.0871794871796,
+     "recovered": 896.0871794871796,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 146,
+      "M1": 12,
+      "M2": 1218
+     },
+     "recovered_milestones": {
+      "M0": 146,
+      "M1": 12,
+      "M2": 1218
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2610,
+     "historical": -184.69565217391306,
+     "recovered": -184.69565217391306,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 129,
+      "M1": 36
+     },
+     "recovered_milestones": {
+      "M0": 129,
+      "M1": 36
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2611,
+     "historical": 917.4,
+     "recovered": 917.4,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 116,
+      "M1": 14,
+      "M2": 781
+     },
+     "recovered_milestones": {
+      "M0": 116,
+      "M1": 14,
+      "M2": 781
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2612,
+     "historical": 983.7333333333333,
+     "recovered": 983.7333333333333,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 97,
+      "M1": 3,
+      "M2": 606
+     },
+     "recovered_milestones": {
+      "M0": 97,
+      "M1": 3,
+      "M2": 606
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2613,
+     "historical": 791.3333333333334,
+     "recovered": 791.3333333333334,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 68,
+      "M1": 29,
+      "M2": 1235,
+      "M6": 1433
+     },
+     "recovered_milestones": {
+      "M0": 68,
+      "M1": 29,
+      "M2": 1235,
+      "M6": 1433
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2614,
+     "historical": 702.0666666666666,
+     "recovered": 702.0666666666666,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 117,
+      "M1": 4,
+      "M2": 797,
+      "M6": 974
+     },
+     "recovered_milestones": {
+      "M0": 117,
+      "M1": 4,
+      "M2": 797,
+      "M6": 974
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2615,
+     "historical": 1038.1837837837838,
+     "recovered": 1038.1837837837838,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 92,
+      "M1": 10,
+      "M2": 650
+     },
+     "recovered_milestones": {
+      "M0": 92,
+      "M1": 10,
+      "M2": 650
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2616,
+     "historical": -508.73333333333335,
+     "recovered": -508.73333333333335,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 174,
+      "M1": 87,
+      "M6": 218
+     },
+     "recovered_milestones": {
+      "M0": 174,
+      "M1": 87,
+      "M6": 218
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2617,
+     "historical": 981.5692307692308,
+     "recovered": 981.5692307692308,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 99,
+      "M1": 55,
+      "M2": 666
+     },
+     "recovered_milestones": {
+      "M0": 99,
+      "M1": 55,
+      "M2": 666
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2618,
+     "historical": 987.3333333333334,
+     "recovered": 987.3333333333334,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 164,
+      "M1": 29,
+      "M2": 509
+     },
+     "recovered_milestones": {
+      "M0": 164,
+      "M1": 29,
+      "M2": 509
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2619,
+     "historical": -109.72207792207791,
+     "recovered": -109.72207792207791,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 113,
+      "M1": 31
+     },
+     "recovered_milestones": {
+      "M0": 113,
+      "M1": 31
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2620,
+     "historical": 920.152380952381,
+     "recovered": 920.152380952381,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 83,
+      "M1": 20,
+      "M2": 1246
+     },
+     "recovered_milestones": {
+      "M0": 83,
+      "M1": 20,
+      "M2": 1246
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    }
+   ],
+   "historical_median": 905.3053318207601,
+   "recovered_median": 905.3053318207601,
+   "rel_diff": 0.0,
+   "identical_fitness_seeds": 20,
+   "identical_milestone_seeds": 20
+  },
+  "random_uniform|none": {
+   "rows": [
+    {
+     "seed": 2601,
+     "historical": 5177.532110091743,
+     "recovered": 5177.532110091743,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 196,
+      "M3": 1366,
+      "M4": 1389,
+      "M6": 37
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 196,
+      "M3": 1366,
+      "M4": 1389,
+      "M6": 37
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2602,
+     "historical": 5047.330612244898,
+     "recovered": 5047.330612244898,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 12,
+      "M1": 73,
+      "M2": 294,
+      "M3": 786,
+      "M4": 847,
+      "M6": 1
+     },
+     "recovered_milestones": {
+      "M0": 12,
+      "M1": 73,
+      "M2": 294,
+      "M3": 786,
+      "M4": 847,
+      "M6": 1
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2603,
+     "historical": 777.6647181628393,
+     "recovered": 777.6647181628393,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 1448,
+      "M6": 115
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 1448,
+      "M6": 115
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2604,
+     "historical": 831.5216284987278,
+     "recovered": 831.5216284987278,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M2": 330,
+      "M6": 355
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M2": 330,
+      "M6": 355
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2605,
+     "historical": 1412.0486891385767,
+     "recovered": 1412.0486891385767,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 352,
+      "M6": 6
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 352,
+      "M6": 6
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2606,
+     "historical": 4167.717117117118,
+     "recovered": 4167.717117117118,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 32,
+      "M2": 321,
+      "M3": 1407,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 32,
+      "M2": 321,
+      "M3": 1407,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2607,
+     "historical": 5033.01646090535,
+     "recovered": 5033.01646090535,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 234,
+      "M3": 950,
+      "M4": 980,
+      "M6": 419
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 234,
+      "M3": 950,
+      "M4": 980,
+      "M6": 419
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2608,
+     "historical": -316.92258064516136,
+     "recovered": -316.92258064516136,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M6": 190
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M6": 190
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2609,
+     "historical": 901.6835164835165,
+     "recovered": 901.6835164835165,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 49,
+      "M6": 323
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 49,
+      "M6": 323
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2610,
+     "historical": 5656.376545842218,
+     "recovered": 5656.376545842218,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 71,
+      "M3": 309,
+      "M4": 371,
+      "M6": 277
+     },
+     "recovered_milestones": {
+      "M0": 9,
+      "M1": 2,
+      "M2": 71,
+      "M3": 309,
+      "M4": 371,
+      "M6": 277
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2611,
+     "historical": 8212.919463087248,
+     "recovered": 8212.919463087248,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 12,
+      "M1": 35,
+      "M2": 285,
+      "M3": 561,
+      "M4": 635,
+      "M5": 830,
+      "M6": 0
+     },
+     "recovered_milestones": {
+      "M0": 12,
+      "M1": 35,
+      "M2": 285,
+      "M3": 561,
+      "M4": 635,
+      "M5": 830,
+      "M6": 0
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2612,
+     "historical": 1355.646153846154,
+     "recovered": 1355.646153846154,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 775,
+      "M6": 181
+     },
+     "recovered_milestones": {
+      "M0": 12,
+      "M1": 1,
+      "M2": 775,
+      "M6": 181
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2613,
+     "historical": 4591.297579143389,
+     "recovered": 4591.297579143389,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 150,
+      "M3": 1072,
+      "M6": 612
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 1,
+      "M2": 150,
+      "M3": 1072,
+      "M6": 612
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2614,
+     "historical": 847.2736842105263,
+     "recovered": 847.2736842105263,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 1076,
+      "M6": 655
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 4,
+      "M2": 1076,
+      "M6": 655
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2615,
+     "historical": 297.88625235404896,
+     "recovered": 297.88625235404896,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M6": 39
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 2,
+      "M6": 39
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2616,
+     "historical": 5696.71586998088,
+     "recovered": 5696.71586998088,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 159,
+      "M3": 636,
+      "M4": 687,
+      "M6": 97
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 159,
+      "M3": 636,
+      "M4": 687,
+      "M6": 97
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2617,
+     "historical": 3915.4004089979553,
+     "recovered": 3915.4004089979553,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 397,
+      "M3": 1296,
+      "M6": 262
+     },
+     "recovered_milestones": {
+      "M0": 10,
+      "M1": 1,
+      "M2": 397,
+      "M3": 1296,
+      "M6": 262
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2618,
+     "historical": 891.2860215053764,
+     "recovered": 891.2860215053764,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 51,
+      "M6": 87
+     },
+     "recovered_milestones": {
+      "M0": 11,
+      "M1": 2,
+      "M2": 51,
+      "M6": 87
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2619,
+     "historical": 917.2266159695818,
+     "recovered": 917.2266159695818,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 13,
+      "M1": 3,
+      "M2": 542,
+      "M6": 646
+     },
+     "recovered_milestones": {
+      "M0": 13,
+      "M1": 3,
+      "M2": 542,
+      "M6": 646
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    },
+    {
+     "seed": 2620,
+     "historical": 1051.439243498818,
+     "recovered": 1051.439243498818,
+     "identical_fitness": true,
+     "historical_milestones": {
+      "M0": 15,
+      "M1": 79,
+      "M2": 346,
+      "M6": 2
+     },
+     "recovered_milestones": {
+      "M0": 15,
+      "M1": 79,
+      "M2": 346,
+      "M6": 2
+     },
+     "identical_milestones": true,
+     "identical_actions": true
+    }
+   ],
+   "historical_median": 1383.8474214923654,
+   "recovered_median": 1383.8474214923654,
+   "rel_diff": 0.0,
+   "identical_fitness_seeds": 20,
+   "identical_milestone_seeds": 20
+  }
+ },
+ "champion_action_logs": [
+  {
+   "seed": 2601,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2602,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2603,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2604,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2605,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2606,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2607,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2608,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2609,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2610,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2611,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2612,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2613,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2614,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2615,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2616,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2617,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2618,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2619,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  },
+  {
+   "seed": 2620,
+   "identical_decisions": 1500,
+   "note": "E25 logged NONE as null; normalised to \"NONE\" before comparison",
+   "of": 1500
+  }
+ ],
+ "champion": {
+  "n": 20,
+  "median": 5428.463280877444,
+  "mean": 4752.802720467985,
+  "p10": 1484.7278399117308,
+  "worst": 1326.5734439834025,
+  "best": 8517.753571428571,
+  "per_seed": {
+   "2601": 1488.5171974522293,
+   "2602": 8181.484403669725,
+   "2603": 5433.615450643777,
+   "2604": 5423.311111111111,
+   "2605": 5765.55687732342,
+   "2606": 1326.5734439834025,
+   "2607": 1593.9092627599243,
+   "2608": 8347.134351145038,
+   "2609": 4669.869230769231,
+   "2610": 1450.6236220472442,
+   "2611": 5798.821292775666,
+   "2612": 5584.870036101083,
+   "2613": 8238.745664739885,
+   "2614": 4570.389323843417,
+   "2615": 5622.750439367311,
+   "2616": 1649.2,
+   "2617": 1570.8232209737828,
+   "2618": 1551.5913793103448,
+   "2619": 8517.753571428571,
+   "2620": 8270.51452991453
+  },
+  "bedroom_exit": 1.0,
+  "house_exit": 0.65,
+  "oak_lab": 0.25,
+  "route1": 0.0,
+  "battle": 0.0,
+  "e25_milestone_rate": {
+   "M1": 1.0,
+   "M2": 1.0,
+   "M3": 0.65,
+   "M4": 0.55,
+   "M5": 0.25,
+   "M6": 1.0,
+   "M7": 0.0,
+   "M8": 0.0
+  },
+  "unique_tiles": 82.4,
+  "window_decisions": 124.65,
+  "e25_lock_seed_fraction": 0.4,
+  "action_fraction": {
+   "NONE": 0.08906666666666668,
+   "UP": 0.22303333333333336,
+   "DOWN": 0.11286666666666664,
+   "LEFT": 0.1569333333333333,
+   "RIGHT": 0.1522666666666667,
+   "A": 0.048766666666666666,
+   "B": 0.21706666666666669
+  }
+ },
+ "historical": {
+  "n": 20,
+  "mean": 4752.802720467985,
+  "median": 5428.463280877444,
+  "p10": 1484.7278399117308,
+  "worst": 1326.5734439834025,
+  "best": 8517.753571428571,
+  "milestone_rate": {
+   "M1": 1.0,
+   "M2": 1.0,
+   "M3": 0.65,
+   "M4": 0.55,
+   "M5": 0.25,
+   "M6": 1.0,
+   "M7": 0.0,
+   "M8": 0.0
+  },
+  "major_seeds": 13,
+  "unique_tiles": 82.4,
+  "unique_maps": 2.9,
+  "loop_fraction_median": 0.31733333333333336,
+  "idle_fraction": 0.0,
+  "lock_seed_fraction": 0.4,
+  "completed_interactions": 5.9,
+  "action_fraction": {
+   "NONE": 0.08906666666666668,
+   "UP": 0.22303333333333336,
+   "DOWN": 0.11286666666666664,
+   "LEFT": 0.1569333333333333,
+   "RIGHT": 0.1522666666666667,
+   "A": 0.048766666666666666,
+   "B": 0.21706666666666669
+  }
+ },
+ "gate_S1": {
+  "scalar_within_10pct": true,
+  "action_logs_identical_all_seeds": true,
+  "house_exits_common": true,
+  "oak_lab_sometimes": true,
+  "route1_not_reliable": true,
+  "pass": true
+ }
+}

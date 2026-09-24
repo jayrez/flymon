@@ -1,0 +1,52 @@
+{
+ "S1": {
+  "scalar_within_10pct": true,
+  "action_logs_identical_all_seeds": true,
+  "house_exits_common": true,
+  "oak_lab_sometimes": true,
+  "route1_not_reliable": true,
+  "pass": true
+ },
+ "S2": {
+  "no_vision_drop": 0.7555915150825403,
+  "shuffled_drop": 0.7710252048984465,
+  "pass": true
+ },
+ "S3": {
+  "full_duration": true,
+  "all_faults_recovered": true,
+  "no_unplanned_failures": true,
+  "completed_episode_every_hour": true,
+  "memory_growth_below_200mb": true,
+  "pass": true
+ },
+ "S4": {
+  "schema_fields_present": true,
+  "endpoints": true,
+  "broadcast_and_research_pages": true,
+  "overlay_read_only": true,
+  "required_fields": true,
+  "pass": true
+ },
+ "S5": {
+  "provenance_json": true,
+  "overlay_panel": true,
+  "broadcast_footer": true,
+  "brain_sim_disclosed": true,
+  "readme_boundary": true,
+  "pass": true
+ },
+ "passed": [
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5"
+ ],
+ "verdict": "STREAM READY WITH CAVEATS",
+ "caveats": [
+  "gameplay weak: never Route 1 or a battle; loops on Oak's Lab starter / exit dialogue",
+  "not conventionally better than uniform-random buttons on aggregate fitness (p = 0.06)",
+  "3/8 E25 finalists were not vision-dependent (the champion is)"
+ ]
+}

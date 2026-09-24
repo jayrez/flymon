@@ -1,0 +1,1236 @@
+{
+  "architecture": "t4",
+  "firsts": {
+    "first_down_use": 0,
+    "first_consistent_bedroom_exit": 3,
+    "first_bedroom_exit": 0,
+    "first_house_exit": 0,
+    "first_outdoor_navigation": 0,
+    "first_other_map": 3,
+    "first_route1": null,
+    "first_completed_interaction": 0,
+    "first_battle": null
+  },
+  "finalists": [
+    {
+      "rank": 1,
+      "sha256": "17ddb2208806b55a3fa6aa686fdfcdf6ae6fddb0faa37cd1a92531ff5ec357fe",
+      "training_mean_fitness": 3240.6558990973763,
+      "normal": {
+        "n": 20,
+        "mean": 4300.107293611987,
+        "median": 5088.095899536593,
+        "p10": 372.329131213614,
+        "worst": 221.76190476190476,
+        "best": 8645.55264270613,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.85,
+          "M3": 0.6,
+          "M4": 0.5,
+          "M5": 0.2,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 12,
+        "unique_tiles": 86.15,
+        "unique_maps": 2.65,
+        "loop_fraction_median": 0.31533333333333335,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.3,
+        "completed_interactions": 3.75,
+        "action_fraction": {
+          "NONE": 0.10110000000000001,
+          "UP": 0.19786666666666664,
+          "DOWN": 0.17826666666666663,
+          "LEFT": 0.14436666666666667,
+          "RIGHT": 0.14850000000000002,
+          "A": 0.045366666666666666,
+          "B": 0.18453333333333333
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2629.7144052688045,
+        "median": 1294.7216600909637,
+        "p10": 893.715057616108,
+        "worst": 803.4053097345133,
+        "best": 8930.967354596623,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.35,
+          "M4": 0.2,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 7,
+        "unique_tiles": 80.65,
+        "unique_maps": 2.4,
+        "loop_fraction_median": 0.5146666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.8,
+        "completed_interactions": 5.25,
+        "action_fraction": {
+          "NONE": 0.14463333333333334,
+          "UP": 0.1699,
+          "DOWN": 0.13479999999999998,
+          "LEFT": 0.1570333333333333,
+          "RIGHT": 0.16346666666666665,
+          "A": 0.09966666666666667,
+          "B": 0.1305
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 2952.9440537615774,
+        "median": 1365.279727028079,
+        "p10": 1048.330181585256,
+        "worst": 752.6437619961612,
+        "best": 8874.509933774834,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.4,
+          "M4": 0.2,
+          "M5": 0.1,
+          "M6": 0.85,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 8,
+        "unique_tiles": 76.15,
+        "unique_maps": 2.5,
+        "loop_fraction_median": 0.38966666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.7,
+        "completed_interactions": 2.2,
+        "action_fraction": {
+          "NONE": 0.10103333333333334,
+          "UP": 0.17826666666666666,
+          "DOWN": 0.17310000000000003,
+          "LEFT": 0.13656666666666667,
+          "RIGHT": 0.15503333333333333,
+          "A": 0.05213333333333333,
+          "B": 0.20386666666666664
+        }
+      },
+      "no_vision_drop": 0.7455390610446468,
+      "shuffled_drop": 0.7316717778152679,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    },
+    {
+      "rank": 2,
+      "sha256": "f91da80e0884b6523df4879ac6fb55f211d15744f63899b82ca97ec4b3e8a089",
+      "training_mean_fitness": 3164.3356597991674,
+      "normal": {
+        "n": 20,
+        "mean": 3941.5058368345044,
+        "median": 3102.1970000494225,
+        "p10": 1457.4586971469932,
+        "worst": 1337.135135135135,
+        "best": 8578.071844660193,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.5,
+          "M4": 0.45,
+          "M5": 0.15,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 10,
+        "unique_tiles": 74.8,
+        "unique_maps": 2.65,
+        "loop_fraction_median": 0.3883333333333333,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.25,
+        "completed_interactions": 5.75,
+        "action_fraction": {
+          "NONE": 0.09503333333333333,
+          "UP": 0.19669999999999999,
+          "DOWN": 0.15640000000000004,
+          "LEFT": 0.17246666666666666,
+          "RIGHT": 0.1404,
+          "A": 0.05669999999999999,
+          "B": 0.1823
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2148.8141404425614,
+        "median": 1210.9448845352852,
+        "p10": 890.3438902886762,
+        "worst": 783.3979035639413,
+        "best": 5737.820408163266,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.25,
+          "M4": 0.2,
+          "M5": 0.0,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 5,
+        "unique_tiles": 77.25,
+        "unique_maps": 2.25,
+        "loop_fraction_median": 0.5856666666666667,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.9,
+        "completed_interactions": 5.8,
+        "action_fraction": {
+          "NONE": 0.13093333333333332,
+          "UP": 0.1731333333333333,
+          "DOWN": 0.1445,
+          "LEFT": 0.14146666666666668,
+          "RIGHT": 0.13256666666666667,
+          "A": 0.11489999999999997,
+          "B": 0.1625
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 2253.0531510241794,
+        "median": 1419.614547820668,
+        "p10": 991.4447034258759,
+        "worst": 642.3,
+        "best": 8919.14188034188,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.2,
+          "M4": 0.15,
+          "M5": 0.05,
+          "M6": 0.95,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 4,
+        "unique_tiles": 69.7,
+        "unique_maps": 2.25,
+        "loop_fraction_median": 0.395,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.4,
+        "completed_interactions": 3.05,
+        "action_fraction": {
+          "NONE": 0.0951,
+          "UP": 0.1838,
+          "DOWN": 0.14293333333333333,
+          "LEFT": 0.17633333333333331,
+          "RIGHT": 0.14923333333333333,
+          "A": 0.05586666666666666,
+          "B": 0.19673333333333334
+        }
+      },
+      "no_vision_drop": 0.6096492632427943,
+      "shuffled_drop": 0.5423841400794175,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    },
+    {
+      "rank": 3,
+      "sha256": "c43ec6331418f143dffb8f66a20622ca362a2fa8dda972bfbbee156111fe46d4",
+      "training_mean_fitness": 2386.2179487179487,
+      "normal": {
+        "n": 20,
+        "mean": 3993.1370413331774,
+        "median": 3072.1959513298157,
+        "p10": 1417.7596234723508,
+        "worst": 1221.0017094017094,
+        "best": 8532.771962616822,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.5,
+          "M4": 0.4,
+          "M5": 0.2,
+          "M6": 0.9,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 10,
+        "unique_tiles": 80.15,
+        "unique_maps": 2.7,
+        "loop_fraction_median": 0.32866666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.35,
+        "completed_interactions": 4.7,
+        "action_fraction": {
+          "NONE": 0.10623333333333333,
+          "UP": 0.23009999999999997,
+          "DOWN": 0.14076666666666665,
+          "LEFT": 0.1443333333333333,
+          "RIGHT": 0.1489333333333333,
+          "A": 0.046266666666666664,
+          "B": 0.18336666666666668
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2408.63207557005,
+        "median": 1283.8503509702377,
+        "p10": 880.4638135231945,
+        "worst": 852.4269972451791,
+        "best": 8638.666197183098,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.25,
+          "M4": 0.15,
+          "M5": 0.1,
+          "M6": 0.95,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 5,
+        "unique_tiles": 77.85,
+        "unique_maps": 2.35,
+        "loop_fraction_median": 0.5293333333333333,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.85,
+        "completed_interactions": 4.2,
+        "action_fraction": {
+          "NONE": 0.15486666666666665,
+          "UP": 0.16046666666666667,
+          "DOWN": 0.12363333333333333,
+          "LEFT": 0.15330000000000002,
+          "RIGHT": 0.1647,
+          "A": 0.09913333333333334,
+          "B": 0.14390000000000003
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 1993.6518591696743,
+        "median": 1282.0582334509613,
+        "p10": 903.04944365525,
+        "worst": 804.0558659217877,
+        "best": 8386.212887828162,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.2,
+          "M4": 0.05,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 4,
+        "unique_tiles": 66.8,
+        "unique_maps": 2.25,
+        "loop_fraction_median": 0.39766666666666667,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.7,
+        "completed_interactions": 2.05,
+        "action_fraction": {
+          "NONE": 0.11816666666666664,
+          "UP": 0.194,
+          "DOWN": 0.14776666666666666,
+          "LEFT": 0.1323666666666667,
+          "RIGHT": 0.16133333333333333,
+          "A": 0.059899999999999995,
+          "B": 0.18646666666666667
+        }
+      },
+      "no_vision_drop": 0.5821066197243973,
+      "shuffled_drop": 0.5826899541039966,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    },
+    {
+      "rank": 4,
+      "sha256": "22cbbc50c2240ee4b3ada0d9f1c94a8a73b59723d517cd65fe04d72b0fcff055",
+      "training_mean_fitness": 2222.949518557113,
+      "normal": {
+        "n": 20,
+        "mean": 3206.9584301461464,
+        "median": 2999.234204550147,
+        "p10": 955.1480198565913,
+        "worst": 868.1890499194847,
+        "best": 5809.996202531645,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.5,
+          "M4": 0.3,
+          "M5": 0.0,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 10,
+        "unique_tiles": 81.4,
+        "unique_maps": 2.5,
+        "loop_fraction_median": 0.37966666666666665,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.65,
+        "completed_interactions": 3.5,
+        "action_fraction": {
+          "NONE": 0.13519999999999996,
+          "UP": 0.1628,
+          "DOWN": 0.12803333333333333,
+          "LEFT": 0.22766666666666668,
+          "RIGHT": 0.19590000000000002,
+          "A": 0.04713333333333333,
+          "B": 0.10326666666666666
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2011.5366839773644,
+        "median": 1194.0017698607346,
+        "p10": 82.99151395631067,
+        "worst": -286.396875,
+        "best": 8235.755555555555,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.65,
+          "M3": 0.25,
+          "M4": 0.25,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 5,
+        "unique_tiles": 66.85,
+        "unique_maps": 1.95,
+        "loop_fraction_median": 0.627,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.7,
+        "completed_interactions": 7.4,
+        "action_fraction": {
+          "NONE": 0.12646666666666667,
+          "UP": 0.13923333333333332,
+          "DOWN": 0.15496666666666667,
+          "LEFT": 0.1755,
+          "RIGHT": 0.1407,
+          "A": 0.11950000000000001,
+          "B": 0.14363333333333334
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 2237.7992733744027,
+        "median": 1326.9138708603195,
+        "p10": 910.5011204533937,
+        "worst": 95.69101620029454,
+        "best": 5739.285314685315,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.95,
+          "M3": 0.25,
+          "M4": 0.25,
+          "M5": 0.0,
+          "M6": 0.8,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 5,
+        "unique_tiles": 74.95,
+        "unique_maps": 2.2,
+        "loop_fraction_median": 0.4126666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.4,
+        "completed_interactions": 1.05,
+        "action_fraction": {
+          "NONE": 0.1337,
+          "UP": 0.15329999999999996,
+          "DOWN": 0.12183333333333335,
+          "LEFT": 0.23133333333333334,
+          "RIGHT": 0.20389999999999997,
+          "A": 0.054266666666666664,
+          "B": 0.10166666666666666
+        }
+      },
+      "no_vision_drop": 0.6018977884256884,
+      "shuffled_drop": 0.5575824425957617,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    },
+    {
+      "rank": 5,
+      "sha256": "9fd9795d01af51133ff26b349d186417e5611b452e722dafb4a8187fc1ad31df",
+      "training_mean_fitness": 2164.049626858238,
+      "normal": {
+        "n": 20,
+        "mean": 4752.802720467985,
+        "median": 5428.463280877444,
+        "p10": 1484.7278399117308,
+        "worst": 1326.5734439834025,
+        "best": 8517.753571428571,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.65,
+          "M4": 0.55,
+          "M5": 0.25,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 13,
+        "unique_tiles": 82.4,
+        "unique_maps": 2.9,
+        "loop_fraction_median": 0.31733333333333336,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.4,
+        "completed_interactions": 5.9,
+        "action_fraction": {
+          "NONE": 0.08906666666666668,
+          "UP": 0.22303333333333336,
+          "DOWN": 0.11286666666666664,
+          "LEFT": 0.1569333333333333,
+          "RIGHT": 0.1522666666666667,
+          "A": 0.048766666666666666,
+          "B": 0.21706666666666669
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2118.259672622907,
+        "median": 1326.7624859093185,
+        "p10": 906.7084834968778,
+        "worst": 685.7773195876289,
+        "best": 8419.686440677966,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.15,
+          "M4": 0.15,
+          "M5": 0.1,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 3,
+        "unique_tiles": 78.3,
+        "unique_maps": 2.25,
+        "loop_fraction_median": 0.5693333333333332,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.8,
+        "completed_interactions": 5.2,
+        "action_fraction": {
+          "NONE": 0.13626666666666665,
+          "UP": 0.16956666666666664,
+          "DOWN": 0.13856666666666667,
+          "LEFT": 0.14639999999999997,
+          "RIGHT": 0.15349999999999997,
+          "A": 0.1091,
+          "B": 0.1466
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 1206.7430340568815,
+        "median": 1242.9812674552197,
+        "p10": 910.013887117067,
+        "worst": 739.9630390143737,
+        "best": 1538.7678391959798,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.0,
+          "M4": 0.0,
+          "M5": 0.0,
+          "M6": 0.95,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 0,
+        "unique_tiles": 63.5,
+        "unique_maps": 2.0,
+        "loop_fraction_median": 0.43766666666666665,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.65,
+        "completed_interactions": 2.65,
+        "action_fraction": {
+          "NONE": 0.10926666666666666,
+          "UP": 0.1867,
+          "DOWN": 0.1419,
+          "LEFT": 0.1360333333333333,
+          "RIGHT": 0.1673,
+          "A": 0.0662,
+          "B": 0.1926
+        }
+      },
+      "no_vision_drop": 0.7555915150825403,
+      "shuffled_drop": 0.7710252048984465,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    },
+    {
+      "rank": 6,
+      "sha256": "5863ee08b60af1b427ae07c0bfae8285140b077a98167b9d8467314f1011962d",
+      "training_mean_fitness": 2153.107323645528,
+      "normal": {
+        "n": 20,
+        "mean": 2948.16243318734,
+        "median": 1551.1481660443665,
+        "p10": 1295.2599799196787,
+        "worst": 363.9741935483871,
+        "best": 5787.426103646833,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.95,
+          "M3": 0.4,
+          "M4": 0.25,
+          "M5": 0.0,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 8,
+        "unique_tiles": 62.95,
+        "unique_maps": 2.35,
+        "loop_fraction_median": 0.353,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.1,
+        "completed_interactions": 5.5,
+        "action_fraction": {
+          "NONE": 0.1092,
+          "UP": 0.2831,
+          "DOWN": 0.1302,
+          "LEFT": 0.1326,
+          "RIGHT": 0.10863333333333333,
+          "A": 0.0539,
+          "B": 0.18236666666666665
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 2947.7185540410655,
+        "median": 1445.3070078543478,
+        "p10": 836.5457954521595,
+        "worst": -280.76603773584907,
+        "best": 8237.848101265823,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.95,
+          "M3": 0.45,
+          "M4": 0.3,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 9,
+        "unique_tiles": 77.45,
+        "unique_maps": 2.45,
+        "loop_fraction_median": 0.601,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.75,
+        "completed_interactions": 6.4,
+        "action_fraction": {
+          "NONE": 0.14696666666666666,
+          "UP": 0.17253333333333334,
+          "DOWN": 0.1426,
+          "LEFT": 0.15326666666666666,
+          "RIGHT": 0.1347,
+          "A": 0.11199999999999999,
+          "B": 0.13793333333333335
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 1445.4941260079825,
+        "median": 1105.9052313883299,
+        "p10": 831.6018991059085,
+        "worst": 608.1098360655739,
+        "best": 4638.332558139535,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.1,
+          "M4": 0.0,
+          "M5": 0.0,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 2,
+        "unique_tiles": 61.95,
+        "unique_maps": 2.1,
+        "loop_fraction_median": 0.45166666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.8,
+        "completed_interactions": 2.5,
+        "action_fraction": {
+          "NONE": 0.13166666666666665,
+          "UP": 0.22866666666666666,
+          "DOWN": 0.1536333333333333,
+          "LEFT": 0.13086666666666666,
+          "RIGHT": 0.13273333333333334,
+          "A": 0.07023333333333333,
+          "B": 0.15219999999999997
+        }
+      },
+      "no_vision_drop": 0.06823407364102917,
+      "shuffled_drop": 0.2870408800414374,
+      "rejections": [
+        "no-vision median within 10% of normal"
+      ]
+    },
+    {
+      "rank": 7,
+      "sha256": "4897636a3fa8383578dda1f114fb3bfa9e7271a80d950ef71b0d897a67049f3f",
+      "training_mean_fitness": 2106.2006941888676,
+      "normal": {
+        "n": 20,
+        "mean": 3245.67882721287,
+        "median": 1543.2143393393394,
+        "p10": 362.11618947577153,
+        "worst": 356.8780821917808,
+        "best": 8537.837209302326,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.8,
+          "M3": 0.45,
+          "M4": 0.4,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 9,
+        "unique_tiles": 66.35,
+        "unique_maps": 2.3,
+        "loop_fraction_median": 0.395,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.1,
+        "completed_interactions": 5.6,
+        "action_fraction": {
+          "NONE": 0.09910000000000001,
+          "UP": 0.2037,
+          "DOWN": 0.14136666666666667,
+          "LEFT": 0.17146666666666663,
+          "RIGHT": 0.13473333333333334,
+          "A": 0.0658,
+          "B": 0.18383333333333335
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 3647.0714146474397,
+        "median": 4414.265708084645,
+        "p10": 977.3565659329271,
+        "worst": 815.7821138211382,
+        "best": 8514.234632034631,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.6,
+          "M4": 0.45,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 12,
+        "unique_tiles": 87.05,
+        "unique_maps": 2.7,
+        "loop_fraction_median": 0.6413333333333333,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.8,
+        "completed_interactions": 7.65,
+        "action_fraction": {
+          "NONE": 0.12463333333333333,
+          "UP": 0.16203333333333333,
+          "DOWN": 0.13793333333333335,
+          "LEFT": 0.1409333333333333,
+          "RIGHT": 0.13513333333333333,
+          "A": 0.12766666666666665,
+          "B": 0.1716666666666667
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 1654.250870029308,
+        "median": 1241.027890146595,
+        "p10": 880.7600120218035,
+        "worst": -467.3880341880342,
+        "best": 8333.282134570765,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.95,
+          "M3": 0.1,
+          "M4": 0.05,
+          "M5": 0.05,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 2,
+        "unique_tiles": 65.05,
+        "unique_maps": 2.1,
+        "loop_fraction_median": 0.4103333333333333,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.65,
+        "completed_interactions": 3.5,
+        "action_fraction": {
+          "NONE": 0.10106666666666667,
+          "UP": 0.19316666666666668,
+          "DOWN": 0.1322,
+          "LEFT": 0.17383333333333334,
+          "RIGHT": 0.14289999999999997,
+          "A": 0.06573333333333334,
+          "B": 0.1911
+        }
+      },
+      "no_vision_drop": -1.8604359067674436,
+      "shuffled_drop": 0.19581625279746465,
+      "rejections": []
+    },
+    {
+      "rank": 8,
+      "sha256": "d0c2f05edcc94a860c3074dc93db6ed293a4169939f4def33ee1ccf88aec1e15",
+      "training_mean_fitness": 3415.4150936948226,
+      "normal": {
+        "n": 20,
+        "mean": 3232.1319274448806,
+        "median": 1515.453042421788,
+        "p10": 391.5656737958616,
+        "worst": 370.1926940639269,
+        "best": 8350.510638297872,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 0.85,
+          "M3": 0.4,
+          "M4": 0.4,
+          "M5": 0.1,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 8,
+        "unique_tiles": 74.8,
+        "unique_maps": 2.35,
+        "loop_fraction_median": 0.3776666666666667,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.25,
+        "completed_interactions": 5.1,
+        "action_fraction": {
+          "NONE": 0.10173333333333334,
+          "UP": 0.19516666666666665,
+          "DOWN": 0.17579999999999998,
+          "LEFT": 0.17136666666666664,
+          "RIGHT": 0.14563333333333334,
+          "A": 0.054633333333333346,
+          "B": 0.15566666666666668
+        }
+      },
+      "no_vision": {
+        "n": 20,
+        "mean": 4863.846555184485,
+        "median": 5451.073219495048,
+        "p10": 1005.1059922805441,
+        "worst": 771.7882352941177,
+        "best": 8894.944547134935,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.65,
+          "M4": 0.55,
+          "M5": 0.35,
+          "M6": 1.0,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 13,
+        "unique_tiles": 95.0,
+        "unique_maps": 3.05,
+        "loop_fraction_median": 0.5923333333333334,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.85,
+        "completed_interactions": 6.6,
+        "action_fraction": {
+          "NONE": 0.12596666666666664,
+          "UP": 0.16796666666666665,
+          "DOWN": 0.16203333333333333,
+          "LEFT": 0.13933333333333336,
+          "RIGHT": 0.1345,
+          "A": 0.11303333333333332,
+          "B": 0.15716666666666668
+        }
+      },
+      "shuffled": {
+        "n": 20,
+        "mean": 2649.8045783985413,
+        "median": 1343.3473791012107,
+        "p10": 985.7798323092798,
+        "worst": 724.3201520912547,
+        "best": 5774.011382113821,
+        "milestone_rate": {
+          "M1": 1.0,
+          "M2": 1.0,
+          "M3": 0.35,
+          "M4": 0.3,
+          "M5": 0.0,
+          "M6": 0.8,
+          "M7": 0.0,
+          "M8": 0.0
+        },
+        "major_seeds": 7,
+        "unique_tiles": 76.9,
+        "unique_maps": 2.35,
+        "loop_fraction_median": 0.38966666666666666,
+        "idle_fraction": 0.0,
+        "lock_seed_fraction": 0.45,
+        "completed_interactions": 2.05,
+        "action_fraction": {
+          "NONE": 0.0993,
+          "UP": 0.19126666666666664,
+          "DOWN": 0.15243333333333334,
+          "LEFT": 0.1744333333333333,
+          "RIGHT": 0.15653333333333336,
+          "A": 0.05243333333333333,
+          "B": 0.1736
+        }
+      },
+      "no_vision_drop": -2.5969924945901948,
+      "shuffled_drop": 0.11356713702296037,
+      "rejections": [
+        "dialogue lock on > 20% of seeds"
+      ]
+    }
+  ],
+  "champion": {
+    "rank": 5,
+    "sha256": "9fd9795d01af51133ff26b349d186417e5611b452e722dafb4a8187fc1ad31df",
+    "normal": {
+      "n": 20,
+      "mean": 4752.802720467985,
+      "median": 5428.463280877444,
+      "p10": 1484.7278399117308,
+      "worst": 1326.5734439834025,
+      "best": 8517.753571428571,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 1.0,
+        "M3": 0.65,
+        "M4": 0.55,
+        "M5": 0.25,
+        "M6": 1.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 13,
+      "unique_tiles": 82.4,
+      "unique_maps": 2.9,
+      "loop_fraction_median": 0.31733333333333336,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.4,
+      "completed_interactions": 5.9,
+      "action_fraction": {
+        "NONE": 0.08906666666666668,
+        "UP": 0.22303333333333336,
+        "DOWN": 0.11286666666666664,
+        "LEFT": 0.1569333333333333,
+        "RIGHT": 0.1522666666666667,
+        "A": 0.048766666666666666,
+        "B": 0.21706666666666669
+      }
+    },
+    "no_vision": {
+      "n": 20,
+      "mean": 2118.259672622907,
+      "median": 1326.7624859093185,
+      "p10": 906.7084834968778,
+      "worst": 685.7773195876289,
+      "best": 8419.686440677966,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 1.0,
+        "M3": 0.15,
+        "M4": 0.15,
+        "M5": 0.1,
+        "M6": 1.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 3,
+      "unique_tiles": 78.3,
+      "unique_maps": 2.25,
+      "loop_fraction_median": 0.5693333333333332,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.8,
+      "completed_interactions": 5.2,
+      "action_fraction": {
+        "NONE": 0.13626666666666665,
+        "UP": 0.16956666666666664,
+        "DOWN": 0.13856666666666667,
+        "LEFT": 0.14639999999999997,
+        "RIGHT": 0.15349999999999997,
+        "A": 0.1091,
+        "B": 0.1466
+      }
+    },
+    "shuffled": {
+      "n": 20,
+      "mean": 1206.7430340568815,
+      "median": 1242.9812674552197,
+      "p10": 910.013887117067,
+      "worst": 739.9630390143737,
+      "best": 1538.7678391959798,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 1.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.95,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 0,
+      "unique_tiles": 63.5,
+      "unique_maps": 2.0,
+      "loop_fraction_median": 0.43766666666666665,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.65,
+      "completed_interactions": 2.65,
+      "action_fraction": {
+        "NONE": 0.10926666666666666,
+        "UP": 0.1867,
+        "DOWN": 0.1419,
+        "LEFT": 0.1360333333333333,
+        "RIGHT": 0.1673,
+        "A": 0.0662,
+        "B": 0.1926
+      }
+    },
+    "no_vision_drop": 0.7555915150825403,
+    "shuffled_drop": 0.7710252048984465,
+    "rejections": [
+      "dialogue lock on > 20% of seeds"
+    ]
+  },
+  "baselines": {
+    "gen0": {
+      "n": 20,
+      "mean": 11.75867448346494,
+      "median": -22.64623655913978,
+      "p10": -755.88,
+      "worst": -1102.2,
+      "best": 1100.1208053691275,
+      "milestone_rate": {
+        "M1": 0.7,
+        "M2": 0.2,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.2,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 0,
+      "unique_tiles": 11.85,
+      "unique_maps": 1.2,
+      "loop_fraction_median": 0.32933333333333337,
+      "idle_fraction": 0.38456666666666667,
+      "lock_seed_fraction": 0.2,
+      "completed_interactions": 0.0,
+      "action_fraction": {
+        "NONE": 0.8908000000000001,
+        "UP": 0.009366666666666667,
+        "DOWN": 0.0,
+        "LEFT": 0.07406666666666667,
+        "RIGHT": 0.024999999999999998,
+        "A": 0.0007666666666666666,
+        "B": 0.0
+      }
+    },
+    "random_matched": {
+      "n": 20,
+      "mean": 582.2692389510355,
+      "median": 905.3053318207601,
+      "p10": -169.89456521739132,
+      "worst": -508.73333333333335,
+      "best": 1038.1837837837838,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 0.7,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.15,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 0,
+      "unique_tiles": 21.9,
+      "unique_maps": 1.7,
+      "loop_fraction_median": 0.3953333333333333,
+      "idle_fraction": 0.49273333333333336,
+      "lock_seed_fraction": 0.15,
+      "completed_interactions": 0.0,
+      "action_fraction": {
+        "NONE": 0.9225333333333333,
+        "UP": 0.009733333333333333,
+        "DOWN": 0.0,
+        "LEFT": 0.03816666666666666,
+        "RIGHT": 0.028699999999999996,
+        "A": 0.0008666666666666666,
+        "B": 0.0
+      }
+    },
+    "random_uniform": {
+      "n": 20,
+      "mean": 2823.2530055216903,
+      "median": 1383.8474214923654,
+      "p10": 729.6868715819603,
+      "worst": -316.92258064516136,
+      "best": 8212.919463087248,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 0.9,
+        "M3": 0.45,
+        "M4": 0.3,
+        "M5": 0.05,
+        "M6": 1.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 9,
+      "unique_tiles": 78.5,
+      "unique_maps": 2.4,
+      "loop_fraction_median": 0.728,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.7,
+      "completed_interactions": 7.55,
+      "action_fraction": {
+        "NONE": 0.14216666666666666,
+        "UP": 0.14603333333333332,
+        "DOWN": 0.14640000000000003,
+        "LEFT": 0.13979999999999998,
+        "RIGHT": 0.13996666666666666,
+        "A": 0.145,
+        "B": 0.14063333333333333
+      }
+    },
+    "screen-best-dn": {
+      "n": 20,
+      "mean": 3717.961179742695,
+      "median": 1449.6795983849836,
+      "p10": 850.8213587145981,
+      "worst": 583.4,
+      "best": 8556.602135231316,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 1.0,
+        "M3": 0.45,
+        "M4": 0.45,
+        "M5": 0.25,
+        "M6": 1.0,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 9,
+      "unique_tiles": 88.7,
+      "unique_maps": 2.75,
+      "loop_fraction_median": 0.45433333333333337,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.8,
+      "completed_interactions": 2.4,
+      "action_fraction": {
+        "NONE": 0.13883333333333336,
+        "UP": 0.19136666666666666,
+        "DOWN": 0.1553,
+        "LEFT": 0.1349666666666667,
+        "RIGHT": 0.17516666666666666,
+        "A": 0.07276666666666667,
+        "B": 0.1316
+      }
+    },
+    "screen-best-t4dn": {
+      "n": 20,
+      "mean": 1340.6008911333963,
+      "median": 1325.782208994709,
+      "p10": 1229.1889083346837,
+      "worst": 1141.212030075188,
+      "best": 1530.1891891891892,
+      "milestone_rate": {
+        "M1": 1.0,
+        "M2": 1.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "M5": 0.0,
+        "M6": 0.95,
+        "M7": 0.0,
+        "M8": 0.0
+      },
+      "major_seeds": 0,
+      "unique_tiles": 36.1,
+      "unique_maps": 2.0,
+      "loop_fraction_median": 0.41766666666666663,
+      "idle_fraction": 0.0,
+      "lock_seed_fraction": 0.0,
+      "completed_interactions": 3.75,
+      "action_fraction": {
+        "NONE": 0.060366666666666666,
+        "UP": 0.1629,
+        "DOWN": 0.04066666666666667,
+        "LEFT": 0.03736666666666666,
+        "RIGHT": 0.058133333333333335,
+        "A": 0.09813333333333332,
+        "B": 0.5424333333333333
+      }
+    }
+  },
+  "comparisons": {
+    "vs_gen0": {
+      "mean_difference": 4741.044045984519,
+      "champion_better_seeds": 20,
+      "exact_sign_flip_p": 1.9073486328125e-06
+    },
+    "vs_random_matched": {
+      "mean_difference": 4170.533481516949,
+      "champion_better_seeds": 20,
+      "exact_sign_flip_p": 1.9073486328125e-06
+    },
+    "vs_random_uniform": {
+      "mean_difference": 1929.5497149462942,
+      "champion_better_seeds": 13,
+      "exact_sign_flip_p": 0.05971336364746094
+    },
+    "vs_no_vision": {
+      "mean_difference": 2634.543047845077,
+      "champion_better_seeds": 16,
+      "exact_sign_flip_p": 0.004459381103515625
+    },
+    "vs_shuffled": {
+      "mean_difference": 3546.059686411103,
+      "champion_better_seeds": 20,
+      "exact_sign_flip_p": 1.9073486328125e-06
+    }
+  },
+  "criteria": {
+    "S1": false,
+    "S2": true,
+    "S3": true,
+    "S4": true
+  },
+  "training": {
+    "screen_generation0_median": 632.8571858400244,
+    "main_last3_median": 1214.4912352374213,
+    "improves": true
+  },
+  "vision_dependent": true,
+  "readiness": "EVOLUTION WORKS, NOT STREAM-READY",
+  "heldout_wall_s": 2830.9738773460267,
+  "heldout_episodes": 580,
+  "selection_rule": "10th percentile, then median, then mean (normal vision)"
+}

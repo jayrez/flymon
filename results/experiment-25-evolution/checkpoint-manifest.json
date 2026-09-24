@@ -1,0 +1,437 @@
+{
+ "note": "all checkpoints kept locally; only the final checkpoint of each phase is committed (resume point)",
+ "checkpoints": [
+  {
+   "phase": "main",
+   "generation": 0,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-000.json.gz",
+   "sha256": "32f4257dccdc635fc3034afc7002b12fdbccead0c089ca6d8df75cd2ded08385",
+   "size": 163856,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 1,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-001.json.gz",
+   "sha256": "e3adb41a7e59cf5d9389a753f29aa775e2e48015c7e66c9caba6384c517df29d",
+   "size": 163622,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 2,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-002.json.gz",
+   "sha256": "cad516ff921272c2d049e188a7c3cb0a5c2c642f12142ee91c22ebf31cd1c089",
+   "size": 163785,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 3,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-003.json.gz",
+   "sha256": "16f812643640b21a8b7ccbd1e44d2fcbfedf274dd22a2aa1f454b27243883d93",
+   "size": 163873,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 4,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-004.json.gz",
+   "sha256": "1409b016b460ed0441d2f016c44fb907a327d02ce87de729a9697fe588df806d",
+   "size": 163755,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 5,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-005.json.gz",
+   "sha256": "4503f96a2bdf1dac5735e92a7c98af0d632e025ab7106090e2e097876cc7dbcf",
+   "size": 163762,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 6,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-006.json.gz",
+   "sha256": "cbceca506146a237cd1037a99be794d04a1b133bda805d333f6f4b2e171eae0a",
+   "size": 163824,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 7,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-007.json.gz",
+   "sha256": "f64f664abd14ea9eff52d22a40ec067a4a78efdb72dee4a921cdc48c25623e61",
+   "size": 163647,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 8,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-008.json.gz",
+   "sha256": "a790220ad7b5825abc3b6ae7f332f151d64fd0795eccd8301f1c85901d2648e3",
+   "size": 163610,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 9,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-009.json.gz",
+   "sha256": "a8d41174b7a0ccb8aaa5bfa5f2c19c995a78f6326887232fd971eb38de909a8c",
+   "size": 163574,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 10,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-010.json.gz",
+   "sha256": "5eb8147e15cc9c86945c11a461e6764319e48ad5e5d1996d387b5702a754b68f",
+   "size": 163702,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 11,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-011.json.gz",
+   "sha256": "3f3c81e5bddafd1d83705165f996fbd238ae54b126844a57bb75d83c5e872c5b",
+   "size": 163973,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 12,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-012.json.gz",
+   "sha256": "8cd6d323125303a695e8273e450c2837587fc0fbefc3be5467fbd3d661202360",
+   "size": 163942,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 13,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-013.json.gz",
+   "sha256": "0da365ad9d161f9fffad9901e445c7c3d18be1faa94c20ac0387191e53269f51",
+   "size": 163858,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 14,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-014.json.gz",
+   "sha256": "4ac7bbc3135a5848d88704e23ba3f541628ba9eeb9074bf1cca4aa2a3acec826",
+   "size": 163951,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 15,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-015.json.gz",
+   "sha256": "d97eabe996420af10a7f14cd3231271683119110be98a710a003e63cee6da2e8",
+   "size": 163949,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 16,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-016.json.gz",
+   "sha256": "d7b867c5d1f1d2d88735ededde6b96ef5e9532544a3d914257e9c6677e3c407d",
+   "size": 164120,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 17,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-017.json.gz",
+   "sha256": "d8dd0c36e0a17ee54abe7f7e7396a0e3ef3470570e27e59dd822c11ded7c2248",
+   "size": 164109,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 18,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-018.json.gz",
+   "sha256": "e8baa26054b202891b879c7290bd505249f89fc4b7ea509795a751f8b240d052",
+   "size": 163830,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 19,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-019.json.gz",
+   "sha256": "b1d59c06cca775d85ecc2801a7b98d8f792c1d8884b7d8bb8fe9993f1c0511bb",
+   "size": 163774,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 20,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-020.json.gz",
+   "sha256": "a8f51c04153ba86864454b42540c2f4fc023ed12c2f2b35e5c85779a8652e539",
+   "size": 163875,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 21,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-021.json.gz",
+   "sha256": "92b4162d891b8a7ee1e0eddfdd1381375715647d975bfce0aaf186aff0da3c3f",
+   "size": 164050,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 22,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-022.json.gz",
+   "sha256": "ac01c3870efc151af7b8cd9adce36bea5e9344fc36ea97cdefa605981b0fd159",
+   "size": 164134,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 23,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-023.json.gz",
+   "sha256": "298905959d1680e8907b454764019c543b3d69624a0e5de9a4b02ac333d6b101",
+   "size": 164378,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 24,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-024.json.gz",
+   "sha256": "1050a2e8d9d798c77f46a6cc45619be24ef7afa74014ab3ffd7ba375cc924d9a",
+   "size": 164316,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 25,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-025.json.gz",
+   "sha256": "dfae287129926f040131e2ccb00391b26b46dab48c923cf0866cc97db6b275a2",
+   "size": 164305,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 26,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-026.json.gz",
+   "sha256": "06f6daecd9c48b11e5ea4bf5c5ae2fa2622a08a6bac30e01ba8301e51be7f110",
+   "size": 164380,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 27,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-027.json.gz",
+   "sha256": "ac7c29be169f9b536a5a23a0fd9b5aea59b67319020d319e8a7cbe6a37070983",
+   "size": 164143,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 28,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-028.json.gz",
+   "sha256": "9ade02d9614f6924593278a49222fc218b563521cf25e0de565ebfb44dbabe91",
+   "size": 164306,
+   "committed": false
+  },
+  {
+   "phase": "main",
+   "generation": 29,
+   "file": "results/experiment-25-evolution/checkpoints/main/gen-029.json.gz",
+   "sha256": "67e8dc25e75852b3df67bf8a784990d7e0dd3ca25f28ee68854595c21f06a6a7",
+   "size": 164351,
+   "committed": true
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 0,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-000.json.gz",
+   "sha256": "9a268fbd490a5da3862bd0047ab2b5acf34ffb5e4cf8cb329f30e429e3fb338c",
+   "size": 92144,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 1,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-001.json.gz",
+   "sha256": "4ba28dc3e031b42b9a3112ac47ae6b8e1f54b803f3c3ef57e255eced92c02a92",
+   "size": 92308,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 2,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-002.json.gz",
+   "sha256": "f4e55f2009c21a83558a5867026f1fb1fc0000793895acc51f3350427f5b53a0",
+   "size": 92274,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 3,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-003.json.gz",
+   "sha256": "be80090a472f4c34fc3fbdb1f8c387e5d1ef3a25a5c00a934c2936e6e9ab3ac5",
+   "size": 92439,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 4,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-004.json.gz",
+   "sha256": "827353da97cec2a159c076b4bc09d80848dbe7ed3759ea30affffa4077d4112a",
+   "size": 92570,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 5,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-005.json.gz",
+   "sha256": "fc1033ac1d0b7580981798b9f0b54bb49c6d535f47c4ecefd101e2143240a931",
+   "size": 92352,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 6,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-006.json.gz",
+   "sha256": "a696032fb8b120daaa9ab3fb00a8c1f07823a4852873472635eb8c21c90397c3",
+   "size": 92487,
+   "committed": false
+  },
+  {
+   "phase": "screen-dn",
+   "generation": 7,
+   "file": "results/experiment-25-evolution/checkpoints/screen-dn/gen-007.json.gz",
+   "sha256": "b3c61051b9a3185e0785ae93949a914bb330e20df1b2b6413c2fb00a4499e68e",
+   "size": 92553,
+   "committed": true
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 0,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-000.json.gz",
+   "sha256": "3dae4234cafafab21995ae4d760e7040958e79c45e96aea2cfef169264f8947b",
+   "size": 123253,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 1,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-001.json.gz",
+   "sha256": "d44beae15f8ff5e319823cc670564a275b09a1ed91164f3a14843f48696261d5",
+   "size": 123516,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 2,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-002.json.gz",
+   "sha256": "99a7588382b890bbff773dd9e4e5c74c6ad514543eeeabd4ffc994338cdf05ae",
+   "size": 123454,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 3,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-003.json.gz",
+   "sha256": "d0fef5a95e280feceea2f626e6af4d78a419abd718a9b2d3a05eea472480a684",
+   "size": 123591,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 4,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-004.json.gz",
+   "sha256": "db98266ada9e7b29b1764dc569dc70dd1535de11c39e068cbe511b137cf596a5",
+   "size": 123653,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 5,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-005.json.gz",
+   "sha256": "ddf8861028004f6d1cd81cc70d9b399607cac71245657f20f8e5db3f99bf9124",
+   "size": 123750,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 6,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-006.json.gz",
+   "sha256": "167e2187de3df5658ee3781eedc783caa908467494a6a1b660019a955f9308fb",
+   "size": 123577,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4",
+   "generation": 7,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4/gen-007.json.gz",
+   "sha256": "90dde2f451c2c59674ff6819f06f7d5c1289567382ed037e20942a6fddc36320",
+   "size": 123704,
+   "committed": true
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 0,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-000.json.gz",
+   "sha256": "cd2c560efdd82b53ddadd02ecb91d7552bc3d5eaa11a10b1c2bd99580c303140",
+   "size": 179784,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 1,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-001.json.gz",
+   "sha256": "8cf16451af037f8727214205178437ba3ef10965caebf1b3cfc1641071fff1b6",
+   "size": 179963,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 2,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-002.json.gz",
+   "sha256": "7b5d596d3207d2c90e3fb3bd94d0dd4c03023d428f77c0c5e538fb8ce7960fb5",
+   "size": 180014,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 3,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-003.json.gz",
+   "sha256": "860ff56d134a3f583be6f45f50be924aa3ecfd22f6cd89de394ffe8aa7c97d9e",
+   "size": 180021,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 4,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-004.json.gz",
+   "sha256": "29425850ade67c8a2f34e475b59d73db810778f3a1d7c2da63c5cbe4f865b0a5",
+   "size": 179963,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 5,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-005.json.gz",
+   "sha256": "b04d56f2153f11f9b79aa9c74c030327ea7d468a2bc367feeca8500e6de78c7a",
+   "size": 179850,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 6,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-006.json.gz",
+   "sha256": "3135729c7ed307b31f0600db67350ebeb202a5dc94698db150871fa99e6a05e8",
+   "size": 179560,
+   "committed": false
+  },
+  {
+   "phase": "screen-t4dn",
+   "generation": 7,
+   "file": "results/experiment-25-evolution/checkpoints/screen-t4dn/gen-007.json.gz",
+   "sha256": "8c05bd806af417cf421a37ea635e82a06457611a92e1c113c2e194b4caf9530d",
+   "size": 179559,
+   "committed": true
+  }
+ ]
+}

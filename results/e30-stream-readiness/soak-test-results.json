@@ -1,0 +1,154 @@
+{
+ "plan": {
+  "duration_h": 6.0,
+  "mode": "real time (60 fps, 5 decisions/s), one continuous supervisor run",
+  "fault_injection": [
+   [
+    3600,
+    "kill (SIGKILL worker: simulated crash)"
+   ],
+   [
+    10800,
+    "stop (SIGSTOP worker: simulated hang)"
+   ]
+  ],
+  "pass_rule": "S3: supervisor runs the full duration unattended; every crash/hang recovered automatically (no human action); no unrecovered stall; >= 1 completed episode per hour; memory growth of the worker < 200 MB between the first and last hour",
+  "metrics": [
+   "uptime",
+   "crashes",
+   "restarts",
+   "watchdog interventions",
+   "episodes completed",
+   "episode duration",
+   "progress distribution",
+   "longest uninterrupted runtime",
+   "worker/supervisor RSS",
+   "GPU memory / utilisation",
+   "worker CPU",
+   "decisions/s",
+   "speed ratio"
+  ]
+ },
+ "uptime_s": 21600.23557639122,
+ "uptime_h": 6.00006543788645,
+ "episodes_started": 37,
+ "episodes_completed": 33,
+ "completed_per_hour": [
+  5,
+  5,
+  6,
+  5,
+  6,
+  6,
+  0
+ ],
+ "mean_episode_s": 600.0082424264965,
+ "episode_end_reasons": {
+  "budget": 33,
+  "shutdown": 1,
+  "watchdog_abort_stuck_state": 1,
+  "watchdog_restart_crash": 1,
+  "watchdog_restart_hang": 1
+ },
+ "crashes": 1,
+ "restarts": 2,
+ "watchdog_interventions": 3,
+ "watchdog_events": [
+  {
+   "t_s": 3600.691457271576,
+   "kind": "watchdog_restart_crash",
+   "detail": {
+    "exitcode": -9
+   }
+  },
+  {
+   "t_s": 10860.239035606384,
+   "kind": "watchdog_restart_hang",
+   "detail": {
+    "pid": 1414499,
+    "silent_s": 60.15513062477112
+   }
+  },
+  {
+   "t_s": 13696.716895103455,
+   "kind": "watchdog_abort_stuck_state",
+   "detail": {
+    "episode": 23,
+    "seed": 40023,
+    "decision": 2101
+   }
+  }
+ ],
+ "faults_injected": [
+  {
+   "t_s": 3600.169093608856,
+   "kind": "kill",
+   "at_s": 3600.0,
+   "pid": 1258450
+  },
+  {
+   "t_s": 10800.084189414978,
+   "kind": "stop",
+   "at_s": 10800.0,
+   "pid": 1414499
+  }
+ ],
+ "all_faults_recovered": true,
+ "unplanned_crashes_or_hangs": 0,
+ "longest_uninterrupted_s": 10739.996540784836,
+ "progress_distribution": {
+  "bedroom": 0,
+  "bedroom_exited": 10,
+  "house_exited": 5,
+  "pallet_explored": 2,
+  "oak_lab": 16,
+  "route1": 0,
+  "battle": 0
+ },
+ "progress_fraction": {
+  "bedroom": 0.0,
+  "bedroom_exited": 0.30303030303030304,
+  "house_exited": 0.15151515151515152,
+  "pallet_explored": 0.06060606060606061,
+  "oak_lab": 0.48484848484848486,
+  "route1": 0.0,
+  "battle": 0.0
+ },
+ "reached_at_least": {
+  "bedroom": 1.0,
+  "bedroom_exited": 1.0,
+  "house_exited": 0.696969696969697,
+  "pallet_explored": 0.5454545454545454,
+  "oak_lab": 0.48484848484848486,
+  "route1": 0.0,
+  "battle": 0.0
+ },
+ "fitness_median": 5871.2,
+ "worker_rss_mb": {
+  "first_hour_median": 413.7109375,
+  "last_hour_median": 414.1015625,
+  "max": 414.1015625
+ },
+ "supervisor_rss_mb_max": 40.7109375,
+ "worker_cpu_pct_median": 15.133250588763515,
+ "gpu": {
+  "util_pct_max": 35.0,
+  "mem_used_mb_max": 775.0
+ },
+ "decisions_per_second": {
+  "median": 4.999990869668821,
+  "p5": 4.999877217446948,
+  "min": 4.991755393626845
+ },
+ "speed_ratio_median": 0.9999981739337642,
+ "samples": 719,
+ "worker_rss_growth_mb": 0.390625,
+ "gate_S3": {
+  "full_duration": true,
+  "all_faults_recovered": true,
+  "no_unplanned_failures": true,
+  "completed_episode_every_hour": true,
+  "memory_growth_below_200mb": true,
+  "pass": true
+ }
+}

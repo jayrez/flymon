@@ -1,0 +1,29 @@
+{
+ "title": "Fly Brain Plays Pok\u00e9mon",
+ "one_liner": "Pok\u00e9mon frames are converted into activity in a frozen fly-derived visual pathway; an externally evolved controller reads that activity and presses buttons.",
+ "vision": "Frozen connectome-derived T4 motion-vision model (E23 native candidate: MaleCNS v1.0 Mi1/Mi4/Tm -> T4 weights, E5 retina sampling); sensory SHA-256 87829806e398f66b...",
+ "brain_simulation": "In the live loop: the frozen T4 optic-lobe model only. The whole-brain MaleCNS/FlyBrain spiking simulation is NOT run by this controller (the evolved T4-only architecture does not use it).",
+ "controller": "Externally evolved linear softmax decoder (253 parameters) reading 14 pooled T4 features, their changes and the controller's own previous action",
+ "training": "Evolutionary search outside the fly model (E25: 38 generations, population 24-32), finished before the stream",
+ "within_run_learning": "None. The controller and the visual model are frozen; nothing is trained while live.",
+ "ram": "Evaluation / overlay / watchdog only. Never a controller input (tested).",
+ "biological_learning_research": "E26-E29 tried dopamine-gated mushroom-body learning; stopped after held-out Kenyon-cell visual coding failed (E29: NO BROADER CIRCUIT).",
+ "allowed_claims": [
+  "A simulated fly visual system is controlling Pok\u00e9mon through an evolved neural readout.",
+  "Pok\u00e9mon frames are converted into activity in a fly-derived visual pathway; an evolved controller reads that activity and presses buttons."
+ ],
+ "disallowed_claims": [
+  "The fly learned Pok\u00e9mon.",
+  "The connectome evolved / discovered the controller.",
+  "The brain trained itself.",
+  "Dopamine is teaching the live agent.",
+  "E25 is biological learning."
+ ],
+ "known_limitations": [
+  "E25 champion is not conventionally better than uniform-random button presses on aggregate fitness (E25 p = 0.06)",
+  "never reached Route 1 or a battle in evaluation",
+  "loops on Oak's Lab starter / exit dialogues"
+ ],
+ "controller_sha256": "9fd9795d01af51133ff26b349d186417e5611b452e722dafb4a8187fc1ad31df",
+ "start_state_sha256": "305212ea2a9e15b4dac7cc6ed5c1873ff7436f82e488bd8b0e0d59492b0dca95"
+}
